@@ -115,6 +115,27 @@ When using `-c/--claim`:
 - [API Reference](docs/API.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
 
+## About the Author
+
+**Dr. Soohyung (SHawn) Lee** — Biomedical Researcher & Developer
+
+Dr. SHawn is a researcher specializing in organoid technology, endometrial biology, and computational bio-research workflows. As the founder of **SHawn Lab**, he develops intelligent research tools that bridge the gap between vast scientific literature and actionable insights.
+
+**Research Focus:**
+- Endometrial organoid models
+- Reproductive biology and regenerative medicine
+- Evidence-based literature mining
+- AI-assisted research workflows
+
+**SHawn Lab Ecosystem:**
+- 🔬 **SHawn-BIO**: Biomedical research intelligence platform
+- 🌐 **SHawn-WEB**: Digital lab and knowledge management
+- 🤖 **SHawn-BOT**: Automated research assistant
+- 📚 **shawn-bio-search**: Multi-source literature search (this project)
+
+> "Literature should be diagnosed, not just searched."
+> — Dr. SHawn
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file.
