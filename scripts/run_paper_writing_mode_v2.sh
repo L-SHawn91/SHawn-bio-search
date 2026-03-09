@@ -1,31 +1,65 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -lt 5 ]]; then
+usage() {
   cat <<'USAGE'
 Usage:
-  run_paper_writing_mode_v2.sh <query> <claim> <hypothesis> <out_prefix> <zotero_root> [--fast] [--with-kaggle] [--with-cellcog]
+  run_paper_writing_mode_v2.sh <query> <claim> <hypothesis> <out_prefix> [--zotero-root <path>] [--fast] [--with-kaggle] [--with-cellcog]
 
-Notes:
-- --with-kaggle: append Kaggle dataset search snapshot to dataset report
-- --with-cellcog: call CELLCG_URL/CELLCOG_URL endpoint if provided (best-effort)
+Options:
+  --zotero-root <path>  local Zotero PDF repository root (or set ZOTERO_ROOT env)
+  --fast                fast mode
+  --with-kaggle         append Kaggle dataset snapshot
+  --with-cellcog        best-effort probe for CELLCOG_URL/CELLCG_URL endpoint
 USAGE
+}
+
+if [[ $# -lt 4 ]]; then
+  usage
   exit 1
 fi
 
-QUERY="$1"; CLAIM="$2"; HYP="$3"; OUT_PREFIX="$4"; ZOTERO_ROOT="$5"
-shift 5
+QUERY="$1"; CLAIM="$2"; HYP="$3"; OUT_PREFIX="$4"
+shift 4
+
 FAST=false
 WITH_KAGGLE=false
 WITH_CELLCOG=false
-for a in "$@"; do
-  [[ "$a" == "--fast" ]] && FAST=true
-  [[ "$a" == "--with-kaggle" ]] && WITH_KAGGLE=true
-  [[ "$a" == "--with-cellcog" ]] && WITH_CELLCOG=true
+ZOTERO_ROOT="${ZOTERO_ROOT:-}"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --fast)
+      FAST=true
+      shift
+      ;;
+    --with-kaggle)
+      WITH_KAGGLE=true
+      shift
+      ;;
+    --with-cellcog)
+      WITH_CELLCOG=true
+      shift
+      ;;
+    --zotero-root)
+      ZOTERO_ROOT="${2:-}"
+      shift 2
+      ;;
+    *)
+      echo "Unknown option: $1"
+      usage
+      exit 1
+      ;;
+  esac
 done
 
+if [[ -z "$ZOTERO_ROOT" ]]; then
+  echo "ERROR: Zotero root not set. Use --zotero-root or ZOTERO_ROOT env."
+  exit 2
+fi
+
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-BASE_CMD=("$SCRIPT_DIR/run_paper_writing_mode.sh" "$QUERY" "$CLAIM" "$HYP" "$OUT_PREFIX" "$ZOTERO_ROOT")
+BASE_CMD=("$SCRIPT_DIR/run_paper_writing_mode.sh" "$QUERY" "$CLAIM" "$HYP" "$OUT_PREFIX" "--zotero-root" "$ZOTERO_ROOT")
 $FAST && BASE_CMD+=(--fast)
 "${BASE_CMD[@]}"
 
@@ -70,7 +104,7 @@ if $WITH_CELLCOG; then
     if [[ -n "$CELLC_URL" ]]; then
       echo "- endpoint: $CELLC_URL"
       python3 - <<PY
-import os, json, urllib.request
+import os, urllib.request
 url=os.environ.get('CELLCOG_URL') or os.environ.get('CELLCG_URL')
 key=os.environ.get('CELLCOG_API_KEY') or ''
 if not url:

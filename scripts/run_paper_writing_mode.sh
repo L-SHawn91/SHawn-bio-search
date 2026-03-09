@@ -1,10 +1,20 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -lt 5 ]]; then
+usage() {
   cat <<'USAGE'
 Usage:
-  run_paper_writing_mode.sh <query> <claim> <hypothesis> <out_prefix> <zotero_root> [--fast]
+  run_paper_writing_mode.sh <query> <claim> <hypothesis> <out_prefix> [--zotero-root <path>] [--fast]
+
+Inputs:
+  <query>       paper search query
+  <claim>       sentence-level claim to verify
+  <hypothesis>  hypothesis to refine
+  <out_prefix>  output prefix path (e.g., ./outputs/run1)
+
+Options:
+  --zotero-root <path>  local Zotero PDF repository root (or set ZOTERO_ROOT env)
+  --fast                fast mode (pubmed/europe_pmc/openalex 중심)
 
 Example:
   ./scripts/run_paper_writing_mode.sh \
@@ -12,20 +22,47 @@ Example:
     "Adenomyosis is associated with poorer IVF outcomes." \
     "Pregnancy endpoints should be secondary in early-phase uterine fibrosis trials." \
     "./outputs/adeno_mode" \
-    "/path/to/Zotero/papers" \
+    --zotero-root "/path/to/Zotero/papers" \
     --fast
 USAGE
+}
+
+if [[ $# -lt 4 ]]; then
+  usage
   exit 1
 fi
 
-QUERY="$1"
-CLAIM="$2"
-HYP="$3"
-OUT_PREFIX="$4"
-ZOTERO_ROOT="$5"
-FAST_FLAG="${6:-}"
+QUERY="$1"; CLAIM="$2"; HYP="$3"; OUT_PREFIX="$4"
+shift 4
+
+FAST=false
+ZOTERO_ROOT="${ZOTERO_ROOT:-}"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --fast)
+      FAST=true
+      shift
+      ;;
+    --zotero-root)
+      ZOTERO_ROOT="${2:-}"
+      shift 2
+      ;;
+    *)
+      echo "Unknown option: $1"
+      usage
+      exit 1
+      ;;
+  esac
+done
+
+if [[ -z "$ZOTERO_ROOT" ]]; then
+  echo "ERROR: Zotero root not set. Use --zotero-root or ZOTERO_ROOT env."
+  exit 2
+fi
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+mkdir -p "$(dirname "$OUT_PREFIX")"
 BUNDLE="${OUT_PREFIX}_bundle.json"
 REVIEW_MD="${OUT_PREFIX}_review.md"
 EVID_MD="${OUT_PREFIX}_evidence.md"
@@ -40,9 +77,7 @@ SEARCH_ARGS=(
   --out "$BUNDLE"
 )
 
-if [[ "$FAST_FLAG" == "--fast" ]]; then
-  SEARCH_ARGS+=(--fast)
-fi
+$FAST && SEARCH_ARGS+=(--fast)
 
 python3 "$SCRIPT_DIR/search_bundle.py" "${SEARCH_ARGS[@]}"
 
@@ -64,7 +99,6 @@ python3 "$SCRIPT_DIR/build_claim_evidence.py" \
   --out "$EVID_MD" \
   --top 10
 
-# Check DOI presence against local Zotero repository by filename/doi text heuristic
 python3 - "$BUNDLE" "$ZOTERO_ROOT" "$MISSING_MD" <<'PY'
 import json, re, sys
 from pathlib import Path

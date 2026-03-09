@@ -119,7 +119,7 @@ One-command pipeline for manuscript-ready evidence package:
   "Adenomyosis is associated with poorer IVF outcomes." \
   "Pregnancy endpoints should be secondary in early-phase uterine fibrosis trials." \
   "./outputs/adeno_v2" \
-  "/path/to/Zotero/papers" \
+  --zotero-root "/path/to/Zotero/papers" \
   --fast --with-kaggle --with-cellcog
 ```
 
@@ -130,6 +130,31 @@ Outputs include:
 - citations (md/csv/bib)
 - missing-in-zotero checklist
 - datasets+ (optional Kaggle/Cellcog snapshot)
+
+## First-time installation workflow
+
+```bash
+git clone https://github.com/L-SHawn91/shawn-bio-search.git
+cd shawn-bio-search
+pip install -e .
+cp .env.example .env
+# edit .env: set at least ZOTERO_ROOT, optional API keys
+set -a && source .env && set +a
+
+# optional: Kaggle CLI credential bootstrap
+mkdir -p ~/.kaggle
+printf '{"username":"%s","key":"%s"}\n' "$KAGGLE_USERNAME" "$KAGGLE_KEY" > ~/.kaggle/kaggle.json
+chmod 600 ~/.kaggle/kaggle.json
+
+# smoke test (paper mode)
+./scripts/run_paper_writing_mode_v2.sh \
+  "adenomyosis ivf meta-analysis" \
+  "Adenomyosis is associated with poorer IVF outcomes." \
+  "Pregnancy endpoints should be secondary in early-phase uterine fibrosis trials." \
+  "./outputs/smoke" \
+  --zotero-root "$ZOTERO_ROOT" \
+  --fast --with-kaggle
+```
 
 ## Documentation
 
