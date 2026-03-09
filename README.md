@@ -120,7 +120,7 @@ One-command pipeline for manuscript-ready evidence package:
   "Pregnancy endpoints should be secondary in early-phase uterine fibrosis trials." \
   "./outputs/adeno_v2" \
   --zotero-root "/path/to/Zotero/papers" \
-  --fast --with-kaggle --with-cellcog
+  --fast --with-kaggle --with-cellcog --with-unpaywall --with-orcid
 ```
 
 Outputs include:
@@ -130,6 +130,7 @@ Outputs include:
 - citations (md/csv/bib)
 - missing-in-zotero checklist
 - datasets+ (optional Kaggle/Cellcog snapshot)
+- bundle_enriched.json (optional ORCID/Unpaywall enrichment: oa_status, oa_pdf_url, orcid_matches)
 
 ## First-time installation workflow
 

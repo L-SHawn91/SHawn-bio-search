@@ -4,13 +4,15 @@ set -euo pipefail
 usage() {
   cat <<'USAGE'
 Usage:
-  run_paper_writing_mode_v2.sh <query> <claim> <hypothesis> <out_prefix> [--zotero-root <path>] [--fast] [--with-kaggle] [--with-cellcog]
+  run_paper_writing_mode_v2.sh <query> <claim> <hypothesis> <out_prefix> [--zotero-root <path>] [--fast] [--with-kaggle] [--with-cellcog] [--with-unpaywall] [--with-orcid]
 
 Options:
   --zotero-root <path>  local Zotero PDF repository root (or set ZOTERO_ROOT env)
   --fast                fast mode
   --with-kaggle         append Kaggle dataset snapshot
   --with-cellcog        best-effort probe for CELLCOG_URL/CELLCG_URL endpoint
+  --with-unpaywall      enrich papers with oa_status/oa_pdf_url via Unpaywall (UNPAYWALL_EMAIL 필요)
+  --with-orcid          enrich papers with ORCID author matches (ORCID_PREFERRED_ID 권장)
 USAGE
 }
 
@@ -25,6 +27,8 @@ shift 4
 FAST=false
 WITH_KAGGLE=false
 WITH_CELLCOG=false
+WITH_UNPAYWALL=false
+WITH_ORCID=false
 ZOTERO_ROOT="${ZOTERO_ROOT:-}"
 
 while [[ $# -gt 0 ]]; do
@@ -39,6 +43,14 @@ while [[ $# -gt 0 ]]; do
       ;;
     --with-cellcog)
       WITH_CELLCOG=true
+      shift
+      ;;
+    --with-unpaywall)
+      WITH_UNPAYWALL=true
+      shift
+      ;;
+    --with-orcid)
+      WITH_ORCID=true
       shift
       ;;
     --zotero-root)
@@ -65,6 +77,15 @@ $FAST && BASE_CMD+=(--fast)
 
 DATASET_MD="${OUT_PREFIX}_datasets_plus.md"
 BUNDLE="${OUT_PREFIX}_bundle.json"
+ENRICHED_BUNDLE="${OUT_PREFIX}_bundle_enriched.json"
+
+if $WITH_UNPAYWALL || $WITH_ORCID; then
+  E_ARGS=(--bundle "$BUNDLE" --out "$ENRICHED_BUNDLE")
+  $WITH_UNPAYWALL && E_ARGS+=(--with-unpaywall)
+  $WITH_ORCID && E_ARGS+=(--with-orcid)
+  python3 "$SCRIPT_DIR/enrich_oa_orcid.py" "${E_ARGS[@]}"
+  BUNDLE="$ENRICHED_BUNDLE"
+fi
 
 python3 - "$BUNDLE" "$DATASET_MD" <<'PY'
 import json,sys
@@ -125,3 +146,6 @@ PY
 fi
 
 echo "saved: $DATASET_MD"
+if [[ -f "$ENRICHED_BUNDLE" ]]; then
+  echo "saved: $ENRICHED_BUNDLE"
+fi
