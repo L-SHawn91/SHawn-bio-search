@@ -109,6 +109,28 @@ When using `-c/--claim`:
 [europe_pmc] Evidence: 0.78 | Gjorevski N et al. (2016). Designer matrices...
 ```
 
+## Paper Writing Mode (v2)
+
+One-command pipeline for manuscript-ready evidence package:
+
+```bash
+./scripts/run_paper_writing_mode_v2.sh \
+  "adenomyosis ivf meta-analysis" \
+  "Adenomyosis is associated with poorer IVF outcomes." \
+  "Pregnancy endpoints should be secondary in early-phase uterine fibrosis trials." \
+  "./outputs/adeno_v2" \
+  "/home/mdge/Clouds/onedrive/Papers/Zotero/papers" \
+  --fast --with-kaggle --with-cellcog
+```
+
+Outputs include:
+- bundle JSON
+- review list markdown
+- claim evidence report (support/contradict/uncertain + gaps)
+- citations (md/csv/bib)
+- missing-in-zotero checklist
+- datasets+ (optional Kaggle/Cellcog snapshot)
+
 ## Documentation
 
 - [Supported Sources](docs/SOURCES.md)
