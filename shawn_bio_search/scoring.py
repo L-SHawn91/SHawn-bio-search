@@ -10,6 +10,19 @@ _NEG_TERMS = {
     "inhibit", "inhibited", "inhibits",
 }
 
+_SOURCE_WEIGHTS = {
+    "pubmed": 1.0,
+    "europe_pmc": 0.96,
+    "openalex": 0.95,
+    "semantic_scholar": 0.98,
+    "crossref": 0.9,
+    "scopus": 0.97,
+    "google_scholar": 0.82,
+    "clinicaltrials": 0.9,
+    "biorxiv": 0.84,
+    "medrxiv": 0.84,
+}
+
 
 def _tokenize(text: str) -> Set[str]:
     return set(re.findall(r"[a-zA-Z0-9]{3,}", (text or "").lower()))
@@ -90,28 +103,37 @@ def _sentence_analysis(claim: str, hypothesis: str, text: str) -> Dict[str, Any]
 def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str, Any]:
     """Score a paper for claim/hypothesis relevance."""
     text = f"{paper.get('title', '')} {paper.get('abstract', '')}".strip()
-    
+
     claim_overlap = _overlap_ratio(claim, text) if claim else 0.0
     hypothesis_overlap = _overlap_ratio(hypothesis, text) if hypothesis else 0.0
-    
+
     citations = paper.get("citations") or 0
     if isinstance(citations, str) and citations.isdigit():
         citations = int(citations)
     if not isinstance(citations, int):
         citations = 0
-    
+
+    source = (paper.get("source") or "").strip().lower()
+    source_weight = _SOURCE_WEIGHTS.get(source, 0.88)
+    has_doi = bool((paper.get("doi") or "").strip())
+    has_abstract = bool((paper.get("abstract") or "").strip())
+    metadata_bonus = 0.03 * float(has_doi) + 0.04 * float(has_abstract)
+
     cite_component = min(citations, 500) / 500.0
-    stage1 = round(0.55 * claim_overlap + 0.25 * hypothesis_overlap + 0.20 * cite_component, 4)
-    
+    stage1_raw = 0.50 * claim_overlap + 0.20 * hypothesis_overlap + 0.20 * cite_component + 0.10 * source_weight + metadata_bonus
+    stage1 = round(min(stage1_raw, 1.0), 4)
+
     s2 = _sentence_analysis(claim, hypothesis, paper.get("abstract") or "")
-    
-    if claim and (paper.get("abstract") or "").strip():
-        evidence_score = round(0.45 * stage1 + 0.55 * s2["stage2_score"], 4)
+
+    if claim and has_abstract:
+        evidence_score = round(min(0.40 * stage1 + 0.60 * s2["stage2_score"], 1.0), 4)
     else:
         evidence_score = stage1
     
     paper["claim_overlap"] = round(claim_overlap, 4)
     paper["hypothesis_overlap"] = round(hypothesis_overlap, 4)
+    paper["source_weight"] = round(source_weight, 4)
+    paper["metadata_bonus"] = round(metadata_bonus, 4)
     paper["stage1_score"] = stage1
     paper["stage2_score"] = s2["stage2_score"]
     paper["support_score"] = s2["support_score"]

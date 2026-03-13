@@ -135,17 +135,38 @@ def _score(p: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str, Any]:
     if not isinstance(citations, int):
         citations = 0
 
+    source = (p.get("source") or "").strip().lower()
+    source_weight_map = {
+        "pubmed": 1.0,
+        "europe_pmc": 0.96,
+        "openalex": 0.95,
+        "semantic_scholar": 0.98,
+        "crossref": 0.9,
+        "scopus": 0.97,
+        "google_scholar": 0.82,
+        "clinicaltrials": 0.9,
+        "biorxiv": 0.84,
+        "medrxiv": 0.84,
+    }
+    source_weight = source_weight_map.get(source, 0.88)
+    has_doi = bool((p.get("doi") or "").strip())
+    has_abstract = bool((p.get("abstract") or "").strip())
+    metadata_bonus = 0.03 * float(has_doi) + 0.04 * float(has_abstract)
+
     cite_component = min(citations, 500) / 500.0
-    stage1 = round(0.55 * claim_overlap + 0.25 * hypothesis_overlap + 0.20 * cite_component, 4)
+    stage1_raw = 0.50 * claim_overlap + 0.20 * hypothesis_overlap + 0.20 * cite_component + 0.10 * source_weight + metadata_bonus
+    stage1 = round(min(stage1_raw, 1.0), 4)
     s2 = _sentence_stage2(claim, hypothesis, p.get("abstract") or "")
     # 2-stage blend: stage2 gets higher weight when claim exists and abstract is present.
-    if claim and (p.get("abstract") or "").strip():
-        evidence_score = round(0.45 * stage1 + 0.55 * s2["stage2_score"], 4)
+    if claim and has_abstract:
+        evidence_score = round(min(0.40 * stage1 + 0.60 * s2["stage2_score"], 1.0), 4)
     else:
         evidence_score = stage1
 
     p["claim_overlap"] = round(claim_overlap, 4)
     p["hypothesis_overlap"] = round(hypothesis_overlap, 4)
+    p["source_weight"] = round(source_weight, 4)
+    p["metadata_bonus"] = round(metadata_bonus, 4)
     p["stage1_score"] = stage1
     p["stage2_score"] = s2["stage2_score"]
     p["support_score"] = s2["support_score"]
@@ -372,6 +393,11 @@ def fetch_openalex(query: str, limit: int) -> List[Dict[str, Any]]:
             }
         )
     return out
+
+
+def fetch_semanticscholar(query: str, limit: int) -> List[Dict[str, Any]]:
+    from shawn_bio_search.sources.semanticscholar import fetch_semanticscholar as _fetch
+    return _fetch(query, limit)
 
 
 def fetch_biorxiv(query: str, limit: int) -> List[Dict[str, Any]]:

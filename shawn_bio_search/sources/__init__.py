@@ -9,6 +9,7 @@ from .biorxiv import fetch_biorxiv
 from .medrxiv import fetch_medrxiv
 from .scopus import fetch_scopus
 from .google_scholar import fetch_google_scholar
+from .semanticscholar import fetch_semanticscholar
 
 ALL_SOURCES = [
     "pubmed",
@@ -18,6 +19,7 @@ ALL_SOURCES = [
     "clinicaltrials",
     "biorxiv",
     "medrxiv",
+    "semantic_scholar",
     "scopus",
     "google_scholar",
 ]
@@ -30,6 +32,7 @@ __all__ = [
     "fetch_clinicaltrials",
     "fetch_biorxiv",
     "fetch_medrxiv",
+    "fetch_semanticscholar",
     "fetch_scopus",
     "fetch_google_scholar",
     "ALL_SOURCES",

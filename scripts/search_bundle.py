@@ -17,12 +17,14 @@ def _pick_sources(args: argparse.Namespace) -> List[Tuple[str, bool, Any]]:
         # Fast mode: prioritize high-signal biomedical sources and avoid costly keys.
         return [
             ("pubmed", args.no_pubmed, gp.fetch_pubmed),
+            ("semantic_scholar", args.no_semantic_scholar, gp.fetch_semanticscholar),
             ("europe_pmc", args.no_europepmc, gp.fetch_europe_pmc),
             ("openalex", args.no_openalex, gp.fetch_openalex),
         ]
 
     return [
         ("pubmed", args.no_pubmed, gp.fetch_pubmed),
+        ("semantic_scholar", args.no_semantic_scholar, gp.fetch_semanticscholar),
         ("scopus", args.no_scopus, gp.fetch_scopus),
         ("google_scholar", args.no_scholar, gp.fetch_scholar_serpapi),
         ("europe_pmc", args.no_europepmc, gp.fetch_europe_pmc),
@@ -42,6 +44,8 @@ def run_papers(args: argparse.Namespace) -> Dict[str, Any]:
             continue
         try:
             got = fn(args.query, args.max_papers_per_source)
+            if name == "semantic_scholar" and not got and not (os.getenv("SEMANTIC_SCHOLAR_API_KEY") or os.getenv("S2_API_KEY")):
+                warnings.append("semantic_scholar skipped: API key not set")
             if name == "scopus" and not got and not os.getenv("SCOPUS_API_KEY"):
                 warnings.append("scopus skipped: SCOPUS_API_KEY not set")
             if name == "google_scholar" and not got and not os.getenv("SERPAPI_API_KEY"):
@@ -126,6 +130,7 @@ def main() -> int:
     parser.add_argument("--max-datasets-per-source", type=int, default=15)
 
     parser.add_argument("--no-pubmed", action="store_true")
+    parser.add_argument("--no-semantic-scholar", action="store_true")
     parser.add_argument("--no-scopus", action="store_true")
     parser.add_argument("--no-scholar", action="store_true")
     parser.add_argument("--no-europepmc", action="store_true")

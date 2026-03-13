@@ -41,12 +41,13 @@ def blended_score(p: Dict[str, Any]) -> float:
     ev = float(p.get("evidence_score") or 0)
     cites = int(p.get("citations") or 0)
     year = int(p.get("year") or 0)
+    source_weight = float(p.get("source_weight") or 0.88)
     current = datetime.now().year
     recency = 0.0
     if 1900 <= year <= current:
         recency = max(0.0, 1.0 - ((current - year) / 20.0))
     cite_component = min(math.log10(cites + 1) / 3.0, 1.0)
-    return round(0.6 * ev + 0.3 * cite_component + 0.1 * recency, 4)
+    return round(0.55 * ev + 0.25 * cite_component + 0.10 * recency + 0.10 * source_weight, 4)
 
 
 def format_citation(p: Dict[str, Any]) -> str:

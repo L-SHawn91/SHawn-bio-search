@@ -11,6 +11,7 @@ from .sources.crossref import fetch_crossref
 from .sources.clinicaltrials import fetch_clinicaltrials
 from .sources.biorxiv import fetch_biorxiv
 from .sources.medrxiv import fetch_medrxiv
+from .sources.semanticscholar import fetch_semanticscholar
 
 # Optional sources (require API keys)
 from .sources.scopus import fetch_scopus
@@ -73,6 +74,7 @@ def search_papers(
         "clinicaltrials": fetch_clinicaltrials,
         "biorxiv": fetch_biorxiv,
         "medrxiv": fetch_medrxiv,
+        "semantic_scholar": fetch_semanticscholar,
         "scopus": fetch_scopus,
         "google_scholar": fetch_google_scholar,
     }
@@ -91,10 +93,14 @@ def search_papers(
         fetch_func = all_sources[source_name]
         try:
             results = fetch_func(query, max_results)
-            if not results and source_name in ["scopus", "google_scholar"]:
-                api_key_var = f"{source_name.upper()}_API_KEY"
-                if not os.getenv(api_key_var) and not os.getenv(f"{source_name.upper().replace('_', '')}_API_KEY"):
-                    warnings.append(f"{source_name} skipped: API key not set")
+            if not results and source_name in ["scopus", "google_scholar", "semantic_scholar"]:
+                if source_name == "semantic_scholar":
+                    if not (os.getenv("SEMANTIC_SCHOLAR_API_KEY") or os.getenv("S2_API_KEY")):
+                        warnings.append("semantic_scholar skipped: API key not set")
+                else:
+                    api_key_var = f"{source_name.upper()}_API_KEY"
+                    if not os.getenv(api_key_var) and not os.getenv(f"{source_name.upper().replace('_', '')}_API_KEY"):
+                        warnings.append(f"{source_name} skipped: API key not set")
             papers.extend(results)
         except Exception as e:
             warnings.append(f"{source_name} failed: {e}")

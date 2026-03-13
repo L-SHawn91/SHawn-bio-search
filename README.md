@@ -9,7 +9,7 @@ A unified Python interface for searching biomedical literature across 9+ sources
 
 ## Features
 
-- **9 Integrated Sources**: PubMed, Scopus, Google Scholar, Europe PMC, OpenAlex, Crossref, ClinicalTrials.gov, bioRxiv, medRxiv
+- **10 Integrated Sources**: PubMed, Semantic Scholar, Scopus, Google Scholar, Europe PMC, OpenAlex, Crossref, ClinicalTrials.gov, bioRxiv, medRxiv
 - **Claim-Level Scoring**: Verify scientific claims with evidence scores
 - **Multiple Output Formats**: Plain text, Markdown, JSON
 - **CLI + Python API**: Use from command line or import as module
@@ -23,7 +23,7 @@ A unified Python interface for searching biomedical literature across 9+ sources
 | OpenAlex | Free | No | Stable | Broad metadata/citation graph |
 | Crossref | Free | No | Stable | DOI metadata normalization |
 | Europe PMC | Free | No | Stable | OA coverage strong |
-| Semantic Scholar | Free (rate-limited) | Optional | Beta | Good recall/impact signals |
+| Semantic Scholar | Free (rate-limited) | Yes (`SEMANTIC_SCHOLAR_API_KEY` or `S2_API_KEY`) | Beta | Good recall/impact signals |
 | Scopus | Paid/institutional | Yes | Conditional | Institution contract required |
 | Google Scholar (SerpAPI) | Paid key | Yes (`SERPAPI_API_KEY`) | Conditional | Recall expansion only |
 | ClinicalTrials/bioRxiv/medRxiv | Free | No | Experimental | best-effort adapters |
@@ -89,6 +89,7 @@ Some sources work better with API keys:
 
 | Source | Environment Variable | Free Tier |
 |--------|---------------------|-----------|
+| Semantic Scholar | `SEMANTIC_SCHOLAR_API_KEY` or `S2_API_KEY` | Free but 1 rps |
 | Scopus | `SCOPUS_API_KEY` | Requires institutional access |
 | Google Scholar | `SERPAPI_API_KEY` | Free tier available |
 | PubMed | `NCBI_API_KEY` | Recommended for higher limits |
@@ -96,6 +97,7 @@ Some sources work better with API keys:
 Set up your keys:
 
 ```bash
+export SEMANTIC_SCHOLAR_API_KEY="your_key_here"
 export SCOPUS_API_KEY="your_key_here"
 export SERPAPI_API_KEY="your_key_here"
 export NCBI_API_KEY="your_key_here"
@@ -134,8 +136,9 @@ shawn-bio-search -q "endometrial organoid" -f json -o results_free.json
 
 ```bash
 export NCBI_API_KEY="..."
-export SERPAPI_API_KEY="..."   # optional
-export SCOPUS_API_KEY="..."    # optional institutional
+export SEMANTIC_SCHOLAR_API_KEY="..."   # recommended, 1 rps
+export SERPAPI_API_KEY="..."            # optional
+export SCOPUS_API_KEY="..."             # optional institutional
 shawn-bio-search -q "adenomyosis IVF" -c "Adenomyosis worsens IVF outcomes" -f json
 ```
 
@@ -202,6 +205,8 @@ Recommended interpretation:
 - `supporting` and `contradicting` papers should both be reviewed
 - high score without DOI/full text should be treated as provisional
 - final citation decisions should use sentence-level verification
+- source weight now contributes to ranking (PubMed/OpenAlex/Semantic Scholar strong; Google Scholar/preprints more conservative)
+- Semantic Scholar requests are rate-limited to ~1 request/second inside the adapter
 
 ## Documentation
 
