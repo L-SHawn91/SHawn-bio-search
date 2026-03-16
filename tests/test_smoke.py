@@ -3,6 +3,7 @@ import subprocess
 import json
 
 from shawn_bio_search.search import search_papers
+from shawn_bio_search.query_expansion import expand_query
 
 
 def test_cli_help():
@@ -34,8 +35,31 @@ def test_search_bundle_smoke(tmp_path: Path):
 
 
 def test_score_fields_present():
-    results = search_papers(query="endometrial organoid", max_results=1, sources=["openalex"])
+    results = search_papers(
+        query="endometrial organoid",
+        claim="endometrial organoids model uterine biology",
+        max_results=1,
+        sources=["openalex"],
+    )
     assert results.papers
     scored = results.papers[0]
-    # claim 없는 경우는 score 미부여 가능하므로 직접 호출 대신 source integrity 확인
     assert scored.get("source") == "openalex"
+    assert scored.get("evidence_label") in {"support", "contradict", "uncertain", "mention-only"}
+
+
+def test_query_expansion_has_expected_terms():
+    expanded = expand_query("endometrial organoid")
+    assert "endometrium" in expanded.lower() or "uterine" in expanded.lower()
+
+
+def test_project_mode_sets_effective_query_metadata():
+    results = search_papers(
+        query="organoid",
+        max_results=1,
+        sources=["openalex"],
+        project_mode="endometrial-organoid-review",
+        expand=True,
+    )
+    assert results.data.get("project_mode") == "endometrial-organoid-review"
+    assert results.data.get("query_expanded") is True
+    assert "effective_query" in results.data

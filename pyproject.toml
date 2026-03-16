@@ -41,10 +41,10 @@ shawn-bio-search = "shawn_bio_search.cli:main"
 sbs = "shawn_bio_search.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/L-SHawn91/shawn-bio-search"
-Documentation = "https://github.com/L-SHawn91/shawn-bio-search#readme"
-Repository = "https://github.com/L-SHawn91/shawn-bio-search"
-Issues = "https://github.com/L-SHawn91/shawn-bio-search/issues"
+Homepage = "https://github.com/L-SHawn91/SHawn-bio-search"
+Documentation = "https://github.com/L-SHawn91/SHawn-bio-search#readme"
+Repository = "https://github.com/L-SHawn91/SHawn-bio-search"
+Issues = "https://github.com/L-SHawn91/SHawn-bio-search/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

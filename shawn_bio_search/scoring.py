@@ -100,6 +100,19 @@ def _sentence_analysis(claim: str, hypothesis: str, text: str) -> Dict[str, Any]
     }
 
 
+def classify_evidence_label(support_score: float, contradiction_score: float, evidence_score: float, has_claim: bool) -> str:
+    """Classify evidence into four practical buckets."""
+    if not has_claim:
+        return "mention-only"
+    if support_score >= 0.18 and support_score > contradiction_score * 1.15:
+        return "support"
+    if contradiction_score >= 0.18 and contradiction_score > support_score * 1.15:
+        return "contradict"
+    if evidence_score >= 0.12 or support_score >= 0.08 or contradiction_score >= 0.08:
+        return "uncertain"
+    return "mention-only"
+
+
 def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str, Any]:
     """Score a paper for claim/hypothesis relevance."""
     text = f"{paper.get('title', '')} {paper.get('abstract', '')}".strip()
@@ -142,5 +155,11 @@ def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str,
     paper["best_contradict_sentence"] = s2["best_contradict_sentence"]
     paper["hypothesis_sentence_overlap"] = s2["hypothesis_sentence_overlap"]
     paper["evidence_score"] = evidence_score
-    
+    paper["evidence_label"] = classify_evidence_label(
+        support_score=s2["support_score"],
+        contradiction_score=s2["contradiction_score"],
+        evidence_score=evidence_score,
+        has_claim=bool(claim.strip()),
+    )
+
     return paper

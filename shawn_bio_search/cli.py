@@ -3,7 +3,11 @@
 import argparse
 import json
 import sys
+from pathlib import Path
 from typing import Optional
+
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from shawn_bio_search.search import search_papers
 
@@ -18,6 +22,7 @@ Examples:
   %(prog)s -q "organoid stem cell" -c "ECM is essential"
   %(prog)s -q "cancer immunotherapy" --max 20 -f markdown
   %(prog)s -q "COVID-19" --sources pubmed,europe_pmc
+  %(prog)s -q "endometrial organoid" --project-mode endometrial-organoid-review --expand-query -f json
         """
     )
     
@@ -28,6 +33,10 @@ Examples:
                         help="Max results per source (default: 10)")
     parser.add_argument("-s", "--sources", default="",
                         help="Comma-separated sources (default: all)")
+    parser.add_argument("--expand-query", action="store_true",
+                        help="Expand query with lightweight biomedical synonyms")
+    parser.add_argument("--project-mode", default="",
+                        help="Apply a project-aware preset (e.g. endometrial-organoid-review, regenerative-screening)")
     parser.add_argument("-f", "--format", choices=["json", "plain", "markdown"],
                         default="plain", help="Output format (default: plain)")
     parser.add_argument("-o", "--output", help="Output file (default: stdout)")
@@ -48,6 +57,8 @@ Examples:
             hypothesis=args.hypothesis,
             max_results=args.max_results,
             sources=sources,
+            expand=args.expand_query,
+            project_mode=args.project_mode,
         )
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
