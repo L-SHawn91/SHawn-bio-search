@@ -636,19 +636,179 @@ def fetch_crossref(query: str, limit: int) -> List[Dict[str, Any]]:
     return out
 
 
-def dedupe_by_title_doi(papers: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def _dedupe_key(p: Dict[str, Any]) -> tuple[str, str]:
+    title = (p.get("title") or "").strip().lower()
+    doi = (p.get("doi") or "").strip().lower()
+    pid = (p.get("id") or "").strip().lower()
+    if doi:
+        return ("doi", doi)
+    if title:
+        return ("title", title)
+    return ("id", pid)
+
+
+def _merge_unique_list(a: Any, b: Any) -> List[Any]:
+    out: List[Any] = []
     seen = set()
-    out = []
-    for p in papers:
-        title = (p.get("title") or "").strip().lower()
-        doi = (p.get("doi") or "").strip().lower()
-        pid = (p.get("id") or "").strip().lower()
-        key = (doi, title) if (doi or title) else ("", pid)
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(p)
+    for item in (a or []):
+        key = str(item).strip().lower()
+        if key and key not in seen:
+            seen.add(key)
+            out.append(item)
+    for item in (b or []):
+        key = str(item).strip().lower()
+        if key and key not in seen:
+            seen.add(key)
+            out.append(item)
     return out
+
+
+def _author_variants(name: str) -> List[tuple[str, str, str]]:
+    raw = (name or "").strip()
+    if not raw:
+        return []
+    cleaned = raw.replace(".", " ")
+    cleaned = " ".join(cleaned.split())
+    if not cleaned:
+        return []
+
+    variants: List[tuple[str, str, str]] = []
+
+    def build_variant(family: str, given: str) -> None:
+        family = (family or "").strip()
+        given = (given or "").strip()
+        if not family:
+            return
+        family_key = family.lower()
+        given_tokens = [t for t in given.split() if t]
+        initials = "".join(t[0].lower() for t in given_tokens if t)
+        canonical = f"{given} {family}".strip() if given else family
+        item = (family_key, initials, canonical)
+        if item not in variants:
+            variants.append(item)
+
+    if "," in cleaned:
+        family, given = [x.strip() for x in cleaned.split(",", 1)]
+        build_variant(family, given)
+        return variants
+
+    parts = cleaned.split()
+    if len(parts) == 1:
+        build_variant(parts[0], "")
+        return variants
+
+    if len(parts) == 2:
+        left, right = parts
+        if len(right) == 1 and len(left) > 1:
+            build_variant(left, right)
+            build_variant(right, left)
+            return variants
+        if len(left) == 1 and len(right) > 1:
+            build_variant(right, left)
+            build_variant(left, right)
+            return variants
+
+    build_variant(parts[-1], " ".join(parts[:-1]))
+    if len(parts) == 2:
+        build_variant(parts[0], parts[1])
+
+    return variants
+
+
+def _best_author_label(labels: List[str]) -> str:
+    if not labels:
+        return ""
+    labels = [x.strip() for x in labels if x and x.strip()]
+    if not labels:
+        return ""
+    labels.sort(key=lambda s: (
+        any(len(tok) > 1 for tok in s.replace('.', ' ').split()),
+        len(s),
+    ), reverse=True)
+    return labels[0]
+
+
+def _merge_authors(a: Any, b: Any) -> List[str]:
+    merged: Dict[tuple[str, str], List[str]] = {}
+    order: List[tuple[str, str]] = []
+
+    for item in list(a or []) + list(b or []):
+        if not item:
+            continue
+        label = str(item).strip().replace('.', '')
+        if not label:
+            continue
+        variants = _author_variants(label)
+        if not variants:
+            continue
+
+        chosen_key = None
+        for family_key, initials, _canonical in variants:
+            key = (family_key, initials)
+            if key in merged:
+                chosen_key = key
+                break
+
+        if chosen_key is None:
+            family_key, initials, _canonical = variants[0]
+            chosen_key = (family_key, initials)
+            merged[chosen_key] = []
+            order.append(chosen_key)
+
+        merged[chosen_key].append(label)
+
+    return [_best_author_label(merged[k]) for k in order]
+
+
+def _merge_paper_records(base: Dict[str, Any], new: Dict[str, Any]) -> Dict[str, Any]:
+    merged = dict(base)
+
+    merged["source_hits"] = _merge_unique_list(
+        base.get("source_hits") or [base.get("source")],
+        new.get("source_hits") or [new.get("source")],
+    )
+    merged["source_ids"] = _merge_unique_list(
+        base.get("source_ids") or [base.get("id")],
+        new.get("source_ids") or [new.get("id")],
+    )
+    merged["authors"] = _merge_authors(base.get("authors"), new.get("authors"))
+
+    for field in ["doi", "pmid", "pmcid", "url", "title", "id", "source"]:
+        if not merged.get(field) and new.get(field):
+            merged[field] = new.get(field)
+
+    if not merged.get("abstract") and new.get("abstract"):
+        merged["abstract"] = new.get("abstract")
+    elif len((new.get("abstract") or "").strip()) > len((merged.get("abstract") or "").strip()):
+        merged["abstract"] = new.get("abstract")
+
+    try:
+        merged["year"] = max(int(base.get("year") or 0), int(new.get("year") or 0)) or (base.get("year") or new.get("year"))
+    except Exception:
+        merged["year"] = base.get("year") or new.get("year")
+
+    try:
+        merged["citations"] = max(int(base.get("citations") or 0), int(new.get("citations") or 0))
+    except Exception:
+        merged["citations"] = base.get("citations") or new.get("citations") or 0
+
+    return merged
+
+
+def dedupe_by_title_doi(papers: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    merged: Dict[tuple[str, str], Dict[str, Any]] = {}
+    order: List[tuple[str, str]] = []
+    for p in papers:
+        key = _dedupe_key(p)
+        if key not in merged:
+            item = dict(p)
+            item["source_hits"] = item.get("source_hits") or ([item.get("source")] if item.get("source") else [])
+            item["source_ids"] = item.get("source_ids") or ([item.get("id")] if item.get("id") else [])
+            merged[key] = item
+            order.append(key)
+        else:
+            merged[key] = _merge_paper_records(merged[key], p)
+    return [merged[k] for k in order]
 
 
 def main() -> int:

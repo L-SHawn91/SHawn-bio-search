@@ -13,12 +13,17 @@ Usage:
   run_paper_writing_mode_v2.sh <query> <claim> <hypothesis> <out_prefix> [--zotero-root <path>] [--fast] [--with-kaggle] [--with-cellcog] [--with-unpaywall] [--with-orcid]
 
 Options:
-  --zotero-root <path>  local Zotero PDF repository root (or set ZOTERO_ROOT env)
+  --zotero-root <path>  local Zotero PDF repository root
   --fast                fast mode
   --with-kaggle         append Kaggle dataset snapshot
   --with-cellcog        best-effort probe for CELLCOG_URL/CELLCG_URL endpoint
   --with-unpaywall      enrich papers with oa_status/oa_pdf_url via Unpaywall (UNPAYWALL_EMAIL 필요)
   --with-orcid          enrich papers with ORCID author matches (ORCID_PREFERRED_ID 권장)
+
+Resolution order for Zotero root:
+  1. --zotero-root
+  2. ZOTERO_ROOT env
+  3. auto-discovery of common local paths
 USAGE
 }
 
@@ -71,8 +76,9 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+ZOTERO_ROOT="$(resolve_zotero_root "$ZOTERO_ROOT" || true)"
 if [[ -z "$ZOTERO_ROOT" ]]; then
-  echo "ERROR: Zotero root not set. Use --zotero-root or ZOTERO_ROOT env."
+  echo "ERROR: Zotero root not found. Use --zotero-root, set ZOTERO_ROOT, or place papers under a supported local path."
   exit 2
 fi
 
@@ -150,6 +156,7 @@ PY
   } >> "$DATASET_MD"
 fi
 
+echo "zotero-root: $ZOTERO_ROOT"
 echo "saved: $DATASET_MD"
 if [[ -f "$ENRICHED_BUNDLE" ]]; then
   echo "saved: $ENRICHED_BUNDLE"

@@ -1,16 +1,33 @@
 # Shawn-Bio-Search
 
-> Multi-source biomedical literature search with claim-level evidence scoring
+> Global biomedical paper and dataset discovery with metadata normalization, access checks, and local library lookup
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A unified Python interface for searching biomedical literature across 9+ sources with intelligent claim-level evidence evaluation.
+A unified Python interface for discovering biomedical papers and datasets across global sources, normalizing metadata, checking access/downloadability, and identifying locally available papers.
+
+## Scope
+
+`SHawn-bio-search` is the **discovery and retrieval-enrichment layer** in the SHawn research stack.
+
+It focuses on:
+- global paper search
+- dataset discovery across public repositories
+- metadata normalization (DOI / PMID / PMCID / accession when available)
+- deduplication across sources
+- access/downloadability checks
+- local Zotero-backed paper library lookup
+- exportable machine-readable search bundles
+
+It does **not** aim to be the manuscript-facing interpretation engine. Project-aware interpretation, evidence synthesis, scoring, and writing workflows belong in `SHawn-academic-research`.
 
 ## Features
 
 - **10 Integrated Sources**: PubMed, Semantic Scholar, Scopus, Google Scholar, Europe PMC, OpenAlex, Crossref, ClinicalTrials.gov, bioRxiv, medRxiv
-- **Claim-Level Scoring**: Verify scientific claims with evidence scores
+- **Paper + Dataset Discovery**: Find candidate literature and datasets from global sources
+- **Access Enrichment**: Track DOI/PMID/PMCID, URLs, and downloadability status
+- **Local Library Lookup**: Check whether a paper already exists in a Zotero-backed local paper store
 - **Multiple Output Formats**: Plain text, Markdown, JSON
 - **CLI + Python API**: Use from command line or import as module
 - **Deduplication**: Automatic removal of duplicate papers across sources
@@ -37,8 +54,8 @@ pip install shawn-bio-search
 Or install from source:
 
 ```bash
-git clone https://github.com/L-SHawn91/shawn-bio-search.git
-cd shawn-bio-search
+git clone https://github.com/L-SHawn91/SHawn-bio-search.git
+cd SHawn-bio-search
 pip install -e .
 ```
 
@@ -50,12 +67,11 @@ pip install -e .
 # Basic search
 shawn-bio-search -q "organoid stem cell"
 
-# Verify a claim
-shawn-bio-search -q "endometrial organoid" \
-  -c "ECM is essential for organoid formation"
-
 # JSON output
 shawn-bio-search -q "cancer immunotherapy" -f json -o results.json
+
+# Focused source selection
+shawn-bio-search -q "endometrial organoid" -s pubmed,europe_pmc,openalex
 
 # Specific sources only
 shawn-bio-search -q "COVID-19" -s pubmed,europe_pmc
@@ -69,14 +85,6 @@ from shawn_bio_search import search_papers
 # Basic search
 results = search_papers(query="organoid stem cell", max_results=10)
 print(results.to_plain())
-
-# Claim verification
-results = search_papers(
-    query="endometrial organoid",
-    claim="ECM is essential for organoid formation"
-)
-for paper in results.papers[:5]:
-    print(f"{paper['title']}: score={paper.get('evidence_score', 0)}")
 
 # Access raw data
 import json
@@ -115,15 +123,6 @@ Or create a `.env` file (see `.env.example`).
 [europe_pmc] Gjorevski N et al. (2016). Designer matrices for intestinal stem cell and organoid culture. Nature. DOI: 10.1038/nature20168
 ```
 
-### With Evidence Scoring
-
-When using `-c/--claim`:
-
-```
-[pubmed] Evidence: 0.85 | Clevers H (2016). Organoids: Modeling Development...
-[europe_pmc] Evidence: 0.78 | Gjorevski N et al. (2016). Designer matrices...
-```
-
 ## Quickstart by usage level
 
 ### A) Free mode (no paid keys)
@@ -139,44 +138,82 @@ export NCBI_API_KEY="..."
 export SEMANTIC_SCHOLAR_API_KEY="..."   # recommended, 1 rps
 export SERPAPI_API_KEY="..."            # optional
 export SCOPUS_API_KEY="..."             # optional institutional
-shawn-bio-search -q "adenomyosis IVF" -c "Adenomyosis worsens IVF outcomes" -f json
+shawn-bio-search -q "adenomyosis IVF" -f json
 ```
 
-### C) Full writing workflow mode
+### C) Retrieval bundle mode
 
-Use the pipeline script to generate review/citation/evidence packages.
-
-## Paper Writing Mode (v2)
-
-One-command pipeline for manuscript-ready evidence package:
+Generate structured outputs for downstream tools such as `SHawn-academic-research`:
 
 ```bash
-./scripts/run_paper_writing_mode_v2.sh \
-  "adenomyosis ivf meta-analysis" \
-  "Adenomyosis is associated with poorer IVF outcomes." \
-  "Pregnancy endpoints should be secondary in early-phase uterine fibrosis trials." \
-  "./outputs/adeno_v2" \
-  --zotero-root "/path/to/Zotero/papers" \
-  --fast --with-kaggle --with-cellcog --with-unpaywall --with-orcid
+python3 scripts/search_bundle.py \
+  --query "adenomyosis" \
+  --project-mode adenomyosis \
+  --expand-query \
+  --fast \
+  --export-dual-engine-dir ./outputs/dual_engine_run \
+  --project SHawn-academic-research
 ```
 
-Outputs include:
-- bundle JSON
-- review list markdown
-- claim evidence report (support/contradict/uncertain + gaps)
-- citations (md/csv/bib)
-- missing-in-zotero checklist
-- datasets+ (optional Kaggle/Cellcog snapshot)
-- bundle_enriched.json (optional ORCID/Unpaywall enrichment: oa_status, oa_pdf_url, orcid_matches)
+Preferred retrieval artifacts:
+- `SEARCH_RESULTS.json`
+- `DATASETS.json`
+- `AVAILABILITY_REPORT.md`
+- `LOCAL_LIBRARY_MATCHES.csv`
+- `SEARCH_LOG.md`
+- `CITATIONS.bib`
+
+Example artifact fragments:
+
+```json
+{
+  "citation_key": "10.1038_ncb3516",
+  "source": "pubmed",
+  "source_hits": ["pubmed", "openalex"],
+  "doi": "10.1038/ncb3516",
+  "access": {
+    "status": "open",
+    "downloadable": true,
+    "pdf_reachable": true,
+    "check_method": "unpaywall"
+  },
+  "local_library": {
+    "found": true,
+    "match_type": "doi"
+  }
+}
+```
+
+```json
+{
+  "repository": "geo",
+  "accession": "GSE123456",
+  "title": "Example dataset",
+  "access": {
+    "status": "open",
+    "downloadable": true,
+    "check_method": "repository"
+  }
+}
+```
+
+### D) Access + local library workflow
+
+Use the pipeline scripts to enrich search results with open-access status, downloadable links, and local Zotero-backed paper availability where configured.
+
+Zotero/local paper root resolution order:
+1. `--zotero-root <path>`
+2. `ZOTERO_ROOT` environment variable
+3. auto-discovery of common local paths (for local/dev setups)
 
 ## First-time installation workflow
 
 ```bash
-git clone https://github.com/L-SHawn91/shawn-bio-search.git
-cd shawn-bio-search
+git clone https://github.com/L-SHawn91/SHawn-bio-search.git
+cd SHawn-bio-search
 pip install -e .
 cp .env.example .env
-# edit .env: set at least ZOTERO_ROOT, optional API keys
+# edit .env: API keys optional; ZOTERO_ROOT optional if you prefer explicit path config
 set -a && source .env && set +a
 
 # optional: Kaggle CLI credential bootstrap
@@ -190,29 +227,67 @@ chmod 600 ~/.kaggle/kaggle.json
   "Adenomyosis is associated with poorer IVF outcomes." \
   "Pregnancy endpoints should be secondary in early-phase uterine fibrosis trials." \
   "./outputs/smoke" \
-  --zotero-root "$ZOTERO_ROOT" \
   --fast --with-kaggle
 ```
 
-## Evidence scoring (what the score means)
+If you want explicit control over the local paper store, add:
 
-`evidence_score` is a ranking aid, not proof by itself. It combines:
-- claim/hypothesis term overlap
-- source quality/metadata completeness (DOI etc.)
-- support vs contradiction signal from abstract-level text
+```bash
+--zotero-root /path/to/Zotero/papers
+```
 
-Recommended interpretation:
-- `supporting` and `contradicting` papers should both be reviewed
-- high score without DOI/full text should be treated as provisional
-- final citation decisions should use sentence-level verification
-- source weight now contributes to ranking (PubMed/OpenAlex/Semantic Scholar strong; Google Scholar/preprints more conservative)
+## Ranking and boundary notes
+
+`SHawn-bio-search` may still use lightweight ranking heuristics internally to improve retrieval order and source coverage.
+
+Those heuristics are intended only for:
+- retrieval prioritization
+- first-pass candidate surfacing
+- metadata completeness preference
+
+They are **not** the final scientific interpretation layer.
+Project-aware scoring, evidence adjudication, contradiction handling, and writing-oriented judgment belong in `SHawn-academic-research`.
+
+Operational notes:
+- source weight may contribute to retrieval ranking (PubMed/OpenAlex/Semantic Scholar generally stronger; Google Scholar/preprints more conservative)
+- high-ranked results without DOI/full text should still be treated as provisional
 - Semantic Scholar requests are rate-limited to ~1 request/second inside the adapter
+
+## Positioning
+
+`SHawn-bio-search` is not trying to be a general-purpose chat answer engine or a citation-graph exploration UI.
+
+It is positioned as a **reproducible biomedical retrieval backend** focused on:
+- multi-source paper and dataset discovery
+- access/downloadability enrichment
+- local library awareness
+- machine-readable export for downstream research workflows
+
+### Why not just use ResearchRabbit, Perplexity, or Liner?
+
+Those tools are useful, but they solve somewhat different problems:
+
+| Tool | Strong at | Less strong at |
+|---|---|---|
+| ResearchRabbit | citation graph exploration, related-paper discovery, author-network browsing | structured export, local library lookup, reproducible CLI workflows |
+| Perplexity | quick answers, fast summaries, low-friction search UX | workflow reproducibility, structured retrieval artifacts, dataset-oriented export |
+| Liner | rapid literature overview, lightweight summarization UI | retrieval automation, local Zotero-aware workflows, backend-style integration |
+| SHawn-bio-search | reproducible biomedical retrieval, access enrichment, local-library-aware discovery, downstream handoff | polished exploration UI, conversational answer UX, citation-map browsing |
+
+### Practical framing
+
+- Use **ResearchRabbit** when you want to explore a literature neighborhood.
+- Use **Perplexity** or **Liner** when you want a fast answer or overview.
+- Use **SHawn-bio-search** when you want a controllable, automatable, auditable retrieval workflow that can feed a larger research pipeline.
 
 ## Documentation
 
 - [Supported Sources](docs/SOURCES.md)
 - [API Reference](docs/API.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Completion checklist](docs/COMPLETION_CHECKLIST.md)
+- [Dual-engine boundary](docs/DUAL_ENGINE_BOUNDARY.md)
+- [Output schema](docs/OUTPUT_SCHEMA.md)
 
 ## About the Author
 
@@ -244,12 +319,11 @@ MIT License - see [LICENSE](LICENSE) file.
 If you use Shawn-Bio-Search in your research, please cite:
 
 ```
-Lee S. (2026). Shawn-Bio-Search: Multi-source biomedical literature search 
-with claim-level evidence scoring. GitHub repository.
-https://github.com/L-SHawn91/shawn-bio-search
+Lee S. (2026). Shawn-Bio-Search: Global biomedical paper and dataset discovery with metadata normalization, access checks, and local library lookup. GitHub repository.
+https://github.com/L-SHawn91/SHawn-bio-search
 ```
 
 ## Contact
 
-- Issues: [GitHub Issues](https://github.com/L-SHawn91/shawn-bio-search/issues)
+- Issues: [GitHub Issues](https://github.com/L-SHawn91/SHawn-bio-search/issues)
 - Email: leseichi@gmail.com

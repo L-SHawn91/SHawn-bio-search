@@ -35,3 +35,32 @@ load_openclaw_shared_services() {
   done
   return 1
 }
+
+resolve_zotero_root() {
+  local explicit="${1:-}"
+  local candidates=()
+
+  if [[ -n "$explicit" ]]; then
+    candidates+=("$explicit")
+  fi
+  if [[ -n "${ZOTERO_ROOT:-}" ]]; then
+    candidates+=("$ZOTERO_ROOT")
+  fi
+
+  candidates+=(
+    "$HOME/Clouds/onedrive/Papers/Zotero/papers"
+    "$HOME/Papers/Zotero/papers"
+    "$HOME/Zotero/papers"
+    "/media/mdge/4TB_MDGE/SH/paper/Papers/Zotero/papers"
+  )
+
+  local p
+  for p in "${candidates[@]}"; do
+    [[ -n "$p" ]] || continue
+    if [[ -d "$p" ]]; then
+      printf '%s\n' "$p"
+      return 0
+    fi
+  done
+  return 1
+}

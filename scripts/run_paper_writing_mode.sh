@@ -19,8 +19,13 @@ Inputs:
   <out_prefix>  output prefix path (e.g., ./outputs/run1)
 
 Options:
-  --zotero-root <path>  local Zotero PDF repository root (or set ZOTERO_ROOT env)
+  --zotero-root <path>  local Zotero PDF repository root
   --fast                fast mode (pubmed/europe_pmc/openalex 중심)
+
+Resolution order for Zotero root:
+  1. --zotero-root
+  2. ZOTERO_ROOT env
+  3. auto-discovery of common local paths
 
 Example:
   ./scripts/run_paper_writing_mode.sh \
@@ -62,8 +67,9 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+ZOTERO_ROOT="$(resolve_zotero_root "$ZOTERO_ROOT" || true)"
 if [[ -z "$ZOTERO_ROOT" ]]; then
-  echo "ERROR: Zotero root not set. Use --zotero-root or ZOTERO_ROOT env."
+  echo "ERROR: Zotero root not found. Use --zotero-root, set ZOTERO_ROOT, or place papers under a supported local path."
   exit 2
 fi
 
@@ -135,6 +141,7 @@ print(f'saved: {out}')
 PY
 
 echo "done"
+echo "zotero-root: $ZOTERO_ROOT"
 echo "bundle: $BUNDLE"
 echo "review: $REVIEW_MD"
 echo "evidence: $EVID_MD"
