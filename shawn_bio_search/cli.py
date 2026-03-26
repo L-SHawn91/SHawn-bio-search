@@ -9,7 +9,7 @@ from typing import Optional
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from shawn_bio_search.search import search_papers
+from shawn_bio_search.search import search_papers, search_authors
 
 
 def main(argv: Optional[list] = None) -> int:
@@ -23,10 +23,21 @@ Examples:
   %(prog)s -q "cancer immunotherapy" --max 20 -f markdown
   %(prog)s -q "COVID-19" --sources pubmed,europe_pmc
   %(prog)s -q "endometrial organoid" --project-mode endometrial-organoid-review --expand-query -f json
+  %(prog)s --mode author -q "Hakhyun Ka" --author-aliases "Ka H,H. Ka" --affiliation "Yonsei"
         """
     )
     
     parser.add_argument("-q", "--query", required=True, help="Search query")
+    parser.add_argument("--mode", choices=["broad", "author"], default="broad",
+                        help="Search mode: broad literature search or author-centric retrieval")
+    parser.add_argument("--author-aliases", default="",
+                        help="Comma-separated author aliases for author mode")
+    parser.add_argument("--affiliation", default="",
+                        help="Affiliation hint for author mode (e.g. Yonsei University)")
+    parser.add_argument("--publication-limit", type=int, default=25,
+                        help="Max publications to fetch per author in author mode")
+    parser.add_argument("--no-scival", action="store_true",
+                        help="Disable SciVal metric enrichment in author mode")
     parser.add_argument("-c", "--claim", default="", help="Claim to verify (optional)")
     parser.add_argument("--hypothesis", default="", help="Hypothesis to test (optional)")
     parser.add_argument("-n", "--max", type=int, default=10, dest="max_results",
@@ -51,15 +62,26 @@ Examples:
     
     # Search
     try:
-        results = search_papers(
-            query=args.query,
-            claim=args.claim,
-            hypothesis=args.hypothesis,
-            max_results=args.max_results,
-            sources=sources,
-            expand=args.expand_query,
-            project_mode=args.project_mode,
-        )
+        if args.mode == "author":
+            aliases = [s.strip() for s in args.author_aliases.split(",") if s.strip()]
+            results = search_authors(
+                query=args.query,
+                author_aliases=aliases,
+                affiliation=args.affiliation,
+                max_results=args.max_results,
+                publication_limit=args.publication_limit,
+                include_scival=not args.no_scival,
+            )
+        else:
+            results = search_papers(
+                query=args.query,
+                claim=args.claim,
+                hypothesis=args.hypothesis,
+                max_results=args.max_results,
+                sources=sources,
+                expand=args.expand_query,
+                project_mode=args.project_mode,
+            )
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         return 1

@@ -14,7 +14,8 @@ from .sources.medrxiv import fetch_medrxiv
 from .sources.semanticscholar import fetch_semanticscholar
 
 # Optional sources (require API keys)
-from .sources.scopus import fetch_scopus
+from .sources.scopus import fetch_scopus, search_scopus_authors, fetch_scopus_author_publications
+from .sources.scival import fetch_scival_author_metrics
 from .sources.google_scholar import fetch_google_scholar
 
 from .scoring import score_paper
@@ -25,21 +26,63 @@ from .query_expansion import expand_query
 
 class SearchResult:
     """Container for search results."""
-    
+
     def __init__(self, data: Dict[str, Any]):
         self.data = data
         self.count = data.get("count", 0)
         self.papers = data.get("papers", [])
         self.warnings = data.get("warnings", [])
-    
+
     def to_json(self) -> str:
         return json.dumps(self.data, indent=2, ensure_ascii=False)
-    
+
     def to_plain(self, top_n: int = 10) -> str:
         return format_results(self.papers, fmt="plain", top_n=top_n)
-    
+
     def to_markdown(self, top_n: int = 10) -> str:
         return format_results(self.papers, fmt="markdown", top_n=top_n)
+
+
+class AuthorSearchResult:
+    """Container for author-centric search/profile results."""
+
+    def __init__(self, data: Dict[str, Any]):
+        self.data = data
+        self.count = len(data.get("authors", []))
+        self.authors = data.get("authors", [])
+        self.warnings = data.get("warnings", [])
+
+    def to_json(self) -> str:
+        return json.dumps(self.data, indent=2, ensure_ascii=False)
+
+    def to_plain(self, top_n: int = 10) -> str:
+        lines = []
+        for idx, a in enumerate(self.authors[:top_n], start=1):
+            fwci = a.get("scival", {}).get("FieldWeightedCitationImpact")
+            scholarly_output = a.get("scival", {}).get("ScholarlyOutput")
+            lines.append(
+                f"{idx}. {a.get('display_name') or a.get('name')} | author_id={a.get('author_id')} | "
+                f"affiliation={a.get('affiliation') or '-'} | scopus_docs={a.get('document_count', 0)} | "
+                f"sample_pubs={a.get('publication_count', 0)} | FWCI={fwci if fwci is not None else 'n/a'} | "
+                f"ScholarlyOutput={scholarly_output if scholarly_output is not None else 'n/a'}"
+            )
+        if self.warnings:
+            lines.append("Warnings: " + " | ".join(self.warnings))
+        return "\n".join(lines)
+
+    def to_markdown(self, top_n: int = 10) -> str:
+        lines = ["| # | Author | Author ID | Affiliation | Scopus Docs | Sample Pubs | FWCI | Scholarly Output |", "|---|---|---|---|---:|---:|---:|---:|"]
+        for idx, a in enumerate(self.authors[:top_n], start=1):
+            fwci = a.get("scival", {}).get("FieldWeightedCitationImpact")
+            scholarly_output = a.get("scival", {}).get("ScholarlyOutput")
+            lines.append(
+                f"| {idx} | {a.get('display_name') or a.get('name')} | {a.get('author_id')} | {a.get('affiliation') or '-'} | "
+                f"{a.get('document_count', 0)} | {a.get('publication_count', 0)} | {fwci if fwci is not None else ''} | {scholarly_output if scholarly_output is not None else ''} |"
+            )
+        if self.warnings:
+            lines.append("")
+            lines.append("**Warnings:** " + " | ".join(self.warnings))
+        return "\n".join(lines)
 
 
 def search_papers(
@@ -138,8 +181,105 @@ def search_papers(
         "warnings": warnings,
         "papers": papers,
     }
-    
+
     return SearchResult(data)
+
+
+def search_authors(
+    query: str,
+    author_aliases: Optional[List[str]] = None,
+    affiliation: str = "",
+    max_results: int = 5,
+    publication_limit: int = 25,
+    include_scival: bool = True,
+) -> AuthorSearchResult:
+    """Search author profiles via Scopus and enrich with SciVal metrics when available."""
+    aliases = [query] + [a for a in (author_aliases or []) if a and a.strip()]
+    warnings: List[str] = []
+    found: Dict[str, Dict[str, Any]] = {}
+
+    if not os.getenv("SCOPUS_API_KEY"):
+        warnings.append("scopus author search skipped: API key not set")
+    for alias in aliases:
+        try:
+            rows = search_scopus_authors(alias, limit=max_results, affiliation=affiliation)
+        except Exception as e:
+            warnings.append(f"scopus author search failed for {alias}: {e}")
+            rows = []
+        for row in rows:
+            aid = str(row.get("author_id") or "").strip()
+            if not aid:
+                continue
+            base = found.get(aid, {})
+            merged = dict(base)
+            merged.update({k: v for k, v in row.items() if v not in (None, "")})
+            labels = [base.get("name"), row.get("name"), base.get("given_name"), row.get("given_name")]
+            merged["alias_hits"] = _merge_unique_list(base.get("alias_hits") or [], [alias])
+            merged["display_name"] = merged.get("display_name") or _best_author_label([x for x in labels if x]) or row.get("name")
+            found[aid] = merged
+
+    author_ids = list(found.keys())
+    scival_lookup: Dict[str, Dict[str, Any]] = {}
+    if include_scival and author_ids:
+        raw = fetch_scival_author_metrics(author_ids)
+        if not raw:
+            warnings.append("scival metrics unavailable: missing entitlement, key, or no response")
+        entries = raw.get("results") or raw.get("authors") or []
+        if isinstance(entries, dict):
+            entries = [entries]
+        for item in entries:
+            aid = str(item.get("author", {}).get("id") or item.get("id") or item.get("authorId") or "").strip()
+            if not aid:
+                continue
+            metric_map: Dict[str, Any] = {}
+            metrics = item.get("metrics") or item.get("metricTypes") or []
+            if isinstance(metrics, dict):
+                metrics = [metrics]
+            for m in metrics:
+                key = m.get("metricType") or m.get("name") or m.get("metric")
+                value = m.get("valueByYear") or m.get("value") or m.get("currentValue")
+                if isinstance(value, dict) and value:
+                    try:
+                        value = list(value.values())[-1]
+                    except Exception:
+                        pass
+                metric_map[str(key)] = value
+            # fallback if API returns flat fields
+            for k in ["FieldWeightedCitationImpact", "ScholarlyOutput", "CitationsPerPublication", "ViewsCount"]:
+                if k in item and k not in metric_map:
+                    metric_map[k] = item.get(k)
+            scival_lookup[aid] = metric_map
+
+    authors: List[Dict[str, Any]] = []
+    for aid, row in found.items():
+        pubs = []
+        try:
+            pubs = fetch_scopus_author_publications(aid, publication_limit)
+        except Exception as e:
+            warnings.append(f"scopus publications failed for author {aid}: {e}")
+        pubs = _dedupe_papers(pubs)
+        pubs.sort(key=lambda x: (int(x.get("citations") or 0), int(x.get("year") or 0)), reverse=True)
+        row["publication_count"] = len(pubs)
+        row["top_publications"] = pubs[:5]
+        row["scival"] = scival_lookup.get(aid, {})
+        authors.append(row)
+
+    authors.sort(
+        key=lambda a: (
+            float(a.get("scival", {}).get("FieldWeightedCitationImpact") or -1),
+            int(a.get("document_count") or 0),
+            int(a.get("citation_count") or 0),
+        ),
+        reverse=True,
+    )
+
+    return AuthorSearchResult({
+        "query": query,
+        "affiliation": affiliation,
+        "count": len(authors),
+        "warnings": warnings,
+        "authors": authors,
+    })
 
 
 def _dedupe_key(p: Dict[str, Any]) -> tuple[str, str]:
