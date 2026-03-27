@@ -48,10 +48,8 @@ resolve_zotero_root() {
   fi
 
   candidates+=(
-    "$HOME/Clouds/onedrive/Papers/Zotero/papers"
     "$HOME/Papers/Zotero/papers"
     "$HOME/Zotero/papers"
-    "/media/mdge/4TB_MDGE/SH/paper/Papers/Zotero/papers"
   )
 
   local p

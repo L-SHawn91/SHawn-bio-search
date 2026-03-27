@@ -11,17 +11,22 @@ if [[ $# -lt 1 ]]; then
   echo "Usage:"
   echo "  $0 \"query\" [author-aliases] [out.json]"
   echo "Example:"
-  echo "  $0 \"endometrial organoid soohyung lee\" \"Soohyung Lee,Lee SH,이수형\" /tmp/shawn_bio_author.json"
+  echo "  $0 \"endometrial organoid author\" \"Author A,Author B\" /tmp/shawn_bio_author.json"
   exit 1
 fi
 
 QUERY="$1"
 ALIASES="${2:-}"
 OUT="${3:-/tmp/shawn_bio_search_result.json}"
-BIO_ROOT="${SHAWN_BIO_ROOT:-/Users/soohyunglee/GitHub/SHawn-BIO}"
+BIO_ROOT="${SHAWN_BIO_ROOT:-}"
+
+if [[ -z "${BIO_ROOT}" ]]; then
+  echo "SHAWN_BIO_ROOT is not set" >&2
+  exit 2
+fi
 
 if [[ ! -d "${BIO_ROOT}" ]]; then
-  echo "SHawn-BIO not found: ${BIO_ROOT}" >&2
+  echo "Configured bridge root not found: ${BIO_ROOT}" >&2
   exit 2
 fi
 

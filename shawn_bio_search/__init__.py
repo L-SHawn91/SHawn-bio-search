@@ -22,8 +22,7 @@ Example:
 """
 
 __version__ = "0.1.1"
-__author__ = "Soohyung Lee"
-__email__ = "leseichi@gmail.com"
+__author__ = "SHawn-bio-search contributors"
 
 from .search import search_papers, SearchResult
 from .sources import ALL_SOURCES

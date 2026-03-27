@@ -9,7 +9,7 @@ A unified Python interface for discovering biomedical papers and datasets across
 
 ## Scope
 
-`SHawn-bio-search` is the **discovery and retrieval-enrichment layer** in the SHawn research stack.
+`SHawn-bio-search` is a **discovery and retrieval-enrichment layer** for reproducible biomedical search workflows.
 
 It focuses on:
 - global paper search
@@ -20,7 +20,7 @@ It focuses on:
 - local Zotero-backed paper library lookup
 - exportable machine-readable search bundles
 
-It does **not** aim to be the manuscript-facing interpretation engine. Project-aware interpretation, evidence synthesis, scoring, and writing workflows belong in `SHawn-academic-research`.
+It does **not** aim to be the manuscript-facing interpretation engine. Project-aware interpretation, evidence synthesis, scoring, and writing workflows should live in downstream analysis or writing layers rather than inside this repository.
 
 ## Features
 
@@ -143,7 +143,7 @@ shawn-bio-search -q "adenomyosis IVF" -f json
 
 ### C) Retrieval bundle mode
 
-Generate structured outputs for downstream tools such as `SHawn-academic-research`:
+Generate structured outputs for downstream tools:
 
 ```bash
 python3 scripts/search_bundle.py \
@@ -151,8 +151,7 @@ python3 scripts/search_bundle.py \
   --project-mode adenomyosis \
   --expand-query \
   --fast \
-  --export-dual-engine-dir ./outputs/dual_engine_run \
-  --project SHawn-academic-research
+  --export-dual-engine-dir ./outputs/dual_engine_run
 ```
 
 Preferred retrieval artifacts:
@@ -246,7 +245,7 @@ Those heuristics are intended only for:
 - metadata completeness preference
 
 They are **not** the final scientific interpretation layer.
-Project-aware scoring, evidence adjudication, contradiction handling, and writing-oriented judgment belong in `SHawn-academic-research`.
+Project-aware scoring, evidence adjudication, contradiction handling, and writing-oriented judgment belong in downstream analysis and writing workflows, not in the retrieval core.
 
 Operational notes:
 - source weight may contribute to retrieval ranking (PubMed/OpenAlex/Semantic Scholar generally stronger; Google Scholar/preprints more conservative)
@@ -289,41 +288,14 @@ Those tools are useful, but they solve somewhat different problems:
 - [Dual-engine boundary](docs/DUAL_ENGINE_BOUNDARY.md)
 - [Output schema](docs/OUTPUT_SCHEMA.md)
 
-## About the Author
-
-**Dr. Soohyung (SHawn) Lee** — Biomedical Researcher & Developer
-
-Dr. SHawn is a researcher specializing in organoid technology, endometrial biology, and computational bio-research workflows. As the founder of **SHawn Lab**, he develops intelligent research tools that bridge the gap between vast scientific literature and actionable insights.
-
-**Research Focus:**
-- Endometrial organoid models
-- Reproductive biology and regenerative medicine
-- Evidence-based literature mining
-- AI-assisted research workflows
-
-**SHawn Lab Ecosystem:**
-- 🔬 **SHawn-BIO**: Biomedical research intelligence platform
-- 🌐 **SHawn-WEB**: Digital lab and knowledge management
-- 🤖 **SHawn-BOT**: Automated research assistant
-- 📚 **shawn-bio-search**: Multi-source literature search (this project)
-
-> "Literature should be diagnosed, not just searched."
-> — Dr. SHawn
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) file.
 
 ## Citation
 
-If you use Shawn-Bio-Search in your research, please cite:
-
-```
-Lee S. (2026). Shawn-Bio-Search: Global biomedical paper and dataset discovery with metadata normalization, access checks, and local library lookup. GitHub repository.
-https://github.com/L-SHawn91/SHawn-bio-search
-```
+If you use Shawn-Bio-Search in your research, please cite the repository URL and the release or commit you used.
 
 ## Contact
 
 - Issues: [GitHub Issues](https://github.com/L-SHawn91/SHawn-bio-search/issues)
-- Email: leseichi@gmail.com

@@ -3,7 +3,7 @@
 - project_slug: shawn-bio-search
 - display_name: SHawn-bio-search
 - status: active-repo
-- working_folder: /home/mdge/github/SHawn-bio-search
+- working_folder: <repo-root>
 - repo_name: SHawn-bio-search
 - main_session: proj-shawn-bio-search
 - source_of_truth: filesystem-first
