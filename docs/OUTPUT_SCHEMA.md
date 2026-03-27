@@ -162,4 +162,4 @@ But they should not contain:
 - section-ready scientific narrative
 - manuscript-facing project scores
 
-Those belong to `SHawn-academic-research`.
+Those belong to downstream analysis and writing layers.

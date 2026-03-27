@@ -30,7 +30,7 @@ Out of scope:
 - scoring as a manuscript-facing decision layer
 - section drafting or review writing
 
-Those responsibilities belong to `SHawn-academic-research`.
+Those responsibilities belong to downstream analysis or writing layers, not to this retrieval repository.
 
 ## Positioning
 `SHawn-bio-search` should be treated as a reproducible biomedical retrieval backend rather than a chat-first literature assistant or graph-exploration UI.

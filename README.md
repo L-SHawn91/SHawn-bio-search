@@ -262,22 +262,9 @@ It is positioned as a **reproducible biomedical retrieval backend** focused on:
 - local library awareness
 - machine-readable export for downstream research workflows
 
-### Why not just use ResearchRabbit, Perplexity, or Liner?
-
-Those tools are useful, but they solve somewhat different problems:
-
-| Tool | Strong at | Less strong at |
-|---|---|---|
-| ResearchRabbit | citation graph exploration, related-paper discovery, author-network browsing | structured export, local library lookup, reproducible CLI workflows |
-| Perplexity | quick answers, fast summaries, low-friction search UX | workflow reproducibility, structured retrieval artifacts, dataset-oriented export |
-| Liner | rapid literature overview, lightweight summarization UI | retrieval automation, local Zotero-aware workflows, backend-style integration |
-| SHawn-bio-search | reproducible biomedical retrieval, access enrichment, local-library-aware discovery, downstream handoff | polished exploration UI, conversational answer UX, citation-map browsing |
-
 ### Practical framing
 
-- Use **ResearchRabbit** when you want to explore a literature neighborhood.
-- Use **Perplexity** or **Liner** when you want a fast answer or overview.
-- Use **SHawn-bio-search** when you want a controllable, automatable, auditable retrieval workflow that can feed a larger research pipeline.
+Use **SHawn-bio-search** when you want a controllable, automatable, auditable biomedical retrieval workflow focused on search, normalization, access checks, and downstream-ready artifacts.
 
 ## Documentation
 

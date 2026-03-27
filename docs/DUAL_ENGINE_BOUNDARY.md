@@ -1,10 +1,10 @@
-# SHawn Dual-Engine Boundary
+# Retrieval vs Analysis Boundary
 
 ## Core rule
 - `SHawn-bio-search` = retrieval engine
-- `SHawn-academic-research` = reasoning and synthesis engine
+- downstream analysis/writing layers = reasoning and synthesis engine
 
-These projects are designed to work together, but they should not collapse into one another.
+These layers are designed to work together, but they should not collapse into one another.
 
 ## What SHawn-bio-search owns
 
@@ -42,9 +42,9 @@ Avoid pushing these responsibilities into this repo:
 - final claim adjudication intended for publication text
 - polished discussion/conclusion writing
 
-## What SHawn-academic-research owns
+## What downstream analysis/writing layers own
 
-`SHawn-academic-research` is responsible for:
+Downstream analysis/writing layers are responsible for:
 - project framing
 - canonical working folder resolution
 - research mode choice (`fast` vs `full`)
@@ -65,7 +65,7 @@ Typical outputs:
 
 ## Integration contract
 
-Recommended handoff from `SHawn-bio-search` to `SHawn-academic-research`:
+Recommended handoff from `SHawn-bio-search` to downstream analysis/writing layers:
 
 ### Retrieval-side outputs
 - `SEARCH_RESULTS.json`
@@ -76,8 +76,8 @@ Recommended handoff from `SHawn-bio-search` to `SHawn-academic-research`:
 - `AVAILABILITY_REPORT.md`
 - `LOCAL_LIBRARY_MATCHES.csv`
 
-### Research-side consumption
-`SHawn-academic-research` should read those artifacts and then perform:
+### Analysis-side consumption
+Downstream analysis/writing layers should read those artifacts and then perform:
 - evidence consolidation
 - contradiction mapping
 - confidence judgment
@@ -88,14 +88,14 @@ Recommended handoff from `SHawn-bio-search` to `SHawn-academic-research`:
 
 If the question is:
 - "find" / "retrieve" / "search" / "expand sources" / "check access" / "find downloadable PDFs" / "see if it's already in Zotero" / "normalize identifiers" → use `SHawn-bio-search`
-- "interpret" / "synthesize" / "compare evidence" / "score importance" / "draft" / "write review text" / "explain contradiction" → use `SHawn-academic-research`
+- "interpret" / "synthesize" / "compare evidence" / "score importance" / "draft" / "write review text" / "explain contradiction" → use downstream analysis/writing layers
 
 ## Design philosophy
 
 This is a loose-coupled dual-engine architecture.
 
 That means:
-- no duplicated source adapters in `SHawn-academic-research`
+- no duplicated source adapters in downstream analysis/writing layers
 - no duplicated narrative synthesis engine in `SHawn-bio-search`
 - file-contract handoff preferred over hidden internal coupling
 - retrieval and judgment remain separable for auditability

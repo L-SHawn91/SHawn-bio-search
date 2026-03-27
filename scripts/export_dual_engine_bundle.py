@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Export SHawn-bio-search results into dual-engine handoff artifacts.
+"""Export SHawn-bio-search results into standardized handoff artifacts.
 
-This keeps retrieval outputs standardized for SHawn-academic-research ingestion.
+This keeps retrieval outputs stable for downstream analysis and writing workflows.
 During transition, legacy evidence-candidate export is kept for compatibility,
 while preferred outputs move toward retrieval/access/local-library artifacts.
 """

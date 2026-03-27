@@ -40,7 +40,7 @@ This checklist defines the current "v1 retrieval backend" completion line for `S
 - [x] Troubleshooting notes exist
 
 ## Not part of this completion line
-These belong to `SHawn-academic-research` or later phases:
+These belong to downstream analysis/writing layers or later phases:
 - manuscript-facing scoring
 - evidence synthesis and final adjudication
 - contradiction-aware writing
