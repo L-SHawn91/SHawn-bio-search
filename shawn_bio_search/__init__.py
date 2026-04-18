@@ -32,6 +32,15 @@ __version__ = "0.1.1"
 __author__ = "SHawn-bio-search contributors"
 
 from .search import search_papers, SearchResult
-from .sources import ALL_SOURCES
+from .sources import ALL_SOURCES, FREE_SOURCES, KEYED_SOURCES, check_sources
+from .env import load_dotenv
 
-__all__ = ["search_papers", "SearchResult", "ALL_SOURCES"]
+__all__ = [
+    "search_papers",
+    "SearchResult",
+    "ALL_SOURCES",
+    "FREE_SOURCES",
+    "KEYED_SOURCES",
+    "check_sources",
+    "load_dotenv",
+]

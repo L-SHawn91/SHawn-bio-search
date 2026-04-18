@@ -17,9 +17,12 @@ _API_LOOKUP = "https://api.unpaywall.org/v2/"
 
 
 def _email() -> str:
-    # Unpaywall requires an email parameter (polite pool). Falls back to a
-    # generic mailbox if the user has not configured one.
-    return os.getenv("UNPAYWALL_EMAIL") or os.getenv("CROSSREF_EMAIL") or "shawn-bio-search@example.com"
+    """Return the configured email, or empty string if none is set.
+
+    Unpaywall requires an email parameter. Callers should skip the source when
+    this returns empty rather than substituting a fake address.
+    """
+    return os.getenv("UNPAYWALL_EMAIL") or os.getenv("CROSSREF_EMAIL") or ""
 
 
 def _oa_url(oa_location: Optional[Dict[str, Any]]) -> str:
@@ -61,14 +64,19 @@ def _normalize(r: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def fetch_unpaywall(query: str, limit: int) -> List[Dict[str, Any]]:
-    """Text search Unpaywall (title/abstract keyword match)."""
-    if not query.strip():
+    """Text search Unpaywall (title/abstract keyword match).
+
+    Skipped silently when neither UNPAYWALL_EMAIL nor CROSSREF_EMAIL is set —
+    Unpaywall requires a real email for its polite-pool policy.
+    """
+    email = _email()
+    if not email or not query.strip():
         return []
 
     url = build_url(_API_SEARCH, {
         "query": query,
         "is_oa": "true",
-        "email": _email(),
+        "email": email,
     })
 
     try:
@@ -87,9 +95,10 @@ def fetch_unpaywall(query: str, limit: int) -> List[Dict[str, Any]]:
 
 def fetch_unpaywall_by_doi(doi: str) -> Optional[Dict[str, Any]]:
     """Direct DOI lookup — useful for enriching records from other sources."""
-    if not doi.strip():
+    email = _email()
+    if not email or not doi.strip():
         return None
-    url = _API_LOOKUP + doi.strip() + "?" + build_url("", {"email": _email()}).lstrip("?")
+    url = _API_LOOKUP + doi.strip() + "?" + build_url("", {"email": email}).lstrip("?")
     try:
         data = http_json(url, timeout=30)
     except Exception:
