@@ -137,11 +137,41 @@ def verify_citation(
     # Sort by context score
     all_candidates.sort(key=lambda x: x["_context_score"], reverse=True)
 
+    # Compute rank_gap: the separation between top-1 and the next-best candidate.
+    # This is the core of the relative-ranking HIGH gate — HIGH requires both a
+    # good absolute score AND a clear separation from runner-ups.
+    _assign_confidence_with_gap(all_candidates)
+
     for c in all_candidates:
         c["_strategies_tried"] = strategies_tried
-        c["_verification_confidence"] = _score_to_confidence(c["_context_score"])
 
     return all_candidates
+
+
+def _assign_confidence_with_gap(candidates: List[Dict[str, Any]]) -> None:
+    """Attach `_rank_gap` and `_verification_confidence` using both absolute
+    score and top1-vs-top2 separation.
+
+    Rules
+    -----
+    * Only the top-ranked candidate can receive HIGH — non-top candidates keep
+      score-only classification (they don't have "their" gap).
+    * For the top candidate, `_rank_gap = score[0] - score[1]` (or 1.0 when it
+      is the sole candidate). HIGH requires `score >= 0.55 AND gap >= 0.15`;
+      otherwise it falls back to score-only thresholds.
+    """
+    n = len(candidates)
+    for i, c in enumerate(candidates):
+        score = float(c.get("_context_score", 0.0))
+        if i == 0:
+            if n >= 2:
+                gap = score - float(candidates[1].get("_context_score", 0.0))
+            else:
+                gap = 1.0  # sole candidate: treat as fully separated
+        else:
+            gap = 0.0
+        c["_rank_gap"] = round(gap, 3)
+        c["_verification_confidence"] = _classify_with_gap(score, gap)
 
 
 def _compute_context_score(
@@ -341,13 +371,17 @@ def _semantic_scholar_search(
 
 
 def _score_to_confidence(score: float) -> str:
-    """Classify confidence level.
+    """Score-only confidence classification (legacy).
 
-    Since base score is 0.35 (author+year match), thresholds are adjusted:
-    - HIGH: base + good keyword overlap
-    - MEDIUM: base + some overlap (most author+year matches land here)
-    - LOW: only partial match
-    - UNLIKELY: very low overlap among many candidates (likely wrong person)
+    Kept for non-top candidates where a `_rank_gap` is not meaningful.
+    For the top candidate, prefer `_classify_with_gap`.
+
+    Since base score is 0.35 (author+year match), thresholds are:
+    - HIGH:     score >= 0.55  (note: the top candidate additionally needs
+                                rank_gap >= 0.15 — see `_classify_with_gap`)
+    - MEDIUM:   score >= 0.40
+    - LOW:      score >= 0.25
+    - UNLIKELY: score <  0.25
     """
     if score >= 0.55:
         return "HIGH"
@@ -357,6 +391,23 @@ def _score_to_confidence(score: float) -> str:
         return "LOW"
     else:
         return "UNLIKELY"
+
+
+def _classify_with_gap(score: float, rank_gap: float) -> str:
+    """Confidence classification that uses both absolute score and the gap
+    between the top candidate and the next-best candidate.
+
+    HIGH is awarded only when the candidate both clears the absolute score
+    bar AND dominates its runner-up, preventing over-confident calls when
+    multiple same-author-same-year papers score similarly.
+    """
+    if score >= 0.55 and rank_gap >= 0.15:
+        return "HIGH"
+    if score >= 0.40:
+        return "MEDIUM"
+    if score >= 0.25:
+        return "LOW"
+    return "UNLIKELY"
 
 
 def _build_verification_strategies(
