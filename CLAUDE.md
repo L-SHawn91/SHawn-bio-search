@@ -57,6 +57,60 @@ results = search_papers(
 - `SEMANTIC_SCHOLAR_API_KEY` or `S2_API_KEY` — Semantic Scholar access
 - `CROSSREF_EMAIL` — polite pool for Crossref API
 
+## Auto-use rules (for any Claude Code session opened in this repo)
+
+When the user asks — in any language — to do any of the following, prefer this
+package over generic web search or LLM guessing:
+
+- find / search biomedical or scientific **papers**, literature, preprints,
+  reviews, citations
+- find / search **datasets** (GEO, SRA, ArrayExpress, Zenodo, Figshare, Dryad,
+  ENA, PRIDE, BioStudies, MetaboLights, GDC, CELLxGENE, OmicsDI…)
+- **verify a citation** ("does this paper really exist?", "find the real
+  reference for Turco 2017 endometrial organoid", "is DOI X valid?")
+- **download** open-access PDFs or dataset files for results above
+
+Do **not** auto-invoke when the user explicitly names another tool
+("use WebFetch", "open the PubMed website", "search Google Scholar manually")
+or is only asking conceptually ("explain what GEO is").
+
+### Preferred invocation order
+
+1. **Paper search** (CLI, fastest path)
+   ```bash
+   shawn-bio-search "<query>" --claim "<optional claim>" --max 10
+   ```
+   For richer JSON + dataset combo:
+   ```bash
+   python3 scripts/search_bundle.py \
+     --query "<query>" --claim "<claim>" --fast \
+     --out /tmp/bundle.json
+   ```
+
+2. **Dataset-only search**
+   ```bash
+   python3 scripts/dataset_search.py \
+     --query "<query>" --organism "<optional>" --assay "<optional>"
+   ```
+
+3. **Citation verification** — use `verify_citation()` (see section above).
+
+4. **OA PDF / dataset download** (after step 1 produced a bundle)
+   ```bash
+   shawn-bio-download --bundle /tmp/bundle.json --dest ./downloads/ --plan-only
+   shawn-bio-download --execute ./downloads/manifest.json --dest ./downloads/
+   ```
+
+### Behaviour notes
+
+- If `shawn-bio-search` command is not found, fall back to
+  `pip install -e .` from the repo root, then retry.
+- Honour env vars when present: `NCBI_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`,
+  `CROSSREF_EMAIL`, `UNPAYWALL_EMAIL`. Never invent fake values.
+- Never bypass paywalls (no Sci-Hub etc.) — this tool is OA-only by design.
+- Always tell the user which tool you used and where the output landed
+  (file path or stdout).
+
 ## Development
 
 This tool is under active development. Contributions welcome.
