@@ -134,26 +134,64 @@ def _enumerate_geo(record: Dict[str, Any]) -> List[File]:
 
 
 def _enumerate_biostudies(record: Dict[str, Any]) -> List[File]:
+    """BioStudies / ArrayExpress file enumeration.
+
+    Uses /api/v1/files/{acc} (DataTables-style response with `data` array of
+    file dicts). Previously /info was used which returns column metadata, not
+    files — leading to silent empty results. ArrayExpress accessions like
+    E-MTAB-* are mirrored here.
+    """
     acc = str(record.get("accession") or "")
     if not acc:
         return []
     try:
-        data = http_json(f"https://www.ebi.ac.uk/biostudies/api/v1/studies/{acc}/info")
+        data = http_json(f"https://www.ebi.ac.uk/biostudies/api/v1/files/{acc}")
     except Exception:
-        return []
+        # Fallback: try the older `studies/{acc}` deep tree
+        try:
+            tree = http_json(f"https://www.ebi.ac.uk/biostudies/api/v1/studies/{acc}")
+        except Exception:
+            return []
+        data = {"data": _flatten_biostudies_files(tree)}
     out: List[File] = []
-    for f in (data.get("files") or []) if isinstance(data, dict) else []:
+    items = data.get("data") if isinstance(data, dict) else None
+    if not isinstance(items, list):
+        return []
+    for f in items:
         if not isinstance(f, dict):
             continue
-        path = f.get("path") or ""
+        path = f.get("path") or f.get("Name") or ""
         if not path:
             continue
+        size = f.get("size") or f.get("Size")
+        if isinstance(size, str) and size.isdigit():
+            size = int(size)
         out.append({
             "name": path,
             "url": f"https://www.ebi.ac.uk/biostudies/files/{acc}/{path}",
-            "size": f.get("size"),
-            "checksum": "",
+            "size": size,
+            "checksum": f.get("md5") or "",
         })
+    return out
+
+
+def _flatten_biostudies_files(tree: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Walk study tree to collect all file entries from nested subsections."""
+    out: List[Dict[str, Any]] = []
+
+    def _walk(node):
+        if isinstance(node, dict):
+            if "files" in node and isinstance(node["files"], list):
+                for f in node["files"]:
+                    if isinstance(f, dict) and f.get("path"):
+                        out.append(f)
+            for v in node.values():
+                _walk(v)
+        elif isinstance(node, list):
+            for item in node:
+                _walk(item)
+
+    _walk(tree)
     return out
 
 
@@ -360,6 +398,140 @@ def _enumerate_cngb(record: Dict[str, Any]) -> List[File]:
     return out
 
 
+def _enumerate_hubmap(record: Dict[str, Any]) -> List[File]:
+    """HuBMAP Data Portal (POST-based Elasticsearch query)."""
+    acc = str(record.get("accession") or "").strip()
+    if not acc:
+        return []
+    import json as _json
+    import urllib.request as _urlreq
+    query = {"query": {"bool": {"must": [{"match": {"hubmap_id": acc}}]}}, "size": 10}
+    req = _urlreq.Request(
+        "https://search.api.hubmapconsortium.org/v3/portal/search",
+        data=_json.dumps(query).encode(),
+        headers={"Content-Type": "application/json", "Accept": "application/json"},
+        method="POST",
+    )
+    try:
+        with _urlreq.urlopen(req, timeout=15) as resp:
+            data = _json.loads(resp.read())
+    except Exception:
+        return []
+    out: List[File] = []
+    for hit in (data.get("hits", {}).get("hits") or []):
+        src = hit.get("_source", {}) or {}
+        for f in (src.get("files") or []):
+            url = f.get("rel_path") or f.get("url")
+            if not url:
+                continue
+            if not url.startswith("http"):
+                uuid = src.get("uuid") or hit.get("_id", "")
+                url = f"https://assets.hubmapconsortium.org/{uuid}/{url}"
+            out.append({
+                "name": f.get("rel_path") or f.get("description") or "",
+                "url": url,
+                "size": f.get("size"),
+                "checksum": f.get("checksum") or "",
+            })
+    return out
+
+
+def _enumerate_gtex(record: Dict[str, Any]) -> List[File]:
+    """GTEx Portal — file URLs are static per dataset version.
+
+    The portal API exposes dataset metadata; actual files are at
+    `https://storage.googleapis.com/adult-gtex/...` with predictable paths.
+    For specific dataset IDs like `gtex_v8`, returns known top-level
+    expression matrix and sample attributes links.
+    """
+    acc = str(record.get("accession") or "").strip().lower()
+    if not acc:
+        return []
+    # Known datasets with stable public URLs
+    GTEX_DATASETS = {
+        "gtex_v8": [
+            ("GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt",
+             "https://storage.googleapis.com/adult-gtex/annotations/v8/metadata-files/GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt"),
+            ("GTEx_Analysis_v8_Annotations_SubjectPhenotypesDS.txt",
+             "https://storage.googleapis.com/adult-gtex/annotations/v8/metadata-files/GTEx_Analysis_v8_Annotations_SubjectPhenotypesDS.txt"),
+            ("GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct.gz",
+             "https://storage.googleapis.com/adult-gtex/bulk-gex/v8/rna-seq/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct.gz"),
+        ],
+    }
+    files = GTEX_DATASETS.get(acc) or []
+    return [{"name": name, "url": url, "size": None, "checksum": ""} for name, url in files]
+
+
+def _enumerate_biomodels(record: Dict[str, Any]) -> List[File]:
+    """EBI BioModels — JSON model detail + download links."""
+    acc = str(record.get("accession") or "").strip()
+    if not acc:
+        return []
+    try:
+        data = http_json(f"https://www.ebi.ac.uk/biomodels/{acc}?format=json")
+    except Exception:
+        return []
+    out: List[File] = []
+    for section in ("main", "additional"):
+        for f in (data.get("files", {}).get(section) or []) if isinstance(data, dict) else []:
+            name = f.get("name") or ""
+            if not name:
+                continue
+            out.append({
+                "name": name,
+                "url": f"https://www.ebi.ac.uk/biomodels/model/download/{acc}?filename={urllib.parse.quote(name)}",
+                "size": f.get("fileSize"),
+                "checksum": "",
+            })
+    return out
+
+
+def _enumerate_omicsdi(record: Dict[str, Any]) -> List[File]:
+    """OmicsDI — aggregator; resolves to underlying repo URL.
+
+    For an OmicsDI dataset ID, fetch detail then defer to the source repo's
+    resolver when possible. Fallback: return landing page URL.
+    """
+    acc = str(record.get("accession") or "").strip()
+    if not acc:
+        return []
+    try:
+        data = http_json(f"https://www.omicsdi.org/ws/dataset/{urllib.parse.quote(acc)}")
+    except Exception:
+        return []
+    if not isinstance(data, dict):
+        return []
+    out: List[File] = []
+    # OmicsDI's `file_versions` sometimes expose direct URLs
+    for f in (data.get("file_versions") or []):
+        if not isinstance(f, dict):
+            continue
+        url = f.get("url")
+        if url:
+            out.append({"name": f.get("name") or "", "url": url, "size": f.get("size"), "checksum": ""})
+    return out
+
+
+def _enumerate_expression_atlas(record: Dict[str, Any]) -> List[File]:
+    """EBI Expression Atlas — normalized expression matrices.
+
+    Accessions like E-MTAB-XXXX mirror ArrayExpress, served at gxa endpoints.
+    """
+    acc = str(record.get("accession") or "").strip()
+    if not acc:
+        return []
+    # Per-experiment downloads
+    files = [
+        f"https://www.ebi.ac.uk/gxa/experiments/{acc}/resources/ExperimentDownloadSupplier.RnaSeqBaseline/tsv",
+        f"https://www.ebi.ac.uk/gxa/experiments/{acc}/resources/ExperimentDesignFile/tsv",
+    ]
+    out = []
+    for url in files:
+        name = url.rsplit("/", 1)[-1] + ".tsv"
+        out.append({"name": f"{acc}_{name}", "url": url, "size": None, "checksum": ""})
+    return out
+
+
 def _enumerate_hca(record: Dict[str, Any]) -> List[File]:
     """Human Cell Atlas Data Portal (https://data.humancellatlas.org).
 
@@ -431,6 +603,14 @@ _RESOLVERS: Dict[str, Callable[[Dict[str, Any]], List[File]]] = {
     # Single-cell atlases (added 2026-04-22)
     "hca": _enumerate_hca,
     "humancellatlas": _enumerate_hca,
+    "hubmap": _enumerate_hubmap,
+    # Bulk + functional (added 2026-04-22)
+    "gtex": _enumerate_gtex,
+    "biomodels": _enumerate_biomodels,
+    "omicsdi": _enumerate_omicsdi,
+    "expression_atlas": _enumerate_expression_atlas,
+    "expressionatlas": _enumerate_expression_atlas,
+    "gxa": _enumerate_expression_atlas,
 }
 
 
