@@ -264,16 +264,150 @@ def _enumerate_cellxgene(record: Dict[str, Any]) -> List[File]:
     return out
 
 
+def _enumerate_ddbj(record: Dict[str, Any]) -> List[File]:
+    """DDBJ DRA/DRR/DRS/DRX accessions are mirrored in ENA via INSDC.
+
+    DDBJ landing page (https://ddbj.nig.ac.jp/resource/sra-...) does not expose
+    direct fastq URLs; ENA does. We pass-through to the ENA filereport API.
+    """
+    acc = str(record.get("accession") or "").strip().upper()
+    if not acc:
+        return []
+    return _enumerate_ena({"accession": acc})
+
+
+def _enumerate_gsa(record: Dict[str, Any]) -> List[File]:
+    """CNCB-NGDC Genome Sequence Archive (China).
+
+    Accessions: CRA######, CRR######, CRX######, CRS######, PRJCA######.
+    Public API: https://ngdc.cncb.ac.cn/gsa/file/exportMetaInfo (returns json
+    with run + file URLs). For run-level fastq, files served from
+    download.cncb.ac.cn over HTTP.
+    """
+    acc = str(record.get("accession") or "").strip().upper()
+    if not acc:
+        return []
+    # GSA exposes file metadata via rest endpoint
+    url = f"https://ngdc.cncb.ac.cn/gsa/file/exportMetaInfo?acc={acc}"
+    try:
+        data = http_json(url)
+    except Exception:
+        return []
+    out: List[File] = []
+    if not isinstance(data, dict):
+        return []
+    files = data.get("data") or data.get("files") or []
+    if isinstance(files, dict):
+        files = files.get("list") or []
+    for f in files:
+        if not isinstance(f, dict):
+            continue
+        # Field names vary; cover both common shapes
+        file_url = f.get("url") or f.get("downloadUrl") or f.get("ftp")
+        if not file_url:
+            continue
+        # Normalize to https
+        if file_url.startswith("ftp://"):
+            file_url = "https://" + file_url[len("ftp://"):]
+        out.append({
+            "name": f.get("name") or f.get("fileName") or file_url.rsplit("/", 1)[-1],
+            "url": file_url,
+            "size": f.get("size") or f.get("fileSize"),
+            "checksum": f.get("md5") or f.get("checksum") or "",
+        })
+    return out
+
+
+def _enumerate_cngb(record: Dict[str, Any]) -> List[File]:
+    """China National GeneBank (CNGB-db).
+
+    Accessions: CNP######### (project), CNS######## (study).
+    File listing via the CNGB sequence portal API.
+    """
+    acc = str(record.get("accession") or "").strip().upper()
+    if not acc:
+        return []
+    # CNGB-db public API for project files
+    candidates = [
+        f"https://api.cngb.org/cnsa/api/file/list?accession={acc}",
+        f"https://db.cngb.org/api/cnsa/file/list?accession={acc}",
+    ]
+    out: List[File] = []
+    for url in candidates:
+        try:
+            data = http_json(url)
+        except Exception:
+            continue
+        if not isinstance(data, dict):
+            continue
+        items = data.get("data") or data.get("list") or []
+        if isinstance(items, dict):
+            items = items.get("items") or []
+        for f in items:
+            if not isinstance(f, dict):
+                continue
+            file_url = f.get("downloadUrl") or f.get("url") or f.get("ftp_url")
+            if not file_url:
+                continue
+            out.append({
+                "name": f.get("fileName") or f.get("name") or "",
+                "url": file_url,
+                "size": f.get("fileSize") or f.get("size"),
+                "checksum": f.get("md5") or "",
+            })
+        if out:
+            break
+    return out
+
+
+def _enumerate_hca(record: Dict[str, Any]) -> List[File]:
+    """Human Cell Atlas Data Portal (https://data.humancellatlas.org).
+
+    Project UUIDs accepted. Returns matrix + raw file URLs from Azul service.
+    """
+    acc = str(record.get("accession") or "").strip()
+    if not acc:
+        return []
+    # Azul project endpoint
+    url = f"https://service.azul.data.humancellatlas.org/repository/files?filters=%7B%22projectId%22%3A%7B%22is%22%3A%5B%22{acc}%22%5D%7D%7D&size=200&format=tsv"
+    # JSON endpoint for clean file list
+    json_url = (
+        "https://service.azul.data.humancellatlas.org/repository/files?"
+        + urllib.parse.urlencode({
+            "filters": f'{{"projectId":{{"is":["{acc}"]}}}}',
+            "size": "200",
+        })
+    )
+    try:
+        data = http_json(json_url)
+    except Exception:
+        return []
+    out: List[File] = []
+    for hit in (data.get("hits") or []) if isinstance(data, dict) else []:
+        for f in (hit.get("files") or []):
+            url_v = f.get("url")
+            if not url_v:
+                continue
+            out.append({
+                "name": f.get("name") or "",
+                "url": url_v,
+                "size": f.get("size"),
+                "checksum": f.get("sha256") or f.get("crc32c") or "",
+            })
+    return out
+
+
 _EXTERNAL_TOOL: Dict[str, Dict[str, Any]] = {
     "sra": {"tool": "prefetch", "note": "Install sra-tools; run `prefetch <acc>` in the destination directory."},
     "gdc": {"tool": "gdc-client", "note": "Install gdc-client; download via manifest from https://portal.gdc.cancer.gov/."},
     "bioproject": {"tool": "prefetch", "note": "Resolve BioProject to SRA accessions, then use sra-tools."},
     "dbgap": {"tool": "sra-toolkit (controlled access)", "note": "Requires dbGaP approval and prefetch with dbGaP key."},
     "tcga": {"tool": "gdc-client", "note": "Use gdc-client with a GDC manifest (authentication may be required)."},
+    "ega": {"tool": "pyega3", "note": "Install pyega3; controlled access — requires EGA account + dataset approval."},
 }
 
 
-_NO_URL_REPOS = {"bigd", "bigd/gsa", "gsa", "cngb", "cngbdb", "ddbj", "datacite"}
+_NO_URL_REPOS = {"datacite"}  # genuinely no programmatic file access
 
 
 _RESOLVERS: Dict[str, Callable[[Dict[str, Any]], List[File]]] = {
@@ -287,6 +421,16 @@ _RESOLVERS: Dict[str, Callable[[Dict[str, Any]], List[File]]] = {
     "pride": _enumerate_pride,
     "metabolights": _enumerate_metabolights,
     "cellxgene": _enumerate_cellxgene,
+    # Asia (added 2026-04-22)
+    "ddbj": _enumerate_ddbj,
+    "gsa": _enumerate_gsa,
+    "bigd": _enumerate_gsa,
+    "bigd/gsa": _enumerate_gsa,
+    "cngb": _enumerate_cngb,
+    "cngbdb": _enumerate_cngb,
+    # Single-cell atlases (added 2026-04-22)
+    "hca": _enumerate_hca,
+    "humancellatlas": _enumerate_hca,
 }
 
 
