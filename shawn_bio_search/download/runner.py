@@ -58,14 +58,44 @@ def _short_id(record: Dict[str, Any]) -> str:
     return hashlib.sha1(repr(sorted(record.items())).encode()).hexdigest()[:8]
 
 
+_FORBIDDEN_FN = re.compile(r"[\x00-\x1f/\\:*?\"<>|]")
+
+
 def _paper_filename(record: Dict[str, Any]) -> str:
+    """Zotero-standard filename: 'Author 등 - YEAR - Title.pdf' (default).
+
+    Falls back to short-id form when title or year is missing.
+    Set env SHAWN_FILENAME_STYLE=canonical to revert to legacy
+    'author_year_shortid.pdf'.
+    """
+    import os as _os
     authors = record.get("authors") or []
     first = ""
     if authors:
         first_full = str(authors[0]).strip()
-        first = first_full.split(",")[0].split(" ")[-1] if first_full else ""
-    year = str(record.get("year") or "n.d.")
-    return f"{_slug(first or 'anon', 'anon')}_{_slug(year, 'n.d.')}_{_short_id(record)}.pdf"
+        # surname (last token after splitting "Family, Given" or "Given Family")
+        if "," in first_full:
+            first = first_full.split(",")[0].strip()
+        else:
+            first = first_full.split(" ")[-1]
+    year = str(record.get("year") or "")
+    title = (record.get("title") or "").strip()
+
+    style = _os.environ.get("SHAWN_FILENAME_STYLE", "zotero").lower()
+    if style == "canonical" or not title or not year:
+        # legacy / fallback
+        y = year or "n.d."
+        return f"{_slug(first or 'anon', 'anon')}_{_slug(y, 'n.d.')}_{_short_id(record)}.pdf"
+
+    # Zotero-standard
+    fa = first or "Anon"
+    multi_marker = " 등" if len(authors) > 1 else ""
+    title_clean = _FORBIDDEN_FN.sub("", title.replace("\n", " "))
+    title_clean = re.sub(r"\s+", " ", title_clean).strip()
+    if len(title_clean) > 90:
+        title_clean = title_clean[:90].rsplit(" ", 1)[0]
+    fa_clean = _FORBIDDEN_FN.sub("", fa)[:60]
+    return f"{fa_clean}{multi_marker} - {year} - {title_clean}.pdf"
 
 
 def _resolve_collision(dest_root: Path, rel: Path) -> Path:
