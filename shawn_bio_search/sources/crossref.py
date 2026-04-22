@@ -13,6 +13,50 @@ def _get_json(url: str) -> Any:
         return __import__("json").loads(resp.read().decode("utf-8"))
 
 
+def fetch_crossref_by_doi(doi: str) -> Dict[str, Any] | None:
+    """Direct Crossref DOI lookup via /works/{doi}.
+
+    Returns one record dict or None. Use when fetch_by_doi (PubMed) returns
+    empty for non-PubMed DOIs (BMC, Frontiers, MDPI, Wiley, Elsevier, etc.).
+    """
+    if not doi:
+        return None
+    d = doi.strip().lower().replace("https://doi.org/", "")
+    url = f"https://api.crossref.org/works/{urllib.parse.quote(d, safe='')}"
+    try:
+        data = _get_json(url)
+    except Exception:
+        return None
+    msg = data.get("message", {}) if isinstance(data, dict) else {}
+    if not msg:
+        return None
+    authors = []
+    for a in msg.get("author") or []:
+        name = " ".join([x for x in [a.get("given"), a.get("family")] if x])
+        if name:
+            authors.append(name)
+    year = 0
+    dp = (msg.get("issued") or {}).get("date-parts") or []
+    if dp and isinstance(dp[0], list) and dp[0]:
+        year = int(dp[0][0] or 0)
+    title_list = msg.get("title") or []
+    abs_raw = msg.get("abstract") or ""
+    abs_text = re.sub(r"<[^>]+", " ", html.unescape(abs_raw)).strip() if abs_raw else ""
+    return {
+        "source": "crossref",
+        "id": msg.get("DOI") or "",
+        "title": title_list[0] if title_list else "",
+        "authors": authors,
+        "first_author": authors[0] if authors else "",
+        "year": year,
+        "doi": msg.get("DOI"),
+        "url": (msg.get("URL") or "").strip(),
+        "abstract": re.sub(r"\s+", " ", abs_text),
+        "container": (msg.get("container-title") or [""])[0],
+        "citations": int(msg.get("is-referenced-by-count") or 0),
+    }
+
+
 def fetch_crossref(query: str, limit: int) -> List[Dict[str, Any]]:
     """Fetch papers from Crossref."""
     params = {"query": query, "rows": str(max(1, min(limit, 100)))}
