@@ -36,6 +36,7 @@ _HOST_MIN_INTERVAL: Dict[str, float] = {
     "www.biorxiv.org": 1.1,
     "www.medrxiv.org": 1.1,
     "europepmc.org": 0.5,
+    "www.ncbi.nlm.nih.gov": 0.5,
     "ftp.ncbi.nlm.nih.gov": 0.5,
     "datadryad.org": 0.5,
     "api.cellxgene.cziscience.com": 0.3,
@@ -43,8 +44,22 @@ _HOST_MIN_INTERVAL: Dict[str, float] = {
 _LAST_CALL_AT: Dict[str, float] = {}
 
 
+def _effective_min_interval(host: str) -> float:
+    """Per-host minimum interval, adjusted by available API credentials.
+
+    NCBI allows 10 req/s with an API key vs 3 req/s without. The default 0.35 s
+    interval is the safe no-key value; we drop it to 0.1 s when NCBI_API_KEY is
+    set. Similar upgrades could be added for other keyed hosts later.
+    """
+    import os as _os
+    base = _HOST_MIN_INTERVAL.get(host, 0.0)
+    if host == "eutils.ncbi.nlm.nih.gov" and _os.environ.get("NCBI_API_KEY"):
+        return 0.11
+    return base
+
+
 def _rate_limit(host: str) -> None:
-    min_interval = _HOST_MIN_INTERVAL.get(host, 0.0)
+    min_interval = _effective_min_interval(host)
     if min_interval <= 0:
         return
     last = _LAST_CALL_AT.get(host, 0.0)
