@@ -1,0 +1,7 @@
+repository	accession	title	organism	tissue	platform	raw_available	processed_available	source_query	project_relevance_hint	paper_link_candidate	promotion_ready
+geo	GPL570	[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array	Homo sapiens			false	false	hgf endometrium epithelial proliferation	candidate dataset hit		false
+bigd	CRX961582	F0-Et_1			Other	false	false	hgf endometrium epithelial proliferation	candidate dataset hit		false
+bigd	CRX1195146	Pis-A-7			RNASeq	false	false	hgf endometrium epithelial proliferation	candidate dataset hit		false
+bigd	CRX556782	B1010			Genome	false	false	hgf endometrium epithelial proliferation	candidate dataset hit		false
+bigd	CRX1543410	LPSvsRAW6_1			RNASeq	false	false	hgf endometrium epithelial proliferation	candidate dataset hit		false
+bigd	CRX1064737	F2100244			Genome	false	false	hgf endometrium epithelial proliferation	candidate dataset hit		false

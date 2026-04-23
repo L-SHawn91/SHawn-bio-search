@@ -1,0 +1,989 @@
+{
+  "query": "Y-27632 canine endometrial organoid initial formation ROCK inhibitor",
+  "papers": {
+    "query": "Y-27632 canine endometrial organoid initial formation ROCK inhibitor",
+    "effective_query": "(Y-27632 canine endometrial organoid initial formation ROCK inhibitor) OR (endometrium OR uterus OR uterine OR organoids OR \"3d culture\" OR \"3d model\")",
+    "claim": "",
+    "effective_claim": "",
+    "hypothesis": "",
+    "project_mode": "endometrial_organoid",
+    "query_expanded": true,
+    "count": 23,
+    "warnings": [
+      "fast mode: focused on pubmed/europe_pmc/openalex only"
+    ],
+    "papers": [
+      {
+        "source": "pubmed",
+        "id": "pmid:28394884",
+        "title": "Long-term, hormone-responsive organoid cultures of human endometrium in a chemically defined medium.",
+        "authors": [
+          "Turco MY",
+          "Lucy Gardner",
+          "Jasmine Hughes",
+          "Cindrova-Davies T",
+          "Gomez MJ",
+          "Lydia Farrell",
+          "Michael Hollinshead",
+          "Marsh SGE",
+          "Brosens JJ",
+          "Critchley HO",
+          "Simons BD",
+          "Myriam Hemberger",
+          "Koo BK",
+          "Ashley Moffett",
+          "Burton GJ",
+          "Margherita Y Turco",
+          "Tereza Cindrová‐Davies",
+          "María Gómez‐Ruíz",
+          "Steven G E Marsh",
+          "Jan J Brosens",
+          "Hilary Critchley",
+          "Benjamin D Simons",
+          "Bon‐Kyoung Koo",
+          "Graham J Burton"
+        ],
+        "year": 2017,
+        "doi": "10.1038/ncb3516",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28394884/",
+        "abstract": "In humans, the endometrium, the uterine mucosal lining, undergoes dynamic changes throughout the menstrual cycle and pregnancy. Despite the importance of the endometrium as the site of implantation and nutritional support for the conceptus, there are no long-term culture systems that recapitulate endometrial function in vitro. We adapted conditions used to establish human adult stem-cell-derived organoid cultures to generate three-dimensional cultures of normal and decidualized human endometrium. These organoids expand long-term, are genetically stable and differentiate following treatment with reproductive hormones. Single cells from both endometrium and decidua can generate a fully functional organoid. Transcript analysis confirmed great similarity between organoids and the primary tissue of origin. On exposure to pregnancy signals, endometrial organoids develop characteristics of early pregnancy. We also derived organoids from malignant endometrium, and so provide a foundation to study common diseases, such as endometriosis and endometrial cancer, as well as the physiology of early gestation.",
+        "citations": 779,
+        "source_hits": [
+          "pubmed",
+          "openalex"
+        ],
+        "source_ids": [
+          "pmid:28394884",
+          "https://openalex.org/W2606864355"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.37,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.37,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "openalex",
+        "id": "https://openalex.org/W1483496013",
+        "title": "Organoid Models and Applications in Biomedical Research",
+        "authors": [
+          "Christodoulos Xinaris",
+          "Valerio Brizi",
+          "Giuseppe Remuzzi"
+        ],
+        "year": 2015,
+        "doi": "10.1159/000433566",
+        "url": "https://doi.org/10.1159/000433566",
+        "abstract": "Recent technical advances in the stem cell field have enabled the in vitro generation of complex structures resembling whole organs termed organoids. Most of these approaches employ three-dimensional (3D) culture systems that allow stem cell-derived or tissue progenitor cells to self-organize into 3D structures. These systems evolved, methodologically and conceptually, from classical reaggregation experiments, showing that dissociated cells from embryonic organs can reaggregate and re-create the original organ architecture. Since organoids can be grown from human stem cells and from patient-derived induced pluripotent stem cells, they create significant prospects for modelling development and diseases, for toxicology and drug discovery studies, and in the field of regenerative medicine. Here, we outline historical advances in the field and describe some of the major recent developments in 3D human organoid formation. Finally, we underline current limitations and highlight examples of how organoid technology can be applied in biomedical research.",
+        "citations": 3517,
+        "source_hits": [
+          "openalex"
+        ],
+        "source_ids": [
+          "https://openalex.org/W1483496013"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.95,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.365,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.365,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "openalex",
+        "id": "https://openalex.org/W1997883187",
+        "title": "Effects of Raloxifene on Bone Mineral Density, Serum Cholesterol Concentrations, and Uterine Endometrium in Postmenopausal Women",
+        "authors": [
+          "Pierre D. Delmas",
+          "Nina H. Bjarnason",
+          "Bruce Mitlak",
+          "Anne-Catherine Ravoux",
+          "Aarti S. Shah",
+          "William J. Huster",
+          "Michael Draper",
+          "Claus Christiansen"
+        ],
+        "year": 1997,
+        "doi": "10.1056/nejm199712043372301",
+        "url": "https://doi.org/10.1056/nejm199712043372301",
+        "abstract": "Daily therapy with raloxifene increases bone mineral density, lowers serum concentrations of total and low-density lipoprotein cholesterol, and does not stimulate the endometrium.",
+        "citations": 1647,
+        "source_hits": [
+          "openalex"
+        ],
+        "source_ids": [
+          "https://openalex.org/W1997883187"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.95,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.365,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.365,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "openalex",
+        "id": "https://openalex.org/W2441337908",
+        "title": "Modeling Development and Disease with Organoids",
+        "authors": [
+          "Hans Clevers"
+        ],
+        "year": 2016,
+        "doi": "10.1016/j.cell.2016.05.082",
+        "url": "https://doi.org/10.1016/j.cell.2016.05.082",
+        "abstract": "",
+        "citations": 3071,
+        "source_hits": [
+          "openalex"
+        ],
+        "source_ids": [
+          "https://openalex.org/W2441337908"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.95,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.325,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.325,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "openalex",
+        "id": "https://openalex.org/W2018286352",
+        "title": "Cerebral organoids model human brain development and microcephaly",
+        "authors": [
+          "Madeline A. Lancaster",
+          "Magdalena Renner",
+          "Carol-Anne Martin",
+          "D. Wénzel",
+          "Louise S. Bicknell",
+          "Matthew E. Hurles",
+          "Tessa Homfray",
+          "Josef Penninger",
+          "Andrew P. Jackson",
+          "Juergen A. Knoblich"
+        ],
+        "year": 2013,
+        "doi": "10.1038/nature12517",
+        "url": "https://doi.org/10.1038/nature12517",
+        "abstract": "",
+        "citations": 5260,
+        "source_hits": [
+          "openalex"
+        ],
+        "source_ids": [
+          "https://openalex.org/W2018286352"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.95,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.325,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.325,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "openalex",
+        "id": "https://openalex.org/W3040646360",
+        "title": "Human organoids: model systems for human biology and medicine",
+        "authors": [
+          "Jihoon Kim",
+          "Bon‐Kyoung Koo",
+          "Juergen A. Knoblich"
+        ],
+        "year": 2020,
+        "doi": "10.1038/s41580-020-0259-3",
+        "url": "https://doi.org/10.1038/s41580-020-0259-3",
+        "abstract": "",
+        "citations": 2033,
+        "source_hits": [
+          "openalex"
+        ],
+        "source_ids": [
+          "https://openalex.org/W3040646360"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.95,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.325,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.325,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "openalex",
+        "id": "https://openalex.org/W1741548448",
+        "title": "Prospective Derivation of a Living Organoid Biobank of Colorectal Cancer Patients",
+        "authors": [
+          "Marc van de Wetering",
+          "Hayley E. Francies",
+          "Joshua M. Francis",
+          "Gergana Bounova",
+          "Francesco Iorio",
+          "Apollo Pronk",
+          "Winan J. van Houdt",
+          "Joost van Gorp",
+          "Amaro Taylor‐Weiner",
+          "Lennart Kester",
+          "Anne McLaren-Douglas",
+          "Joyce Blokker",
+          "Sridevi Jaksani",
+          "Sina Bartfeld",
+          "Richard Volckman",
+          "Peter van Sluis",
+          "Vivian Li",
+          "Sara Seepo",
+          "Chandra Sekhar Pedamallu",
+          "Kristian Cibulskis",
+          "Scott L. Carter",
+          "Aaron McKenna",
+          "Michael S. Lawrence",
+          "Lee Lichtenstein",
+          "Chip Stewart",
+          "Jan Köster",
+          "Rogier Versteeg",
+          "Alexander van Oudenaarden",
+          "Julio Sáez-Rodríguez",
+          "Robert G.J. Vries",
+          "Gad Getz",
+          "Lodewyk F.A. Wessels",
+          "Michael R. Stratton",
+          "Ultan McDermott",
+          "Matthew Meyerson",
+          "Mathew J. Garnett",
+          "Hans Clevers"
+        ],
+        "year": 2015,
+        "doi": "10.1016/j.cell.2015.03.053",
+        "url": "https://doi.org/10.1016/j.cell.2015.03.053",
+        "abstract": "",
+        "citations": 2383,
+        "source_hits": [
+          "openalex"
+        ],
+        "source_ids": [
+          "https://openalex.org/W1741548448"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.95,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.325,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.325,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "openalex",
+        "id": "https://openalex.org/W2799444748",
+        "title": "Organoids in cancer research",
+        "authors": [
+          "Jarno Drost",
+          "Hans Clevers"
+        ],
+        "year": 2018,
+        "doi": "10.1038/s41568-018-0007-6",
+        "url": "https://doi.org/10.1038/s41568-018-0007-6",
+        "abstract": "",
+        "citations": 1668,
+        "source_hits": [
+          "openalex"
+        ],
+        "source_ids": [
+          "https://openalex.org/W2799444748"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.95,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.325,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.325,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "pubmed",
+        "id": "pmid:31776138",
+        "title": "Development of the human placenta.",
+        "authors": [
+          "Turco MY",
+          "Moffett A"
+        ],
+        "year": 2019,
+        "doi": "10.1242/dev.163428",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31776138/",
+        "abstract": "The placenta is essential for normal in utero development in mammals. In humans, defective placental formation underpins common pregnancy disorders such as pre-eclampsia and fetal growth restriction. The great variation in placental types across mammals means that animal models have been of limited use in understanding human placental development. However, new tools for studying human placental development, including 3D organoids, stem cell culture systems and single cell RNA sequencing, have brought new insights into this field. Here, we review the morphological, molecular and functional aspects of human placental formation, with a focus on the defining cell of the placenta - the trophoblast.",
+        "citations": 0,
+        "source_hits": [
+          "pubmed"
+        ],
+        "source_ids": [
+          "pmid:31776138"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.17,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.17,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "pubmed",
+        "id": "pmid:37693361",
+        "title": "Using organoids to investigate human endometrial receptivity.",
+        "authors": [
+          "Guo J",
+          "Zhou W",
+          "Sacco M",
+          "Downing P",
+          "Dimitriadis E",
+          "Zhao F"
+        ],
+        "year": 2023,
+        "doi": "10.3389/fendo.2023.1158515",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37693361/",
+        "abstract": "The human endometrium is only receptive to an implanting blastocyst in the mid-secretory phase of each menstrual cycle. Such time-dependent alterations in function require intricate interplay of various factors, largely coordinated by estrogen and progesterone. Abnormal endometrial receptivity is thought to contribute to two-thirds of the implantation failure in humans and therefore significantly hindering IVF success. Despite the incontrovertible importance of endometrial receptivity in implantation, the precise mechanisms involved in the regulation of endometrial receptivity remain poorly defined. This is mainly due to a lack of proper in vitro models that recapitulate the in vivo environment of the receptive human endometrium. Organoids were recently established from human endometrium with promising features to better mimic the receptive phase. Endometrial organoids show long-term expandability and the capability to preserve the structural and functional characteristics of the endometrial tissue of origin. This three-dimensional model maintains a good responsiveness to steroid hormones in vitro and replicates key morphological features of the receptive endometrium in vivo, including pinopodes and pseudostratified epithelium. Here, we review the current findings of endometrial organoid studies that have been focused on investigating endometrial receptivity and place an emphasis on methods to further refine and improve this model.",
+        "citations": 0,
+        "source_hits": [
+          "pubmed"
+        ],
+        "source_ids": [
+          "pmid:37693361"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.17,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.17,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "pubmed",
+        "id": "pmid:34857954",
+        "title": "Mapping the temporal and spatial dynamics of the human endometrium in vivo and in vitro.",
+        "authors": [
+          "Garcia-Alonso L",
+          "Handfield LF",
+          "Roberts K",
+          "Nikolakopoulou K",
+          "Fernando RC",
+          "Gardner L",
+          "Woodhams B",
+          "Arutyunyan A",
+          "Polanski K",
+          "Hoo R",
+          "Sancho-Serra C",
+          "Li T",
+          "Kwakwa K",
+          "Tuck E",
+          "Lorenzi V",
+          "Massalha H",
+          "Prete M",
+          "Kleshchevnikov V",
+          "Tarkowska A",
+          "Porter T",
+          "Mazzeo CI",
+          "van Dongen S",
+          "Dabrowska M",
+          "Vaskivskyi V",
+          "Mahbubani KT",
+          "Park JE",
+          "Jimenez-Linan M",
+          "Campos L",
+          "Kiselev VY",
+          "Lindskog C",
+          "Ayuk P",
+          "Prigmore E",
+          "Stratton MR",
+          "Saeb-Parsy K",
+          "Moffett A",
+          "Moore L",
+          "Bayraktar OA",
+          "Teichmann SA",
+          "Turco MY",
+          "Vento-Tormo R"
+        ],
+        "year": 2021,
+        "doi": "10.1038/s41588-021-00972-2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34857954/",
+        "abstract": "The endometrium, the mucosal lining of the uterus, undergoes dynamic changes throughout the menstrual cycle in response to ovarian hormones. We have generated dense single-cell and spatial reference maps of the human uterus and three-dimensional endometrial organoid cultures. We dissect the signaling pathways that determine cell fate of the epithelial lineages in the lumenal and glandular microenvironments. Our benchmark of the endometrial organoids reveals the pathways and cell states regulating differentiation of the secretory and ciliated lineages both in vivo and in vitro. In vitro downregulation of WNT or NOTCH pathways increases the differentiation efficiency along the secretory and ciliated lineages, respectively. We utilize our cellular maps to deconvolute bulk data from endometrial cancers and endometriotic lesions, illuminating the cell types dominating in each of these disorders. These mechanistic insights provide a platform for future development of treatments for common conditions including endometriosis and endometrial carcinoma.",
+        "citations": 0,
+        "source_hits": [
+          "pubmed"
+        ],
+        "source_ids": [
+          "pmid:34857954"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.17,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.17,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "pubmed",
+        "id": "pmid:28442471",
+        "title": "Development of organoids from mouse and human endometrium showing endometrial epithelium physiology and long-term expandability.",
+        "authors": [
+          "Boretto M",
+          "Cox B",
+          "Noben M",
+          "Hendriks N",
+          "Fassbender A",
+          "Roose H",
+          "Amant F",
+          "Timmerman D",
+          "Tomassetti C",
+          "Vanhie A",
+          "Meuleman C",
+          "Ferrante M",
+          "Vankelecom H"
+        ],
+        "year": 2017,
+        "doi": "10.1242/dev.148478",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28442471/",
+        "abstract": "The endometrium, which is of crucial importance for reproduction, undergoes dynamic cyclic tissue remodeling. Knowledge of its molecular and cellular regulation is poor, primarily owing to a lack of study models. Here, we have established a novel and promising organoid model from both mouse and human endometrium. Dissociated endometrial tissue, embedded in Matrigel under WNT-activating conditions, swiftly formed organoid structures that showed long-term expansion capacity, and reproduced the molecular and histological phenotype of the tissue's epithelium. The supplemented WNT level determined the type of mouse endometrial organoids obtained: high WNT yielded cystic organoids displaying a more differentiated phenotype than the dense organoids obtained in low WNT. The organoids phenocopied physiological responses of endometrial epithelium to hormones, including increased cell proliferation under estrogen and maturation upon progesterone. Moreover, the human endometrial organoids replicated the menstrual cycle under hormonal treatment at both the morpho-histological and molecular levels. Together, we established an organoid culture system for endometrium, reproducing tissue epithelium physiology and allowing long-term expansion. This novel model provides a powerful tool for studying mechanisms underlying the biology as well as the pathology of this key reproductive organ.",
+        "citations": 0,
+        "source_hits": [
+          "pubmed"
+        ],
+        "source_ids": [
+          "pmid:28442471"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.17,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.17,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "pubmed",
+        "id": "pmid:36991123",
+        "title": "Spatial multiomics map of trophoblast development in early pregnancy.",
+        "authors": [
+          "Arutyunyan A",
+          "Roberts K",
+          "Troulé K",
+          "Wong FCK",
+          "Sheridan MA",
+          "Kats I",
+          "Garcia-Alonso L",
+          "Velten B",
+          "Hoo R",
+          "Ruiz-Morales ER",
+          "Sancho-Serra C",
+          "Shilts J",
+          "Handfield LF",
+          "Marconato L",
+          "Tuck E",
+          "Gardner L",
+          "Mazzeo CI",
+          "Li Q",
+          "Kelava I",
+          "Wright GJ",
+          "Prigmore E",
+          "Teichmann SA",
+          "Bayraktar OA",
+          "Moffett A",
+          "Stegle O",
+          "Turco MY",
+          "Vento-Tormo R"
+        ],
+        "year": 2023,
+        "doi": "10.1038/s41586-023-05869-0",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36991123/",
+        "abstract": "The relationship between the human placenta-the extraembryonic organ made by the fetus, and the decidua-the mucosal layer of the uterus, is essential to nurture and protect the fetus during pregnancy. Extravillous trophoblast cells (EVTs) derived from placental villi infiltrate the decidua, transforming the maternal arteries into high-conductance vessels1. Defects in trophoblast invasion and arterial transformation established during early pregnancy underlie common pregnancy disorders such as pre-eclampsia2. Here we have generated a spatially resolved multiomics single-cell atlas of the entire human maternal-fetal interface including the myometrium, which enables us to resolve the full trajectory of trophoblast differentiation. We have used this cellular map to infer the possible transcription factors mediating EVT invasion and show that they are preserved in in vitro models of EVT differentiation from primary trophoblast organoids3,4 and trophoblast stem cells5. We define the transcriptomes of the final cell states of trophoblast invasion: placental bed giant cells (fused multinucleated EVTs) and endovascular EVTs (which form plugs inside the maternal arteries). We predict the cell-cell communication events contributing to trophoblast invasion and placental bed giant cell formation, and model the dual role of interstitial EVTs and endovascular EVTs in mediating arterial transformation during early pregnancy. Together, our data provide a comprehensive analysis of postimplantation trophoblast differentiation that can be used to inform the design of experimental models of the human placenta in early pregnancy.",
+        "citations": 0,
+        "source_hits": [
+          "pubmed"
+        ],
+        "source_ids": [
+          "pmid:36991123"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.17,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.17,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "pubmed",
+        "id": "pmid:31371824",
+        "title": "Patient-derived organoids from endometrial disease capture clinical heterogeneity and are amenable to drug screening.",
+        "authors": [
+          "Boretto M",
+          "Maenhoudt N",
+          "Luo X",
+          "Hennes A",
+          "Boeckx B",
+          "Bui B",
+          "Heremans R",
+          "Perneel L",
+          "Kobayashi H",
+          "Van Zundert I",
+          "Brems H",
+          "Cox B",
+          "Ferrante M",
+          "Uji-I H",
+          "Koh KP",
+          "D'Hooghe T",
+          "Vanhie A",
+          "Vergote I",
+          "Meuleman C",
+          "Tomassetti C",
+          "Lambrechts D",
+          "Vriens J",
+          "Timmerman D",
+          "Vankelecom H"
+        ],
+        "year": 2019,
+        "doi": "10.1038/s41556-019-0360-z",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31371824/",
+        "abstract": "Endometrial disorders represent a major gynaecological burden. Current research models fail to recapitulate the nature and heterogeneity of these diseases, thereby hampering scientific and clinical progress. Here we developed long-term expandable organoids from a broad spectrum of endometrial pathologies. Organoids from endometriosis show disease-associated traits and cancer-linked mutations. Endometrial cancer-derived organoids accurately capture cancer subtypes, replicate the mutational landscape of the tumours and display patient-specific drug responses. Organoids were also established from precancerous pathologies encompassing endometrial hyperplasia and Lynch syndrome, and inherited gene mutations were maintained. Endometrial disease organoids reproduced the original lesion when transplanted in vivo. In summary, we developed multiple organoid models that capture endometrial disease diversity and will provide powerful research models and drug screening and discovery tools.",
+        "citations": 0,
+        "source_hits": [
+          "pubmed"
+        ],
+        "source_ids": [
+          "pmid:31371824"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.17,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.17,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "pubmed",
+        "id": "pmid:31666317",
+        "title": "Self-renewing endometrial epithelial organoids of the human uterus.",
+        "authors": [
+          "Fitzgerald HC",
+          "Dhakal P",
+          "Behura SK",
+          "Schust DJ",
+          "Spencer TE"
+        ],
+        "year": 2019,
+        "doi": "10.1073/pnas.1915389116",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31666317/",
+        "abstract": "The human endometrium is essential in providing the site for implantation and maintaining the growth and survival of the conceptus. An unreceptive endometrium and disrupted maternal-conceptus interactions can cause infertility due to pregnancy loss or later pregnancy complications. Despite this, the role of uterine glands in first trimester human pregnancy is little understood. An established organoid protocol was used to generate and comprehensively analyze 3-dimensional endometrial epithelial organoid (EEO) cultures from human endometrial biopsies. The derived EEO expand long-term, are genetically stable, and can be cryopreserved. Using endometrium from 2 different donors, EEO were derived and then treated with estrogen (E2) for 2 d or E2 and medroxyprogesterone acetate (MPA) for 6 d. EEO cells were positive for the gland marker, FOXA2, and exhibited appropriate hormonal regulation of steroid hormone receptor expression. Real-time qPCR and bulk RNA-sequencing analysis revealed effects of hormone treatment on gene expression that recapitulated changes in proliferative and secretory phase endometrium. Single-cell RNA sequencing analysis revealed that several different epithelial cell types are present in the EEO whose proportion and gene expression changed with hormone treatment. The EEO model serves as an important platform for studying the physiology and pathology of the human endometrium.",
+        "citations": 0,
+        "source_hits": [
+          "pubmed"
+        ],
+        "source_ids": [
+          "pmid:31666317"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 1.0,
+        "metadata_bonus": 0.07,
+        "stage1_score": 0.17,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.17,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "41378311",
+        "title": "Establishment and transcriptomic characterization of canine organoids from multiple tissues.",
+        "authors": [
+          "Zdyrski C",
+          "Gabriel V",
+          "Ospina O",
+          "Nicholson HF",
+          "Catucci M",
+          "Melvin BJ",
+          "Wickham H",
+          "Sahoo DK",
+          "Dao K",
+          "Aguilar Meza LS"
+        ],
+        "year": 2025,
+        "doi": "10.3389/fcell.2025.1680376",
+        "url": "https://europepmc.org/article/med/41378311",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "41378311"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "41909224",
+        "title": "Exploring endometriosis through 3D &lt;i&gt;in vitro&lt;/i&gt; models: A narrative review.",
+        "authors": [
+          "Juli C",
+          "Nyang'au EM",
+          "Götte M",
+          "Versen-Höynck FV."
+        ],
+        "year": 2026,
+        "doi": "10.1016/j.mtbio.2026.103032",
+        "url": "https://europepmc.org/article/med/41909224",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "41909224"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "41915931",
+        "title": "Endometrial organoids to model benign disorders affecting the endometrium.",
+        "authors": [
+          "Dolmans MM",
+          "Beaussart C."
+        ],
+        "year": 2026,
+        "doi": "10.1093/humrep/deag050",
+        "url": "https://europepmc.org/article/med/41915931",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "41915931"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "41897319",
+        "title": "Engineering the Human Endometrial-Embryo Interface: Breakthroughs in 3D Uterine Models.",
+        "authors": [
+          "Douglas JA",
+          "Higgins J",
+          "Wimalasiri DH",
+          "Winship AL",
+          "Fitzgerald HC."
+        ],
+        "year": 2026,
+        "doi": "10.3390/biom16030383",
+        "url": "https://europepmc.org/article/med/41897319",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "41897319"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "40491370",
+        "title": "Insights into Endometriosis Organoids Based on Uterine Tissue Engineering: A Mini-review.",
+        "authors": [
+          "Nurian Z",
+          "Ebrahimzadeh A",
+          "Alipour F",
+          "Dortaj H."
+        ],
+        "year": 2025,
+        "doi": "10.2174/011574888x360426250529055140",
+        "url": "https://europepmc.org/article/med/40491370",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "40491370"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "41346706",
+        "title": "Integrative bioengineering strategies for endometrial regeneration: From biomaterials and stem cells to organoids and organ-on-a-chip technologies.",
+        "authors": [
+          "Kim SR",
+          "Lee HY."
+        ],
+        "year": 2026,
+        "doi": "10.7150/thno.123298",
+        "url": "https://europepmc.org/article/med/41346706",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "41346706"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "40933873",
+        "title": "Deciphering embryo-maternal cross-talk: advanced in vitro approaches.",
+        "authors": [
+          "Dos Santos G",
+          "Millán de la Blanca MG",
+          "Cajas YN",
+          "Mazzarella R",
+          "Cañón-Beltrán K",
+          "Gonzalez Martínez ME",
+          "Rizos D."
+        ],
+        "year": 2025,
+        "doi": "10.1590/1984-3143-ar2025-0059",
+        "url": "https://europepmc.org/article/med/40933873",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "40933873"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      },
+      {
+        "source": "europe_pmc",
+        "id": "41193227",
+        "title": "Functional mimicry of uterine tissue using endometrial organoids in rats.",
+        "authors": [
+          "Kwon DH",
+          "Lee JH",
+          "Kim HK",
+          "Choi BY",
+          "Shim D",
+          "Kim J",
+          "Jang G."
+        ],
+        "year": 2025,
+        "doi": "10.1071/rd25144",
+        "url": "https://europepmc.org/article/med/41193227",
+        "abstract": "",
+        "citations": 0,
+        "source_hits": [
+          "europe_pmc"
+        ],
+        "source_ids": [
+          "41193227"
+        ],
+        "claim_overlap": 0.0,
+        "hypothesis_overlap": 0.0,
+        "source_weight": 0.96,
+        "metadata_bonus": 0.03,
+        "stage1_score": 0.126,
+        "stage2_score": 0.0,
+        "support_score": 0.0,
+        "contradiction_score": 0.0,
+        "best_support_sentence": "",
+        "best_contradict_sentence": "",
+        "hypothesis_sentence_overlap": 0.0,
+        "evidence_score": 0.126,
+        "evidence_label": "mention-only"
+      }
+    ]
+  },
+  "datasets": {
+    "query": "Y-27632 canine endometrial organoid initial formation ROCK inhibitor",
+    "organism": "",
+    "assay": "",
+    "count": 0,
+    "warnings": [
+      "dataset search skipped in fast mode (set --include-datasets to force)"
+    ],
+    "datasets": []
+  }
+}

@@ -1,0 +1,30 @@
+record_id	record_type	current_status	next_target_layer	lock_status	urgency	download_status	download_target	download_source_url	assigned_reason
+10.1095_BIOLREPROD57.4.936	paper	candidate	paper	unlocked	normal	blocked			paper candidate promotion requires bibliographic lock
+1997_Hepatocyte_growth_factor_stimulated_prol_2	paper	candidate	paper	unlocked	normal	blocked			paper candidate promotion requires bibliographic lock
+10.2741_4328	paper	candidate	paper	unlocked	high	queued	_incoming_shawn_bio_search/review_needed	https://article.imrpress.com/bri/Landmark/articles/pdf/Landmark4328.pdf	paper candidate promotion requires bibliographic lock
+2015_HGF_and_c-Met_in_pathogenesis_of_endomet_4	paper	candidate	paper	unlocked	normal	blocked			paper candidate promotion requires bibliographic lock
+10.1262_jrd.2015-158	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://www.jstage.jst.go.jp/article/jrd/62/3/62_2015-158/_pdf	paper candidate promotion requires bibliographic lock
+10.1095_biolreprod.109.079772	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://academic.oup.com/biolreprod/article-pdf/82/6/1037/10573900/biolreprod1037.pdf	paper candidate promotion requires bibliographic lock
+10.1095_biolreprod.114.124891	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://academic.oup.com/biolreprod/article-pdf/92/2/35, 1-11/10554680/biolreprod0035.pdf	paper candidate promotion requires bibliographic lock
+10.1095_biolreprod62.6.1844	paper	candidate	paper	unlocked	normal	blocked			paper candidate promotion requires bibliographic lock
+2000_Expression_of_hepatocyte_growth_factor_a_9	paper	candidate	paper	unlocked	normal	blocked			paper candidate promotion requires bibliographic lock
+10.1007_s13277-015-3309-2	paper	candidate	paper	unlocked	high	blocked			paper candidate promotion requires bibliographic lock
+10.1007_978-3-030-59038-3_13	paper	candidate	paper	unlocked	normal	blocked			paper candidate promotion requires bibliographic lock
+10.1155_2022_5744538	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://downloads.hindawi.com/journals/sci/2022/5744538.pdf	paper candidate promotion requires bibliographic lock
+10.1172_jci39104	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	http://www.jci.org/articles/view/39104/files/pdf	paper candidate promotion requires bibliographic lock
+2004_Formation_of_Human_Endometrial_Epithelia_14	paper	candidate	paper	unlocked	normal	blocked			paper candidate promotion requires bibliographic lock
+10.1210_JCEM.87.5.8483	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://academic.oup.com/jcem/article-pdf/87/5/2376/9159675/jcem2376.pdf	paper candidate promotion requires bibliographic lock
+10.3389_fcell.2026.1724597	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://public-pages-files-2025.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1724597/pdf	paper candidate promotion requires bibliographic lock
+10.1096_fj.202504234r	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://doi.org/10.1096/fj.202504234r	paper candidate promotion requires bibliographic lock
+10.4103_abr.abr_512_24	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://doi.org/10.4103/abr.abr_512_24	paper candidate promotion requires bibliographic lock
+10.1093_biolre_ioaf232	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://doi.org/10.1093/biolre/ioaf232	paper candidate promotion requires bibliographic lock
+10.3390_ijms27010278	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://www.mdpi.com/1422-0067/27/1/278/pdf?version=1766755341	paper candidate promotion requires bibliographic lock
+10.1093_stcltm_szag013	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://academic.oup.com/stcltm/article-pdf/15/4/szag013/67558256/szag013.pdf	paper candidate promotion requires bibliographic lock
+10.3390_cells15060498	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://www.mdpi.com/2073-4409/15/6/498/pdf	paper candidate promotion requires bibliographic lock
+10.1093_humrep_deaf223	paper	candidate	paper	unlocked	normal	ready	_incoming_shawn_bio_search/locked_downloads	https://academic.oup.com/humrep/advance-article-pdf/doi/10.1093/humrep/deaf223/65357643/deaf223.pdf	paper candidate promotion requires bibliographic lock
+GPL570	dataset	candidate	dataset_link_review	not_applicable	normal	not_applicable		https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570	dataset candidate requires mapping/project linkage review
+CRX961582	dataset	candidate	dataset_link_review	not_applicable	normal	not_applicable		https://ngdc.cncb.ac.cn/gsa/browse/CRA014934/CRX961582	dataset candidate requires mapping/project linkage review
+CRX1195146	dataset	candidate	dataset_link_review	not_applicable	normal	not_applicable		https://ngdc.cncb.ac.cn/gsa/browse/CRA019110/CRX1195146	dataset candidate requires mapping/project linkage review
+CRX556782	dataset	candidate	dataset_link_review	not_applicable	normal	not_applicable		https://ngdc.cncb.ac.cn/gsa/browse/CRA009102/CRX556782	dataset candidate requires mapping/project linkage review
+CRX1543410	dataset	candidate	dataset_link_review	not_applicable	normal	not_applicable		https://ngdc.cncb.ac.cn/gsa/browse/CRA023504/CRX1543410	dataset candidate requires mapping/project linkage review
+CRX1064737	dataset	candidate	dataset_link_review	not_applicable	normal	not_applicable		https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064737	dataset candidate requires mapping/project linkage review
