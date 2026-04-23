@@ -23,6 +23,7 @@ Supported sources (prefix → dispatcher → per-source module):
     NGDC GSA        CRA*, HRA*, PRJCA*           (HTML scrape — no public REST)
     NGDC OMIX       OMIX*                        (HTML scrape — no public REST)
     CNGB            CNP*, CNX*, CNR*             (HTML scrape — no public REST)
+    CNGB CDCP       SCDS*                        (HTML scrape → forwards to linked GSE/CNP/PRJCA)
 
 All HTTP calls route through `_http.http_json` / `http_text` which share rate-limit +
 retry state. Direct `urllib.request` is avoided so bio-search is the only API chokepoint
@@ -74,6 +75,7 @@ ENA_BROWSER = "https://www.ebi.ac.uk/ena/browser/api/xml"
 NGDC_OMIX_RELEASE = "https://ngdc.cncb.ac.cn/omix/release"
 NGDC_GSA_BROWSE = "https://ngdc.cncb.ac.cn/gsa/browse"
 CNGB_PROJECT = "https://db.cngb.org/search/project"
+CNGB_CDCP_DATASET = "https://db.cngb.org/cdcp/dataset"
 
 _USER_AGENT = "shawn-bio-search/0.1 (accession-resolver)"
 
@@ -85,7 +87,7 @@ _USER_AGENT = "shawn-bio-search/0.1 (accession-resolver)"
 CITATION_UNIT_PREFIXES = (
     "GSE", "PRJNA", "PRJEB", "PRJDB", "PRJCA", "SRP", "DRP", "ERP",
     "E-MTAB", "E-GEOD", "E-PROT", "E-ENAD", "S-BSST", "S-EPMC",
-    "CRA", "HRA", "OMIX", "CNP",
+    "CRA", "HRA", "OMIX", "CNP", "SCDS",
 )
 ANALYSIS_UNIT_PREFIXES = ("GSM", "SRX", "SRR", "DRX", "DRR", "ERX", "ERR", "CNX", "CNR", "CRX", "CRR")
 CITATION_PRIORITY = (
@@ -128,6 +130,8 @@ def classify_tier(accession: str) -> Dict[str, str]:
         return {"tier": "citation_unit", "type": "OMIX", "source": "ngdc_omix"}
     if acc.startswith("CNP"):
         return {"tier": "citation_unit", "type": "CNP", "source": "cngb"}
+    if acc.startswith("SCDS"):
+        return {"tier": "citation_unit", "type": "SCDS", "source": "cngb_cdcp"}
 
     # Analysis units
     if acc.startswith("GSM"):
@@ -459,6 +463,56 @@ def _ngdc_gsa_html(acc: str) -> Dict[str, Any]:
 # =====================================================================
 # CNGB source functions
 # =====================================================================
+
+def _cngb_cdcp_html(acc: str) -> Dict[str, Any]:
+    """CDCP (Cell-omics Data Coordinate Platform) dataset page scrape.
+
+    CDCP is a visualization/aggregator layer over multiple upstream archives. Its HTML
+    shell contains navigation/footer links that happen to include sample GSE/CNP accessions
+    — extracting those as "linked" cross-references produces false positives (a page for
+    a non-existent SCDS still shows the same boilerplate GSE list). We therefore extract
+    *only* what is genuinely page-specific:
+
+      - `<title>` tag (dataset name)
+      - `<meta name="description">` (study abstract)
+      - Any PubMed/DOI references that appear inside the description itself
+
+    Cross-archive accession forwarding (SCDS → GSE/CNP) is intentionally NOT done here;
+    downstream resolver prefers Europe PMC fulltext for SCDS* because that path requires
+    the accession to actually be cited in a paper, which is the stronger signal.
+    """
+    try:
+        raw = http_text(f"{CNGB_CDCP_DATASET}/{acc}/",
+                        headers={"User-Agent": _USER_AGENT, "Accept": "text/html"})
+    except Exception as e:
+        return {"error": str(e)}
+
+    title_m = re.search(r"<title[^>]*>([^<]+?)\s*-\s*Single-cell Datasets", raw, re.IGNORECASE)
+    if not title_m:
+        title_m = re.search(r"<title[^>]*>(.*?)</title>", raw, re.IGNORECASE | re.DOTALL)
+    title = title_m.group(1).strip() if title_m else None
+
+    desc_m = re.search(r'<meta\s+name="description"\s+content="([^"]*)"', raw, re.IGNORECASE)
+    description = desc_m.group(1).strip() if desc_m else ""
+
+    # If the page has no description and the title is the generic site title, treat as
+    # "not found" (CDCP serves a shell for any /dataset/* URL).
+    generic_title = (not title) or title.lower().startswith("cdcp") or "not found" in (title or "").lower()
+    if generic_title and not description:
+        return {"not_found": True, "title": title}
+
+    # Extract only from description (never from shell)
+    pmids_in_desc = list(dict.fromkeys(
+        re.findall(r"PubMed(?:\s*ID)?[^0-9]{0,30}(\d{5,9})", description, re.IGNORECASE)))
+    dois_in_desc = list(dict.fromkeys(re.findall(r"(10\.\d+/[^\"'\s<>,]+)", description)))[:3]
+
+    return {
+        "title": title,
+        "description": description,
+        "pmids": pmids_in_desc,
+        "dois": dois_in_desc,
+    }
+
 
 def _cngb_html(acc: str) -> Dict[str, Any]:
     """CNGB project page scrape. For CNP* (study), CNX* / CNR* are analysis units."""
@@ -818,6 +872,41 @@ def resolve_accession(accession: str) -> Dict[str, Any]:
         out["note"] = f"CNGB {acc}: no PubMed link (HTML or Europe PMC)"
         return out
 
+    # CNGB CDCP (SCDS*) — single-cell aggregator. HTML shell shares sample GSE/CNP links
+    # across pages (false positive risk), so we prefer Europe PMC fulltext which requires
+    # the SCDS accession to actually appear in a paper's body text.
+    if cls["type"] == "SCDS":
+        meta = _cngb_cdcp_html(acc)
+        if meta.get("not_found"):
+            out["note"] = f"CDCP {acc}: dataset page not found (shell only, no description)"
+            return out
+        if meta.get("error"):
+            out["note"] = f"CDCP {acc}: fetch error {meta['error']}"
+            return out
+        # Description-local PubMed (rare — most CDCP pages carry prose abstracts, no PMID)
+        pmids = meta.get("pmids", [])
+        if pmids:
+            out["pmid"] = pmids[0]
+            out["citation"] = pmid_to_citation(pmids[0])
+            out["resolution_path"].append(f"CDCP {acc} -> description PubMed -> PMID {pmids[0]}")
+            return out
+        # Europe PMC fulltext: SCDS accession must appear in a paper's data-availability
+        # section. Strongest available signal.
+        ep_pmids = _ebi_europepmc_search_accession(acc)
+        if ep_pmids:
+            out["pmid"] = ep_pmids[0]
+            out["citation"] = pmid_to_citation(ep_pmids[0])
+            out["resolution_path"].append(f"CDCP {acc} -> Europe PMC fulltext -> PMID {ep_pmids[0]}")
+            out["note"] = "Primary paper not confirmed from CDCP metadata — Europe PMC first-hit"
+            return out
+        title = (meta.get("title") or "").split(" - ")[0][:60]
+        out["note"] = (
+            f"CDCP {acc} ({title!r}): no primary paper extractable. "
+            f"Upstream cross-links in CDCP page are shared shell content — check the "
+            f"Downloads / Citation tab on the CDCP website manually."
+        )
+        return out
+
     out["note"] = f"Unhandled citation-unit type {cls['type']}"
     return out
 
@@ -852,6 +941,7 @@ _ACC_PATTERN = re.compile(
     r"S-(?:BSST|EPMC)\d+|"
     r"CRA\d+|HRA\d+|CRX\d+|CRR\d+|"
     r"OMIX\d+|CNP\d+|CNX\d+|CNR\d+|"
+    r"SCDS\d+|"
     r"PMC\d+"
     r")\b",
     re.IGNORECASE,
