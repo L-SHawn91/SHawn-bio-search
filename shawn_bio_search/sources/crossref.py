@@ -57,6 +57,87 @@ def fetch_crossref_by_doi(doi: str) -> Dict[str, Any] | None:
     }
 
 
+def lookup_doi_by_author_keywords(author: str | None,
+                                   title: str | None,
+                                   year: int | str | None = None,
+                                   per_page: int = 5) -> Dict[str, Any] | None:
+    """Crossref DOI lookup tuned for SHawn corpus recovery.
+
+    Builds a query from author last-name + first 6 distinctive title words
+    + year. Re-ranks Crossref results by Jaccard(title) + author-substring
+    + year-match. Returns the best candidate dict or None.
+
+    Used by SHawn-paper-mapping recover_doi_unified.py as a Tier-3 fallback
+    when Zotero has no DOI and OpenAlex is rate-limited.
+    """
+    parts: list[str] = []
+    if author:
+        first = author.strip().split()[0].rstrip(",")
+        if first and first.lower() not in ("?", "anon", "anonymous"):
+            parts.append(first)
+    if title:
+        # Take first 6 words longer than 3 chars (drop articles/prepositions)
+        words = [w for w in re.findall(r"[A-Za-z][A-Za-z0-9\-]+", title)
+                 if len(w) > 3]
+        parts.extend(words[:6])
+    if year:
+        try:
+            yi = int(str(year)[:4])
+            if 1900 < yi < 2100:
+                parts.append(str(yi))
+        except (TypeError, ValueError):
+            pass
+    if not parts:
+        return None
+    query = " ".join(parts)
+
+    try:
+        results = fetch_crossref(query, limit=per_page)
+    except Exception:
+        return None
+    if not results:
+        return None
+
+    # Re-rank: Jaccard(title) + author boost + year boost
+    target_words = set((title or "").lower().split())
+    author_first = (author or "").strip().split()[0].lower().rstrip(",") if author else ""
+    try:
+        year_int = int(str(year)[:4]) if year else 0
+    except (TypeError, ValueError):
+        year_int = 0
+
+    scored = []
+    for r in results:
+        cand_title = r.get("title") or ""
+        if not cand_title:
+            continue
+        cand_words = set(cand_title.lower().split())
+        if not cand_words:
+            continue
+        jaccard = (len(target_words & cand_words) / max(1, len(target_words | cand_words))
+                   if target_words else 0.0)
+        cand_author_blob = " ".join(r.get("authors") or []).lower()
+        author_match = bool(author_first and author_first in cand_author_blob)
+        cand_year = int(r.get("year") or 0)
+        year_match = bool(year_int and abs(cand_year - year_int) <= 2)
+        score = jaccard + (0.30 if author_match else 0) + (0.10 if year_match else 0)
+        scored.append((score, jaccard, author_match, year_match, r))
+    if not scored:
+        return None
+    scored.sort(reverse=True, key=lambda x: x[0])
+    boosted, jac, am, ym, top = scored[0]
+    return {
+        "doi": top.get("doi"),
+        "title": top.get("title"),
+        "authors": top.get("authors", [])[:5],
+        "year": top.get("year"),
+        "similarity_score": round(jac, 3),
+        "boosted_score": round(boosted, 3),
+        "author_match": am,
+        "year_match": ym,
+    }
+
+
 def fetch_crossref(query: str, limit: int) -> List[Dict[str, Any]]:
     """Fetch papers from Crossref."""
     params = {"query": query, "rows": str(max(1, min(limit, 100)))}
