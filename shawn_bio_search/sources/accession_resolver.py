@@ -646,10 +646,21 @@ def resolve_accession(accession: str) -> Dict[str, Any]:
             if pmids:
                 out["pmid"] = pmids[0]
                 out["citation"] = pmid_to_citation(pmids[0])
-            else:
-                out["note"] = "SRA-only deposit, no PubMed linked via BioProject"
+                return out
+        # Fallback: Europe PMC fulltext search for the SRP string. Catches SRA-only deposits
+        # whose BioProject lacks a PubMed link but whose accession appears in a paper's
+        # data-availability section. Example: SRP173986 -> La 2019 PeerJ 7:e6938 via PMC6535221.
+        ep_pmids = _ebi_europepmc_search_accession(acc)
+        if ep_pmids:
+            out["pmid"] = ep_pmids[0]
+            out["citation"] = pmid_to_citation(ep_pmids[0])
+            out["resolution_path"].append(f"SRP {acc} -> Europe PMC fulltext -> PMID {ep_pmids[0]}")
+            out["note"] = "Primary paper not confirmed via GEO/BioProject — Europe PMC fulltext first-hit"
+            return out
+        if prjs:
+            out["note"] = "SRA-only deposit — no PubMed link in BioProject or Europe PMC"
         else:
-            out["note"] = "SRA study has no linked GSE or BioProject"
+            out["note"] = "SRA study has no linked GSE, BioProject, or Europe PMC match"
         return out
 
     # NCBI BioProject (PRJNA*)
