@@ -102,6 +102,9 @@ def fetch_work_concepts_by_doi(doi: str, mailto: str | None = None) -> Dict[str,
     except Exception:
         return None
     host = data.get("primary_location", {}).get("source") or {}
+    authors = [a.get("author", {}).get("display_name")
+               for a in data.get("authorships") or []]
+    authors = [a for a in authors if a]
     return {
         "concepts": data.get("concepts") or [],
         "host_venue_id": host.get("id"),
@@ -110,6 +113,12 @@ def fetch_work_concepts_by_doi(doi: str, mailto: str | None = None) -> Dict[str,
         "host_venue_type": host.get("type"),
         "is_preprint": (host.get("type") == "repository") or
                        (doi.startswith("10.1101/") or doi.startswith("10.21203/")),
+        # Added 2026-04-23 for paper-mapping audit_flagged_clusters.py — lets
+        # the auditor cross-check whether paper.doi actually points to
+        # paper.title or to a different work entirely.
+        "title": data.get("display_name") or data.get("title"),
+        "authors": authors,
+        "year": int(data.get("publication_year") or 0),
     }
 
 
