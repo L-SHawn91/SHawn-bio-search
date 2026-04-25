@@ -70,6 +70,11 @@ shawn-bio-search -q "organoid stem cell"
 # JSON output
 shawn-bio-search -q "cancer immunotherapy" -f json -o results.json
 
+# Citation-manager export (BibTeX, RIS, CSL-JSON)
+shawn-bio-search -q "endometrial organoid" -f bibtex -o refs.bib
+shawn-bio-search -q "endometrial organoid" -f ris    -o refs.ris
+shawn-bio-search -q "endometrial organoid" -f csl-json -o refs.json
+
 # Focused source selection
 shawn-bio-search -q "endometrial organoid" -s pubmed,europe_pmc,openalex
 
