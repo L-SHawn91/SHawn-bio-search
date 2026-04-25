@@ -33,6 +33,10 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from typing import Any, Dict, List, Optional
 
+# Allow running as a script from the repo root.
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parents[1]))
+from shawn_bio_search.sources.huggingface import fetch_huggingface_datasets
+
 
 def _get_json(url: str, headers: Optional[Dict[str, str]] = None) -> Any:
     req = urllib.request.Request(url, headers=headers or {})
@@ -972,6 +976,7 @@ def main() -> int:
     parser.add_argument("--no-datacite", action="store_true")
     parser.add_argument("--no-cellxgene", action="store_true")
     parser.add_argument("--no-gdc", action="store_true")
+    parser.add_argument("--no-huggingface", action="store_true")
     parser.add_argument("--out", default="")
     args = parser.parse_args()
 
@@ -1091,6 +1096,12 @@ def main() -> int:
             datasets.extend(fetch_gdc(args.query, args.max_per_source))
         except Exception as exc:
             warnings.append(f"gdc failed: {exc}")
+
+    if not args.no_huggingface:
+        try:
+            datasets.extend(fetch_huggingface_datasets(args.query, args.max_per_source))
+        except Exception as exc:
+            warnings.append(f"huggingface failed: {exc}")
 
     datasets = dedupe(datasets)
     scored = [_score_dataset(d, args.query, args.organism, args.assay) for d in datasets]

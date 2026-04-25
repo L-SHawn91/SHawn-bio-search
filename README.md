@@ -101,6 +101,7 @@ Some sources work better with API keys:
 | Scopus | `SCOPUS_API_KEY` | Requires institutional access |
 | Google Scholar | `SERPAPI_API_KEY` | Free tier available |
 | PubMed | `NCBI_API_KEY` | Recommended for higher limits |
+| HuggingFace Hub | `HUGGINGFACE_TOKEN` or `HF_TOKEN` | Public datasets work without a token; token unlocks private datasets and gentler rate limits |
 
 Set up your keys:
 
