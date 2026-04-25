@@ -48,7 +48,7 @@ Examples:
                         help="Expand query with lightweight biomedical synonyms")
     parser.add_argument("--project-mode", default="",
                         help="Apply a project-aware preset (e.g. endometrial-organoid-review, regenerative-screening)")
-    parser.add_argument("-f", "--format", choices=["json", "plain", "markdown"],
+    parser.add_argument("-f", "--format", choices=["json", "plain", "markdown", "bibtex", "ris", "csl-json"],
                         default="plain", help="Output format (default: plain)")
     parser.add_argument("-o", "--output", help="Output file (default: stdout)")
     parser.add_argument("--version", action="version", version="%(prog)s 0.1.0")
@@ -91,6 +91,12 @@ Examples:
         output = results.to_json()
     elif args.format == "markdown":
         output = results.to_markdown()
+    elif args.format == "bibtex":
+        output = results.to_bibtex()
+    elif args.format == "ris":
+        output = results.to_ris()
+    elif args.format == "csl-json":
+        output = results.to_csl_json()
     else:  # plain
         output = results.to_plain()
     

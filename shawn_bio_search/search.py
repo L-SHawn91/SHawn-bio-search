@@ -29,6 +29,7 @@ from .scoring import score_paper
 from .formatter import format_results
 from .presets import apply_project_preset
 from .query_expansion import expand_query
+from . import exporters
 
 
 class SearchResult:
@@ -48,6 +49,15 @@ class SearchResult:
 
     def to_markdown(self, top_n: int = 10) -> str:
         return format_results(self.papers, fmt="markdown", top_n=top_n)
+
+    def to_bibtex(self) -> str:
+        return exporters.to_bibtex(self.papers)
+
+    def to_ris(self) -> str:
+        return exporters.to_ris(self.papers)
+
+    def to_csl_json(self) -> str:
+        return exporters.to_csl_json(self.papers)
 
 
 class AuthorSearchResult:
