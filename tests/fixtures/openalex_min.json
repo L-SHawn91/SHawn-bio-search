@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "purpose": "Minimal OpenAlex /works response used by tests to avoid live API calls.",
+    "endpoint": "https://api.openalex.org/works?search=endometrial+organoid&per-page=1",
+    "captured": "2025-01-15",
+    "trimmed": "Stripped to a single record with only the fields the parser uses."
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2964120000",
+      "doi": "https://doi.org/10.1038/ncb3516",
+      "display_name": "Long-term, hormone-responsive organoid cultures of human endometrium in a chemically defined medium",
+      "publication_year": 2017,
+      "cited_by_count": 412,
+      "primary_location": {
+        "landing_page_url": "https://www.nature.com/articles/ncb3516"
+      },
+      "authorships": [
+        {"author": {"display_name": "Margherita Y. Turco"}},
+        {"author": {"display_name": "Lucy Gardner"}},
+        {"author": {"display_name": "Richard G. Kay"}}
+      ],
+      "abstract_inverted_index": {
+        "Endometrial": [0],
+        "organoids": [1],
+        "model": [2],
+        "uterine": [3],
+        "biology": [4],
+        "and": [5],
+        "respond": [6],
+        "to": [7],
+        "hormones.": [8]
+      }
+    }
+  ]
+}

@@ -24,6 +24,12 @@ Examples:
   %(prog)s -q "COVID-19" --sources pubmed,europe_pmc
   %(prog)s -q "endometrial organoid" --project-mode endometrial-organoid-review --expand-query -f json
   %(prog)s --mode author -q "Hakhyun Ka" --author-aliases "Ka H,H. Ka" --affiliation "Yonsei"
+
+Citation verification confidence levels (verify_citation API):
+  HIGH      score >= 0.60   correct paper with high certainty
+  MEDIUM    score >= 0.35   likely correct, manual check recommended
+  LOW       score >= 0.15   uncertain match
+  MISMATCH  score <  0.15   wrong paper (different field/species)
         """
     )
     

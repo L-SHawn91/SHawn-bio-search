@@ -1,5 +1,7 @@
 """SciVal source module (requires API key and entitlement)."""
 
+from __future__ import annotations
+
 import os
 import urllib.parse
 import urllib.request

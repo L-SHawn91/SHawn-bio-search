@@ -19,7 +19,17 @@ import sys
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from pathlib import Path
 from typing import Any, Dict, List, Optional
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from shawn_bio_search.text_utils import (  # noqa: E402
+    dedupe_key as _dedupe_key,
+    merge_unique_list as _merge_unique_list,
+    overlap_ratio as _overlap_ratio,
+    tokenize as _tokenize,
+)
 
 
 def _get_json(url: str, headers: Optional[Dict[str, str]] = None) -> Any:
@@ -28,24 +38,12 @@ def _get_json(url: str, headers: Optional[Dict[str, str]] = None) -> Any:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def _tokenize(text: str) -> set[str]:
-    return set(re.findall(r"[a-zA-Z0-9]{3,}", (text or "").lower()))
-
-
 def _split_sentences(text: str) -> List[str]:
     if not text:
         return []
     cleaned = re.sub(r"\s+", " ", text).strip()
     parts = re.split(r"(?<=[.!?])\s+", cleaned)
     return [p.strip() for p in parts if len(p.strip()) >= 30]
-
-
-def _overlap_ratio(base: str, target: str) -> float:
-    a = _tokenize(base)
-    b = _tokenize(target)
-    if not a or not b:
-        return 0.0
-    return len(a & b) / len(a)
 
 
 _NEG_TERMS = {
@@ -633,33 +631,6 @@ def fetch_crossref(query: str, limit: int) -> List[Dict[str, Any]]:
                 "citations": int(r.get("is-referenced-by-count") or 0),
             }
         )
-    return out
-
-
-def _dedupe_key(p: Dict[str, Any]) -> tuple[str, str]:
-    title = (p.get("title") or "").strip().lower()
-    doi = (p.get("doi") or "").strip().lower()
-    pid = (p.get("id") or "").strip().lower()
-    if doi:
-        return ("doi", doi)
-    if title:
-        return ("title", title)
-    return ("id", pid)
-
-
-def _merge_unique_list(a: Any, b: Any) -> List[Any]:
-    out: List[Any] = []
-    seen = set()
-    for item in (a or []):
-        key = str(item).strip().lower()
-        if key and key not in seen:
-            seen.add(key)
-            out.append(item)
-    for item in (b or []):
-        key = str(item).strip().lower()
-        if key and key not in seen:
-            seen.add(key)
-            out.append(item)
     return out
 
 

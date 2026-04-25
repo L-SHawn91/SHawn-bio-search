@@ -1,5 +1,7 @@
 """Scopus source module (requires API key)."""
 
+from __future__ import annotations
+
 import os
 import urllib.parse
 import urllib.request

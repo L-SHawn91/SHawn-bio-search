@@ -1,5 +1,7 @@
 """bioRxiv source module (no API key required)."""
 
+from __future__ import annotations
+
 import time
 import urllib.request
 from typing import Any, Dict, List, Set

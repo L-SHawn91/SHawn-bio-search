@@ -1,9 +1,20 @@
-from pathlib import Path
-import subprocess
 import json
+import os
+import subprocess
+from pathlib import Path
+
+import pytest
 
 from shawn_bio_search.search import search_papers
 from shawn_bio_search.query_expansion import expand_query
+
+
+FIXTURES = Path(__file__).parent / "fixtures"
+
+
+def _load_openalex_fixture():
+    raw = json.loads((FIXTURES / "openalex_min.json").read_text())
+    return {k: v for k, v in raw.items() if k != "_meta"}
 
 
 def test_cli_help():
@@ -12,6 +23,10 @@ def test_cli_help():
     assert "usage" in r.stdout.lower() or "usage" in r.stderr.lower()
 
 
+@pytest.mark.skipif(
+    not os.getenv("SBS_LIVE_NETWORK"),
+    reason="bundle smoke test hits live PubMed/OpenAlex; set SBS_LIVE_NETWORK=1 to enable",
+)
 def test_search_bundle_smoke(tmp_path: Path):
     out = tmp_path / "bundle.json"
     cmd = [
@@ -34,7 +49,13 @@ def test_search_bundle_smoke(tmp_path: Path):
     assert "papers" in data
 
 
-def test_score_fields_present():
+def test_score_fields_present(monkeypatch):
+    fixture = _load_openalex_fixture()
+    monkeypatch.setattr(
+        "shawn_bio_search.sources.openalex._get_json",
+        lambda url: fixture,
+    )
+
     results = search_papers(
         query="endometrial organoid",
         claim="endometrial organoids model uterine biology",
@@ -52,7 +73,13 @@ def test_query_expansion_has_expected_terms():
     assert "endometrium" in expanded.lower() or "uterine" in expanded.lower()
 
 
-def test_project_mode_sets_effective_query_metadata():
+def test_project_mode_sets_effective_query_metadata(monkeypatch):
+    fixture = _load_openalex_fixture()
+    monkeypatch.setattr(
+        "shawn_bio_search.sources.openalex._get_json",
+        lambda url: fixture,
+    )
+
     results = search_papers(
         query="organoid",
         max_results=1,

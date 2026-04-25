@@ -1,5 +1,7 @@
 """Core search functionality for Shawn-Bio-Search."""
 
+from __future__ import annotations
+
 import json
 import os
 from typing import Any, Dict, List, Optional, Union
@@ -29,6 +31,7 @@ from .scoring import score_paper
 from .formatter import format_results
 from .presets import apply_project_preset
 from .query_expansion import expand_query
+from .text_utils import dedupe_key as _dedupe_key, merge_unique_list as _merge_unique_list
 
 
 class SearchResult:
@@ -330,33 +333,6 @@ def search_authors(
         "warnings": warnings,
         "authors": authors,
     })
-
-
-def _dedupe_key(p: Dict[str, Any]) -> tuple[str, str]:
-    title = (p.get("title") or "").strip().lower()
-    doi = (p.get("doi") or "").strip().lower()
-    pid = (p.get("id") or "").strip().lower()
-    if doi:
-        return ("doi", doi)
-    if title:
-        return ("title", title)
-    return ("id", pid)
-
-
-def _merge_unique_list(a: Any, b: Any) -> List[Any]:
-    out: List[Any] = []
-    seen = set()
-    for item in (a or []):
-        key = str(item).strip().lower()
-        if key and key not in seen:
-            seen.add(key)
-            out.append(item)
-    for item in (b or []):
-        key = str(item).strip().lower()
-        if key and key not in seen:
-            seen.add(key)
-            out.append(item)
-    return out
 
 
 def _author_variants(name: str) -> List[tuple[str, str, str]]:

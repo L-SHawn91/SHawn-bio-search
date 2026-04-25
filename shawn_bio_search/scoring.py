@@ -1,7 +1,9 @@
 """Scoring module for claim-level evidence evaluation."""
 
 import re
-from typing import Any, Dict, List, Set
+from typing import Any, Dict, List
+
+from .text_utils import overlap_ratio, tokenize
 
 
 _NEG_TERMS = {
@@ -30,18 +32,6 @@ _SOURCE_WEIGHTS = {
 }
 
 
-def _tokenize(text: str) -> Set[str]:
-    return set(re.findall(r"[a-zA-Z0-9]{3,}", (text or "").lower()))
-
-
-def _overlap_ratio(base: str, target: str) -> float:
-    a = _tokenize(base)
-    b = _tokenize(target)
-    if not a or not b:
-        return 0.0
-    return len(a & b) / len(a)
-
-
 def _split_sentences(text: str) -> List[str]:
     if not text:
         return []
@@ -51,7 +41,7 @@ def _split_sentences(text: str) -> List[str]:
 
 
 def _claim_is_negative(claim: str) -> bool:
-    return any(t in _tokenize(claim) for t in _NEG_TERMS)
+    return any(t in tokenize(claim) for t in _NEG_TERMS)
 
 
 def _sentence_analysis(claim: str, hypothesis: str, text: str) -> Dict[str, Any]:
@@ -73,9 +63,9 @@ def _sentence_analysis(claim: str, hypothesis: str, text: str) -> Dict[str, Any]
     best_hyp = 0.0
     
     for s in sentences:
-        ov = _overlap_ratio(claim, s)
-        hov = _overlap_ratio(hypothesis, s) if hypothesis else 0.0
-        stoks = _tokenize(s)
+        ov = overlap_ratio(claim, s)
+        hov = overlap_ratio(hypothesis, s) if hypothesis else 0.0
+        stoks = tokenize(s)
         has_neg = any(t in _NEG_TERMS for t in stoks)
         
         support = ov
@@ -123,8 +113,8 @@ def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str,
     """Score a paper for claim/hypothesis relevance."""
     text = f"{paper.get('title', '')} {paper.get('abstract', '')}".strip()
 
-    claim_overlap = _overlap_ratio(claim, text) if claim else 0.0
-    hypothesis_overlap = _overlap_ratio(hypothesis, text) if hypothesis else 0.0
+    claim_overlap = overlap_ratio(claim, text) if claim else 0.0
+    hypothesis_overlap = overlap_ratio(hypothesis, text) if hypothesis else 0.0
 
     citations = paper.get("citations") or 0
     if isinstance(citations, str) and citations.isdigit():

@@ -1,5 +1,7 @@
 """PubMed/NCBI source module with advanced field-tag search support."""
 
+from __future__ import annotations
+
 import os
 import re
 import urllib.parse

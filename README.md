@@ -24,7 +24,7 @@ It does **not** aim to be the manuscript-facing interpretation engine. Project-a
 
 ## Features
 
-- **10 Integrated Sources**: PubMed, Semantic Scholar, Scopus, Google Scholar, Europe PMC, OpenAlex, Crossref, ClinicalTrials.gov, bioRxiv, medRxiv
+- **17 Integrated Sources**: PubMed, Europe PMC, OpenAlex, Crossref, Semantic Scholar, ClinicalTrials.gov, bioRxiv, medRxiv, arXiv, OpenAIRE, F1000Research, DOAJ (free) plus Scopus, SciVal, Google Scholar (SerpAPI), CORE, Unpaywall (key/email-gated)
 - **Paper + Dataset Discovery**: Find candidate literature and datasets from global sources
 - **Access Enrichment**: Track DOI/PMID/PMCID, URLs, and downloadability status
 - **Local Library Lookup**: Check whether a paper already exists in a Zotero-backed local paper store
@@ -34,16 +34,29 @@ It does **not** aim to be the manuscript-facing interpretation engine. Project-a
 
 ## Source support matrix (maturity)
 
-| Source | Cost | Key needed | Maturity | Notes |
-|---|---|---|---|---|
-| PubMed | Free | Optional (`NCBI_API_KEY`) | Stable | Biomedical primary source |
-| OpenAlex | Free | No | Stable | Broad metadata/citation graph |
-| Crossref | Free | No | Stable | DOI metadata normalization |
-| Europe PMC | Free | No | Stable | OA coverage strong |
-| Semantic Scholar | Free (rate-limited) | Yes (`SEMANTIC_SCHOLAR_API_KEY` or `S2_API_KEY`) | Beta | Good recall/impact signals |
-| Scopus | Paid/institutional | Yes | Conditional | Institution contract required |
-| Google Scholar (SerpAPI) | Paid key | Yes (`SERPAPI_API_KEY`) | Conditional | Recall expansion only |
-| ClinicalTrials/bioRxiv/medRxiv | Free | No | Experimental | best-effort adapters |
+Default-on rules:
+- **Free** sources are queried by default.
+- **Keyed** sources are queried automatically only when their environment variable is set (otherwise skipped silently with a warning).
+
+| Source | Cost | Key needed | Default-on | Maturity | Notes |
+|---|---|---|---|---|---|
+| PubMed | Free | Optional (`NCBI_API_KEY`) | Yes | Stable | Biomedical primary source |
+| Europe PMC | Free | No | Yes | Stable | OA coverage strong |
+| OpenAlex | Free | No | Yes | Stable | Broad metadata/citation graph |
+| Crossref | Free | No | Yes | Stable | DOI metadata normalization |
+| Semantic Scholar | Free (rate-limited) | Optional (`SEMANTIC_SCHOLAR_API_KEY` or `S2_API_KEY`) | Yes | Beta | Good recall/impact signals; ~1 rps without key |
+| ClinicalTrials.gov | Free | No | Yes | Experimental | best-effort adapter |
+| bioRxiv | Free | No | Yes | Experimental | best-effort adapter |
+| medRxiv | Free | No | Yes | Experimental | best-effort adapter |
+| arXiv | Free | No | Yes | Beta | Quant bio / methods preprints |
+| OpenAIRE | Free | No | Yes | Beta | EU OA aggregator |
+| F1000Research | Free | No | Yes | Beta | Open peer review platform |
+| DOAJ | Free | No | Yes | Beta | Directory of OA journals |
+| Scopus | Paid / institutional | Yes (`SCOPUS_API_KEY`) | When key set | Conditional | Institution contract required |
+| SciVal | Paid / institutional | Yes (`SCIVAL_API_KEY` or `SCOPUS_API_KEY`) | When key set | Conditional | Author metric enrichment only (FWCI, ScholarlyOutput) |
+| Google Scholar (SerpAPI) | Paid key | Yes (`SERPAPI_API_KEY`) | When key set | Conditional | Recall expansion only |
+| CORE | Free dev tier | Yes (`CORE_API_KEY`) | When key set | Beta | OA full-text aggregator |
+| Unpaywall | Free | Email (`UNPAYWALL_EMAIL` or `CROSSREF_EMAIL`) | When email set | Stable | OA status / PDF resolution |
 
 ## Installation
 

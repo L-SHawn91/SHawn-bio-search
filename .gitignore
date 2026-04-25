@@ -43,8 +43,12 @@ env/
 .coverage
 htmlcov/
 
-# Output files
-*.json
+# Output files (scoped — do NOT use a global *.json rule, it would hide
+# tests/fixtures/*.json, package data, and config files)
+outputs/*.json
+output/*.json
+results/*.json
+downloads/*.json
 results/
 output/
 

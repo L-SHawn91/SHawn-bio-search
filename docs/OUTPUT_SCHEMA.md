@@ -177,6 +177,25 @@ Recommended sections:
 - retrieval warnings
 - key limits and assumptions
 
+## 8) `verify_citation()` results
+
+Purpose:
+- output of `shawn_bio_search.sources.pubmed.verify_citation()` for confirming whether a cited paper actually exists and matches the surrounding context
+
+Each item in the returned list (sorted by `_context_score` descending) carries the standard normalized paper fields (`title`, `authors`, `year`, `doi`, `pmid`, `pmcid`, `url`, `abstract`, `first_author`, ...) plus:
+
+- `_context_score` — float 0.0–1.0, token-overlap match against `context_keywords` and `context_sentence`
+- `_verification_confidence` — bucketed label derived from `_context_score`:
+
+| Label | `_context_score` range | Interpretation |
+|---|---|---|
+| `HIGH` | `>= 0.60` | Correct paper with high certainty |
+| `MEDIUM` | `>= 0.35` | Likely correct, manual check recommended |
+| `LOW` | `>= 0.15` | Uncertain match — context is weak |
+| `MISMATCH` | `< 0.15` | Wrong paper (different field/species/topic) |
+
+`_verification_confidence` is a retrieval-side hint only. Downstream consumers (`SHawn-academic-research`) decide whether to accept, request re-verification, or surface a conflict to the writer.
+
 ## Cross-tool evaluation linkage
 
 The retrieval bundle emitted by `SHawn-bio-search` is the producer in a dual-engine (and optionally 3-way) linkage:
