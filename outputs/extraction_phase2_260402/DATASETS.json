@@ -1,0 +1,519 @@
+{
+  "project": "",
+  "backend": "SHawn-bio-search",
+  "run_label": "2026-04-02_213836_bio_search",
+  "query": "Protocol for generation of and high-throughput drug testing with patient-derived colorectal cancer organoids",
+  "generated_at": "2026-04-02T21:39:11.814670+09:00",
+  "results": [
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-10195",
+      "title": "Circular chromatin conformation capture (4C-seq) experiments for viewpoints on the promoters of Rpgrip1l/Fto, Irx3, Irx5 and Irx6 in mouse hypothalamus",
+      "organism": "",
+      "data_type": "",
+      "summary": " data transformation protocol EFO EFO_0003816 Data was not normalized P-MTAB-107287 high throughput sequence alignment protocol EFO EFO_0004917 Reads were aligned with bowtie2. P-MTAB-107286 dissection protocol EFO EFO_0005519 See sample collection protocol P-MTAB-107285 conversion protocol EFO EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10195",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10195",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.6
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-3453",
+      "title": "Transcriptome analysis in the Antarctic bacterium Pseudomonas extremaustralis at low temperatures",
+      "organism": "",
+      "data_type": "",
+      "summary": " sample collection protocol EFO EFO_0005518 Bacterial cells were collected by centrifuation for 10 min at 5000xG P-MTAB-44079 conversion protocol EFO EFO_0005520 Performed with ScriptSeq v2 RNA seq library prep kit (Illumina) acoording to manufacture instructions P-MTAB-44076 high throughput sequence alignment protocol EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-3453",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-3453",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.55
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-7350",
+      "title": "Corynebacterium Cell Factory Design and Culture Process Optimization for Muconic Acid Biosynthesis",
+      "organism": "",
+      "data_type": "",
+      "summary": " Corynebacterium glutamicum P-MTAB-80373 high throughput sequence alignment protocol EFO EFO_0004917 aligning sequencing reads to long reference sequences null P-MTAB-80367 sample collection protocol EFO EFO_0005518 LB media containing 8 g/L of glucose null P-MTAB-80369 nucleic acid library construction protocol EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7350",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7350",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.55
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-6929",
+      "title": "Diet induced obesity is independent of metabolic endotoxemia, Tlr4 signalling and hypothalamic inflammation",
+      "organism": "",
+      "data_type": "",
+      "summary": " (TLR4) and CD14. The aim of this study was to determine hypothalamic gene expression in response to long term feeding of a high fat diet, taking into account the importance of using a control diet with a similar composition and balanced for sucrose content. P-MTAB-76076 normalization data transformation protocol EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6929",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6929",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.55
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-12759",
+      "title": "Intermittent childhood hyperlipidaemia alters resident arterial macrophages and accelerates atherosclerosis",
+      "organism": "",
+      "data_type": "",
+      "summary": " high fat diet. null null P-MTAB-131329 dissection protocol EFO EFO_0005519 Animals were perfused with cold PBS to remove any trace of blood.  Aortas were harvested and cleaned of contaminated tissues under a dissection microscope null null P-MTAB-131330 high throughput sequence alignment protocol EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-12759",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-12759",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.55
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-8051",
+      "title": "1, 3-Dicaffeoylquinic acid targeting 14-3-3 τ suppresses human breast cancer cell proliferation and metastasis through IL6/JAK2/PI3K pathway",
+      "organism": "",
+      "data_type": "",
+      "summary": " libraries. P-MTAB-86706 sample collection protocol EFO EFO_0005518 Treatment with 1, 3-DCQA (50 μ g/mL with DMEM) for 48 h P-MTAB-86709 nucleic acid sequencing protocol EFO EFO_0004170 Illumina HiSeq 3000 HiSeq X Ten P-MTAB-86708 nucleic acid library construction protocol EFO EFO_0004184 RNA",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-8051",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-8051",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.55
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-9772",
+      "title": "Monitor the efficiency of \"WIND: A Workflow for pIRNAs aNd beyonD\" for the identification of single-stranded (SS) spike-in piRNA-like molecules in smallRNA-seq",
+      "organism": "",
+      "data_type": "",
+      "summary": "_0004917 Sequences were aligned to human genome (GRCh38) P-MTAB-103258 normalization data transformation protocol EFO EFO_0003816 Data were normalized using DESeq2 3 spike-in concentration spike-in concentration quality control testing design EFO_0001774 replicate design EFO_0001776 software variation design EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9772",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9772",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.5
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-6866",
+      "title": "RNA-seq of Arabidopsis thaliana wild-type and a putative chloroplast ribosome biogenesis mutant AtRsgA homozygous knockout",
+      "organism": "",
+      "data_type": "",
+      "summary": " normalization data transformation protocol EFO EFO_0003816 No applicable. null P-MTAB-75548 conversion protocol EFO EFO_0005520 No applicable. null P-MTAB-75549 dissection protocol EFO EFO_0005519 No applicable. null P-MTAB-75550 high throughput sequence alignment protocol EFO EFO_0004917 No applicable",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6866",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6866",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.5
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-9392",
+      "title": "Role of Macrophage migration inhibitory factor (MIF) in pancreatic stellate cells (PSCs)",
+      "organism": "",
+      "data_type": "",
+      "summary": ". null P-MTAB-99432 normalization data transformation protocol EFO EFO_0003816 deseq2 library was used with rlog normalization null P-MTAB-99434 high throughput sequence alignment protocol EFO EFO_0004917 The alignment was done using STAR aligner with default parameters NextSeq 550 (Illumina",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9392",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-9392",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.5
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-15564",
+      "title": "RNA-seq from USP10 and TDP-43 overexpression and TDP-43 knockdown associated with or without USP10 overexpression in HeLa cells",
+      "organism": "",
+      "data_type": "",
+      "summary": " nucleic acid library construction protocol EFO EFO_0004184 KAPA polyA null P-MTAB-155807 nucleic acid sequencing protocol EFO EFO_0004170 Illumina-seq Illumina NovaSeq 6000 P-MTAB-155808 growth protocol EFO EFO_0003789 cell culture for 10 days, changing media every 72 hours null P-MTAB-155809 treatment",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-15564",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-15564",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.5
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-11104",
+      "title": "Single nucleus RNAseq of mouse inguinal white adipose tissue with Rspo2 or GFP AAV injection",
+      "organism": "",
+      "data_type": "",
+      "summary": " tissue (ingWAT). P-MTAB-115791 nucleic acid library construction protocol EFO EFO_0004184 standard 10x protocol was applied null P-MTAB-115790 nucleic acid extraction protocol EFO EFO_0002944 standard 10x protocol was applied null P-MTAB-115793 growth protocol EFO EFO_0003789 10 weeks of high fat diet",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11104",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11104",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.45
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-10186",
+      "title": "Gene expression analysis of the effect of Irx3 knockout in mouse hypothalamus compared with wild-type (in high-fat diet)",
+      "organism": "",
+      "data_type": "",
+      "summary": " from adult mouse hypothalamus was extracted using Trizol® (Millipore Sigma). null null null null P-MTAB-107064 nucleic acid library construction protocol EFO EFO_0004184 RNA-seq libraries were generated using the TruSeq RNA Library Prep Kit v2 (Illumina) null null null null P-MTAB-107070 dissection",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10186",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10186",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.45
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-14267",
+      "title": "ATAC-seq of primary human airway smooth muscle cells from 4 donors",
+      "organism": "",
+      "data_type": "",
+      "summary": ". P-MTAB-145422 conversion protocol EFO EFO_0005520 ATAC-seq was performed according to Buenrostro et al. Nature Methods 10, 1213-1218 (2013). P-MTAB-145423 dissection protocol EFO EFO_0005519 None P-MTAB-145424 high throughput sequence alignment protocol EFO EFO_0004917 We used bowtie2 to align reads. 4",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-14267",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-14267",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.45
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-10794",
+      "title": "RNA-seq of mouse skeletal muscle samples",
+      "organism": "",
+      "data_type": "",
+      "summary": " RNA) were created according to the standard Illumina protocol. P-MTAB-113335 nucleic acid sequencing protocol EFO EFO_0004170 Illumina X ten HiSeq X Ten P-MTAB-113332 sample collection protocol EFO EFO_0005518 The mice were treated with rIL-6 4.5 pg P-MTAB-113333 nucleic acid extraction protocol EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10794",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-10794",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.4
+    },
+    {
+      "repository": "arrayexpress",
+      "accession": "E-MTAB-8553",
+      "title": "FloChIP TF benchmarking data",
+      "organism": "",
+      "data_type": "",
+      "summary": " Nextera library prep (detailes in the MS) P-MTAB-91612 conversion protocol EFO EFO_0005520 Not applicable P-MTAB-91608 nucleic acid sequencing protocol EFO EFO_0004170 Illumina NextSeq 500 P-MTAB-91613 dissection protocol EFO EFO_0005519 Not applicable P-MTAB-91605 sample collection protocol EFO EFO",
+      "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-8553",
+      "download_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-8553",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.35
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1146057",
+      "title": "HE_3",
+      "organism": "",
+      "data_type": "RNASeq",
+      "summary": "HE_3",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA017939/CRX1146057",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA017939/CRX1146057",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX911461",
+      "title": "CCX202304",
+      "organism": "",
+      "data_type": "RNASeq",
+      "summary": "CCX202304",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA014129/CRX911461",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA014129/CRX911461",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX658741",
+      "title": "2020D20yxhA34_X8_2",
+      "organism": "",
+      "data_type": "RNASeq",
+      "summary": "2020D20yxhA34_X8_2",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA010691/CRX658741",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA010691/CRX658741",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1596740",
+      "title": "AP",
+      "organism": "",
+      "data_type": "RNASeq",
+      "summary": "AP",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA024461/CRX1596740",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA024461/CRX1596740",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064720",
+      "title": "F2100227",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100227",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064720",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064720",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064735",
+      "title": "F2100242",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100242",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064735",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064735",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064751",
+      "title": "F2100258",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100258",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064751",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064751",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064755",
+      "title": "F2100262",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100262",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064755",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064755",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064771",
+      "title": "F2100278",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100278",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064771",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064771",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064821",
+      "title": "F2100338",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100338",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064821",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064821",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064823",
+      "title": "F2100340",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100340",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064823",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064823",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064836",
+      "title": "F2100356",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100356",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064836",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064836",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064842",
+      "title": "F2100364",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100364",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064842",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064842",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064860",
+      "title": "F2100384",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100384",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064860",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064860",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064898",
+      "title": "F2100424",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100424",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064898",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064898",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    }
+  ]
+}

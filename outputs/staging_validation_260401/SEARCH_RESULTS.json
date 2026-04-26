@@ -1,0 +1,1383 @@
+{
+  "project": "endometrial_organoid_review",
+  "backend": "SHawn-bio-search",
+  "mode": "fast",
+  "run_label": "2026-04-01_121749_bio_search",
+  "query": "hgf endometrium epithelial proliferation",
+  "effective_query": "hgf endometrium epithelial proliferation",
+  "generated_at": "2026-04-01T12:17:49.074276+09:00",
+  "results": [
+    {
+      "citation_key": "10.1095_BIOLREPROD57.4.936",
+      "source": "semantic_scholar",
+      "source_hits": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "source_ids": [
+        "e6754b3e2b67dc41dd6514d36922387b5ebc91e8",
+        "https://openalex.org/W2119852379"
+      ],
+      "title": "Hepatocyte Growth Factor Stimulates Proliferation, Migration, and Lumen Formation of Human Endometrial Epithelial Cells In Vitro",
+      "authors": [
+        "Junichi Sugawara",
+        "T Fukaya",
+        "Takashi Murakami",
+        "Hidemune Yoshida",
+        "Akira Yajima"
+      ],
+      "year": 1997,
+      "journal": "",
+      "doi": "10.1095/BIOLREPROD57.4.936",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://www.semanticscholar.org/paper/e6754b3e2b67dc41dd6514d36922387b5ebc91e8",
+      "abstract": "Human endometrial regeneration has been considered to be modulated by several growth factors. However, little is known about the detailed mechanisms involved in the repair of the endometrium during the menstrual period. Hepatocyte growth factor (HGF) is a pleiotropic growth factor that reportedly acts on various epithelial cells. In the present study, we observed HGF and mRNA expression in human endometrium and mRNA expression in cultured endometrial epithelial cells of the c-met gene by reverse transcription-polymerase chain reaction and Southern blot hybridization. We also examined the biological role of HGF on the regeneration of the endometrium by using cultured endometrial epithelial cells in their proliferative phase. With the proliferation assay, the addition of 10-50 ng/ml of HGF showed that HGF was mitogenic in a dose-dependent manner. With Boyden's chamber technique, 50 ng/ml of HGF significantly stimulated cell migration. In a three-dimensional cell-culture system, the endometrial epithelial cells formed cell clusters and gradually formed epithelial lumens, both of which were stimulated by 50 ng/ml of HGF. Results suggest the HGF stimulates the proliferation and migration of, and morphogenic changes in, endometrial epithelial cells. HGF may modulate the regeneration of the endometrium during menstruation.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 1,
+      "retrieval_score": 0.7294
+    },
+    {
+      "citation_key": "1997_Hepatocyte_growth_factor_stimulated_prol_2",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed",
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "pmid:9314600",
+        "46d24f187fb4099bf772b2e59b1f73d19ffeb5cc"
+      ],
+      "title": "Hepatocyte growth factor stimulated proliferation, migration, and lumen formation of human endometrial epithelial cells in vitro.",
+      "authors": [
+        "Sugawara J",
+        "Fukaya T",
+        "Murakami T",
+        "Yoshida H",
+        "Yajima A"
+      ],
+      "year": 1997,
+      "journal": "",
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9314600/",
+      "abstract": "Human endometrial regeneration has been considered to be modulated by several growth factors. However, little is known about the detailed mechanisms involved in the repair of the endometrium during the menstrual period. Hepatocyte growth factor (HGF) is a pleiotropic growth factor that reportedly acts on various epithelial cells. In the present study, we observed HGF and mRNA expression in human endometrium and mRNA expression in cultured endometrial epithelial cells of the c-met gene by reverse transcription-polymerase chain reaction and Southern blot hybridization. We also examined the biological role of HGF on the regeneration of the endometrium by using cultured endometrial epithelial cells in their proliferative phase. With the proliferation assay, the addition of 10-50 ng/ml of HGF showed that HGF was mitogenic in a dose-dependent manner. With Boyden's chamber technique, 50 ng/ml of HGF significantly stimulated cell migration. In a three-dimensional cell-culture system, the endometrial epithelial cells formed cell clusters and gradually formed epithelial lumens, both of which were stimulated by 50 ng/ml of HGF. Results suggest the HGF stimulates the proliferation and migration of, and morphogenic changes in, endometrial epithelial cells. HGF may modulate the regeneration of the endometrium during menstruation.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "pubmed_metadata",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 2,
+      "retrieval_score": 0.7075
+    },
+    {
+      "citation_key": "10.2741_4328",
+      "source": "semantic_scholar",
+      "source_hits": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "source_ids": [
+        "75942df0a9188dbcc4c6a451c0ab415a80416a7b",
+        "https://openalex.org/W2335476544"
+      ],
+      "title": "HGF and c-Met in pathogenesis of endometrial carcinoma.",
+      "authors": [
+        "Min Li",
+        "Xiaoyan Xin",
+        "Tingting Wu",
+        "Teng Hua",
+        "Hongbo Wang"
+      ],
+      "year": 2015,
+      "journal": "",
+      "doi": "10.2741/4328",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://www.semanticscholar.org/paper/75942df0a9188dbcc4c6a451c0ab415a80416a7b",
+      "abstract": "Hepatocyte growth factor (HGF) regulates cell growth, motility, and morphogenesis of various types of cells via its receptor c-Met. In the growth of endometrium, HGF/c-Met signaling promotes the proliferation of both endometrial epithelial cells and stromal cells. In the onset and development of several cancers, HGF/c-Met signaling drives carcinogenesis and cancer invasion and metastasis. In endometrial carcinoma (EC), accounting for a majority of cancer-related morbidity and mortality among women, the increased expression of HGF and c-Met signaling is associated with a poor prognosis of EC patients. Thus, we will discuss the role of HGF and c-Met in the EC pathogenesis in this review.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://article.imrpress.com/bri/Landmark/articles/pdf/Landmark4328.pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": true,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 3,
+      "retrieval_score": 0.6922,
+      "collision_group_id": "COLLISION_001"
+    },
+    {
+      "citation_key": "2015_HGF_and_c-Met_in_pathogenesis_of_endomet_4",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:25553470"
+      ],
+      "title": "HGF and c-Met in pathogenesis of endometrial carcinoma.",
+      "authors": [
+        "Li M",
+        "Xin X",
+        "Wu T",
+        "Hua T",
+        "Wang H"
+      ],
+      "year": 2015,
+      "journal": "",
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25553470/",
+      "abstract": "Hepatocyte growth factor (HGF) regulates cell growth, motility, and morphogenesis of various types of cells via its receptor c-Met. In the growth of endometrium, HGF/c-Met signaling promotes the proliferation of both endometrial epithelial cells and stromal cells. In the onset and development of several cancers, HGF/c-Met signaling drives carcinogenesis and cancer invasion and metastasis. In endometrial carcinoma (EC), accounting for a majority of cancer-related morbidity and mortality among women, the increased expression of HGF and c-Met signaling is associated with a poor prognosis of EC patients. Thus, we will discuss the role of HGF and c-Met in the EC pathogenesis in this review.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "pubmed_metadata",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 4,
+      "retrieval_score": 0.6782
+    },
+    {
+      "citation_key": "10.1262_jrd.2015-158",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:26946922"
+      ],
+      "title": "Growth factor induced proliferation, migration, and lumen formation of rat endometrial epithelial cells in vitro.",
+      "authors": [
+        "Islam MR",
+        "Yamagami K",
+        "Yoshii Y",
+        "Yamauchi N"
+      ],
+      "year": 2016,
+      "journal": "",
+      "doi": "10.1262/jrd.2015-158",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26946922/",
+      "abstract": "Endometrial modulation is essential for the preservation of normal uterine physiology, and this modulation is driven by a number of growth factors. The present study investigated the mitogenic, motogenic, and morphogenic effects of epidermal growth factor (EGF) and hepatocyte growth factor (HGF) on rat endometrial epithelial (REE) cells. The REE cells were isolated and cultured and then characterized based on their morphology and their expression of epithelial cell markers. The MTT assay revealed that EGF and HGF induce proliferation of REE cells. Consistent with increased proliferation, we found that the cell cycle regulatory factor Cyclin D1 was also upregulated upon EGF and HGF addition. REE cell migration was prompted by EGF, as observed with the Oris Cell Migration Assay. The morphogenic impact of growth factors on REE cells was studied in a three-dimensional BD Matrigel cell culture system, wherein these growth factors also increased the frequency of lumen formation. In summary, we show that EGF and HGF have a stimulatory effect on REE cells, promoting proliferation, cell migration, and lumen formation. Our findings provide important insights that further the understanding of endometrial regeneration and its regulation.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": true,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.jstage.jst.go.jp/article/jrd/62/3/62_2015-158/_pdf",
+        "license": "cc-by-nc-nd",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 5,
+      "retrieval_score": 0.5569
+    },
+    {
+      "citation_key": "10.1095_biolreprod.109.079772",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2105279504"
+      ],
+      "title": "Hepatocyte Growth Factor System in the Mouse Uterus: Variation Across the Estrous Cycle and Regulation by 17-Beta-Estradiol and Progesterone1",
+      "authors": [
+        "Xuan Zhang"
+      ],
+      "year": 2010,
+      "journal": "",
+      "doi": "10.1095/biolreprod.109.079772",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1095/biolreprod.109.079772",
+      "abstract": "Hepatocyte growth factor (HGF) and its receptor MET have been implicated in uterine development, pregnancy, and endometrial disorders, such as endometriosis and carcinoma. In vitro studies have shown that HGF acts as a mitogen, motogen, and morphogen on endometrial epithelial cells. However, the expression and regulation of HGF and MET in the uteri of different species remain obscure. The present study aimed to investigate the changes of HGF, MET, and HGF activator (HGFA) expression in the uterine endometrium during the estrous cycle in mice and to explore estrogen and progesterone regulation of their expression. MKI67 immunostaining was conducted to examine the association between HGF/MET expression and endometrial cell proliferation. Endometrial epithelial and stromal cells both expressed HGF, HGFA, and MET, but the cell type-specific patterns changed during the cycle. Estrogen and progesterone differentially regulated HGF, MET, and HGFA expression. Progesterone up-regulated their expression in the stroma and down-regulated their expression in the luminal epithelium, whereas 17-beta-estradiol down-regulated their expression in the glandular epithelium. The pattern of HGF/MET overall correlated with that of MKI67. In conclusion, HGF, HGFA, and MET expression in mouse uterus changes during the estrous cycle in a stage-, cell type-, and compartment-specific manner under the influence of estrogen and progesterone. HGF likely plays a role in cyclic endometrial remodeling, such as cell proliferation via autocrine/paracrine mechanisms in mouse uterus.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/biolreprod/article-pdf/82/6/1037/10573900/biolreprod1037.pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 6,
+      "retrieval_score": 0.537
+    },
+    {
+      "citation_key": "10.1095_biolreprod.114.124891",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:25505196"
+      ],
+      "title": "Involvement of hepatocyte growth factor-induced epithelial-mesenchymal transition in human adenomyosis.",
+      "authors": [
+        "Khan KN",
+        "Kitajima M",
+        "Hiraki K",
+        "Fujishita A",
+        "Nakashima M",
+        "Masuzaki H"
+      ],
+      "year": 2015,
+      "journal": "",
+      "doi": "10.1095/biolreprod.114.124891",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25505196/",
+      "abstract": "Adenomyosis is commonly believed to arise from the basalis endometrium. As an estromedin growth factor, hepatocyte growth factor (HGF) exhibits multiple functions in endometriosis, a disease commonly believed to arise from the functionalis endometrium. Here, we investigated the role of HGF in the occurrence of epithelial-mesenchymal transition (EMT) in adenomyosis. Full-thickness-biopsy specimens from endometrium to myometrium were collected after hysterectomy from women with and without adenomyosis. The relationship between HGF and E-cadherin (epithelial cell marker) and N-cadherin (mesenchymal cell markers) was examined at the gene and protein levels using endometrial epithelial cells (EECs) in culture and tissues by quantitative RT-PCR and immunohistochemistry. The gene and protein expressions of two transcriptional repressors of E-cadherin, SLUG and SNAIL, were examined using Ishikawa cells and in response to HGF and estrogen (E2). HGF down-regulated E-cadherin and up-regulated N-cadherin mRNA expression in EECs, and an inverse relationship in protein expression between HGF and E-cadherin was observed in basalis endometria derived from women with diffuse and focal adenomyosis. HGF induced morphological changes of EECs from a cobblestone-like appearance to spindle-shaped cells and promoted migration of EECs. Ishikawa cells exhibited up-regulation of SLUG/SNAIL gene expression in response to both HGF and E2 with an additive effect between them. HGF- and E2-promoted SLUG/SNAIL gene expression was significantly abrogated after pretreatment of cells with anti-HGF antibody or ICI 182720, an estrogen receptor antagonist. HGF may be involved in gland invagination deep into the myometrium by inducing EMT at the endo-myometrial junction in women with adenomyosis.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/biolreprod/article-pdf/92/2/35, 1-11/10554680/biolreprod0035.pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 7,
+      "retrieval_score": 0.5172
+    },
+    {
+      "citation_key": "10.1095_biolreprod62.6.1844",
+      "source": "semantic_scholar",
+      "source_hits": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "source_ids": [
+        "19c39d8751f63a1196a0275c3ad2ea2c7eea42a2",
+        "https://openalex.org/W2137851741"
+      ],
+      "title": "Expression of Hepatocyte Growth Factor and Its Receptor c-metin the Ovine Uterus1",
+      "authors": [
+        "Chen Chen",
+        "T Spencer",
+        "F Bazer",
+        "Thomas E Spencer",
+        "F W Bazer"
+      ],
+      "year": 2000,
+      "journal": "",
+      "doi": "10.1095/biolreprod62.6.1844",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://www.semanticscholar.org/paper/19c39d8751f63a1196a0275c3ad2ea2c7eea42a2",
+      "abstract": "Epithelial-mesenchymal interactions (EMI) are necessary for epithelial cell proliferation, differentiation, and function in the uterus and are mediated, in part, by paracrine growth factors of stromal origin. The objective of this study was to determine if hepatocyte growth factor (HGF, scatter factor) and its receptor c-met were present in the ovine uterus and to characterize their temporal and spatial expression during the estrous cycle and pregnancy. Reverse transcription-polymerase chain reaction was used to clone partial cDNAs for ovine HGF and c-met from endometrial total RNA. Northern blot analysis of endometrial RNA revealed expression of a 6-kb mRNA for HGF and an 8-kb mRNA for c-met in ovine endometrium. In situ hybridization demonstrated that HGF mRNA was expressed by stromal cells of the endometrium, whereas c-met mRNA was localized exclusively to luminal and glandular epithelial cells. In the early conceptus, HGF mRNA was expressed by chorioallantoic mesenchyme, and c-met was expressed by trophectoderm. Steady-state levels of endometrial c-met mRNA increased after Day 9 in both cyclic and pregnant ewes. The HGF mRNA was expressed during both the estrous cycle and early pregnancy. Results indicate that HGF is a stromal-derived paracrine growth factor in the ovine uterus and placenta that is potentially involved in endometrial epithelial-stromal interactions and chorioallantoic stromal-trophectodermal interactions. In the ovine uterus, HGF may stimulate epithelial morphogenesis and differentiated function required for establishment and maintenance of pregnancy, conceptus implantation, and placentation.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 8,
+      "retrieval_score": 0.4782
+    },
+    {
+      "citation_key": "2000_Expression_of_hepatocyte_growth_factor_a_9",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:10819791"
+      ],
+      "title": "Expression of hepatocyte growth factor and its receptor c-met in the ovine uterus.",
+      "authors": [
+        "Chen C",
+        "Spencer TE",
+        "Bazer FW"
+      ],
+      "year": 2000,
+      "journal": "",
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10819791/",
+      "abstract": "Epithelial-mesenchymal interactions (EMI) are necessary for epithelial cell proliferation, differentiation, and function in the uterus and are mediated, in part, by paracrine growth factors of stromal origin. The objective of this study was to determine if hepatocyte growth factor (HGF, scatter factor) and its receptor c-met were present in the ovine uterus and to characterize their temporal and spatial expression during the estrous cycle and pregnancy. Reverse transcription-polymerase chain reaction was used to clone partial cDNAs for ovine HGF and c-met from endometrial total RNA. Northern blot analysis of endometrial RNA revealed expression of a 6-kb mRNA for HGF and an 8-kb mRNA for c-met in ovine endometrium. In situ hybridization demonstrated that HGF mRNA was expressed by stromal cells of the endometrium, whereas c-met mRNA was localized exclusively to luminal and glandular epithelial cells. In the early conceptus, HGF mRNA was expressed by chorioallantoic mesenchyme, and c-met was expressed by trophectoderm. Steady-state levels of endometrial c-met mRNA increased after Day 9 in both cyclic and pregnant ewes. The HGF mRNA was expressed during both the estrous cycle and early pregnancy. Results indicate that HGF is a stromal-derived paracrine growth factor in the ovine uterus and placenta that is potentially involved in endometrial epithelial-stromal interactions and chorioallantoic stromal-trophectodermal interactions. In the ovine uterus, HGF may stimulate epithelial morphogenesis and differentiated function required for establishment and maintenance of pregnancy, conceptus implantation, and placentation.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "pubmed_metadata",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 9,
+      "retrieval_score": 0.456
+    },
+    {
+      "citation_key": "10.1007_s13277-015-3309-2",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed",
+        "semantic_scholar",
+        "openalex"
+      ],
+      "source_ids": [
+        "pmid:25775951",
+        "1ff30553e419c431c82b3b4206e8d0e9df6c9c73",
+        "https://openalex.org/W2150041296"
+      ],
+      "title": "Stromal cells of endometrial carcinoma promotes proliferation of epithelial cells through the HGF/c-Met/Akt signaling pathway.",
+      "authors": [
+        "Min Li",
+        "Xiaoyan Xin",
+        "Tingting Wu",
+        "Teng Hua",
+        "Hong-bin Wang"
+      ],
+      "year": 2015,
+      "journal": "",
+      "doi": "10.1007/s13277-015-3309-2",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25775951/",
+      "abstract": "Tumor microenvironment participates in the endometrial carcinoma pathogenesis. This study focuses on the interaction between endometrial cancer stromal cells and epithelial cells from normal endometrium tissue using in vitro transwell coculture system and in vivo xenograft model. We demonstrate that cancer interstitial (CI) cells stimulate normal epithelial (NE) cell proliferation. Tumor xenograft model confirmed the pro-proliferative effect of CI cells on epithelial cell growth. Tumor suppressor PTEN was reduced, and oncogene K-ras was increased in epithelial cells cocultured with CI cells. Moreover, we observed increased expression of hepatocyte growth factor (HGF) in CI cells and tumor xenografts derived from the coculturing system. Higher HGF secretion activated Akt signaling pathway, which was reversed by HGF receptor inhibitor (crizotinib). These results demonstrate that endometrial carcinoma stromal cells stimulate epithelial cell proliferation via the HGF/c-Met/Akt signaling pathway.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": true,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 10,
+      "retrieval_score": 0.4404,
+      "collision_group_id": "COLLISION_001"
+    },
+    {
+      "citation_key": "10.1007_978-3-030-59038-3_13",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:34185295"
+      ],
+      "title": "Endometrial Tumour Microenvironment.",
+      "authors": [
+        "Casas-Arozamena C",
+        "Abal M"
+      ],
+      "year": 2020,
+      "journal": "",
+      "doi": "10.1007/978-3-030-59038-3_13",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34185295/",
+      "abstract": "Endometrial cancer (EC) is the most common gynaecological tumour in developed countries, and its incidence is increasing in part due to the prevalence of obesity and its related hormone dysregulation. As described in this chapter, the tumour microenvironment plays a principal role in unopposed oestrogen stimulation promoting tumour cell proliferation. Factors and cytokines secreted by the different cell types defining the reactive tumour stroma also determine the invasive abilities of the tumour cells. Cancer-associated fibroblasts and tumour-associated macrophages actively participate through SDF-1, TGF-b or HGF to promote epithelial-to-mesenchymal transition or to generate an appropriate tumour niche. Likewise, endothelial cells facilitate lymph node and vascular infiltration through VEGF. Finally, the possibility to balance the immunosuppressive phenotypes in advanced endometrial cancer through the tumour microenvironment will probably represent a main therapeutic strategy in the near future.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 11,
+      "retrieval_score": 0.4013
+    },
+    {
+      "citation_key": "10.1155_2022_5744538",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed",
+        "semantic_scholar",
+        "openalex"
+      ],
+      "source_ids": [
+        "pmid:35422866",
+        "58731cb7a616ef19c59c9608657ac98642bdda4a",
+        "https://openalex.org/W4226076638"
+      ],
+      "title": "Therapeutic Effects and Repair Mechanism of HGF Gene-Transfected Mesenchymal Stem Cells on Injured Endometrium.",
+      "authors": [
+        "Xuan Xu",
+        "Qiong Xing",
+        "Ruijun Liu",
+        "Liu Dong",
+        "Zhenrong Yu",
+        "Ying Wang",
+        "Ping Zhou",
+        "Zhang YV",
+        "Jianye Wang",
+        "Yunxia Cao",
+        "Zhaolian Wei",
+        "Ying V Zhang"
+      ],
+      "year": 2022,
+      "journal": "",
+      "doi": "10.1155/2022/5744538",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35422866/",
+      "abstract": "There are many studies on the advantages of using mesenchymal stem cells (MSCs) that secrete various paracrine factors for repairing endometrial injury. However, the stability and effectiveness of MSCs require improvement to become a viable therapy. Hepatocyte growth factor (HGF), one of the cytokines secreted by MSCs, promotes vascular repair and mesenchymal to epithelial transformation (MET). Therefore, HGF likely promotes the repair process of the endometrium. We prepared MSCs transfected with the HGF gene to explore its repair effects and mechanism using a damaged endometrium mouse model. HGF gene-transfected MSCs were prepared by electroporation. The transfected MSCs retained their cellular characteristics and significantly increased the expression of HGF (<i>P</i> < 0.01). HGF gene-transfected MSCs helped damaged endometrium to recover its morphological characteristics, improved proliferation and decreased apoptosis of endometrial cells, increased the expression of endometrial vascular growth-related factors, and activated phosphorylated c-Met and AKT in the mouse endometrial damage model (<i>P</i> < 0.05). Compared with normal MSCs, HGF gene-transfected MSCs produced a more significant effect on damaged endometrial epithelium repair by activating the HGF/c-Met and downstream signaling pathways. Our results indicate that HGF gene-transfected MSCs provide an effective and promising tool for injured endometrium therapy.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://downloads.hindawi.com/journals/sci/2022/5744538.pdf",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 12,
+      "retrieval_score": 0.3605
+    },
+    {
+      "citation_key": "10.1172_jci39104",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2154589460"
+      ],
+      "title": "The basics of epithelial-mesenchymal transition",
+      "authors": [
+        "Raghu Kalluri",
+        "Robert A. Weinberg"
+      ],
+      "year": 2009,
+      "journal": "",
+      "doi": "10.1172/jci39104",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1172/jci39104",
+      "abstract": "The origins of the mesenchymal cells participating in tissue repair and pathological processes, notably tissue fibrosis, tumor invasiveness, and metastasis, are poorly understood. However, emerging evidence suggests that epithelial-mesenchymal transitions (EMTs) represent one important source of these cells. As we discuss here, processes similar to the EMTs associated with embryo implantation, embryogenesis, and organ development are appropriated and subverted by chronically inflamed tissues and neoplasias. The identification of the signaling pathways that lead to activation of EMT programs during these disease processes is providing new insights into the plasticity of cellular phenotypes and possible therapeutic interventions.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": true,
+        "check_method": "unpaywall",
+        "pdf_url": "http://www.jci.org/articles/view/39104/files/pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 13,
+      "retrieval_score": 0.346
+    },
+    {
+      "citation_key": "2004_Formation_of_Human_Endometrial_Epithelia_14",
+      "source": "semantic_scholar",
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "1db789cc46a1ce644f9c43e421feca7290fa6225"
+      ],
+      "title": "Formation of Human Endometrial Epithelial Cells In Vitro",
+      "authors": [
+        "J. Sugawara",
+        "T. Fukaya",
+        "T. Murakami",
+        "H. Yoshida",
+        "A. Yajima"
+      ],
+      "year": 2004,
+      "journal": "",
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://www.semanticscholar.org/paper/1db789cc46a1ce644f9c43e421feca7290fa6225",
+      "abstract": "",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "landing_page_only",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 14,
+      "retrieval_score": 0.3202
+    },
+    {
+      "citation_key": "10.1210_JCEM.87.5.8483",
+      "source": "semantic_scholar",
+      "source_hits": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "source_ids": [
+        "eb14a96e7711fb20b07210e6d63c6b45e6c07160",
+        "https://openalex.org/W1996280788"
+      ],
+      "title": "Induction of hepatocyte growth factor in stromal cells by tumor-derived basic fibroblast growth factor enhances growth and invasion of endometrial cancer.",
+      "authors": [
+        "Souichi Yoshida",
+        "Tasuku Harada",
+        "Tomio Iwabe",
+        "Fuminori Taniguchi",
+        "Akiko Fujii",
+        "Yasuko Sakamoto",
+        "Nobuhiro Yamauchi",
+        "Goshi Shiota",
+        "Naoki Terakawa"
+      ],
+      "year": 2002,
+      "journal": "",
+      "doi": "10.1210/JCEM.87.5.8483",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://www.semanticscholar.org/paper/eb14a96e7711fb20b07210e6d63c6b45e6c07160",
+      "abstract": "Tumor progression is often regulated through interactions between carcinoma cells and host stromal cells. In this study of endometrial cancer, we investigated one mechanism potentially involved in hepatocyte growth factor (HGF)-mediated cancer-stromal interactions. Endometrial cancer cells (HEC-1 and ISHIKAWA) expressed the c-met receptor, but HGF did not. HGF, however, did stimulate the proliferation and invasion of these cells. The HGF gene was expressed in stromal cells, which had been separated from primary cultures of endometrial cancers, 6.4 times more than in isolated normal endometrial stromal cells. Immunohistochemical staining revealed immunoreactive HGF in cancer stromal cells, the staining intensity being more pronounced in cancer tissue than in normal endometrium. The conditioned medium from normal epithelial cells and cancer cell lines induced HGF production in normal stromal cells. We identified basic fibroblast growth factor as an HGF inducer derived from endometrial cancer cell lines. Basic fibroblast growth factor derived from tumor cells may induce HGF in endometrial stromal cells, whereas stromal cell-derived HGF leads to the invasive growth of carcinoma cells. These interactions, mediated by HGF and HGF inducers, may play a significant role in the progression of endometrial cancer.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/jcem/article-pdf/87/5/2376/9159675/jcem2376.pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 15,
+      "retrieval_score": 0.3154
+    },
+    {
+      "citation_key": "10.3389_fcell.2026.1724597",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41909132"
+      ],
+      "title": "Role and mechanism of mesenchymal stem cells in endometrial receptivity remodeling.",
+      "authors": [
+        "Zhao-Di W",
+        "Xian-Bao L",
+        "Liang-Zhen L",
+        "Lu-Hao L",
+        "Jia-Jie R",
+        "Hui Z",
+        "Bei J",
+        "Zhuo C."
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "10.3389/fcell.2026.1724597",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41909132",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": true,
+        "check_method": "unpaywall",
+        "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1724597/pdf",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 16,
+      "retrieval_score": 0.2927
+    },
+    {
+      "citation_key": "10.1096_fj.202504234r",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41787252"
+      ],
+      "title": "Multi-Omics Data Reveal Estrogen-Driven Dysregulation and Stromal-Epithelial Signaling Alterations in Endometrial Polyps.",
+      "authors": [
+        "Chen T",
+        "Zhang B",
+        "Zhou Z",
+        "Yang N",
+        "Liu T",
+        "Zhang H",
+        "Yin Y",
+        "Wu X",
+        "Li X",
+        "Yu T"
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "10.1096/fj.202504234r",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41787252",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://doi.org/10.1096/fj.202504234r",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 17,
+      "retrieval_score": 0.2927
+    },
+    {
+      "citation_key": "10.4103_abr.abr_512_24",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41669294"
+      ],
+      "title": "Serum Reproductive Hormone Profiles and Endometrial Expression of miR-16-5p, &lt;i&gt;VEGF&lt;/i&gt; Gene, and Protein, and CD31-Positive Cells following Progesterone and EGCG Administration.",
+      "authors": [
+        "Rarani FZ",
+        "Sharifi M",
+        "Rashidi B."
+      ],
+      "year": 2025,
+      "journal": "",
+      "doi": "10.4103/abr.abr_512_24",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41669294",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://doi.org/10.4103/abr.abr_512_24",
+        "license": "cc-by-nc-sa",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 18,
+      "retrieval_score": 0.2927
+    },
+    {
+      "citation_key": "10.1093_biolre_ioaf232",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41074771"
+      ],
+      "title": "Equine endometrial organoids preserve tissue structure and cycle-stage transcriptional identity†.",
+      "authors": [
+        "Verstraete MH",
+        "Kuijpers F",
+        "Holl W",
+        "Norris J",
+        "van Heule M",
+        "Martin-Pelaez S",
+        "Heard C",
+        "Uribe-Salazar J",
+        "Armien A",
+        "Conley A"
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "10.1093/biolre/ioaf232",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41074771",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://doi.org/10.1093/biolre/ioaf232",
+        "license": "cc-by-nc",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 19,
+      "retrieval_score": 0.2375
+    },
+    {
+      "citation_key": "10.3390_ijms27010278",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41516156"
+      ],
+      "title": "Molecular Crosstalk Between Intrauterine hCG and Endometrial Receptivity: Signalling Pathways, Immune Modulation, and Translational Perspectives in IVF.",
+      "authors": [
+        "Voros C",
+        "Chatzinikolaou F",
+        "Papadimas G",
+        "Polykalas S",
+        "Koulakmanidis AM",
+        "Athanasiou D",
+        "Kanaka V",
+        "Kanaka M",
+        "Bananis K",
+        "Athanasiou A"
+      ],
+      "year": 2025,
+      "journal": "",
+      "doi": "10.3390/ijms27010278",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41516156",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/1422-0067/27/1/278/pdf?version=1766755341",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 20,
+      "retrieval_score": 0.2375
+    },
+    {
+      "citation_key": "10.1093_stcltm_szag013",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41888633"
+      ],
+      "title": "Reproductive tissue-derived stromal cells rescue fertility by coupling follicular activation with endometrial remodeling.",
+      "authors": [
+        "Borutinskaitė VV",
+        "Krastinaitė I",
+        "Valatkaitė E",
+        "Zentelytė-Vilkė A",
+        "Navakauskienė R."
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "10.1093/stcltm/szag013",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41888633",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/stcltm/article-pdf/15/4/szag013/67558256/szag013.pdf",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 21,
+      "retrieval_score": 0.2371
+    },
+    {
+      "citation_key": "10.3390_cells15060498",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41892289"
+      ],
+      "title": "Proteomic Profiling of Endometrial Cancer Tissues Reveals Differential Expression of Proteomes in Obese Versus Non-Obese Patients.",
+      "authors": [
+        "Akkour K",
+        "Rafiullah M",
+        "Alfadda AA",
+        "Alanazi IO",
+        "Masood A",
+        "Joy SS",
+        "Al-Eidan AA",
+        "Alshehri E",
+        "Bassi A",
+        "Alhalal H"
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "10.3390/cells15060498",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41892289",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/2073-4409/15/6/498/pdf",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 22,
+      "retrieval_score": 0.1816
+    },
+    {
+      "citation_key": "10.1093_humrep_deaf223",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41247772"
+      ],
+      "title": "New models of implantation: towards a whole better than the sum of parts.",
+      "authors": [
+        "Rawlings TM",
+        "Guttridge SA",
+        "Lucas ES."
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "10.1093/humrep/deaf223",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41247772",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/humrep/advance-article-pdf/doi/10.1093/humrep/deaf223/65357643/deaf223.pdf",
+        "license": "cc-by-nc",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured",
+        "metadata_checked": false,
+        "locked_reference_match": false
+      },
+      "record_status": "candidate",
+      "collision_prone_author_year": false,
+      "locked_fields": {
+        "authors_locked": false,
+        "year_locked": false,
+        "title_locked": false,
+        "journal_locked": false,
+        "doi_locked": false
+      },
+      "manuscript_ready": false,
+      "manuscript_ready_reason": "retrieval output is provisional until downstream bibliographic verification is completed",
+      "retrieval_rank": 23,
+      "retrieval_score": 0.126
+    }
+  ]
+}

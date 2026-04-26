@@ -1,0 +1,111 @@
+{
+  "project": "endometrial_organoid_review",
+  "backend": "SHawn-bio-search",
+  "run_label": "2026-04-01_121749_bio_search",
+  "query": "hgf endometrium epithelial proliferation",
+  "generated_at": "2026-04-01T12:18:11.023622+09:00",
+  "results": [
+    {
+      "repository": "geo",
+      "accession": "GPL570",
+      "title": "[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array",
+      "organism": "Homo sapiens",
+      "data_type": "",
+      "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 06, 2012: annotation table updated with netaffx build 32 June 23, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. The sequences from which these probe sets were derived were selected from GenBank®, dbEST, and RefSeq. The sequence clusters were created from the UniGene database (Build 133, April 20, 2001) and then refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the University of California, Santa Cruz Golden-Path human genome database (April 2001 release). In addition, there are 9,921 new probe sets representing approximately 6,500 new genes. These gene sequences were selected from GenBank, dbEST, and RefSeq. Sequence clusters were created from the UniGene database (Build 159, January 25, 2003) and refined by analysis and comparison with a number of other publicly available databases, including the Washington University EST trace repository and the NCBI human genome assembly (Build 31). ",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570",
+      "download_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX961582",
+      "title": "F0-Et_1",
+      "organism": "",
+      "data_type": "Other",
+      "summary": "F0-Et_1",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA014934/CRX961582",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA014934/CRX961582",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1195146",
+      "title": "Pis-A-7",
+      "organism": "",
+      "data_type": "RNASeq",
+      "summary": "Pis-A-7",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA019110/CRX1195146",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA019110/CRX1195146",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX556782",
+      "title": "B1010",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "B1010",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA009102/CRX556782",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA009102/CRX556782",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1543410",
+      "title": "LPSvsRAW6_1",
+      "organism": "",
+      "data_type": "RNASeq",
+      "summary": "LPSvsRAW6_1",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA023504/CRX1543410",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA023504/CRX1543410",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    },
+    {
+      "repository": "bigd",
+      "accession": "CRX1064737",
+      "title": "F2100244",
+      "organism": "",
+      "data_type": "Genome",
+      "summary": "F2100244",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064737",
+      "download_url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA016603/CRX1064737",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "check_method": "repository",
+        "notes": ""
+      },
+      "retrieval_score": 0.3
+    }
+  ]
+}

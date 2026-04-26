@@ -1,0 +1,428 @@
+{
+  "terms": [
+    "nicotinamide",
+    "glutamax",
+    "hepes"
+  ],
+  "count": 18,
+  "full_match_count": 0,
+  "results": [
+    {
+      "title": "Protocol for generation of and high-throughput drug testing with patient-derived colorectal cancer organoids.",
+      "doi": "10.1016/j.xpro.2024.103090",
+      "source": "pubmed",
+      "checked_urls": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38809757/",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.xpro.2024.103090",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38809757/",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Protocol for generation of and high-throughput drug testing with patient-derived colorectal cancer organoids",
+      "doi": null,
+      "source": "google_scholar",
+      "checked_urls": [
+        {
+          "url": "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7/supplemental-information",
+          "status": "failed: 403 Client Error: Forbidden for url: https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7/supplemental-information"
+        },
+        {
+          "url": "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7#supplementary-materials",
+          "status": "failed: 403 Client Error: Forbidden for url: https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7#supplementary-materials"
+        },
+        {
+          "url": "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7",
+          "status": "failed: 403 Client Error: Forbidden for url: https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7"
+        },
+        {
+          "url": "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7",
+          "status": "failed: 403 Client Error: Forbidden for url: https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Abstract 199: Novel platform for automation of high throughput drug discovery using patient derived colorectal cancer organoids",
+      "doi": "10.1158/1538-7445.am2023-199",
+      "source": "crossref",
+      "checked_urls": [
+        {
+          "url": "https://doi.org/10.1158/1538-7445.am2023-199",
+          "status": "failed: 403 Client Error: Forbidden for url: https://aacrjournals.org/cancerres/article/83/7_Supplement/199/722407/Abstract-199-Novel-platform-for-automation-of-high"
+        },
+        {
+          "url": "https://doi.org/10.1158/1538-7445.am2023-199",
+          "status": "failed: 403 Client Error: Forbidden for url: https://aacrjournals.org/cancerres/article/83/7_Supplement/199/722407/Abstract-199-Novel-platform-for-automation-of-high"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Generation of iPSC-Derived Brain Organoids for Drug Testing and Toxicological Evaluation",
+      "doi": "10.1007/978-1-0716-2213-1_10",
+      "source": "crossref",
+      "checked_urls": [
+        {
+          "url": "https://doi.org/10.1007/978-1-0716-2213-1_10",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.1007/978-1-0716-2213-1_10",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Decision letter: Targeting mutant RAS in patient-derived colorectal cancer organoids by combinatorial drug screening",
+      "doi": "10.7554/elife.18489.040",
+      "source": "crossref",
+      "checked_urls": [
+        {
+          "url": "https://doi.org/10.7554/elife.18489.040",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.7554/elife.18489.040",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Fluid-Derived Organoids from Pleural Effusion and Ascites: Emerging Models for Drug Resistance and Personalized Oncology.",
+      "doi": "10.7150/jca.127511",
+      "source": "europe_pmc",
+      "checked_urls": [
+        {
+          "url": "https://europepmc.org/article/med/41869438",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.7150/jca.127511",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://europepmc.org/article/med/41869438",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Patient-Derived Xenograft Models: An Emerging Platform for Translational Cancer Research",
+      "doi": "10.1158/2159-8290.cd-14-0001",
+      "source": "openalex",
+      "checked_urls": [
+        {
+          "url": "https://doi.org/10.1158/2159-8290.cd-14-0001",
+          "status": "failed: 403 Client Error: Forbidden for url: https://aacrjournals.org/cancerdiscovery/article/4/9/998/6397/Patient-Derived-Xenograft-Models-An-Emerging"
+        },
+        {
+          "url": "https://doi.org/10.1158/2159-8290.cd-14-0001",
+          "status": "failed: 403 Client Error: Forbidden for url: https://aacrjournals.org/cancerdiscovery/article/4/9/998/6397/Patient-Derived-Xenograft-Models-An-Emerging"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Patient-derived tumor organoids: advances, applications, and future directions in biomedical research.",
+      "doi": "10.3389/fmed.2025.1733668",
+      "source": "europe_pmc",
+      "checked_urls": [
+        {
+          "url": "https://europepmc.org/article/med/41613337",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.3389/fmed.2025.1733668",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://europepmc.org/article/med/41613337",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [
+        "nicotinamide"
+      ],
+      "all_terms_present": false,
+      "snippets": [
+        "lated by defined media supplements to regulate stem cell self-renewal, lineage specificity, and cellular differentiation ( 13 ). For example, EGF, R-spondin-1, Noggin, Wnt3a, FGF2, FGF10, A83-01 (a TGF-β inhibitor), and nicotinamide contribute epithelial development and preserve structural organization in PDTOs ( 13 ). Tissue-specific requirements for media formulations are taken into consideration for each tissue. For example, colorectal cancer-derived PDTOs rely on Wnt3a and R-spondin to maintain their stem cell compartment ( 9 ), gastric PDTOs require gastrin for gastric lineage preservation ( 14 ), and prostate PDTOs need androg"
+      ]
+    },
+    {
+      "title": "Patient-derived organoids (PDOs): a novel preclinical platform to overcome challenges in cancer immunotherapy.",
+      "doi": "10.3389/fcell.2026.1757516",
+      "source": "europe_pmc",
+      "checked_urls": [
+        {
+          "url": "https://europepmc.org/article/med/41788310",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.3389/fcell.2026.1757516",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://europepmc.org/article/med/41788310",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Organoids in Cancer Research and Regenerative Medicine: Current Status, Challenges, and Future Prospects.",
+      "doi": "10.1002/mco2.70575",
+      "source": "europe_pmc",
+      "checked_urls": [
+        {
+          "url": "https://europepmc.org/article/med/41503026",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.1002/mco2.70575",
+          "status": "failed: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/10.1002/mco2.70575"
+        },
+        {
+          "url": "https://europepmc.org/article/med/41503026",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "doi": "10.1080/20013078.2018.1535750",
+      "source": "openalex",
+      "checked_urls": [
+        {
+          "url": "https://doi.org/10.1080/20013078.2018.1535750",
+          "status": "failed: 403 Client Error: Forbidden for url: https://isevjournals.onlinelibrary.wiley.com/doi/10.1080/20013078.2018.1535750"
+        },
+        {
+          "url": "https://doi.org/10.1080/20013078.2018.1535750",
+          "status": "failed: 403 Client Error: Forbidden for url: https://isevjournals.onlinelibrary.wiley.com/doi/10.1080/20013078.2018.1535750"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Three-dimensional in vitro cell culture models in drug discovery and drug repositioning",
+      "doi": "10.3389/fphar.2018.00006",
+      "source": "scopus",
+      "checked_urls": [
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85041115276",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.3389/fphar.2018.00006",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85041115276",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Long-term expanding human airway organoids for disease modeling",
+      "doi": "10.15252/embj.2018100300",
+      "source": "scopus",
+      "checked_urls": [
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85059931873",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.15252/embj.2018100300",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85059931873",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [
+        "glutamax",
+        "hepes"
+      ],
+      "all_terms_present": false,
+      "snippets": [
+        "e compliance with the Dutch medical research involving human subjects’ act. Tissue processing Processing of solid lung tissue: 1. Solid lung tissue was minced, washed with 10 ml AdDF +++ (Advanced DMEM/F12 containing 1× Glutamax, 10 mM HEPES, and antibiotics), and digested in 10 ml AO medium ( Table EV1 ) containing 1–2 mg ml −1 collagenase (Sigma‐C9407) on an orbital shaker at 37°C for 1–2 h. 2. The digested tissue suspension was sequentially sheared using 10‐ and 5‐ml plastic and flamed glass Pasteur pipettes. After every shearing step, the suspension was strained over a 100‐μm filter with retained tissue pieces entering a subsequ",
+        "h the Dutch medical research involving human subjects’ act. Tissue processing Processing of solid lung tissue: 1. Solid lung tissue was minced, washed with 10 ml AdDF +++ (Advanced DMEM/F12 containing 1× Glutamax, 10 mM HEPES, and antibiotics), and digested in 10 ml AO medium ( Table EV1 ) containing 1–2 mg ml −1 collagenase (Sigma‐C9407) on an orbital shaker at 37°C for 1–2 h. 2. The digested tissue suspension was sequentially sheared using 10‐ and 5‐ml plastic and flamed glass Pasteur pipettes. After every shearing step, the suspension was strained over a 100‐μm filter with retained tissue pieces entering a subsequent shearing ste"
+      ]
+    },
+    {
+      "title": "Engineering organoids",
+      "doi": "10.1038/s41578-021-00279-y",
+      "source": "scopus",
+      "checked_urls": [
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85101293144",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41578-021-00279-y",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85101293144",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Organoids",
+      "doi": "10.1038/s43586-022-00174-y",
+      "source": "scopus",
+      "checked_urls": [
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85143234555",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.1038/s43586-022-00174-y",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85143234555",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Biological properties of extracellular vesicles and their physiological functions",
+      "doi": "10.3402/jev.v4.27066",
+      "source": "openalex",
+      "checked_urls": [
+        {
+          "url": "https://doi.org/10.3402/jev.v4.27066",
+          "status": "failed: 403 Client Error: Forbidden for url: https://isevjournals.onlinelibrary.wiley.com/doi/10.3402/jev.v4.27066"
+        },
+        {
+          "url": "https://doi.org/10.3402/jev.v4.27066",
+          "status": "failed: 403 Client Error: Forbidden for url: https://isevjournals.onlinelibrary.wiley.com/doi/10.3402/jev.v4.27066"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "Applications of genome editing technology in the targeted therapy of human diseases: mechanisms, advances and prospects",
+      "doi": "10.1038/s41392-019-0089-y",
+      "source": "scopus",
+      "checked_urls": [
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85081991937",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41392-019-0089-y",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://api.elsevier.com/content/abstract/scopus_id/85081991937",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    },
+    {
+      "title": "",
+      "doi": "10.1117/12.3000978.a7aff37d-a624-ee11-a99a-b38e0bc17c27",
+      "source": "crossref",
+      "checked_urls": [
+        {
+          "url": "https://doi.org/10.1117/12.3000978.a7aff37d-a624-ee11-a99a-b38e0bc17c27",
+          "kind": "html",
+          "status": "ok"
+        },
+        {
+          "url": "https://doi.org/10.1117/12.3000978.a7aff37d-a624-ee11-a99a-b38e0bc17c27",
+          "kind": "html",
+          "status": "ok"
+        }
+      ],
+      "matched_terms": [],
+      "all_terms_present": false,
+      "snippets": []
+    }
+  ]
+}

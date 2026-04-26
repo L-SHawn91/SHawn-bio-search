@@ -1,0 +1,1129 @@
+{
+  "project": "",
+  "backend": "SHawn-bio-search",
+  "mode": "fast",
+  "run_label": "2026-04-01_111148_bio_search",
+  "query": "HGF human endometrial epithelial cells proliferation migration lumen formation",
+  "effective_query": "(HGF human endometrial epithelial cells proliferation migration lumen formation) OR (endometrium OR uterus OR uterine)",
+  "generated_at": "2026-04-01T11:11:48.107153+09:00",
+  "results": [
+    {
+      "citation_key": "10.1056_nejm199712043372301",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1997883187"
+      ],
+      "title": "Effects of Raloxifene on Bone Mineral Density, Serum Cholesterol Concentrations, and Uterine Endometrium in Postmenopausal Women",
+      "authors": [
+        "Pierre D. Delmas",
+        "Nina H. Bjarnason",
+        "Bruce Mitlak",
+        "Anne-Catherine Ravoux",
+        "Aarti S. Shah",
+        "William J. Huster",
+        "Michael Draper",
+        "Claus Christiansen"
+      ],
+      "year": 1997,
+      "doi": "10.1056/nejm199712043372301",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1056/nejm199712043372301",
+      "abstract": "Daily therapy with raloxifene increases bone mineral density, lowers serum concentrations of total and low-density lipoprotein cholesterol, and does not stimulate the endometrium.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.nejm.org/doi/pdf/10.1056/NEJM199712043372301?articleTools=true",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 1,
+      "retrieval_score": 0.365
+    },
+    {
+      "citation_key": "10.6004_jnccn.2018.0006",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2785389296"
+      ],
+      "title": "Uterine Neoplasms, Version 1.2018, NCCN Clinical Practice Guidelines in Oncology",
+      "authors": [
+        "Wui-Jin Koh",
+        "Nadeem R. Abu‐Rustum",
+        "Sarah Bean",
+        "Kristin Bradley",
+        "Susana M. Campos",
+        "Kathleen R. Cho",
+        "Hye Sook Chon",
+        "Christina Chu",
+        "David E. Cohn",
+        "Marta A. Crispens",
+        "Shari Damast",
+        "Oliver Dorigo",
+        "Patricia J. Eifel",
+        "Christine M. Fisher",
+        "Peter J. Frederick",
+        "David K. Gaffney",
+        "Suzanne George",
+        "Ernest Han",
+        "Susan A. Higgins",
+        "Warner K. Huh",
+        "John R. Lurain",
+        "Andrea Mariani",
+        "David G. Mutch",
+        "Christa Nagel",
+        "Larissa Nekhlyudov",
+        "Amanda N. Fader",
+        "Steven W. Remmenga",
+        "R. Kevin Reynolds",
+        "T. Tillmanns",
+        "Stefanie Ueda",
+        "Emily Wyse",
+        "Catheryn M. Yashar",
+        "Nicole R. McMillian",
+        "Jillian L. Scavone"
+      ],
+      "year": 2018,
+      "doi": "10.6004/jnccn.2018.0006",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.6004/jnccn.2018.0006",
+      "abstract": "Endometrial carcinoma is a malignant epithelial tumor that forms in the inner lining, or endometrium, of the uterus. Endometrial carcinoma is the most common gynecologic malignancy. Approximately two-thirds of endometrial carcinoma cases are diagnosed with disease confined to the uterus. The complete NCCN Guidelines for Uterine Neoplasms provide recommendations for the diagnosis, evaluation, and treatment of endometrial cancer and uterine sarcoma. This manuscript discusses guiding principles for the diagnosis, staging, and treatment of early-stage endometrial carcinoma as well as evidence for these recommendations.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://jnccn.org/downloadpdf/journals/jnccn/16/2/article-p170.pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 2,
+      "retrieval_score": 0.365
+    },
+    {
+      "citation_key": "10.1093_humupd_7.2.161",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2126501717"
+      ],
+      "title": "Clinical implications of uterine malformations and hysteroscopic treatment results",
+      "authors": [
+        "Grigoris Grimbizis"
+      ],
+      "year": 2001,
+      "doi": "10.1093/humupd/7.2.161",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1093/humupd/7.2.161",
+      "abstract": "Uterine malformations consist of a group of miscellaneous congenital anomalies of the female genital system. Their mean prevalence in the general population and in the population of fertile women is approximately 4.3%, in infertile patients approximately 3.5% and in patients with recurrent pregnancy losses approximately 13%. Septate uterus is the commonest uterine anomaly with a mean incidence of approximately 35% followed by bicornuate uterus (approximately 25%) and arcuate uterus (approximately 20%). It seems that malformed uterus and especially septate uterus is not an infertility factor in itself. However, it may have a part in the delayed natural conception of women with mainly secondary infertility. On the other hand, patients with uterine malformations seem to have an impaired pregnancy outcome even as early as their first pregnancy. Overall term delivery rates in patients with untreated uterine malformations are only approximately 50% and obstetric complications are more frequent. Unicornuate and didelphys uterus have term delivery rates of approximately 45%, and the pregnancy outcome of patients with untreated bicornuate and septate uterus is also poor with term delivery rates of only approximately 40%. Arcuate uterus is associated with a slightly better but still impaired pregnancy outcome with term delivery rates of approximately 65%. Women who have undergone hysteroscopic septum resection and have been reported in the different series comprise a highly selected group of symptomatic patients with term delivery and live birth rates of only approximately 5%. Hysteroscopic treatment seems to restore an almost normal prognosis for the outcome of their pregnancies with term delivery rates of approximately 75% and live birth rates of approximately 85%. It seems, therefore, that hysteroscopic septum resection can be applied as a therapeutic procedure in cases of symptomatic patients but also as a prophylactic procedure in asymptomatic patients in order to improve their chances for a successful delivery.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/humupd/article-pdf/7/2/161/1788153/070161.pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 3,
+      "retrieval_score": 0.365
+    },
+    {
+      "citation_key": "10.1093_ajcp_94.4.435",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W19931880"
+      ],
+      "title": "The Frequency of Uterine Leiomyomas",
+      "authors": [
+        "Stewart F. Cramer",
+        "Arti Patel"
+      ],
+      "year": 1990,
+      "doi": "10.1093/ajcp/94.4.435",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1093/ajcp/94.4.435",
+      "abstract": "As a leading cause of hysterectomy in premenopausal women. uterine leiomyomas are a major public health problem. However, very little work has been done on their epidemiology. Indeed, their true frequency has never been established using systematic and meticulous methods. In this study, gross serial sectioning at 2-mm intervals was applied as an adjunct to routine pathology processing in 100 consecutive total hysterectomy specimens. This tripled the number of leiomyomas noted in routine pathology reports. There were 649 leiomyomas in 77 of 100 uteri, with multiplicity of leiomyomas in 84%. Although leiomyomas were more numerous and larger in women with a clinical diagnosis of myomatous uterus, the incidence was no higher than in uteri removed for other reasons. The postmenopausal incidence of leiomyomas was no lower than the premenopausal incidence, although postmenopausal leiomyomas were smaller and fewer. These findings suggest that epidemiologic studies of leiomyomas may not be valid if they are based only on clinical diagnoses or routine pathology reports.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 4,
+      "retrieval_score": 0.365
+    },
+    {
+      "citation_key": "10.1016_j.theriogenology.2005.08.021",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2123402700"
+      ],
+      "title": "Defining postpartum uterine disease in cattle",
+      "authors": [
+        "I. Martin Sheldon",
+        "Gregory S. Lewis",
+        "S.J. LeBlanc",
+        "R.O. Gilbert"
+      ],
+      "year": 2005,
+      "doi": "10.1016/j.theriogenology.2005.08.021",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1016/j.theriogenology.2005.08.021",
+      "abstract": "",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 5,
+      "retrieval_score": 0.325
+    },
+    {
+      "citation_key": "10.1067_mob.2003.99",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1969018878"
+      ],
+      "title": "High cumulative incidence of uterine leiomyoma in black and white women: Ultrasound evidence",
+      "authors": [
+        "Donna D. Baird",
+        "David B. Dunson",
+        "Michael C. Hill",
+        "Deborah S. Cousins",
+        "Joel M. Schectman"
+      ],
+      "year": 2003,
+      "doi": "10.1067/mob.2003.99",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1067/mob.2003.99",
+      "abstract": "",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 6,
+      "retrieval_score": 0.325
+    },
+    {
+      "citation_key": "10.1038_ncb3516",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2606864355"
+      ],
+      "title": "Long-term, hormone-responsive organoid cultures of human endometrium in a chemically defined medium",
+      "authors": [
+        "Margherita Y. Turco",
+        "Lucy Gardner",
+        "Jasmine Hughes",
+        "Tereza Cindrová‐Davies",
+        "María Gómez‐Ruíz",
+        "Lydia Farrell",
+        "Michael Hollinshead",
+        "Steven G. E. Marsh",
+        "Jan J. Brosens",
+        "Hilary Critchley",
+        "Benjamin D. Simons",
+        "Myriam Hemberger",
+        "Bon‐Kyoung Koo",
+        "Ashley Moffett",
+        "Graham J. Burton"
+      ],
+      "year": 2017,
+      "doi": "10.1038/ncb3516",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1038/ncb3516",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "http://hdl.handle.net/20.500.11820/8202c060-a3a7-4837-b77d-cb0f94c70993",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 7,
+      "retrieval_score": 0.325
+    },
+    {
+      "citation_key": "10.1016_s0140-6736(00)03622-9",
+      "source": "openalex",
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4255664903"
+      ],
+      "title": "Uterine fibroids",
+      "authors": [
+        "Elizabeth A. Stewart"
+      ],
+      "year": 2001,
+      "doi": "10.1016/s0140-6736(00)03622-9",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://doi.org/10.1016/s0140-6736(00)03622-9",
+      "abstract": "",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 8,
+      "retrieval_score": 0.325
+    },
+    {
+      "citation_key": "10.1186_s13287-024-03821-1",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:39020406"
+      ],
+      "title": "Transplantation of human endometrial perivascular stem cells with hydroxy saffron yellow A promotes uterine repair in rats.",
+      "authors": [
+        "Li N",
+        "Mao J",
+        "Wang M",
+        "Qi J",
+        "Jiang Z",
+        "Li Y",
+        "Yan G",
+        "Hu Y",
+        "Li S",
+        "Sun H",
+        "Ding L"
+      ],
+      "year": 2024,
+      "doi": "10.1186/s13287-024-03821-1",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39020406/",
+      "abstract": "Intrauterine adhesions (IUAs) jeopardise uterine function in women, which is a great challenge in the clinic. Previous studies have shown that endometrial perivascular cells (En-PSCs) can improve the healing of scarred uteri and that hydroxysafflor yellow A (HSYA) promotes angiogenesis. The purpose of this study was to observe whether the combination of En-PSCs with HSYA could improve the blood supply and fertility in the rat uterus after full-thickness injury. En-PSCs were sorted by flow cytometry, and the effect of HSYA on the proliferation and angiogenesis of the En-PSCs was detected using CCK-8 and tube formation assays. Based on a previously reported rat IUA model, the rat uteri were sham-operated, spontaneously regenerated, or treated with collagen-loaded PBS, collagen-loaded HSYA, collagen-loaded En-PSCs, or collagen-loaded En-PSCs with HSYA, and then collected at both 30 and 90 days postsurgery. HE staining and Masson staining were used to evaluate uterine structure and collagen fibre deposition, and immunohistochemical staining for α-SMA and vWF was used to evaluate myometrial regeneration and neovascularization in each group. A fertility assay was performed to detect the recovery of pregnancy function in each group. RNA-seq was performed to determine the potential mechanism underlying En-PSCs/HSYA treatment. Immunofluorescence, tube formation assays, and Western blot were used to validate the molecular mechanism involved. The transplantation of Collagen/En-PSCs/HSYA markedly promoted uterine repair in rats with full-thickness injury by reducing fibrosis, increasing endometrial thickness, regenerating myometrium, promoting angiogenesis, and facilitated live births. RNA sequencing results suggested that En-PSCs/HSYA activated the NRG1/ErbB4 signaling pathway. In vitro tube formation experiments revealed that the addition of an ErbB inhibitor diminished the tube formation ability of cocultured En-PSCs and HUVECs. Western blot results further showed that elevated levels of NRG1 and ErbB4 proteins were detected in the Collagen/En-PSCs/HSYA group compared to the Collagen/En-PSCs group. These collective results suggested that the beneficial effects of the transplantation of Collagen/En-PSCs/HSYA might be attributed to the modulation of the NRG1/ErbB4 signaling pathway. The combination of En-PSCs/HSYA facilitated morphological and functional repair in rats with full-thickness uterine injury and may promote endometrial angiogenesis by regulating the NRG1/ErbB4 signaling pathway.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": true,
+        "check_method": "unpaywall",
+        "pdf_url": "https://stemcellres.biomedcentral.com/counter/pdf/10.1186/s13287-024-03821-1",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 9,
+      "retrieval_score": 0.17
+    },
+    {
+      "citation_key": "10.1002_smll.202201225",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:35798313"
+      ],
+      "title": "Human Endometrium-Derived Adventitial Cell Spheroid-Loaded Antimicrobial Microneedles for Uterine Regeneration.",
+      "authors": [
+        "Li S",
+        "Li Y",
+        "Yu F",
+        "Li N",
+        "Liu C",
+        "Mao J",
+        "Sun H",
+        "Hu Y",
+        "Zhu Y",
+        "Zhou M",
+        "Ding L"
+      ],
+      "year": 2022,
+      "doi": "10.1002/smll.202201225",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35798313/",
+      "abstract": "Asherman's syndrome (AS) occurs as a consequence of severe damage to the endometrial basalis, usually leading to menstrual abnormalities, infertility, and recurrent miscarriage in women. Currently, human endometrium-derived adventitial cells (En-ADVs) are considered ideal seed cells with high pluripotency for regenerative medicine. However, critical issues such as noninvasive repair of tissues, targeting of native stem cells, and continuous action in the injured sites are not well resolved. Herein, En-ADV spheroid-loaded hierarchical microneedles (MN/En-ADV) for in situ intrauterine repair are developed. The flexible microneedles are fabricated with gelatin methacryloyl and lactoferrin, imparting the characteristics of rapid degradation and antimicrobial activity. Benefiting from an array of microwells on microneedles, En-ADVs can rapidly form 3D cell spheroids, which display higher potential for cell proliferation, differentiation, and migration than dissociated cells. With the application of MN/En-ADV, the repaired uteri show well-defined myometrial regeneration, angiogenesis, and an increase of endometrial receptivity in a rat AS model. Notably, embryos are able to implant in the reconstructed sites and remain viable, indicating that this system promotes the restoration of both normal morphology and reproductive function in the injured uterus. It is anticipated that multifunctional MN/En-ADV can be an ideal candidate for versatile in situ tissue regeneration.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 10,
+      "retrieval_score": 0.17
+    },
+    {
+      "citation_key": "10.3390_ijms24087605",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:37108764"
+      ],
+      "title": "A Decellularized Uterine Endometrial Scaffold Enhances Regeneration of the Endometrium in Rats.",
+      "authors": [
+        "Yoshimasa Y",
+        "Takao T",
+        "Katakura S",
+        "Tomisato S",
+        "Masuda H",
+        "Tanaka M",
+        "Maruyama T"
+      ],
+      "year": 2023,
+      "doi": "10.3390/ijms24087605",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37108764/",
+      "abstract": "Partial or whole regeneration of the uterine endometrium using extracellular matrix (ECM)-based scaffolds is a therapeutic strategy for uterine infertility due to functional and/or structural endometrial defects. Here, we examined whether the entire endometrium can be regenerated circumferentially using an acellular ECM scaffold (decellularized endometrial scaffold, DES) prepared from rat endometrium. We placed a silicone tube alone to prevent adhesions or a DES loaded with a silicone tube into a recipient uterus in which the endometrium had been surgically removed circumferentially. Histological and immunofluorescent analyses of the uteri one month after tube placement revealed more abundant regenerated endometrial stroma in the uterine horns treated with tube-loaded DES compared to those treated with a tube alone. Luminal and glandular epithelia, however, were not fully recapitulated. These results suggest that DES can enhance the regeneration of endometrial stroma but additional intervention(s) are needed to induce epithelization. Furthermore, the prevention of adhesions alone allowed the endometrial stroma to regenerate circumferentially even without a DES, but to a lesser degree than that with a DES. The use of a DES together with the prevention of adhesions may be beneficial for efficient endometrial regeneration in the uterus that is largely deficient of endometrium.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/1422-0067/24/8/7605/pdf?version=1681993317",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 11,
+      "retrieval_score": 0.17
+    },
+    {
+      "citation_key": "10.3390_ijms23116067",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:35682747"
+      ],
+      "title": "Endometrial Epithelial ARID1A Is Required for Uterine Immune Homeostasis during Early Pregnancy.",
+      "authors": [
+        "Marquardt RM",
+        "Ahn SH",
+        "Reske JJ",
+        "Chandler RL",
+        "Petroff MG",
+        "Kim TH",
+        "Jeong JW"
+      ],
+      "year": 2022,
+      "doi": "10.3390/ijms23116067",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35682747/",
+      "abstract": "A growing body of work suggests epigenetic dysregulation contributes to endometriosis pathophysiology and female infertility. The chromatin remodeling complex subunit AT-rich interaction domain 1A (ARID1A) must be properly expressed to maintain normal uterine function. Endometrial epithelial ARID1A is indispensable for pregnancy establishment in mice through regulation of endometrial gland function; however, ARID1A expression is decreased in infertile women with endometriosis. We hypothesized that ARID1A performs critical operations in the endometrial epithelium necessary for fertility besides maintaining gland function. To identify alterations in uterine gene expression resulting from loss of epithelial ARID1A, we performed RNA-sequencing analysis on pre-implantation uteri from LtfiCre/+Arid1af/f and control mice. Differential expression analysis identified 4181 differentially expressed genes enriched for immune-related ingenuity canonical pathways including agranulocyte adhesion and diapedesis and natural killer cell signaling. RT-qPCR confirmed an increase in pro-inflammatory cytokine and macrophage-related gene expression but a decrease in natural killer cell signaling. Immunostaining confirmed a uterus-specific increase in macrophage infiltration. Flow cytometry delineated an increase in inflammatory macrophages and a decrease in uterine dendritic cells in LtfiCre/+Arid1af/f uteri. These findings demonstrate a role for endometrial epithelial ARID1A in suppressing inflammation and maintaining uterine immune homeostasis, which are required for successful pregnancy and gynecological health.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/1422-0067/23/11/6067/pdf?version=1653890828",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 12,
+      "retrieval_score": 0.17
+    },
+    {
+      "citation_key": "10.1210_endocr_bqaa195",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:33099617"
+      ],
+      "title": "Uterine Epithelial Progesterone Receptor Governs Uterine Receptivity Through Epithelial Cell Differentiation.",
+      "authors": [
+        "Gebril M",
+        "Hirota Y",
+        "Aikawa S",
+        "Fukui Y",
+        "Kaku T",
+        "Matsuo M",
+        "Hirata T",
+        "Akaeda S",
+        "Hiraoka T",
+        "Shimizu-Hirota R",
+        "Takeda N",
+        "Taha T",
+        "Balah OA",
+        "Elnoury MAH",
+        "Fujii T",
+        "Osuga Y"
+      ],
+      "year": 2020,
+      "doi": "10.1210/endocr/bqaa195",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33099617/",
+      "abstract": "Progesterone receptor (PGR) is indispensable for pregnancy in mammals. Uterine PGR responds to the heightened levels of ovarian progesterone (P4) after ovulation and regulates uterine gene transcription for successful embryo implantation. Although epithelial and stromal P4-PGR signaling may interact with each other to form appropriate endometrial milieu for uterine receptivity and the subsequent embryo attachment, it remains unclear what the specific roles of epithelial P4-PGR signaling in the adult uterus are. Here we generated mice with epithelial deletion of Pgr in the adult uterus (Pgrfl/flLtfCre/+ mice) by crossing Pgr-floxed and Ltf-Cre mice. Pgrfl/flLtfCre/+ mice are infertile due to the impairment of embryo attachment. Pgrfl/flLtfCre/+ uteri did not exhibit epithelial growth arrest, suggesting compromised uterine receptivity. Both epithelial and stromal expressions of P4-responsive genes decreased in Pgrfl/flLtfCre/+ mice during the peri-implantation period, indicating that epithelial Pgr deletion affects not only epithelial but stromal P4 responsiveness. In addition, uterine LIF, an inducer of embryo attachment, was decreased in Pgrfl/flLtfCre/+ mice. The RNA-seq analysis using luminal epithelial specimens dissected out by laser capture microdissection revealed that the signaling pathways related to extracellular matrix, cell adhesion, and cell proliferation are altered in Pgr fl/flLtf Cre/+ mice. These findings suggest that epithelial PGR controls both epithelial and stromal P4 responsiveness and epithelial cell differentiation, which provides normal uterine receptivity and subsequent embryo attachment.",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/endo/article-pdf/161/12/bqaa195/41812431/bqaa195.pdf",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 13,
+      "retrieval_score": 0.17
+    },
+    {
+      "citation_key": "10.1146_annurev-animal-020518-115321",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:30183326"
+      ],
+      "title": "Development and Function of Uterine Glands in Domestic Animals.",
+      "authors": [
+        "Spencer TE",
+        "Kelleher AM",
+        "Bartol FF"
+      ],
+      "year": 2019,
+      "doi": "10.1146/annurev-animal-020518-115321",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30183326/",
+      "abstract": "All mammalian uteri contain glands that synthesize or transport and secrete substances into the uterine lumen. Uterine gland development, or adenogenesis, is uniquely a postnatal event in sheep and pigs and involves differentiation of glandular epithelium from luminal epithelium, followed by invagination and coiling morphogenesis throughout the stroma. Intrinsic transcription factors and extrinsic factors from the ovary and pituitary as well as the mammary gland (lactocrine) regulate uterine adenogenesis. Recurrent pregnancy loss is observed in the ovine uterine gland knockout sheep, providing unequivocal evidence that glands and their products are essential for fertility. Uterine gland hyperplasia and hypertrophy during pregnancy are controlled by sequential actions of hormones from the ovary and/or pituitary as well as the placenta. Gland-derived histotroph is transported by placental areolae for fetal growth. Increased knowledge of uterine gland biology is expected to improve pregnancy outcomes, as well as the health and productivity of mothers and their offspring.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 14,
+      "retrieval_score": 0.17
+    },
+    {
+      "citation_key": "1981_Relaxin--a_review._15",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:6280666"
+      ],
+      "title": "Relaxin--a review.",
+      "authors": [
+        "MacLennan AH"
+      ],
+      "year": 1981,
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6280666/",
+      "abstract": "Relaxin is a polypeptide hormone, similar in structure to insulin and has been found in the female of all species studied. The corpus luteum of pregnancy is the main source of relaxin in many species but in others the decidua is apparently of greater importance. It has also been found in other tissues; e.g. prostatic fluid, testis and ovary. First discovered and extracted from the corpora lutea of pregnant sows in an impure form in 1926, it was found to relax the pubic ligament of the oestrogen primed guinea-pig. It was named after this action, but has since been found to have many other possible roles, including preparation of the endometrium for implantation, inhibition of uterine activity in early pregnancy, remodelling of the uterine stroma during pregnancy, cervical ripening and the initiation of parturition. Relaxin's main cellular action in pregnancy may be to drive collagen biosynthesis in its target organs, thus facilitating the remodelling of the connective tissue. Due to the impurity of relaxin preparations used in clinical trials until the mid-1970's, the role of relaxin in the human has been in doubt. Porcine and rat relaxins have now been highly purified and their detailed structure is known. Human relaxin awaits adequate isolation, purification and characterization, and is not yet available for laboratory and clinical trials. However, the recent preparation of purified porcine relaxin for clinical trials and the availability of specific radioimmunoassays for this relaxin together with the identification of relaxin receptor sites, are rapidly helping to establish the concept that relaxin is indeed an important hormone both in human reproduction and in other physiological processes.",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "pubmed_metadata",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 15,
+      "retrieval_score": 0.14
+    },
+    {
+      "citation_key": "10.1186_s12958-025-01348-5",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "39953593"
+      ],
+      "title": "Extracellular matrix and pregnancy: functions and opportunities caught in the net.",
+      "authors": [
+        "Rossi F",
+        "Luppi S",
+        "Fejza A",
+        "Giolo E",
+        "Ricci G",
+        "Andreuzzi E."
+      ],
+      "year": 2025,
+      "doi": "10.1186/s12958-025-01348-5",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/39953593",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": true,
+        "check_method": "unpaywall",
+        "pdf_url": "https://rbej.biomedcentral.com/counter/pdf/10.1186/s12958-025-01348-5",
+        "license": "cc-by-nc-nd",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 16,
+      "retrieval_score": 0.1308
+    },
+    {
+      "citation_key": "10.3390_cells14110829",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40498005"
+      ],
+      "title": "Endometrial Organoids and Their Role in Modeling Human Infertility.",
+      "authors": [
+        "Jabri A",
+        "Alsharif M",
+        "Abbad T",
+        "Taftafa B",
+        "Mhannayeh A",
+        "Elsalti A",
+        "Attia F",
+        "Mir TA",
+        "Saadeldin I",
+        "Yaqinuddin A."
+      ],
+      "year": 2025,
+      "doi": "10.3390/cells14110829",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/40498005",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/2073-4409/14/11/829/pdf?version=1748941762",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 17,
+      "retrieval_score": 0.1272
+    },
+    {
+      "citation_key": "10.1186_s13287-025-04773-w",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41272688"
+      ],
+      "title": "Research on the mechanism of human umbilical cord mesenchymal stem cells and their extracellular vesicles in the treatment of common reproductive diseases.",
+      "authors": [
+        "Guo X",
+        "Liu B",
+        "Xu P",
+        "Chen H",
+        "Gao J",
+        "Yao D",
+        "Li X",
+        "Wang Y",
+        "Wang T",
+        "Yao H"
+      ],
+      "year": 2025,
+      "doi": "10.1186/s13287-025-04773-w",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41272688",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": true,
+        "check_method": "unpaywall",
+        "pdf_url": "https://stemcellres.biomedcentral.com/counter/pdf/10.1186/s13287-025-04773-w",
+        "license": "cc-by-nc-nd",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 18,
+      "retrieval_score": 0.1264
+    },
+    {
+      "citation_key": "10.3390_biomedicines13102435",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41153718"
+      ],
+      "title": "Unlocking the Secrets of the Endometrium: Stem Cells, Niches and Modern Methodologies.",
+      "authors": [
+        "Huang L",
+        "Ou M",
+        "Chen D",
+        "Zhang S."
+      ],
+      "year": 2025,
+      "doi": "10.3390/biomedicines13102435",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41153718",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/2227-9059/13/10/2435/pdf?version=1759764827",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 19,
+      "retrieval_score": 0.1264
+    },
+    {
+      "citation_key": "10.3390_biology14040319",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40282184"
+      ],
+      "title": "Beneficial Effects of Infiltration of Platelet-Rich Plasma in the Endometrium.",
+      "authors": [
+        "Alonso-Frías P",
+        "Francés-Herrero E",
+        "Bueno-Fernandez C",
+        "Gómez-Álvarez M",
+        "Agustina-Hernández M",
+        "Cervelló I",
+        "Cozzolino M."
+      ],
+      "year": 2025,
+      "doi": "10.3390/biology14040319",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/40282184",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/2079-7737/14/4/319/pdf?version=1742563751",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 20,
+      "retrieval_score": 0.1264
+    },
+    {
+      "citation_key": "10.3390_ani15182672",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41007914"
+      ],
+      "title": "Novel Aspects of the Physiology of Pregnancy in Domestic Ruminants.",
+      "authors": [
+        "Bazer FW",
+        "Minela T",
+        "Johnson GA."
+      ],
+      "year": 2025,
+      "doi": "10.3390/ani15182672",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41007914",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://www.mdpi.com/2076-2615/15/18/2672/pdf?version=1757666588",
+        "license": "cc-by",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 21,
+      "retrieval_score": 0.126
+    },
+    {
+      "citation_key": "10.1093_humrep_deaf223",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41247772"
+      ],
+      "title": "New models of implantation: towards a whole better than the sum of parts.",
+      "authors": [
+        "Rawlings TM",
+        "Guttridge SA",
+        "Lucas ES."
+      ],
+      "year": 2026,
+      "doi": "10.1093/humrep/deaf223",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41247772",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://academic.oup.com/humrep/advance-article-pdf/doi/10.1093/humrep/deaf223/65357643/deaf223.pdf",
+        "license": "cc-by-nc",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 22,
+      "retrieval_score": 0.126
+    },
+    {
+      "citation_key": "10.1016_j.xcrm.2025.102464",
+      "source": "europe_pmc",
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41270735"
+      ],
+      "title": "Therapeutic targeting of interleukin-17C signaling in carcinogenesis of endometriosis.",
+      "authors": [
+        "Yao B",
+        "Zheng R",
+        "Yang Y",
+        "Zhao Z",
+        "Lash GE",
+        "Guo B",
+        "Pan J",
+        "Shuai H",
+        "Zhou H",
+        "Wang M"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.xcrm.2025.102464",
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://europepmc.org/article/med/41270735",
+      "abstract": "",
+      "access": {
+        "status": "open",
+        "downloadable": true,
+        "pdf_reachable": false,
+        "check_method": "unpaywall",
+        "pdf_url": "https://doi.org/10.1016/j.xcrm.2025.102464",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 23,
+      "retrieval_score": 0.126
+    },
+    {
+      "citation_key": "1974_Progesterone-Progestin_receptors._24",
+      "source": "pubmed",
+      "source_hits": [
+        "pubmed"
+      ],
+      "source_ids": [
+        "pmid:4374925"
+      ],
+      "title": "Progesterone-Progestin receptors.",
+      "authors": [
+        "Raynaud JP",
+        "Philibert D",
+        "Azadian-Boulanger G"
+      ],
+      "year": 1974,
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4374925/",
+      "abstract": "",
+      "access": {
+        "status": "unknown",
+        "downloadable": false,
+        "pdf_reachable": false,
+        "check_method": "pubmed_metadata",
+        "pdf_url": "",
+        "license": "",
+        "notes": ""
+      },
+      "local_path": null,
+      "zotero_match": false,
+      "local_library": {
+        "found": false,
+        "match_type": "",
+        "zotero_key": "",
+        "local_pdf_path": "",
+        "notes": "local lookup not configured"
+      },
+      "retrieval_rank": 24,
+      "retrieval_score": 0.1
+    }
+  ]
+}

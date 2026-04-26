@@ -1,0 +1,396 @@
+{
+  "count": 18,
+  "items": [
+    {
+      "title": "Protocol for generation of and high-throughput drug testing with patient-derived colorectal cancer organoids.",
+      "doi": "10.1016/j.xpro.2024.103090",
+      "source": "pubmed",
+      "title_locked": true,
+      "rescue_priority": "title_anchor",
+      "protocol_hint_score": 0.2,
+      "extraction_hints": {
+        "protocol_paper": true,
+        "methods_rich": true,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1016/j.xpro.2024.103090",
+          "https://pubmed.ncbi.nlm.nih.gov/38809757/"
+        ],
+        "fulltext_candidates": [
+          "https://pubmed.ncbi.nlm.nih.gov/38809757/"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "open_methods_fulltext"
+      }
+    },
+    {
+      "title": "Protocol for generation of and high-throughput drug testing with patient-derived colorectal cancer organoids",
+      "doi": null,
+      "source": "google_scholar",
+      "title_locked": true,
+      "rescue_priority": "title_anchor",
+      "protocol_hint_score": 0.2,
+      "extraction_hints": {
+        "protocol_paper": true,
+        "methods_rich": true,
+        "supplement_likely": true,
+        "parent_paper_candidates": [
+          "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7"
+        ],
+        "fulltext_candidates": [
+          "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7"
+        ],
+        "supplement_candidates": [
+          "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7/supplemental-information",
+          "https://www.cell.com/star-protocols/fulltext/S2666-1667(24)00255-7#supplementary-materials"
+        ],
+        "recommended_next_step": "open_supplement"
+      }
+    },
+    {
+      "title": "Abstract 199: Novel platform for automation of high throughput drug discovery using patient derived colorectal cancer organoids",
+      "doi": "10.1158/1538-7445.am2023-199",
+      "source": "crossref",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1158/1538-7445.am2023-199"
+        ],
+        "fulltext_candidates": [
+          "https://doi.org/10.1158/1538-7445.am2023-199"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Generation of iPSC-Derived Brain Organoids for Drug Testing and Toxicological Evaluation",
+      "doi": "10.1007/978-1-0716-2213-1_10",
+      "source": "crossref",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1007/978-1-0716-2213-1_10"
+        ],
+        "fulltext_candidates": [
+          "https://doi.org/10.1007/978-1-0716-2213-1_10"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Decision letter: Targeting mutant RAS in patient-derived colorectal cancer organoids by combinatorial drug screening",
+      "doi": "10.7554/elife.18489.040",
+      "source": "crossref",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.7554/elife.18489.040"
+        ],
+        "fulltext_candidates": [
+          "https://doi.org/10.7554/elife.18489.040"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Fluid-Derived Organoids from Pleural Effusion and Ascites: Emerging Models for Drug Resistance and Personalized Oncology.",
+      "doi": "10.7150/jca.127511",
+      "source": "europe_pmc",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.7150/jca.127511",
+          "https://europepmc.org/article/med/41869438"
+        ],
+        "fulltext_candidates": [
+          "https://europepmc.org/article/med/41869438"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Patient-Derived Xenograft Models: An Emerging Platform for Translational Cancer Research",
+      "doi": "10.1158/2159-8290.cd-14-0001",
+      "source": "openalex",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1158/2159-8290.cd-14-0001"
+        ],
+        "fulltext_candidates": [
+          "https://doi.org/10.1158/2159-8290.cd-14-0001"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Patient-derived tumor organoids: advances, applications, and future directions in biomedical research.",
+      "doi": "10.3389/fmed.2025.1733668",
+      "source": "europe_pmc",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.3389/fmed.2025.1733668",
+          "https://europepmc.org/article/med/41613337"
+        ],
+        "fulltext_candidates": [
+          "https://europepmc.org/article/med/41613337"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Patient-derived organoids (PDOs): a novel preclinical platform to overcome challenges in cancer immunotherapy.",
+      "doi": "10.3389/fcell.2026.1757516",
+      "source": "europe_pmc",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.3389/fcell.2026.1757516",
+          "https://europepmc.org/article/med/41788310"
+        ],
+        "fulltext_candidates": [
+          "https://europepmc.org/article/med/41788310"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Organoids in Cancer Research and Regenerative Medicine: Current Status, Challenges, and Future Prospects.",
+      "doi": "10.1002/mco2.70575",
+      "source": "europe_pmc",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1002/mco2.70575",
+          "https://europepmc.org/article/med/41503026"
+        ],
+        "fulltext_candidates": [
+          "https://europepmc.org/article/med/41503026"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+      "doi": "10.1080/20013078.2018.1535750",
+      "source": "openalex",
+      "title_locked": false,
+      "rescue_priority": "protocol_candidate",
+      "protocol_hint_score": 0.2,
+      "extraction_hints": {
+        "protocol_paper": true,
+        "methods_rich": true,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1080/20013078.2018.1535750"
+        ],
+        "fulltext_candidates": [
+          "https://doi.org/10.1080/20013078.2018.1535750"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "open_methods_fulltext"
+      }
+    },
+    {
+      "title": "Three-dimensional in vitro cell culture models in drug discovery and drug repositioning",
+      "doi": "10.3389/fphar.2018.00006",
+      "source": "scopus",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.3389/fphar.2018.00006",
+          "https://api.elsevier.com/content/abstract/scopus_id/85041115276"
+        ],
+        "fulltext_candidates": [
+          "https://api.elsevier.com/content/abstract/scopus_id/85041115276"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Long-term expanding human airway organoids for disease modeling",
+      "doi": "10.15252/embj.2018100300",
+      "source": "scopus",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.15252/embj.2018100300",
+          "https://api.elsevier.com/content/abstract/scopus_id/85059931873"
+        ],
+        "fulltext_candidates": [
+          "https://api.elsevier.com/content/abstract/scopus_id/85059931873"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Engineering organoids",
+      "doi": "10.1038/s41578-021-00279-y",
+      "source": "scopus",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1038/s41578-021-00279-y",
+          "https://api.elsevier.com/content/abstract/scopus_id/85101293144"
+        ],
+        "fulltext_candidates": [
+          "https://api.elsevier.com/content/abstract/scopus_id/85101293144"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Organoids",
+      "doi": "10.1038/s43586-022-00174-y",
+      "source": "scopus",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1038/s43586-022-00174-y",
+          "https://api.elsevier.com/content/abstract/scopus_id/85143234555"
+        ],
+        "fulltext_candidates": [
+          "https://api.elsevier.com/content/abstract/scopus_id/85143234555"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Biological properties of extracellular vesicles and their physiological functions",
+      "doi": "10.3402/jev.v4.27066",
+      "source": "openalex",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.3402/jev.v4.27066"
+        ],
+        "fulltext_candidates": [
+          "https://doi.org/10.3402/jev.v4.27066"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "Applications of genome editing technology in the targeted therapy of human diseases: mechanisms, advances and prospects",
+      "doi": "10.1038/s41392-019-0089-y",
+      "source": "scopus",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1038/s41392-019-0089-y",
+          "https://api.elsevier.com/content/abstract/scopus_id/85081991937"
+        ],
+        "fulltext_candidates": [
+          "https://api.elsevier.com/content/abstract/scopus_id/85081991937"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    },
+    {
+      "title": "",
+      "doi": "10.1117/12.3000978.a7aff37d-a624-ee11-a99a-b38e0bc17c27",
+      "source": "crossref",
+      "title_locked": false,
+      "rescue_priority": "normal",
+      "protocol_hint_score": 0.0,
+      "extraction_hints": {
+        "protocol_paper": false,
+        "methods_rich": false,
+        "supplement_likely": false,
+        "parent_paper_candidates": [
+          "https://doi.org/10.1117/12.3000978.a7aff37d-a624-ee11-a99a-b38e0bc17c27"
+        ],
+        "fulltext_candidates": [
+          "https://doi.org/10.1117/12.3000978.a7aff37d-a624-ee11-a99a-b38e0bc17c27"
+        ],
+        "supplement_candidates": [],
+        "recommended_next_step": "metadata_only"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+# SHawn-bio-search — Agent Instructions
+
+**Skill name**: `shawn-bio-search`
+**Platform**: Mac + Linux (pure library, no local state).
+**Repo role**: stateless biomedical literature search and dataset fetcher library. Provides PubMed, Europe PMC, OpenAlex, Crossref, Semantic Scholar, bioRxiv/medRxiv, ClinicalTrials.gov search plus OA PDF and dataset download.
+**Peer repos**: `SHawn-bioinfo` (Linux analysis hub), `SHawn-paper-mapping` (Mac claim/corpus hub), `SHawn-academic-research` (Mac manuscript hub), `SHawn-BIO` (integration layer).
+
+See also: `CLAUDE.md` in this repo for full API examples.
+
+---
+
+## When to activate
+
+Trigger this skill for:
+- "논문 찾아줘", "paper search", "literature search", "find papers on..."
+- "데이터셋 찾아", "dataset search", "GEO search", "SRA search"
+- "인용 검증", "verify citation", "is this paper real?"
+- "PDF 다운로드", "download open-access paper"
+- Any request to search biomedical databases programmatically
+
+Do NOT activate this skill for:
+- Paper corpus indexing or claim extraction (-> `paper-mapping`)
+- scRNA-seq / bulk RNA-seq analysis execution (-> `bioinfo`)
+- Manuscript drafting or writing (-> `academic-research`)
+- Vault organization or note templates (-> `Lab-Vault`)
+- General web search unrelated to biomedical literature
+
+---
+
+## Read order
+
+1. This file (`AGENTS.md`) — activation rules and repo role
+2. `CLAUDE.md` — full API contract, CLI usage, code examples
+3. `pyproject.toml` — entry points and dependencies
+4. `shawn_bio_search/` — source code (search.py, cli.py, scoring.py, sources/)
+
+---
+
+## Non-negotiable rules
+
+1. **Stateless library** — this repo owns no databases, registries, or persistent state. It returns results; callers persist them.
+2. **Never bypass paywalls** — OA-only by design. No Sci-Hub, no proxy tricks.
+3. **Honour API keys** — use `NCBI_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`, `CROSSREF_EMAIL`, `UNPAYWALL_EMAIL` when present. Never invent fake values.
+4. **No heavy deps** — this package stays lightweight. Heavy analysis deps belong in `SHawn-bioinfo`.
+
+---
+
+## Federation integration
+
+| Direction | Protocol |
+|---|---|
+| `paper-mapping` -> here | Calls `shawn_bio_search.sources.*` for DOI/title lookup during corpus enrichment |
+| `bioinfo` -> here | Calls `shawn_bio_search.download.fetcher` for GEO/SRA dataset download |
+| `SHawn-BIO` -> here | Wraps CLI as integration layer for paper-writing mode |
+| `academic-research` -> here | Citation verification during manuscript drafting |
+
+---
+
+## Preferred invocation
+
+```bash
+# Paper search (CLI)
+shawn-bio-search "<query>" --claim "<claim>" --max 10
+
+# Dataset search
+python3 scripts/dataset_search.py --query "<query>" --organism "<species>"
+
+# Citation verification (Python)
+from shawn_bio_search.sources.pubmed import verify_citation
+results = verify_citation(first_author="Turco", year="2017",
+                          context_keywords=["endometrial", "organoid"])
+```
+
+---
+
+## Change log
+
+- 2026-04-24 — initial AGENTS.md (vendor-neutral agent entry point)
