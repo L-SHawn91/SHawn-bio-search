@@ -32,6 +32,7 @@ __version__ = "0.1.1"
 __author__ = "SHawn-bio-search contributors"
 
 from .search import search_papers, SearchResult
+from .sources.pubmed import verify_citation
 from .sources import ALL_SOURCES, FREE_SOURCES, KEYED_SOURCES, check_sources
 from .sources.accession_resolver import (
     resolve_accession,
@@ -47,6 +48,7 @@ from .env import load_dotenv, load_shawn_env, SHAWN_LOCAL_DEFAULT
 __all__ = [
     "search_papers",
     "SearchResult",
+    "verify_citation",
     "ALL_SOURCES",
     "FREE_SOURCES",
     "KEYED_SOURCES",

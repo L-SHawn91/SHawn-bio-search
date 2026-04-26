@@ -68,12 +68,6 @@ def _resolve_zotero_root(explicit: str = "") -> str:
     env_root = os.getenv("ZOTERO_ROOT", "").strip()
     if env_root:
         candidates.append(Path(env_root).expanduser())
-    candidates.extend([
-        Path('/home/mdge/Clouds/onedrive/Papers/Zotero/papers'),
-        Path('/home/mdge/Papers/Zotero/papers'),
-        Path('/media/mdge/4TB_MDGE/Papers/Zotero/papers'),
-        Path('/home/mdge/Zotero/papers'),
-    ])
     for p in candidates:
         if p.exists():
             return str(p)
@@ -120,7 +114,7 @@ def main() -> int:
 
     zotero_root = _resolve_zotero_root(args.zotero_root)
     if not zotero_root:
-        print("ERROR: Zotero root not set or not found. Use --zotero-root, set ZOTERO_ROOT, or create a supported local path.", file=sys.stderr)
+        print("ERROR: Zotero root not set or not found. Use --zotero-root or set ZOTERO_ROOT.", file=sys.stderr)
         return 2
 
     candidates = _load_candidates(Path(args.paper_candidate_master))

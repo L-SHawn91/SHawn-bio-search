@@ -1,4 +1,5 @@
 """Core search functionality for Shawn-Bio-Search."""
+from __future__ import annotations
 
 from __future__ import annotations
 

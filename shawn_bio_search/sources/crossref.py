@@ -1,4 +1,5 @@
 """Crossref source module (no API key required)."""
+from __future__ import annotations
 
 from __future__ import annotations
 

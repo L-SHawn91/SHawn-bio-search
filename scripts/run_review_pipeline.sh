@@ -15,13 +15,13 @@ Usage: $(basename "$0") <query> [claim] [hypothesis] [organism] [assay] [out_pre
 
 Examples:
   $(basename "$0") 'endometrial organoid' 'progesterone response altered' \
-    'inflammatory signaling contributes' 'Homo sapiens' 'RNA-Seq' '/Users/soohyunglee/Downloads/endometrial_organoid'
+    'inflammatory signaling contributes' 'Homo sapiens' 'RNA-Seq' './outputs/endometrial_organoid'
 
   $(basename "$0") 'endometrial organoid' 'progesterone response altered' \
-    'inflammatory signaling contributes' 'Homo sapiens' 'RNA-Seq' '/Users/soohyunglee/Downloads/endometrial_organoid_fast' --fast
+    'inflammatory signaling contributes' 'Homo sapiens' 'RNA-Seq' './outputs/endometrial_organoid_fast' --fast
 
   $(basename "$0") 'endometrial organoid' 'progesterone response altered' \
-    'inflammatory signaling contributes' 'Homo sapiens' 'RNA-Seq' '/Users/soohyunglee/Downloads/endometrial_organoid_fast_with_datasets' --fast --with-datasets
+    'inflammatory signaling contributes' 'Homo sapiens' 'RNA-Seq' './outputs/endometrial_organoid_fast_with_datasets' --fast --with-datasets
 EOF
 }
 
@@ -35,7 +35,7 @@ CLAIM="${2:-}"
 HYPOTHESIS="${3:-}"
 ORGANISM="${4:-Homo sapiens}"
 ASSAY="${5:-RNA-Seq}"
-OUT_PREFIX="${6:-/Users/soohyunglee/Downloads/review_search}"
+OUT_PREFIX="${6:-./outputs/review_search}"
 shift 6 || true
 
 FAST="0"
