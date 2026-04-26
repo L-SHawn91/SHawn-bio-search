@@ -114,6 +114,7 @@ Some sources work better with API keys:
 | Scopus | `SCOPUS_API_KEY` | Requires institutional access |
 | Google Scholar | `SERPAPI_API_KEY` | Free tier available |
 | PubMed | `NCBI_API_KEY` | Recommended for higher limits |
+| Kaggle | `KAGGLE_USERNAME` + `KAGGLE_KEY` | Free Kaggle account; both required |
 
 Set up your keys:
 
