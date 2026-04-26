@@ -1,10 +1,10 @@
-# shawn-bio-search — Claude Code Instructions
+# SHawn-bio-search — Claude Code Instructions
 
 ## Quick Start
 
 ```python
 # Requires Python 3.10+
-# pip install -e /path/to/shawn-bio-search
+# pip install -e /path/to/SHawn-bio-search
 from shawn_bio_search.sources.pubmed import verify_citation
 ```
 
@@ -22,16 +22,28 @@ results = verify_citation(
 
 # Results sorted by context_score (highest first)
 for r in results[:3]:
-    print(f"{r['_verification_confidence']} score={r['_context_score']:.2f}")
+    print(f"{r['_verification_confidence']} score={r['_context_score']:.2f} gap={r.get('_rank_gap', 0):.2f}")
     print(f"  {r['first_author']} ({r['year']}) {r['title']}")
     print(f"  PMID:{r['pmid']} DOI:{r['doi']}")
 ```
 
 ### Confidence Levels
-- **HIGH** (>=0.6): Correct paper with high certainty
-- **MEDIUM** (>=0.35): Likely correct, manual check recommended
-- **LOW** (>=0.15): Uncertain match
-- **MISMATCH** (<0.15): Wrong paper (different field/species)
+
+Confidence combines **absolute context score** and **relative ranking** (gap between top-1 and top-2
+candidates). `HIGH` therefore requires both a good score AND clear separation from runner-ups, which
+prevents false confidence when multiple papers share the same author+year.
+
+- **HIGH**      — `score >= 0.55` AND `rank_gap >= 0.15` : top candidate clearly dominates
+- **MEDIUM**    — `score >= 0.40` (or `HIGH`-score without gap) : likely correct, manual check
+- **LOW**       — `score >= 0.25` : partial match, verification needed
+- **UNLIKELY**  — `score <  0.25` : almost certainly wrong person
+
+Each result dict carries:
+- `_context_score`       — float in [0, 1]
+- `_rank_gap`            — float: top-1 minus next candidate (only meaningful for top-1)
+- `_verification_confidence` — one of `HIGH` / `MEDIUM` / `LOW` / `UNLIKELY`
+- `_search_strategy`     — which query strategy produced the hit
+- `_strategies_tried`    — audit trail of every strategy attempted
 
 ### Other Functions
 - `fetch_by_pmid(["12345678"])` — direct PMID lookup
@@ -103,7 +115,7 @@ or is only asking conceptually ("explain what GEO is").
 
 ### Behaviour notes
 
-- If `shawn-bio-search` command is not found, fall back to
+- If `SHawn-bio-search` command is not found, fall back to
   `pip install -e .` from the repo root, then retry.
 - Honour env vars when present: `NCBI_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`,
   `CROSSREF_EMAIL`, `UNPAYWALL_EMAIL`. Never invent fake values.

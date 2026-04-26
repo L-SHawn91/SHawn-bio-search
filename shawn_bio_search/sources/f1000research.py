@@ -48,7 +48,7 @@ def fetch_f1000research(query: str, limit: int) -> List[Dict[str, Any]]:
     headers: Dict[str, str] = {}
     email = os.getenv("CROSSREF_EMAIL")
     if email:
-        headers["User-Agent"] = f"shawn-bio-search/0.1 (mailto:{email})"
+        headers["User-Agent"] = f"SHawn-bio-search/0.1 (mailto:{email})"
 
     url = build_url(_CROSSREF_WORKS, {
         "query": query,

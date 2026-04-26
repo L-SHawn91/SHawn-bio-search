@@ -2,7 +2,7 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-TARGET_ROOT="${1:-$HOME/.openclaw/workspace/skills/shawn-bio-search}"
+TARGET_ROOT="${1:-$HOME/.openclaw/workspace/skills/SHawn-bio-search}"
 MODE="${2:-symlink}"
 
 mkdir -p "$(dirname "$TARGET_ROOT")"

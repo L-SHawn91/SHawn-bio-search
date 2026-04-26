@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Benchmark shawn-bio-search fast vs default modes.
+"""Benchmark SHawn-bio-search fast vs default modes.
 
 Usage:
   python3 scripts/benchmark_search.py \
@@ -34,7 +34,7 @@ def _extract_count(bundle: Dict[str, Any], key: str) -> int:
 
 
 def _main() -> int:
-    p = argparse.ArgumentParser(description="Benchmark shawn-bio-search modes")
+    p = argparse.ArgumentParser(description="Benchmark SHawn-bio-search modes")
     p.add_argument("--query", action="append", required=True, help="One or more query strings")
     p.add_argument("--claim", default="")
     p.add_argument("--hypothesis", default="")

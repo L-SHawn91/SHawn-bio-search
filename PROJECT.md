@@ -1,11 +1,11 @@
 # PROJECT
 
-- project_slug: shawn-bio-search
+- project_slug: SHawn-bio-search
 - display_name: SHawn-bio-search
 - status: active-repo
 - working_folder: <repo-root>
 - repo_name: SHawn-bio-search
-- main_session: proj-shawn-bio-search
+- main_session: proj-SHawn-bio-search
 - source_of_truth: filesystem-first
 - write_policy: limited-writeback
 

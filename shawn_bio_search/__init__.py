@@ -33,7 +33,16 @@ __author__ = "SHawn-bio-search contributors"
 
 from .search import search_papers, SearchResult
 from .sources import ALL_SOURCES, FREE_SOURCES, KEYED_SOURCES, check_sources
-from .env import load_dotenv
+from .sources.accession_resolver import (
+    resolve_accession,
+    resolve_to_citation,
+    bulk_resolve,
+    format_citation,
+    classify_tier,
+    parse_accession_cell,
+    resolve_cell,
+)
+from .env import load_dotenv, load_shawn_env, SHAWN_LOCAL_DEFAULT
 
 __all__ = [
     "search_papers",
@@ -43,4 +52,13 @@ __all__ = [
     "KEYED_SOURCES",
     "check_sources",
     "load_dotenv",
+    "load_shawn_env",
+    "SHAWN_LOCAL_DEFAULT",
+    "resolve_accession",
+    "resolve_to_citation",
+    "bulk_resolve",
+    "format_citation",
+    "classify_tier",
+    "parse_accession_cell",
+    "resolve_cell",
 ]

@@ -78,16 +78,16 @@ pip install -e .
 
 ```bash
 # Basic search
-shawn-bio-search -q "organoid stem cell"
+SHawn-bio-search -q "organoid stem cell"
 
 # JSON output
-shawn-bio-search -q "cancer immunotherapy" -f json -o results.json
+SHawn-bio-search -q "cancer immunotherapy" -f json -o results.json
 
 # Focused source selection
-shawn-bio-search -q "endometrial organoid" -s pubmed,europe_pmc,openalex
+SHawn-bio-search -q "endometrial organoid" -s pubmed,europe_pmc,openalex
 
 # Specific sources only
-shawn-bio-search -q "COVID-19" -s pubmed,europe_pmc
+SHawn-bio-search -q "COVID-19" -s pubmed,europe_pmc
 ```
 
 ### Python API
@@ -141,7 +141,7 @@ Or create a `.env` file (see `.env.example`).
 ### A) Free mode (no paid keys)
 
 ```bash
-shawn-bio-search -q "endometrial organoid" -f json -o results_free.json
+SHawn-bio-search -q "endometrial organoid" -f json -o results_free.json
 ```
 
 ### B) API-extended mode
@@ -151,7 +151,7 @@ export NCBI_API_KEY="..."
 export SEMANTIC_SCHOLAR_API_KEY="..."   # recommended, 1 rps
 export SERPAPI_API_KEY="..."            # optional
 export SCOPUS_API_KEY="..."             # optional institutional
-shawn-bio-search -q "adenomyosis IVF" -f json
+SHawn-bio-search -q "adenomyosis IVF" -f json
 ```
 
 ### C) Retrieval bundle mode
