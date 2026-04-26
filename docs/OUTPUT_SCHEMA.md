@@ -185,14 +185,17 @@ Purpose:
 Each item in the returned list (sorted by `_context_score` descending) carries the standard normalized paper fields (`title`, `authors`, `year`, `doi`, `pmid`, `pmcid`, `url`, `abstract`, `first_author`, ...) plus:
 
 - `_context_score` — float 0.0–1.0, token-overlap match against `context_keywords` and `context_sentence`
-- `_verification_confidence` — bucketed label derived from `_context_score`:
+- `_rank_gap` — float, the absolute `_context_score` separation between this candidate and the next-best candidate. Only meaningful for the top-1 candidate (where it equals `score[0] - score[1]`); for non-top candidates and single-candidate results it is set to `1.0`. Used as the dominance gate for the `HIGH` label.
+- `_verification_confidence` — bucketed label combining absolute score with rank-gap dominance:
 
-| Label | `_context_score` range | Interpretation |
+| Label | Rule | Interpretation |
 |---|---|---|
-| `HIGH` | `>= 0.60` | Correct paper with high certainty |
-| `MEDIUM` | `>= 0.35` | Likely correct, manual check recommended |
-| `LOW` | `>= 0.15` | Uncertain match — context is weak |
-| `MISMATCH` | `< 0.15` | Wrong paper (different field/species/topic) |
+| `HIGH` | `_context_score >= 0.55` AND `_rank_gap >= 0.15` (top-1 only) | Correct paper with high certainty AND clearly dominates runner-ups |
+| `MEDIUM` | `_context_score >= 0.40` | Likely correct, manual check recommended |
+| `LOW` | `_context_score >= 0.25` | Uncertain match — context is weak |
+| `UNLIKELY` | `_context_score < 0.25` | Wrong paper (different field/species/topic) |
+
+Only the top-ranked candidate is eligible for `HIGH`. Non-top candidates use score-only thresholds and cannot be promoted to `HIGH` even if their score clears the absolute bar.
 
 `_verification_confidence` is a retrieval-side hint only. Downstream consumers (`SHawn-academic-research`) decide whether to accept, request re-verification, or surface a conflict to the writer.
 

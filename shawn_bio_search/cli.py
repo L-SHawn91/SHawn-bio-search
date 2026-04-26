@@ -26,10 +26,14 @@ Examples:
   %(prog)s --mode author -q "Hakhyun Ka" --author-aliases "Ka H,H. Ka" --affiliation "Yonsei"
 
 Citation verification confidence levels (verify_citation API):
-  HIGH      score >= 0.60   correct paper with high certainty
-  MEDIUM    score >= 0.35   likely correct, manual check recommended
-  LOW       score >= 0.15   uncertain match
-  MISMATCH  score <  0.15   wrong paper (different field/species)
+  HIGH      score >= 0.55 AND _rank_gap >= 0.15   top-1 candidate, dominant
+  MEDIUM    score >= 0.40                         likely correct, review recommended
+  LOW       score >= 0.25                         uncertain match
+  UNLIKELY  score <  0.25                         wrong paper (different field/species)
+
+  Note: only the top-1 candidate can earn HIGH; non-top candidates fall back
+  to score-only thresholds. `_rank_gap` is the score separation between the
+  top candidate and the runner-up (1.0 if there is only a single candidate).
         """
     )
     
