@@ -4,7 +4,23 @@ from __future__ import annotations
 
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any, Dict, List, Optional, Union
+
+DEFAULT_MAX_WORKERS = 8
+
+
+def _resolve_max_workers(num_sources: int) -> int:
+    """Cap concurrency by env var SBS_MAX_WORKERS (or default 8) and source count."""
+    raw = os.environ.get("SBS_MAX_WORKERS", "").strip()
+    if raw:
+        try:
+            override = int(raw)
+            if override >= 1:
+                return min(override, max(1, num_sources))
+        except ValueError:
+            pass
+    return min(DEFAULT_MAX_WORKERS, max(1, num_sources))
 
 from .sources import FREE_SOURCES, KEYED_SOURCES
 from .sources.pubmed import fetch_pubmed
@@ -185,18 +201,31 @@ def search_papers(
     }
     
     sources = _resolve_sources(sources, list(all_sources.keys()))
-    
+
     papers = []
     warnings = []
-    
+
+    valid_sources = []
     for source_name in sources:
         if source_name not in all_sources:
             warnings.append(f"Unknown source: {source_name}")
             continue
-        
-        fetch_func = all_sources[source_name]
-        try:
-            results = fetch_func(effective_query, max_results)
+        valid_sources.append(source_name)
+
+    def _run_one(name: str):
+        fetch_func = all_sources[name]
+        return name, fetch_func(effective_query, max_results)
+
+    max_workers = _resolve_max_workers(len(valid_sources))
+    with ThreadPoolExecutor(max_workers=max_workers, thread_name_prefix="sbs-fanout") as pool:
+        futures = {pool.submit(_run_one, name): name for name in valid_sources}
+        for future in as_completed(futures):
+            source_name = futures[future]
+            try:
+                _, results = future.result()
+            except Exception as e:
+                warnings.append(f"{source_name} failed: {e}")
+                continue
             if not results and source_name in ["scopus", "google_scholar", "semantic_scholar", "core"]:
                 if source_name == "semantic_scholar":
                     if not (os.getenv("SEMANTIC_SCHOLAR_API_KEY") or os.getenv("S2_API_KEY")):
@@ -212,8 +241,6 @@ def search_papers(
                     if not os.getenv(api_key_var):
                         warnings.append(f"{source_name} skipped: {api_key_var} not set")
             papers.extend(results)
-        except Exception as e:
-            warnings.append(f"{source_name} failed: {e}")
     
     # Deduplicate
     papers = _dedupe_papers(papers)

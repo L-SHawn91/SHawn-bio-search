@@ -126,6 +126,21 @@ export NCBI_API_KEY="your_key_here"
 
 Or create a `.env` file (see `.env.example`).
 
+## Concurrency
+
+`search_papers()` fans out across the configured sources in parallel via a
+`ThreadPoolExecutor`. Each source's `fetch_*` function still runs its own
+HTTP calls, but they overlap, so total wall time is bounded by the slowest
+source rather than the sum.
+
+| Setting | Default | Notes |
+|---|---|---|
+| `SBS_MAX_WORKERS` | `8` | cap on simultaneous source fetches; set `1` for fully sequential |
+
+Per-host rate limits in `sources/_http.py` are enforced under a thread lock,
+so concurrent calls to the same API host still respect that host's
+minimum-interval policy (e.g. arXiv's >3s rule).
+
 ## Output Format
 
 ### Plain Text (Default)

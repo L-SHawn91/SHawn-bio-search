@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import ssl
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -41,17 +42,32 @@ _HOST_MIN_INTERVAL: Dict[str, float] = {
     "api.cellxgene.cziscience.com": 0.3,
 }
 _LAST_CALL_AT: Dict[str, float] = {}
+_HOST_LOCKS: Dict[str, threading.Lock] = {}
+_HOST_LOCKS_LOCK = threading.Lock()
+
+
+def _host_lock(host: str) -> threading.Lock:
+    lock = _HOST_LOCKS.get(host)
+    if lock is not None:
+        return lock
+    with _HOST_LOCKS_LOCK:
+        lock = _HOST_LOCKS.get(host)
+        if lock is None:
+            lock = threading.Lock()
+            _HOST_LOCKS[host] = lock
+        return lock
 
 
 def _rate_limit(host: str) -> None:
     min_interval = _HOST_MIN_INTERVAL.get(host, 0.0)
     if min_interval <= 0:
         return
-    last = _LAST_CALL_AT.get(host, 0.0)
-    elapsed = time.monotonic() - last
-    if elapsed < min_interval:
-        time.sleep(min_interval - elapsed)
-    _LAST_CALL_AT[host] = time.monotonic()
+    with _host_lock(host):
+        last = _LAST_CALL_AT.get(host, 0.0)
+        elapsed = time.monotonic() - last
+        if elapsed < min_interval:
+            time.sleep(min_interval - elapsed)
+        _LAST_CALL_AT[host] = time.monotonic()
 
 
 def _open(
