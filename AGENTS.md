@@ -5,6 +5,7 @@
 **Repo role**: stateless biomedical literature search and dataset fetcher library. Provides PubMed, Europe PMC, OpenAlex, Crossref, Semantic Scholar, bioRxiv/medRxiv, ClinicalTrials.gov search plus OA PDF and dataset download.
 **Peer repos**: `SHawn-bioinfo` (Linux analysis hub), `SHawn-paper-mapping` (Mac claim/corpus hub), `SHawn-academic-research` (Mac manuscript hub), `SHawn-BIO` (integration layer).
 
+Canonical portable skill contract: `SKILL.md`.
 See also: `CLAUDE.md` in this repo for full API examples.
 
 ---
@@ -29,10 +30,11 @@ Do NOT activate this skill for:
 
 ## Read order
 
-1. This file (`AGENTS.md`) — activation rules and repo role
-2. `CLAUDE.md` — full API contract, CLI usage, code examples
-3. `pyproject.toml` — entry points and dependencies
-4. `shawn_bio_search/` — source code (search.py, cli.py, scoring.py, sources/)
+1. `SKILL.md` — portable OpenClaw/Claude/Codex/Ollama activation contract
+2. This file (`AGENTS.md`) — vendor-neutral agent rules and repo role
+3. `CLAUDE.md` — full API contract, CLI usage, code examples
+4. `pyproject.toml` — entry points and dependencies
+5. `shawn_bio_search/` — source code (search.py, cli.py, scoring.py, sources/)
 
 ---
 
@@ -43,6 +45,7 @@ Do NOT activate this skill for:
 3. **Honour API keys** — use `NCBI_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`, `CROSSREF_EMAIL`, `UNPAYWALL_EMAIL` when present. Never invent fake values.
 4. **No heavy deps** — this package stays lightweight. Heavy analysis deps belong in `SHawn-bioinfo`.
 5. **Download root is fixed** — all paper/PDF downloads on LINUXclaw must be saved directly in `/home/mdge/Clouds/onedrive/Papers/Zotero/논문` unless the user explicitly requests another folder. Do not create `_incoming`, staging, topic/date subfolders, repo `outputs/`, `Downloads/`, `/tmp`, or other ad-hoc PDF destinations. Keep manifests/logs/reports in repo `outputs/` when audit files are needed; only actual PDFs go to the Zotero `논문` root.
+6. **No symlink deployment** — expose this repo to OpenClaw, Claude, Codex, and Ollama through direct repo paths or copied adapters. Do not create skill symlinks.
 
 ### Institutional access boundary — Konkuk University campus network
 
@@ -85,3 +88,4 @@ results = verify_citation(first_author="Turco", year="2017",
 ## Change log
 
 - 2026-04-24 — initial AGENTS.md (vendor-neutral agent entry point)
+- 2026-04-28 — added root SKILL.md as portable cross-environment skill contract

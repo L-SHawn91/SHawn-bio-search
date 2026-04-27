@@ -5,6 +5,8 @@
 `SHawn-bio-search` is the canonical SHawn ecosystem retrieval repo.
 If you detect a parallel lowercase repo line (`shawn-bio-search`), treat it as a feature-source or forensic line, not the default home. New integration work should land here first unless the user explicitly says otherwise.
 
+The repo-root `SKILL.md` is the portable OpenClaw/Claude/Codex/Ollama skill contract. Read `SKILL.md` first, then this file for Claude-specific examples and defaults. Do not expose this repo through skill symlinks; use direct repo paths or copied adapters.
+
 ## Quick Start
 
 ```python
