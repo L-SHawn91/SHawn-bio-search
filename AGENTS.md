@@ -39,9 +39,18 @@ Do NOT activate this skill for:
 ## Non-negotiable rules
 
 1. **Stateless library** — this repo owns no databases, registries, or persistent state. It returns results; callers persist them.
-2. **Never bypass paywalls** — OA-only by design. No Sci-Hub, no proxy tricks.
+2. **Never bypass paywalls** — OA-only by design for automated downloads. No Sci-Hub, no mirror sites, no proxy tricks, no credential capture.
 3. **Honour API keys** — use `NCBI_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`, `CROSSREF_EMAIL`, `UNPAYWALL_EMAIL` when present. Never invent fake values.
 4. **No heavy deps** — this package stays lightweight. Heavy analysis deps belong in `SHawn-bioinfo`.
+5. **Download root is fixed** — all paper/PDF downloads on LINUXclaw must be saved directly in `/home/mdge/Clouds/onedrive/Papers/Zotero/논문` unless the user explicitly requests another folder. Do not create `_incoming`, staging, topic/date subfolders, repo `outputs/`, `Downloads/`, `/tmp`, or other ad-hoc PDF destinations. Keep manifests/logs/reports in repo `outputs/` when audit files are needed; only actual PDFs go to the Zotero `논문` root.
+
+### Institutional access boundary — Konkuk University campus network
+
+- Konkuk University 교내 네트워크 / library subscription access is **authorized institutional access**, not a paywall-bypass mechanism.
+- Automated SHawn-bio-search downloaders must **not** impersonate, scrape credentials, tunnel, or evade publisher access controls.
+- If a paper is unavailable through OA routes but may be accessible through the user's legitimate Konkuk University network/library session, mark it as `institutional_access_candidate` and hand it to a browser-assisted/manual step.
+- Browser-assisted/manual institutional downloads must preserve an audit trail: DOI/title, publisher landing page, access route (`konkuk_institutional_access`), download timestamp, local root path, sha256, and verification result.
+- Actual PDFs still go directly to `/home/mdge/Clouds/onedrive/Papers/Zotero/논문`; reports/manifests stay in repo `outputs/`.
 
 ---
 

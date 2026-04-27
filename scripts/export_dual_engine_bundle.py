@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 
 def _citation_key(p: Dict[str, Any], idx: int) -> str:
@@ -32,7 +32,7 @@ def _normalize_text(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", (text or "").lower())
 
 
-def _http_json(url: str, timeout: int = 12) -> Dict[str, Any] | None:
+def _http_json(url: str, timeout: int = 12) -> Optional[Dict[str, Any]]:
     req = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": "SHawn-bio-search/1.0"})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -77,7 +77,7 @@ def _fetch_unpaywall(doi: str, email: str, cache: Dict[str, Any]) -> Dict[str, A
     return cache[key]
 
 
-def _guess_access(p: Dict[str, Any], unpaywall_email: str = "", unpaywall_cache: Dict[str, Any] | None = None) -> Dict[str, Any]:
+def _guess_access(p: Dict[str, Any], unpaywall_email: str = "", unpaywall_cache: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     unpaywall_cache = unpaywall_cache or {}
     pdf_url = (
         p.get("oa_pdf_url")
@@ -208,7 +208,7 @@ def _normalize_result(
     idx: int,
     pdf_files: List[Path],
     unpaywall_email: str = "",
-    unpaywall_cache: Dict[str, Any] | None = None,
+    unpaywall_cache: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     access = _guess_access(p, unpaywall_email=unpaywall_email, unpaywall_cache=unpaywall_cache)
     local_library = _lookup_local_library(p, pdf_files) if pdf_files else {

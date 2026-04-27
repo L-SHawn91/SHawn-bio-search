@@ -52,6 +52,10 @@ downloads/*.json
 results/
 output/
 
+# Local run artifacts from model/download audits; force-add only curated fixtures.
+outputs/llm_*/
+outputs/dhcr24_260427/
+
 # OS
 .DS_Store
 Thumbs.db

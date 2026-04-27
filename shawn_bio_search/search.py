@@ -1,8 +1,6 @@
 """Core search functionality for Shawn-Bio-Search."""
 from __future__ import annotations
 
-from __future__ import annotations
-
 import json
 import os
 from typing import Any, Dict, List, Optional, Union
@@ -29,6 +27,7 @@ from .sources.scival import fetch_scival_author_metrics
 from .sources.google_scholar import fetch_google_scholar
 
 from .scoring import score_paper
+from .llm_triage import triage_papers
 from .formatter import format_results
 from .presets import apply_project_preset
 from .query_expansion import expand_query
@@ -133,6 +132,12 @@ def search_papers(
     sources: Optional[Union[List[str], str]] = None,
     expand: bool = False,
     project_mode: str = "",
+    llm_triage: bool = False,
+    llm_model: str = "",
+    llm_fallback_chain: str = "",
+    llm_limit: int = 12,
+    llm_timeout: float = 30.0,
+    llm_rerank: bool = False,
 ) -> SearchResult:
     """Search papers across multiple sources.
 
@@ -148,6 +153,12 @@ def search_papers(
             - Explicit list: use exactly those sources
         expand: Expand the query with lightweight biomedical synonyms
         project_mode: Apply a project-aware preset (e.g. endometrial-organoid-review)
+        llm_triage: Optionally enrich top candidates with Ollama semantic triage.
+        llm_model: Preferred Ollama model when llm_triage is enabled.
+        llm_fallback_chain: Comma-separated model chain ending in code fallback.
+        llm_limit: Number of top candidates to triage.
+        llm_timeout: Per-model Ollama timeout in seconds.
+        llm_rerank: Reorder triaged candidates by evidence + LLM relevance.
 
     Returns:
         SearchResult object containing papers and metadata
@@ -222,6 +233,18 @@ def search_papers(
     # Score papers
     papers = [score_paper(p, effective_claim, hypothesis) for p in papers]
     papers.sort(key=lambda x: x.get("evidence_score", 0), reverse=True)
+    papers, llm_triage_meta = triage_papers(
+        papers,
+        query=effective_query,
+        claim=effective_claim,
+        hypothesis=hypothesis,
+        enabled=llm_triage,
+        model=llm_model,
+        fallback_chain=llm_fallback_chain,
+        limit=llm_limit,
+        timeout=llm_timeout,
+        rerank=llm_rerank,
+    )
 
     data = {
         "query": query,
@@ -231,6 +254,7 @@ def search_papers(
         "hypothesis": hypothesis,
         "project_mode": project_mode,
         "query_expanded": expand,
+        "llm_triage": llm_triage_meta,
         "count": len(papers),
         "warnings": warnings,
         "papers": papers,

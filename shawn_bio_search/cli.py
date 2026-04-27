@@ -54,6 +54,18 @@ Citation verification confidence levels (verify_citation API):
                         help="Expand query with lightweight biomedical synonyms")
     parser.add_argument("--project-mode", default="",
                         help="Apply a project-aware preset (e.g. endometrial-organoid-review, regenerative-screening)")
+    parser.add_argument("--llm-triage", action="store_true",
+                        help="Enrich top paper candidates with Ollama semantic triage")
+    parser.add_argument("--llm-model", default="",
+                        help="Preferred Ollama model for --llm-triage")
+    parser.add_argument("--llm-fallback-chain", default="",
+                        help="Comma-separated Ollama/code fallback chain for --llm-triage")
+    parser.add_argument("--llm-limit", type=int, default=12,
+                        help="Number of top candidates to triage with --llm-triage")
+    parser.add_argument("--llm-timeout", type=float, default=30.0,
+                        help="Per-model Ollama timeout in seconds for --llm-triage")
+    parser.add_argument("--llm-rerank", action="store_true",
+                        help="Rerank triaged candidates by evidence score + LLM relevance")
     parser.add_argument("-f", "--format", choices=["json", "plain", "markdown"],
                         default="plain", help="Output format (default: plain)")
     parser.add_argument("-o", "--output", help="Output file (default: stdout)")
@@ -87,6 +99,12 @@ Citation verification confidence levels (verify_citation API):
                 sources=sources,
                 expand=args.expand_query,
                 project_mode=args.project_mode,
+                llm_triage=args.llm_triage,
+                llm_model=args.llm_model,
+                llm_fallback_chain=args.llm_fallback_chain,
+                llm_limit=args.llm_limit,
+                llm_timeout=args.llm_timeout,
+                llm_rerank=args.llm_rerank,
             )
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)

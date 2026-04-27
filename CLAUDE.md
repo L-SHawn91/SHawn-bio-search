@@ -101,9 +101,19 @@ or is only asking conceptually ("explain what GEO is").
 3. **Citation verification** — use `verify_citation()` (see section above).
 
 4. **OA PDF / dataset download** (after step 1 produced a bundle)
+
+   **Required PDF destination on LINUXclaw:**
+   `/home/mdge/Clouds/onedrive/Papers/Zotero/논문`
+
+   Save actual paper PDFs directly in this root. Do **not** create `_incoming`, staging, topic/date subfolders, repo `outputs/`, `Downloads/`, `/tmp`, or arbitrary PDF destinations unless the user explicitly requests a different folder.
+
+   Repo `outputs/` may hold search bundles, manifests, logs, and reports. Actual downloaded PDFs belong directly under the Zotero `논문` root.
+
    ```bash
-   shawn-bio-download --bundle /tmp/bundle.json --dest ./downloads/ --plan-only
-   shawn-bio-download --execute ./downloads/manifest.json --dest ./downloads/
+   DEST="/home/mdge/Clouds/onedrive/Papers/Zotero/논문"
+   shawn-bio-download --bundle /tmp/bundle.json --dest "$DEST" --plan-only \
+     --manifest /tmp/manifest.json
+   shawn-bio-download --execute /tmp/manifest.json --dest "$DEST"
    ```
 
 ### Behaviour notes
@@ -112,7 +122,8 @@ or is only asking conceptually ("explain what GEO is").
   `pip install -e .` from the repo root, then retry.
 - Honour env vars when present: `NCBI_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`,
   `CROSSREF_EMAIL`, `UNPAYWALL_EMAIL`. Never invent fake values.
-- Never bypass paywalls (no Sci-Hub etc.) — this tool is OA-only by design.
+- Never bypass paywalls (no Sci-Hub, mirrors, proxy tricks, credential capture, or publisher access evasion). Automated downloads are OA-only by design.
+- Konkuk University 교내 네트워크 / library subscription access is allowed only as **authorized institutional access**, not as a bypass. If OA routes fail, mark the record as `institutional_access_candidate` and move it to a browser-assisted/manual step using the user's legitimate library/network session. Preserve DOI/title, publisher page, access route (`konkuk_institutional_access`), timestamp, root PDF path, sha256, and verification result.
 - Always tell the user which tool you used and where the output landed
   (file path or stdout).
 

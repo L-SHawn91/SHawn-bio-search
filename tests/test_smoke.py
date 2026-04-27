@@ -68,6 +68,27 @@ def test_score_fields_present(monkeypatch):
     assert scored.get("evidence_label") in {"support", "contradict", "uncertain", "mention-only"}
 
 
+def test_search_papers_can_add_code_llm_triage(monkeypatch):
+    fixture = _load_openalex_fixture()
+    monkeypatch.setattr(
+        "shawn_bio_search.sources.openalex._get_json",
+        lambda url: fixture,
+    )
+
+    results = search_papers(
+        query="endometrial organoid",
+        claim="endometrial organoids model uterine biology",
+        max_results=1,
+        sources=["openalex"],
+        llm_triage=True,
+        llm_model="code",
+        llm_limit=1,
+    )
+    assert results.data["llm_triage"]["enabled"] is True
+    assert results.papers[0]["llm_provider"] == "code"
+    assert "llm_relevance" in results.papers[0]
+
+
 def test_query_expansion_has_expected_terms():
     expanded = expand_query("endometrial organoid")
     assert "endometrium" in expanded.lower() or "uterine" in expanded.lower()

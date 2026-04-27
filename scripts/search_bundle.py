@@ -18,6 +18,7 @@ import gather_papers as gp
 from shawn_bio_search.presets import apply_project_preset
 from shawn_bio_search.query_expansion import expand_query
 from shawn_bio_search.scoring import classify_evidence_label
+from shawn_bio_search.llm_triage import triage_papers
 from export_dual_engine_bundle import (
     _build_datasets_results,
     _build_evidence_candidates,
@@ -89,6 +90,18 @@ def run_papers(args: argparse.Namespace) -> Dict[str, Any]:
             has_claim=bool((effective_claim or "").strip()),
         )
     scored.sort(key=lambda x: x.get("evidence_score", 0), reverse=True)
+    scored, llm_triage_meta = triage_papers(
+        scored,
+        query=effective_query,
+        claim=effective_claim,
+        hypothesis=args.hypothesis,
+        enabled=args.llm_triage,
+        model=args.llm_model,
+        fallback_chain=args.llm_fallback_chain,
+        limit=args.llm_limit,
+        timeout=args.llm_timeout,
+        rerank=args.llm_rerank,
+    )
 
     if args.fast:
         warnings.append("fast mode: focused on pubmed/europe_pmc/openalex only")
@@ -101,6 +114,7 @@ def run_papers(args: argparse.Namespace) -> Dict[str, Any]:
         "hypothesis": args.hypothesis,
         "project_mode": args.project_mode,
         "query_expanded": bool(args.expand_query),
+        "llm_triage": llm_triage_meta,
         "count": len(scored),
         "warnings": warnings,
         "papers": scored,
@@ -187,6 +201,12 @@ def main() -> int:
     parser.add_argument("--include-datasets", action="store_true", help="Run dataset search even in fast mode")
     parser.add_argument("--expand-query", action="store_true", help="Expand query with lightweight biomedical synonyms")
     parser.add_argument("--project-mode", default="", help="Apply a project-aware preset")
+    parser.add_argument("--llm-triage", action="store_true", help="Enrich top paper candidates with Ollama semantic triage")
+    parser.add_argument("--llm-model", default="", help="Preferred Ollama model for --llm-triage")
+    parser.add_argument("--llm-fallback-chain", default="", help="Comma-separated Ollama/code fallback chain for --llm-triage")
+    parser.add_argument("--llm-limit", type=int, default=12, help="Number of top paper candidates to triage")
+    parser.add_argument("--llm-timeout", type=float, default=30.0, help="Per-model Ollama timeout in seconds")
+    parser.add_argument("--llm-rerank", action="store_true", help="Rerank triaged candidates by evidence score + LLM relevance")
 
     parser.add_argument("--out", default="")
     parser.add_argument("--export-dual-engine-dir", default="", help="Optional output dir for SEARCH_RESULTS.json / DATASETS.json / SEARCH_LOG.md and sidecars")
