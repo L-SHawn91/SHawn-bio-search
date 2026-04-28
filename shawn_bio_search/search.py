@@ -26,7 +26,7 @@ from .sources.scopus import fetch_scopus, search_scopus_authors, fetch_scopus_au
 from .sources.scival import fetch_scival_author_metrics
 from .sources.google_scholar import fetch_google_scholar
 
-from .scoring import score_paper
+from .scoring import score_paper, apply_topic_guard
 from .llm_triage import triage_papers
 from .formatter import format_results
 from .presets import apply_project_preset
@@ -124,6 +124,9 @@ def _resolve_sources(
     return list(sources)
 
 
+_SENTINEL = object()
+
+
 def search_papers(
     query: str,
     claim: str = "",
@@ -131,6 +134,7 @@ def search_papers(
     max_results: int = 10,
     sources: Optional[Union[List[str], str]] = None,
     expand: bool = False,
+    expand_safe: bool = True,
     project_mode: str = "",
     llm_triage: bool = False,
     llm_model: str = "",
@@ -138,6 +142,8 @@ def search_papers(
     llm_limit: int = 12,
     llm_timeout: float = 30.0,
     llm_rerank: bool = False,
+    min_evidence: float = 0.0,
+    topic_guard: Any = _SENTINEL,
 ) -> SearchResult:
     """Search papers across multiple sources.
 
@@ -152,6 +158,11 @@ def search_papers(
             - "all": every source (keyed ones skip cleanly when unconfigured)
             - Explicit list: use exactly those sources
         expand: Expand the query with lightweight biomedical synonyms
+        expand_safe: When True (default), use safe-mode expansion that only
+            appends synonyms when the query contains a recognized domain token.
+            Prevents cross-domain drift (e.g. plant biology results in an
+            endometrial search) caused by generic OR-expansion.  Set to False
+            to restore unconstrained expansion behaviour.
         project_mode: Apply a project-aware preset (e.g. endometrial-organoid-review)
         llm_triage: Optionally enrich top candidates with Ollama semantic triage.
         llm_model: Preferred Ollama model when llm_triage is enabled.
@@ -159,6 +170,14 @@ def search_papers(
         llm_limit: Number of top candidates to triage.
         llm_timeout: Per-model Ollama timeout in seconds.
         llm_rerank: Reorder triaged candidates by evidence + LLM relevance.
+        min_evidence: Minimum evidence_score threshold; papers below this value
+            are excluded from results (default 0.0 = no filter).  A value of
+            0.25 is recommended to suppress low-quality false positives.
+        topic_guard: When True, apply the negative organism/tissue filter that
+            removes papers mentioning off-topic terms (plant, prostate, cervical,
+            hepatic, renal) unless those terms appear in the query.  Automatically
+            enabled when *expand* is True to counteract query expansion drift.
+            Explicitly passing ``False`` suppresses the auto-enable behaviour.
 
     Returns:
         SearchResult object containing papers and metadata
@@ -168,14 +187,23 @@ def search_papers(
         ...     query="organoid stem cell niche",
         ...     claim="ECM is essential for organoid formation",
         ...     sources="free",
+        ...     min_evidence=0.25,
+        ...     topic_guard=True,
         ... )
         >>> print(results.to_plain())
     """
+    # Resolve topic_guard sentinel: auto-enable when expand is active unless
+    # caller explicitly passed False.
+    if topic_guard is _SENTINEL:
+        topic_guard = bool(expand)
+    else:
+        topic_guard = bool(topic_guard)
+
     preset_info = apply_project_preset(query=query, claim=claim, project_mode=project_mode)
     effective_query = preset_info["effective_query"]
     effective_claim = preset_info["effective_claim"]
     if expand:
-        effective_query = expand_query(effective_query)
+        effective_query = expand_query(effective_query, safe=expand_safe)
 
     all_sources = {
         "pubmed": fetch_pubmed,
@@ -246,6 +274,27 @@ def search_papers(
         rerank=llm_rerank,
     )
 
+    # Post-processing filters (applied in order: topic guard → min_evidence)
+    topic_guard_removed = 0
+    if topic_guard:
+        before = len(papers)
+        papers = apply_topic_guard(papers, effective_query)
+        topic_guard_removed = before - len(papers)
+        if topic_guard_removed:
+            warnings.append(
+                f"topic_guard removed {topic_guard_removed} off-topic paper(s)"
+            )
+
+    min_evidence_removed = 0
+    if min_evidence > 0.0:
+        before = len(papers)
+        papers = [p for p in papers if float(p.get("evidence_score") or 0.0) >= min_evidence]
+        min_evidence_removed = before - len(papers)
+        if min_evidence_removed:
+            warnings.append(
+                f"min_evidence={min_evidence} removed {min_evidence_removed} low-score paper(s)"
+            )
+
     data = {
         "query": query,
         "effective_query": effective_query,
@@ -255,6 +304,12 @@ def search_papers(
         "project_mode": project_mode,
         "query_expanded": expand,
         "llm_triage": llm_triage_meta,
+        "filters_applied": {
+            "topic_guard": topic_guard,
+            "topic_guard_removed": topic_guard_removed,
+            "min_evidence": min_evidence,
+            "min_evidence_removed": min_evidence_removed,
+        },
         "count": len(papers),
         "warnings": warnings,
         "papers": papers,

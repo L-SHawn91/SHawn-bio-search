@@ -52,6 +52,16 @@ Citation verification confidence levels (verify_citation API):
                         help="Comma-separated sources (default: all)")
     parser.add_argument("--expand-query", action="store_true",
                         help="Expand query with lightweight biomedical synonyms")
+    parser.add_argument(
+        "--no-expand-safe",
+        action="store_true",
+        help=(
+            "Disable safe-mode query expansion.  By default expansion only appends "
+            "synonyms when the query contains a recognized biomedical domain token, "
+            "preventing cross-domain drift.  Use this flag to restore unconstrained "
+            "expansion behaviour."
+        ),
+    )
     parser.add_argument("--project-mode", default="",
                         help="Apply a project-aware preset (e.g. endometrial-organoid-review, regenerative-screening)")
     parser.add_argument("--llm-triage", action="store_true",
@@ -66,6 +76,34 @@ Citation verification confidence levels (verify_citation API):
                         help="Per-model Ollama timeout in seconds for --llm-triage")
     parser.add_argument("--llm-rerank", action="store_true",
                         help="Rerank triaged candidates by evidence score + LLM relevance")
+    parser.add_argument(
+        "--min-evidence",
+        type=float,
+        default=0.0,
+        metavar="THRESHOLD",
+        help=(
+            "Minimum evidence_score to include in results (default: 0.0 = no filter). "
+            "Recommended: 0.25 to suppress low-quality false positives."
+        ),
+    )
+    _tg = parser.add_mutually_exclusive_group()
+    _tg.add_argument(
+        "--topic-guard",
+        dest="topic_guard",
+        action="store_true",
+        default=None,
+        help=(
+            "Remove papers mentioning off-topic organisms/tissues (plant, prostate, "
+            "cervical, hepatic, renal) unless those terms appear in the query.  "
+            "Auto-enabled when --expand-query is used."
+        ),
+    )
+    _tg.add_argument(
+        "--no-topic-guard",
+        dest="topic_guard",
+        action="store_false",
+        help="Explicitly disable topic guard, overriding the auto-enable that occurs with --expand-query.",
+    )
     parser.add_argument("-f", "--format", choices=["json", "plain", "markdown"],
                         default="plain", help="Output format (default: plain)")
     parser.add_argument("-o", "--output", help="Output file (default: stdout)")
@@ -91,6 +129,10 @@ Citation verification confidence levels (verify_citation API):
                 include_scival=not args.no_scival,
             )
         else:
+            # topic_guard: None means "let search_papers decide" (auto-enable
+            # when expand is active).  True/False are explicit overrides.
+            from shawn_bio_search.search import _SENTINEL as _TG_SENTINEL  # noqa: PLC0415
+            tg_value = args.topic_guard  # None | True | False
             results = search_papers(
                 query=args.query,
                 claim=args.claim,
@@ -98,6 +140,7 @@ Citation verification confidence levels (verify_citation API):
                 max_results=args.max_results,
                 sources=sources,
                 expand=args.expand_query,
+                expand_safe=not args.no_expand_safe,
                 project_mode=args.project_mode,
                 llm_triage=args.llm_triage,
                 llm_model=args.llm_model,
@@ -105,6 +148,8 @@ Citation verification confidence levels (verify_citation API):
                 llm_limit=args.llm_limit,
                 llm_timeout=args.llm_timeout,
                 llm_rerank=args.llm_rerank,
+                min_evidence=args.min_evidence,
+                topic_guard=_TG_SENTINEL if tg_value is None else tg_value,
             )
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)

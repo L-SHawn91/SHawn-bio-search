@@ -85,14 +85,19 @@ def _infer_assay(text: str) -> str:
 
 
 def _score_dataset(d: Dict[str, Any], query: str, organism: str, assay: str) -> Dict[str, Any]:
+    def _to_str(v: Any) -> str:
+        if isinstance(v, list):
+            return " ".join(str(x) for x in v)
+        return str(v) if v is not None else ""
+
     corpus = " ".join(
         [
-            d.get("title", ""),
-            d.get("summary", ""),
-            d.get("organism", ""),
-            d.get("assay", ""),
-            d.get("disease", ""),
-            d.get("tissue", ""),
+            _to_str(d.get("title", "")),
+            _to_str(d.get("summary", "")),
+            _to_str(d.get("organism", "")),
+            _to_str(d.get("assay", "")),
+            _to_str(d.get("disease", "")),
+            _to_str(d.get("tissue", "")),
         ]
     )
 

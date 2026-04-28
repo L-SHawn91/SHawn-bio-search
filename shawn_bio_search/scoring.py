@@ -1,7 +1,7 @@
 """Scoring module for claim-level evidence evaluation."""
 
 import re
-from typing import Any, Dict, List
+from typing import Any, Dict, FrozenSet, List, Optional
 
 from .text_utils import overlap_ratio, tokenize
 
@@ -12,11 +12,14 @@ _NEG_TERMS = {
     "inhibit", "inhibited", "inhibits",
 }
 
+# semantic_scholar lowered from 0.98 → 0.88: it has broad coverage but returns
+# many off-topic results for narrow biomedical queries; bringing it in line with
+# other moderate-quality sources reduces false positives without excluding it.
 _SOURCE_WEIGHTS = {
     "pubmed": 1.0,
     "europe_pmc": 0.96,
     "openalex": 0.95,
-    "semantic_scholar": 0.98,
+    "semantic_scholar": 0.88,
     "crossref": 0.9,
     "scopus": 0.97,
     "google_scholar": 0.82,
@@ -30,6 +33,87 @@ _SOURCE_WEIGHTS = {
     "f1000research": 0.92,
     "doaj": 0.9,
 }
+
+# ---------------------------------------------------------------------------
+# Topic guard — negative organism/tissue filter
+# ---------------------------------------------------------------------------
+# Each entry is (guard_tokens, guard_phrase).  A paper matches the guard when
+# ANY of its tokens appears in the paper title+abstract.  If the query also
+# contains any of those tokens the guard is skipped (the user explicitly asked
+# about that topic).
+
+_TOPIC_GUARD_GROUPS: List[Dict[str, Any]] = [
+    {
+        "label": "plant",
+        "tokens": frozenset({"plant", "plants", "wheat", "barley", "rice", "maize",
+                              "corn", "arabidopsis", "soybean", "tobacco", "potato",
+                              "tomato", "phytohormone", "phytochemical", "photosynthesis",
+                              "chloroplast", "seedling", "germination", "tillering"}),
+    },
+    {
+        "label": "prostate",
+        "tokens": frozenset({"prostate", "prostatic"}),
+    },
+    {
+        "label": "cervical",
+        "tokens": frozenset({"cervical", "cervix"}),
+    },
+    {
+        "label": "hepatic",
+        "tokens": frozenset({"hepatic", "hepatocyte", "hepatocytes", "liver",
+                              "hepatoma", "cirrhosis", "biliary"}),
+    },
+    {
+        "label": "renal",
+        "tokens": frozenset({"renal", "kidney", "nephron", "glomerular",
+                              "glomerulus", "tubular", "nephritic"}),
+    },
+]
+
+
+def _tokenize_set(text: str) -> FrozenSet[str]:
+    """Return a frozenset of lower-case alpha-numeric tokens from *text*."""
+    return frozenset(re.findall(r"[a-z0-9]+", text.lower()))
+
+
+def _apply_topic_guard(
+    papers: List[Dict[str, Any]],
+    query: str,
+) -> List[Dict[str, Any]]:
+    """Remove papers whose title/abstract contain off-topic organism/tissue
+    terms unless the query itself mentions those terms.
+
+    Papers that are filtered out are excluded from the returned list.
+    A ``topic_guard_filtered`` flag is set to ``True`` on removed papers so
+    callers can inspect them (the list is still returned as a separate value by
+    :func:`apply_topic_guard_split` if needed).
+
+    Args:
+        papers: Scored paper dicts (must already have ``title``/``abstract``).
+        query: The effective search query string.
+
+    Returns:
+        Filtered list of papers that passed the guard.
+    """
+    query_tokens = _tokenize_set(query)
+    kept: List[Dict[str, Any]] = []
+    for paper in papers:
+        text = f"{paper.get('title', '')} {paper.get('abstract', '')}".strip()
+        paper_tokens = _tokenize_set(text)
+        filtered = False
+        for group in _TOPIC_GUARD_GROUPS:
+            guard_tokens: FrozenSet[str] = group["tokens"]
+            # Skip this guard group when the query explicitly references it
+            if query_tokens & guard_tokens:
+                continue
+            if paper_tokens & guard_tokens:
+                paper["topic_guard_filtered"] = True
+                paper["topic_guard_label"] = group["label"]
+                filtered = True
+                break
+        if not filtered:
+            kept.append(paper)
+    return kept
 
 
 def _split_sentences(text: str) -> List[str]:
@@ -107,6 +191,18 @@ def classify_evidence_label(support_score: float, contradiction_score: float, ev
     if evidence_score >= 0.12 or support_score >= 0.08 or contradiction_score >= 0.08:
         return "uncertain"
     return "mention-only"
+
+
+def apply_topic_guard(
+    papers: List[Dict[str, Any]],
+    query: str,
+) -> List[Dict[str, Any]]:
+    """Public alias for :func:`_apply_topic_guard`.
+
+    Call *after* scoring and *before* output to remove papers that mention
+    off-topic organisms/tissues not referenced in the query.
+    """
+    return _apply_topic_guard(papers, query)
 
 
 def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str, Any]:
