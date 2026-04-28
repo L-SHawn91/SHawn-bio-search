@@ -1,9 +1,16 @@
 """Scoring module for claim-level evidence evaluation."""
 
+import csv
+import os
 import re
+from datetime import datetime
+from pathlib import Path
 from typing import Any, Dict, FrozenSet, List, Optional
 
 from .text_utils import overlap_ratio, tokenize
+from .embeddings import embed_texts, cosine_sim
+
+_GUARD_LOG = Path(__file__).resolve().parents[2] / "outputs" / "topic_guard_false_positives.tsv"
 
 
 _NEG_TERMS = {
@@ -110,10 +117,45 @@ def _apply_topic_guard(
                 paper["topic_guard_filtered"] = True
                 paper["topic_guard_label"] = group["label"]
                 filtered = True
+                # Log filtered paper tokens for guard-term learning
+                _log_guard_filtered(paper, group["label"], paper_tokens)
                 break
         if not filtered:
             kept.append(paper)
     return kept
+
+
+def _log_guard_filtered(
+    paper: Dict[str, Any],
+    label: str,
+    paper_tokens: FrozenSet[str],
+) -> None:
+    """Append a filtered paper's tokens to the guard false-positive log."""
+    try:
+        _GUARD_LOG.parent.mkdir(parents=True, exist_ok=True)
+        write_header = not _GUARD_LOG.exists()
+        # Only log tokens not in ANY guard group (potential new guard terms)
+        all_guard_tokens: FrozenSet[str] = frozenset(
+            t for g in _TOPIC_GUARD_GROUPS for t in g["tokens"]
+        )
+        novel_tokens = paper_tokens - all_guard_tokens - {"the", "and", "for", "with"}
+        with open(_GUARD_LOG, "a", newline="") as f:
+            w = csv.DictWriter(
+                f,
+                fieldnames=["ts", "doi", "title", "guard_label", "unguarded_tokens"],
+                delimiter="\t",
+            )
+            if write_header:
+                w.writeheader()
+            w.writerow({
+                "ts": datetime.now().strftime("%Y-%m-%dT%H:%M"),
+                "doi": (paper.get("doi") or "")[:80],
+                "title": (paper.get("title") or "")[:120],
+                "guard_label": label,
+                "unguarded_tokens": " ".join(sorted(novel_tokens)[:30]),
+            })
+    except Exception:
+        pass
 
 
 def _split_sentences(text: str) -> List[str]:
@@ -205,8 +247,18 @@ def apply_topic_guard(
     return _apply_topic_guard(papers, query)
 
 
-def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str, Any]:
-    """Score a paper for claim/hypothesis relevance."""
+def score_paper(
+    paper: Dict[str, Any],
+    claim: str,
+    hypothesis: str,
+    *,
+    embed_sim: float = -1.0,
+) -> Dict[str, Any]:
+    """Score a paper for claim/hypothesis relevance.
+
+    embed_sim: pre-computed cosine similarity from nomic-embed-text, or -1.0
+    when not available (falls back to lexical-only scoring).
+    """
     text = f"{paper.get('title', '')} {paper.get('abstract', '')}".strip()
 
     claim_overlap = overlap_ratio(claim, text) if claim else 0.0
@@ -231,7 +283,12 @@ def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str,
     s2 = _sentence_analysis(claim, hypothesis, paper.get("abstract") or "")
 
     if claim and has_abstract:
-        evidence_score = round(min(0.40 * stage1 + 0.60 * s2["stage2_score"], 1.0), 4)
+        lexical_ev = 0.40 * stage1 + 0.60 * s2["stage2_score"]
+        if embed_sim >= 0.0:
+            # Blend 15% semantic similarity, preserving stage1/stage2 ratio.
+            evidence_score = round(min(0.85 * lexical_ev + 0.15 * embed_sim, 1.0), 4)
+        else:
+            evidence_score = round(min(lexical_ev, 1.0), 4)
     else:
         evidence_score = stage1
     
@@ -246,6 +303,8 @@ def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str,
     paper["best_support_sentence"] = s2["best_support_sentence"]
     paper["best_contradict_sentence"] = s2["best_contradict_sentence"]
     paper["hypothesis_sentence_overlap"] = s2["hypothesis_sentence_overlap"]
+    if embed_sim >= 0.0:
+        paper["embed_sim"] = round(embed_sim, 4)
     paper["evidence_score"] = evidence_score
     paper["evidence_label"] = classify_evidence_label(
         support_score=s2["support_score"],
@@ -255,3 +314,33 @@ def score_paper(paper: Dict[str, Any], claim: str, hypothesis: str) -> Dict[str,
     )
 
     return paper
+
+
+def batch_score_papers(
+    papers: List[Dict[str, Any]],
+    claim: str,
+    hypothesis: str,
+) -> List[Dict[str, Any]]:
+    """Score all papers, blending in nomic-embed semantic similarity when Ollama is available.
+
+    Embeddings are fetched in a single batch call [claim, abstract_0, abstract_1, …].
+    If Ollama is unavailable the function falls back to pure lexical scoring.
+    """
+    embed_sims: List[float] = [-1.0] * len(papers)
+    if claim:
+        abstracts = [str(p.get("abstract") or "") for p in papers]
+        texts = [claim] + abstracts
+        try:
+            vecs = embed_texts(texts)
+            if vecs and len(vecs) == len(texts):
+                claim_vec = vecs[0]
+                for i, abs_vec in enumerate(vecs[1:]):
+                    if abs_vec and abstracts[i]:
+                        embed_sims[i] = cosine_sim(claim_vec, abs_vec)
+        except Exception:
+            pass
+
+    return [
+        score_paper(p, claim, hypothesis, embed_sim=embed_sims[i])
+        for i, p in enumerate(papers)
+    ]

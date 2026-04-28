@@ -100,26 +100,46 @@ def triage_papers(
     disabled_models: set[str] = set()
     triage_count = min(metadata["limit"], len(output))
 
-    for idx in range(triage_count):
-        result = _triage_one_with_chain(
-            paper=output[idx],
-            query=query,
-            claim=claim,
-            hypothesis=hypothesis,
-            chain=chain,
-            disabled_models=disabled_models,
-            timeout=timeout,
-            ollama_host=host,
-        )
-        output[idx].update(result)
-        used = str(result.get("llm_model_used") or "unknown")
-        metadata["counts"][used] = int(metadata["counts"].get(used, 0)) + 1
-        usage = result.get("llm_usage")
-        if isinstance(usage, dict):
-            _add_usage(metadata["usage"], used, usage)
-        warning = result.get("llm_triage_warning")
-        if warning and warning not in metadata["warnings"]:
-            metadata["warnings"].append(warning)
+    _BATCH_SIZE = int(os.getenv("SBS_LLM_BATCH_SIZE", "5"))
+    idx = 0
+    while idx < triage_count:
+        batch_end = min(idx + _BATCH_SIZE, triage_count)
+        batch = output[idx:batch_end]
+        if len(batch) > 1:
+            results = _triage_batch_with_chain(
+                papers=batch,
+                query=query,
+                claim=claim,
+                hypothesis=hypothesis,
+                chain=chain,
+                disabled_models=disabled_models,
+                timeout=timeout * len(batch),
+                ollama_host=host,
+            )
+        else:
+            results = [
+                _triage_one_with_chain(
+                    paper=batch[0],
+                    query=query,
+                    claim=claim,
+                    hypothesis=hypothesis,
+                    chain=chain,
+                    disabled_models=disabled_models,
+                    timeout=timeout,
+                    ollama_host=host,
+                )
+            ]
+        for i, result in enumerate(results):
+            output[idx + i].update(result)
+            used = str(result.get("llm_model_used") or "unknown")
+            metadata["counts"][used] = int(metadata["counts"].get(used, 0)) + 1
+            usage = result.get("llm_usage")
+            if isinstance(usage, dict):
+                _add_usage(metadata["usage"], used, usage)
+            warning = result.get("llm_triage_warning")
+            if warning and warning not in metadata["warnings"]:
+                metadata["warnings"].append(warning)
+        idx = batch_end
 
     if rerank:
         triaged = output[:triage_count]
@@ -233,6 +253,143 @@ def _triage_one_with_chain(
 
     warning = "; ".join(errors[:2])
     return code_triage_paper(paper, query, claim, hypothesis, warning=warning)
+
+
+def _triage_batch_with_chain(
+    *,
+    papers: List[MutableMapping[str, Any]],
+    query: str,
+    claim: str,
+    hypothesis: str,
+    chain: Sequence[str],
+    disabled_models: set[str],
+    timeout: float,
+    ollama_host: str,
+) -> List[Dict[str, Any]]:
+    """Triage multiple papers in one LLM call; falls back to per-paper code triage."""
+    errors: List[str] = []
+    for model in chain:
+        if model == "code":
+            warning = "; ".join(errors[:2])
+            return [code_triage_paper(p, query, claim, hypothesis, warning=warning) for p in papers]
+        if model in disabled_models:
+            continue
+        try:
+            payloads = _call_ollama_batch(
+                model=model,
+                query=query,
+                claim=claim,
+                hypothesis=hypothesis,
+                papers=papers,
+                timeout=timeout,
+                ollama_host=ollama_host,
+            )
+            return [_normalize_llm_result(pl, model) for pl in payloads]
+        except Exception as exc:
+            errors.append(f"{model} failed: {_short_error(exc)}")
+            disabled_models.add(model)
+
+    warning = "; ".join(errors[:2])
+    return [code_triage_paper(p, query, claim, hypothesis, warning=warning) for p in papers]
+
+
+def _call_ollama_batch(
+    *,
+    model: str,
+    query: str,
+    claim: str,
+    hypothesis: str,
+    papers: List[MutableMapping[str, Any]],
+    timeout: float,
+    ollama_host: str,
+) -> List[Dict[str, Any]]:
+    """Send a batch of papers to Ollama in one call; returns list of result dicts."""
+    _q_tokens = _tokenize_set(query)
+    _domain_hint = ""
+    _ENDO_TOKENS = frozenset({"endometrial","endometrium","endometriosis","uterine","uterus",
+                               "implantation","receptivity","decidualization","rif","woi"})
+    if _q_tokens & _ENDO_TOKENS:
+        _domain_hint = (
+            " The research domain is endometrial/uterine biology. "
+            "Papers about liver, prostate, kidney, lung, brain, breast, plant, or "
+            "other non-endometrial topics should be classified as 'mention-only'."
+        )
+    system = (
+        "You triage biomedical literature search candidates. Return strict JSON only. "
+        "Do not invent citations, accessions, or facts beyond the provided title/abstract."
+        + _domain_hint
+    )
+    candidates = [
+        {
+            "id": i,
+            "title": p.get("title") or "",
+            "abstract": _truncate(str(p.get("abstract") or ""), 2000),
+            "year": p.get("year") or "",
+            "source": p.get("source") or "",
+            "doi": p.get("doi") or "",
+            "evidence_score": p.get("evidence_score"),
+            "support_score": p.get("support_score"),
+            "contradiction_score": p.get("contradiction_score"),
+        }
+        for i, p in enumerate(papers)
+    ]
+    user = {
+        "query": query,
+        "claim": claim,
+        "hypothesis": hypothesis,
+        "candidates": candidates,
+        "required_schema": {
+            "results": [
+                {
+                    "id": "integer matching candidate id",
+                    "relevance": "number 0..1",
+                    "direction": "support|contradict|mixed|uncertain|mention-only",
+                    "reason": "short evidence-grounded reason",
+                    "risk": "short limitation or manual-check note",
+                }
+            ]
+        },
+    }
+    body = {
+        "model": model,
+        "stream": False,
+        "format": "json",
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": json.dumps(user, ensure_ascii=False)},
+        ],
+        "options": {"temperature": 0, "num_predict": _ollama_num_predict() * len(papers)},
+    }
+    think = _ollama_think_for_model(model)
+    if think is not None:
+        body["think"] = think
+    req = urllib.request.Request(
+        f"{ollama_host}/api/chat",
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            raw = resp.read().decode("utf-8", errors="replace")
+    except (urllib.error.URLError, TimeoutError) as exc:
+        raise RuntimeError(str(exc)) from exc
+
+    outer = json.loads(raw)
+    content = outer.get("message", {}).get("content", "")
+    if not content:
+        content = outer.get("response", "")
+    data = _parse_json_payload(content)
+    results_raw = data.get("results")
+    if not isinstance(results_raw, list) or len(results_raw) != len(papers):
+        raise ValueError(f"Batch response has wrong results count: {len(results_raw) if isinstance(results_raw, list) else type(results_raw)}")
+
+    usage = _ollama_usage_from_response(outer)
+    payloads: List[Dict[str, Any]] = []
+    for item in results_raw:
+        item["_ollama_usage"] = usage
+        payloads.append(item)
+    return payloads
 
 
 def _call_ollama_model(

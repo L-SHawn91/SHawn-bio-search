@@ -26,7 +26,7 @@ from .sources.scopus import fetch_scopus, search_scopus_authors, fetch_scopus_au
 from .sources.scival import fetch_scival_author_metrics
 from .sources.google_scholar import fetch_google_scholar
 
-from .scoring import score_paper, apply_topic_guard
+from .scoring import score_paper, apply_topic_guard, batch_score_papers
 from .llm_triage import triage_papers
 from .formatter import format_results
 from .presets import apply_project_preset
@@ -258,8 +258,8 @@ def search_papers(
     # Deduplicate
     papers = _dedupe_papers(papers)
     
-    # Score papers
-    papers = [score_paper(p, effective_claim, hypothesis) for p in papers]
+    # Score papers (with optional nomic-embed semantic blending)
+    papers = batch_score_papers(papers, effective_claim, hypothesis)
     papers.sort(key=lambda x: x.get("evidence_score", 0), reverse=True)
     papers, llm_triage_meta = triage_papers(
         papers,
