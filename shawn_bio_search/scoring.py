@@ -270,14 +270,42 @@ def score_paper(
     if not isinstance(citations, int):
         citations = 0
 
+    # ① Citation velocity: blend absolute count with per-year rate
+    _year_raw = paper.get("year") or 0
+    try:
+        _paper_year = int(str(_year_raw)[:4]) if _year_raw else 0
+    except (ValueError, TypeError):
+        _paper_year = 0
+    _age = max(1, 2026 - _paper_year + 1) if 1900 <= _paper_year <= 2026 else 20
+    _cite_abs = min(citations, 500) / 500.0
+    _cite_vel = min(citations / _age, 50.0) / 50.0
+    cite_component = 0.5 * _cite_abs + 0.5 * _cite_vel
+
+    # ② Recency bonus (max +0.02)
+    if _paper_year >= 2024:
+        _recency = 1.0
+    elif _paper_year >= 2021:
+        _recency = 0.6
+    elif _paper_year >= 2016:
+        _recency = 0.3
+    else:
+        _recency = 0.0
+    recency_bonus = 0.02 * _recency
+
     source = (paper.get("source") or "").strip().lower()
     source_weight = _SOURCE_WEIGHTS.get(source, 0.88)
     has_doi = bool((paper.get("doi") or "").strip())
     has_abstract = bool((paper.get("abstract") or "").strip())
     metadata_bonus = 0.03 * float(has_doi) + 0.04 * float(has_abstract)
 
-    cite_component = min(citations, 500) / 500.0
-    stage1_raw = 0.50 * claim_overlap + 0.20 * hypothesis_overlap + 0.20 * cite_component + 0.10 * source_weight + metadata_bonus
+    stage1_raw = (
+        0.50 * claim_overlap
+        + 0.20 * hypothesis_overlap
+        + 0.20 * cite_component
+        + 0.10 * source_weight
+        + metadata_bonus
+        + recency_bonus
+    )
     stage1 = round(min(stage1_raw, 1.0), 4)
 
     s2 = _sentence_analysis(claim, hypothesis, paper.get("abstract") or "")
@@ -296,6 +324,7 @@ def score_paper(
     paper["hypothesis_overlap"] = round(hypothesis_overlap, 4)
     paper["source_weight"] = round(source_weight, 4)
     paper["metadata_bonus"] = round(metadata_bonus, 4)
+    paper["recency_bonus"] = round(recency_bonus, 4)
     paper["stage1_score"] = stage1
     paper["stage2_score"] = s2["stage2_score"]
     paper["support_score"] = s2["support_score"]
