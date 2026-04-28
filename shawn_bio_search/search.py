@@ -141,7 +141,7 @@ def search_papers(
     llm_fallback_chain: str = "",
     llm_limit: int = 12,
     llm_timeout: float = 30.0,
-    llm_rerank: bool = False,
+    llm_rerank: bool = True,
     min_evidence: float = 0.0,
     topic_guard: Any = _SENTINEL,
 ) -> SearchResult:
