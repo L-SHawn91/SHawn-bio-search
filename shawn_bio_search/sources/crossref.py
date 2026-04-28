@@ -22,7 +22,7 @@ def fetch_crossref_by_doi(doi: str) -> Dict[str, Any] | None:
     """
     if not doi:
         return None
-    d = doi.strip().lower().replace("https://doi.org/", "")
+    d = re.sub(r'^https?://(?:dx\.)?doi\.org/', '', doi.strip()).lower()
     url = f"https://api.crossref.org/works/{urllib.parse.quote(d, safe='')}"
     try:
         data = _get_json(url)
@@ -189,7 +189,7 @@ def lookup_ids_by_doi(doi: str) -> Dict[str, str]:
     """
     if not doi:
         return {}
-    clean = doi.strip().lstrip("https://doi.org/").lstrip("http://doi.org/")
+    clean = re.sub(r'^https?://(?:dx\.)?doi\.org/', '', doi.strip())
     ids: Dict[str, str] = {}
 
     # Crossref: canonical DOI + URL

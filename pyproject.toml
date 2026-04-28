@@ -58,3 +58,8 @@ target-version = ['py39']
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "network: live network calls — run explicitly with -m network (deselected by default)",
+    "slow: long-running tests — run with -m slow",
+]
+addopts = "-m 'not network and not slow'"
