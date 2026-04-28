@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -33,7 +34,7 @@ from .scoring import score_paper, apply_topic_guard, batch_score_papers
 from .llm_triage import triage_papers
 from .formatter import format_results
 from .presets import apply_project_preset
-from .query_expansion import expand_query
+from .query_expansion import expand_query, mesh_expand_query
 from .text_utils import dedupe_key as _dedupe_key, merge_unique_list as _merge_unique_list, _warn_once
 
 
@@ -54,6 +55,85 @@ class SearchResult:
 
     def to_markdown(self, top_n: int = 10) -> str:
         return format_results(self.papers, fmt="markdown", top_n=top_n)
+
+    def to_bibtex(self, top_n: int = 0) -> str:
+        """Export results as BibTeX entries."""
+        papers = self.papers[:top_n] if top_n else self.papers
+        entries: List[str] = []
+        for p in papers:
+            key = _bibtex_key(p)
+            title   = _bib_escape(str(p.get("title") or ""))
+            authors = _bib_escape(str(p.get("authors_short") or p.get("authors") or "Anonymous"))
+            year    = str(p.get("year") or "")
+            doi     = str(p.get("doi") or "")
+            journal = _bib_escape(str(p.get("venue") or p.get("journal") or ""))
+            url     = f"https://doi.org/{doi}" if doi else str(p.get("url") or "")
+            abstract = _bib_escape(str(p.get("abstract") or "")[:400])
+            lines = [f"@article{{{key},"]
+            lines.append(f"  title     = {{{title}}},")
+            lines.append(f"  author    = {{{authors}}},")
+            if year:
+                lines.append(f"  year      = {{{year}}},")
+            if journal:
+                lines.append(f"  journal   = {{{journal}}},")
+            if doi:
+                lines.append(f"  doi       = {{{doi}}},")
+            if url:
+                lines.append(f"  url       = {{{url}}},")
+            if abstract:
+                lines.append(f"  abstract  = {{{abstract}}},")
+            lines.append("}")
+            entries.append("\n".join(lines))
+        return "\n\n".join(entries)
+
+    def to_ris(self, top_n: int = 0) -> str:
+        """Export results as RIS entries."""
+        papers = self.papers[:top_n] if top_n else self.papers
+        entries: List[str] = []
+        for p in papers:
+            lines = ["TY  - JOUR"]
+            title = str(p.get("title") or "")
+            if title:
+                lines.append(f"TI  - {title}")
+            for author in _ris_authors(p):
+                lines.append(f"AU  - {author}")
+            year = str(p.get("year") or "")
+            if year:
+                lines.append(f"PY  - {year}")
+            doi = str(p.get("doi") or "")
+            if doi:
+                lines.append(f"DO  - {doi}")
+                lines.append(f"UR  - https://doi.org/{doi}")
+            elif p.get("url"):
+                lines.append(f"UR  - {p['url']}")
+            journal = str(p.get("venue") or p.get("journal") or "")
+            if journal:
+                lines.append(f"JO  - {journal}")
+            abstract = str(p.get("abstract") or "")[:600]
+            if abstract:
+                lines.append(f"AB  - {abstract}")
+            lines.append("ER  - ")
+            entries.append("\n".join(lines))
+        return "\n\n".join(entries)
+
+
+def _bibtex_key(p: Dict[str, Any]) -> str:
+    author = re.sub(r"[^a-zA-Z]", "", str(p.get("authors_short") or "").split(",")[0].split()[0]) or "anon"
+    year   = str(p.get("year") or "0000")
+    word   = re.sub(r"[^a-zA-Z]", "", (str(p.get("title") or "").split()[:1] or [""])[0]).lower()
+    return f"{author.lower()}{year}{word}"
+
+
+def _bib_escape(text: str) -> str:
+    return text.replace("{", "{{").replace("}", "}}")
+
+
+def _ris_authors(p: Dict[str, Any]) -> List[str]:
+    raw = str(p.get("authors_short") or p.get("authors") or "")
+    if not raw:
+        return []
+    parts = re.split(r";|(?<=\.)\s+(?=[A-Z])", raw)
+    return [a.strip() for a in parts if a.strip()]
 
 
 class AuthorSearchResult:
@@ -192,15 +272,22 @@ def _fetch_one_source(
     fetch_func: Any,
     query: str,
     max_results: int,
+    *,
+    query_override: Optional[str] = None,
 ) -> Tuple[str, List[Dict[str, Any]], Optional[str]]:
-    """Worker for parallel fetch. Returns (source_name, results, warning_or_None)."""
+    """Worker for parallel fetch. Returns (source_name, results, warning_or_None).
+
+    query_override: use a different query string for this source (e.g. MeSH-expanded
+    for pubmed) without affecting the fetch_func binding used by tests.
+    """
+    effective_q = query_override if query_override is not None else query
     # Skip deprioritized sources (consecutive failures ≥ threshold)
     with _HEALTH_LOCK:
         h = _SOURCE_HEALTH.get(source_name, {})
     if h.get("consecutive", 0) >= _HEALTH_FAIL_THRESHOLD:
         return source_name, [], f"{source_name} skipped: health check failed"
     try:
-        results, _ = _cached_fetch(source_name, fetch_func, query, max_results)
+        results, _ = _cached_fetch(source_name, fetch_func, effective_q, max_results)
         _record_source_health(source_name, True)
         warning = None
         if not results and source_name in _API_KEY_VARS:
@@ -291,6 +378,9 @@ def search_papers(
     if expand:
         effective_query = expand_query(effective_query, safe=expand_safe)
 
+    # ⑫ PubMed gets MeSH-expanded query; other sources use plain effective_query
+    pubmed_query = mesh_expand_query(effective_query)
+
     all_sources = {
         "pubmed": fetch_pubmed,
         "europe_pmc": fetch_europe_pmc,
@@ -326,7 +416,10 @@ def search_papers(
     workers = min(_FETCH_WORKERS, max(1, len(valid_sources)))
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {
-            pool.submit(_fetch_one_source, name, fn, effective_query, max_results): name
+            pool.submit(
+                _fetch_one_source, name, fn, effective_query, max_results,
+                query_override=pubmed_query if name == "pubmed" else None,
+            ): name
             for name, fn in valid_sources
         }
         for future in as_completed(futures):

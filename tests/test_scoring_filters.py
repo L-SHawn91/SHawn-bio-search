@@ -115,7 +115,7 @@ class TestMinEvidenceFilter:
     def test_filter_metadata_field_exists(self, monkeypatch):
         """filters_applied must always be present in result data."""
         monkeypatch.setattr(
-            "shawn_bio_search.sources.pubmed.fetch_pubmed",
+            "shawn_bio_search.search.fetch_pubmed",
             lambda q, n: [],
         )
         results = search_papers(
@@ -133,7 +133,7 @@ class TestMinEvidenceFilter:
             {"title": "Endometrial organoid A", "abstract": "endometrial biology", "source": "pubmed", "doi": ""},
             {"title": "Unrelated paper B", "abstract": "", "source": "pubmed", "doi": ""},
         ]
-        monkeypatch.setattr("shawn_bio_search.sources.pubmed.fetch_pubmed", lambda q, n: papers)
+        monkeypatch.setattr("shawn_bio_search.search.fetch_pubmed", lambda q, n: papers)
         results = search_papers(
             query="endometrial organoid",
             sources=["pubmed"],
@@ -147,7 +147,7 @@ class TestMinEvidenceFilter:
             # Very off-topic — near-zero overlap with claim
             {"title": "Completely unrelated topic XYZ", "abstract": "", "source": "pubmed", "doi": ""},
         ]
-        monkeypatch.setattr("shawn_bio_search.sources.pubmed.fetch_pubmed", lambda q, n: papers)
+        monkeypatch.setattr("shawn_bio_search.search.fetch_pubmed", lambda q, n: papers)
         results = search_papers(
             query="endometrial organoid",
             claim="endometrial organoids model uterine biology",
@@ -161,7 +161,7 @@ class TestMinEvidenceFilter:
         papers = [
             {"title": "Completely unrelated xyz", "abstract": "", "source": "pubmed", "doi": ""},
         ]
-        monkeypatch.setattr("shawn_bio_search.sources.pubmed.fetch_pubmed", lambda q, n: papers)
+        monkeypatch.setattr("shawn_bio_search.search.fetch_pubmed", lambda q, n: papers)
         results = search_papers(
             query="endometrial organoid",
             sources=["pubmed"],
@@ -180,7 +180,7 @@ class TestMinEvidenceFilter:
             # Low scoring on-topic — should be removed by min_evidence
             {"title": "Completely unrelated XYZ", "abstract": "", "source": "pubmed", "doi": ""},
         ]
-        monkeypatch.setattr("shawn_bio_search.sources.pubmed.fetch_pubmed", lambda q, n: papers)
+        monkeypatch.setattr("shawn_bio_search.search.fetch_pubmed", lambda q, n: papers)
         results = search_papers(
             query="endometrial organoid",
             sources=["pubmed"],
@@ -239,7 +239,7 @@ class TestTopicGuardAutoEnableWithExpand:
 
         monkeypatch.setattr("shawn_bio_search.search.apply_topic_guard", _fake_apply_topic_guard)
         monkeypatch.setattr(
-            "shawn_bio_search.sources.pubmed.fetch_pubmed",
+            "shawn_bio_search.search.fetch_pubmed",
             lambda q, n: [{"title": "test", "abstract": "test", "source": "pubmed"}],
         )
 
@@ -260,7 +260,7 @@ class TestTopicGuardAutoEnableWithExpand:
 
         monkeypatch.setattr("shawn_bio_search.search.apply_topic_guard", _fake_apply_topic_guard)
         monkeypatch.setattr(
-            "shawn_bio_search.sources.pubmed.fetch_pubmed",
+            "shawn_bio_search.search.fetch_pubmed",
             lambda q, n: [{"title": "test", "abstract": "test", "source": "pubmed"}],
         )
 
@@ -282,7 +282,7 @@ class TestTopicGuardAutoEnableWithExpand:
 
         monkeypatch.setattr("shawn_bio_search.search.apply_topic_guard", _fake_apply_topic_guard)
         monkeypatch.setattr(
-            "shawn_bio_search.sources.pubmed.fetch_pubmed",
+            "shawn_bio_search.search.fetch_pubmed",
             lambda q, n: [{"title": "test", "abstract": "test", "source": "pubmed"}],
         )
 
@@ -295,7 +295,7 @@ class TestTopicGuardAutoEnableWithExpand:
 
     def test_filters_applied_metadata_reflects_auto_topic_guard(self, monkeypatch):
         monkeypatch.setattr(
-            "shawn_bio_search.sources.pubmed.fetch_pubmed",
+            "shawn_bio_search.search.fetch_pubmed",
             lambda q, n: [{"title": "test", "abstract": "test", "source": "pubmed"}],
         )
         results = search_papers(

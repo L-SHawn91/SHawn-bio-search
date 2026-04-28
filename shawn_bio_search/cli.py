@@ -108,7 +108,7 @@ Citation verification confidence levels (verify_citation API):
                         help="Generate a 2-3 sentence evidence synthesis from the top papers (requires --llm-triage or Ollama)")
     parser.add_argument("--summarize-limit", type=int, default=5,
                         help="Number of top papers to synthesize (default: 5)")
-    parser.add_argument("-f", "--format", choices=["json", "plain", "markdown"],
+    parser.add_argument("-f", "--format", choices=["json", "plain", "markdown", "bibtex", "ris"],
                         default="plain", help="Output format (default: plain)")
     parser.add_argument("-o", "--output", help="Output file (default: stdout)")
     parser.add_argument("--version", action="version", version="%(prog)s 0.1.0")
@@ -164,6 +164,10 @@ Citation verification confidence levels (verify_citation API):
         output = results.to_json()
     elif args.format == "markdown":
         output = results.to_markdown()
+    elif args.format == "bibtex":
+        output = results.to_bibtex()
+    elif args.format == "ris":
+        output = results.to_ris()
     else:  # plain
         output = results.to_plain()
     

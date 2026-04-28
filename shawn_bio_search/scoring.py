@@ -19,6 +19,24 @@ _NEG_TERMS = {
     "inhibit", "inhibited", "inhibits",
 }
 
+# Phrase-level negation patterns (bigrams / trigrams in lowercase).
+# Checked against raw lowercased sentence text for higher precision than
+# token-only matching (e.g. "no significant" not caught by "no" alone).
+_NEG_PHRASES = frozenset({
+    "no significant", "not significant", "not significantly",
+    "did not", "does not", "do not", "was not", "were not", "is not",
+    "had no", "have no", "has no",
+    "showed no", "shows no", "show no", "demonstrated no",
+    "failed to", "unable to",
+    "no effect", "no association", "no difference", "no change",
+    "no increase", "no decrease", "no expression", "no evidence",
+    "not associated", "not detected", "not expressed", "not observed",
+    "not found", "not identified", "not correlated",
+    "no correlation", "no relationship", "no improvement",
+    "did not show", "did not demonstrate", "did not affect",
+    "does not affect", "does not support",
+})
+
 # semantic_scholar lowered from 0.98 → 0.88: it has broad coverage but returns
 # many off-topic results for narrow biomedical queries; bringing it in line with
 # other moderate-quality sources reduces false positives without excluding it.
@@ -166,8 +184,16 @@ def _split_sentences(text: str) -> List[str]:
     return [p.strip() for p in parts if len(p.strip()) >= 30]
 
 
+def _has_negation(text: str) -> bool:
+    """Token-level AND phrase-level negation check."""
+    lower = text.lower()
+    if any(t in _NEG_TERMS for t in tokenize(lower)):
+        return True
+    return any(phrase in lower for phrase in _NEG_PHRASES)
+
+
 def _claim_is_negative(claim: str) -> bool:
-    return any(t in tokenize(claim) for t in _NEG_TERMS)
+    return _has_negation(claim)
 
 
 def _sentence_analysis(claim: str, hypothesis: str, text: str) -> Dict[str, Any]:
@@ -191,8 +217,7 @@ def _sentence_analysis(claim: str, hypothesis: str, text: str) -> Dict[str, Any]
     for s in sentences:
         ov = overlap_ratio(claim, s)
         hov = overlap_ratio(hypothesis, s) if hypothesis else 0.0
-        stoks = tokenize(s)
-        has_neg = any(t in _NEG_TERMS for t in stoks)
+        has_neg = _has_negation(s)
         
         support = ov
         contra = 0.0
