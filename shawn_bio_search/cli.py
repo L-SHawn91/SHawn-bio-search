@@ -4,7 +4,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -170,8 +170,45 @@ Citation verification confidence levels (verify_citation API):
         print(f"Results written to: {args.output}")
     else:
         print(output)
-    
+
+    # Auto-log to self-learning quality tracker (best-effort, never fails the CLI)
+    _auto_log_search(args, results)
+
     return 0
+
+
+def _auto_log_search(args: "argparse.Namespace", results: Any) -> None:
+    """Append this search run to the quality log for self-learning calibration."""
+    try:
+        from pathlib import Path as _Path
+        import sys as _sys
+        _scripts = _Path(__file__).resolve().parents[1] / "scripts"
+        _sys.path.insert(0, str(_scripts.parent))
+        from scripts.self_learn_scoring import cmd_log  # noqa: PLC0415
+        import argparse as _ap  # noqa: PLC0415
+
+        papers = getattr(results, "papers", None) or []
+        n_results = len(papers)
+        n_topguard = sum(1 for p in papers if p.get("topic_guard_filtered"))
+        avg_ev = (
+            sum(p.get("evidence_score", 0.0) for p in papers) / n_results
+            if n_results else 0.0
+        )
+        sources_used = getattr(results, "sources_searched", None)
+        sources_str = ",".join(sources_used) if sources_used else getattr(args, "sources", "")
+
+        log_ns = _ap.Namespace(
+            query=args.query,
+            sources=sources_str,
+            n_results=n_results,
+            n_topguard_removed=n_topguard,
+            avg_evidence=round(avg_ev, 4),
+            min_evidence=getattr(args, "min_evidence", 0.0),
+            topic_guard_on=bool(getattr(args, "topic_guard", False)),
+        )
+        cmd_log(log_ns)
+    except Exception:
+        pass  # logging is optional; never break the CLI
 
 
 if __name__ == "__main__":
