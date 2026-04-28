@@ -43,6 +43,11 @@ from .sources.accession_resolver import (
     parse_accession_cell,
     resolve_cell,
 )
+from .sources.crossref import (
+    fetch_crossref_by_doi,
+    lookup_doi_by_author_keywords,
+    lookup_ids_by_doi,
+)
 from .env import load_dotenv, load_shawn_env, SHAWN_LOCAL_DEFAULT
 
 __all__ = [
@@ -63,4 +68,7 @@ __all__ = [
     "classify_tier",
     "parse_accession_cell",
     "resolve_cell",
+    "fetch_crossref_by_doi",
+    "lookup_doi_by_author_keywords",
+    "lookup_ids_by_doi",
 ]

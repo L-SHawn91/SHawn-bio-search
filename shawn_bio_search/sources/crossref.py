@@ -1,8 +1,6 @@
 """Crossref source module (no API key required)."""
 from __future__ import annotations
 
-from __future__ import annotations
-
 import html
 import re
 import urllib.parse
@@ -177,5 +175,50 @@ def fetch_crossref(query: str, limit: int) -> List[Dict[str, Any]]:
             "abstract": re.sub(r"\s+", " ", abs_text),
             "citations": int(r.get("is-referenced-by-count") or 0),
         })
-    
+
     return out
+
+
+def lookup_ids_by_doi(doi: str) -> Dict[str, str]:
+    """Return known database IDs for a given DOI.
+
+    Queries Crossref for canonical DOI/URL, then the NCBI ID converter for
+    PMID and PMCID. Returns whatever is resolvable; never raises.
+
+    Returns dict with zero or more of: doi, pmid, pmcid, url.
+    """
+    if not doi:
+        return {}
+    clean = doi.strip().lstrip("https://doi.org/").lstrip("http://doi.org/")
+    ids: Dict[str, str] = {}
+
+    # Crossref: canonical DOI + URL
+    try:
+        url = f"https://api.crossref.org/works/{urllib.parse.quote(clean, safe='')}"
+        data = _get_json(url)
+        msg = data.get("message", {}) if isinstance(data, dict) else {}
+        if msg.get("DOI"):
+            ids["doi"] = msg["DOI"]
+        if msg.get("URL"):
+            ids["url"] = msg["URL"].strip()
+    except Exception:
+        ids["doi"] = clean  # best-effort
+
+    # NCBI ID converter: DOI → PMID / PMCID
+    try:
+        ncbi_url = (
+            "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
+            f"?tool=shawn-bio-search&email=shawn@bio&ids={urllib.parse.quote(clean)}&format=json"
+        )
+        ncbi_data = _get_json(ncbi_url)
+        records = (ncbi_data or {}).get("records") or []
+        if records:
+            rec = records[0]
+            if rec.get("pmid"):
+                ids["pmid"] = rec["pmid"]
+            if rec.get("pmcid"):
+                ids["pmcid"] = rec["pmcid"]
+    except Exception:
+        pass
+
+    return ids
