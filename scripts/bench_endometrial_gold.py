@@ -209,6 +209,19 @@ def run_bench(
                 offtopic_hits += 1
 
     n = len(papers)
+    per_paper = [
+        {
+            "id": p.get("id"),
+            "title": p.get("title"),
+            "expected": p["_expected_direction"],
+            "got": str(p.get("llm_direction") or ""),
+            "relevance": p.get("llm_relevance"),
+            "reason": p.get("llm_reason"),
+            "evidence_score": p.get("evidence_score"),
+            "support_score": p.get("support_score"),
+        }
+        for p in out
+    ]
     return {
         "model": model,
         "n": n, "n_support": n_support, "n_offtopic": n_offtopic,
@@ -218,6 +231,7 @@ def run_bench(
         "support_recall":  f"{support_hits}/{n_support}",
         "elapsed": round(elapsed, 1),
         "models_used": meta.get("counts", {}),
+        "per_paper": per_paper,
     }
 
 
