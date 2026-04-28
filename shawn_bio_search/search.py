@@ -3,7 +3,10 @@ from __future__ import annotations
 
 import json
 import os
-from typing import Any, Dict, List, Optional, Union
+import threading
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Any, Dict, List, Optional, Tuple, Union
 
 from .sources import FREE_SOURCES, KEYED_SOURCES
 from .sources.pubmed import fetch_pubmed
@@ -126,6 +129,61 @@ def _resolve_sources(
 
 _SENTINEL = object()
 
+# ⑥ Per-source fetch cache (in-memory, TTL-based)
+_FETCH_CACHE: Dict[str, Tuple[float, List[Dict[str, Any]]]] = {}
+_FETCH_LOCK = threading.Lock()
+_CACHE_TTL = float(os.getenv("SBS_CACHE_TTL", "300"))  # seconds; 0 = disabled
+
+# ⑤ Parallel fetch worker count
+_FETCH_WORKERS = int(os.getenv("SBS_FETCH_WORKERS", "8"))
+
+_API_KEY_VARS: Dict[str, str] = {
+    "semantic_scholar": "SEMANTIC_SCHOLAR_API_KEY",
+    "google_scholar": "SERPAPI_API_KEY",
+    "core": "CORE_API_KEY",
+    "scopus": "SCOPUS_API_KEY",
+}
+
+
+def _cached_fetch(
+    source_name: str,
+    fetch_func: Any,
+    query: str,
+    max_results: int,
+) -> Tuple[List[Dict[str, Any]], bool]:
+    """Call fetch_func with TTL caching. Returns (results, from_cache)."""
+    if _CACHE_TTL <= 0:
+        return fetch_func(query, max_results), False
+    key = f"{source_name}::{query}::{max_results}"
+    now = time.monotonic()
+    with _FETCH_LOCK:
+        entry = _FETCH_CACHE.get(key)
+        if entry and (now - entry[0]) < _CACHE_TTL:
+            return entry[1], True
+    results = fetch_func(query, max_results)
+    with _FETCH_LOCK:
+        _FETCH_CACHE[key] = (now, results)
+    return results, False
+
+
+def _fetch_one_source(
+    source_name: str,
+    fetch_func: Any,
+    query: str,
+    max_results: int,
+) -> Tuple[str, List[Dict[str, Any]], Optional[str]]:
+    """Worker for parallel fetch. Returns (source_name, results, warning_or_None)."""
+    try:
+        results, _ = _cached_fetch(source_name, fetch_func, query, max_results)
+        warning = None
+        if not results and source_name in _API_KEY_VARS:
+            env_var = _API_KEY_VARS[source_name]
+            if not os.getenv(env_var):
+                warning = f"{source_name} skipped: {env_var} not set"
+        return source_name, results or [], warning
+    except Exception as exc:
+        return source_name, [], f"{source_name} failed: {exc}"
+
 
 def search_papers(
     query: str,
@@ -226,34 +284,28 @@ def search_papers(
     
     sources = _resolve_sources(sources, list(all_sources.keys()))
     
-    papers = []
-    warnings = []
-    
+    papers: List[Dict[str, Any]] = []
+    warnings: List[str] = []
+
+    valid_sources = []
     for source_name in sources:
         if source_name not in all_sources:
             warnings.append(f"Unknown source: {source_name}")
-            continue
-        
-        fetch_func = all_sources[source_name]
-        try:
-            results = fetch_func(effective_query, max_results)
-            if not results and source_name in ["scopus", "google_scholar", "semantic_scholar", "core"]:
-                if source_name == "semantic_scholar":
-                    if not (os.getenv("SEMANTIC_SCHOLAR_API_KEY") or os.getenv("S2_API_KEY")):
-                        warnings.append("semantic_scholar skipped: API key not set")
-                elif source_name == "google_scholar":
-                    if not os.getenv("SERPAPI_API_KEY"):
-                        warnings.append("google_scholar skipped: SERPAPI_API_KEY not set")
-                elif source_name == "core":
-                    if not os.getenv("CORE_API_KEY"):
-                        warnings.append("core skipped: CORE_API_KEY not set")
-                else:
-                    api_key_var = f"{source_name.upper()}_API_KEY"
-                    if not os.getenv(api_key_var):
-                        warnings.append(f"{source_name} skipped: {api_key_var} not set")
+        else:
+            valid_sources.append((source_name, all_sources[source_name]))
+
+    # ⑤ Parallel fetch across all valid sources
+    workers = min(_FETCH_WORKERS, max(1, len(valid_sources)))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {
+            pool.submit(_fetch_one_source, name, fn, effective_query, max_results): name
+            for name, fn in valid_sources
+        }
+        for future in as_completed(futures):
+            src, results, warning = future.result()
+            if warning:
+                warnings.append(warning)
             papers.extend(results)
-        except Exception as e:
-            warnings.append(f"{source_name} failed: {e}")
     
     # Deduplicate
     papers = _dedupe_papers(papers)
