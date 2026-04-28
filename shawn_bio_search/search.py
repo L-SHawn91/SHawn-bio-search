@@ -34,7 +34,7 @@ from .llm_triage import triage_papers
 from .formatter import format_results
 from .presets import apply_project_preset
 from .query_expansion import expand_query
-from .text_utils import dedupe_key as _dedupe_key, merge_unique_list as _merge_unique_list
+from .text_utils import dedupe_key as _dedupe_key, merge_unique_list as _merge_unique_list, _warn_once
 
 
 class SearchResult:
@@ -144,6 +144,27 @@ _API_KEY_VARS: Dict[str, str] = {
     "scopus": "SCOPUS_API_KEY",
 }
 
+# ⑦ Source health monitor
+_SOURCE_HEALTH: Dict[str, Dict[str, Any]] = {}
+_HEALTH_LOCK = threading.Lock()
+_HEALTH_FAIL_THRESHOLD = int(os.getenv("SBS_HEALTH_FAIL_THRESHOLD", "3"))
+
+
+def _record_source_health(source_name: str, success: bool) -> None:
+    with _HEALTH_LOCK:
+        h = _SOURCE_HEALTH.setdefault(source_name, {"calls": 0, "failures": 0, "consecutive": 0})
+        h["calls"] += 1
+        if success:
+            h["consecutive"] = 0
+        else:
+            h["failures"] += 1
+            h["consecutive"] += 1
+            if h["consecutive"] == _HEALTH_FAIL_THRESHOLD:
+                _warn_once(
+                    f"health_{source_name}",
+                    f"{source_name} failed {_HEALTH_FAIL_THRESHOLD}× consecutively → deprioritized (set SBS_HEALTH_FAIL_THRESHOLD to adjust)",
+                )
+
 
 def _cached_fetch(
     source_name: str,
@@ -173,8 +194,14 @@ def _fetch_one_source(
     max_results: int,
 ) -> Tuple[str, List[Dict[str, Any]], Optional[str]]:
     """Worker for parallel fetch. Returns (source_name, results, warning_or_None)."""
+    # Skip deprioritized sources (consecutive failures ≥ threshold)
+    with _HEALTH_LOCK:
+        h = _SOURCE_HEALTH.get(source_name, {})
+    if h.get("consecutive", 0) >= _HEALTH_FAIL_THRESHOLD:
+        return source_name, [], f"{source_name} skipped: health check failed"
     try:
         results, _ = _cached_fetch(source_name, fetch_func, query, max_results)
+        _record_source_health(source_name, True)
         warning = None
         if not results and source_name in _API_KEY_VARS:
             env_var = _API_KEY_VARS[source_name]
@@ -182,6 +209,7 @@ def _fetch_one_source(
                 warning = f"{source_name} skipped: {env_var} not set"
         return source_name, results or [], warning
     except Exception as exc:
+        _record_source_health(source_name, False)
         return source_name, [], f"{source_name} failed: {exc}"
 
 

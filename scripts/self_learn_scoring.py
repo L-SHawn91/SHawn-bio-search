@@ -169,7 +169,66 @@ def cmd_update_confidence(args: argparse.Namespace) -> int:
     return 0
 
 
-# ── Feedback loop 4: guard term suggestion ──────────────────────────────────
+# ── Feedback loop 4: SOURCE_WEIGHTS auto-calibration ───────────────────────
+
+def cmd_calibrate_weights(args: argparse.Namespace) -> int:
+    """Analyse quality log and suggest updated SOURCE_WEIGHTS per source."""
+    if not QUERY_LOG.exists():
+        print("No quality log found. Run some searches first.")
+        return 0
+
+    from collections import defaultdict
+    min_runs: int = getattr(args, "min_runs", 3)
+    source_stats: dict = defaultdict(lambda: {"sum_ev": 0.0, "count": 0})
+
+    with open(QUERY_LOG, newline="") as f:
+        rows = list(csv.DictReader(f, delimiter="\t"))
+
+    for r in rows:
+        sources_str = r.get("sources", "")
+        try:
+            avg_ev = float(r.get("avg_evidence") or 0)
+        except (ValueError, TypeError):
+            avg_ev = 0.0
+        if not sources_str or avg_ev <= 0:
+            continue
+        for src in sources_str.split(","):
+            src = src.strip()
+            if src:
+                source_stats[src]["sum_ev"] += avg_ev
+                source_stats[src]["count"] += 1
+
+    eligible = {
+        src: d["sum_ev"] / d["count"]
+        for src, d in source_stats.items()
+        if d["count"] >= min_runs
+    }
+    if not eligible:
+        print(f"Not enough data yet (need ≥{min_runs} runs per source). Keep searching.")
+        return 0
+
+    min_v, max_v = min(eligible.values()), max(eligible.values())
+    span = max_v - min_v if max_v > min_v else 1.0
+
+    print(f"=== Suggested SOURCE_WEIGHTS ({len(eligible)} sources, ≥{min_runs} runs each) ===\n")
+    suggestions: dict = {}
+    for src, avg in sorted(eligible.items(), key=lambda x: -x[1]):
+        weight = round(0.80 + 0.18 * (avg - min_v) / span, 3)
+        suggestions[src] = weight
+        n = source_stats[src]["count"]
+        print(f"  {src:25s}  avg_ev={avg:.3f}  →  weight={weight:.3f}  (n={n})")
+
+    write_json = getattr(args, "write_json", False)
+    if write_json:
+        out = QUERY_LOG.parent / "source_weight_suggestions.json"
+        out.write_text(json.dumps(suggestions, indent=2))
+        print(f"\nSuggestions written to: {out}")
+        print("Copy relevant entries into _SOURCE_WEIGHTS in shawn_bio_search/scoring.py to activate.")
+
+    return 0
+
+
+# ── Feedback loop 5: guard term suggestion ──────────────────────────────────
 
 def cmd_suggest_guard(args: argparse.Namespace) -> int:
     """Read false-positive log, suggest new topic_guard terms, optionally write promotion JSON."""
@@ -256,10 +315,20 @@ def main(argv: list[str] | None = None) -> int:
     p_sg.add_argument("--auto-promote", action="store_true",
                       help="Write guard_promote_suggestions.json for review")
 
+    p_cw = sub.add_parser("calibrate-weights", help="Suggest SOURCE_WEIGHTS update from quality log")
+    p_cw.add_argument("--min-runs", type=int, default=3,
+                      help="Minimum search runs per source to include (default: 3)")
+    p_cw.add_argument("--write-json", action="store_true",
+                      help="Write source_weight_suggestions.json to outputs/")
+
     args = ap.parse_args(argv)
-    dispatch = {"log": cmd_log, "review": cmd_review,
-                "update-confidence": cmd_update_confidence,
-                "suggest-guard": cmd_suggest_guard}
+    dispatch = {
+        "log": cmd_log,
+        "review": cmd_review,
+        "update-confidence": cmd_update_confidence,
+        "suggest-guard": cmd_suggest_guard,
+        "calibrate-weights": cmd_calibrate_weights,
+    }
     return dispatch[args.cmd](args)
 
 

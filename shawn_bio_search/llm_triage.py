@@ -671,3 +671,133 @@ def _safe_float(value: Any) -> float:
 
 def _clamp(value: float, lo: float = 0.0, hi: float = 1.0) -> float:
     return max(lo, min(hi, value))
+
+
+# ---------------------------------------------------------------------------
+# ⑧ Evidence summary
+# ---------------------------------------------------------------------------
+
+def summarize_evidence(
+    papers: Sequence[MutableMapping[str, Any]],
+    query: str,
+    claim: str = "",
+    *,
+    model: str = "",
+    fallback_chain: str = "",
+    limit: int = 5,
+    timeout: float = 60.0,
+    ollama_host: str = "",
+) -> str:
+    """Synthesize top papers into a one-paragraph evidence summary.
+
+    Falls back to a deterministic bullet summary when Ollama is unavailable.
+    """
+    top = list(papers[:limit])
+    if not top:
+        return ""
+
+    chain = split_model_chain(model=model, fallback_chain=fallback_chain)
+    host = (ollama_host or os.getenv("OLLAMA_HOST") or DEFAULT_OLLAMA_HOST).rstrip("/")
+
+    items = [
+        {
+            "rank": i + 1,
+            "title": _truncate(str(p.get("title") or ""), 120),
+            "year": p.get("year") or "",
+            "evidence_score": p.get("evidence_score") or 0,
+            "direction": str(p.get("llm_direction") or p.get("evidence_label") or "uncertain"),
+            "key_sentence": _truncate(
+                str(p.get("best_support_sentence") or p.get("title") or ""), 300
+            ),
+        }
+        for i, p in enumerate(top)
+    ]
+
+    for m in chain:
+        if m == "code":
+            return _code_summarize(items, query, claim)
+        try:
+            return _call_ollama_summarize(
+                model=m, query=query, claim=claim,
+                items=items, timeout=timeout, ollama_host=host,
+            )
+        except Exception:
+            pass
+
+    return _code_summarize(items, query, claim)
+
+
+def _call_ollama_summarize(
+    *,
+    model: str,
+    query: str,
+    claim: str,
+    items: List[Dict[str, Any]],
+    timeout: float,
+    ollama_host: str,
+) -> str:
+    system = (
+        "You are a biomedical research assistant. Write a concise 2-3 sentence "
+        "evidence synthesis from the provided papers. State whether the evidence "
+        "supports, contradicts, or is mixed/uncertain regarding the claim. "
+        "Return plain text only — no JSON, no bullet points."
+    )
+    user_payload = {
+        "query": query,
+        "claim": claim,
+        "top_papers": items,
+        "instruction": (
+            "Synthesize the key finding across these papers in 2-3 sentences. "
+            "Mention the strongest supporting or contradicting evidence and note any caveats."
+        ),
+    }
+    body = {
+        "model": model,
+        "stream": False,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)},
+        ],
+        "options": {"temperature": 0, "num_predict": 300},
+    }
+    think = _ollama_think_for_model(model)
+    if think is not None:
+        body["think"] = think
+    req = urllib.request.Request(
+        f"{ollama_host}/api/chat",
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            outer = json.loads(resp.read().decode("utf-8", errors="replace"))
+    except (urllib.error.URLError, TimeoutError) as exc:
+        raise RuntimeError(str(exc)) from exc
+
+    content = outer.get("message", {}).get("content", "") or outer.get("response", "")
+    return re.sub(r"\s+", " ", content).strip()
+
+
+def _code_summarize(items: List[Dict[str, Any]], query: str, claim: str) -> str:
+    """Deterministic fallback summary when Ollama is unavailable."""
+    n = len(items)
+    supports = sum(1 for e in items if e["direction"] in {"support", "mixed"})
+    contradicts = sum(1 for e in items if e["direction"] == "contradict")
+    uncertain = n - supports - contradicts
+
+    verdict = (
+        "predominantly supporting" if supports > contradicts and supports > uncertain
+        else "contradicting" if contradicts > supports and contradicts > uncertain
+        else "mixed or uncertain"
+    )
+    lines = [
+        f"Based on {n} top-ranked papers for query '{query}', "
+        f"the evidence is {verdict} ({supports} support, {contradicts} contradict, {uncertain} uncertain)."
+    ]
+    if claim:
+        lines[0] = f"Regarding claim: \"{claim}\". " + lines[0]
+    for e in items[:3]:
+        if e.get("key_sentence"):
+            lines.append(f"[{e['rank']}] {e['title']} ({e['year']}): {e['key_sentence'][:180]}")
+    return " ".join(lines[:1]) + "\n" + "\n".join(lines[1:])

@@ -104,6 +104,10 @@ Citation verification confidence levels (verify_citation API):
         action="store_false",
         help="Explicitly disable topic guard, overriding the auto-enable that occurs with --expand-query.",
     )
+    parser.add_argument("--summarize", action="store_true",
+                        help="Generate a 2-3 sentence evidence synthesis from the top papers (requires --llm-triage or Ollama)")
+    parser.add_argument("--summarize-limit", type=int, default=5,
+                        help="Number of top papers to synthesize (default: 5)")
     parser.add_argument("-f", "--format", choices=["json", "plain", "markdown"],
                         default="plain", help="Output format (default: plain)")
     parser.add_argument("-o", "--output", help="Output file (default: stdout)")
@@ -171,6 +175,10 @@ Citation verification confidence levels (verify_citation API):
     else:
         print(output)
 
+    # ⑧ Evidence summary
+    if getattr(args, "summarize", False):
+        _print_evidence_summary(args, results)
+
     # Search result report (always to stderr to avoid corrupting stdout/file output)
     _print_result_report(args, results)
 
@@ -178,6 +186,30 @@ Citation verification confidence levels (verify_citation API):
     _auto_log_search(args, results)
 
     return 0
+
+
+def _print_evidence_summary(args: "argparse.Namespace", results: Any) -> None:
+    """Print LLM or deterministic evidence synthesis to stdout."""
+    try:
+        from shawn_bio_search.llm_triage import summarize_evidence  # noqa: PLC0415
+        papers = getattr(results, "papers", None) or []
+        if not papers:
+            return
+        summary = summarize_evidence(
+            papers,
+            query=args.query,
+            claim=getattr(args, "claim", ""),
+            model=getattr(args, "llm_model", ""),
+            fallback_chain=getattr(args, "llm_fallback_chain", ""),
+            limit=getattr(args, "summarize_limit", 5),
+            timeout=getattr(args, "llm_timeout", 60.0),
+        )
+        if summary:
+            print("\n--- Evidence Summary ---")
+            print(summary)
+            print("------------------------\n")
+    except Exception:
+        pass
 
 
 def _print_result_report(args: "argparse.Namespace", results: Any) -> None:
