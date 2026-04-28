@@ -93,3 +93,90 @@ def test_ollama_runtime_options_follow_environment(monkeypatch):
 
     assert _ollama_think_for_model("gpt-oss:120b-cloud") is False
     assert _ollama_num_predict() == 768
+
+
+def test_code_triage_offtopic_liver_classified_mention_only():
+    """Liver/hepatic paper must be classified mention-only for endometrial query."""
+    paper = {
+        "title": "Hepatocellular carcinoma sorafenib resistance liver LIHC TCGA",
+        "abstract": "Hepatic hepatoma cirrhosis biliary liver HCC sorafenib drug resistance.",
+        "doi": "10.1000/liver",
+        "evidence_score": 0.25,
+        "claim_overlap": 0.18,
+        "hypothesis_overlap": 0.05,
+        "support_score": 0.12,
+        "contradiction_score": 0.01,
+        "evidence_label": "uncertain",
+    }
+    result = code_triage_paper(
+        paper,
+        query="endometrial cancer endometriosis RIF implantation failure",
+        claim="Endometrial transcriptomics reveals molecular basis of cancer",
+    )
+    assert result["llm_direction"] == "mention-only"
+    assert result["llm_relevance"] <= 0.10
+
+
+def test_code_triage_prostate_classified_mention_only():
+    """Prostate paper must be classified mention-only for endometrial query."""
+    paper = {
+        "title": "Prostate cancer androgen deprivation therapy prostatic CRPC",
+        "abstract": "Prostatic adenocarcinoma castration-resistant enzalutamide resistance.",
+        "doi": "10.1000/prostate",
+        "evidence_score": 0.22,
+        "claim_overlap": 0.15,
+        "hypothesis_overlap": 0.04,
+        "support_score": 0.10,
+        "contradiction_score": 0.01,
+        "evidence_label": "uncertain",
+    }
+    result = code_triage_paper(
+        paper,
+        query="endometrial cancer endometriosis receptivity WOI",
+        claim="Endometrial transcriptomics reveals molecular basis of cancer",
+    )
+    assert result["llm_direction"] == "mention-only"
+    assert result["llm_relevance"] <= 0.10
+
+
+def test_code_triage_plant_classified_mention_only():
+    """Plant paper must be classified mention-only for endometrial query."""
+    paper = {
+        "title": "Arabidopsis thaliana drought stress photosynthesis chloroplast",
+        "abstract": "Plant seedling wheat germination tillering ROS osmotic tolerance.",
+        "doi": "10.1000/plant",
+        "evidence_score": 0.18,
+        "claim_overlap": 0.10,
+        "hypothesis_overlap": 0.02,
+        "support_score": 0.08,
+        "contradiction_score": 0.00,
+        "evidence_label": "mention-only",
+    }
+    result = code_triage_paper(
+        paper,
+        query="endometrial cancer endometriosis uterine biology",
+        claim="Endometrial transcriptomics",
+    )
+    assert result["llm_direction"] == "mention-only"
+
+
+def test_code_triage_offtopic_guard_skipped_when_query_mentions_tissue():
+    """If query explicitly mentions hepatic/liver, liver paper should NOT be filtered."""
+    paper = {
+        "title": "Hepatic gene expression endometrial decidualization liver organoid",
+        "abstract": "Liver hepatic organoid model of endometrial stromal cells.",
+        "doi": "10.1000/combo",
+        "evidence_score": 0.45,
+        "claim_overlap": 0.30,
+        "hypothesis_overlap": 0.20,
+        "support_score": 0.25,
+        "contradiction_score": 0.02,
+        "evidence_label": "support",
+    }
+    result = code_triage_paper(
+        paper,
+        query="hepatic endometrial organoid liver decidualization",
+        claim="Hepatic endometrial organoid cross-species model",
+    )
+    # Guard is skipped because query contains 'liver'/'hepatic'
+    assert result["llm_direction"] != "mention-only"

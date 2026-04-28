@@ -13,7 +13,7 @@ import urllib.error
 import urllib.request
 from typing import Any, Dict, List, MutableMapping, Sequence, Tuple
 
-from .scoring import classify_evidence_label
+from .scoring import classify_evidence_label, _TOPIC_GUARD_GROUPS, _tokenize_set
 from .text_utils import overlap_ratio
 
 
@@ -151,15 +151,30 @@ def code_triage_paper(
     hypothesis_overlap = _safe_float(paper.get("hypothesis_overlap"))
     query_overlap = overlap_ratio(query, text) if query and text else 0.0
 
+    # Topic guard: if paper is off-topic and query doesn't reference that topic,
+    # override to mention-only before computing direction.
+    query_tokens = _tokenize_set(query)
+    paper_tokens = _tokenize_set(text)
+    _offtopic_override = False
+    for _grp in _TOPIC_GUARD_GROUPS:
+        if not (query_tokens & _grp["tokens"]) and (paper_tokens & _grp["tokens"]):
+            _offtopic_override = True
+            break
+
     relevance = max(
         evidence_score,
         0.45 * claim_overlap + 0.25 * hypothesis_overlap + 0.30 * query_overlap,
     )
+    if _offtopic_override:
+        relevance = min(relevance, 0.10)
     relevance = round(_clamp(relevance), 4)
 
     support = _safe_float(paper.get("support_score"))
     contradiction = _safe_float(paper.get("contradiction_score"))
-    direction = str(paper.get("evidence_label") or "").strip().lower()
+    if _offtopic_override:
+        direction = "mention-only"
+    else:
+        direction = str(paper.get("evidence_label") or "").strip().lower()
     if direction not in VALID_DIRECTIONS:
         direction = classify_evidence_label(
             support_score=support,
@@ -230,9 +245,21 @@ def _call_ollama_model(
     timeout: float,
     ollama_host: str,
 ) -> Dict[str, Any]:
+    # Build domain hint from query tokens to help LLM identify off-topic papers.
+    _q_tokens = _tokenize_set(query)
+    _domain_hint = ""
+    _ENDO_TOKENS = frozenset({"endometrial","endometrium","endometriosis","uterine","uterus",
+                               "implantation","receptivity","decidualization","rif","woi"})
+    if _q_tokens & _ENDO_TOKENS:
+        _domain_hint = (
+            " The research domain is endometrial/uterine biology. "
+            "Papers about liver, prostate, kidney, lung, brain, breast, plant, or "
+            "other non-endometrial topics should be classified as 'mention-only'."
+        )
     system = (
         "You triage biomedical literature search candidates. Return strict JSON only. "
         "Do not invent citations, accessions, or facts beyond the provided title/abstract."
+        + _domain_hint
     )
     user = {
         "query": query,
