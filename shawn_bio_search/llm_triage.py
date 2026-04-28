@@ -142,14 +142,35 @@ def triage_papers(
         idx = batch_end
 
     if rerank:
-        triaged = output[:triage_count]
-        rest = output[triage_count:]
-        for paper in triaged:
-            llm_score = _safe_float(paper.get("llm_relevance"))
-            evidence_score = _safe_float(paper.get("evidence_score"))
-            paper["llm_combined_score"] = round(0.65 * evidence_score + 0.35 * llm_score, 4)
-        triaged.sort(key=lambda p: _safe_float(p.get("llm_combined_score")), reverse=True)
-        output = triaged + rest
+        # Only rerank when cloud models (or code) did the triage.
+        # Local Ollama models (no :cloud suffix, not code) give unreliable
+        # relevance scores that hurt support recall (bench: qwen3:8b 21/37,
+        # qwen2.5:14b 7/37 vs code 36/37). Skip rerank for local-only runs.
+        used_models = set(metadata["counts"].keys())
+        has_local = any(
+            not _is_trusted_for_rerank(m) for m in used_models
+        )
+        has_cloud_or_code = any(_is_trusted_for_rerank(m) for m in used_models)
+
+        if has_local and not has_cloud_or_code:
+            metadata["warnings"].append(
+                "rerank skipped: local-only LLM models have poor support recall; "
+                "use a :cloud model or omit --llm-triage for best ranking"
+            )
+            _warn_once(
+                "rerank_local_skip",
+                "rerank skipped — local LLM models hurt support recall "
+                "(use :cloud model or disable --llm-triage)",
+            )
+        else:
+            triaged = output[:triage_count]
+            rest = output[triage_count:]
+            for paper in triaged:
+                llm_score = _safe_float(paper.get("llm_relevance"))
+                evidence_score = _safe_float(paper.get("evidence_score"))
+                paper["llm_combined_score"] = round(0.65 * evidence_score + 0.35 * llm_score, 4)
+            triaged.sort(key=lambda p: _safe_float(p.get("llm_combined_score")), reverse=True)
+            output = triaged + rest
 
     return output, metadata
 
@@ -671,6 +692,17 @@ def _safe_float(value: Any) -> float:
 
 def _clamp(value: float, lo: float = 0.0, hi: float = 1.0) -> float:
     return max(lo, min(hi, value))
+
+
+def _is_trusted_for_rerank(model: str) -> bool:
+    """Return True for models whose relevance scores are reliable enough to rerank.
+
+    Trusted: cloud-routed models (suffix :cloud) and the code heuristic.
+    Untrusted: local Ollama models without :cloud — bench shows they hurt
+    support recall (qwen3:8b 21/37, qwen2.5:14b 7/37 vs code 36/37).
+    """
+    m = (model or "").strip().lower()
+    return m == "code" or m.endswith(":cloud") or m == "unknown"
 
 
 # ---------------------------------------------------------------------------
