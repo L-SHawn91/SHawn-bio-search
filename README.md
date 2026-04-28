@@ -60,6 +60,43 @@ Default-on rules:
 | CORE | Free dev tier | Yes (`CORE_API_KEY`) | When key set | Beta | OA full-text aggregator |
 | Unpaywall | Free | Email (`UNPAYWALL_EMAIL` or `CROSSREF_EMAIL`) | When email set | Stable | OA status / PDF resolution |
 
+## Institutional Access Queue
+
+`shawn-bio-search` only automates legal access routes. For paywalled records that
+must be opened through the user's current legitimate institutional/library
+browser session, use the institutional queue opener:
+
+```bash
+shawn-bio-institutional --check-env
+shawn-bio-institutional --queue outputs/dhcr24_260427/DHCR24_INSTITUTIONAL_ACCESS_READY_260427.tsv --limit 10
+shawn-bio-institutional --auth-provider-label "Yonsei University Library" --limit 10
+```
+
+Portable behavior:
+- Current network detection is enabled by default; use `--no-detect-network`
+  to disable it.
+- `--institutional-access auto` uses explicit environment settings first, then
+  the detected/current network label.
+- Any machine can set `SHAWN_INSTITUTIONAL_ACCESS=available|candidate|unavailable`.
+- Current network label can be set with `SHAWN_INSTITUTIONAL_NETWORK_LABEL`.
+- Authenticated library/provider label can be set with `SHAWN_INSTITUTIONAL_AUTH_PROVIDER_LABEL`.
+- Current route label can be set with `SHAWN_INSTITUTIONAL_ROUTE_LABEL`.
+- Official library/proxy URL wrapping can be set with `SHAWN_INSTITUTIONAL_URL_TEMPLATE`.
+- Queue path can be set with `SHAWN_INSTITUTIONAL_QUEUE`.
+- Browser command can be set with `SHAWN_INSTITUTIONAL_BROWSER`.
+- Each batch writes `institutional_browser_open_audit_*.tsv`.
+
+Safety boundary: this command opens DOI/publisher pages in the normal browser and
+records an audit trail. It does not read browser cookies, handle credentials,
+download PDFs automatically, use Sci-Hub/mirrors, tunnel traffic, or bypass
+publisher access controls.
+
+If the physical network and authenticated provider differ, record both. For
+example, a workstation may be on one campus network while the browser is logged
+into another university library's authorized off-campus access. In that case,
+use `--auth-provider-label` for the actual subscription provider and optionally
+`--url-template` only for that provider's official library/proxy URL format.
+
 ## Installation
 
 ```bash

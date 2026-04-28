@@ -47,12 +47,13 @@ Do NOT activate this skill for:
 5. **Download root is fixed** — all paper/PDF downloads on LINUXclaw must be saved directly in `/home/mdge/Clouds/onedrive/Papers/Zotero/논문` unless the user explicitly requests another folder. Do not create `_incoming`, staging, topic/date subfolders, repo `outputs/`, `Downloads/`, `/tmp`, or other ad-hoc PDF destinations. Keep manifests/logs/reports in repo `outputs/` when audit files are needed; only actual PDFs go to the Zotero `논문` root.
 6. **No symlink deployment** — expose this repo to OpenClaw, Claude, Codex, and Ollama through direct repo paths or copied adapters. Do not create skill symlinks.
 
-### Institutional access boundary — Konkuk University campus network
+### Institutional access boundary — current authorized network
 
-- Konkuk University 교내 네트워크 / library subscription access is **authorized institutional access**, not a paywall-bypass mechanism.
+- The user's current institutional, campus, hospital, or library subscription network is **authorized institutional access**, not a paywall-bypass mechanism.
 - Automated SHawn-bio-search downloaders must **not** impersonate, scrape credentials, tunnel, or evade publisher access controls.
-- If a paper is unavailable through OA routes but may be accessible through the user's legitimate Konkuk University network/library session, mark it as `institutional_access_candidate` and hand it to a browser-assisted/manual step.
-- Browser-assisted/manual institutional downloads must preserve an audit trail: DOI/title, publisher landing page, access route (`konkuk_institutional_access`), download timestamp, local root path, sha256, and verification result.
+- If a paper is unavailable through OA routes but may be accessible through the user's current legitimate network/library browser session, use `institutional_access_ready` where that route is available; otherwise use `institutional_access_candidate`.
+- Use `shawn-bio-institutional` (or `python scripts/open_institutional_queue.py` for legacy callers) to batch-open DOI/publisher pages and write an audit TSV across Codex, Claude, OpenClaw, Ollama, and plain shell environments.
+- Browser-assisted/manual institutional downloads must preserve an audit trail: DOI/title, publisher landing page, current access route, download timestamp, local root path, sha256, and verification result.
 - Actual PDFs still go directly to `/home/mdge/Clouds/onedrive/Papers/Zotero/논문`; reports/manifests stay in repo `outputs/`.
 
 ---

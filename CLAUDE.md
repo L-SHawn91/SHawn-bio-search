@@ -118,6 +118,18 @@ or is only asking conceptually ("explain what GEO is").
    shawn-bio-download --execute /tmp/manifest.json --dest "$DEST"
    ```
 
+5. **Institutional access queue** (authorized current-network browser route only)
+
+   ```bash
+   shawn-bio-institutional --check-env
+   shawn-bio-institutional --queue outputs/dhcr24_260427/DHCR24_INSTITUTIONAL_ACCESS_READY_260427.tsv \
+     --limit 10 --batch-size 5
+   shawn-bio-institutional --auth-provider-label "Yonsei University Library" \
+     --limit 10 --batch-size 5
+   ```
+
+   Current network detection is on by default; use `--no-detect-network` when a workflow needs fixed offline behavior. If the physical network and authenticated library provider differ, set `--auth-provider-label` for the actual subscription provider. This opens DOI/publisher pages in the normal browser and writes an audit TSV. It does not read cookies, handle credentials, or automate paywalled PDF downloads.
+
 ### Behaviour notes
 
 - If `shawn-bio-search` command is not found, fall back to
@@ -125,7 +137,7 @@ or is only asking conceptually ("explain what GEO is").
 - Honour env vars when present: `NCBI_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`,
   `CROSSREF_EMAIL`, `UNPAYWALL_EMAIL`. Never invent fake values.
 - Never bypass paywalls (no Sci-Hub, mirrors, proxy tricks, credential capture, or publisher access evasion). Automated downloads are OA-only by design.
-- Konkuk University 교내 네트워크 / library subscription access is allowed only as **authorized institutional access**, not as a bypass. If OA routes fail, mark the record as `institutional_access_candidate` and move it to a browser-assisted/manual step using the user's legitimate library/network session. Preserve DOI/title, publisher page, access route (`konkuk_institutional_access`), timestamp, root PDF path, sha256, and verification result.
+- The user's current institutional/campus/hospital/library network or subscription access is allowed only as **authorized institutional access**, not as a bypass. If OA routes fail, mark the record as `institutional_access_ready` where access is available; otherwise use `institutional_access_candidate`. Use `shawn-bio-institutional` for browser-assisted queue opening and audit TSV generation. Preserve DOI/title, publisher page, current access route, timestamp, root PDF path, sha256, and verification result.
 - Always tell the user which tool you used and where the output landed
   (file path or stdout).
 

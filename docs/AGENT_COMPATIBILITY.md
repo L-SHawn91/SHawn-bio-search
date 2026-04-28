@@ -17,7 +17,7 @@
 | Claude Code | `SKILL.md`, then `CLAUDE.md` | `CLAUDE.md` keeps Claude-specific examples and defaults. |
 | Codex/agent runtimes | `SKILL.md`, then `AGENTS.md` | `AGENTS.md` is the vendor-neutral agent handoff. |
 | Ollama/local LLM | `SKILL.md` as system/context prompt | Ollama has no native skill loader; pass this file into the prompt or wrapper. |
-| Shell/Python | `pyproject.toml` entry points | Use `shawn-bio-search`, `sbs`, and `shawn-bio-download`. |
+| Shell/Python | `pyproject.toml` entry points | Use `shawn-bio-search`, `sbs`, `shawn-bio-download`, and `shawn-bio-institutional`. |
 
 ## Canonical Paths
 
@@ -32,6 +32,20 @@ Use `SHAWN_BIO_SEARCH_HOME` only when the repo is intentionally elsewhere.
 ## Integration Boundary
 
 `SHawn-bio-search` owns retrieval, verification, access enrichment, and retrieval bundles.
+
+Institutional access is exposed through `shawn-bio-institutional` so Codex,
+Claude, OpenClaw, Ollama wrappers, and plain shell users share the same
+browser-assisted queue opener and audit TSV format. Environment variables:
+
+- `SHAWN_INSTITUTIONAL_ACCESS=available|candidate|unavailable`
+- `SHAWN_INSTITUTIONAL_QUEUE=<queue.tsv>`
+- `SHAWN_INSTITUTIONAL_BROWSER=<browser command>`
+- `SHAWN_INSTITUTIONAL_OUT_DIR=<audit output directory>`
+- `SHAWN_INSTITUTIONAL_NETWORK_LABEL=<current network label>`
+- `SHAWN_INSTITUTIONAL_AUTH_PROVIDER_LABEL=<authenticated library/provider label>`
+- `SHAWN_INSTITUTIONAL_ROUTE_LABEL=<audit route label>`
+- `SHAWN_INSTITUTIONAL_URL_TEMPLATE=<official library/proxy URL template>`
+- `SHAWN_INSTITUTIONAL_DETECT_NETWORK=0` is not used; pass `--no-detect-network` to disable the default best-effort public IP org detection
 
 It does not own:
 - persistent paper corpus databases

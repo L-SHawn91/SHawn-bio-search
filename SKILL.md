@@ -89,6 +89,18 @@ python3 ~/github/SHawn-bio-search/scripts/search_bundle.py \
   --out /tmp/shawn-bio-search-bundle.json
 ```
 
+Institutional access queue:
+
+```bash
+shawn-bio-institutional --check-env
+shawn-bio-institutional --queue ~/github/SHawn-bio-search/outputs/dhcr24_260427/DHCR24_INSTITUTIONAL_ACCESS_READY_260427.tsv \
+  --limit 10 \
+  --batch-size 5
+shawn-bio-institutional --auth-provider-label "Yonsei University Library" --limit 10
+```
+
+Current network detection is enabled by default; pass `--no-detect-network` only when a fixed offline audit route is required. When the physical network and authenticated provider differ, set `--auth-provider-label` for the actual subscription provider.
+
 Citation verification:
 
 ```python
@@ -117,7 +129,7 @@ Do not create `_incoming`, staging, topic/date subfolders, repo `outputs/`, `Dow
 
 Repo `outputs/` may hold search bundles, manifests, logs, and reports. Actual PDFs belong in the Zotero paper root above.
 
-Konkuk University campus/library access is authorized institutional access, not a bypass. If OA routes fail but institutional access may apply, mark the item as `institutional_access_candidate` and preserve DOI/title, publisher page, access route, timestamp, root PDF path, sha256, and verification result.
+The user's current institutional/campus/hospital/library network access is authorized institutional access, not a bypass. If OA routes fail but institutional access may apply, mark the item as `institutional_access_ready` where the route is available; otherwise use `institutional_access_candidate`. Use `shawn-bio-institutional` to batch-open DOI/publisher pages in the normal browser and write an audit TSV. Preserve DOI/title, publisher page, current access route, timestamp, root PDF path, sha256, and verification result.
 
 ## Output Discipline
 

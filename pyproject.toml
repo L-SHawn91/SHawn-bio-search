@@ -40,6 +40,7 @@ dev = [
 shawn-bio-search = "shawn_bio_search.cli:main"
 sbs = "shawn_bio_search.cli:main"
 shawn-bio-download = "shawn_bio_search.download.runner:main_cli"
+shawn-bio-institutional = "shawn_bio_search.institutional_access:main_cli"
 
 [project.urls]
 Homepage = "https://github.com/L-SHawn91/SHawn-bio-search"
