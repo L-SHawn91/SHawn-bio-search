@@ -1,0 +1,58 @@
+[
+  {
+    "model": "code",
+    "n": 43,
+    "n_support": 37,
+    "n_offtopic": 6,
+    "acc": 1.0,
+    "strict": 1.0,
+    "offtopic_recall": "6/6",
+    "support_recall": "37/37",
+    "elapsed": 0.0,
+    "models_used": {
+      "code": 43
+    }
+  },
+  {
+    "model": "gpt-oss:120b-cloud",
+    "n": 43,
+    "n_support": 37,
+    "n_offtopic": 6,
+    "acc": 0.395,
+    "strict": 0.186,
+    "offtopic_recall": "6/6",
+    "support_recall": "2/37",
+    "elapsed": 96.1,
+    "models_used": {
+      "gpt-oss:120b-cloud": 43
+    }
+  },
+  {
+    "model": "deepseek-v4-flash:cloud",
+    "n": 43,
+    "n_support": 37,
+    "n_offtopic": 6,
+    "acc": 0.279,
+    "strict": 0.279,
+    "offtopic_recall": "6/6",
+    "support_recall": "6/37",
+    "elapsed": 162.5,
+    "models_used": {
+      "deepseek-v4-flash:cloud": 43
+    }
+  },
+  {
+    "model": "kimi-k2.6:cloud",
+    "n": 43,
+    "n_support": 37,
+    "n_offtopic": 6,
+    "acc": 0.279,
+    "strict": 0.279,
+    "offtopic_recall": "6/6",
+    "support_recall": "6/37",
+    "elapsed": 68.3,
+    "models_used": {
+      "kimi-k2.6:cloud": 43
+    }
+  }
+]

@@ -381,7 +381,8 @@ def batch_score_papers(
     If Ollama is unavailable the function falls back to pure lexical scoring.
     """
     embed_sims: List[float] = [-1.0] * len(papers)
-    if claim:
+    _embed_enabled = os.getenv("SBS_EMBED_ENABLED", "1").strip() not in ("0", "false", "no")
+    if claim and _embed_enabled:
         abstracts = [str(p.get("abstract") or "") for p in papers]
         texts = [claim] + abstracts
         try:

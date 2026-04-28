@@ -1,0 +1,1878 @@
+{
+  "query": "obesity endometrial cancer progestin resistance mechanism molecular",
+  "effective_query": "obesity endometrial cancer progestin resistance mechanism molecular",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 49,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "crossref failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4316039477",
+      "title": "Obesity and Cancer: A Current Overview of Epidemiology, Pathogenesis, Outcomes, and Management",
+      "authors": [
+        "Sukanya Pati",
+        "Wadeed Irfan",
+        "Ahmed Tariq Jameel",
+        "Shahid Ahmed",
+        "Rabia Shahid"
+      ],
+      "year": 2023,
+      "doi": "10.3390/cancers15020485",
+      "url": "https://doi.org/10.3390/cancers15020485",
+      "abstract": "Obesity increases cancer risk and mortality. Weight-reducing strategies in obesity-associated cancers are important interventions as a key component of cancer care. Future studies are warranted to further elucidate the complex relationship between obesity and cancer with the identification of targets for effective interventions.",
+      "citations": 590,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4316039477"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.377,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.377,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2606592708",
+      "title": "Morbidity and mortality associated with obesity",
+      "authors": [
+        "Mahmoud Abdelaal",
+        "Carel W. le Roux",
+        "Neil G. Docherty"
+      ],
+      "year": 2017,
+      "doi": "10.21037/atm.2017.03.107",
+      "url": "https://doi.org/10.21037/atm.2017.03.107",
+      "abstract": "Obesity and its repercussions constitute an important source of morbidity, impaired quality of life and its complications can have a major bearing on life expectancy. The present article summarizes the most important co-morbidities of obesity and their prevalence. Furthermore, it describes classification and grading systems that can be used to assess the individual and combined impact of co-morbid conditions on mortality risk. The literature was screened for assessment tools that can be deployed in the quantification of morbidity and mortality risk in individual patients. Thirteen specific domains have been identified that account for morbidity and mortality in obesity. Cardiovascular disease (CVD) and cancer account for the greatest mortality risk associated with obesity. The King's Criteria and Edmonton Obesity Staging System (EOSS) were identified as useful tools for the detection and monitoring of individual patient mortality risk in obesity care. The stark facts on the complications of obesity should be capitalized on to improve patient management and knowledge and referred to in the wider dissemination of public health messages aimed at improving primary prevention.",
+      "citations": 1029,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2606592708"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.371,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.371,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2165700542",
+      "title": "Endocrine-Disrupting Chemicals: An Endocrine Society Scientific Statement",
+      "authors": [
+        "Evanthia Diamanti‐Kandarakis",
+        "Jean‐Pierre Bourguignon",
+        "Linda C. Giudice",
+        "Russ Hauser",
+        "Gail S. Prins",
+        "Ana M. Soto",
+        "R. Thomas Zoeller",
+        "Andrea C. Gore"
+      ],
+      "year": 2009,
+      "doi": "10.1210/er.2009-0002",
+      "url": "https://doi.org/10.1210/er.2009-0002",
+      "abstract": "There is growing interest in the possible health threat posed by endocrine-disrupting chemicals (EDCs), which are substances in our environment, food, and consumer products that interfere with hormone biosynthesis, metabolism, or action resulting in a deviation from normal homeostatic control or reproduction. In this first Scientific Statement of The Endocrine Society, we present the evidence that endocrine disruptors have effects on male and female reproduction, breast development and cancer, prostate cancer, neuroendocrinology, thyroid, metabolism and obesity, and cardiovascular endocrinology. Results from animal models, human clinical observations, and epidemiological studies converge to implicate EDCs as a significant concern to public health. The mechanisms of EDCs involve divergent pathways including (but not limited to) estrogenic, antiandrogenic, thyroid, peroxisome proliferator-activated receptor gamma, retinoid, and actions through other nuclear receptors; steroidogenic enzymes; neurotransmitter receptors and systems; and many other pathways that are highly conserved in wildlife and humans, and which can be modeled in laboratory in vitro and in vivo models. Furthermore, EDCs represent a broad class of molecules such as organochlorinated pesticides and industrial chemicals, plastics and plasticizers, fuels, and many other chemicals that are present in the environment or are in widespread use. We make a number of recommendations to increase understanding of effects of EDCs, including enhancing increased basic and clinical research, invoking the precautionary principle, and advocating involvement of individual and scientific society stakeholders in communicating and implementing changes in public policy and awareness.",
+      "citations": 4437,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2165700542"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2120973019",
+      "title": "Diagnosis and Treatment of Polycystic Ovary Syndrome: An Endocrine Society Clinical Practice Guideline",
+      "authors": [
+        "Richard S. Legro",
+        "Silva Arslanian",
+        "David A. Ehrmann",
+        "Kathleen M. Hoeger",
+        "M. Hassan Murad",
+        "Renato Pasquali",
+        "Corrine K. Welt"
+      ],
+      "year": 2013,
+      "doi": "10.1210/jc.2013-2350",
+      "url": "https://doi.org/10.1210/jc.2013-2350",
+      "abstract": "We suggest using the Rotterdam criteria for diagnosing PCOS (presence of two of the following criteria: androgen excess, ovulatory dysfunction, or polycystic ovaries). Establishing a diagnosis of PCOS is problematic in adolescents and menopausal women. Hyperandrogenism is central to the presentation in adolescents, whereas there is no consistent phenotype in postmenopausal women. Evaluation of women with PCOS should exclude alternate androgen-excess disorders and risk factors for endometrial cancer, mood disorders, obstructive sleep apnea, diabetes, and cardiovascular disease. Hormonal contraceptives are the first-line management for menstrual abnormalities and hirsutism/acne in PCOS. Clomiphene is currently the first-line therapy for infertility; metformin is beneficial for metabolic/glycemic abnormalities and for improving menstrual irregularities, but it has limited or no benefit in treating hirsutism, acne, or infertility. Hormonal contraceptives and metformin are the treatment options in adolescents with PCOS. The role of weight loss in improving PCOS status per se is uncertain, but lifestyle intervention is beneficial in overweight/obese patients for other health benefits. Thiazolidinediones have an unfavorable risk-benefit ratio overall, and statins require further study.",
+      "citations": 1868,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2120973019"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2024905084",
+      "title": "Estrogen receptors and human disease",
+      "authors": [
+        "Bonnie J. Deroo"
+      ],
+      "year": 2006,
+      "doi": "10.1172/jci27987",
+      "url": "https://doi.org/10.1172/jci27987",
+      "abstract": "Estrogens influence many physiological processes in mammals, including but not limited to reproduction, cardiovascular health, bone integrity, cognition, and behavior. Given this widespread role for estrogen in human physiology, it is not surprising that estrogen is also implicated in the development or progression of numerous diseases, which include but are not limited to various types of cancer (breast, ovarian, colorectal, prostate, endometrial), osteoporosis, neurodegenerative diseases, cardiovascular disease, insulin resistance, lupus erythematosus, endometriosis, and obesity. In many of these diseases, estrogen mediates its effects through the estrogen receptor (ER), which serves as the basis for many therapeutic interventions. This Review will describe diseases in which estrogen, through the ER, plays a role in the development or severity of disease.",
+      "citations": 1300,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2024905084"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2077129920",
+      "title": "Vascular Endothelial Growth Factor: Basic Science and Clinical Progress",
+      "authors": [
+        "Napoleone Ferrara"
+      ],
+      "year": 2004,
+      "doi": "10.1210/er.2003-0027",
+      "url": "https://doi.org/10.1210/er.2003-0027",
+      "abstract": "Vascular endothelial growth factor (VEGF) is an endothelial cell-specific mitogen in vitro and an angiogenic inducer in a variety of in vivo models. Hypoxia has been shown to be a major inducer of VEGF gene transcription. The tyrosine kinases Flt-1 (VEGFR-1) and Flk-1/KDR (VEGFR-2) are high-affinity VEGF receptors. The role of VEGF in developmental angiogenesis is emphasized by the finding that loss of a single VEGF allele results in defective vascularization and early embryonic lethality. VEGF is critical also for reproductive and bone angiogenesis. Substantial evidence also implicates VEGF as a mediator of pathological angiogenesis. In situ hybridization studies demonstrate expression of VEGF mRNA in the majority of human tumors. Anti-VEGF monoclonal antibodies and other VEGF inhibitors block the growth of several tumor cell lines in nude mice. Clinical trials with various VEGF inhibitors in a variety of malignancies are ongoing. Very recently, an anti-VEGF monoclonal antibody (bevacizumab; Avastin) has been approved by the Food and Drug Administration as a first-line treatment for metastatic colorectal cancer in combination with chemotherapy. Furthermore, VEGF is implicated in intraocular neovascularization associated with diabetic retinopathy and age-related macular degeneration.",
+      "citations": 3671,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2077129920"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2113329249",
+      "title": "Scientific Statement on the Diagnostic Criteria, Epidemiology, Pathophysiology, and Molecular Genetics of Polycystic Ovary Syndrome",
+      "authors": [
+        "Daniel A. Dumesic",
+        "Sharon E. Oberfield",
+        "Elisabet Stener‐Victorin",
+        "John C. Marshall",
+        "Joop S.E. Laven",
+        "Richard S. Legro"
+      ],
+      "year": 2015,
+      "doi": "10.1210/er.2015-1018",
+      "url": "https://doi.org/10.1210/er.2015-1018",
+      "abstract": "Polycystic ovary syndrome (PCOS) is a heterogeneous and complex disorder that has both adverse reproductive and metabolic implications for affected women. However, there is generally poor understanding of its etiology. Varying expert-based diagnostic criteria utilize some combination of oligo-ovulation, hyperandrogenism, and the presence of polycystic ovaries. Criteria that require hyperandrogenism tend to identify a more severe reproductive and metabolic phenotype. The phenotype can vary by race and ethnicity, is difficult to define in the perimenarchal and perimenopausal period, and is exacerbated by obesity. The pathophysiology involves abnormal gonadotropin secretion from a reduced hypothalamic feedback response to circulating sex steroids, altered ovarian morphology and functional changes, and disordered insulin action in a variety of target tissues. PCOS clusters in families and both female and male relatives can show stigmata of the syndrome, including metabolic abnormalities. Genome-wide association studies have identified a number of candidate regions, although their role in contributing to PCOS is still largely unknown.",
+      "citations": 969,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2113329249"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2039871782",
+      "title": "Coregulator Function: A Key to Understanding Tissue Specificity of Selective Receptor Modulators",
+      "authors": [
+        "Carolyn L. Smith",
+        "Bert W. O’Malley"
+      ],
+      "year": 2004,
+      "doi": "10.1210/er.2003-0023",
+      "url": "https://doi.org/10.1210/er.2003-0023",
+      "abstract": "Ligands for the nuclear receptor superfamily control many aspects of biology, including development, reproduction, and homeostasis, through regulation of the transcriptional activity of their cognate receptors. Selective receptor modulators (SRMs) are receptor ligands that exhibit agonistic or antagonistic biocharacter in a cell- and tissue context-dependent manner. The prototypical SRM is tamoxifen, which as a selective estrogen receptor modulator, can activate or inhibit estrogen receptor action. SRM-induced alterations in the conformation of the ligand-binding domains of nuclear receptors influence their abilities to interact with other proteins, such as coactivators and corepressors. It has been postulated, therefore, that the relative balance of coactivator and corepressor expression within a given target cell determines the relative agonist vs. antagonist activity of SRMs. However, recent evidence reveals that the cellular environment also plays a critical role in determining SRM biocharacter. Cellular signaling influences the activity and subcellular localization of coactivators and corepressors as well as nuclear receptors, and this contributes to gene-, cell-, and tissue-specific responses to SRM ligands. Increased understanding of the effect of cellular environment on nuclear receptors and their coregulators has the potential to open the field of SRM discovery and research to many members of the nuclear receptor superfamily.",
+      "citations": 924,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2039871782"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.3453,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3453,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2517252201",
+      "title": "Prevention of coronary heart disease in clinical practice Recommendations of the Second Joint Task Force of European and other Societies on Coronary Prevention",
+      "authors": [
+        "Second Joint Task Force of European"
+      ],
+      "year": 1998,
+      "doi": "10.1053/euhj.1998.1243",
+      "url": "https://doi.org/10.1053/euhj.1998.1243",
+      "abstract": "or other atherosclerotic disease.",
+      "citations": 1134,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2517252201"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.3432,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3432,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2154929552",
+      "title": "Energy balance and cancer: the role of insulin and insulin-like growth factor-I",
+      "authors": [
+        "Rudolf Kaaks",
+        "Annekatrin Lukanova"
+      ],
+      "year": 2001,
+      "doi": "10.1079/pns200070",
+      "url": "https://doi.org/10.1079/pns200070",
+      "abstract": "Recent theories propose that a Western lifestyle may increase cancer risk through alterations in the metabolism of insulin and insulin-like growth factors (IGF: McKeown-Eyssen, 1994; Giovannucci, 1995; Kaaks, 19%; Werner & LeRoith, 1996). Insulin regulates energy metabolism, and increases the bioactivity of IGF-I, by enhancing its synthesis. and by decreasing several of its binding proteins (IGFBP; IGFBP-1 and -2). Insulin and IGF-I both stimulate anabolic processes as a function of available energy and elementary substrates (e.g. amino acids). The anabolic signals by insulin or IGF-I can promote tumour development by inhibiting apoptosis, and by stimulating cell proliferation. Furthermore, both insulin and IGF-I stimulate the synthesis of sex steroids, and inhibit the synthesis of sex hormone-binding globulin (SFIBG), a binding protein that regulates the bioavailability of circulating sex steroids to tissues. The present paper reviews epidemiological findings relating the risk of cancers of the colo-rectum, pancreas, breast, endometrium and prostate to body size (obesity, height) and physical activity, and discusses the relationships between obesity and physical activity and plasma levels of insulin, IGF-I and IGFBP. Subsequent sections review epidemiological findings relating cancer risk to indices of chronic hyperinsulinaemia, and to plasma levels of IGF-I and IGFBP. Conclusions are that chronic hyperinsulinaemia may be a cause of cancers of the colon, pancreas and endometrium, and also possibly of the breast. On the other hand, elevated plasma IGF-I, as total concentrations or relative to levels of IGFBP-3, appears to be related to an increased risk of prostate cancer, breast cancer in young women, and possibly cob-rectal cancer. For cancers of the endometrium, breast and prostate, these findings are discussed in the context of relationships between insulin and IGF-I and levels of bioavailable sex steroids.",
+      "citations": 615,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2154929552"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.3123,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3123,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41301707",
+      "title": "Obesity as a Catalyst for Endometrial Hyperplasia and Cancer Progression: A Narrative Review of Epidemiology, Molecular Pathways, and Prevention.",
+      "authors": [
+        "Ordeanu IM",
+        "Busuioc CJ",
+        "Văduva CC",
+        "Pană RC",
+        "Petrescu AM",
+        "Văruț RM",
+        "Stanciu M",
+        "Mihaela Popescu",
+        "Ionela-Mihaela Ordeanu",
+        "Cristina Jana Busuioc",
+        "C Vaduva",
+        "R Pană",
+        "Ana-Maria Petrescu",
+        "R Văruţ"
+      ],
+      "year": 2025,
+      "doi": "10.3390/biomedicines13112612",
+      "url": "https://europepmc.org/article/med/41301707",
+      "abstract": "Obesity is a major, modifiable driver of endometrial carcinogenesis. This review distills how excess adiposity promotes malignant change and synthesizes prevention strategies across the hyperplasia–cancer continuum. Three converging axes underpin risk: aromatase-mediated estrogen excess; insulin resistance with hyperinsulinemia activating PI3K–AKT–mTOR signaling; and adipokine-driven low-grade inflammation with downstream NF-κB/STAT3 activity. Within this framework, EIN is the key precursor in which these pathways coalesce. Risk can be attenuated through progestin-based therapy (levonorgestrel-releasing intrauterine system or continuous oral regimens), structured weight management, and metabolic adjuncts in selected phenotypes (e.g., metformin for insulin resistance; incretin-based anti-obesity agents as emerging options). Bariatric surgery produces substantial weight loss and favorable metabolic shifts, though evidence for cancer risk reduction is largely observational. Overall, a practical precision-prevention approach—combining progestins with durable weight control and metabolic optimization under guideline-concordant surveillance—appears feasible in routine gynecologic care. Future research should establish causal effects, durability, and optimal sequencing/combination of interventions in trials with endometrial endpoints.",
+      "citations": 6,
+      "source_hits": [
+        "europe_pmc",
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "41301707",
+        "4276b16ba700219562703f873805ffd0e7c4e6ba"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1932,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1932,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "2e866f50cc5c319cac8aabec9b69f0a9214d95f9",
+      "title": "Phosphorylation of IDH1 Facilitates Progestin Resistance in Endometrial Cancer",
+      "authors": [
+        "Jingjie Li",
+        "Zuoshu Qin",
+        "Yunqi Li",
+        "Baozhu Huang",
+        "Qimeng Xiao",
+        "Peiqin Chen",
+        "Yifan Luo",
+        "Wenxin Zheng",
+        "Tao Zhang",
+        "Zhe Zhang"
+      ],
+      "year": 2024,
+      "doi": "10.1002/advs.202310208",
+      "url": "https://www.semanticscholar.org/paper/2e866f50cc5c319cac8aabec9b69f0a9214d95f9",
+      "abstract": "The progestin regimen is one of the main therapeutic strategies for women with endometrial cancer who undergo conservative management. Although many patients respond well to initial therapy, progestin‐refractory disease inevitably emerges, and the molecular basis underlying progestin resistance has not been comprehensively elucidated. Herein, they demonstrated progestin results in p38‐dependent IDH1 Thr 77 phosphorylation (pT77‐IDH1). pT77‐IDH1 translocates into the nucleus and is recruited to chromatin through its interaction with OCT6. IDH1‐produced α‐ketoglutarate (αKG) then facilitates the activity of OCT6 to promote focal adhesion related target gene transcription to confer progestin resistance. Pharmacological inhibition of p38 or focal adhesion signaling sensitizes endometrial cancer cells to progestin in vivo. The study reveals p38‐dependent pT77‐IDH1 as a key mediator of progestin resistance and a promising target for improving the efficacy of progestin therapy.",
+      "citations": 7,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "2e866f50cc5c319cac8aabec9b69f0a9214d95f9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1841,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1841,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "f44bb245ac8c18c7214697350b7c460733af8816",
+      "title": "Repositioning GLP-1 Receptor Agonists in Endometrial Cancer: Molecular Rationale, Preclinical Insights, and Translational Opportunities.",
+      "authors": [
+        "V. Podder",
+        "R. Coleman",
+        "Andrea R. Hagemann",
+        "Priya Singhania",
+        "Matthew A Powell",
+        "Thomas J. Herzog",
+        "B. Slomovitz"
+      ],
+      "year": 2025,
+      "doi": "10.1158/1078-0432.CCR-25-2819",
+      "url": "https://www.semanticscholar.org/paper/f44bb245ac8c18c7214697350b7c460733af8816",
+      "abstract": "Endometrial cancer (EC) incidence and mortality is rising globally, largely driven by the obesity epidemic. Treatment options remain limited for obesity-associated, hormone-resistant, or fertility-preserving EC, highlighting the need for novel therapies that address both tumor biology and metabolic dysfunction. Here, we synthesize the molecular rationale, preclinical, population-based, and emerging clinical trial evidence on glucagon-like peptide-1 receptor (GLP-1R) agonists (GLP-1 RAs) in EC. GLP-1R is expressed in benign and malignant endometrial tissues, where activation of cAMP-PKA and AMPK-mTOR signaling has been shown to mediate antiproliferative, proapoptotic, and autophagy-inducing effects. Preclinical models demonstrate that class-wide GLP-1 RAs may restore progesterone receptor expression, overcome hormone resistance, and synergize with progestin therapy; however, the effects may vary by agent. Retrospective studies suggest that combining GLP-1 RAs with local progestin therapy, commonly a levonorgestrel-releasing intrauterine device (preferred in obesity because oral progestin bioavailability is reduced), is associated with reduced EC in high-risk women. Ongoing clinical trials are assessing their role in fertility-sparing settings-evaluating complete response to progestin-based therapy, relapse rates, and time to conception-as well as in adjuvant settings, where disease-free survival is a key endpoint; however, gastrointestinal tolerability and the absence of long-term safety data in EC populations remain important considerations. As a class, GLP-1 RAs represent a promising therapeutic approach to targeting both the obesogenic milieu and tumor-intrinsic pathways in EC; however, agent-specific differences warrant attention. Prospective, subtype-stratified trials are essential to establish their role in comprehensive EC care.",
+      "citations": 2,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "f44bb245ac8c18c7214697350b7c460733af8816"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1804,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1804,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "6bd95725227c4c5d11aa819bcae1becea61a7308",
+      "title": "Canagliflozin alleviates progestin resistance by suppressing RARβ/CRABP2 signaling in THRB knockout endometrial cancer cells",
+      "authors": [
+        "Ye Yang",
+        "Jie-yun Zhou",
+        "Qiaoying Lv",
+        "Qi-cheng Ni",
+        "Baichun Hu",
+        "Yulong Wang",
+        "Shuning Qu",
+        "Guoting Li",
+        "Wen-jie Yang",
+        "Ruihua Zhong",
+        "Xiaojun Chen",
+        "Yan Zhu"
+      ],
+      "year": 2025,
+      "doi": "10.3389/fphar.2025.1573032",
+      "url": "https://www.semanticscholar.org/paper/6bd95725227c4c5d11aa819bcae1becea61a7308",
+      "abstract": "Introduction Progestin resistance has emerged as a significant barrier to the conservative management of endometrial cancer (EC). The mechanisms underlying progestin resistance in endocrine therapy remain incompletely understood. Previous studies have suggested that silencing thyroid hormone receptor B (THRB) is associated with progestin resistance in EC cells. Methods THRB-knockout RL95-2 (THRB(−/−)/RL95-2) cells were constructed to investigate progestin resistance mechanisms. Cell proliferation and apoptosis were assessed in RL95-2 and THRB(−/−)/RL95-2 cells treated with canagliflozin (CANA), medroxyprogesterone acetate (MPA), and their combination using CCK-8, EdU, and flow cytometry assays. In vivo, nude mouse xenograft models were used to evaluate the efficacy of CANA and MPA. Transcriptomic and proteomic analyses were performed to identify pathways associated with progestin resistance. Molecular dynamics simulations, along with western blotting and immunohistochemistry were utilized to validate the targets of CANA. Electrophoretic mobility shift assays and dual luciferase reporter assays were employed to investigate the interactions between TRβ, RARβ, and CRABP2. Results THRB(−/−)/RL95-2 cells were successfully constructed. CANA demonstrated a strong binding affinity for TRβ. Both MPA and CANA suppressed proliferation in RL95-2 cells, but MPA was ineffective in THRB(−/−)/RL95-2 cells, indicating that THRB deficiency induced progestin resistance. CANA significantly inhibited proliferation and promoted apoptosis in THRB(−/−)/RL95-2 cells. In vivo, CANA, either alone or in combination with MPA, significantly reduced tumor growth in xenograft models derived from both wild-type and THRB-knockout RL95-2 cells. Transcriptomic and proteomic analyses revealed that progestin resistance in EC was linked to the retinoic acid signaling pathways. Western blotting confirmed that the expressions of RARβ, RXRA and CRABP2 were significantly elevated in THRB(−/−)/RL95-2 cells. Treatment with CANA, alone or in combination with MPA, effectively reduced the expression of these proteins. Immunohistochemical analysis demonstrated that RARβ expression was significantly increased in uterine tissues from patients with progestin-insensitive EC or endometrial atypical hyperplasia. Electrophoretic mobility shift assays and dual luciferase reporter assays demonstrated that TRβ negatively modulated RARβ expression by binding to its promoter, while RARβ positively regulated CRABP2 expression. Conclusion THRB knockout activated retinoic acid pathway, leading to progestin resistance. CANA targeted RARβ and RXRA, downregulated CRABP2, restored BAX levels, and counteracted progestin resistance. The combination of CANA and MPA presented a novel strategy for alleviating progestin resistance and enhancing clinical efficacy.",
+      "citations": 1,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "6bd95725227c4c5d11aa819bcae1becea61a7308"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1792,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1792,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "62db635f946dc21a55e1bb8fe2ce7428faaef107",
+      "title": "Abstract PR003: The combination of the glucagon like peptide-1 receptor agonist semaglutide and the progestin levonorgestrel is highly effective in preclinical studies of endometrial cancer",
+      "authors": [
+        "Kimberly K. Leslie",
+        "A. Hagemann",
+        "Kristina W. Thiel",
+        "Ian S. Hagemann",
+        "D. Mutch",
+        "Eric J Devor",
+        "Paige K. Malmrose"
+      ],
+      "year": 2024,
+      "doi": "10.1158/1557-3265.endo24-pr003",
+      "url": "https://www.semanticscholar.org/paper/62db635f946dc21a55e1bb8fe2ce7428faaef107",
+      "abstract": "\n Obesity is a major risk factor for endometrial cancer (EC), and glucagon like peptide-1 receptor (GLP-1R) agonists such as semaglutide may be helpful to achieve weight loss during conservative treatment or for EC prevention. Progestins such as levonorgestrel are effective in preventing or treating early-stage EC. However, better and more durable response rates could be achieved using combinatorial therapeutic regimens of well tolerated agents with the potential to enhance progestin effectiveness. We theorized that the combination of semaglutide and levonorgestrel would be useful as a novel treatment or prevention regimen and tested this hypothesis using EC cell lines, patient-derived organoids, and RNA-sequencing from patient samples. From the molecular perspective, EC cell lines, organoids, and tissues express GLP-1R as determined by both qPCR and Western blotting, and GLP-1R agonist treatment induces GLP-1R mRNA transcription through positive feedback mechanisms in EC cell models. Preclinical studies in 6 patient-derived organoid models of EC demonstrated the promising therapeutic effects of the combination of semaglutide and levonorgestrel on endometrial cell viability. Specifically, patient-derived organoids from grade 1 endometrial carcinomas were treated with progesterone, levonorgestrel, semaglutide, or levonorgestrel + semaglutide at drug concentrations of 100 nM for 72 hours. Multiple models demonstrated a significant reduction in viability in response to combinatorial treatment. Most interesting was the induction of not only the membrane GLP-1 receptor with treatment, but also the significant upregulation of nuclear and membrane progesterone receptors, PR and PGRMC1/2, respectively, indicating a positive feedback loop between semaglutide and progestins such as levonorgestrel. In addition, other steroid hormone receptor mRNAs such as the estrogen, androgen and mineralocorticoid receptors (ER, AR, and MR) were similarly upregulated. In these studies, we identify synergistic molecular crosstalk between the GLP-1R and steroid hormone receptor pathways with the potential to enhance the anti-cancer activity of semaglutide and levonorgestrel when combined. Future studies are aimed at testing this regimen in patients conservatively managed for atypical endometrial hyperplasia or low-grade endometrial cancers.\n Citation Format: Kimberly K. Leslie, Andrea Hagemann, Kristina Thiel, Ian Hagemann, David Mutch, Eric Devor, Paige Malmrose. The combination of the glucagon like peptide-1 receptor agonist semaglutide and the progestin levonorgestrel is highly effective in preclinical studies of endometrial cancer [abstract]. In: Proceedings of the AACR Special Conference on Endometrial Cancer: Transforming Care through Science; 2023 Nov 16-18; Boston, Massachusetts. Philadelphia (PA): AACR; Clin Cancer Res 2024;30(5_Suppl):Abstract nr PR003.",
+      "citations": 1,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "62db635f946dc21a55e1bb8fe2ce7428faaef107"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1789,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1789,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "20b3387258dd3b19cafe6537bad1ac2ea5a61d89",
+      "title": "IKBKE modulates autophagy and progestin resistance in endometrial cancer",
+      "authors": [
+        "Jiahui Wang",
+        "Xianchao Kong"
+      ],
+      "year": 2025,
+      "doi": "10.3389/fonc.2025.1590966",
+      "url": "https://www.semanticscholar.org/paper/20b3387258dd3b19cafe6537bad1ac2ea5a61d89",
+      "abstract": "Background/objectives Endometrial cancer (EC) is a prevalent malignancy in women, with up to 16% of cases diagnosed in individuals under 40 years old. Progestin-based therapies are essential for fertility preservation in EC patients, but resistance to these treatments remains a major challenge. IKBKE, an oncogenic kinase implicated in various cancers, including breast, ovarian, and prostate, has an unclear role in autophagy regulation and progestin resistance in EC. This study aims to investigate the involvement of IKBKE in these processes. Methods A progestin-resistant EC cell line was established to assess the effects of IKBKE knockdown and treatment with CYT387, a selective IKBKE inhibitor. In vitro assays, including MTT viability, wound healing, colony formation, and Transwell invasion assays, were performed to evaluate cell proliferation, migration, and invasion. Autophagic activity was analyzed following CYT387 treatment. Results IKBKE knockdown significantly reduced cell proliferation, migration, in progestin-resistant EC cells. CYT387 treatment inhibited autophagic activity and decreased cell viability in these cells. Conclusions These findings highlight the crucial role of IKBKE in regulating autophagy and mediating progestin resistance in EC. This study provides new insights into IKBKE as a potential molecular target that contributes to understanding the mechanisms underlying progestin resistance in endometrial cancer.",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "20b3387258dd3b19cafe6537bad1ac2ea5a61d89"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.178,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.178,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "7cc9b3a5b4d2b93dcab9652a29174dda080fd21b",
+      "title": "Research Progress of Molecular Classification Guiding Targeted Therapy Combined with Fertility-Preserving Treatment for Endometrial Cancer",
+      "authors": [
+        "Xiya Ma",
+        "Yuanjing Hu"
+      ],
+      "year": 2025,
+      "doi": "10.33696/gynaecology.6.091",
+      "url": "https://www.semanticscholar.org/paper/7cc9b3a5b4d2b93dcab9652a29174dda080fd21b",
+      "abstract": "In recent years, the incidence of endometrial cancer has continued to increase and tends to be younger. An increasing number of young patients wish to preserve reproductive function during treatment. Although progestin therapy has a high remission rate, some patients experience hormone resistance, recurrence, or even disease progression, making this traditional treatment unsuitable for everyone. Molecular classification can effectively guide treatment and provide prognostic evaluations for endometrial cancer, but its clinical application in fertility-preserving treatment remains unclear. This article will review the role of molecular classification in endometrial cancer care and explores the potential value of combining targeted therapies with traditional treatments. The goal is to provide new strategies and insights for fertility-preserving treatment and management of endometrial cancer in the era of precision medicine.",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "7cc9b3a5b4d2b93dcab9652a29174dda080fd21b"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.178,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.178,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "a9a61604660cc21e71ef23993166b666c4199c29",
+      "title": "Prognostic and immunological significance of tryptophan metabolic enzymes across endometrial cancer molecular subtypes.",
+      "authors": [
+        "R. Johnson",
+        "G. Mappa",
+        "Narinder Gahir",
+        "Katie E Allen",
+        "A. Zubayraeva",
+        "Bahar Ebtehaj",
+        "A. Thangavelu",
+        "G. Theophilou",
+        "Richard Hutson",
+        "T. Broadhead",
+        "David Nugent",
+        "D. de Jong",
+        "Sarika Munot",
+        "A. Laios",
+        "Michele Cummings",
+        "Nicolas M Orsi"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.ygyno.2025.10.039",
+      "url": "https://www.semanticscholar.org/paper/a9a61604660cc21e71ef23993166b666c4199c29",
+      "abstract": "BACKGROUND\nThe kynurenine pathway is a key immunosuppressive mechanism implicated in resistance to immune checkpoint inhibitors (ICIs). This study investigated expression of tryptophan-metabolising enzymes (IDO1, TDO2, IL4I1) and their relationship with the immune microenvironment across molecular subtypes of endometrial cancer (EC).\n\n\nMETHODS\nA cohort of 570 ECs was classified as mismatch repair-deficient (MMRd), p53-mutant (p53mut), or no specific molecular profile (NSMP). Expression of IDO1, TDO2, IL4I1, PD-L1, kynurenine, and immune markers (CD8, FOXP3, CD68, CD163) was assessed by immunohistochemistry and quantified in tumour and stromal compartments using QuPath. Associations with disease-specific survival (DSS) were analysed using correlation testing, Kaplan-Meier, and Cox regression.\n\n\nRESULTS\nIDO1, TDO2, and IL4I1 correlated strongly with immune infiltrate density. High IDO1 tumour expression was linked to improved DSS in NSMP and p53mut tumours (p < 0.05), consistent with an \"inflamed\" phenotype. In contrast, high TDO2 stromal expression predicted reduced DSS in NSMP patients (p < 0.05). Elevated IL4I1 tumour expression was associated with improved DSS in MMRd tumours (p < 0.05). A high CD163:CD8 ratio independently predicted worse DSS in p53mut tumours (p < 0.05). Both TDO2 and IL4I1 were highly expressed high-risk tumours, particularly p53mut cases.\n\n\nCONCLUSIONS\nTryptophan-kynurenine enzymes shape the immune landscape of EC in a subtype-specific manner. High IDO1 was linked to favourable outcomes in p53mut and NSMP cases, whereas TDO2 predicted poor prognosis. The CD163:CD8 ratio emerged as an independent marker of poor survival. These findings support therapeutic strategies combining dual IDO1/TDO2 inhibition or targeting the IL4I1- aryl hydrocarbon receptor (AhR) axis to enhance immunotherapy efficacy in EC.",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "a9a61604660cc21e71ef23993166b666c4199c29"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.178,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.178,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "4f495642650b2baff571e78038d6ef69a810c9d9",
+      "title": "Advances in the molecular mechanisms underlying progestin resistance in endometrial cancer",
+      "authors": [
+        "Jie Liu",
+        "Jingyi Zhou",
+        "Yiqin Wang",
+        "F. Xue",
+        "Xiaojun Chen",
+        "Gang Chen",
+        "Jianliu Wang"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.fmre.2023.07.008",
+      "url": "https://www.semanticscholar.org/paper/4f495642650b2baff571e78038d6ef69a810c9d9",
+      "abstract": "The incidence of endometrial cancer (EC) has been on the rise, with a notable increase observed in younger female population. Approximately 80% of EC patients are associated with endometrial hyperplasia, a condition characterized by excessive stimulation from unopposed estrogen. Progestin, as the antagonist of estrogen, is recommended for patients with fertility conservation requirements. However, some patients may exhibit insensitivity to progestin treatment, and those with comorbidities such as obesity and diabetes may experience suboptimal therapeutic effects. To improve the efficacy of progestin treatment and address the fertility needs of patients, it is imperative to elucidate the underlying mechanisms of progestin insensitivity in EC. In this review, we explore the role of progestin in EC and its clinical effectiveness. We discuss the factors contributing to progestin insensitivity, highlight recent advancements in research aimed at enhancing treatment sensitivity, and propose potential avenues for future investigation.",
+      "citations": 5,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "4f495642650b2baff571e78038d6ef69a810c9d9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1735,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1735,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0609027v1",
+      "title": "A U-band survey of brown dwarfs in the Taurus Molecular Cloud with the XMM-Newton Optical/UV Monitor",
+      "authors": [
+        "Nicolas Grosso",
+        "Marc Audard",
+        "Jérôme Bouvier",
+        "Kevin R. Briggs",
+        "Manuel Güdel",
+        "the The XMM-Newton Extended Surveyof the Taurus Molecular Cloud",
+        "Collaboration"
+      ],
+      "year": 2006,
+      "doi": "10.1051/0004-6361:20065425",
+      "url": "http://arxiv.org/abs/astro-ph/0609027v1",
+      "abstract": "We aim to characterize the U-band variability of young brown dwarfs in the Taurus Molecular Cloud and discuss its origin. We used the XMM-Newton Extended Survey of the Taurus Molecular Cloud, where a sample of 11 young bona fide brown dwarfs (spectral type later than M6) were observed simultaneously in X-rays with XMM-Newton and in the U-band with the XMM-Newton Optical/UV Monitor (OM). We obtained upper limits to the U-band emission of 10 brown dwarfs (U>19.6-20.6 mag), whereas 2MASSJ04141188+2811535 was detected in the U-band. Remarkably, the magnitude of this brown dwarf increased regularly from U~19.5 mag at the beginning of the observation, peaked 6h later at U~18.4 mag, and then decreased to U~18.65 mag in the next 2h. The first OM U-band measurement is consistent with the quiescent level observed about one year later thanks to ground follow-up observations. This brown dwarf was not detected in X-rays by XMM-Newton during the OM observation. We discuss the possible sources of U-band variability for this young brown dwarf, namely a magnetic flare, non-steady accretion onto the substellar surface, and rotational modulation of a hot spot. We conclude that this event is related to accretion from a circumsubstellar disk, where the mass accretion rate was about a factor of 3 higher than during the quiescent level.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0609027v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.3371v2",
+      "title": "Adaptation and learning of molecular networks as a description of cancer development at the systems-level: Potential use in anti-cancer therapies",
+      "authors": [
+        "David M. Gyurko",
+        "Daniel V. Veres",
+        "Dezso Modos",
+        "Katalin Lenti",
+        "Tamas Korcsmaros",
+        "Peter Csermely"
+      ],
+      "year": 2013,
+      "doi": "10.1016/j.semcancer.2013.06.005",
+      "url": "http://arxiv.org/abs/1306.3371v2",
+      "abstract": "There is a widening recognition that cancer cells are products of complex developmental processes. Carcinogenesis and metastasis formation are increasingly described as systems-level, network phenomena. Here we propose that malignant transformation is a two-phase process, where an initial increase of system plasticity is followed by a decrease of plasticity at late stages of carcinogenesis as a model of cellular learning. We describe the hallmarks of increased system plasticity of early, tumor initiating cells, such as increased noise, entropy, conformational and phenotypic plasticity, physical deformability, cell heterogeneity and network rearrangements. Finally, we argue that the large structural changes of molecular networks during cancer development necessitate a rather different targeting strategy in early and late phase of carcinogenesis. Plastic networks of early phase cancer development need a central hit, while rigid networks of late stage primary tumors or established metastases should be attacked by the network influence strategy, such as by edgetic, multi-target, or allo-network drugs. Cancer stem cells need special diagnosis and targeting, since their dormant and rapidly proliferating forms may have more rigid, or more plastic networks, respectively. The extremely high ability to change their rigidity/plasticity may be a key differentiating hallmark of cancer stem cells. The application of early stage-optimized anti-cancer drugs to late-stage patients may be a reason of many failures in anti-cancer therapies. Our hypotheses presented here underlie the need for patient-specific multi-target therapies applying the correct ratio of central hits and network influences -- in an optimized sequence.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.3371v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40917133",
+      "title": "Obesity management in the setting of endometrial cancer and hyperplasia: A narrative review.",
+      "authors": [
+        "Moshayedi N",
+        "Clair K",
+        "Francoeur AA."
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.gore.2025.101929",
+      "url": "https://europepmc.org/article/med/40917133",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40917133"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41514656",
+      "title": "Endometrial Hyperplasia: Current Insights into Epidemiology, Risk Factors, and Clinical Management.",
+      "authors": [
+        "Galani A",
+        "Stavros S",
+        "Moustakli E",
+        "Potiris A",
+        "Zikopoulos A",
+        "Anagnostaki I",
+        "Zacharis K",
+        "Paraskevaidi M",
+        "Lyons D",
+        "Maneta-Stavrakaki S"
+      ],
+      "year": 2025,
+      "doi": "10.3390/cancers18010148",
+      "url": "https://europepmc.org/article/med/41514656",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41514656"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41744888",
+      "title": "Endocrine Therapy for Endometrial Carcinoma: Current Evidence, Resistance Mechanisms, and Biomarker-Driven Patient Selection.",
+      "authors": [
+        "Yamanaka T",
+        "Yoshida H",
+        "Shimoi T",
+        "Sudo K",
+        "Yonemori K."
+      ],
+      "year": 2026,
+      "doi": "10.3390/curroncol33020124",
+      "url": "https://europepmc.org/article/med/41744888",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41744888"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41203996",
+      "title": "Fertility-sparing treatment for overweight patients with early-stage endometrial cancer or atypical endometrial hyperplasia under weight loss intervention.",
+      "authors": [
+        "Fu M",
+        "Cao D",
+        "Liu Q",
+        "Feng Y",
+        "Yu M",
+        "Yang J",
+        "Zhou H",
+        "Cheng N",
+        "Wu X."
+      ],
+      "year": 2025,
+      "doi": "10.1007/s00432-025-06369-6",
+      "url": "https://europepmc.org/article/med/41203996",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41203996"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41775739",
+      "title": "Construction and initial validation of key gene network for progesterone resistance in endometrial cancer based on genome-wide CRISPR screening.",
+      "authors": [
+        "Li X",
+        "Wang S",
+        "Qiu Z",
+        "Sun R",
+        "Wang T",
+        "Ren X",
+        "Lv B",
+        "Ma X",
+        "Cheng L",
+        "Liu Y"
+      ],
+      "year": 2026,
+      "doi": "10.1038/s41598-026-36534-x",
+      "url": "https://europepmc.org/article/med/41775739",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41775739"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41300969",
+      "title": "Molecular Prognosticators Guiding Fertility-Sparing Surgery in Early-Stage Endometrial Cancer: A Comprehensive Review.",
+      "authors": [
+        "Shaikh S",
+        "Haque S",
+        "Khalifey HT",
+        "Samour HA",
+        "Deed A",
+        "Mahereen R",
+        "Nabiha N",
+        "Shaikh S",
+        "Samhan LM",
+        "Khan MI"
+      ],
+      "year": 2025,
+      "doi": "10.3390/cancers17223602",
+      "url": "https://europepmc.org/article/med/41300969",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41300969"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41440200",
+      "title": "Diabetes, Obesity, and Endometrial Cancer: A Review.",
+      "authors": [
+        "Hooks O",
+        "Jhumkhawala V",
+        "Sibson K",
+        "Shrontz A",
+        "Krishnan SS",
+        "Ahmad S."
+      ],
+      "year": 2025,
+      "doi": "10.3390/curroncol32120672",
+      "url": "https://europepmc.org/article/med/41440200",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41440200"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2305.10041v1",
+      "title": "Risk Assessment of Lymph Node Metastases in Endometrial Cancer Patients: A Causal Approach",
+      "authors": [
+        "Alessio Zanga",
+        "Alice Bernasconi",
+        "Peter J. F. Lucas",
+        "Hanny Pijnenborg",
+        "Casper Reijnen",
+        "Marco Scutari",
+        "Fabio Stella"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2305.10041v1",
+      "abstract": "Assessing the pre-operative risk of lymph node metastases in endometrial cancer patients is a complex and challenging task. In principle, machine learning and deep learning models are flexible and expressive enough to capture the dynamics of clinical risk assessment. However, in this setting we are limited to observational data with quality issues, missing values, small sample size and high dimensionality: we cannot reliably learn such models from limited observational data with these sources of bias. Instead, we choose to learn a causal Bayesian network to mitigate the issues above and to leverage the prior knowledge on endometrial cancer available from clinicians and physicians. We introduce a causal discovery algorithm for causal Bayesian networks based on bootstrap resampling, as opposed to the single imputation used in related works. Moreover, we include a context variable to evaluate whether selection bias results in learning spurious associations. Finally, we discuss the strengths and limitations of our findings in light of the presence of missing data that may be missing-not-at-random, which is common in real-world clinical settings.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2305.10041v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2005.13112v1",
+      "title": "Organ size increases with obesity and correlates with cancer risk",
+      "authors": [
+        "Haley Grant Yifan Zhang",
+        "Lu Li",
+        "Yan Wang",
+        "Satomi Kawamoto",
+        "Sophie Pénisson",
+        "Daniel F. Fouladi",
+        "Shahab Shayesteh",
+        "Alejandra Blanco",
+        "Saeed Ghandili",
+        "Eva Zinreich",
+        "Jefferson S. Graves",
+        "Seyoun Park",
+        "Scott Kern",
+        "Jody Hooper",
+        "Alan L. Yuille",
+        "Elliot K Fishman",
+        "Linda Chu",
+        "Cristian Tomasetti"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2005.13112v1",
+      "abstract": "Obesity increases significantly cancer risk in various organs. Although this has been recognized for decades, the mechanism through which this happens has never been explained. Here, we show that the volumes of kidneys, pancreas, and liver are strongly correlated (median correlation = 0.625; P-value<10-47) with the body mass index (BMI) of an individual. We also find a significant relationship between the increase in organ volume and the increase in cancer risk (P-value<10-12). These results provide a mechanism explaining why obese individuals have higher cancer risk in several organs: the larger the organ volume the more cells at risk of becoming cancerous. These findings are important for a better understanding of the effects obesity has on cancer risk and, more generally, for the development of better preventive strategies to limit the mortality caused by obesity.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2005.13112v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1705.09863v1",
+      "title": "Molecular recognition of the environment and mechanisms of the origin of species in quantum-like modeling of evolution",
+      "authors": [
+        "Alexey V. Melkikh",
+        "Alexey V. Melkikh",
+        "Andrei Khrennikov"
+      ],
+      "year": 2017,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1705.09863v1",
+      "abstract": "A review of the mechanisms of speciation is performed. The mechanisms of the evolution of species, taking into account the feedback of the state of the environment and mechanisms of the emergence of complexity, are considered. It is shown that these mechanisms, at the molecular level, cannot work steadily in terms of classical mechanics. Quantum mechanisms of changes in the genome, based on the long-range interaction potential between biologically important molecules, are proposed as one of possible explanation. Different variants of interactions of the organism and environment based on molecular recognition and leading to new species origins are considered. Experiments to verify the model are proposed. This bio-physical study is completed by the general operational model of based on quantum information theory. The latter is applied to model epigenetic evolution.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1705.09863v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6299v0.2/reviews/1",
+      "title": "Peer Review #1 of \"Molecular mechanism of point mutation-induced Monopolar spindle 1 (Mps1/TTK) inhibitor resistance revealed by a comprehensive molecular modeling study (v0.2)\"",
+      "authors": [],
+      "year": 2019,
+      "doi": "10.7287/peerj.6299v0.2/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6299v0.2/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6299v0.2/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6299v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Molecular mechanism of point mutation-induced Monopolar spindle 1 (Mps1/TTK) inhibitor resistance revealed by a comprehensive molecular modeling study (v0.1)\"",
+      "authors": [],
+      "year": 2019,
+      "doi": "10.7287/peerj.6299v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6299v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6299v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6299v0.1/reviews/2",
+      "title": "Peer Review #2 of \"Molecular mechanism of point mutation-induced Monopolar spindle 1 (Mps1/TTK) inhibitor resistance revealed by a comprehensive molecular modeling study (v0.1)\"",
+      "authors": [
+        "A Koch"
+      ],
+      "year": 2019,
+      "doi": "10.7287/peerj.6299v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6299v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6299v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6299v0.2/reviews/2",
+      "title": "Peer Review #2 of \"Molecular mechanism of point mutation-induced Monopolar spindle 1 (Mps1/TTK) inhibitor resistance revealed by a comprehensive molecular modeling study (v0.2)\"",
+      "authors": [
+        "A Koch"
+      ],
+      "year": 2019,
+      "doi": "10.7287/peerj.6299v0.2/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6299v0.2/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6299v0.2/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1110.5865v1",
+      "title": "Cancer Networks: A general theoretical and computational framework for understanding cancer",
+      "authors": [
+        "Eric Werner"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1110.5865v1",
+      "abstract": "We present a general computational theory of cancer and its developmental dynamics. The theory is based on a theory of the architecture and function of developmental control networks which guide the formation of multicellular organisms. Cancer networks are special cases of developmental control networks. Cancer results from transformations of normal developmental networks. Our theory generates a natural classification of all possible cancers based on their network architecture. Each cancer network has a unique topology and semantics and developmental dynamics that result in distinct clinical tumor phenotypes. We apply this new theory with a series of proof of concept cases for all the basic cancer types. These cases have been computationally modeled, their behavior simulated and mathematically described using a multicellular systems biology approach. There are fascinating correspondences between the dynamic developmental phenotype of computationally modeled {\\em in silico} cancers and natural {\\em in vivo} cancers. The theory lays the foundation for a new research paradigm for understanding and investigating cancer. The theory of cancer networks implies that new diagnostic methods and new treatments to cure cancer will become possible.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1110.5865v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20107/table-1",
+      "title": "Table 1: The primary features and molecular mechanism of MTA2 in different cancer types.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20107/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20107/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20107/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10433/fig-3",
+      "title": "Figure 3: Comparison of protein expression of DLGAP5 in normal endometrial tissues and endometrial cancer tissues.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10433/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10433/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10433/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-1",
+      "title": "Table 1: Characteristics of the women with endometrial hyperplasia or endometrial cancer from 2009 to 2012.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20409/fig-3",
+      "title": "Figure 3: MRS2 drives endometrial cancer malignancy.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20409/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20409/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20409/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/fig-1",
+      "title": "Figure 1: The annual trends in the endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2010.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9910/fig-10",
+      "title": "Figure 10: The proposed model of the molecular mechanism underlying the ability PACs to induce cancer cell apoptosis.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9910/fig-10",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9910/fig-10",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9910/fig-10"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "PMC12985076",
+      "title": "Oncological and Reproductive Outcomes of a Standardized Hysteroscopic Approach for the Fertility-Sparing Treatment of Atypical Endometrial Hyperplasia and Early-Stage Endometrial Cancer",
+      "authors": [
+        "Catena U",
+        "Bonetti Palermo E",
+        "De Bonis F",
+        "Bruni G",
+        "Zorzi M",
+        "La Fera E",
+        "Dinoi G",
+        "Corrado G",
+        "Masciullo V",
+        "Fagotti A"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://europepmc.org/article/pmc/PMC12985076",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "PMC12985076"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.0,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.116,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.116,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "PMC13103487",
+      "title": "Pregnancy Outcomes Following Medical Therapy versus Levonorgestrel-Releasing Intrauterine System for Atypical Endometrial Hyperplasia",
+      "authors": [
+        "Wang M",
+        "Zhao S",
+        "Yuan H",
+        "Zhao M",
+        "Hang C",
+        "Yuan R."
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://europepmc.org/article/pmc/PMC13103487",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "PMC13103487"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.0,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.116,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.116,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "47270ccee5714eb2715ffcfa8e751b558f241281",
+      "title": "Mechanism of progestin resistance in endometrial precancer/cancer through Nrf2-survivin pathway.",
+      "authors": [
+        "R. Fan",
+        "Yiying Wang",
+        "Yue Wang",
+        "L. Wei",
+        "Wenxin Zheng"
+      ],
+      "year": 2017,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/47270ccee5714eb2715ffcfa8e751b558f241281",
+      "abstract": "",
+      "citations": 25,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "47270ccee5714eb2715ffcfa8e751b558f241281"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.0,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.104,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.104,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

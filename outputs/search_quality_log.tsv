@@ -3,3 +3,43 @@ ts	query	sources	n_results	n_topguard_removed	avg_evidence	min_evidence_used	top
 2026-04-28T11:33	endometriosis gene expression RNA-seq hormonal regulation	pubmed,openalex,semantic_scholar	10	3	0.42	0.0	False
 2026-04-28T11:33	recurrent implantation failure endometrium receptivity transcriptomics	pubmed,openalex,semantic_scholar	10	0	0.57	0.0	False
 2026-04-28T11:33	window of implantation endometrium progesterone single cell RNA-seq organoid	pubmed,openalex,semantic_scholar	10	0	0.52	0.0	False
+2026-04-28T13:04	DHCR24 cholesterol biosynthesis endometrial cancer progesterone receptor		32	0	0.1498	0.0	False
+2026-04-28T13:04	EZH2 epigenetic PGR silencing endometrial cancer progestin resistance		40	0	0.1457	0.0	False
+2026-04-28T13:04	SQLE squalene epoxidase endometrial cancer expression prognosis		40	0	0.1483	0.0	False
+2026-04-28T13:04	HMGCR cholesterol endometrial cancer PGR progesterone receptor		30	0	0.1346	0.0	False
+2026-04-28T13:05	PI3K PTEN AKT progestin resistance endometrial cancer therapeutic target		40	0	0.1775	0.0	False
+2026-04-28T13:05	cholesterol biosynthesis progestin resistance endometrial cancer FDFT1 LSS		18	0	0.1334	0.0	False
+2026-04-28T13:05	ABCA1 ABCG1 cholesterol efflux endometrial cancer		30	0	0.1601	0.0	False
+2026-04-28T13:05	FOXA2 SOX17 endometrial differentiation progesterone receptor expression		40	0	0.1523	0.0	False
+2026-04-28T13:05	statin endometrial cancer progestins treatment progesterone		40	0	0.1821	0.0	False
+2026-04-28T13:05	PGRMC1 progesterone receptor membrane component endometrial cancer		47	0	0.1467	0.0	False
+2026-04-28T13:05	SQLE overexpression endometrial uterine cancer tumor		50	0	0.1378	0.0	False
+2026-04-28T13:06	EZH2 progesterone receptor endometrial cancer methylation		59	0	0.1659	0.0	False
+2026-04-28T13:08	obesity endometrial cancer progestin resistance mechanism molecular		49	0	0.1867	0.0	False
+2026-04-28T13:08	GLP-1 agonist semaglutide endometrial cancer progestin treatment		41	0	0.1652	0.0	False
+2026-04-28T13:08	insulin resistance DHCR24 cholesterol endometrial cancer obesity		50	0	0.1632	0.0	False
+2026-04-28T13:08	metformin endometrial cancer progesterone receptor AMPK		53	0	0.1617	0.0	False
+2026-04-28T13:08	GLP-1 receptor agonist cholesterol metabolism endometrium		40	0	0.1835	0.0	False
+2026-04-28T13:09	semaglutide liraglutide uterine endometrial cancer risk reduction		50	0	0.1533	0.0	False
+2026-04-28T13:13	Q7 peptide DHCR24 endometrial cancer Lipo-PEI-PEG delivery		22	0	0.1319	0.0	False
+2026-04-28T13:13	Genkwadaphnin DHCR24 hepatocellular carcinoma cholesterol		48	0	0.1565	0.0	False
+2026-04-28T13:13	U18666A DHCR24 inhibitor apoptosis cancer		49	0	0.1473	0.0	False
+2026-04-28T13:13	irbesartan DHCR24 competitive inhibitor melanoma drug repurposing		25	0	0.1466	0.0	False
+2026-04-28T13:13	DHCR24 siRNA ASO knockdown endometrial cancer in vivo xenograft		22	0	0.1323	0.0	False
+2026-04-28T13:13	DHCR24 monoclonal antibody 2-152a HCC liver cancer		37	0	0.1338	0.0	False
+2026-04-28T13:13	DHCR24 statin methylation CpG cancer epigenetic		47	0	0.1576	0.0	False
+2026-04-28T13:14	sitagliptin DPP4 DHCR24 gestational trophoblastic methotrexate resistance		32	0	0.1382	0.0	False
+2026-04-28T13:14	DHCR24 p53 MDM2 interaction cancer ROS apoptosis		50	0	0.1566	0.0	False
+2026-04-28T13:14	DHCR24 lipid raft Ras PI3K AKT tumor signaling		49	0	0.1613	0.0	False
+2026-04-28T13:14	DHCR24 SH42 inhibitor cholesterol biosynthesis feedback		31	0	0.1472	0.0	False
+2026-04-28T13:42	SQLE squalene epoxidase inhibition endometrial cancer PI3K AKT 2023		32	0	0.1641	0.0	False
+2026-04-28T13:49	DHCR24 siRNA sequence sense antisense endometrial cancer knockdown NM_014762		24	0	0.1278	0.0	False
+2026-04-28T14:22	endometrial cancer therapeutic target gene knockdown siRNA ASO 2023 2024 2025		116	0	0.1558	0.0	False
+2026-04-28T14:22	lncRNA endometrial cancer oncogenic knockdown therapy proliferation invasion		201	0	0.1855	0.0	False
+2026-04-28T14:23	miRNA endometrial cancer tumor suppressor therapeutic mimics antagomir 2022 2024		155	0	0.165	0.0	False
+2026-04-28T14:23	endometrial cancer progestin resistance molecular target PTEN PI3K mTOR EZH2		188	0	0.1623	0.0	False
+2026-04-28T14:23	endometrial cancer lipid cholesterol sterol FASN HMGCR SQLE ACACA target 2022 2025		121	0	0.1506	0.0	False
+2026-04-28T14:23	endometrial cancer novel driver gene CTNNB1 ARID1A SPOP FBXW7 PPP2R1A target 2023 2025		123	0	0.1505	0.0	False
+2026-04-28T14:23	lncRNA HOTAIR MALAT1 H19 NEAT1 endometrial cancer prognosis therapy		196	0	0.1708	0.0	False
+2026-04-28T14:23	miR-21 miR-200 miR-let-7 miR-155 endometrial uterine cancer therapeutic		178	0	0.177	0.0	False
+2026-04-28T14:24	endometrial cancer HER2 PD-L1 CDK4 CDK6 WEE1 PARP inhibitor clinical trial 2023 2025		136	0	0.1566	0.0	False

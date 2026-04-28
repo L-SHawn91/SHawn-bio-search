@@ -93,7 +93,13 @@ def triage_papers(
         "warnings": [],
         "usage": {},
     }
-    if not enabled or not output or metadata["limit"] <= 0:
+    if not output:
+        return output, metadata
+    if not enabled or metadata["limit"] <= 0:
+        # LLM triage disabled — still stamp code heuristic fields (free, no API call)
+        for paper in output:
+            paper.update(code_triage_paper(paper, query, claim, hypothesis))
+        metadata["counts"]["code"] = len(output)
         return output, metadata
 
     host = (ollama_host or os.getenv("OLLAMA_HOST") or DEFAULT_OLLAMA_HOST).rstrip("/")
@@ -728,6 +734,12 @@ def summarize_evidence(
     if not top:
         return ""
 
+    # When no model is explicitly requested, skip LLM and use the free code path.
+    _explicit_model = (
+        model.strip()
+        or os.getenv("ZCM_LLM_MODEL", "").strip()
+        or os.getenv("SHAWN_LLM_MODEL", "").strip()
+    )
     chain = split_model_chain(model=model, fallback_chain=fallback_chain)
     host = (ollama_host or os.getenv("OLLAMA_HOST") or DEFAULT_OLLAMA_HOST).rstrip("/")
 
@@ -744,6 +756,9 @@ def summarize_evidence(
         }
         for i, p in enumerate(top)
     ]
+
+    if not _explicit_model:
+        return _code_summarize(items, query, claim)
 
     for m in chain:
         if m == "code":

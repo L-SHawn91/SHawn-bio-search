@@ -1,0 +1,1911 @@
+{
+  "query": "semaglutide liraglutide uterine endometrial cancer risk reduction",
+  "effective_query": "semaglutide liraglutide uterine endometrial cancer risk reduction",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 50,
+  "warnings": [
+    "semantic_scholar failed: HTTP Error 429: ",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4212959738",
+      "title": "Therapeutic peptides: current applications and future directions",
+      "authors": [
+        "Lei Wang",
+        "Nanxi Wang",
+        "Wenping Zhang",
+        "Xurui Cheng",
+        "Zhibin Yan",
+        "Gang Shao",
+        "Xi Wang",
+        "Rui Wang",
+        "Caiyun Fu"
+      ],
+      "year": 2022,
+      "doi": "10.1038/s41392-022-00904-4",
+      "url": "https://doi.org/10.1038/s41392-022-00904-4",
+      "abstract": "Peptide drug development has made great progress in the last decade thanks to new production, modification, and analytic technologies. Peptides have been produced and modified using both chemical and biological methods, together with novel design and delivery strategies, which have helped to overcome the inherent drawbacks of peptides and have allowed the continued advancement of this field. A wide variety of natural and modified peptides have been obtained and studied, covering multiple therapeutic areas. This review summarizes the efforts and achievements in peptide drug discovery, production, and modification, and their current applications. We also discuss the value and challenges associated with future developments in therapeutic peptides.",
+      "citations": 1886,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4212959738"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.377,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.377,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4385827828",
+      "title": "Recommendations from the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome",
+      "authors": [
+        "Helena Teede",
+        "Chau Thien Tay",
+        "Joop J E Laven",
+        "Anuja Dokras",
+        "Lisa Moran",
+        "Terhi Piltonen",
+        "Michael Costello",
+        "Jacky Boivin",
+        "Leanne M. Redman",
+        "Jacqueline Boyle",
+        "Robert J. Norman",
+        "Aya Mousa",
+        "Anju E. Joham",
+        "the International PCOS Network",
+        "Wiebke Arlt",
+        "Ricardo Azziz",
+        "Adam Balen",
+        "Lisa Bedson",
+        "Lorna Berry",
+        "Jacky Boivin",
+        "Jacqueline Boyle",
+        "Leah Brennan",
+        "Wendy A. Brown",
+        "Tania S. Burgert",
+        "Maureen Busby",
+        "Carolyn Ee",
+        "Rhonda Garad",
+        "Melanie Gibson‐Helm",
+        "Cheryce L. Harrison",
+        "Roger Hart",
+        "Kim Hopkins",
+        "Angelica Lindén Hirschberg",
+        "Tuong M. Ho",
+        "Kathleen M. Hoeger",
+        "Cailin Jordan",
+        "Richard S. Legro",
+        "Rong Li",
+        "Marla Lujan",
+        "Ronald C.W.",
+        "Darren Mansfield",
+        "Kate Marsh",
+        "Edgar Mocanu",
+        "Ben W. Mol",
+        "Rachel Mormon",
+        "Robert J. Norman",
+        "Sharon E. Oberfield",
+        "Malika Patel",
+        "Loyal Pattuwage",
+        "Alexia Peña",
+        "Leanne M. Redman",
+        "Luk Rombauts",
+        "Daniela Romualdi",
+        "Duru Shah",
+        "Poli Mara Spritzer",
+        "Elisabet Stener‐Victorin",
+        "Fahimeh Ramezani Tehrani",
+        "Shakila Thangaratinam",
+        "Mala Thondan",
+        "Eszter Vanky",
+        "Chandrika Wijeyaratne",
+        "Selma F. Witchel",
+        "Dongzi Yang",
+        "Bülent Okan Yıldız",
+        "Simon Alesi",
+        "Snigdha Alur-Gupta",
+        "Jodie Avery",
+        "Mahnaz Bahri Khomami",
+        "Jamie L. Benham",
+        "Hugh Bidstrup",
+        "Su Jen Chua",
+        "Laura G. Cooney",
+        "Thisara Coster",
+        "Carolyn Ee",
+        "Victoria W. Fitz",
+        "M. Flanagan",
+        "Maria Forslund",
+        "Geranne Jiskoot",
+        "Maryam Kazemi",
+        "Punith Kempegowda",
+        "Yvonne V. Louwers",
+        "Marla Lujan",
+        "Johanna Melin",
+        "Eka Melson",
+        "Yitayeh Belsti Mengistu",
+        "Negar Naderpoor",
+        "Adriana C. H. Neven",
+        "Hester Pastoor",
+        "Thais Rocha",
+        "Angelo Sabag",
+        "Anuradhaa Subramanian",
+        "Katrina Tan"
+      ],
+      "year": 2023,
+      "doi": "10.1093/ejendo/lvad096",
+      "url": "https://doi.org/10.1093/ejendo/lvad096",
+      "abstract": "The 2023 International Guideline for the Assessment and Management of PCOS provides clinicians and patients with clear advice on best practice, based on the best available evidence, expert multidisciplinary input, and consumer preferences. Research recommendations have been generated, and a comprehensive multifaceted dissemination and translation programme supports the guideline with an integrated evaluation programme.",
+      "citations": 371,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4385827828"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.3512,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3512,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4392385794",
+      "title": "Recent Advances in Endometrial Cancer Prevention, Early Diagnosis and Treatment",
+      "authors": [
+        "Holly Baker‐Rand",
+        "Sarah Kitson"
+      ],
+      "year": 2024,
+      "doi": "10.3390/cancers16051028",
+      "url": "https://doi.org/10.3390/cancers16051028",
+      "abstract": "Endometrial cancer is the sixth commonest cancer in women worldwide, with over 417,000 diagnoses in 2020. The disease incidence has increased by 132% over the last 30 years and is set to continue to rise in response to an ageing population and increasing global rates of obesity and diabetes. A greater understanding of the mechanisms driving endometrial carcinogenesis has led to the identification of potential strategies for primary disease prevention, although prospective evaluation of their efficacy within clinical trials is still awaited. The early diagnosis of endometrial cancer is associated with improved survival, but has historically relied on invasive endometrial sampling. New, minimally invasive tests using protein and DNA biomarkers and cytology have the potential to transform diagnostic pathways and to allow for the surveillance of high-risk populations. The molecular classification of endometrial cancers has been shown to not only have a prognostic impact, but also to have therapeutic value and is increasingly used to guide adjuvant treatment decisions. Advanced and recurrent disease management has also been revolutionised by increasing the use of debulking surgery and targeted treatments, particularly immunotherapy. This review summarises the recent advances in the prevention, diagnosis and treatment of endometrial cancer and seeks to identify areas for future research.",
+      "citations": 68,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4392385794"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2439,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2439,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40437949",
+      "title": "GLP-1 receptor agonists and the risk for cancer: A meta-analysis of randomized controlled trials.",
+      "authors": [
+        "Silverii GA",
+        "Christian Marinelli",
+        "Costanza Bettarini",
+        "Del Vescovo GG",
+        "Matteo Monami",
+        "Edoardo Mannucci",
+        "Giovanni Antonio Silverii",
+        "Gloria Giovanna Del Vescovo"
+      ],
+      "year": 2025,
+      "doi": "10.1111/dom.16489",
+      "url": "https://europepmc.org/article/med/40437949",
+      "abstract": "GLP-1 RA do not appear to produce an effect on most malignancies in clinical trials. A reduction of very close obesity-associated cancers seems possible, whereas a risk signal for thyroid cancer was observed, prompting the need for further specific studies. On the other hand, the small increase observed in colorectal cancer in shorter-term trials may be the effect of a disproportionate increase in diagnostic procedures in the GLP-1 RA arm, because of the suspicion raised by common side effects of GLP-1 RA.",
+      "citations": 29,
+      "source_hits": [
+        "europe_pmc",
+        "openalex"
+      ],
+      "source_ids": [
+        "40437949",
+        "https://openalex.org/W4410839583"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2208,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2208,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4396673812",
+      "title": "Obesity pharmacotherapy in older adults: a narrative review of evidence",
+      "authors": [
+        "Alex E. Henney",
+        "John Wilding",
+        "Uazman Alam",
+        "Daniel J. Cuthbertson"
+      ],
+      "year": 2024,
+      "doi": "10.1038/s41366-024-01529-z",
+      "url": "https://doi.org/10.1038/s41366-024-01529-z",
+      "abstract": "The prevalence of obesity in older adults (people aged >60 years) is increasing in line with the demographic shift in global populations. Despite knowledge of obesity-related complications in younger adults (increased risk of type 2 diabetes, liver and cardiovascular disease and malignancy), these considerations may be outweighed, in older adults, by concerns regarding weight-loss induced reduction in skeletal muscle and bone mass, and the awareness of the 'obesity paradox'. Obesity in the elderly contributes to various obesity-related complications from cardiometabolic disease and cancer, to functional decline, worsening cognition, and quality of life, that will have already suffered an age-related decline. Lifestyle interventions remain the cornerstone of obesity management in older adults, with emphasis on resistance training for muscle strength and bone mineral density preservation. However, in older adults with obesity refractory to lifestyle strategies, pharmacotherapy, using anti-obesity medicines (AOMs), can be a useful adjunct. Recent evidence suggests that intentional weight loss in older adults with overweight and obesity is effective and safe, hence a diminishing reluctance to use AOMs in this more vulnerable population. Despite nine AOMs being currently approved for the treatment of obesity, limited clinical trial evidence in older adults predominantly focuses on incretin therapy with glucagon-like peptide-1 receptor agonists (liraglutide, semaglutide, and tirzepatide). AOMs enhance weight loss and reduce cardiometabolic events, while maintaining muscle mass. Future randomised controlled trials should specifically evaluate the effectiveness of novel AOMs for long-term weight management in older adults with obesity, carefully considering the impact on body composition and functional ability, as well as health economics.",
+      "citations": 35,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4396673812"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2153,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2153,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4406189899",
+      "title": "Prognostic impact of glucagon-like peptide-1 receptor (GLP1R) expression on cancer survival and its implications for GLP-1R agonist therapy: an integrative analysis across multiple tumor types",
+      "authors": [
+        "Zoltán Ungvári",
+        "Áron Bartha",
+        "Anna Ungvari",
+        "Mónika Fekete",
+        "Giampaolo Bianchini",
+        "Balázs Győrffy"
+      ],
+      "year": 2025,
+      "doi": "10.1007/s11357-024-01494-5",
+      "url": "https://doi.org/10.1007/s11357-024-01494-5",
+      "abstract": "Glucagon-like peptide-1 receptor (GLP-1R) agonists, such as exenatide (Byetta, Bydureon), liraglutide (Victoza, Saxenda), albiglutide (Tanzeum), dulaglutide (Trulicity), lixisenatide (Lyxumia, Adlyxin), semaglutide (Ozempic, Rybelsus, Wegovy), and tirzepatide (Mounjaro, Zepbound), are widely used for the treatment of type 2 diabetes mellitus (T2DM) and obesity. While these agents are well known for their metabolic benefits, there is growing interest in their potential effects on cancer biology. However, the role of GLP-1R agonists in cancer remains complex and not fully understood, particularly across different tumor types. This study aimed to evaluate the prognostic significance of GLP1R expression on overall survival across various cancer types. Using a comprehensive analysis of gene expression data and survival outcomes a large cohorts of different tumor types, we employed Cox proportional hazards survival analyses, coupled with false discovery rate determinations, to explore correlations between GLP1R expression and survival. The integrated database included thousands of cancer specimens with available overall survival time and event data from numerous independent cohorts, providing a robust platform for survival analysis. Our findings reveal that increased GLP1R expression is associated with improved overall survival in cancers such as bladder cancer, breast cancer, esophageal adenocarcinoma, renal clear cell carcinoma, and thyroid carcinoma. Conversely, higher GLP1R expression is linked to poorer survival outcomes in cervical squamous cell carcinoma, lung squamous cell carcinoma, stomach adenocarcinoma, and uterine corpus endometrial carcinoma. Additionally, GLP1R expression showed no significant impact on overall survival in cancers such as esophageal squamous cell carcinoma, colon cancer, head-neck squamous cell carcinoma, renal papillary cell carcinoma, hepatocellular carcinoma, lung adenocarcinoma, ovarian cancer, and pancreatic cancer. In conclusion, GLP1R expression levels serve as an important biomarker with potential prognostic significance across multiple cancers, demonstrating both protective and adverse associations depending on the tumor type. These findings highlight the complex role of GLP-1R agonists in cancer risk and survival, suggesting that the therapeutic use of these agents should be carefully tailored to the individual patient's cancer risk profile.",
+      "citations": 24,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4406189899"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2138,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2138,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4403280824",
+      "title": "Tirzepatide as an innovative treatment strategy in a pre-clinical model of obesity-driven endometrial cancer",
+      "authors": [
+        "Weimin Kong",
+        "Boer Deng",
+        "Xiaochang Shen",
+        "Catherine John",
+        "Jennifer Haag",
+        "Nikita Sinha",
+        "Douglas S. Lee",
+        "Wenchuan Sun",
+        "Shuning Chen",
+        "Haomeng Zhang",
+        "Angela D. Clontz",
+        "Stephen D. Hursting",
+        "Chunxiao Zhou",
+        "Victoria Bae‐Jump"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.ygyno.2024.10.004",
+      "url": "https://doi.org/10.1016/j.ygyno.2024.10.004",
+      "abstract": "Tirzepatide decreased both mouse weight and tumor growth via effects on metabolic and immune pathways in the EC tumors that differed between obese and lean mice. This novel weight loss treatment deserves further evaluation as an innovative strategy in the management of EC.",
+      "citations": 23,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4403280824"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2049,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2049,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4327681674",
+      "title": "Glucagon-like peptide-1 receptor agonists decrease hyperinsulinemia and hyperandrogenemia in dehydroepiandrosterone-induced polycystic ovary syndrome mice and are associated with mitigating inflammation and inducing browning of white adipose tissue",
+      "authors": [
+        "Yahui Zhang",
+        "Yi Lin",
+        "Guoqiang Li",
+        "Yuan Yuan",
+        "Xuejiao Wang",
+        "Na Li",
+        "Chuanhao Xiong",
+        "Yueying Yang",
+        "Yuhang Ma",
+        "Zhijian Zhang",
+        "Xiaoying Ding"
+      ],
+      "year": 2023,
+      "doi": "10.1093/biolre/ioad032",
+      "url": "https://doi.org/10.1093/biolre/ioad032",
+      "abstract": "Polycystic ovary syndrome is a complicated hormonal and metabolic disorder. The exact pathogenesis of polycystic ovary syndrome is not clear thus far. Inflammation is involved in the progression of polycystic ovary syndrome. In addition, brown adipose tissue activity is impaired in polycystic ovary syndrome. Interestingly, glucagon-like peptide-1 receptor agonists have been reported to alleviate inflammation and promote browning of white adipose tissue. In this study, the effects of glucagon-like peptide-1 receptor agonists on polycystic ovary syndrome mice were explored. Mice were randomly assigned into four groups: control, dehydroepiandrosterone, dehydroepiandrosterone + liraglutide, and dehydroepiandrosterone + semaglutide. Relative indexes were measured after glucagon-like peptide-1 receptor agonist intervention. Glucose metabolism in polycystic ovary syndrome mice was ameliorated by glucagon-like peptide-1 receptor agonists, while the reproductive endocrine disorder of polycystic ovary syndrome mice was partially reversed. The messenger ribonucleic acid levels of steroidogenic enzymes and the expression of inflammatory mediators in serum and ovaries of polycystic ovary syndrome mice were improved. Furthermore, toll-like receptor 4 and phosphorylation of nuclear factor-kappa B protein levels were decreased by glucagon-like peptide-1 receptor agonists in ovary. Notably, after glucagon-like peptide-1 receptor agonist intervention, the expression of brown adipose tissue marker levels was considerably raised in the white adipose tissue of polycystic ovary syndrome mice. In conclusion, the hyperinsulinemia and hyperandrogenemia of polycystic ovary syndrome mice were alleviated by glucagon-like peptide-1 receptor agonist intervention, which was associated with mitigating inflammation and stimulating adipose tissue browning.",
+      "citations": 35,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4327681674"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2015,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2015,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4383368485",
+      "title": "Dulaglutide Ameliorates Intrauterine Adhesion by Suppressing Inflammation and Epithelial–Mesenchymal Transition via Inhibiting the TGF-β/Smad2 Signaling Pathway",
+      "authors": [
+        "Yifan Wang",
+        "Yifan Wang",
+        "Yixiang Wang",
+        "Yixiang Wang",
+        "Yang Wu",
+        "Yiqing Wang",
+        "Yiqing Wang"
+      ],
+      "year": 2023,
+      "doi": "10.3390/ph16070964",
+      "url": "https://doi.org/10.3390/ph16070964",
+      "abstract": "Intrauterine adhesion (IUA) is a common gynecological disease with limited therapeutic options. Dulaglutide is a long-acting glucagon-like peptide-1 (GLP-1) analog with some anti-fibrotic and anti-inflammatory properties; however, its action on IUA remains uncertain. The purpose of the experiments in this study was to explore the effect of dulaglutide on IUA and to elucidate its mechanism to provide new ideas for the clinical treatment of IUA. An IUA mouse model was established via mechanical curettage and inflammation induction; mice received subcutaneous injection with three doses of dulaglutide once a day for two weeks (treatment) or equal amounts of sterile ddH<sub>2</sub>O (control), and sham-operated mice were treated similarly to the control mice. Mice were sacrificed, and uterine tissues were subjected to hematoxylin and eosin (H&E) and Masson's trichrome staining for histomorphological and pathological analyses and real-time quantitative polymerase chain reaction (RT-qPCR) and Western blotting (WB) for gene and protein expression analyses. Dulaglutide improved the shape of the uterine cavity, increased endometrial thickness and the number of glands, and significantly reduced the area of collagen fiber deposition in the endometrium. It significantly reduced collagen type I A 1 (COL1A1), interleukin-1beta (IL-1β), interleukin-6 (IL-6), tumor necrosis factor-alpha (TNF-α), C-C motif chemokine ligand 2 (CCL2), F4/80 (macrophage), vimentin and transforming growth factor-beta (TGF-β) mRNA levels and COL1A1, IL-1β, IL-6, TNF-α, F4/80, vimentin, E-cadherin, TGF-β, and p-Smad2 protein expression levels. This study demonstrates that dulaglutide reduces inflammatory responses by inhibiting M1 macrophage polarization and inflammatory factor release and may ameliorate fibrosis by inhibiting epithelial-mesenchymal transition (EMT) via TGF-β/Smad2 signaling.",
+      "citations": 23,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4383368485"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1931,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1931,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2107.03979v1",
+      "title": "On the Selection of Loss Severity Distributions to Model Operational Risk",
+      "authors": [
+        "Daniel Hadley",
+        "Harry Joe",
+        "Natalia Nolde"
+      ],
+      "year": 2021,
+      "doi": "10.21314/JOP.2019.229",
+      "url": "http://arxiv.org/abs/2107.03979v1",
+      "abstract": "Accurate modeling of operational risk is important for a bank and the finance industry as a whole to prepare for potentially catastrophic losses. One approach to modeling operational is the loss distribution approach, which requires a bank to group operational losses into risk categories and select a loss frequency and severity distribution for each category. This approach estimates the annual operational loss distribution, and a bank must set aside capital, called regulatory capital, equal to the 0.999 quantile of this estimated distribution. In practice, this approach may produce unstable regulatory capital calculations from year-to-year as selected loss severity distribution families change. This paper presents truncation probability estimates for loss severity data and a consistent quantile scoring function on annual loss data as useful severity distribution selection criteria that may lead to more stable regulatory capital. Additionally, the Sinh-arcSinh distribution is another flexible candidate family for modeling loss severities that can be easily estimated using the maximum likelihood approach. Finally, we recommend that loss frequencies below the minimum reporting threshold be collected so that loss severity data can be treated as censored data.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2107.03979v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.164,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.164,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4322504103",
+      "title": "Pharmacologic Treatment of Obesity in Reproductive Aged Women",
+      "authors": [
+        "Akua Nuako",
+        "Lucy Tu",
+        "Karen J. Campoverde Reyes",
+        "Shradha Chhabria",
+        "Fatima Cody Stanford"
+      ],
+      "year": 2023,
+      "doi": "10.1007/s13669-023-00350-1",
+      "url": "https://doi.org/10.1007/s13669-023-00350-1",
+      "abstract": "",
+      "citations": 37,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4322504103"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1629,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1629,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1902.04489v3",
+      "title": "Evaluating Range Value at Risk Forecasts",
+      "authors": [
+        "Tobias Fissler",
+        "Johanna F. Ziegel"
+      ],
+      "year": 2019,
+      "doi": "10.1515/strm-2020-0037",
+      "url": "http://arxiv.org/abs/1902.04489v3",
+      "abstract": "The debate of what quantitative risk measure to choose in practice has mainly focused on the dichotomy between Value at Risk (VaR) -- a quantile -- and Expected Shortfall (ES) -- a tail expectation. Range Value at Risk (RVaR) is a natural interpolation between these two prominent risk measures, which constitutes a tradeoff between the sensitivity of the latter and the robustness of the former, turning it into a practically relevant risk measure on its own. As such, there is a need to statistically validate RVaR forecasts and to compare and rank the performance of different RVaR models, tasks subsumed under the term 'backtesting' in finance. The predictive performance is best evaluated and compared in terms of strictly consistent loss or scoring functions. That is, functions which are minimised in expectation by the correct RVaR forecast. Much like ES, it has been shown recently that RVaR does not admit strictly consistent scoring functions, i.e., it is not elicitable. Mitigating this negative result, this paper shows that a triplet of RVaR with two VaR components at different levels is elicitable. We characterise the class of strictly consistent scoring functions for this triplet. Additional properties of these scoring functions are examined, including the diagnostic tool of Murphy diagrams. The results are illustrated with a simulation study, and we put our approach in perspective with respect to the classical approach of trimmed least squares in robust regression.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1902.04489v3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "clinicaltrials",
+      "id": "NCT07107334",
+      "title": "A Study to Estimate Early Clinical Efficacy Signals of GLP-1 Agonist Administration in Conjunction With Levonorgestrel Intrauterine Device in Obese Patients With Endometrioid Intraepithelial Neoplasia",
+      "authors": [
+        "University of Florida"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://clinicaltrials.gov/study/NCT07107334",
+      "abstract": "This study will explore the use of glucagon-like peptide 1 receptor agonist (GLP-1RA) used concurrently with levonorgestrel intrauterine device in patients with poor surgical candidacy for a hysterectomy or patients who are pursuing fertility sparing. GLP-1RA are a class of medications that mimic the natural hormone glucagon-like peptide-1. These medications trigger the pancreas to release insulin which can help lower blood sugar levels and delay gastric emptying. The recent FDA approval of GLP-1RAs has changed the landscape for pharmacotherapy for weight loss. These hormone-based obesity medications are novel and revolutionary in obesity medicine. Liraglutine, semaglutide, and tirzepatide have become exceedingly popular for their effects on weight loss and obesity-related comorbidities. More recently, GLP-1RAs have exhibited risk reduction of various obesity associated cancers, including endometrial cancer but their exact role in prevention and treatment has yet to be measured.",
+      "citations": 0,
+      "source_hits": [
+        "clinicaltrials"
+      ],
+      "source_ids": [
+        "NCT07107334"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.15,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.15,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41212412",
+      "title": "Precision obesity medicine: A phenotype-guided framework for pharmacologic therapy across the lifespan.",
+      "authors": [
+        "Tuccinardi D",
+        "Masi D",
+        "Watanabe M",
+        "Zanghi Buffi V",
+        "De Domenico F",
+        "Berti S",
+        "Cipriani V",
+        "Manco M",
+        "Manfrini S",
+        "Pagotto U."
+      ],
+      "year": 2025,
+      "doi": "10.1007/s40618-025-02700-7",
+      "url": "https://europepmc.org/article/med/41212412",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41212412"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1484,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1484,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41069706",
+      "title": "The dual impact of GLP-1 receptor agonists on metabolic and reproductive health in polycystic ovary syndrome: insights from human and animal trials.",
+      "authors": [
+        "Hoteit BH",
+        "Kotaich J",
+        "Ftouni H",
+        "Hazime F",
+        "Safawi A",
+        "Masri R",
+        "Marwani M."
+      ],
+      "year": 2025,
+      "doi": "10.1177/20420188251383064",
+      "url": "https://europepmc.org/article/med/41069706",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41069706"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1484,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1484,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41178720",
+      "title": "GLP-1 receptor agonists and cancer: current clinical evidence and translational opportunities for preclinical research.",
+      "authors": [
+        "Valencia-Rincón E",
+        "Rai R",
+        "Chandra V",
+        "Wellberg EA."
+      ],
+      "year": 2025,
+      "doi": "10.1172/jci194743",
+      "url": "https://europepmc.org/article/med/41178720",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41178720"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40917133",
+      "title": "Obesity management in the setting of endometrial cancer and hyperplasia: A narrative review.",
+      "authors": [
+        "Moshayedi N",
+        "Clair K",
+        "Francoeur AA."
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.gore.2025.101929",
+      "url": "https://europepmc.org/article/med/40917133",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40917133"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41356998",
+      "title": "Assessing the Oncological Safety of Glucagon-Like Peptide-1 Receptor Agonists: A Systematic Review and Meta-Analysis.",
+      "authors": [
+        "Jaradat JH",
+        "Al-Ahmad RI",
+        "Al Jaghbeer M",
+        "Abdelaziz AA",
+        "Abu Afifeh NM",
+        "Abu Afifeh G",
+        "Rao A",
+        "Alzoubi A",
+        "Nashwan AJ."
+      ],
+      "year": 2025,
+      "doi": "10.7759/cureus.96071",
+      "url": "https://europepmc.org/article/med/41356998",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41356998"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41165218",
+      "title": "Incretins (GLP-1 Receptor Agonists) and Polycystic Ovaries.",
+      "authors": [
+        "Piazza MJ."
+      ],
+      "year": 2025,
+      "doi": "10.5935/1518-0557.20250162",
+      "url": "https://europepmc.org/article/med/41165218",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41165218"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41262092",
+      "title": "Preoperative Management with Mazindol for Obese Women Diagnosed with Endometrial Carcinoma Undergoing Robot-assisted Hysterectomy: A Pilot Case Series and Literature Review.",
+      "authors": [
+        "Ota K",
+        "Takahashi T",
+        "Ota Y",
+        "Morimoto Y",
+        "Okamoto H",
+        "Kawamura S",
+        "Saito W",
+        "Shiota M",
+        "Shimoya K."
+      ],
+      "year": 2025,
+      "doi": "10.4103/gmit.gmit-d-25-00050",
+      "url": "https://europepmc.org/article/med/41262092",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41262092"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41506747",
+      "title": "Obesity and Cancer: Mechanisms, Epidemiological Evidence, and Potential Risk Reduction.",
+      "authors": [
+        "Lim JS",
+        "Kim S",
+        "Cho IY",
+        "Shin DW."
+      ],
+      "year": 2026,
+      "doi": "10.7570/jomes25088",
+      "url": "https://europepmc.org/article/med/41506747",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41506747"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41198197",
+      "title": "Tirzepatide for fertility-sparing treatment in obese/overweight patients with endometrial cancer and atypical hyperplasia: a phase II single-arm clinical trial protocol.",
+      "authors": [
+        "Zheng J",
+        "Yang J",
+        "Yang J."
+      ],
+      "year": 2025,
+      "doi": "10.1136/bmjopen-2025-105429",
+      "url": "https://europepmc.org/article/med/41198197",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41198197"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2305.10041v1",
+      "title": "Risk Assessment of Lymph Node Metastases in Endometrial Cancer Patients: A Causal Approach",
+      "authors": [
+        "Alessio Zanga",
+        "Alice Bernasconi",
+        "Peter J. F. Lucas",
+        "Hanny Pijnenborg",
+        "Casper Reijnen",
+        "Marco Scutari",
+        "Fabio Stella"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2305.10041v1",
+      "abstract": "Assessing the pre-operative risk of lymph node metastases in endometrial cancer patients is a complex and challenging task. In principle, machine learning and deep learning models are flexible and expressive enough to capture the dynamics of clinical risk assessment. However, in this setting we are limited to observational data with quality issues, missing values, small sample size and high dimensionality: we cannot reliably learn such models from limited observational data with these sources of bias. Instead, we choose to learn a causal Bayesian network to mitigate the issues above and to leverage the prior knowledge on endometrial cancer available from clinicians and physicians. We introduce a causal discovery algorithm for causal Bayesian networks based on bootstrap resampling, as opposed to the single imputation used in related works. Moreover, we include a context variable to evaluate whether selection bias results in learning spurious associations. Finally, we discuss the strengths and limitations of our findings in light of the presence of missing data that may be missing-not-at-random, which is common in real-world clinical settings.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2305.10041v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/s40278-023-43459-0",
+      "title": "Semaglutide, liraglutide: risk of suicidal ideation and self-injury",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.1007/s40278-023-43459-0",
+      "url": "https://doi.org/10.1007/s40278-023-43459-0",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/s40278-023-43459-0"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1334,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1334,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1136/ijgc-2021-esgo.114",
+      "title": "86 Endometrial Cancer Immunohistochemical Risk Stratification in a large uterine-confined cancer series",
+      "authors": [
+        "E Perrone",
+        "F De Felice",
+        "I Capasso",
+        "D Arciuolo",
+        "E Distefano",
+        "D Lorusso",
+        "GF Zannoni",
+        "G Scambia",
+        "F Fanfani"
+      ],
+      "year": 2021,
+      "doi": "10.1136/ijgc-2021-esgo.114",
+      "url": "https://doi.org/10.1136/ijgc-2021-esgo.114",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1136/ijgc-2021-esgo.114"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.132,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.132,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1710.05204v2",
+      "title": "Sequential Design and Spatial Modeling for Portfolio Tail Risk Measurement",
+      "authors": [
+        "Michael Ludkovski",
+        "James Risk"
+      ],
+      "year": 2017,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1710.05204v2",
+      "abstract": "We consider calculation of capital requirements when the underlying economic scenarios are determined by simulatable risk factors. In the respective nested simulation framework, the goal is to estimate portfolio tail risk, quantified via VaR or TVaR of a given collection of future economic scenarios representing factor levels at the risk horizon. Traditionally, evaluating portfolio losses of an outer scenario is done by computing a conditional expectation via inner-level Monte Carlo and is computationally expensive. We introduce several inter-related machine learning techniques to speed up this computation, in particular by properly accounting for the simulation noise. Our main workhorse is an advanced Gaussian Process (GP) regression approach which uses nonparametric spatial modeling to efficiently learn the relationship between the stochastic factors defining scenarios and corresponding portfolio value. Leveraging this emulator, we develop sequential algorithms that adaptively allocate inner simulation budgets to target the quantile region. The GP framework also yields better uncertainty quantification for the resulting VaR/TVaR estimators that reduces bias and variance compared to existing methods. We illustrate the proposed strategies with two case-studies in two and six dimensions.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1710.05204v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1803.09898v4",
+      "title": "On Fairness of Systemic Risk Measures",
+      "authors": [
+        "Francesca Biagini",
+        "Jean-Pierre Fouque",
+        "Marco Frittelli",
+        "Thilo Meyer-Brandis"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1803.09898v4",
+      "abstract": "In our previous paper, \"A Unified Approach to Systemic Risk Measures via Acceptance Set\" (\\textit{Mathematical Finance, 2018}), we have introduced a general class of systemic risk measures that allow for random allocations to individual banks before aggregation of their risks. In the present paper, we prove the dual representation of a particular subclass of such systemic risk measures and the existence and uniqueness of the optimal allocation related to them. We also introduce an associated utility maximization problem which has the same optimal solution as the systemic risk measure. In addition, the optimizer in the dual formulation provides a \\textit{risk allocation} which is fair from the point of view of the individual financial institutions. The case with exponential utilities which allows for explicit computation is treated in details.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1803.09898v4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1508.00310v2",
+      "title": "Statistical Emulators for Pricing and Hedging Longevity Risk Products",
+      "authors": [
+        "James Risk",
+        "Michael Ludkovski"
+      ],
+      "year": 2015,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1508.00310v2",
+      "abstract": "We propose the use of statistical emulators for the purpose of valuing mortality-linked contracts in stochastic mortality models. Such models typically require (nested) evaluation of expected values of nonlinear functionals of multi-dimensional stochastic processes. Except in the simplest cases, no closed-form expressions are available, necessitating numerical approximation. Rather than building ad hoc analytic approximations, we advocate the use of modern statistical tools from machine learning to generate a flexible, non-parametric surrogate for the true mappings. This method allows performance guarantees regarding approximation accuracy and removes the need for nested simulation. We illustrate our approach with case studies involving (i) a Lee-Carter model with mortality shocks, (ii) index-based static hedging with longevity basis risk; (iii) a Cairns-Blake-Dowd stochastic survival probability model.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1508.00310v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20669/supp-3",
+      "title": "Supplemental Information 3: Patient data of three postoperative management strategies for uterine septum with endometrial polyps",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20669/supp-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20669/supp-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20669/supp-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.15654/fig-1",
+      "title": "Figure 1: (A) Expression difference between normal and tumor tissues, meaningful cancer types including bladder urothelial carcinoma, breast invasive carcinoma, colon adenocarcinoma, rectum adenocarcinoma, head and neck squamous cell carcinoma, liver hepatocellular carcinoma, lung adenocarcinoma, lung squamous cell carcinoma, thyroid carcinoma, uterine corpus endometrial carcinoma, kidney renal clear cell carcinoma, and kidney renal papillary cell carcinoma.\n                      <i>P</i>\n                      -value significant codes: 0 ≤ ∗∗∗ &lt; 0.001 ≤ ∗∗ &lt; 0.01 ≤ ∗ &lt; 0.05 ≤ . &lt; 0.1. The survival analysis of cancers of bladder urothelial carcinoma (B), lung carcinoma (C), liver hepatocellular carcinoma (D), thyroid carcinoma (E), colorectal cancer (F), breast cancer (J), renal cancer (H), head and neck carcinoma (I) and uterine corpus endometrial carcinoma (J).",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.15654/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.15654/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.15654/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20669/supp-1",
+      "title": "Supplemental Information 1: Raw data of patients with three postoperative management strategies for uterine septum with endometrial polyps in Excel format",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20669/supp-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20669/supp-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20669/supp-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10433/fig-3",
+      "title": "Figure 3: Comparison of protein expression of DLGAP5 in normal endometrial tissues and endometrial cancer tissues.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10433/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10433/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10433/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-1",
+      "title": "Table 1: Characteristics of the women with endometrial hyperplasia or endometrial cancer from 2009 to 2012.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20409/fig-3",
+      "title": "Figure 3: MRS2 drives endometrial cancer malignancy.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20409/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20409/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20409/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/fig-1",
+      "title": "Figure 1: The annual trends in the endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2010.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-2",
+      "title": "Table 2: The endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2012 stratified according to 5-year age increments.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16424/supp-5",
+      "title": "Supplemental Information 5: Raw data for advanced endometrial cancer",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16424/supp-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16424/supp-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16424/supp-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16424/supp-4",
+      "title": "Supplemental Information 4: Raw data for early stage endometrial cancer",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16424/supp-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16424/supp-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16424/supp-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-12",
+      "title": "Risk Factors and the Role of Radiotherapy in the Treatment of Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-12",
+      "url": "https://doi.org/10.1201/b14187-12",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-12"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/978-81-322-1892-0_6",
+      "title": "Risk Factors, Diagnosis, and Staging of Endometrial Cancer",
+      "authors": [
+        "Anupama Rajanbabu"
+      ],
+      "year": 2015,
+      "doi": "10.1007/978-81-322-1892-0_6",
+      "url": "https://doi.org/10.1007/978-81-322-1892-0_6",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/978-81-322-1892-0_6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-10",
+      "title": "Imaging Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-10",
+      "url": "https://doi.org/10.1201/b14187-10",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-10"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/978-81-322-1892-0_24",
+      "title": "Chemotherapy for High-Risk Early-Stage Endometrial Cancer: Current Evidence",
+      "authors": [
+        "Seema Gulia",
+        "Sudeep Gupta"
+      ],
+      "year": 2015,
+      "doi": "10.1007/978-81-322-1892-0_24",
+      "url": "https://doi.org/10.1007/978-81-322-1892-0_24",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/978-81-322-1892-0_24"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-5",
+      "title": "Screening in Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-5",
+      "url": "https://doi.org/10.1201/b14187-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.5772/25821",
+      "title": "Reducing the Risk of Endometrial Cancer in Patients Receiving Selective Estrogen Receptor Modulator (SERM) Therapy",
+      "authors": [
+        "Victor G."
+      ],
+      "year": 2012,
+      "doi": "10.5772/25821",
+      "url": "https://doi.org/10.5772/25821",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.5772/25821"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-14",
+      "title": "Minimal Access Surgery in Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-14",
+      "url": "https://doi.org/10.1201/b14187-14",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-14"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-8",
+      "title": "The Molecular Genetics of Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-8",
+      "url": "https://doi.org/10.1201/b14187-8",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-8"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

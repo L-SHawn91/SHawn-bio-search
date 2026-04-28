@@ -1,0 +1,1787 @@
+{
+  "query": "U18666A DHCR24 inhibitor apoptosis cancer",
+  "effective_query": "U18666A DHCR24 inhibitor apoptosis cancer",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 49,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4386315075",
+      "title": "Functional significance of cholesterol metabolism in cancer: from threat to treatment",
+      "authors": [
+        "Mingming Xiao",
+        "Jin Xu",
+        "Wei Wang",
+        "Bo Zhang",
+        "Jiang Liu",
+        "Jialin Li",
+        "Hang Xu",
+        "Yingjun Zhao",
+        "Xianjun Yu",
+        "Si Shi"
+      ],
+      "year": 2023,
+      "doi": "10.1038/s12276-023-01079-w",
+      "url": "https://doi.org/10.1038/s12276-023-01079-w",
+      "abstract": "Cholesterol is an essential structural component of membranes that contributes to membrane integrity and fluidity. Cholesterol homeostasis plays a critical role in the maintenance of cellular activities. Recently, increasing evidence has indicated that cholesterol is a major determinant by modulating cell signaling events governing the hallmarks of cancer. Numerous studies have shown the functional significance of cholesterol metabolism in tumorigenesis, cancer progression and metastasis through its regulatory effects on the immune response, ferroptosis, autophagy, cell stemness, and the DNA damage response. Here, we summarize recent literature describing cholesterol metabolism in cancer cells, including the cholesterol metabolism pathways and the mutual regulatory mechanisms involved in cancer progression and cholesterol metabolism. We also discuss various drugs targeting cholesterol metabolism to suggest new strategies for cancer treatment.",
+      "citations": 191,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4386315075"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.3107,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3107,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3098123994",
+      "title": "Efferocytosis potentiates the expression of arachidonate 15-lipoxygenase (ALOX15) in alternatively activated human macrophages through LXR activation",
+      "authors": [
+        "Ryan G. Snodgrass",
+        "Yvonne Benatzy",
+        "Tobias Schmid",
+        "Dmitry Namgaladze",
+        "Malwina Mainka",
+        "Nils Helge Schebb",
+        "Dieter Lütjohann",
+        "Bernhard Brüne"
+      ],
+      "year": 2020,
+      "doi": "10.1038/s41418-020-00652-4",
+      "url": "https://doi.org/10.1038/s41418-020-00652-4",
+      "abstract": "Macrophages acquire anti-inflammatory and proresolving functions to facilitate resolution of inflammation and promote tissue repair. While alternatively activated macrophages (AAMs), also referred to as M2 macrophages, polarized by type 2 (Th2) cytokines IL-4 or IL-13 contribute to the suppression of inflammatory responses and play a pivotal role in wound healing, contemporaneous exposure to apoptotic cells (ACs) potentiates the expression of anti-inflammatory and tissue repair genes. Given that liver X receptors (LXRs), which coordinate sterol metabolism and immune cell function, play an essential role in the clearance of ACs, we investigated whether LXR activation following engulfment of ACs selectively potentiates the expression of Th2 cytokine-dependent genes in primary human AAMs. We show that AC uptake simultaneously upregulates LXR-dependent, but suppresses SREBP-2-dependent gene expression in macrophages, which are both prevented by inhibiting Niemann-Pick C1 (NPC1)-mediated sterol transport from lysosomes. Concurrently, macrophages accumulate sterol biosynthetic intermediates desmosterol, lathosterol, lanosterol, and dihydrolanosterol but not cholesterol-derived oxysterols. Using global transcriptome analysis, we identify anti-inflammatory and proresolving genes including interleukin-1 receptor antagonist (IL1RN) and arachidonate 15-lipoxygenase (ALOX15) whose expression are selectively potentiated in macrophages upon concomitant exposure to ACs or LXR agonist T0901317 (T09) and Th2 cytokines. We show priming macrophages via LXR activation enhances the cellular capacity to synthesize inflammation-suppressing specialized proresolving mediator (SPM) precursors 15-HETE and 17-HDHA as well as resolvin D5. Silencing LXRα and LXRβ in macrophages attenuates the potentiation of ALOX15 expression by concomitant stimulation of ACs or T09 and IL-13. Collectively, we identify a previously unrecognized mechanism of regulation whereby LXR integrates AC uptake to selectively shape Th2-dependent gene expression in AAMs.",
+      "citations": 80,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3098123994"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.2099,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2099,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4381548264",
+      "title": "DHCR24 reverses Alzheimer’s disease-related pathology and cognitive impairment via increasing hippocampal cholesterol levels in 5xFAD mice",
+      "authors": [
+        "Wenbin Zhang",
+        "Yue Huang",
+        "Xiaorou Guo",
+        "Meng-qi Zhang",
+        "Xiang-shan Yuan",
+        "Hengbing Zu"
+      ],
+      "year": 2023,
+      "doi": "10.1186/s40478-023-01593-y",
+      "url": "https://doi.org/10.1186/s40478-023-01593-y",
+      "abstract": "Accumulating evidences reveal that cellular cholesterol deficiency could trigger the onset of Alzheimer's disease (AD). As a key regulator, 24-dehydrocholesterol reductase (DHCR24) controls cellular cholesterol homeostasis, which was found to be downregulated in AD vulnerable regions and involved in AD-related pathological activities. However, DHCR24 as a potential therapeutic target for AD remains to be identified. In present study, we demonstrated the role of DHCR24 in AD by employing delivery of adeno-associated virus carrying DHCR24 gene into the hippocampus of 5xFAD mice. Here, we found that 5xFAD mice had lower levels of cholesterol and DHCR24 expression, and the cholesterol loss was alleviated by DHCR24 overexpression. Surprisingly, the cognitive impairment of 5xFAD mice was significantly reversed after DHCR24-based gene therapy. Moreover, we revealed that DHCR24 knock-in successfully prevented or reversed AD-related pathology in 5xFAD mice, including amyloid-β deposition, synaptic injuries, autophagy, reactive astrocytosis, microglial phagocytosis and apoptosis. In conclusion, our results firstly demonstrated that the potential value of DHCR24-mediated regulation of cellular cholesterol level as a promising treatment for AD.",
+      "citations": 33,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4381548264"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2001,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2001,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4386744497",
+      "title": "The roles of different microRNAs in the regulation of cholesterol in viral hepatitis",
+      "authors": [
+        "Xuan Meng",
+        "Yeganeh Eslami",
+        "Ehsan Derafsh",
+        "Anwar Salih Saihood",
+        "Nikoo Emtiazi",
+        "Saman Yasamineh",
+        "Omid Gholizadeh",
+        "Renzon Daniel Cosme Pecho"
+      ],
+      "year": 2023,
+      "doi": "10.1186/s12964-023-01250-w",
+      "url": "https://doi.org/10.1186/s12964-023-01250-w",
+      "abstract": "Cholesterol plays a significant role in stabilizing lipid or membrane rafts, which are specific cellular membrane structures. Cholesterol is involved in numerous cellular processes, including regulating virus entry into the host cell. Multiple viruses have been shown to rely on cholesterol for virus entry and/or morphogenesis. Research indicates that reprogramming of the host's lipid metabolism is associated with hepatitis B virus (HBV) and hepatitis C virus (HCV) infections in the progression to severe liver disease for viruses that cause chronic hepatitis. Moreover, knowing the precise mode of viral interaction with target cells sheds light on viral pathogenesis and aids in the development of vaccines and therapeutic targets. As a result, the area of cholesterol-lowering therapy is quickly evolving and has many novel antiviral targets and medications. It has been shown that microRNAs (miRNAs) either directly or indirectly target the viral genome, preventing viral replication. Moreover, miRNAs have recently been shown to be strong post-transcriptional regulators of the genes involved in lipid metabolism, particularly those involved in cholesterol homeostasis. As important regulators of lipid homeostasis in several viral infections, miRNAs have recently come to light. In addition, multiple studies demonstrated that during viral infection, miRNAs modulate several enzymes in the mevalonate/cholesterol pathway. As cholesterol metabolism is essential to the life cycle of viral hepatitis and other viruses, a sophisticated understanding of miRNA regulation may contribute to the development of a novel anti-HCV treatment. The mechanisms underlying the effectiveness of miRNAs as cholesterol regulators against viral hepatitis are explored in this review. Video Abstract.",
+      "citations": 24,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4386744497"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1938,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1938,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W1996151739",
+      "title": "Translocator Protein 2 Is Involved in Cholesterol Redistribution during Erythropoiesis",
+      "authors": [
+        "Jinjiang Fan",
+        "Malena B. Rone",
+        "Vassilios Papadopoulos"
+      ],
+      "year": 2009,
+      "doi": "10.1074/jbc.m109.029876",
+      "url": "https://doi.org/10.1074/jbc.m109.029876",
+      "abstract": "Translocator protein (TSPO) is an 18-kDa cholesterol- and drug-binding protein conserved from bacteria to humans. While surveying for Tspo-like genes, we identified its paralogous gene, Tspo2, encoding an evolutionarily conserved family of proteins that arose by gene duplications before the divergence of avians and mammals. Comparative analysis of Tspo1 and Tspo2 functions suggested that Tspo2 has become subfunctionalized, typical of duplicated genes, characterized by the loss of diagnostic drug ligand-binding but retention of cholesterol-binding properties, hematopoietic tissue- and erythroid cell-specific distribution, and subcellular endoplasmic reticulum and nuclear membrane localization. Expression of Tspo2 in erythroblasts is strongly correlated with the down-regulation of the enzymes involved in cholesterol biosynthesis. Overexpression of TSPO2 in erythroid cells resulted in the redistribution of intracellular free cholesterol, an essential step in nucleus expulsion during erythrocyte maturation. Taken together, these data identify the TSPO2 family of proteins as mediators of cholesterol redistribution-dependent erythroblast maturation during mammalian erythropoiesis.",
+      "citations": 81,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1996151739"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1902,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1902,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2004600133",
+      "title": "Bacterial Colonization of Host Cells in the Absence of Cholesterol",
+      "authors": [
+        "Stacey D. Gilk",
+        "Diane C. Cockrell",
+        "Courtney Luterbach",
+        "Bryan Hansen",
+        "Leigh A. Knodler",
+        "J. Antonio Ibarra",
+        "Olivia Steele‐Mortimer",
+        "Robert A. Heinzen"
+      ],
+      "year": 2013,
+      "doi": "10.1371/journal.ppat.1003107",
+      "url": "https://doi.org/10.1371/journal.ppat.1003107",
+      "abstract": "Reports implicating important roles for cholesterol and cholesterol-rich lipid rafts in host-pathogen interactions have largely employed sterol sequestering agents and biosynthesis inhibitors. Because the pleiotropic effects of these compounds can complicate experimental interpretation, we developed a new model system to investigate cholesterol requirements in pathogen infection utilizing DHCR24(-/-) mouse embryonic fibroblasts (MEFs). DHCR24(-/-) MEFs lack the Δ24 sterol reductase required for the final enzymatic step in cholesterol biosynthesis, and consequently accumulate desmosterol into cellular membranes. Defective lipid raft function by DHCR24(-/-) MEFs adapted to growth in cholesterol-free medium was confirmed by showing deficient uptake of cholera-toxin B and impaired signaling by epidermal growth factor. Infection in the absence of cholesterol was then investigated for three intracellular bacterial pathogens: Coxiella burnetii, Salmonella enterica serovar Typhimurium, and Chlamydia trachomatis. Invasion by S. Typhimurium and C. trachomatis was unaltered in DHCR24(-/-) MEFs. In contrast, C. burnetii entry was significantly decreased in -cholesterol MEFs, and also in +cholesterol MEFs when lipid raft-associated α(V)β(3) integrin was blocked, suggesting a role for lipid rafts in C. burnetii uptake. Once internalized, all three pathogens established their respective vacuolar niches and replicated normally. However, the C. burnetii-occupied vacuole within DHCR24(-/-) MEFs lacked the CD63-positive material and multilamellar membranes typical of vacuoles formed in wild type cells, indicating cholesterol functions in trafficking of multivesicular bodies to the pathogen vacuole. These data demonstrate that cholesterol is not essential for invasion and intracellular replication by S. Typhimurium and C. trachomatis, but plays a role in C. burnetii-host cell interactions.",
+      "citations": 67,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2004600133"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.188,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.188,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3163186068",
+      "title": "Deregulated FASN Expression in BRAF Inhibitor-Resistant Melanoma Cells Unveils New Targets for Drug Combinations",
+      "authors": [
+        "Serena Stamatakos",
+        "Giovanni Luca Beretta",
+        "Elisabetta Vergani",
+        "Matteo Dugo",
+        "Cristina Corno",
+        "Elisabetta Corna",
+        "Stella Tinelli",
+        "Simona Frigerio",
+        "Emilio Ciusani",
+        "Monica Rodolfo",
+        "Paola Perego",
+        "Laura Gatti",
+        "Beretta GL"
+      ],
+      "year": 2021,
+      "doi": "10.3390/cancers13092284",
+      "url": "https://doi.org/10.3390/cancers13092284",
+      "abstract": "Metabolic changes promoting cell survival are involved in metastatic melanoma progression and in the development of drug resistance. In BRAF-inhibitor resistant melanoma cells, we explored the role of FASN, an enzyme involved in lipogenesis overexpressed in metastatic melanoma. Resistant melanoma cells displaying enhanced migratory and pro-invasive abilities increased sensitivity to the BRAF inhibitor PLX4032 upon the molecular targeting of FASN and upon treatment with the FASN inhibitor orlistat. This behavior was associated with a marked apoptosis and caspase 3/7 activation observed for the drug combination. The expression of FASN was found to be inversely associated with drug resistance in BRAF-mutant cell lines, both in a set of six resistant/sensitive matched lines and in the Cancer Cell Line Encyclopedia. A favorable drug interaction in resistant cells was also observed with U18666 A inhibiting DHCR24, which increased upon FASN targeting. The simultaneous combination of the two inhibitors showed a synergistic interaction with PLX4032 in resistant cells. In conclusion, FASN plays a role in BRAF-mutated melanoma progression, thereby creating novel therapeutic opportunities for the treatment of melanoma.",
+      "citations": 20,
+      "source_hits": [
+        "openalex",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3163186068",
+        "34068792"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1877,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1877,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W1986210117",
+      "title": "β-Amyloid Inhibits Protein Prenylation and Induces Cholesterol Sequestration by Impairing SREBP-2 Cleavage",
+      "authors": [
+        "Amany Mohamed",
+        "Lucila Saavedra",
+        "Alba Di Pardo",
+        "Simonetta Sipione",
+        "E Chaves"
+      ],
+      "year": 2012,
+      "doi": "10.1523/jneurosci.0630-12.2012",
+      "url": "https://doi.org/10.1523/jneurosci.0630-12.2012",
+      "abstract": "Accumulation of β-amyloid (Aβ) inside brain neurons is an early and crucial event in Alzheimer's disease (AD). Studies in brains of AD patients and mice models of AD suggested that cholesterol homeostasis is altered in neurons that accumulate Aβ. Here we directly investigated the role of intracellular oligomeric Aβ(42) (oAβ(42)) in neuronal cholesterol homeostasis. We report that oAβ(42) induces cholesterol sequestration without increasing cellular cholesterol mass. Several features of AD, such as endosomal abnormalities, brain accumulation of Aβ and neurofibrillary tangles, and influence of apolipoprotein E genotype, are also present in Niemann-Pick type C, a disease characterized by impairment of intracellular cholesterol trafficking. These common features and data presented here suggest that a pathological mechanism involving abnormal cholesterol trafficking could take place in AD. Cholesterol sequestration in Aβ-treated neurons results from impairment of intracellular cholesterol trafficking secondary to inhibition of protein prenylation. oAβ(42) reduces sterol regulatory element-binding protein-2 (SREBP-2) cleavage, causing decrease of protein prenylation. Inhibition of protein prenylation represents a mechanism of oAβ(42)-induced neuronal death. Supply of the isoprenoid geranylgeranyl pyrophosphate to oAβ(42)-treated neurons recovers normal protein prenylation, reduces cholesterol sequestration, and prevents Aβ-induced neurotoxicity. Significant to AD, reduced levels of protein prenylation are present in the cerebral cortex of the TgCRND8 mouse model. In conclusion, we demonstrate a significant inhibitory effect of Aβ on protein prenylation and identify SREBP-2 as a target of oAβ(42), directly linking Aβ to cholesterol homeostasis impairment.",
+      "citations": 40,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1986210117"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1783,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1783,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2033847143",
+      "title": "Role of Oxidative Stress in Hepatocarcinogenesis Induced by Hepatitis C Virus",
+      "authors": [
+        "Kyoko Tsukiyama–Kohara"
+      ],
+      "year": 2012,
+      "doi": "10.3390/ijms131115271",
+      "url": "https://doi.org/10.3390/ijms131115271",
+      "abstract": "Hepatitis C virus (HCV) easily establishes chronic hepatitis, cirrhosis, and hepatocellular carcinoma (HCC). During the progression of HCV infections, reactive oxygen species (ROS) are generated, and these ROS then induce significant DNA damage. The role of ROS in the pathogenesis of HCV infection is still not fully understood. Recently, we found that HCV induced the expression of 3β-hydroxysterol Δ24-reductase (DHCR24). We also found that a HCV responsive region is present in the 5'-flanking genomic promoter region of DHCR24 and the HCV responsive region was characterized as (-167/-140). Moreover, the transcription factor Sp1 was found to bind to this region in response to oxidative stress under the regulation of ataxia telangiectasia mutated (ATM) kinase. Overexpression of DHCR24 impaired p53 activity by suppression of acetylation and increased interaction with MDM2. This impairment of p53 suppressed the hydrogen peroxide-induced apoptotic response in hepatocytes. Thus, a target of oxidative stress in HCV infection is DHCR24 through Sp1, which suppresses apoptotic responses and increases tumorigenicity.",
+      "citations": 38,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2033847143"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1777,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1777,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/s11745-005-1426-9",
+      "title": "Comparison of effects of U18666A and enantiomeric U18666A on sterol synthesis and induction of apoptosis",
+      "authors": [
+        "Richard J. Cenedella",
+        "Patricia S. Sexton",
+        "Kathiresan Krishnan",
+        "Douglas F. Covey"
+      ],
+      "year": 2005,
+      "doi": "10.1007/s11745-005-1426-9",
+      "url": "https://doi.org/10.1007/s11745-005-1426-9",
+      "abstract": ">Abstract > >Treatment of animals or cells with the amphipathic tertiary amine U18666A {3β‐[2‐(diethylamino) ethoxy]androst‐5‐en‐17‐one} provides models for several human diseases (e.g., cataracts, Niemann‐Pick disease, and epilepsy). Although U18666A can inhibit several enzymes in the cholesterol synthesis pathway, we hypothesized that induction of these varied conditions was due to physical effects of the amine rather than to inhibition of specific proteins. To test this possibility we compared the capacity of U18666A and its enantiomer, >ent >‐U18666A, to inhibit net sterol synthesis and induce apoptosis in cultured bovine lens epithelial cells. Nonenantiospecific actions dependent on the physical properties of these mirror image molecules would be identical, but effects dependent upon enantiospecific interactions would be different for the enantiomers. At the same concentrations, both forms of the compound equally inhibited sterol synthesis and induced apoptosis. These observations supported a generalized mechanism of enzyme inhibition such as perturbation of the microenvironment of endoplasmic enzymes and alteration of membrane order, perhaps of the mitochondrial membrane, to explain induction of apoptosis. >",
+      "citations": 14,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/s11745-005-1426-9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1641,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1641,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "34624089",
+      "title": "Oncogenic role of the SOX9-DHCR24-cholesterol biosynthesis axis in IGH-BCL2+ diffuse large B-cell lymphomas.",
+      "authors": [
+        "Shen Y",
+        "Zhou J",
+        "Nie K",
+        "Cheng S",
+        "Chen Z",
+        "Wang W",
+        "Wei W",
+        "Jiang D",
+        "Peng Z",
+        "Ren Y"
+      ],
+      "year": 2022,
+      "doi": "10.1182/blood.2021012327",
+      "url": "https://europepmc.org/article/med/34624089",
+      "abstract": "",
+      "citations": 35,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "34624089"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.159,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.159,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1709.06720v1",
+      "title": "SIRT6 Knockout Cells Resist Apoptosis Initiation but Not Progression: A Computational Method to Evaluate the Progression of Apoptosis",
+      "authors": [
+        "Sergii Domanskyi",
+        "Justin W. Nicholatos",
+        "Joshua E. Schilling",
+        "Vladimir Privman",
+        "Sergiy Libert"
+      ],
+      "year": 2017,
+      "doi": "10.1007/s10495-017-1412-0",
+      "url": "http://arxiv.org/abs/1709.06720v1",
+      "abstract": "Apoptosis is essential for numerous processes, such as development, resistance to infections, and suppression of tumorigenesis. Here, we investigate the influence of the nutrient sensing and longevity-assuring enzyme SIRT6 on the dynamics of apoptosis triggered by serum starvation. Specifically, we characterize the progression of apoptosis in wild type and SIRT6 deficient mouse embryonic fibroblasts using time-lapse flow cytometry and computational modelling based on rate-equations and cell distribution analysis. We find that SIRT6 deficient cells resist apoptosis by delaying its initiation. Interestingly, once apoptosis is initiated, the rate of its progression is higher in SIRT6 null cells compared to identically cultured wild type cells. However, SIRT6 null cells succumb to apoptosis more slowly, not only in response to nutrient deprivation but also in response to other stresses. Our data suggest that SIRT6 plays a role in several distinct steps of apoptosis. Overall, we demonstrate the utility of our computational model to describe stages of apoptosis progression and the integrity of the cellular membrane. Such measurements will be useful in a broad range of biological applications. We describe a computational method to evaluate the progression of apoptosis through different stages. Using this method, we describe how cells devoid of SIRT6 longevity gene respond to apoptosis stimuli, specifically, how they respond to starvation. We find that SIRT6 cells resist apoptosis initiation; however, once initiated, they progress through the apoptosis at a faster rate. These data are first of the kind and suggest that SIRT6 activities might play different roles at different stages of apoptosis. The model that we propose can be used to quantitatively evaluate progression of apoptosis and will be useful in studies of cancer treatments and other areas where apoptosis is involved.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1709.06720v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40055353",
+      "title": "CYP51A1 drives resistance to pH-dependent cell death in pancreatic cancer.",
+      "authors": [
+        "Chen F",
+        "Tang H",
+        "Li C",
+        "Kang R",
+        "Tang D",
+        "Liu J."
+      ],
+      "year": 2025,
+      "doi": "10.1038/s41467-025-57583-2",
+      "url": "https://europepmc.org/article/med/40055353",
+      "abstract": "",
+      "citations": 9,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40055353"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1568,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1568,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1007.3567v1",
+      "title": "Bcl-2 inhibits apoptosis by increasing the time-to-death and intrinsic cell-to-cell variations in the mitochondrial pathway of cell death",
+      "authors": [
+        "Joanna Skommer",
+        "Tom Brittain",
+        "Subhadip Raychaudhuri"
+      ],
+      "year": 2010,
+      "doi": "10.1007/s10495-010-0515-7",
+      "url": "http://arxiv.org/abs/1007.3567v1",
+      "abstract": "BH3 mimetics have been proposed as new anticancer therapeutics. They target anti-apoptotic Bcl-2 proteins, up-regulation of which has been implicated in the resistance of many cancer cells, particularly leukemia and lymphoma cells, to apoptosis. Using probabilistic computational modeling of the mitochondrial pathway of apoptosis, verified by single-cell experimental observations, we develop a model of Bcl-2 inhibition of apoptosis. Our results clarify how Bcl-2 imparts its anti-apoptotic role by increasing the time-to-death and cell-to-cell variability. We also show that although the commitment to death is highly impacted by differences in protein levels at the time of stimulation, inherent stochastic fluctuations in apoptotic signaling are sufficient to induce cell-to-cell variability and to allow single cells to escape death. This study suggests that intrinsic cell-to-cell stochastic variability in apoptotic signaling is sufficient to cause fractional killing of cancer cells after exposure to BH3 mimetics. This is an unanticipated facet of cancer chemoresistance.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1007.3567v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1007.3565v1",
+      "title": "Neuroglobin protects nerve cells from apoptosis by inhibiting the intrinsic pathway of cell death",
+      "authors": [
+        "Subhadip Raychaudhuri",
+        "Joanna Skommer",
+        "Kristen Henty",
+        "Nigel Birch",
+        "Thomas Brittain"
+      ],
+      "year": 2010,
+      "doi": "10.1007/s10495-009-0436-5",
+      "url": "http://arxiv.org/abs/1007.3565v1",
+      "abstract": "In the past few years, overwhelming evidence has accrued that a high level of expression of the protein neuroglobin protects neurons in vitro, in animal models, and in humans, against cell death associated with hypoxic and amyloid insult. However, until now, the exact mechanism of neuroglobin's protective action has not been determined. Using cell biology and biochemical approaches we demonstrate that neuroglobin inhibits the intrinsic pathway of apoptosis in vitro and intervenes in activation of pro-caspase 9 by interaction with cytochrome c. Using systems level information of the apoptotic signalling reactions we have developed a quantitative model of neuroglobin inhibition of apoptosis, which simulates neuroglobin blocking of apoptosome formation at a single cell level. Furthermore, this model allows us to explore the effect of neuroglobin in conditions not easily accessible to experimental study. We found that the protection of neurons by neuroglobin is very concentration sensitive. The impact of neuroglobin may arise from both its binding to cytochrome c and its subsequent redox reaction, although the binding alone is sufficient to block pro-caspase 9 activation. These data provides an explanation the action of neuroglobin in the protection of nerve cells from unwanted apoptosis.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1007.3565v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40307614",
+      "title": "Research progress on cholesterol metabolism and tumor therapy.",
+      "authors": [
+        "Chu Z",
+        "Fang L",
+        "Xiang Y",
+        "Ding Y."
+      ],
+      "year": 2025,
+      "doi": "10.1007/s12672-025-02430-5",
+      "url": "https://europepmc.org/article/med/40307614",
+      "abstract": "",
+      "citations": 5,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40307614"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41538718",
+      "title": "Cholesterol Deficiency Directs Autophagy-Dependent Secretion of Extracellular Vesicles.",
+      "authors": [
+        "Yaeger JDW",
+        "Sengupta S",
+        "Walz AL",
+        "Morita M",
+        "Morgan TK",
+        "Vermeer PD",
+        "Francis KR."
+      ],
+      "year": 2026,
+      "doi": "10.1002/jev2.70218",
+      "url": "https://europepmc.org/article/med/41538718",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41538718"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1504,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1504,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38921444",
+      "title": "Elucidating the Role of Lipid-Metabolism-Related Signal Transduction and Inhibitors in Skin Cancer.",
+      "authors": [
+        "Kook E",
+        "Kim DH."
+      ],
+      "year": 2024,
+      "doi": "10.3390/metabo14060309",
+      "url": "https://europepmc.org/article/med/38921444",
+      "abstract": "",
+      "citations": 4,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "38921444"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1495,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1495,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40535103",
+      "title": "Pan-cancer analysis reveals the potential role of DHCR24 in bladder cancer via interactions with HRAS to facilitate cholesterol synthesis.",
+      "authors": [
+        "Wang Z",
+        "Mao J",
+        "Zhang Y",
+        "Yang W",
+        "Sun D",
+        "Lu Z",
+        "Lu X",
+        "Gao B."
+      ],
+      "year": 2025,
+      "doi": "10.3892/ol.2025.15131",
+      "url": "https://europepmc.org/article/med/40535103",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40535103"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41681900",
+      "title": "Targeting Pathways Implicated in Cholesterol Metabolism for Novel Cancer Therapy.",
+      "authors": [
+        "Zhou Y",
+        "Sharma V",
+        "Li X",
+        "Singla RK",
+        "Kumar A",
+        "Kyada A",
+        "Ballal S",
+        "Nathiya D",
+        "Koul A",
+        "Khalid M"
+      ],
+      "year": 2026,
+      "doi": "10.3390/cancers18030428",
+      "url": "https://europepmc.org/article/med/41681900",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41681900"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "34926239",
+      "title": "DPP4 Regulates DHCR24-Mediated Cholesterol Biosynthesis to Promote Methotrexate Resistance in Gestational Trophoblastic Neoplastic Cells.",
+      "authors": [
+        "Yuan W",
+        "Yong W",
+        "Zhu J",
+        "Shi D."
+      ],
+      "year": 2021,
+      "doi": "10.3389/fonc.2021.704024",
+      "url": "https://europepmc.org/article/med/34926239",
+      "abstract": "",
+      "citations": 5,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "34926239"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1407,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1407,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "35626014",
+      "title": "Genome-Wide Association Study Suggests the Variant rs7551288*A within the <i>DHCR24</i> Gene Is Associated with Poor Overall Survival in Melanoma Patients.",
+      "authors": [
+        "Pflugfelder A",
+        "Yong XLH",
+        "Jagirdar K",
+        "Eigentler TK",
+        "Soyer HP",
+        "Sturm RA",
+        "Flatz L",
+        "Duffy DL."
+      ],
+      "year": 2022,
+      "doi": "10.3390/cancers14102410",
+      "url": "https://europepmc.org/article/med/35626014",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "35626014"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1398,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1398,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15293v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Selective HDAC6 inhibitor TubA offers neuroprotection after intracerebral hemorrhage via inhibiting neuronal apoptosis (v0.1)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15293v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15293v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15293v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15293v0.1/reviews/3",
+      "title": "Peer Review #3 of \"Selective HDAC6 inhibitor TubA offers neuroprotection after intracerebral hemorrhage via inhibiting neuronal apoptosis (v0.1)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15293v0.1/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15293v0.1/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15293v0.1/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15293v0.1/reviews/2",
+      "title": "Peer Review #2 of \"Selective HDAC6 inhibitor TubA offers neuroprotection after intracerebral hemorrhage via inhibiting neuronal apoptosis (v0.1)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15293v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15293v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15293v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15293v0.2/reviews/2",
+      "title": "Peer Review #2 of \"Selective HDAC6 inhibitor TubA offers neuroprotection after intracerebral hemorrhage via inhibiting neuronal apoptosis (v0.2)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15293v0.2/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15293v0.2/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15293v0.2/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15293v0.2/reviews/3",
+      "title": "Peer Review #3 of \"Selective HDAC6 inhibitor TubA offers neuroprotection after intracerebral hemorrhage via inhibiting neuronal apoptosis (v0.2)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15293v0.2/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15293v0.2/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15293v0.2/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15293v0.2/reviews/1",
+      "title": "Peer Review #1 of \"Selective HDAC6 inhibitor TubA offers neuroprotection after intracerebral hemorrhage via inhibiting neuronal apoptosis (v0.2)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15293v0.2/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15293v0.2/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15293v0.2/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2110613632",
+      "title": "The Novel Anticancer Agent JNJ-26854165 Induces Cell Death through Inhibition of Cholesterol Transport and Degradation of ABCA1",
+      "authors": [
+        "Richard J. Jones",
+        "Dongmin Gu",
+        "Chad C. Bjorklund",
+        "Isere Kuiatse",
+        "Alan T. Remaley",
+        "Tarig Bashir",
+        "Veronique Vreys",
+        "Robert Z. Orlowski"
+      ],
+      "year": 2013,
+      "doi": "10.1124/jpet.113.204958",
+      "url": "https://doi.org/10.1124/jpet.113.204958",
+      "abstract": "",
+      "citations": 26,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2110613632"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1339,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1339,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/7mtyu9",
+      "title": "Apoptosis Inhibitor",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/7mtyu9",
+      "url": "https://doi.org/10.32388/7mtyu9",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/7mtyu9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/eiw7iu",
+      "title": "Apoptosis Inhibitor UL38",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/eiw7iu",
+      "url": "https://doi.org/10.32388/eiw7iu",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/eiw7iu"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/rrwih9",
+      "title": "Apoptosis Inhibitor Gene",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/rrwih9",
+      "url": "https://doi.org/10.32388/rrwih9",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/rrwih9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/pw96yo",
+      "title": "TP53-Regulated Inhibitor of Apoptosis 1",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/pw96yo",
+      "url": "https://doi.org/10.32388/pw96yo",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/pw96yo"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1105.2530v1",
+      "title": "Nonlinear regulation of commitment to apoptosis by simultaneous inhibition of Bcl-2 and XIAP in leukemia and lymphoma cells",
+      "authors": [
+        "Joanna Skommer",
+        "Somkanya C Das",
+        "Arjun Nair",
+        "Thomas Brittain",
+        "Subhadip Raychaudhuri"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1105.2530v1",
+      "abstract": "Apoptosis is a complex pathway regulated by the concerted action of multiple pro- and anti-apoptotic molecules. The intrinsic (mitochondrial) pathway of apoptosis is governed up-stream of mitochondria, by the family of Bcl-2 proteins, and down-stream of mitochondria, by low-probability events, such as apoptosome formation, and by feedback circuits involving caspases and inhibitor of apoptosis proteins (IAPs), such as XIAP. All these regulatory mechanisms ensure that cells only commit to death once a threshold of damage has been reached and the anti-apoptotic reserve of the cell is overcome. As cancer cells are invariably exposed to strong intracellular and extracellular stress stimuli, they are particularly reliant on the expression of anti-apoptotic proteins. Hence, many cancer cells undergo apoptosis when exposed to agents that inhibit anti-apoptotic Bcl-2 molecules, such as BH3 mimetics, while normal cells remain relatively insensitive to single agent treatments with the same class of molecules. Targeting different proteins within the apoptotic network with combinatorial treatment approaches often achieves even greater specificity. This led us to investigate the sensitivity of leukemia and lymphoma cells to a pro-apoptotic action of a BH3 mimetic combined with a small molecule inhibitor of XIAP. Using computational probabilistic model of apoptotic pathway, verified by experimental results from human leukemia and lymphoma cell lines, we show that inhibition of XIAP has a non-linear effect on sensitization towards apoptosis induced by the BH3 mimetic HA14-1. This study justifies further ex vivo and animal studies on the potential of the treatment of leukemia and lymphoma with a combination of BH3 mimetics and XIAP inhibitors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1105.2530v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1401.7497v1",
+      "title": "Raman spectroscopic detection of rapid, reversible, early-stage inflammatory cytokine-induced apoptosis of adult hippocampal progenitors/stem cells",
+      "authors": [
+        "Uma Ladiwala",
+        "Aseefhali Bankapur",
+        "Bhushan Thakur",
+        "Chidangil Santhosh",
+        "Deepak Mathur"
+      ],
+      "year": 2014,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1401.7497v1",
+      "abstract": "The role of neuro-inflammation in diverse, acute and chronic brain pathologies is being increasingly recognized. Neuro-inflammation is accompanied by increased levels of both pro- and anti-inflammatory cytokines; these have deleterious as well as protective/reparative effects. Inflammation has varying effects on neurogenesis and is a subject of intense contemporary interest. We show that TNF-alpha and IFN-gamma, used concomitantly, cause apoptosis of adult rat hippocampal progenitor/stem cells in vitro as detected by the TUNEL and MTT assays on time scales of several hours. We have coupled Raman spectroscopy to an optical trap to probe early changes of apoptosis in single, live neural stem cells that have been treated with pro-inflammatory cytokines, TNF-alpha and IFN-gamma. Changes caused by inflammation-induced denaturation of DNA are observed in the Raman spectra that correspond to very early stages of apoptosis, occurring on very fast time scales: as short as 10 minutes. Addition of the anti-inflammatory cytokine IL-10 either 10-30 min before or 10-30 min after treatment with TNF-alpha and IFN-gamma reverses the changes substantially. Our findings imply that inflammation can induce very rapid changes leading to cell death but that these are reversible, in the early stages at least.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1401.7497v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1108.2091v1",
+      "title": "Low probability Bid-Bax reaction generates heterogeneity in apoptosis resistance of cancer and cancer stem cells",
+      "authors": [
+        "Subhadip Raychaudhuri"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1108.2091v1",
+      "abstract": "Variability in the tumorigenic potential among cancer cells within a tumor population is an unresolved fundamental issue in cancer biology. It is important to know whether cancer cells with higher tumorigenic potential, such as cancer stem cells, are only a small subpopulation. We attempt to address the question of variability in tumorigenic potential based on the heterogeneity in apoptosis resistance of cancer cells. We use stochastic differential equations and kinetic Monte Carlo simulations to explore the mechanisms that generate cell-to-cell variability in apoptosis resistance of cancer cells. In our model, a simplified scheme of apoptosis signaling reactions is developed focusing on the proapoptotic Bid-Bax reaction and its inhibition by Bcl-2 like antiapoptotic proteins. We show how a combination of low probability Bid-Bax reaction along with overexpressed reactant molecules allows specific killing of cancer cells, especially under targeted therapy such as Bcl-2 inhibition. This low probability Bid-Bax reaction protects normal cells from accidental apoptosis but generates cell-to-cell stochastic variability in apoptotic activation of cells equipped with overexpressed Bid and Bax molecules. We further demonstrate that cellular variations in Bcl-2 / Bax ratio, within a cancer cell population, can affect the intrinsic fluctuations arising from the stochastic Bid-Bax reaction and thereby provides a mechanism for origin of cells with higher tumorigenic potential. We discuss the implications of our results for cancer therapy, such as, optimal strategies to minimize stochastic fluctuations in cancer cell death.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1108.2091v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1110.5865v1",
+      "title": "Cancer Networks: A general theoretical and computational framework for understanding cancer",
+      "authors": [
+        "Eric Werner"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1110.5865v1",
+      "abstract": "We present a general computational theory of cancer and its developmental dynamics. The theory is based on a theory of the architecture and function of developmental control networks which guide the formation of multicellular organisms. Cancer networks are special cases of developmental control networks. Cancer results from transformations of normal developmental networks. Our theory generates a natural classification of all possible cancers based on their network architecture. Each cancer network has a unique topology and semantics and developmental dynamics that result in distinct clinical tumor phenotypes. We apply this new theory with a series of proof of concept cases for all the basic cancer types. These cases have been computationally modeled, their behavior simulated and mathematically described using a multicellular systems biology approach. There are fascinating correspondences between the dynamic developmental phenotype of computationally modeled {\\em in silico} cancers and natural {\\em in vivo} cancers. The theory lays the foundation for a new research paradigm for understanding and investigating cancer. The theory of cancer networks implies that new diagnostic methods and new treatments to cure cancer will become possible.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1110.5865v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17212/fig-5",
+      "title": "Figure 5: The effect of apoptosis inhibitor and autophagy inhibitor on ERS-, apoptosis- and autophagy-related proteins.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17212/fig-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.17212/fig-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17212/fig-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16805/fig-4",
+      "title": "Figure 4: XYA-2 as a potential inhibitor of pancreatic cancer cell progression through apoptosis induction and immune modulation.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16805/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16805/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16805/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.1890/fig-5",
+      "title": "Figure 5: The effects of the PARP inhibitor ABT-888 on apoptosis/necrosis in SM-treated HaCaT cells.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.1890/fig-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.1890/fig-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.1890/fig-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.11276/fig-6",
+      "title": "Figure 6: Taxifolin induce apoptosis in hepatic cancer cells.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.11276/fig-6",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.11276/fig-6",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.11276/fig-6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7554/elife.12177.011",
+      "title": "Decision letter: Identification of NPC1 as the target of U18666A, an inhibitor of lysosomal cholesterol export and Ebola infection",
+      "authors": [],
+      "year": 2015,
+      "doi": "10.7554/elife.12177.011",
+      "url": "https://doi.org/10.7554/elife.12177.011",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7554/elife.12177.011"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/978-3-540-47648-1_364",
+      "title": "Apoptosis Inhibitor 4",
+      "authors": [],
+      "year": 0,
+      "doi": "10.1007/978-3-540-47648-1_364",
+      "url": "https://doi.org/10.1007/978-3-540-47648-1_364",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/978-3-540-47648-1_364"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/3-540-30683-8_882",
+      "title": "Inhibitor of Apoptosis Protein",
+      "authors": [],
+      "year": 0,
+      "doi": "10.1007/3-540-30683-8_882",
+      "url": "https://doi.org/10.1007/3-540-30683-8_882",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/3-540-30683-8_882"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/978-3-540-47648-1_3052",
+      "title": "Inhibitor of Apoptosis Family",
+      "authors": [],
+      "year": 0,
+      "doi": "10.1007/978-3-540-47648-1_3052",
+      "url": "https://doi.org/10.1007/978-3-540-47648-1_3052",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/978-3-540-47648-1_3052"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/978-3-642-16483-5_364",
+      "title": "Apoptosis Inhibitor 4",
+      "authors": [],
+      "year": 2011,
+      "doi": "10.1007/978-3-642-16483-5_364",
+      "url": "https://doi.org/10.1007/978-3-642-16483-5_364",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/978-3-642-16483-5_364"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

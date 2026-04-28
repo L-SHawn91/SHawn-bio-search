@@ -1,0 +1,1808 @@
+{
+  "query": "DHCR24 statin methylation CpG cancer epigenetic",
+  "effective_query": "DHCR24 statin methylation CpG cancer epigenetic",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 47,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2576832795",
+      "title": "Association of Body Mass Index with DNA Methylation and Gene Expression in Blood Cells and Relations to Cardiometabolic Disease: A Mendelian Randomization Approach",
+      "authors": [
+        "Michael Mendelson",
+        "Riccardo E. Marioni",
+        "Roby Joehanes",
+        "Chunyu Liu",
+        "Åsa K. Hedman",
+        "Stella Aslibekyan",
+        "Ellen W. Demerath",
+        "Weihua Guan",
+        "Degui Zhi",
+        "Chen Yao",
+        "Tianxiao Huan",
+        "Christine Willinger",
+        "Brian H. Chen",
+        "Paul Courchesne",
+        "Michael Multhaup",
+        "Marguerite R. Irvin",
+        "Ariella Cohain",
+        "Eric E. Schadt",
+        "Megan L. Grove",
+        "Jan Bressler",
+        "K.E. North",
+        "Johan Sundström",
+        "Stefan Gustafsson",
+        "Sonia Shah",
+        "Allan F. McRae",
+        "Sarah E. Harris",
+        "Jude Gibson",
+        "Paul Redmond",
+        "Janie Corley",
+        "Lee Murphy",
+        "John M. Starr",
+        "Erica L. Kleinbrink",
+        "Leonard Lipovich",
+        "Peter M. Visscher",
+        "Naomi R. Wray",
+        "Ronald M. Krauss",
+        "M. Daniele Fallin",
+        "Andrew P. Feinberg",
+        "Devin Absher",
+        "Myriam Fornage",
+        "James S. Pankow",
+        "Lars Lind",
+        "Caroline S. Fox",
+        "Erik Ingelsson",
+        "Donna K. Arnett",
+        "Eric Boerwinkle",
+        "Liming Liang",
+        "Daniel Levy",
+        "Ian J. Deary"
+      ],
+      "year": 2017,
+      "doi": "10.1371/journal.pmed.1002215",
+      "url": "https://doi.org/10.1371/journal.pmed.1002215",
+      "abstract": "We present robust associations of BMI with differential DNA methylation at numerous loci in blood cells. BMI-related DNA methylation and gene expression provide mechanistic insights into the relationship between DNA methylation, obesity, and adiposity-related diseases.",
+      "citations": 390,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2576832795"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.327,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.327,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4386315075",
+      "title": "Functional significance of cholesterol metabolism in cancer: from threat to treatment",
+      "authors": [
+        "Mingming Xiao",
+        "Jin Xu",
+        "Wei Wang",
+        "Bo Zhang",
+        "Jiang Liu",
+        "Jialin Li",
+        "Hang Xu",
+        "Yingjun Zhao",
+        "Xianjun Yu",
+        "Si Shi"
+      ],
+      "year": 2023,
+      "doi": "10.1038/s12276-023-01079-w",
+      "url": "https://doi.org/10.1038/s12276-023-01079-w",
+      "abstract": "Cholesterol is an essential structural component of membranes that contributes to membrane integrity and fluidity. Cholesterol homeostasis plays a critical role in the maintenance of cellular activities. Recently, increasing evidence has indicated that cholesterol is a major determinant by modulating cell signaling events governing the hallmarks of cancer. Numerous studies have shown the functional significance of cholesterol metabolism in tumorigenesis, cancer progression and metastasis through its regulatory effects on the immune response, ferroptosis, autophagy, cell stemness, and the DNA damage response. Here, we summarize recent literature describing cholesterol metabolism in cancer cells, including the cholesterol metabolism pathways and the mutual regulatory mechanisms involved in cancer progression and cholesterol metabolism. We also discuss various drugs targeting cholesterol metabolism to suggest new strategies for cancer treatment.",
+      "citations": 191,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4386315075"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.3107,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3107,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3120965531",
+      "title": "DNA methylation and lipid metabolism: an EWAS of 226 metabolic measures",
+      "authors": [
+        "Monica Del C Gomez-Alonso",
+        "Anja Kretschmer",
+        "Rory Wilson",
+        "Liliane Pfeiffer",
+        "Ville Karhunen",
+        "Ilkka Seppälä",
+        "Weihua Zhang",
+        "Kirstin Mittelstraß",
+        "Simone Wahl",
+        "Pamela R Matías‐García",
+        "Holger Prokisch",
+        "Sacha Horn",
+        "Thomas Meitinger",
+        "Luis R Serrano-Garcia",
+        "Sylvain Sebért",
+        "Olli T Raitakari",
+        "Marie Loh",
+        "Wolfgang Rathmann",
+        "Martina Müller‐Nurasyid",
+        "Christian Herder",
+        "Michael Roden",
+        "Mikko Hurme",
+        "Marjo‐Riitta Järvelin",
+        "Mika Ala‐Korpela",
+        "Jaspal S Kooner",
+        "Annette Peters",
+        "Terho Lehtimäki",
+        "John C Chambers",
+        "Christian Gieger",
+        "Johannes Kettunen",
+        "Mélanie Waldenberger",
+        "Gomez-Alonso MDC",
+        "Matias-Garcia PR"
+      ],
+      "year": 2021,
+      "doi": "10.1186/s13148-020-00957-8",
+      "url": "https://doi.org/10.1186/s13148-020-00957-8",
+      "abstract": "Our study provides evidence of a link between DNA methylation and the lipid compositions and lipid concentrations of different lipoprotein size subclasses, thus offering in-depth insights into well-known associations of DNA methylation with total serum lipids. The results support detailed profiling of lipid metabolism to improve the molecular understanding of dyslipidemia and related disease mechanisms.",
+      "citations": 89,
+      "source_hits": [
+        "openalex",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3120965531",
+        "33413638"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2245,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2245,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2990851885",
+      "title": "Long noncoding RNAs in lipid metabolism: literature review and conservation analysis across species",
+      "authors": [
+        "Kévin Muret",
+        "Colette Désert",
+        "Laëtitia Lagoutte",
+        "Morgane Boutin",
+        "Florence Gondret",
+        "Tatiana Zerjal",
+        "Sandrine Lagarrigue"
+      ],
+      "year": 2019,
+      "doi": "10.1186/s12864-019-6093-3",
+      "url": "https://doi.org/10.1186/s12864-019-6093-3",
+      "abstract": "Such a lncRNAs catalogue can participate to the understanding of the lipid metabolism regulators; it can be useful to better understand the genetic regulation of some human diseases (obesity, hepatic steatosis) or traits of economic interest in livestock species (meat quality, carcass composition). We have no doubt that this first set will be rapidly enriched in coming years.",
+      "citations": 104,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2990851885"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.2178,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2178,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2904366212",
+      "title": "Transcriptional profiling identifies novel regulators of macrophage polarization",
+      "authors": [
+        "Kimberline Y. Gerrick",
+        "Elias R. Gerrick",
+        "Anuj Gupta",
+        "Sarah J. Wheelan",
+        "Srinivasan Yegnasubramanian",
+        "Elizabeth M. Jaffee"
+      ],
+      "year": 2018,
+      "doi": "10.1371/journal.pone.0208602",
+      "url": "https://doi.org/10.1371/journal.pone.0208602",
+      "abstract": "Macrophages are key inflammatory immune cells that display dynamic phenotypes and functions in response to their local microenvironment. Major advances have occurred in understanding the transcriptional, epigenetic, and functional differences in various macrophage subsets by in vitro modeling and gene expression and epigenetic profiling for biomarker discovery. However, there is still no standardized protocol for macrophage polarization largely due to the lack of thorough validation of macrophage phenotypes following polarization. In addition, transcriptional regulation is recognized as a major mechanism governing differential macrophage polarization programs and as such, many genes have been identified to be associated with each macrophage subset. However, the functional role of many of these genes in macrophage polarization is still unknown. Moreover, the role of other regulatory mechanisms, such as DNA methylation, in macrophage polarization remains poorly understood. Here, we employed an optimized model of human M1 and M2 macrophage polarization which we used for large-scale transcriptional and DNA methylation profiling. We were unable to demonstrate a role for DNA methylation in macrophage polarization, as no significant changes were identified. However, we observed significant changes in the transcriptomes of M1 and M2 macrophages. Additionally, we identified numerous novel differentially regulated genes involved in macrophage polarization, including CYBB and DHCR7 which we show as important regulators of M1 and M2 macrophage polarization, respectively. Taken together, our improved in vitro human M1 and M2 macrophage model provides new understandings of the regulation of macrophage polarization and candidate macrophage biomarkers.",
+      "citations": 105,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2904366212"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.2153,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2153,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3122351617",
+      "title": "Epigenetic Regulation of Kupffer Cell Function in Health and Disease",
+      "authors": [
+        "Hunter Bennett",
+        "Ty D. Troutman",
+        "Mashito Sakai",
+        "Christopher K. Glass"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fimmu.2020.609618",
+      "url": "https://doi.org/10.3389/fimmu.2020.609618",
+      "abstract": "Kupffer cells, the resident macrophages of the liver, comprise the largest pool of tissue macrophages in the body. Within the liver sinusoids Kupffer cells perform functions common across many tissue macrophages including response to tissue damage and antigen presentation. They also engage in specialized activities including iron scavenging and the uptake of opsonized particles from the portal blood. Here, we review recent studies of the epigenetic pathways that establish Kupffer cell identity and function. We describe a model by which liver-environment specific signals induce lineage determining transcription factors necessary for differentiation of Kupffer cells from bone-marrow derived monocytes. We conclude by discussing how these lineage determining transcription factors (LDTFs) drive Kupffer cell behavior during both homeostasis and disease, with particular focus on the relevance of Kupffer cell LDTF pathways in the setting of non-alcoholic fatty liver disease and non-alcoholic steatohepatitis.",
+      "citations": 59,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3122351617"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2085,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2085,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4399431446",
+      "title": "DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review",
+      "authors": [
+        "Xin Fu",
+        "Zhaosong Wang"
+      ],
+      "year": 2024,
+      "doi": "10.1177/15330338241259780",
+      "url": "https://doi.org/10.1177/15330338241259780",
+      "abstract": "As an important nutrient in the human body, cholesterol can not only provide structural components for the body's cells, but also can be transformed into a variety of active substances to regulate cell signaling pathways. As an important cholesterol synthase, DHCR24 participates in important regulatory processes in the body. The application of DHCR24 in tumor clinical diagnosis and treatment also attracts much attention. This article reviews the structure and regulatory characteristics of DHCR24, and the research of DHCR24 on tumor progression. We summarize the possible mechanisms of DHCR24 promoting tumor progression through reactive oxygen species (ROS), p53, Ras and PI3K-AKT pathways. Through our review, we hope to provide more research ideas and reference value for the application of DHCR24 in tumor prevention and treatment.",
+      "citations": 15,
+      "source_hits": [
+        "openalex",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4399431446",
+        "38847653"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.198,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.198,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2022531188",
+      "title": "Epigenetic regulation of cholesterol homeostasis",
+      "authors": [
+        "Steve Meaney"
+      ],
+      "year": 2014,
+      "doi": "10.3389/fgene.2014.00311",
+      "url": "https://doi.org/10.3389/fgene.2014.00311",
+      "abstract": "Although best known as a risk factor for cardiovascular disease, cholesterol is a vital component of all mammalian cells. In addition to key structural roles, cholesterol is a vital biochemical precursor for numerous biologically important compounds including oxysterols and bile acids, as well as acting as an activator of critical morphogenic systems (e.g., the Hedgehog system). A variety of sophisticated regulatory mechanisms interact to coordinate the overall level of cholesterol in cells, tissues and the entire organism. Accumulating evidence indicates that in additional to the more \"traditional\" regulatory schemes, cholesterol homeostasis is also under the control of epigenetic mechanisms such as histone acetylation and DNA methylation. The available evidence supporting a role for these mechanisms in the control of cholesterol synthesis, elimination, transport and storage are the focus of this review.",
+      "citations": 63,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2022531188"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1873,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1873,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2905727269",
+      "title": "Analysis of repeated leukocyte DNA methylation assessments reveals persistent epigenetic alterations after an incident myocardial infarction",
+      "authors": [
+        "Cavin Ward‐Caviness",
+        "Golareh Agha",
+        "Brian H Chen",
+        "Liliane Pfeiffer",
+        "Rory Wilson",
+        "Wolf Petra",
+        "Christian Gieger",
+        "Joel Schwartz",
+        "Pantel Vokonas",
+        "Lifang Hou",
+        "Allan C Just",
+        "Stefania Bandinelli",
+        "Dena Hernández",
+        "Andrew Singleton",
+        "Holger Prokisch",
+        "Thomas Meitinger",
+        "Gabi Kastenmüller",
+        "Luigi Ferrucci",
+        "Andrea Baccarelli",
+        "Mélanie Waldenberger",
+        "Annette Peters",
+        "Ward-Caviness CK",
+        "Chen BH",
+        "Wolf P"
+      ],
+      "year": 2018,
+      "doi": "10.1186/s13148-018-0588-7",
+      "url": "https://doi.org/10.1186/s13148-018-0588-7",
+      "abstract": "There are significant changes in DNA methylation after an incident MI. Nine of these CpGs show consistent changes in multiple cohorts, significantly discriminate MI in independent cohorts, and were independent of medication usage. Integration with gene expression and metabolomics data indicates a link between MI-associated epigenetic changes and BCAA metabolism.",
+      "citations": 37,
+      "source_hits": [
+        "openalex",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2905727269",
+        "30587240"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1866,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1866,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4388833248",
+      "title": "Validation of an Integrated Genetic‐Epigenetic Test for the Assessment of Coronary Heart Disease",
+      "authors": [
+        "Robert A. Philibert",
+        "Timur Dogan",
+        "Stacey Knight",
+        "Ferhaan Ahmad",
+        "Stanley K. Lau",
+        "George Miles",
+        "Kirk U. Knowlton",
+        "Meeshanthini V. Dogan"
+      ],
+      "year": 2023,
+      "doi": "10.1161/jaha.123.030934",
+      "url": "https://doi.org/10.1161/jaha.123.030934",
+      "abstract": "We conclude that this scalable integrated genetic-epigenetic approach is useful for the diagnosis of symptomatic CHD, performs favorably as compared with many existing methods, and may provide personalized insight to CHD therapy. Furthermore, given the dynamic nature of DNA methylation and the ease of methylation-sensitive digital polymerase chain reaction methodologies, these findings may pave a pathway for precision epigenetic approaches for monitoring CHD treatment response.",
+      "citations": 13,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4388833248"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1861,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1861,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1158/1538-7445.am2025-3338",
+      "title": "Abstract 3338: A CpG methylation based epigenetic signature for recurrence prediction in stage II/III colorectal cancer: <i>The CENSURE Study</i>",
+      "authors": [
+        "Caiming Xu",
+        "Silei Xu",
+        "Joan Maurel",
+        "Man Li",
+        "Ajay Goel"
+      ],
+      "year": 2025,
+      "doi": "10.1158/1538-7445.am2025-3338",
+      "url": "https://doi.org/10.1158/1538-7445.am2025-3338",
+      "abstract": "> >Introduction: > >Adjuvant chemotherapy (ACT) is the standard of care for patients with stage III or high-risk stage II colorectal cancer (CRC) following curative-intent resection. However, over 30% of these patients experience recurrence despite treatment, highlighting the urgent need for developing predictive biomarkers of response to ACT. This study sought to identify epigenetic biomarkers for predicting recurrence in stage II/III CRC. > > > >Patients and Methods: > >This study included three phases: discovery, training, independent testing. In the discovery phase, we performed genomewide methylation profiling analysis between recurrent (recurrence-free survival, RFS &lt; 5 years) and non-recurrent patients with CRC. A LASSO-based machine learning algorithm was employed to refine and optimize the candidate CpG sites. Subsequently, we developed and tested a methylation biomarker panel by quantitative pyrosequencing assays, followed by eXtreme Gradient Boosting (XGB) machine-learning algorithm in both the training (n = 236) and testing (n = 175) cohorts. Finally, we established the CENSURE (CpG mEthylatioN-based epigenetic SignatURE) model, which combined the CpG methylation panel and carcinoembryonic antigen (CEA) levels, to predict recurrence in stage II/III CRC. > > > >Results: > >A panel of 8 CpG candidates identified in the discovery phase was refined to 6 using XGB in the training cohort. The 6-CpG panel demonstrated robust ability to predict recurrence, with AUC values of 91.2% and 79.3% in the training and testing cohorts, respectively. Multivariate Cox regression analysis revealed that CEA ≥ 5 ng/mL (HR 2.92; 95% CI: 1.81-4.70) and the CpG panel (HR 19.5; 95% CI: 8.78-43.1) were independent predictors of recurrence. Building on this, we developed the CENSURE model, which integrates the CpG panel with CEA. The CENSURE model achieved AUC values of 95.2% and 86.1%, with sensitivities of 83.9% and 83.3% in the training and testing cohorts, respectively. CENSURE high-risk patients exhibited significantly higher 5-year (71.5% vs 8.0%) and 2-year recurrent rates (48.0% vs 5.4%). Notably, the CENSURE model outperformed CEA risk stratification alone, correctly predicting an additional 46.5% (40 out of 86) of recurrence cases in the entire study cohort. > > > >Conclusions: > >In conclusion, the CENSURE assay represents a novel potential advance with a significant clinical impact for postoperative recurrence prediction in stage II/III CRC. > > > >Citation Format: > >Caiming Xu, Silei Xu, Joan Maurel, Man Li, Ajay Goel. A CpG methylation based epigenetic signature for recurrence prediction in stage II/III colorectal cancer: The CENSURE Study [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2025; Part 1 (Regular Abstracts); 2025 Apr 25-30; Chicago, IL. Philadelphia (PA): AACR; Cancer Res 2025;85(8_Suppl_1):Abstract nr 3338. > >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1158/1538-7445.am2025-3338"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.18,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.18,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2139/ssrn.6592800",
+      "title": "Epigenetic bias: Maternal CpG methylation signatures linked to sex-biased progeny and paternal mitochondrial fate in Mytilus galloprovincialis",
+      "authors": [
+        "Daniel García Souto",
+        "AP. Diz",
+        "P. Morán"
+      ],
+      "year": 2026,
+      "doi": "10.2139/ssrn.6592800",
+      "url": "https://doi.org/10.2139/ssrn.6592800",
+      "abstract": ">DNA methylation is a conserved epigenetic modification involved in gene regulation and development, yet its role in sex determination and mitochondrial inheritance in bivalves remains poorly understood. In mussels of the genus Mytilus, sex determination is closely associated with Doubly Uniparental Inheritance (DUI) of mitochondria, in which paternal mitochondria are retained in male embryos but eliminated or progressively diluted in female embryos. Here, we profiled genome-wide CpG methylation in mature female gonads of Mytilus galloprovincialis producing strongly sex-biased progeny using Oxford Nanopore long-read sequencing. Global nuclear methylation was low (~11%) and mainly concentrated in gene bodies and repetitive elements, whereas mitochondrial CpG methylation was nearly absent (~0.011%). Comparison of females producing predominantly sons or daughters identified a limited set of differentially methylated loci, including 28 of 28,394 genes and 15 of 17,292 Penelope-like retroelements, most of them less methylated in son-biased females. Differentially methylated genes were enriched in functions related to retrovirus-derived elements, autophagy, membrane trafficking, and chromatin and transcriptional regulation. Notably, genes such as atg6, megf10, and an ATP-dependent DNA helicase RecQ showed pronounced methylation differences, highlighting candidate nuclear pathways potentially associated with paternal mitochondrial aggregation or elimination during early embryogenesis. Differences at retroelement loci were compatible with altered chromatin and transcriptional accessibility in a sex-biased context. Overall, our results suggest that maternal DNA methylation may contribute to an epigenetic framework associated with progeny sex bias and mitochondrial inheritance in marine mussels, and provide the first genome-wide methylome characterization of mature female gonads in M. galloprovincialis. >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2139/ssrn.6592800"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.18,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.18,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.14293/p2199-8442.1.sop-.psshix.v1",
+      "title": "Empower Novel CpG Methylation Biomarkers for Multi-Cancer Early Detection",
+      "authors": [
+        "Chen Yeh"
+      ],
+      "year": 2023,
+      "doi": "10.14293/p2199-8442.1.sop-.psshix.v1",
+      "url": "https://doi.org/10.14293/p2199-8442.1.sop-.psshix.v1",
+      "abstract": ">The milestone to improving the clinical outcome in cancer patients is the urgently unmet need to detect the disease at its earliest possible stage, which translates into a survival benefit for the patients De regulation of DNA methylation is an early event in tumorigenesis CpG methylation markers for multi cancer early detection were conducted using genome wide methylation profiling Approximately 18 000 high confidence hits of differentially methylated CpG islands between early stage cancer and normal samples from 3 cancer types were identified Ten top performing cancer specific CpG loci with the lowest p values were selected for in silico validation in TCGA database of approx 1500 samples across 14 major cancer types.Analysis of TCGA data obtained with these 10 CpG loci yielded area under the ROC curve of 0 86-0 97 for discrimination of lung, colon, liver and kidney cancers, significantly outperforming randomly selected 10 CpG sites (AUC of 0 55 0 90 When removing one, two, three, four or five markers from the best performing 10 CpG panel, the AUC dropped to 0 63 0 84 AUC were between 0 48 0 88 with randomly selected 5 or 20 CpG markers The 10 CpG panel demonstrated a composite AUC of 0 895 for all 14 major cancer types The 10 CpGpanel thus achieved the best performance with no other panels outperforming this combination.The training and validation datasets demonstrated the robustness and accuracy of our 10 CpG classifier to effectively differentiate early stage tumor from the normal tissues. >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.14293/p2199-8442.1.sop-.psshix.v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.172,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.172,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "28213390",
+      "title": "Epigenetic Patterns in Blood Associated With Lipid Traits Predict Incident Coronary Heart Disease Events and Are Enriched for Results From Genome-Wide Association Studies.",
+      "authors": [
+        "Hedman ÅK",
+        "Mendelson MM",
+        "Marioni RE",
+        "Gustafsson S",
+        "Joehanes R",
+        "Irvin MR",
+        "Zhi D",
+        "Sandling JK",
+        "Yao C",
+        "Liu C"
+      ],
+      "year": 2017,
+      "doi": "10.1161/circgenetics.116.001487",
+      "url": "https://europepmc.org/article/med/28213390",
+      "abstract": "",
+      "citations": 98,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "28213390"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1712,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1712,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1186/1476-4598-9-267",
+      "title": "Epigenetic regulation of CpG promoter methylation in invasive prostate cancer cells",
+      "authors": [
+        "Lesley A Mathews",
+        "Elaine M Hurt",
+        "Xiaohu Zhang",
+        "William L Farrar"
+      ],
+      "year": 2010,
+      "doi": "10.1186/1476-4598-9-267",
+      "url": "https://doi.org/10.1186/1476-4598-9-267",
+      "abstract": ">Abstract > > >Background > >Recently, much attention has been focused on gaining a better understanding of the different populations of cells within a tumor and their contribution to cancer progression. One of the most commonly used methods to isolate a more aggressive sub-population of cells utilizes cell sorting based on expression of certain cell adhesion molecules. A recently established method we developed is to isolate these more aggressive cells based on their properties of increased invasive ability. These more invasive cells have been previously characterized as tumor initiating cells (TICs) that have a stem-like genomic signature and express a number of stem cell genes including >Oct3/4 >and >Nanog >and are more tumorigenic compared to their 'non-invasive' counterpart. They also have a profile reminiscent of cells undergoing a classic pattern of epithelial to mesenchymal transition or EMT. Using this model of invasion, we sought to investigate which genes are under epigenetic control in this rare population of cells. Epigenetic modifications, specifically DNA methylation, are key events regulating the process of normal human development. To determine the specific methylation pattern in these invasive prostate cells, and if any developmental genes were being differentially regulated, we analyzed differences in global CpG promoter methylation. > > > >Results > >Differentially methylated genes were determined and select genes were chosen for additional analyses. The non-receptor tyrosine kinase BMX and transcription factor SOX1 were found to play a significant role in invasion. Ingenuity pathway analysis revealed the methylated gene list frequently displayed genes from the IL-6/STAT3 pathway. Cells which have decreased levels of the targets BMX and SOX1 also display loss of STAT3 activity. Finally, using Oncomine, it was determined that more aggressive metastatic prostate cancers in humans also have higher levels of both >Stat3 >and >Sox1 >. > > > >Conclusions > >Using this method we can begin to understand which genes are epigenetically regulated in the invasive population compared to the bulk tumor cells. These aggressive sub-populations of cells may be linked to the cancer stem cell hypothesis, making their patterns of epigenetic regulation very attractive for biomarker analysis. > >",
+      "citations": 35,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1186/1476-4598-9-267"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1711,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1711,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.37506/ijfmt.v14i1.263",
+      "title": "Association of BRCAI Epigenetic, with Breast Cancer",
+      "authors": [
+        "Methylation, unmethylation, BRACA1, modification, CPG"
+      ],
+      "year": 2020,
+      "doi": "10.37506/ijfmt.v14i1.263",
+      "url": "https://doi.org/10.37506/ijfmt.v14i1.263",
+      "abstract": ">Breast cancer is the most frequent malignancy among Iraqi women cancer. Epigenetic alterations such asDNA methylation were involved in the earliest phases of tumorigenesis and help for early diagnoses ofbreast cancer.In this study, the methylation and unmethylation BRACA1 gene have been detected of Iraqi women patientshaving breast cancer.DNA extraction kit and DNA modification kits as well as polymerase chain reaction (PCR) have been used.The samples of 80 women patients’ blood with breast cancer and 20 apparently healthy individual’s bloodsample are collected during the period of February2018- April2018 from Oncology Hospital in the MedicalCity - Baghdad, Iraq.On using PCR(24) out of (80)patients havingmethylated BRACA1 and (56) having unmethylated BRACA1.As discussed in this thesis, one can recommend by using BRACA1 gene as biomarker for prediction of earlydiagnoses. >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.37506/ijfmt.v14i1.263"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.166,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.166,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.13302v1",
+      "title": "Longitudinal prediction of DNA methylation to forecast epigenetic outcomes",
+      "authors": [
+        "Arthur Leroy",
+        "Ai Ling Teh",
+        "Frank Dondelinger",
+        "Mauricio A. Alvarez",
+        "Dennis Wang"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.ebiom.2025.105709",
+      "url": "http://arxiv.org/abs/2312.13302v1",
+      "abstract": "Interrogating the evolution of biological changes at early stages of life requires longitudinal profiling of molecules, such as DNA methylation, which can be challenging with children. We introduce a probabilistic and longitudinal machine learning framework based on multi-mean Gaussian processes (GPs), accounting for individual and gene correlations across time. This method provides future predictions of DNA methylation status at different individual ages while accounting for uncertainty. Our model is trained on a birth cohort of children with methylation profiled at ages 0-4, and we demonstrated that the status of methylation sites for each child can be accurately predicted at ages 5-7. We show that methylation profiles predicted by multi-mean GPs can be used to estimate other phenotypes, such as epigenetic age, and enable comparison to other health measures of interest. This approach encourages epigenetic studies to move towards longitudinal design for investigating epigenetic changes during development, ageing and disease progression.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.13302v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.164,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.164,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1804.04839v1",
+      "title": "Classification of large DNA methylation datasets for identifying cancer drivers",
+      "authors": [
+        "Fabrizio Celli",
+        "Fabio Cumbo",
+        "Emanuel Weitschek"
+      ],
+      "year": 2018,
+      "doi": "10.1016/j.bdr.2018.02.005",
+      "url": "http://arxiv.org/abs/1804.04839v1",
+      "abstract": "DNA methylation is a well-studied genetic modification crucial to regulate the functioning of the genome. Its alterations play an important role in tumorigenesis and tumor-suppression. Thus, studying DNA methylation data may help biomarker discovery in cancer. Since public data on DNA methylation become abundant, and considering the high number of methylated sites (features) present in the genome, it is important to have a method for efficiently processing such large datasets. Relying on big data technologies, we propose BIGBIOCL an algorithm that can apply supervised classification methods to datasets with hundreds of thousands of features. It is designed for the extraction of alternative and equivalent classification models through iterative deletion of selected features. We run experiments on DNA methylation datasets extracted from The Cancer Genome Atlas, focusing on three tumor types: breast, kidney, and thyroid carcinomas. We perform classifications extracting several methylated sites and their associated genes with accurate performance. Results suggest that BIGBIOCL can perform hundreds of classification iterations on hundreds of thousands of features in few hours. Moreover, we compare the performance of our method with other state-of-the-art classifiers and with a wide-spread DNA methylation analysis method based on network analysis. Finally, we are able to efficiently compute multiple alternative classification models and extract, from DNA-methylation large datasets, a set of candidate genes to be further investigated to determine their active role in cancer. BIGBIOCL, results of experiments, and a guide to carry on new experiments are freely available on GitHub.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1804.04839v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "32033992",
+      "title": "Epigenetic Link Between Statin Therapy and Type 2 Diabetes.",
+      "authors": [
+        "Ochoa-Rosales C",
+        "Portilla-Fernandez E",
+        "Nano J",
+        "Wilson R",
+        "Lehne B",
+        "Mishra PP",
+        "Gao X",
+        "Ghanbari M",
+        "Rueda-Ochoa OL",
+        "Juvinao-Quintero D"
+      ],
+      "year": 2020,
+      "doi": "10.2337/dc19-1828",
+      "url": "https://europepmc.org/article/med/32033992",
+      "abstract": "",
+      "citations": 46,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "32033992"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1543,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1543,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40746725",
+      "title": "Statins and their impact on epigenetic regulation: insights into disease.",
+      "authors": [
+        "Tamayo-Trujillo R",
+        "Guevara-Ramírez P",
+        "Cadena-Ullauri S",
+        "Ruiz Pozo VA",
+        "Paz-Cruz E",
+        "Zambrano AK."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fphar.2025.1621163",
+      "url": "https://europepmc.org/article/med/40746725",
+      "abstract": "",
+      "citations": 4,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40746725"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1508,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1508,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40002860",
+      "title": "Harnessing Pharmacomultiomics for Precision Medicine in Diabetes: A Comprehensive Review.",
+      "authors": [
+        "Dhieb D",
+        "Mustafa D",
+        "Hassiba M",
+        "Alasmar M",
+        "Elsayed MH",
+        "Musa A",
+        "Zirie M",
+        "Bastaki K."
+      ],
+      "year": 2025,
+      "doi": "10.3390/biomedicines13020447",
+      "url": "https://europepmc.org/article/med/40002860",
+      "abstract": "",
+      "citations": 4,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40002860"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1508,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1508,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40729963",
+      "title": "Genome-wide mapping of arsenic-activated Nrf2 reveals metabolic and epigenetic reprogramming in induced pluripotent stem cells.",
+      "authors": [
+        "Seno A",
+        "Bi Z",
+        "Polin L",
+        "Liu Z",
+        "Qiu Y",
+        "Zhang W",
+        "Pawar A",
+        "Thakur C",
+        "Seno M",
+        "Wang Z"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.redox.2025.103773",
+      "url": "https://europepmc.org/article/med/40729963",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40729963"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1484,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1484,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40776938",
+      "title": "Epigenetic Mechanisms in Heart Diseases.",
+      "authors": [
+        "Yildiz M."
+      ],
+      "year": 2025,
+      "doi": "10.31083/rcm38696",
+      "url": "https://europepmc.org/article/med/40776938",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40776938"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2501.02401v1",
+      "title": "iTARGET: Interpretable Tailored Age Regression for Grouped Epigenetic Traits",
+      "authors": [
+        "Zipeng Wu",
+        "Daniel Herring",
+        "Fabian Spill",
+        "James Andrews"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2501.02401v1",
+      "abstract": "Accurately predicting chronological age from DNA methylation patterns is crucial for advancing biological age estimation. However, this task is made challenging by Epigenetic Correlation Drift (ECD) and Heterogeneity Among CpGs (HAC), which reflect the dynamic relationship between methylation and age across different life stages. To address these issues, we propose a novel two-phase algorithm. The first phase employs similarity searching to cluster methylation profiles by age group, while the second phase uses Explainable Boosting Machines (EBM) for precise, group-specific prediction. Our method not only improves prediction accuracy but also reveals key age-related CpG sites, detects age-specific changes in aging rates, and identifies pairwise interactions between CpG sites. Experimental results show that our approach outperforms traditional epigenetic clocks and machine learning models, offering a more accurate and interpretable solution for biological age estimation with significant implications for aging research.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2501.02401v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "35307762",
+      "title": "Pharmacoepigenetics in type 2 diabetes: is it clinically relevant?",
+      "authors": [
+        "Ling C."
+      ],
+      "year": 2022,
+      "doi": "10.1007/s00125-022-05681-x",
+      "url": "https://europepmc.org/article/med/35307762",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "35307762"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1398,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1398,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2102.09563v1",
+      "title": "A Deep Embedded Refined Clustering Approach for Breast Cancer Distinction based on DNA Methylation",
+      "authors": [
+        "del Amor Rocío",
+        "Colomer Adrián",
+        "Monteagudo Carlos",
+        "Naranjo Valery"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2102.09563v1",
+      "abstract": "Epigenetic alterations have an important role in the development of several types of cancer. Epigenetic studies generate a large amount of data, which makes it essential to develop novel models capable of dealing with large-scale data. In this work, we propose a deep embedded refined clustering method for breast cancer differentiation based on DNA methylation. In concrete, the deep learning system presented here uses the levels of CpG island methylation between 0 and 1. The proposed approach is composed of two main stages. The first stage consists in the dimensionality reduction of the methylation data based on an autoencoder. The second stage is a clustering algorithm based on the soft-assignment of the latent space provided by the autoencoder. The whole method is optimized through a weighted loss function composed of two terms: reconstruction and classification terms. To the best of the authors' knowledge, no previous studies have focused on the dimensionality reduction algorithms linked to classification trained end-to-end for DNA methylation analysis. The proposed method achieves an unsupervised clustering accuracy of 0.9927 and an error rate (%) of 0.73 on 137 breast tissue samples. After a second test of the deep-learning-based method using a different methylation database, an accuracy of 0.9343 and an error rate (%) of 6.57 on 45 breast tissue samples is obtained. Based on these results, the proposed algorithm outperforms other state-of-the-art methods evaluated under the same conditions for breast cancer classification based on DNA methylation data.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2102.09563v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.21037/anpc-21-9",
+      "title": "CpG methylation as epigenetic biomarkers for nasopharyngeal carcinoma diagnostics",
+      "authors": [
+        "Lili Li",
+        "Jianlian Xie",
+        "Brigette Ma",
+        "Anthony T. C. Chan",
+        "Qian Tao"
+      ],
+      "year": 2022,
+      "doi": "10.21037/anpc-21-9",
+      "url": "https://doi.org/10.21037/anpc-21-9",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.21037/anpc-21-9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1332,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1332,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1807.09617v1",
+      "title": "Convolutional Neural Networks In Classifying Cancer Through DNA Methylation",
+      "authors": [
+        "Soham Chatterjee",
+        "Archana Iyer",
+        "Satya Avva",
+        "Abhai Kollara",
+        "Malaikannan Sankarasubbu"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1807.09617v1",
+      "abstract": "DNA Methylation has been the most extensively studied epigenetic mark. Usually a change in the genotype, DNA sequence, leads to a change in the phenotype, observable characteristics of the individual. But DNA methylation, which happens in the context of CpG (cytosine and guanine bases linked by phosphate backbone) dinucleotides, does not lead to a change in the original DNA sequence but has the potential to change the phenotype. DNA methylation is implicated in various biological processes and diseases including cancer. Hence there is a strong interest in understanding the DNA methylation patterns across various epigenetic related ailments in order to distinguish and diagnose the type of disease in its early stages. In this work, the relationship between methylated versus unmethylated CpG regions and cancer types is explored using Convolutional Neural Networks (CNNs). A CNN based Deep Learning model that can classify the cancer of a new DNA methylation profile based on the learning from publicly available DNA methylation datasets is then proposed.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1807.09617v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1910.06899v1",
+      "title": "Identifying Epigenetic Signature of Breast Cancer with Machine Learning",
+      "authors": [
+        "Maxim Vaysburd"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1910.06899v1",
+      "abstract": "The research reported in this paper identifies the epigenetic biomarker (methylation beta pattern) of breast cancer. Many cancers are triggered by abnormal gene expression levels caused by aberrant methylation of CpG sites in the DNA. In order to develop early diagnostics of cancer-causing methylations and to develop a treatment, it is necessary to identify a few dozen key cancer-related CpG methylation sites out of the millions of locations in the DNA. This research used public TCGA dataset to train a TensorFlow machine learning model to classify breast cancer versus non-breast-cancer tissue samples, based on over 300,000 methylation beta values in each sample. L1 regularization was applied to identify the CpG methylation sites most important for accurate classification. It was hypothesized that CpG sites with the highest learned model weights correspond to DNA locations most relevant to breast cancer. A reduced model trained on methylation betas of just the 25 CpG sites having the highest weights in the full model (trained on methylation betas at over 300,000 CpG sites) has achieved over 94% accuracy on evaluation data, confirming that the identified 25 CpG sites are indeed a biomarker of breast cancer.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1910.06899v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1812.09203v1",
+      "title": "Pan-Cancer Epigenetic Biomarker Selection from Blood Samples Using SAS",
+      "authors": [
+        "Xi Chen",
+        "Jin Xie",
+        "Qingcong Yuan"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1812.09203v1",
+      "abstract": "A key focus in current cancer research is the discovery of cancer biomarkers that allow earlier detection with high accuracy and lower costs for both patients and hospitals. Blood samples have long been used as a health status indicator, but DNA methylation signatures in blood have not been fully appreciated in cancer research. Historically, analysis of cancer has been conducted directly with the patient's tumor or related tissues. Such analyses allow physicians to diagnose a patient's health and cancer status; however, physicians must observe certain symptoms that prompt them to use biopsies or imaging to verify the diagnosis. This is a post-hoc approach. Our study will focus on epigenetic information for cancer detection, specifically information about DNA methylation in human peripheral blood samples in cancer discordant monozygotic twin-pairs. This information might be able to help us detect cancer much earlier, before the first symptom appears. Several other types of epigenetic data can also be used, but here we demonstrate the potential of blood DNA methylation data as a biomarker for pan-cancer using SAS 9.3 and SAS EM. We report that 55 methylation CpG sites measurable in blood samples can be used as biomarkers for early cancer detection and classification.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1812.09203v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1810.01243v2",
+      "title": "A Deep Autoencoder System for Differentiation of Cancer Types Based on DNA Methylation State",
+      "authors": [
+        "Mohammed Khwaja",
+        "Melpomeni Kalofonou",
+        "Chris Toumazou"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1810.01243v2",
+      "abstract": "A Deep Autoencoder based content retrieval algorithm is proposed for prediction and differentiation of cancer types based on the presence of epigenetic patterns of DNA methylation identified in genetic regions known as CpG islands. The developed deep learning system uses a CpG island state classification sub-system to complete sets of missing/incomplete island data in given human cell lines, and is then pipelined with an intricate set of statistical and signal processing methods to accurately predict the presence of cancer and further differentiate the type and cell of origin in the event of a positive result. The proposed system was trained with previously reported data derived from four case groups of cancer cell lines, achieving overall Sensitivity of 88.24%, Specificity of 83.33%, Accuracy of 84.75% and Matthews Correlation Coefficient of 0.687. The ability to predict and differentiate cancer types using epigenetic events as the identifying patterns was demonstrated in previously reported data sets from breast, lung, lymphoblastic leukemia and urological cancer cell lines, allowing the pipelined system to be robust and adjustable to other cancer cell lines or epigenetic events.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1810.01243v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.35802/215109",
+      "title": "",
+      "authors": [],
+      "year": 2018,
+      "doi": "10.35802/215109",
+      "url": "https://doi.org/10.35802/215109",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.35802/215109"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.4161/cbt.3.6.1041",
+      "title": "Epigenetic Regulation of MDR1 Gene in Breast Cancer CpG Methylation Status Dominates the Stable Maintenance of a Silent Gene",
+      "authors": [
+        "Dipali Sharma",
+        "Paula M. Vertino"
+      ],
+      "year": 2004,
+      "doi": "10.4161/cbt.3.6.1041",
+      "url": "https://doi.org/10.4161/cbt.3.6.1041",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.4161/cbt.3.6.1041"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1223,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1223,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20251/fig-2",
+      "title": "Figure 2: Site-specific methylation profiling of ARID1A identifies hypermethylated CpG sites in gastric cancer.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20251/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20251/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20251/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.21164/fig-3",
+      "title": "Figure 3: MR and colocalization results for the association between CpG site methylation of ERS-related genes and cancer outcomes.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.21164/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.21164/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.21164/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10884/fig-4",
+      "title": "Figure 4: Methylation peaks of CpG sites.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10884/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10884/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10884/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19888/table-2",
+      "title": "Table 2: The genomic characteristics of methylation CpG sites.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19888/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19888/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19888/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10810/fig-4",
+      "title": "Figure 4: Promoter CpG methylation detection of\n                      <i>Mapk10</i>\n                      .",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10810/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10810/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10810/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.14403/fig-4",
+      "title": "Figure 4: Heat maps show distinct methylation and CpG density patterns.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.14403/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.14403/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.14403/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.11355/supp-6",
+      "title": "Supplemental Information 6: Correlation between known mediators of the CpG methylation and four genes.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.11355/supp-6",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.11355/supp-6",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.11355/supp-6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.14590/table-2",
+      "title": "Table 2: CpG site methylation of candidate genes between dyslipidemia group and control group.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.14590/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.14590/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.14590/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.215/fig-1",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.215/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.215/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.215/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17916/supp-1",
+      "title": "Figure S1: Distribution of methylation levels of all CpG sites between the three WGBS datasets",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17916/supp-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.17916/supp-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17916/supp-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3892/or.10.2.501",
+      "title": "Epigenetic control of E-cadherin (CDH1) by CpG methylation in metastasising laryngeal cancer",
+      "authors": [
+        "Pia Azarschab",
+        "Agnieszka Stembalska",
+        "Mirela Loncar",
+        "Markus Pfister",
+        "Maria Sasiadek",
+        "Nikolaus Blin"
+      ],
+      "year": 2003,
+      "doi": "10.3892/or.10.2.501",
+      "url": "https://doi.org/10.3892/or.10.2.501",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3892/or.10.2.501"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1206,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1206,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1186/bcr-2000-66675",
+      "title": "CpG island methylation",
+      "authors": [
+        "Chris Jones"
+      ],
+      "year": 2000,
+      "doi": "10.1186/bcr-2000-66675",
+      "url": "https://doi.org/10.1186/bcr-2000-66675",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1186/bcr-2000-66675"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

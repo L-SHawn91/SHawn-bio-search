@@ -1,0 +1,1823 @@
+{
+  "query": "Genkwadaphnin DHCR24 hepatocellular carcinoma cholesterol",
+  "effective_query": "Genkwadaphnin DHCR24 hepatocellular carcinoma cholesterol",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 48,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3138173231",
+      "title": "Role of Cholesterol and Lipid Rafts in Cancer Signaling: A Promising Therapeutic Opportunity?",
+      "authors": [
+        "Rosa Vona",
+        "Elisabetta Iessi",
+        "Paola Matarrese"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fcell.2021.622908",
+      "url": "https://doi.org/10.3389/fcell.2021.622908",
+      "abstract": "Cholesterol is a lipid molecule that plays an essential role in a number of biological processes, both physiological and pathological. It is an essential structural constituent of cell membranes, and it is fundamental for biosynthesis, integrity, and functions of biological membranes, including membrane trafficking and signaling. Moreover, cholesterol is the major lipid component of lipid rafts, a sort of lipid-based structures that regulate the assembly and functioning of numerous cell signaling pathways, including those related to cancer, such as tumor cell growth, adhesion, migration, invasion, and apoptosis. Considering the importance of cholesterol metabolism, its homeostasis is strictly regulated at every stage: import, synthesis, export, metabolism, and storage. The alterations of this homeostatic balance are known to be associated with cardiovascular diseases and atherosclerosis, but mounting evidence also connects these behaviors to increased cancer risks. Although there is conflicting evidence on the role of cholesterol in cancer development, most of the studies consistently suggest that a dysregulation of cholesterol homeostasis could lead to cancer development. This review aims to discuss the current understanding of cholesterol homeostasis in normal and cancerous cells, summarizing key findings from recent preclinical and clinical studies that have investigated the role of major players in cholesterol regulation and the organization of lipid rafts, which could represent promising therapeutic targets.",
+      "citations": 157,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3138173231"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2607,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2607,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4210395777",
+      "title": "Long non-coding RNA PAARH promotes hepatocellular carcinoma progression and angiogenesis via upregulating HOTTIP and activating HIF-1α/VEGF signaling",
+      "authors": [
+        "Huamei Wei",
+        "Zuoming Xu",
+        "Liucui Chen",
+        "Qing Wei",
+        "Zihua Huang",
+        "Guoman Liu",
+        "Wenchuan Li",
+        "Jianchu Wang",
+        "Qianli Tang",
+        "Jian Pu"
+      ],
+      "year": 2022,
+      "doi": "10.1038/s41419-022-04505-5",
+      "url": "https://doi.org/10.1038/s41419-022-04505-5",
+      "abstract": "Hepatocellular carcinoma (HCC) is one of the leading lethal malignancies and a hypervascular tumor. Although some long non-coding RNAs (lncRNAs) have been revealed to be involved in HCC. The contributions of lncRNAs to HCC progression and angiogenesis are still largely unknown. In this study, we identified a HCC-related lncRNA, CMB9-22P13.1, which was highly expressed and correlated with advanced stage, vascular invasion, and poor survival in HCC. We named this lncRNA Progression and Angiogenesis Associated RNA in HCC (PAARH). Gain- and loss-of function assays revealed that PAARH facilitated HCC cellular growth, migration, and invasion, repressed HCC cellular apoptosis, and promoted HCC tumor growth and angiogenesis in vivo. PAARH functioned as a competing endogenous RNA to upregulate HOTTIP via sponging miR-6760-5p, miR-6512-3p, miR-1298-5p, miR-6720-5p, miR-4516, and miR-6782-5p. The expression of PAARH was significantly positively associated with HOTTIP in HCC tissues. Functional rescue assays verified that HOTTIP was a critical mediator of the roles of PAARH in modulating HCC cellular growth, apoptosis, migration, and invasion. Furthermore, PAARH was found to physically bind hypoxia inducible factor-1 subunit alpha (HIF-1α), facilitate the recruitment of HIF-1α to VEGF promoter, and activate VEGF expression under hypoxia, which was responsible for the roles of PAARH in promoting angiogenesis. The expression of PAARH was positively associated with VEGF expression and microvessel density in HCC tissues. In conclusion, these findings demonstrated that PAARH promoted HCC progression and angiogenesis via upregulating HOTTIP and activating HIF-1α/VEGF signaling. PAARH represents a potential prognostic biomarker and therapeutic target for HCC.",
+      "citations": 76,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4210395777"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2226,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2226,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4212953500",
+      "title": "Combination treatment of docetaxel with caffeic acid phenethyl ester suppresses the survival and the proliferation of docetaxel-resistant prostate cancer cells via induction of apoptosis and metabolism interference",
+      "authors": [
+        "Yu‐Ke Fu",
+        "Bi‐Juan Wang",
+        "Jen‐Chih Tseng",
+        "Shih‐Han Huang",
+        "Ching‐Yu Lin",
+        "Ying‐Yu Kuo",
+        "Tzyh‐Chyuan Hour",
+        "Chih‐Pin Chuu"
+      ],
+      "year": 2022,
+      "doi": "10.1186/s12929-022-00797-z",
+      "url": "https://doi.org/10.1186/s12929-022-00797-z",
+      "abstract": "Combination treatment of docetaxel with CAPE effectively suppressed the proliferation and survival of docetaxel-resistant PCa cells via inhibition of Bcl-2 and c-Myc as well as induction of metabolism interference. Combination treatment can be beneficial for patients with docetaxel-resistant PCa.",
+      "citations": 43,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4212953500"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2028,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2028,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4379966604",
+      "title": "Tigliane and daphnane diterpenoids from Thymelaeaceae family: chemistry, biological activity, and potential in drug discovery",
+      "authors": [
+        "Kouharu Otsuki",
+        "Wei Li"
+      ],
+      "year": 2023,
+      "doi": "10.1007/s11418-023-01713-x",
+      "url": "https://doi.org/10.1007/s11418-023-01713-x",
+      "abstract": "Tigliane and daphnane diterpenoids are characteristically distributed in plants of the Thymelaeaceae family as well as the Euphorbiaceae family and are structurally diverse due to the presence of polyoxygenated functionalities in the polycyclic skeleton. These diterpenoids are known as toxic components, while they have been shown to exhibit a wide variety of biological activities, such as anti-cancer, anti-HIV, and analgesic activity, and are attracting attention in the field of natural product drug discovery. This review focuses on naturally occurring tigliane and daphnane diterpenoids from plants of the Thymelaeaceae family and provides an overview of their chemical structure, distribution, isolation, structure determination, chemical synthesis, and biological activities, with a prime focus on the recent findings.",
+      "citations": 36,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4379966604"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2022,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2022,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3183736481",
+      "title": "Enzymes in the Cholesterol Synthesis Pathway: Interactomics in the Cancer Context",
+      "authors": [
+        "П.В. Ершов",
+        "Leonid Kaluzhskiy",
+        "Yuri V. Mezentsev",
+        "Е.O. Yablokov",
+        "O.V. Gnedenko",
+        "Ivanov As"
+      ],
+      "year": 2021,
+      "doi": "10.3390/biomedicines9080895",
+      "url": "https://doi.org/10.3390/biomedicines9080895",
+      "abstract": "A global protein interactome ensures the maintenance of regulatory, signaling and structural processes in cells, but at the same time, aberrations in the repertoire of protein-protein interactions usually cause a disease onset. Many metabolic enzymes catalyze multistage transformation of cholesterol precursors in the cholesterol biosynthesis pathway. Cancer-associated deregulation of these enzymes through various molecular mechanisms results in pathological cholesterol accumulation (its precursors) which can be disease risk factors. This work is aimed at systematization and bioinformatic analysis of the available interactomics data on seventeen enzymes in the cholesterol pathway, encoded by <i>HMGCR, MVK, PMVK, MVD, FDPS, FDFT1, SQLE, LSS, DHCR24, CYP51A1, TM7SF2, MSMO1, NSDHL, HSD17B7, EBP, SC5D, DHCR7</i> genes. The spectrum of 165 unique and 21 common protein partners that physically interact with target enzymes was selected from several interatomic resources. Among them there were 47 modifying proteins from different protein kinases/phosphatases and ubiquitin-protein ligases/deubiquitinases families. A literature search, enrichment and gene co-expression analysis showed that about a quarter of the identified protein partners was associated with cancer hallmarks and over-represented in cancer pathways. Our results allow to update the current fundamental view on protein-protein interactions and regulatory aspects of the cholesterol synthesis enzymes and annotate of their sub-interactomes in term of possible involvement in cancers that will contribute to prioritization of protein targets for future drug development.",
+      "citations": 46,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3183736481"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2015,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2015,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4393253542",
+      "title": "Chemical Inhibition of Sterol Biosynthesis",
+      "authors": [
+        "Eric S Peeples",
+        "Károly Mirnics",
+        "Željka Korade",
+        "Peeples ES",
+        "Korade Z"
+      ],
+      "year": 2024,
+      "doi": "10.3390/biom14040410",
+      "url": "https://doi.org/10.3390/biom14040410",
+      "abstract": "Cholesterol is an essential molecule of life, and its synthesis can be inhibited by both genetic and nongenetic mechanisms. Hundreds of chemicals that we are exposed to in our daily lives can alter sterol biosynthesis. These also encompass various classes of FDA-approved medications, including (but not limited to) commonly used antipsychotic, antidepressant, antifungal, and cardiovascular medications. These medications can interfere with various enzymes of the post-lanosterol biosynthetic pathway, giving rise to complex biochemical changes throughout the body. The consequences of these short- and long-term homeostatic disruptions are mostly unknown. We performed a comprehensive review of the literature and built a catalogue of chemical agents capable of inhibiting post-lanosterol biosynthesis. This process identified significant gaps in existing knowledge, which fall into two main areas: mechanisms by which sterol biosynthesis is altered and consequences that arise from the inhibitions of the different steps in the sterol biosynthesis pathway. The outcome of our review also reinforced that sterol inhibition is an often-overlooked mechanism that can result in adverse consequences and that there is a need to develop new safety guidelines for the use of (novel and already approved) medications with sterol biosynthesis inhibiting side effects, especially during pregnancy.",
+      "citations": 18,
+      "source_hits": [
+        "openalex",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4393253542",
+        "38672427"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2006,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2006,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3209203994",
+      "title": "Phytochemistry and Pharmacological Activities of the Diterpenoids from the Genus Daphne",
+      "authors": [
+        "Yi‐Wen Nie",
+        "Yuan Li",
+        "Lan Luo",
+        "Chunyan Zhang",
+        "Wei Fan",
+        "Weiying Gu",
+        "Kourong Shi",
+        "Xiaoxiang Zhai",
+        "Jian‐Yong Zhu"
+      ],
+      "year": 2021,
+      "doi": "10.3390/molecules26216598",
+      "url": "https://doi.org/10.3390/molecules26216598",
+      "abstract": "There are abundant natural diterpenoids in the plants of the genus <i>Daphne</i> from the Thymelaeaceae family, featuring a 5/7/6-tricyclic ring system and usually with an orthoester group. So far, a total of 135 diterpenoids has been isolated from the species of the genus <i>Daphne</i>, which could be further classified into three main types according to the substitution pattern of ring A and oxygen-containing functions at ring B. A variety of studies have demonstrated that these compounds exert a wide range of bioactivities both in vitro and in vivo including anticancer, anti-inflammatory, anti-HIV, antifertility, neurotrophic, and cholesterol-lowering effects, which is reviewed herein. Meanwhile, the fascinating structure-activity relationship is also concluded in this review in the hope of providing an easy access to available information for the synthesis and optimization of efficient drugs.",
+      "citations": 32,
+      "source_hits": [
+        "openalex",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3209203994",
+        "34771007"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1941,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1941,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4214726407",
+      "title": "Yuanhuacin and Related Anti-Inflammatory and Anticancer Daphnane Diterpenes from Genkwa Flos—An Overview",
+      "authors": [
+        "Christian Bailly"
+      ],
+      "year": 2022,
+      "doi": "10.3390/biom12020192",
+      "url": "https://doi.org/10.3390/biom12020192",
+      "abstract": "The dried flower buds of the plant <i>Daphne genkwa</i> Sieb. et Zucc. have been largely used in traditional Chinese medicine for the treatment of inflammatory diseases. Numerous diterpenoids have been isolated from the Genkwa Flos (yuanhua in Chinese), including a series of daphnane-type diterpene designated as yuanhuacin (YC, often improperly designated as yuanhuacine) and analogues with a patronymic name. The series includes ten daphnane-type diterpenes: yuanhuacin, yuanhuadin (YD), yuanhuafin (YF), yuanhuagin (YG), yuanhuahin (YH), yuanhuajin (YJ), yuanhualin (YL), yuanhuamin (YM), yuanhuapin (YP), and yuanhuatin (YT). They are distinct from the rare flavonoid yuanhuanin. The series comprises several anticancer agents, such as the lead compound YC, which has revealed potent activity in vitro and in vivo against models of lung and breast cancers. The main signaling pathways implicated in the antitumor effects have been delineated. Protein kinase C is a key factor of activity for YC, but in general the molecular targets at the origin of the activity of these compounds remain little defined. Promising anticancer effects have been reported with analogues YD and YT, whereas compounds YF and YP are considered more toxic. The pharmacological activity of each compound is presented, as well as the properties of Genkwa Flos extracts. The potential toxic effects associated with the use of these compounds are also underlined.",
+      "citations": 27,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4214726407"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1932,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1932,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "da9e902812cc7494659548c921c67449988df2d2",
+      "title": "Genkwadaphnin inhibits growth and invasion in hepatocellular carcinoma by blocking DHCR24-mediated cholesterol biosynthesis and lipid rafts formation",
+      "authors": [
+        "Jie Wu",
+        "Ling Guo",
+        "Xiaoran Qiu",
+        "Yong-ya Ren",
+        "Feifei Li",
+        "Wei Cui",
+        "Shao‐Jiang Song"
+      ],
+      "year": 2020,
+      "doi": "10.1038/s41416-020-01085-z",
+      "url": "https://www.semanticscholar.org/paper/da9e902812cc7494659548c921c67449988df2d2",
+      "abstract": "<jats:title>Abstract</jats:title><jats:sec>                 <jats:title>Background</jats:title>                 <jats:p>The liver is the central organ for cholesterol homoeostasis, and its dysfunction might cause liver pathological alterations including hepatocellular carcinomas (HCCs). 3β-hydroxysteroid-Δ24 reductase (DHCR24), a crucial enzyme of cholesterol biosynthetic pathway, is involved in lipid rafts formation. Genkwadaphnin (GD) is a daphnane diterpene isolated from the flower buds of <jats:italic>Daphne genkwa</jats:italic> Siebold et Zuccarini (Thymelaeaceae).</jats:p>               </jats:sec><jats:sec>                 <jats:title>Methods</jats:title>                 <jats:p>We evaluated in vitro and in vivo effect of GD using HCC cells and BALB/c nude mice. Microarray assays were used to identify the differential genes by GD. DHCR24 expression and activity, cholesterol level, lipid rafts structure and the role of DHCR24 in human HCC specimens were tested by various molecular biology techniques.</jats:p>               </jats:sec><jats:sec>                 <jats:title>Results</jats:title>                 <jats:p>High expression of DHCR24 in human HCC specimens was correlated with poor clinical outcome. Interfering DHCR24 altered growth and migration of HCC cells. GD inhibited growth and metastasis of HCC cells both in vivo and in vitro. GD suppressed DHCR24 expression and activity, as well as DHCR24-mediated cholesterol biosynthesis and lipid rafts formation, then further inhibited HCC cell invasion and migration.</jats:p>               </jats:sec><jats:sec>                 <jats:title>Conclusions</jats:title>                 <jats:p>Our data suggest that DHCR24-mediated cholesterol metabolism might be an effective therapeutic strategy in HCC, and natural product GD might be a promising agent for HCC therapy.</jats:p>               </jats:sec>",
+      "citations": 54,
+      "source_hits": [
+        "semantic_scholar",
+        "openalex",
+        "europe_pmc",
+        "openaire",
+        "crossref"
+      ],
+      "source_ids": [
+        "da9e902812cc7494659548c921c67449988df2d2",
+        "https://openalex.org/W3087030249",
+        "32958824",
+        "doi_dedup___::9183e35a1c3b4d5045119970613cc75b",
+        "10.1038/s41416-020-01085-z"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1902,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1902,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.37349/edd.2024.00048",
+      "title": "Role of cholesterol homeostasis in MASH-driven hepatocellular carcinoma: not just a neutral fat",
+      "authors": [
+        "Vicent Ribas"
+      ],
+      "year": 2024,
+      "doi": "10.37349/edd.2024.00048",
+      "url": "https://doi.org/10.37349/edd.2024.00048",
+      "abstract": ">Hepatocellular carcinoma (HCC) is the most common type of liver cancer and its death rate is rising faster than that of any other cancer, while we still lack effective treatments. The increasing incidence of liver cancer in western countries is closely associated with the growing prevalence of metabolic dysfunction-associated steatohepatitis (MASH) linked to metabolic diseases. While the contribution of lipids in the progression of MASH pathogenesis and its progression to HCC is well recognized, the specific contribution of cholesterol is subject to controversy. The liver plays a central role in cholesterol metabolism, where the majority of its biosynthesis, storage, excretion, recycling, and conversion into bile acids occur. Moreover, cholesterol is implicated in numerous hepatocyte cellular processes, encompassing endoplasmic reticulum function, formation of lipid microdomains in the plasma membrane, metabolism of lipoproteins, and mitochondrial function and performance. Therefore, it is not surprising that cholesterol plays key roles in initiation, promotion, and survival of HCC cells and there are several lines of evidence pointing to that cancer cells are subverting cholesterol metabolism to foster their proliferation and survival through various mechanisms. This narrative review provides a concise overview of the physiological and pathological roles of cholesterol in the transition from healthy hepatocytes to HCC, in the context of MASH. Gaining further understanding of how hepatic cancer cells disrupt cholesterol homeostasis and how these perturbations impact cancer progression will facilitate the identification of novel and more effective cancer treatment strategies in this complex and devastating disease. >",
+      "citations": 6,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.37349/edd.2024.00048"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1852,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1852,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "087d798123b3c6ce33014864d0d2b3db44f7c9ce",
+      "title": "Novel Strategies against Hepatocellular Carcinoma through Lipid Metabolism",
+      "authors": [
+        "Yuanyuan Yang",
+        "P Zhao",
+        "Hepu Chen",
+        "Y Tu",
+        "Yujia Zhou",
+        "Xu Liu",
+        "Lyly Sreang",
+        "Zhigang Zhou",
+        "J Tu"
+      ],
+      "year": 2025,
+      "doi": "10.32604/or.2025.066440",
+      "url": "https://www.semanticscholar.org/paper/087d798123b3c6ce33014864d0d2b3db44f7c9ce",
+      "abstract": "Hepatocellular carcinoma (HCC) is characterized by its highly invasive and metastatic potential, as well as a propensity for recurrence, contributing to treatment failure and increased mortality. Under physiological conditions, the liver maintains a balance in lipid biosynthesis, degradation, storage, and transport. HCC exhibits dysregulated lipid metabolism, driving tumor progression and therapeutic resistance. This review aims to elucidate the roles of fatty acid, sphingolipid, and cholesterol metabolism in HCC pathogenesis and explore emerging therapeutic strategies targeting these pathways. Key findings demonstrate that upregulated enzymes like fatty acid synthase (FASN), acetyl-CoA carboxylase (ACC), enhance de novo lipogenesis and β-oxidation, and promote HCC proliferation, invasion, and apoptosis evasion. Sphingolipids exert dual functions: ceramides suppress tumors, while sphingosine-1-phosphate (S1P) drives oncogenic signaling. Aberrant cholesterol metabolism, mediated by HMG-CoA reductase (HMGCR), liver X receptor α (LXRα), and sterol regulatory element-binding protein 1 (SREBP1), contributes to immunosuppression and drug resistance. Notably, inducing ferroptosis by disrupting lipid homeostasis represents a promising approach. Pharmacological inhibition of key nodes—such as FASN (Orlistat, TVB-3664), sphingomyelin synthase (D609), or cholesterol synthesis (statins, Genkwadaphnin)—synergizes with sorafenib/lenvatinib and overcomes resistance. We conclude that targeting lipid metabolic reprogramming, alone or combined with conventional therapies, offers significant potential for novel HCC treatment strategies. Future efforts should focus on overcoming metabolic plasticity and optimizing combinatorial regimens.",
+      "citations": 1,
+      "source_hits": [
+        "semantic_scholar",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "087d798123b3c6ce33014864d0d2b3db44f7c9ce",
+        "41179299"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1792,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1792,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "197ad620bcadfcd3ec05e5f80272cb5c28efd25b",
+      "title": "Post-translational switch of DHCR24 acetylation sustains sterol synthesis and promotes HCC via the 7-ketocholesterol/p62 axis.",
+      "authors": [
+        "Yunfei Zhou",
+        "Xinxin Yang",
+        "Jianwen Xu",
+        "Yidi Wu",
+        "Yin Fu",
+        "Yihong Dong",
+        "Xun Yang",
+        "Qiang Fu",
+        "Chenxu Guo",
+        "Yunjing Hou",
+        "Shuyuan Chang",
+        "Jun Yan",
+        "J. Ran",
+        "Yumeng Wang",
+        "Qingxin Zhang",
+        "Tomii Ayaka",
+        "Lei Yu",
+        "Feng Geng",
+        "Liuyang Zhao",
+        "Xiaoyang Hu",
+        "Shuijie Li",
+        "Hongxue Meng",
+        "Dabin Liu"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.celrep.2025.116640",
+      "url": "https://www.semanticscholar.org/paper/197ad620bcadfcd3ec05e5f80272cb5c28efd25b",
+      "abstract": "Dysregulated cholesterol synthesis fuels cancer progression, but its precise role in hepatocellular carcinoma (HCC) remains unclear. Here, we identify elevated acetylation of 24-dehydrocholesterol reductase (DHCR24) at Lys254 as a hallmark of HCC. Both total DHCR24 and its K254 acetylation independently predict poor patient survival. Acetylation stabilizes DHCR24, sustaining hepatic cholesterol synthesis and promoting tumorigenesis. Mechanistically, DHCR24 acetylation enhances 7-ketocholesterol accumulation, which upregulates p62 and drives HCC growth in vitro and in vivo. Pharmacologic inhibition of DHCR24 expression and acetylation with the US Food and Drug Administration (FDA)-approved drug irbesartan suppresses cell proliferation and reduces tumor burden in xenograft and carcinogen-induced mouse models. Reduced p62 expression parallels the antitumor effects. These findings define DHCR24 acetylation as a metabolic switch linking sterol synthesis to oncogenesis and highlight the DHCR24-7-ketocholesterol-p62 axis as a therapeutic target for HCC.",
+      "citations": 1,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "197ad620bcadfcd3ec05e5f80272cb5c28efd25b"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1792,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1792,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1186/s40001-023-01547-z",
+      "title": "Dysregulated cholesterol regulatory genes in hepatocellular carcinoma",
+      "authors": [
+        "Dan Cao",
+        "Huan Liu"
+      ],
+      "year": 2023,
+      "doi": "10.1186/s40001-023-01547-z",
+      "url": "https://doi.org/10.1186/s40001-023-01547-z",
+      "abstract": ">Abstract > >Cholesterol is an indispensable component in mammalian cells, and cholesterol metabolism performs important roles in various biological activities. In addition to the Warburg effect, dysregulated cholesterol metabolism is one of the metabolic hallmarks of several cancers. It has reported that reprogrammed cholesterol metabolism facilitates carcinogenesis, metastasis, and drug-resistant in various tumors, including hepatocellular carcinoma (HCC). Some literatures have reported that increased cholesterol level leads to lipotoxicity, inflammation, and fibrosis, ultimately promoting the development and progression of HCC. Contrarily, other clinical investigations have demonstrated a link between higher cholesterol level and lower risk of HCC. These incongruent findings suggest that the connection between cholesterol and HCC is much complicated. In this report, we summarize the roles of key cholesterol regulatory genes including cholesterol biosynthesis, uptake, efflux, trafficking and esterification in HCC. In addition, we discuss promising related therapeutic targets for HCC. >",
+      "citations": 10,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1186/s40001-023-01547-z"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.179,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.179,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "6e587565d663d23385a8e18713d501269ff0b7d0",
+      "title": "Cholesterol’s new tricks propel MASH-HCC: impact in immunotherapy",
+      "authors": [
+        "C. Garcia-Ruiz",
+        "S. Torres",
+        "J. Fernández-Checa"
+      ],
+      "year": 2024,
+      "doi": "10.1136/gutjnl-2024-332766",
+      "url": "https://www.semanticscholar.org/paper/6e587565d663d23385a8e18713d501269ff0b7d0",
+      "abstract": "to repress the immune function of cytotoxic CD8 + T cells while stimulating the suppressor activity of MDSCs. The cellular source of the increased cholesterol levels targeting TIME and whether bile acids generated in the mitochondrial pathway act as supplementary mediators for the immunomodulatory effects of cholesterol remain unclear and require further investigation. In addition, whether targeting DHCR24 mimics the efficacy of SLQE inhibitors to boost immunotherapy in MASH-HCC deserves further investigation. BAs, bile acids; DHCR24, 24-dehydrocholesterol reductase; MASH-HCC, metabolic-associated steatohepatitis-hepatocellular carcinoma; MDSC, myeloid-derived suppressor cell; SLQE, squalene epoxidase; TIME, tumour immune microenvironment.",
+      "citations": 1,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "6e587565d663d23385a8e18713d501269ff0b7d0"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1789,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1789,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "e4cd6e021beade8f141e756124d99933b8593438",
+      "title": "Pan-cancer analysis reveals the potential role of DHCR24 in bladder cancer via interactions with HRAS to facilitate cholesterol synthesis",
+      "authors": [
+        "Zhibin Wang",
+        "Jing Mao",
+        "Yukun Zhang",
+        "Wenyu Yang",
+        "Deliang Sun",
+        "Ziyin Lu",
+        "Xiuli Lu",
+        "Bing Gao"
+      ],
+      "year": 2025,
+      "doi": "10.3892/ol.2025.15131",
+      "url": "https://www.semanticscholar.org/paper/e4cd6e021beade8f141e756124d99933b8593438",
+      "abstract": "There is a strong association between cholesterol reprogramming and cancer development. However, 3β-hydroxysteroid Δ24-reductase (DHCR24), the final enzyme in the cholesterol biosynthesis pathway, has been relatively understudied in cancer progression. The present study aimed to perform a comprehensive pan-cancer analysis of DHCR24 to elucidate its role across different malignancies. The interacting proteins of DHCR24 were identified by molecular docking node dynamics simulation. Duolink proximity ligation, cell viability and filipin staining assays were used to assess the function of DHCR24 in cancer cells and its underlying oncogenic mechanisms. The findings revealed that DHCR24 exhibits high expression in seven cancer types (bladder cancer, breast invasive carcinoma, liver hepatocellular carcinoma, prostate adenocarcinoma, cervical squamous cell carcinoma and endocervical adenocarcinoma, uterine corpus endometrial carcinoma and stomach adenocarcinoma), and low expression in five others (glioblastoma multiforme, kidney chromophobe, kidney renal clear cell carcinoma, lung adenocarcinoma and lung squamous cell carcinoma), suggesting that DHCR24 serves distinct roles depending on the cancer type. Notably, it was demonstrated that DHCR24 expression consistently increases with tumor stage and serves as an independent prognostic factor in BLCA. Moreover, molecular docking and kinetic modeling identified HRAS as a key interacting protein of DHCR24. The Duolink assay further demonstrated that DHCR24 interacts with HRAS outside the nucleus in 5637 human BLCA cells. Filipin fluorescence staining and cell proliferation assays also revealed that this interaction promoted cholesterol synthesis, contributing to cancer cell proliferation in the 5637 cells. In conclusion, the results of the present study provide novel insights into the oncogenic role of DHCR24 in BLCA and demonstrates its interaction with HRAS for the first time to the best of our knowledge, highlighting a potential mechanism driving tumor progression.",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "e4cd6e021beade8f141e756124d99933b8593438",
+        "40535103"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.178,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.178,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.21203/rs.3.rs-3002654/v1",
+      "title": "A novel cholesterol metabolism-related ferroptosis pathway in hepatocellular carcinoma",
+      "authors": [
+        "Weiwei Fang",
+        "Cheng Pang",
+        "Xiying Li"
+      ],
+      "year": 2023,
+      "doi": "10.21203/rs.3.rs-3002654/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-3002654/v1",
+      "abstract": ">Abstract > >Background Emerging studies have reported the contribution of cholesterol to hepatocellular carcinoma (HCC) progression. However, the specific role and mechanism of cholesterol metabolism on spontaneous and progressive HCC development from the point of view of ferroptosis are still worth exploring. The present study aimed to reveal a novel mechanism of cholesterol metabolism-related ferroptosis in hepatocellular carcinoma cells Methods Two microarray datasets (GSE25097, GSE22058) related to HCC were downloaded from Gene Expression Omnibus (GEO) datasets. Metabolomics analysis was performed by ultra performance liquid chromatography - tandem mass spectrometer (UPLC-MS/MS). The cholesterol-related proteins were downloaded from HMBD. Ferroptosis-related genes were extracted from FerrDb database. Data sets were separated into two groups. GSE25097 was used to identify ferroptosis-related genes, and GSE22058 was used to verify results. During these processes, chemical–protein interaction (CPI), protein–protein interaction (PPI), the Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were conducted. Results finally identified 8 differentially expressed ferroptosis-related genes (HAMP, PTGS2, IL1B, ALOX15B, CDKN2A, RRM2, NQO1 and KIF20A) and 4 differentially expressed cholesterol-related genes (LCAT, CH25H, CEL and CYP7A1). Further function analysis revealed that the 8 differentially expressed ferroptosis-related genes are enriched in metabolic pathways, arachidonic acid metabolism, NF-kappa B signaling pathway, TNF signaling pathway, p53 signaling pathway, IL-17 signaling pathway, C-type lectin receptor signaling pathway, serotonergic synapse and other related pathways, and the 4 differentially expressed cholesterol-related genes are enriched in primary bile acid biosynthesis, cholesterol metabolism and other related pathways. Furthermore, based on the predicted results with STITCH, we identified indomethacin and IL1B as the essential node for cholesterol-mediated ferroptosis in hepatocellular carcinoma cell. Conclusions Our findings shed new light on the association between cholesterol metabolism and ferroptosis in HCC, and suggest that IL1B is the necessary node for cholesterol to lead to ferroptosis process in HCC. Also, we identified the potential role of indomethacin in adjuvant therapy of HCC with complications of abnormal cholesterol metabolism. >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.21203/rs.3.rs-3002654/v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.172,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.172,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "4d3e0269ff808d8515ee6d747f0ef04db5eb3aad",
+      "title": "Cholesterol: a putative oncogenic driver for DLBCL.",
+      "authors": [
+        "V. Russo"
+      ],
+      "year": 2022,
+      "doi": "10.1182/blood.2021014300",
+      "url": "https://www.semanticscholar.org/paper/4d3e0269ff808d8515ee6d747f0ef04db5eb3aad",
+      "abstract": "In this issue of Blood , Shen et al 1 investigate the role exerted by the transcription factor SOX9 in modulating 24-dehydrocholesterol reductase (DHCR24)-mediated cholesterol synthesis. They report that this pathway is active in a subgroup of aggressive diffuse large B-cell lymphomas (DLBCLs) harboring the IGH-BCL2 translocation, which accounts for (cid:1) 10 % of DLBCLs. SOX9 is a member of the SOX family of transcription factors. It plays a critical role in cell fate determination, differen-tiation, and proliferation, as well as in the maintenance of the stem cell pool in a variety of developing and adult tis-sues. 2 SOX9 overexpression has also been implicated in human cancers, such as hepatocellular carcinoma, breast, bladder, gastric, prostate, pancreatic, and colorectal cancers. 3 In this study, Shen et al show that SOX9 is overex-pressed preferentially in the IGH-BCL2 1 DLBCL, and its expression correlates with advanced stages of disease. To investigate whether SOX9 plays a role in lymphomagenesis, they evaluate SOX9-silenced DLBCL cells and show that SOX9-silenced cells undergo reduced proliferation, G1/S cell-cycle arrest, and apoptotic cell death both in vitro and in vivo. By whole-transcrip-tome analysis and chromatin immuno-precipitation – sequence assays, the authors identify DHCR24, an enzyme involved in cholesterol biosynthesis, as a direct target of SOX9. Indeed, the enforced expression of DHCR24 is capable of rescuing func-tions associated with SOX9 knockdown in DLBCL cells by modulating cellular cholesterol levels. Cholesterol plays a key role in maintain-ing cell membrane integrity and in",
+      "citations": 1,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "4d3e0269ff808d8515ee6d747f0ef04db5eb3aad"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1706,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1706,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4401256852",
+      "title": "Molecular biomarkers of progression in non-muscle-invasive bladder cancer — beyond conventional risk stratification",
+      "authors": [
+        "Mitchell Olislagers",
+        "Florus C. de Jong",
+        "Vera C. Rutten",
+        "Joost L. Boormans",
+        "Tokameh Mahmoudi",
+        "Tahlita C M Zuiverloon"
+      ],
+      "year": 2024,
+      "doi": "10.1038/s41585-024-00914-7",
+      "url": "https://doi.org/10.1038/s41585-024-00914-7",
+      "abstract": "",
+      "citations": 26,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4401256852"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1675,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1675,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "0af5bdcbe968dc447bfcfdadd7223367fb0a3381",
+      "title": "Development of Serum DHCR24 Antibody as a Marker for Hepatocellular Carcinoma: The End of the Beginning",
+      "authors": [
+        "S Chan",
+        "A Chan",
+        "Stephen L Chan",
+        "Anthony WH Chan"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.ebiom.2015.05.020",
+      "url": "https://www.semanticscholar.org/paper/0af5bdcbe968dc447bfcfdadd7223367fb0a3381",
+      "abstract": "Looking for novel serum markers for early detection of hepatocellular carcinoma (HCC) has been a hot area of research for more than 20 years. Notwithstanding the intensive research efforts, there have been scanty serum markers with optimal performance for generalized clinical use. This is partly because HCC typically arises from the background of diseased liver with long standing cirrhotic and hepatitic changes, whereas few markers are specifically expressed in tumors without co-expression in non-tumorous tissue. HCC is also known to be a highly heterogeneous cancer, with different etiological, geographical and genetic compositions. As a result, it is difficult to identify a single marker suitable for all HCC patients. Taking alpha-fetoprotein (AFP) as an example, the sensitivity is approximately 70% in diagnosis of HCC but it becomes lower in the setting of surveillance for small sized tumor (Chan et al., 2014). In addition, AFP is limited by the false-positivity in patients with active hepatitis. As compared to hepatitis B virus (HBV) infection, this problem appears to be worse for hepatitis C virus (HCV) infection, which is characterized by variable degree of chronic active hepatitis. Although recent data indicate that the specificity of AFP could improve after treatment with effective anti-viral therapy which diminishes the hepatitis activity (Wong et al., 2014, Oze et al., 2014), it remains controversial whether serum AFP should be recommended for surveillance of HCC. To overcome above weaknesses, various serum markers for HCC have been tested with notable examples including Prothrombin Induced by Vitamin K Absence-II (PIVKA-II) and Lens culinaris agglutinin-reactive AFP (AFP-L3). These markers are associated with higher specificity in diagnosis of HCC, but at a cost of lower sensitivity (Sterling et al., 2009). As a result, none of them are considered very useful markers for surveillance of HCC. \n \nIn this issue of EBioMedicine, Ezzikouri et al. reported on the use of a novel serum marker, 3β-hydroxysterol Δ24-reductase auto-antibody (DHCR24 Ab), as a surrogate marker to indicate progression from chronic hepatitis C to HCC (Ezzikouri et al., 2015). By evaluating serum levels of the antibody in patients with different stages of disease, it was found that the concentration of DHCR24 Ab in the HCC cohort was higher than cirrhotic patients, while the levels in cirrhotic patients were higher than the hepatitis cohort and healthy subjects, respectively. In diagnosing HCC, the performance of serum DHCR24 Ab was better than AFP (cutoff at 20 ng/ml) and PIVKA-II (cutoff at 40m IU/ml) with higher sensitivity, specificity and area-under-curve (AUC) at the cutoff of 11.5 μg/ml. Further, DHCR24 Ab was elevated in more than 70% of patients who did not have elevation of AFP or PIVKA-II, and the combination of serum DHCR24 Ab with AFP and PIVKA-II had good sensitivity of higher than 87% in diagnosis of HCC. All of these phenomena were only observed in the HCV population but not in the HBV patients. The authors conclude that serum DHRC24 Ab is a potential marker for HCV-related liver disease and may facilitate the diagnosis of HCC. \n \nThe authors have to be congratulated for conducting such a large-scaled clinical study with sample size of more than 600 patients. This robust sample size has enabled statistical analysis of the diagnostic and prognostic performance of the novel marker in different stages and etiology groups of patients. We concur that the DHCR24 Ab is worthy of further investigations for potential clinical use in prognostication of severity and surveillance of HCC in patients with HCV infection. There are several areas in which the marker can be developed to match the need in real-world setting. First, a number of predictive models have already been developed to gauge the risk of progression of HCV infection, by incorporating multiple clinical factors, including AST/ALT ratio, bilirubin and albumin levels (Bonis et al., 1999, Ghany et al., 2010). It remains unclear whether serum DHCR24 Ab provides independent prognostication to those predictive models or clinical factors. Second, clinicians nowadays rely on abdominal ultrasonography for surveillance of HCC. Recent study suggested that the combination of serum marker AFP and abdominal ultrasonography could improve the effectiveness of HCC surveillance (Chang et al., 2015). Therefore, it is crucial to study the combination of serum DHCR24 Ab and abdominal ultrasonography in the surveillance of HCC. Third, only the serum sample collected at one single time point has been studied based on the belief that the antibody level is reflective of quantity of DHCR24 protein. Nevertheless, the production of antibody is prone to be influenced by other factors such as host's immunity and the presence of concomitant active infection. It is unclear whether any the antibody level fluctuates along the disease course of HCV infection, particularly after antiviral treatment. To address this question, future investigations should involve study on quantification of DHCR24 Ab in serial serum samples in the patient cohort. Fourth, DHCR24 participates in cholesterol synthesis with its blood level in close correlation with body weight, fast glucose level and HbA1c (Berisha et al., 2011). Hence, the potential applicability of serum DHCR24 Ab in prognostication of patients with non-alcoholic fatty liver disease, which is the commonest metabolic liver disease worldwide, should be explored. \n \nIn summary, the current study by Ezzikouri et al. has undoubtedly provided researchers a novel marker to work on, in particular for surveillance of HCC in HCV population. However, previous experiences of developing tumor markers have already taught us that HCC and HCV are both complex diseases. A lot more works are required to determine whether DHCR24 Ab represents a promising hope for patients.",
+      "citations": 1,
+      "source_hits": [
+        "semantic_scholar",
+        "crossref"
+      ],
+      "source_ids": [
+        "0af5bdcbe968dc447bfcfdadd7223367fb0a3381",
+        "10.1016/j.ebiom.2015.05.020"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1584,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1584,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2005.04073v1",
+      "title": "Multi-Instance Multi-Label Learning for Gene Mutation Prediction in Hepatocellular Carcinoma",
+      "authors": [
+        "Kaixin Xu",
+        "Ziyuan Zhao",
+        "Jiapan Gu",
+        "Zeng Zeng",
+        "Chan Wan Ying",
+        "Lim Kheng Choon",
+        "Thng Choon Hua",
+        "Pierce KH Chow"
+      ],
+      "year": 2020,
+      "doi": "10.1109/EMBC44109.2020.9175293",
+      "url": "http://arxiv.org/abs/2005.04073v1",
+      "abstract": "Gene mutation prediction in hepatocellular carcinoma (HCC) is of great diagnostic and prognostic value for personalized treatments and precision medicine. In this paper, we tackle this problem with multi-instance multi-label learning to address the difficulties on label correlations, label representations, etc. Furthermore, an effective oversampling strategy is applied for data imbalance. Experimental results have shown the superiority of the proposed approach.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2005.04073v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2005.04069v1",
+      "title": "Multi-Phase Cross-modal Learning for Noninvasive Gene Mutation Prediction in Hepatocellular Carcinoma",
+      "authors": [
+        "Jiapan Gu",
+        "Ziyuan Zhao",
+        "Zeng Zeng",
+        "Yuzhe Wang",
+        "Zhengyiren Qiu",
+        "Bharadwaj Veeravalli",
+        "Brian Kim Poh Goh",
+        "Glenn Kunnath Bonney",
+        "Krishnakumar Madhavan",
+        "Chan Wan Ying",
+        "Lim Kheng Choon",
+        "Thng Choon Hua",
+        "Pierce KH Chow"
+      ],
+      "year": 2020,
+      "doi": "10.1109/EMBC44109.2020.9176677",
+      "url": "http://arxiv.org/abs/2005.04069v1",
+      "abstract": "Hepatocellular carcinoma (HCC) is the most common type of primary liver cancer and the fourth most common cause of cancer-related death worldwide. Understanding the underlying gene mutations in HCC provides great prognostic value for treatment planning and targeted therapy. Radiogenomics has revealed an association between non-invasive imaging features and molecular genomics. However, imaging feature identification is laborious and error-prone. In this paper, we propose an end-to-end deep learning framework for mutation prediction in APOB, COL11A1 and ATRX genes using multiphasic CT scans. Considering intra-tumour heterogeneity (ITH) in HCC, multi-region sampling technology is implemented to generate the dataset for experiments. Experimental results demonstrate the effectiveness of the proposed model.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2005.04069v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38847653",
+      "title": "DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review.",
+      "authors": [
+        "Fu X",
+        "Wang Z."
+      ],
+      "year": 2024,
+      "doi": "10.1177/15330338241259780",
+      "url": "https://europepmc.org/article/med/38847653",
+      "abstract": "",
+      "citations": 12,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "38847653"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1564,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1564,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "39552565",
+      "title": "Human umbilical cord mesenchymal stem cells small extracellular vesicles-derived miR-370-3p inhibits cervical precancerous lesions by targeting DHCR24.",
+      "authors": [
+        "Li W",
+        "Zhang C",
+        "Gao T",
+        "Sun Y",
+        "Yang H",
+        "Liu L",
+        "Shi M",
+        "Ding L",
+        "Zhang C",
+        "Deng DYB"
+      ],
+      "year": 2025,
+      "doi": "10.1093/stcltm/szae087",
+      "url": "https://europepmc.org/article/med/39552565",
+      "abstract": "",
+      "citations": 5,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "39552565"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40084368",
+      "title": "GDF15 promotes the resistance of epithelial ovarian cancer cells to gemcitabine via DHCR24-mediated cholesterol metabolism to elevate ABCB1 and ABCC1 levels in lipid rafts.",
+      "authors": [
+        "Guo L",
+        "He Y",
+        "Xin H."
+      ],
+      "year": 2025,
+      "doi": "10.62347/kyiy8286",
+      "url": "https://europepmc.org/article/med/40084368",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40084368"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1484,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1484,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40529212",
+      "title": "DHCR7 inhibition ameliorates MetALD and HCC in mice and human 3D liver spheroids.",
+      "authors": [
+        "Yamamoto G",
+        "Carvalho-Gontijo Weber R",
+        "Lee W",
+        "Zhang V",
+        "Jang H",
+        "Sakane S",
+        "Liu X",
+        "Kim HY",
+        "Brenner DA",
+        "Li N"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.jhepr.2025.101415",
+      "url": "https://europepmc.org/article/med/40529212",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40529212"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2503.17738v1",
+      "title": "Tumor-associated CD19$^+$ macrophages induce immunosuppressive microenvironment in hepatocellular carcinoma",
+      "authors": [
+        "Junli Wang",
+        "Wanyue Cao",
+        "Jinyan Huang",
+        "Yu Zhou",
+        "Rujia Zheng",
+        "Yu Lou",
+        "Jiaqi Yang",
+        "Jianghui Tang",
+        "Mao Ye",
+        "Zhengtao Hong",
+        "Jiangchao Wu",
+        "Haonan Ding",
+        "Yuquan Zhang",
+        "Jianpeng Sheng",
+        "Xinjiang Lu",
+        "Pinglong Xu",
+        "Xiongbin Lu",
+        "Xueli Bai",
+        "Tingbo Liang",
+        "Qi Zhang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2503.17738v1",
+      "abstract": "Tumor-associated macrophages are a key component that contributes to the immunosuppressive microenvironment in human cancers. However, therapeutic targeting of macrophages has been a challenge in clinic due to the limited understanding of their heterogeneous subpopulations and distinct functions. Here, we identify a unique and clinically relevant CD19$^+$ subpopulation of macrophages that is enriched in many types of cancer, particularly in hepatocellular carcinoma (HCC). The CD19$^+$ macrophages exhibit increased levels of PD-L1 and CD73, enhanced mitochondrial oxidation, and compromised phagocytosis, indicating their immunosuppressive functions. Targeting CD19$^+$ macrophages with anti-CD19 chimeric antigen receptor T (CAR-T) cells inhibited HCC tumor growth. We identify PAX5 as a primary driver of up-regulated mitochondrial biogenesis in CD19$^+$ macrophages, which depletes cytoplasmic Ca$^{2+}$, leading to lysosomal deficiency and consequent accumulation of CD73 and PD-L1. Inhibiting CD73 or mitochondrial oxidation enhanced the efficacy of immune checkpoint blockade therapy in treating HCC, suggesting great promise for CD19$^+$ macrophage-targeting therapeutics.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2503.17738v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2412.03084v2",
+      "title": "Hybrid deep learning-based strategy for the hepatocellular carcinoma cancer grade classification of H&E stained liver histopathology images",
+      "authors": [
+        "Ajinkya Deshpande",
+        "Deep Gupta",
+        "Ankit Bhurane",
+        "Nisha Meshram",
+        "Sneha Singh",
+        "Petia Radeva"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2412.03084v2",
+      "abstract": "Hepatocellular carcinoma (HCC) is a common type of liver cancer whose early-stage diagnosis is a common challenge, mainly due to the manual assessment of hematoxylin and eosin-stained whole slide images, which is a time-consuming process and may lead to variability in decision-making. For accurate detection of HCC, we propose a hybrid deep learning-based architecture that uses transfer learning to extract the features from pre-trained convolutional neural network (CNN) models and a classifier made up of a sequence of fully connected layers. This study uses a publicly available The Cancer Genome Atlas Hepatocellular Carcinoma (TCGA-LIHC)database (n=491) for model development and database of Kasturba Gandhi Medical College (KMC), India for validation. The pre-processing step involves patch extraction, colour normalization, and augmentation that results in 3920 patches for the TCGA dataset. The developed hybrid deep neural network consisting of a CNN-based pre-trained feature extractor and a customized artificial neural network-based classifier is trained using five-fold cross-validation. For this study, eight different state-of-the-art models are trained and tested as feature extractors for the proposed hybrid model. The proposed hybrid model with ResNet50-based feature extractor provided the sensitivity, specificity, F1-score, accuracy, and AUC of 100.00%, 100.00%, 100.00%, 100.00%, and 1.00, respectively on the TCGA database. On the KMC database, EfficientNetb3 resulted in the optimal choice of the feature extractor giving sensitivity, specificity, F1-score, accuracy, and AUC of 96.97, 98.85, 96.71, 96.71, and 0.99, respectively. The proposed hybrid models showed improvement in accuracy of 2% and 4% over the pre-trained models in TCGA-LIHC and KMC databases.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2412.03084v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2501.11535v1",
+      "title": "A baseline for machine-learning-based hepatocellular carcinoma diagnosis using multi-modal clinical data",
+      "authors": [
+        "Binwu Wang",
+        "Isaac Rodriguez",
+        "Leon Breitinger",
+        "Fabian Tollens",
+        "Timo Itzel",
+        "Dennis Grimm",
+        "Andrei Sirazitdinov",
+        "Matthias Frölich",
+        "Stefan Schönberg",
+        "Andreas Teufel",
+        "Jürgen Hesser",
+        "Wenzhao Zhao"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2501.11535v1",
+      "abstract": "The objective of this paper is to provide a baseline for performing multi-modal data classification on a novel open multimodal dataset of hepatocellular carcinoma (HCC), which includes both image data (contrast-enhanced CT and MRI images) and tabular data (the clinical laboratory test data as well as case report forms). TNM staging is the classification task. Features from the vectorized preprocessed tabular data and radiomics features from contrast-enhanced CT and MRI images are collected. Feature selection is performed based on mutual information. An XGBoost classifier predicts the TNM staging and it shows a prediction accuracy of $0.89 \\pm 0.05$ and an AUC of $0.93 \\pm 0.03$. The classifier shows that this high level of prediction accuracy can only be obtained by combining image and clinical laboratory data and therefore is a good example case where multi-model classification is mandatory to achieve accurate results.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2501.11535v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2147/jhc.s569292",
+      "title": "The U-Shaped Association Between Remnant Cholesterol and Postoperative Survival in Hepatocellular Carcinoma: Development and Validation of an Interpretable Machine Learning Model",
+      "authors": [
+        "Gao-Min Liu",
+        "Jia-Peng Liao",
+        "Ji-Wei Xu"
+      ],
+      "year": 2025,
+      "doi": "10.2147/jhc.s569292",
+      "url": "https://doi.org/10.2147/jhc.s569292",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2147/jhc.s569292"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2302.01813v1",
+      "title": "Leveraging weak complementary labels to improve semantic segmentation of hepatocellular carcinoma and cholangiocarcinoma in H&E-stained slides",
+      "authors": [
+        "Miriam Hägele",
+        "Johannes Eschrich",
+        "Lukas Ruff",
+        "Maximilian Alber",
+        "Simon Schallenberg",
+        "Adrien Guillot",
+        "Christoph Roderburg",
+        "Frank Tacke",
+        "Frederick Klauschen"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2302.01813v1",
+      "abstract": "In this paper, we present a deep learning segmentation approach to classify and quantify the two most prevalent primary liver cancers - hepatocellular carcinoma and intrahepatic cholangiocarcinoma - from hematoxylin and eosin (H&E) stained whole slide images. While semantic segmentation of medical images typically requires costly pixel-level annotations by domain experts, there often exists additional information which is routinely obtained in clinical diagnostics but rarely utilized for model training. We propose to leverage such weak information from patient diagnoses by deriving complementary labels that indicate to which class a sample cannot belong to. To integrate these labels, we formulate a complementary loss for segmentation. Motivated by the medical application, we demonstrate for general segmentation tasks that including additional patches with solely weak complementary labels during model training can significantly improve the predictive performance and robustness of a model. On the task of diagnostic differentiation between hepatocellular carcinoma and intrahepatic cholangiocarcinoma, we achieve a balanced accuracy of 0.91 (CI 95%: 0.86 - 0.95) at case level for 165 hold-out patients. Furthermore, we also show that leveraging complementary labels improves the robustness of segmentation and increases performance at case level.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2302.01813v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2302.05287v2",
+      "title": "Multicategory Matched Learning for Estimating Optimal Individualized Treatment Rules in Observational Studies with Application to a Hepatocellular Carcinoma Study",
+      "authors": [
+        "Xuqiao Li",
+        "Qiuyan Zhou",
+        "Ying Wu",
+        "Ying Yan"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2302.05287v2",
+      "abstract": "One primary goal of precision medicine is to estimate the individualized treatment rules (ITRs) that optimize patients' health outcomes based on individual characteristics. Health studies with multiple treatments are commonly seen in practice. However, most existing ITR estimation methods were developed for the studies with binary treatments. Many require that the outcomes are fully observed. In this paper, we propose a matching-based machine learning method to estimate the optimal ITRs in observational studies with multiple treatments when the outcomes are fully observed or right-censored. We establish theoretical property for the proposed method. It is compared with the existing competitive methods in simulation studies and a hepatocellular carcinoma study.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2302.05287v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2202.03512v2",
+      "title": "Physics-based tissue simulator to model multicellular systems: A study of liver regeneration and hepatocellular carcinoma recurrence",
+      "authors": [
+        "Luciana Melina Luque",
+        "Carlos Manuel Carlevaro",
+        "Camilo Llamoza Torres",
+        "Enrique Lomba"
+      ],
+      "year": 2022,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2202.03512v2",
+      "abstract": "We present a multiagent-based model that captures the interactions between different types of cells with their microenvironment, and enables the analysis of the emergent global behavior during tissue regeneration and tumor development. Using this model, we are able to reproduce the temporal dynamics of regular healthy cells and cancer cells, as well as the evolution of their three-dimensional spatial distributions. By tuning the system with the characteristics of the individual patients, our model reproduces a variety of spatial patterns of tissue regeneration and tumor growth, resembling those found in clinical imaging or biopsies. In order to calibrate and validate our model we study the process of liver regeneration after surgical hepatectomy in different degrees. In the clinical context, our model is able to predict the recurrence of a hepatocellular carcinoma after a 70% partial hepatectomy. The outcomes of our simulations are in agreement with experimental and clinical observations. By fitting the model parameters to specific patient factors, it might well become a useful platform for hypotheses testing in treatments protocols.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2202.03512v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.14891v0.2/reviews/3",
+      "title": "Peer Review #3 of \"High-throughput sequencing approach for the identification of lncRNA biomarkers in hepatocellular carcinoma and revealing the effect of ZFAS1/miR-150-5p on hepatocellular carcinoma progression (v0.2)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.14891v0.2/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.14891v0.2/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.14891v0.2/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.14891v0.1/reviews/2",
+      "title": "Peer Review #2 of \"High-throughput sequencing approach for the identification of lncRNA biomarkers in hepatocellular carcinoma and revealing the effect of ZFAS1/miR-150-5p on hepatocellular carcinoma progression (v0.1)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.14891v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.14891v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.14891v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2147/jhc.s278517",
+      "title": "Targeting De Novo Lipogenesis and Cholesterol Biosynthesis Simultaneously is a Novel Therapeutic Option for Hepatocellular Carcinoma",
+      "authors": [
+        "Qian Liu",
+        "Xifeng Dong"
+      ],
+      "year": 2021,
+      "doi": "10.2147/jhc.s278517",
+      "url": "https://doi.org/10.2147/jhc.s278517",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2147/jhc.s278517"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1336,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1336,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1912.00411v1",
+      "title": "Hepatocellular Carcinoma Intra-arterial Treatment Response Prediction for Improved Therapeutic Decision-Making",
+      "authors": [
+        "Junlin Yang",
+        "Nicha C. Dvornek",
+        "Fan Zhang",
+        "Julius Chapiro",
+        "MingDe Lin",
+        "Aaron Abajian",
+        "James S. Duncan"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1912.00411v1",
+      "abstract": "This work proposes a pipeline to predict treatment response to intra-arterial therapy of patients with Hepatocellular Carcinoma (HCC) for improved therapeutic decision-making. Our graph neural network model seamlessly combines heterogeneous inputs of baseline MR scans, pre-treatment clinical information, and planned treatment characteristics and has been validated on patients with HCC treated by transarterial chemoembolization (TACE). It achieves Accuracy of $0.713 \\pm 0.075$, F1 of $0.702 \\pm 0.082$ and AUC of $0.710 \\pm 0.108$. In addition, the pipeline incorporates uncertainty estimation to select hard cases and most align with the misclassified cases. The proposed pipeline arrives at more informed intra-arterial therapeutic decisions for patients with HCC via improving model accuracy and incorporating uncertainty estimation.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1912.00411v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1711.09124v1",
+      "title": "Modularity of the metabolic gene network as a prognostic biomarker for hepatocellular carcinoma",
+      "authors": [
+        "Fengdan Ye",
+        "Dongya Jia",
+        "Mingyang Lu",
+        "Herbert Levine",
+        "Michael W Deem"
+      ],
+      "year": 2017,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1711.09124v1",
+      "abstract": "Abnormal metabolism is an emerging hallmark of cancer. Cancer cells utilize both aerobic glycolysis and oxidative phosphorylation (OXPHOS) for energy production and biomass synthesis. Understanding the metabolic reprogramming in cancer can help design therapies to target metabolism and thereby to improve prognosis. We have previously argued that more malignant tumors are usually characterized by a more modular expression pattern of cancer-associated genes. In this work, we analyzed the expression patterns of metabolism genes in terms of modularity for 371 hepatocellular carcinoma (HCC) samples from the Cancer Genome Atlas (TCGA). We found that higher modularity significantly correlated with glycolytic phenotype, later tumor stages, higher metastatic potential, and cancer recurrence, all of which contributed to poorer overall prognosis. Among patients that recurred, we found the correlation of greater modularity with worse prognosis during early to mid-progression. Furthermore, we developed metrics to calculate individual modularity, which was shown to be predictive of cancer recurrence and patients' survival and therefore may serve as a prognostic biomarker. Our overall conclusion is that more aggressive HCC tumors, as judged by decreased host survival probability, had more modular expression patterns of metabolic genes. These results may be used to identify cancer driver genes and for drug design.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1711.09124v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.21873/anticanres.11721",
+      "title": "Diagnostic Value of Systemic Cholesteryl Ester/Free Cholesterol Ratio in Hepatocellular Carcinoma",
+      "authors": [],
+      "year": 2017,
+      "doi": "10.21873/anticanres.11721",
+      "url": "https://doi.org/10.21873/anticanres.11721",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.21873/anticanres.11721"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1272,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1272,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.26226/morressier.5b4709886f4cb300109517c0",
+      "title": "Blocked cholesterol synthesis induces hepatocellular carcinoma in transgenic mice",
+      "authors": [
+        "Jera Jeruc",
+        "Kaja Blagotinšek Cokan"
+      ],
+      "year": 2018,
+      "doi": "10.26226/morressier.5b4709886f4cb300109517c0",
+      "url": "https://doi.org/10.26226/morressier.5b4709886f4cb300109517c0",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.26226/morressier.5b4709886f4cb300109517c0"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10745/supp-7",
+      "title": "Supplemental Information 7: Hepatocellular Carcinoma-associated targets",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10745/supp-7",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10745/supp-7",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10745/supp-7"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.15554/fig-2",
+      "title": "Figure 2: Expression of IGFBP3 in hepatocellular carcinoma.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.15554/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.15554/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.15554/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13535/fig-1",
+      "title": "Figure 1: Expression of CDCA2 in hepatocellular carcinoma.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13535/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13535/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13535/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.18538/fig-1",
+      "title": "Figure 1: TRAF3IP3 was downregulate in hepatocellular carcinoma.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.18538/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.18538/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.18538/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20671/fig-4",
+      "title": "Figure 4: SNRPB expression is upregulated in hepatocellular carcinoma.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20671/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20671/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20671/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19337/fig-1",
+      "title": "Figure 1: Single-cell atlas of hepatocellular carcinoma (HCC).",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19337/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19337/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19337/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19680/fig-2",
+      "title": "Figure 2: Hepatic sections stained with hematoxylin and eosin in the control group (A), control group treated with genipin (B), hepatocellular carcinoma (A), and hepatocellular carcinoma treated with genipin (D).",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19680/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19680/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19680/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.5477/fig-1",
+      "title": "Figure 1: Flow chart of hepatocellular carcinoma research inclusion.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.5477/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.5477/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.5477/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3410/f.1126986.584111",
+      "title": "Faculty Opinions recommendation of Mitochondrial cholesterol contributes to chemotherapy resistance in hepatocellular carcinoma.",
+      "authors": [
+        "David Andrews"
+      ],
+      "year": 2008,
+      "doi": "10.3410/f.1126986.584111",
+      "url": "https://doi.org/10.3410/f.1126986.584111",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3410/f.1126986.584111"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

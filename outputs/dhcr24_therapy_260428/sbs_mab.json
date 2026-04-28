@@ -1,0 +1,1307 @@
+{
+  "query": "DHCR24 monoclonal antibody 2-152a HCC liver cancer",
+  "effective_query": "DHCR24 monoclonal antibody 2-152a HCC liver cancer",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 37,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "europe_pmc",
+      "id": "19861417",
+      "title": "Hepatitis C virus impairs p53 via persistent overexpression of 3beta-hydroxysterol Delta24-reductase.",
+      "authors": [
+        "Tomohiro Nishimura",
+        "Michinori Kohara",
+        "Kosuke Izumi",
+        "Yuri Kasama",
+        "Yuichi Hirata",
+        "Ying Huang",
+        "Masahiro Shuda",
+        "Chise Mukaidani",
+        "Takashi Takano",
+        "Yuko Tokunaga",
+        "Hideko Nuriya",
+        "Masaaki Satoh",
+        "Makoto Saito",
+        "Chieko Kai",
+        "Kyoko Tsukiyama–Kohara"
+      ],
+      "year": 2009,
+      "doi": "10.1074/jbc.m109.043232",
+      "url": "https://europepmc.org/article/med/19861417",
+      "abstract": "Persistent infection with hepatitis C virus (HCV) induces tumorigenicity in hepatocytes. To gain insight into the mechanisms underlying this process, we generated monoclonal antibodies on a genome-wide scale against an HCV-expressing human hepatoblastoma-derived cell line, RzM6-LC, showing augmented tumorigenicity. We identified 3beta-hydroxysterol Delta24-reductase (DHCR24) from this screen and showed that its expression reflected tumorigenicity. HCV induced the DHCR24 overexpression in human hepatocytes. Ectopic or HCV-induced DHCR24 overexpression resulted in resistance to oxidative stress-induced apoptosis and suppressed p53 activity. DHCR24 overexpression in these cells paralleled the increased interaction between p53 and MDM2 (also known as HDM2), a p53-specific E3 ubiquitin ligase, in the cytoplasm. Persistent DHCR24 overexpression did not alter the phosphorylation status of p53 but resulted in decreased acetylation of p53 at lysine residues 373 and 382 in the nucleus after treatment with hydrogen peroxide. Taken together, these results suggest that DHCR24 is elevated in response to HCV infection and inhibits the p53 stress response by stimulating the accumulation of the MDM2-p53 complex in the cytoplasm and by inhibiting the acetylation of p53 in the nucleus.",
+      "citations": 68,
+      "source_hits": [
+        "europe_pmc",
+        "openalex"
+      ],
+      "source_ids": [
+        "19861417",
+        "https://openalex.org/W1990932508"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1872,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1872,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2390307200",
+      "title": "HCV‐Induced Oxidative Stress: Battlefield‐Winning Strategy",
+      "authors": [
+        "Khadija Rebbani",
+        "Kyoko Tsukiyama–Kohara"
+      ],
+      "year": 2016,
+      "doi": "10.1155/2016/7425628",
+      "url": "https://doi.org/10.1155/2016/7425628",
+      "abstract": "About 150 million people worldwide are chronically infected with hepatitis C virus (HCV). The persistence of the infection is controlled by several mechanisms including the induction of oxidative stress. HCV relies on this strategy to redirect lipid metabolism machinery and escape immune response. The 3β-hydroxysterol Δ24-reductase (DHCR24) is one of the newly discovered host markers of oxidative stress. This protein, as HCV-induced oxidative stress responsive protein, may play a critical role in the pathogenesis of HCV chronic infection and associated liver diseases, when aberrantly expressed. The sustained expression of DHCR24 in response to HCV-induced oxidative stress results in suppression of nuclear p53 activity by blocking its acetylation and increasing its interaction with MDM2 in the cytoplasm leading to its degradation, which may induce hepatocarcinogenesis.",
+      "citations": 24,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2390307200"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1802,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1802,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2033847143",
+      "title": "Role of Oxidative Stress in Hepatocarcinogenesis Induced by Hepatitis C Virus",
+      "authors": [
+        "Kyoko Tsukiyama–Kohara"
+      ],
+      "year": 2012,
+      "doi": "10.3390/ijms131115271",
+      "url": "https://doi.org/10.3390/ijms131115271",
+      "abstract": "Hepatitis C virus (HCV) easily establishes chronic hepatitis, cirrhosis, and hepatocellular carcinoma (HCC). During the progression of HCV infections, reactive oxygen species (ROS) are generated, and these ROS then induce significant DNA damage. The role of ROS in the pathogenesis of HCV infection is still not fully understood. Recently, we found that HCV induced the expression of 3β-hydroxysterol Δ24-reductase (DHCR24). We also found that a HCV responsive region is present in the 5'-flanking genomic promoter region of DHCR24 and the HCV responsive region was characterized as (-167/-140). Moreover, the transcription factor Sp1 was found to bind to this region in response to oxidative stress under the regulation of ataxia telangiectasia mutated (ATM) kinase. Overexpression of DHCR24 impaired p53 activity by suppression of acetylation and increased interaction with MDM2. This impairment of p53 suppressed the hydrogen peroxide-induced apoptotic response in hepatocytes. Thus, a target of oxidative stress in HCV infection is DHCR24 through Sp1, which suppresses apoptotic responses and increases tumorigenicity.",
+      "citations": 38,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2033847143"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1777,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1777,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "26288822",
+      "title": "Serum DHCR24 Auto-antibody as a new Biomarker for Progression of Hepatitis C.",
+      "authors": [
+        "Sayeh Ezzikouri",
+        "Kiminori Kimura",
+        "Hajime Sunagozaka",
+        "Shuichi Kaneko",
+        "Kazuaki Inoue",
+        "Tomohiro Nishimura",
+        "Tsunekazu Hishima",
+        "Michinori Kohara",
+        "Tsukiyama-Kohara K",
+        "Kyoko Tsukiyama–Kohara"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.ebiom.2015.04.007",
+      "url": "https://europepmc.org/article/med/26288822",
+      "abstract": "DHCR24 auto-antibody represents a potential noninvasive biomarker for HCV-related liver disease and may facilitate the diagnosis of PIVKA-II and AFP-negative HCC.",
+      "citations": 17,
+      "source_hits": [
+        "europe_pmc",
+        "openalex"
+      ],
+      "source_ids": [
+        "26288822",
+        "https://openalex.org/W2041268211"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1722,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1722,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1158/1538-7445.am2011-4587",
+      "title": "Abstract 4587: Identification of a monoclonal antibody to treat HCC xenografts with EGFRvIII expression",
+      "authors": [
+        "Zonghai Li",
+        "Hua Jiang",
+        "Huamao Wang",
+        "Bizhi Shi"
+      ],
+      "year": 2011,
+      "doi": "10.1158/1538-7445.am2011-4587",
+      "url": "https://doi.org/10.1158/1538-7445.am2011-4587",
+      "abstract": ">Abstract > >Purposes:To identify monoclonal antibodies targeting Epidermal Growth Factor Receptor Variant III (EGFRvIII) and their anti-tumor effect on Hepatocellular carcinoma (HCC) with EGFRvIII expression. Procedures: Hybridoma technology was used to prepare monoclonal antibody recognizing EGFRvIII. Anti-tumor effects of several hybridoma clones were examined on HCC xenografts with EGFRvIII expression. Monoclonal antibody with highest growth-suppression effect on HCC was selected. Binding specificity of the antibody was tested by FACS assay. The targeting ability of this antibody was tested by injected the cyanin 5.5 labeled antibody into mice carrying EGFRvIII positive and negative xenografts. Findings: Among the tested monoclonal antibodies, mAb 12H23 has the highest tumor-suppression effect on HCC with EGFRvIII expression. mAb 12H23 bind preferentially to HCC cells with EGFRvIII expression. Cy5.5 labeled mAb 12H23 can significantly accumulate into EGFRvIII positive tumors but not the negative tumors. Conclusion: These data indicate mAb 12H23 is a potential biotherapeutic agent for treating HCC with EGFRvIII expression. > >Citation Format: {Authors}. {Abstract title} [abstract]. In: Proceedings of the 102nd Annual Meeting of the American Association for Cancer Research; 2011 Apr 2-6; Orlando, FL. Philadelphia (PA): AACR; Cancer Res 2011;71(8 Suppl):Abstract nr 4587. doi:10.1158/1538-7445.AM2011-4587 >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1158/1538-7445.am2011-4587"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38847653",
+      "title": "DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review.",
+      "authors": [
+        "Fu X",
+        "Wang Z."
+      ],
+      "year": 2024,
+      "doi": "10.1177/15330338241259780",
+      "url": "https://europepmc.org/article/med/38847653",
+      "abstract": "",
+      "citations": 12,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "38847653"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1564,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1564,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2411.13390v1",
+      "title": "Energy-based generative models for monoclonal antibodies",
+      "authors": [
+        "Paul Pereira",
+        "Hervé Minoux",
+        "Aleksandra M. Walczak",
+        "Thierry Mora"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2411.13390v1",
+      "abstract": "Since the approval of the first antibody drug in 1986, a total of 162 antibodies have been approved for a wide range of therapeutic areas, including cancer, autoimmune, infectious, or cardiovascular diseases. Despite advances in biotechnology that accelerated the development of antibody drugs, the drug discovery process for this modality remains lengthy and costly, requiring multiple rounds of optimizations before a drug candidate can progress to preclinical and clinical trials. This multi-optimization problem involves increasing the affinity of the antibody to the target antigen while refining additional biophysical properties that are essential to drug development such as solubility, thermostability or aggregation propensity. Additionally, antibodies that resemble natural human antibodies are particularly desirable, as they are likely to offer improved profiles in terms of safety, efficacy, and reduced immunogenicity, further supporting their therapeutic potential. In this article, we explore the use of energy-based generative models to optimize a candidate monoclonal antibody. We identify tradeoffs when optimizing for multiple properties, concentrating on solubility, humanness and affinity and use the generative model we develop to generate candidate antibodies that lie on an optimal Pareto front that satisfies these constraints.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2411.13390v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2501.09473v1",
+      "title": "An Asymptotic Analysis of Bivalent Monoclonal Antibody-Antigen Binding",
+      "authors": [
+        "Luke A Heirene",
+        "Helen M Byrne",
+        "James W T Yates",
+        "Eamonn A Gaffney"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2501.09473v1",
+      "abstract": "Ligand-receptor interactions are fundamental to many biological processes. For example in antibody-based immunotherapies, the dynamics of an antibody binding with its target antigen directly influence the potency and efficacy of monoclonal antibody (mAb) therapies. In this paper, we present an asymptotic analysis of an ordinary differential equation (ODE) model of bivalent antibody-antigen binding in the context of mAb cancer therapies, highlighting the added complexity associated with bivalency of the antibody. To understand what drives the complex temporal dynamics of bivalent antibody-antigen binding, we construct asymptotic approximations to the model's solutions at different timescales and antibody concentrations that are in good agreement with numerical simulations of the full model. We show how the dynamics differ between two scenarios; a region where unbound antigens are abundant, and one where the number of unbound antigens is small such that the dominant balance within the model equations changes. Of particular importance to the potency and efficacy of mAb treatments are the values of quantities such as antigen occupancy and bound antibody number. We use the results of our asymptotic analysis to approximate the long-time values of these quantities that could be combined with experimental data to facilitate parameter estimation.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2501.09473v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7144413531",
+      "title": "新規HCV関連因子 3β-hydroxysterol Δ24-reductase によるp53 機能抑制機構の解明",
+      "authors": [
+        "Tomohiro Nishimura"
+      ],
+      "year": 2011,
+      "doi": null,
+      "url": "https://kumadai.repo.nii.ac.jp/records/25349",
+      "abstract": "The hepatitis C virus (HCV) is one of the most important causes of chronic liver disease. This chronic infection induces chronic hepatitis, hepatic cirrhosis and hematoma. The cause of the liver carcinoma is thought to be a long series of inflammation. But even now, the mechanism is not completely clarified. Thus I tried to analyzed host factor that was upregulated by the persistence expression of HCV genome, and elucidate of oncogenic mechanism of HCV infection. The purpose of this study was finding of new approach to the HCV therapy.",
+      "citations": 0,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W7144413531"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.135,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.135,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2302.09932v2",
+      "title": "Dynamic Optimization for Monoclonal Antibody Production",
+      "authors": [
+        "Morten Wahlgreen Kaysfeld",
+        "Deepak Kumar",
+        "Marcus Krogh Nielsen",
+        "John Bagterp Jørgensen"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2302.09932v2",
+      "abstract": "This paper presents a dynamic optimization numerical case study for Monoclonal Antibody (mAb) production. The fermentation is conducted in a continuous perfusion reactor. We represent the existing model in terms of a general modeling methodology well-suited for simulation and optimization. The model consists of six ordinary differential equations (ODEs) for the non-constant volume and the five components in the reactor. We extend the model with a glucose inhibition term to make the model feasible for optimization case studies. We formulate an optimization problem in terms of an optimal control problem (OCP) and consider four different setups for optimization. Compared to the base case, the optimal operation of the perfusion reactor increases the mAb yield with 44% when samples are taken from the reactor and with 52% without sampling. Additionally, our results show that multiple optimal feeding trajectories exist and that full glucose utilization can be forced without loss of mAb formation.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2302.09932v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "25875901",
+      "title": "3β-hydroxysterol δ24-reductase on the surface of hepatitis C virus-related hepatocellular carcinoma cells can be a target for molecular targeting therapy.",
+      "authors": [
+        "Saito M",
+        "Takano T",
+        "Nishimura T",
+        "Kohara M",
+        "Tsukiyama-Kohara K."
+      ],
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0124197",
+      "url": "https://europepmc.org/article/med/25875901",
+      "abstract": "",
+      "citations": 9,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "25875901"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1293,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1293,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1906.08409v1",
+      "title": "Ongoing Vaccine and Monoclonal Antibody HIV Prevention Efficacy Trials and Considerations for Sequel Efficacy Trial Designs",
+      "authors": [
+        "Peter B. Gilbert"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1906.08409v1",
+      "abstract": "Four randomized placebo-controlled efficacy trials of a candidate vaccine or passively infused monoclonal antibody for prevention of HIV-1 infection are underway (HVTN 702 in South African men and women; HVTN 705 in sub-Saharan African women; HVTN 703/HPTN 081 in sub-Saharan African women; HVTN 704/HPTN 085 in U.S., Peruvian, Brazilian, and Swiss men or transgender persons who have sex with men). Several challenges are posed to the optimal design of the sequel efficacy trials, including: (1) how to account for the evolving mosaic of effective prevention interventions that may be part of the trial design or standard of prevention; (2) how to define viable and optimal sequel trial designs depending on the primary efficacy results and secondary 'correlates of protection' results of each of the ongoing trials; and (3) how to define the primary objective of sequel efficacy trials if HIV-1 incidence is expected to be very low in all study arms such that a standard trial design has a steep opportunity cost. After summarizing the ongoing trials, I discuss statistical science considerations for sequel efficacy trial designs, both generally and specifically to each trial listed above. One conclusion is that the results of 'correlates of protection' analyses, which ascertain how different host immunological markers and HIV-1 viral features impact HIV-1 risk and prevention efficacy, have an important influence on sequel trial design. This influence is especially relevant for the monoclonal antibody trials because of the focused pre-trial hypothesis that potency and coverage of serum neutralization constitutes a surrogate endpoint for HIV-1 infection... (see manuscript for the full abstract)",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1906.08409v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1705.07099v2",
+      "title": "Machine learning for classification and quantification of monoclonal antibody preparations for cancer therapy",
+      "authors": [
+        "Laetitia Le",
+        "Camille Marini",
+        "Alexandre Gramfort",
+        "David Nguyen",
+        "Mehdi Cherti",
+        "Sana Tfaili",
+        "Ali Tfayli",
+        "Arlette Baillet-Guffroy",
+        "Patrice Prognon",
+        "Pierre Chaminade",
+        "Eric Caudron",
+        "Balázs Kégl"
+      ],
+      "year": 2017,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1705.07099v2",
+      "abstract": "Monoclonal antibodies constitute one of the most important strategies to treat patients suffering from cancers such as hematological malignancies and solid tumors. In order to guarantee the quality of those preparations prepared at hospital, quality control has to be developed. The aim of this study was to explore a noninvasive, nondestructive, and rapid analytical method to ensure the quality of the final preparation without causing any delay in the process. We analyzed four mAbs (Inlfiximab, Bevacizumab, Ramucirumab and Rituximab) diluted at therapeutic concentration in chloride sodium 0.9% using Raman spectroscopy. To reduce the prediction errors obtained with traditional chemometric data analysis, we explored a data-driven approach using statistical machine learning methods where preprocessing and predictive models are jointly optimized. We prepared a data analytics workflow and submitted the problem to a collaborative data challenge platform called Rapid Analytics and Model Prototyping (RAMP). This allowed to use solutions from about 300 data scientists during five days of collaborative work. The prediction of the four mAbs samples was considerably improved with a misclassification rate and the mean error rate of 0.8% and 4%, respectively.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1705.07099v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3030/862551",
+      "title": "",
+      "authors": [],
+      "year": 2019,
+      "doi": "10.3030/862551",
+      "url": "https://doi.org/10.3030/862551",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3030/862551"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.31525/ct1-nct04273100",
+      "title": "PD-1 Monoclonal Antibody, Lenvatinib and TACE in the Treatment of HCC",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.31525/ct1-nct04273100",
+      "url": "https://doi.org/10.31525/ct1-nct04273100",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.31525/ct1-nct04273100"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/d879sc",
+      "title": "Monoclonal Antibody",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/d879sc",
+      "url": "https://doi.org/10.32388/d879sc",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/d879sc"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/zkur66",
+      "title": "Monoclonal Antibody to Colorectal Cancer",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/zkur66",
+      "url": "https://doi.org/10.32388/zkur66",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/zkur66"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/63gq4p",
+      "title": "Monoclonal Antibody 16.88",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/63gq4p",
+      "url": "https://doi.org/10.32388/63gq4p",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/63gq4p"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/g5m9tc",
+      "title": "Monoclonal Antibody 3A1",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/g5m9tc",
+      "url": "https://doi.org/10.32388/g5m9tc",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/g5m9tc"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/5eg2nu",
+      "title": "Human Combinatorial Antibody Library-based Monoclonal Antibody VAY736",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/5eg2nu",
+      "url": "https://doi.org/10.32388/5eg2nu",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/5eg2nu"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/o4rxo1",
+      "title": "Monoclonal Antibody 11D10",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/o4rxo1",
+      "url": "https://doi.org/10.32388/o4rxo1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/o4rxo1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1312.3023v1",
+      "title": "Mathematical Model of Colorectal Cancer with Monoclonal Antibody Treatments",
+      "authors": [
+        "L. G. dePillis",
+        "H. Savage",
+        "A. E. Radunskaya"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1312.3023v1",
+      "abstract": "We present a new mathematical model of colorectal cancer growth and its response to monoclonal-antibody (mAb) therapy. Although promising, most mAb drugs are still in trial phases, and the possible variations in the dosing schedules of those currently approved for use have not yet been thoroughly explored. To investigate the effectiveness of current mAb treatment schedules, and to test hypothetical treatment strategies, we have created a system of nonlinear ordinary differential equations (ODE) to model colorectal cancer growth and treatment. The model includes tumor cells, elements of the host's immune response, and treatments. Model treatments include the chemotherapy agent irinotecan and one of two monoclonal antibodies - cetuximab, which is FDA-approved for colorectal cancer, and panitumumab, which is still being evaluated in clinical trials. The model incorporates patient-specific parameters to account for individual variations in immune system strength and in medication efficacy against the tumor. We have simulated outcomes for groups of virtual patients on treatment protocols for which clinical trial data are available, using a range of biologically reasonable patient-specific parameter values. Our results closely match clinical trial results for these protocols. We also simulated experimental dosing schedules, and have found new schedules which, in our simulations, reduce tumor size more effectively than current treatment schedules. Additionally, we examined the system's equilibria and sensitivity to parameter values. In the absence of treatment, tumor evolution is most affected by the intrinsic tumor growth rate and carrying capacity. When treatment is introduced, tumor growth is most affected by drug-specific PK/PD parameters.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1312.3023v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1009.4767v1",
+      "title": "How is the Monoclonal Antibodies Kinetic Affected by Changes of Their Physical Parameters?",
+      "authors": [
+        "Camilo Delgado-Correal",
+        "Carolina Daza",
+        "Heidy Alexandra Lizarazo-Pérez"
+      ],
+      "year": 2010,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1009.4767v1",
+      "abstract": "The study of monoclonal antibodies (MAb) is a field of great interest to science medicine, for example, anti-TNF agents (infliximab and adalimumab) represent an important tool for the management of autoimmune and inflammatory disorders. In this work we focus on the physical description of the transport kinetics of MAb in a fluid with laminar flow and parabolic profile. To simulate the kinetics of the MAb, standard equations were solved numerically (using The Verlet algorithm) to calculate the motion of a particle with a spherically symmetric inside of parabolic laminar flow, in order to find the time evolution of the antibody velocity in blood plasma in function of the increase of the radius, mass and density of the MAb, and the fluid pressure in blood vessels. In the case of we fixed the value of the antibody density, their kinetics increased when the pressure in the vessels increased. When we fixed the pressure in the vessels we found: if we reduce the antibody radius their kinetics increased, and when we increase antibody density we found that their kinetics also increased.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1009.4767v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1006.5069v3",
+      "title": "Role of Antibodies: A Novel Paradigm in Mathematical Modeling for Cancer Treatment",
+      "authors": [
+        "Shiferaw Feyissa",
+        "Sandip Banerjee"
+      ],
+      "year": 2010,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1006.5069v3",
+      "abstract": "A mathematical model for the quantitative analysis of cancer immune interaction, considering the role of antibodies has been proposed in this paper. The model is based on the clinical evidence, which states that antibodies can directly kill cancerous cells [1]. The existence of transcritical and saddle-node bifurcation, which has been proved using Sotomayor theorem, provides strong biological implications. Through numerical simulations, it has been illustrated that under certain therapy (like monoclonal antibody therapy), which is capable of altering the parameters of the system, cancer-free state can be obtained.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1006.5069v3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13473/table-2",
+      "title": "Table 2: Mutations of HCC high-frequency mutations in patients with primary liver cancer.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13473/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13473/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13473/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19712/fig-2",
+      "title": "Figure 2: Levels of liver cancer serum tumor markers and diagnostic models in HCC, CCA and benign liver diseases patient cohorts.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19712/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19712/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19712/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19021/supp-1",
+      "title": "Supplemental Information 1: Correlation of neutralizing antibody and IgG in HCC risk patients",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19021/supp-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19021/supp-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19021/supp-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13473/table-3",
+      "title": "Table 3: HCC high-frequency mutation in patients with liver metastases.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13473/table-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13473/table-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13473/table-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.15014/table-2",
+      "title": "Table 2: Risk factors for HCC in patients with liver cirrhosis.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.15014/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.15014/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.15014/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.15950/fig-4",
+      "title": "Figure 4: Different diagnostic tools for liver cirrhosis in HCC patients.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.15950/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.15950/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.15950/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.4915/fig-1",
+      "title": "Figure 1: Spectrum of VEGFA isoforms expressed in HCC and NT liver tissue.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.4915/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.4915/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.4915/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.18275/fig-2",
+      "title": "Figure 2: SFTSV-NP antigen and monoclonal antibody performance test results.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.18275/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.18275/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.18275/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19712/fig-4",
+      "title": "Figure 4: ROC curves of serum tumor markers and diagnostic models in diagnosing liver cancers (HCC + CCA) and benign liver diseases.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19712/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19712/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19712/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19055/fig-1",
+      "title": "Figure 1: The difference in CD161 expression between normal liver tissue and HCC tissue.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19055/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19055/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19055/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2147/ott.s44162",
+      "title": "Type 1 insulin-like growth factor receptor monoclonal antibody (HX-1162) treatment for liver cancer",
+      "authors": [
+        "Xiaogang Weng"
+      ],
+      "year": 2013,
+      "doi": "10.2147/ott.s44162",
+      "url": "https://doi.org/10.2147/ott.s44162",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2147/ott.s44162"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

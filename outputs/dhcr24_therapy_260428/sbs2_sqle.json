@@ -1,0 +1,1794 @@
+{
+  "query": "SQLE overexpression endometrial uterine cancer tumor",
+  "effective_query": "SQLE overexpression endometrial uterine cancer tumor",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 50,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "semantic_scholar failed: HTTP Error 429: ",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4382141207",
+      "title": "Exosomal circRNA: emerging insights into cancer progression and clinical application potential",
+      "authors": [
+        "Fan Zhang",
+        "Jiajia Jiang",
+        "Hui Qian",
+        "Yongmin Yan",
+        "Wenrong Xu"
+      ],
+      "year": 2023,
+      "doi": "10.1186/s13045-023-01452-2",
+      "url": "https://doi.org/10.1186/s13045-023-01452-2",
+      "abstract": "Exosomal circRNA serves a novel genetic information molecule, facilitating communication between tumor cells and microenvironmental cells, such as immune cells, fibroblasts, and other components, thereby regulating critical aspects of cancer progression including immune escape, tumor angiogenesis, metabolism, drug resistance, proliferation and metastasis. Interestingly, microenvironment cells have new findings in influencing tumor progression and immune escape mediated by the release of exosomal circRNA. Given the intrinsic stability, abundance, and broad distribution of exosomal circRNAs, they represent excellent diagnostic and prognostic biomarkers for liquid biopsy. Moreover, artificially synthesized circRNAs may open up new possibilities for cancer therapy, potentially bolstered by nanoparticles or plant exosome delivery strategies. In this review, we summarize the functions and underlying mechanisms of tumor cell and non-tumor cell-derived exosomal circRNAs in cancer progression, with a special focus on their roles in tumor immunity and metabolism. Finally, we examine the potential application of exosomal circRNAs as diagnostic biomarkers and therapeutic targets, highlighting their promise for clinical use.",
+      "citations": 196,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4382141207"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2434,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2434,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3165374111",
+      "title": "Cholesterol Metabolic Reprogramming in Cancer and Its Pharmacological Modulation as Therapeutic Strategy",
+      "authors": [
+        "Isabella Giacomini",
+        "Federico Gianfanti",
+        "María Andrea Desbats",
+        "Genny Orso",
+        "Massimiliano Berretta",
+        "Tommaso Prayer‐Galetti",
+        "Eugenio Ragazzi",
+        "Veronica Cocetta"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fonc.2021.682911",
+      "url": "https://doi.org/10.3389/fonc.2021.682911",
+      "abstract": "Cholesterol is a ubiquitous sterol with many biological functions, which are crucial for proper cellular signaling and physiology. Indeed, cholesterol is essential in maintaining membrane physical properties, while its metabolism is involved in bile acid production and steroid hormone biosynthesis. Additionally, isoprenoids metabolites of the mevalonate pathway support protein-prenylation and dolichol, ubiquinone and the heme <i>a</i> biosynthesis. Cancer cells rely on cholesterol to satisfy their increased nutrient demands and to support their uncontrolled growth, thus promoting tumor development and progression. Indeed, transformed cells reprogram cholesterol metabolism either by increasing its uptake and <i>de novo</i> biosynthesis, or deregulating the efflux. Alternatively, tumor can efficiently accumulate cholesterol into lipid droplets and deeply modify the activity of key cholesterol homeostasis regulators. In light of these considerations, altered pathways of cholesterol metabolism might represent intriguing pharmacological targets for the development of exploitable strategies in the context of cancer therapy. Thus, this work aims to discuss the emerging evidence of <i>in vitro</i> and <i>in vivo</i> studies, as well as clinical trials, on the role of cholesterol pathways in the treatment of cancer, starting from already available cholesterol-lowering drugs (statins or fibrates), and moving towards novel potential pharmacological inhibitors or selective target modulators.",
+      "citations": 126,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3165374111"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2154,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2154,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4400368543",
+      "title": "Metabolic adaptations in prostate cancer",
+      "authors": [
+        "Mikel Pujana-Vaquerizo",
+        "Laura Bozal‐Basterra",
+        "Arkaitz Carracedo"
+      ],
+      "year": 2024,
+      "doi": "10.1038/s41416-024-02762-z",
+      "url": "https://doi.org/10.1038/s41416-024-02762-z",
+      "abstract": "Prostate cancer is one of the most commonly diagnosed cancers in men and is a major cause of cancer-related deaths worldwide. Among the molecular processes that contribute to this disease, the weight of metabolism has been placed under the limelight in recent years. Tumours exhibit metabolic adaptations to comply with their biosynthetic needs. However, metabolites also play an important role in supporting cell survival in challenging environments or remodelling the tumour microenvironment, thus being recognized as a hallmark in cancer. Prostate cancer is uniquely driven by androgen receptor signalling, and this knowledge has also influenced the paths of cancer metabolism research. This review provides a comprehensive perspective on the metabolic adaptations that support prostate cancer progression beyond androgen signalling, with a particular focus on tumour cell intrinsic and extrinsic pathways.",
+      "citations": 43,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4400368543"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1822,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1822,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4362672661",
+      "title": "The role of cholesterol metabolism in tumor therapy, from bench to bed",
+      "authors": [
+        "Wenhao Xia",
+        "Hao Wang",
+        "Xiaozhu Zhou",
+        "Yan Wang",
+        "Lixiang Xue",
+        "Baoshan Cao",
+        "Jiagui Song"
+      ],
+      "year": 2023,
+      "doi": "10.3389/fphar.2023.928821",
+      "url": "https://doi.org/10.3389/fphar.2023.928821",
+      "abstract": "Cholesterol and its metabolites have important biological functions. Cholesterol is able to maintain the physical properties of cell membrane, play an important role in cellular signaling, and cellular cholesterol levels reflect the dynamic balance between biosynthesis, uptake, efflux and esterification. Cholesterol metabolism participates in bile acid production and steroid hormone biosynthesis. Increasing evidence suggests a strict link between cholesterol homeostasis and tumors. Cholesterol metabolism in tumor cells is reprogrammed to differ significantly from normal cells, and disturbances of cholesterol balance also induce tumorigenesis and progression. Preclinical and clinical studies have shown that controlling cholesterol metabolism suppresses tumor growth, suggesting that targeting cholesterol metabolism may provide new possibilities for tumor therapy. In this review, we summarized the metabolic pathways of cholesterol in normal and tumor cells and reviewed the pre-clinical and clinical progression of novel tumor therapeutic strategy with the drugs targeting different stages of cholesterol metabolism from bench to bedside.",
+      "citations": 42,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4362672661"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1818,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1818,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4402403265",
+      "title": "Lipid metabolism reprogramming in endometrial cancer: biological functions and therapeutic implications",
+      "authors": [
+        "Xiangyu Wang",
+        "Yinuo Li",
+        "Xin Hou",
+        "Jingfang Li",
+        "Xiangyi Ma"
+      ],
+      "year": 2024,
+      "doi": "10.1186/s12964-024-01792-7",
+      "url": "https://doi.org/10.1186/s12964-024-01792-7",
+      "abstract": "Lipid metabolism reprogramming plays an important role in tumor initiation and cancer progression of endometrial cancer. Targeting the core enzymes and transcriptional factors of lipid metabolism pathway alone or in combination with immunotherapy/hormone treatment is expected to decrease the tumor burden and provide promising treatment opportunity for patients with advanced/metastatic endometrial cancer.",
+      "citations": 24,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4402403265"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1746,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1746,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4283514085",
+      "title": "An Update on the General Features of Breast Cancer in Male Patients—A Literature Review",
+      "authors": [
+        "S Ionescu",
+        "Alin Codruț Nicolescu",
+        "M Marincaş",
+        "Octavia‐Luciana Madge",
+        "Laurentiu Simion"
+      ],
+      "year": 2022,
+      "doi": "10.3390/diagnostics12071554",
+      "url": "https://doi.org/10.3390/diagnostics12071554",
+      "abstract": "Male breast cancers are uncommon, as men account for less than 1 percent of all breast carcinomas. Among the predisposing risk factors for male breast cancer, the following appear to be significant: (a) breast/chest radiation exposure, (b) estrogen use, diseases associated with hyper-estrogenism, such as cirrhosis or Klinefelter syndrome, and (c) family health history. Furthermore, there are clear familial tendencies, with a higher incidence among men who have a large number of female relatives with breast cancer and (d) major inheritance susceptibility. Moreover, in families with BRCA mutations, there is an increased risk of male breast cancer, although the risk appears to be greater with inherited BRCA2 mutations than with inherited BRCA1 mutations. Due to diagnostic delays, male breast cancer is more likely to present at an advanced stage. A core biopsy or a fine needle aspiration must be performed to confirm suspicious findings. Infiltrating ductal cancer is the most prevalent form of male breast cancer, while invasive lobular carcinoma is extremely uncommon. Male breast cancer is almost always positive for hormone receptors. A worse prognosis is associated with a more advanced stage at diagnosis for men with breast cancer. Randomized controlled trials which recruit both female and male patients should be developed in order to gain more consistent data on the optimal clinical approach.",
+      "citations": 24,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4283514085"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1746,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1746,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4389999751",
+      "title": "Ferroptosis, Metabolic Rewiring, and Endometrial Cancer",
+      "authors": [
+        "Eglė Žalytė"
+      ],
+      "year": 2023,
+      "doi": "10.3390/ijms25010075",
+      "url": "https://doi.org/10.3390/ijms25010075",
+      "abstract": "Ferroptosis is a newly discovered form of regulated cell death. The main feature of ferroptosis is excessive membrane lipid peroxidation caused by iron-mediated chemical and enzymatic reactions. In normal cells, harmful lipid peroxides are neutralized by glutathione peroxidase 4 (GPX4). When GPX4 is inhibited, ferroptosis occurs. In mammalian cells, ferroptosis serves as a tumor suppression mechanism. Not surprisingly, in recent years, ferroptosis induction has gained attention as a potential anticancer strategy, alone or in combination with other conventional therapies. However, sensitivity to ferroptosis inducers depends on the metabolic state of the cell. Endometrial cancer (EC) is the sixth most common cancer in the world, with more than 66,000 new cases diagnosed every year. Out of all gynecological cancers, carcinogenesis of EC is mostly dependent on metabolic abnormalities. Changes in the uptake and catabolism of iron, lipids, glucose, and glutamine affect the redox capacity of EC cells and, consequently, their sensitivity to ferroptosis-inducing agents. In addition to this, in EC cells, ferroptosis-related genes are usually mutated and overexpressed, which makes ferroptosis a promising target for EC prediction, diagnosis, and therapy. However, for a successful application of ferroptosis, the connection between metabolic rewiring and ferroptosis in EC needs to be deciphered, which is the focus of this review.",
+      "citations": 22,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4389999751"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1738,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1738,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4386304015",
+      "title": "Metabolic programs of T cell tissue residency empower tumour immunity",
+      "authors": [
+        "Miguel Reina‐Campos",
+        "Maximilian Heeg",
+        "Kelly T. Kennewick",
+        "Ian T. Mathews",
+        "Giovanni Galletti",
+        "Vida Luna",
+        "Quynhanh Nguyen",
+        "Hongling Huang",
+        "J. Justin Milner",
+        "Kenneth H. Hu",
+        "Amy Vichaidit",
+        "Natalie Santillano",
+        "Brigid S. Boland",
+        "John T. Chang",
+        "Mohit Jain",
+        "Sonia Sharma",
+        "Matthew F. Krummel",
+        "Hongbo Chi",
+        "Steven J. Bensinger",
+        "Ananda W. Goldrath"
+      ],
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06483-w",
+      "url": "https://doi.org/10.1038/s41586-023-06483-w",
+      "abstract": "",
+      "citations": 120,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4386304015"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.173,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.173,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4292059584",
+      "title": "CDCA5 promotes the progression of breast cancer and serves as a potential prognostic biomarker",
+      "authors": [
+        "Hao Hu",
+        "Yuan Xiang",
+        "Xiaoyu Zhang",
+        "Yang Deng",
+        "Fujian Wan",
+        "You Huang",
+        "Xing‐Hua Liao",
+        "Tongcun Zhang"
+      ],
+      "year": 2022,
+      "doi": "10.3892/or.2022.8387",
+      "url": "https://doi.org/10.3892/or.2022.8387",
+      "abstract": "Cell division cycle‑associated 5 (CDCA5) plays a critical role in the progression of various human cancers by regulating cell cycle‑related proteins; however, the function of CDCA5 in breast cancer (BC) is poorly understood. The aim of the present study was to investigate the expression level of CDCA5 in BC and its effect on BC progression. CDCA5 was found to be highly expressed in patients with BC, as well as in BC cell lines. It was also found that a high CDCA5 expression in BC was significantly associated with a shorter survival rate. In addition, the expression level of CDCA5 was significantly increased in stem cells derived from suspension‑cultured BC cells, as compared to adherent‑cultured cells. CDCA5 knockdown in MCF7 and SKBR3 cells significantly reduced cell proliferation, migration and clone formation. At the same time, the stemness capacity of BC cells, determined by analyzing cancer stem cell marker expression and mammosphere formation, was also markedly diminished following the knockdown of CDCA5. In addition, in vivo experiments demonstrated that CDCA5 knockdown in MCF7 cells markedly reduced tumor growth. On the whole, the present study demonstrates that CDCA5 may be used as a prognostic biomarker and therapeutic target for BC.",
+      "citations": 18,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4292059584"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1722,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1722,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1705.05025v1",
+      "title": "Complexity in cancer stem cells and tumor evolution: towards precision medicine",
+      "authors": [
+        "Caterina A. M. La Porta",
+        "Stefano Zapperi"
+      ],
+      "year": 2017,
+      "doi": "10.1016/j.semcancer.2017.02.007",
+      "url": "http://arxiv.org/abs/1705.05025v1",
+      "abstract": "In this review, we discuss recent advances on the plasticity of cancer stem cells and highlight their relevance to understand the metastatic process and to guide therapeutic interventions. Recent results suggest that the strict hierarchical structure of cancer cell populations advocated by the cancer stem cell model must be reconsidered since the depletion of cancer stem cells leads the other tumor cells to switch back into the cancer stem cell phenotype. This plasticity has important implications for metastasis since migrating cells do not need to be cancer stem cells in order to seed a metastasis. We also discuss the important role of the immune system and the microenvironment in modulating phenotypic switching and suggest possible avenues to exploit our understanding of this process to develop an effective strategy for precision medicine.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1705.05025v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1409.1973v1",
+      "title": "Cancer systems biology in the genome sequencing era: Part 1, dissecting and modeling of tumor clones and their networks",
+      "authors": [
+        "Edwin Wang",
+        "Jinfeng Zou",
+        "Naif Zaman",
+        "Lenore K. Beitel",
+        "Mark Trifiro",
+        "Miltiadis Paliouras"
+      ],
+      "year": 2014,
+      "doi": "10.1016/j.semcancer.2013.06.002",
+      "url": "http://arxiv.org/abs/1409.1973v1",
+      "abstract": "Recent tumor genome sequencing confirmed that one tumor often consists of multiple cell subpopulations (clones) which bear different, but related, genetic profiles such as mutation and copy number variation profiles. Thus far, one tumor has been viewed as a whole entity in cancer functional studies. With the advances of genome sequencing and computational analysis, we are able to quantify and computationally dissect clones from tumors, and then conduct clone-based analysis. Emerging technologies such as single-cell genome sequencing and RNA-Seq could profile tumor clones. Thus, we should reconsider how to conduct cancer systems biology studies in the genome sequencing era. We will outline new directions for conducting cancer systems biology by considering that genome sequencing technology can be used for dissecting, quantifying and genetically characterizing clones from tumors. Topics discussed in Part 1 of this review include computationally quantifying of tumor subpopulations; clone-based network modeling, cancer hallmark-based networks and their high-order rewiring principles and the principles of cell survival networks of fast-growing clones.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1409.1973v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1409.1974v1",
+      "title": "Cancer systems biology in the genome sequencing era: Part 2, evolutionary dynamics of tumor clonal networks and drug resistance",
+      "authors": [
+        "Edwin Wang",
+        "Jinfeng Zou",
+        "Naif Zaman",
+        "Lenore K. Beitel",
+        "Mark Trifiro",
+        "Miltiadis Paliouras"
+      ],
+      "year": 2014,
+      "doi": "10.1016/j.semcancer.2013.06.001",
+      "url": "http://arxiv.org/abs/1409.1974v1",
+      "abstract": "A tumor often consists of multiple cell subpopulations (clones). Current chemo-treatments often target one clone of a tumor. Although the drug kills that clone, other clones overtake it and the tumor reoccurs. Genome sequencing and computational analysis allows to computational dissection of clones from tumors, while singe-cell genome sequencing including RNA-Seq allows to profiling of these clones. This opens a new window for treating a tumor as a system in which clones are evolving. Future cancer systems biology studies should consider a tumor as an evolving system with multiple clones. Therefore, topics discussed in Part 2 of this review include evolutionary dynamics of clonal networks, early-warning signals for formation of fast-growing clones, dissecting tumor heterogeneity, and modeling of clone-clone-stroma interactions for drug resistance. The ultimate goal of the future systems biology analysis is to obtain a whole-system understanding of a tumor and therefore provides a more efficient and personalized management strategies for cancer patients.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1409.1974v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2210.02273v1",
+      "title": "Novel Radiomic Measurements of Tumor- Associated Vasculature Morphology on Clinical Imaging as a Biomarker of Treatment Response in Multiple Cancers",
+      "authors": [
+        "Nathaniel Braman",
+        "Prateek Prasanna",
+        "Kaustav Bera",
+        "Mehdi Alilou",
+        "Mohammadhadi Khorrami",
+        "Patrick Leo",
+        "Maryam Etesami",
+        "Manasa Vulchi",
+        "Paulette Turk",
+        "Amit Gupta",
+        "Prantesh Jain",
+        "Pingfu Fu",
+        "Nathan Pennell",
+        "Vamsidhar Velcheti",
+        "Jame Abraham",
+        "Donna Plecha",
+        "Anant Madabhushi"
+      ],
+      "year": 2022,
+      "doi": "10.1158/1078-0432.CCR-21-4148",
+      "url": "http://arxiv.org/abs/2210.02273v1",
+      "abstract": "Purpose: Tumor-associated vasculature differs from healthy blood vessels by its chaotic architecture and twistedness, which promotes treatment resistance. Measurable differences in these attributes may help stratify patients by likely benefit of systemic therapy (e.g. chemotherapy). In this work, we present a new category of radiomic biomarkers called quantitative tumor-associated vasculature (QuanTAV) features, and demonstrate their ability to predict response and survival across multiple cancers, imaging modalities, and treatment regimens. Experimental Design: We segmented tumor vessels and computed mathematical measurements of twistedness and organization on routine pre-treatment radiology (CT or contrast-enhanced MRI) from 558 patients, who received one of four first-line chemotherapy-based therapeutic intervention strategies for breast (n=371) or non-small cell lung cancer (NSCLC, n=187). Results: Across 4 chemotherapy-based treatment strategies, classifiers of QuanTAV measurements significantly (p<.05) predicted response in held out testing cohorts alone (AUC=0.63-0.71) and increased AUC by 0.06-0.12 when added to models of significant clinical variables alone. QuanTAV risk scores were prognostic of recurrence free survival in treatment cohorts chemotherapy for breast cancer (p=0.002, HR=1.25, 95% CI 1.08-1.44, C-index=.66) and chemoradiation for NSCLC (p=0.039, HR=1.28, 95% CI 1.01-1.62, C-index=0.66). Categorical QuanTAV risk groups were independently prognostic among all treatment groups, including NSCLC patients receiving chemotherapy (p=0.034, HR=2.29, 95% CI 1.07-4.94, C-index=0.62). Conclusions: Across these domains, we observed an association of vascular morphology on radiology with treatment outcome. Our findings suggest the potential of tumor-associated vasculature shape and structure as a prognostic and predictive biomarker for multiple cancers and treatments.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2210.02273v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4296527790",
+      "title": "METTLing in Stem Cell and Cancer Biology",
+      "authors": [
+        "John G. Tooley",
+        "James Catlin",
+        "Christine E. Schaner Tooley"
+      ],
+      "year": 2022,
+      "doi": "10.1007/s12015-022-10444-7",
+      "url": "https://doi.org/10.1007/s12015-022-10444-7",
+      "abstract": "",
+      "citations": 49,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4296527790"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1446,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1446,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1093/annonc/mdl414",
+      "title": "Overexpression of ephrinB2 and EphB4 in tumor advancement of uterine endometrial cancers",
+      "authors": [
+        "S.M. Alam",
+        "J. Fujimoto",
+        "I. Jahan",
+        "E. Sato",
+        "T. Tamaya"
+      ],
+      "year": 2007,
+      "doi": "10.1093/annonc/mdl414",
+      "url": "https://doi.org/10.1093/annonc/mdl414",
+      "abstract": "",
+      "citations": 34,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1093/annonc/mdl414"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1336,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1336,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/s13277-014-2761-8",
+      "title": "Overexpression of HABP1 correlated with clinicopathological characteristics and unfavorable prognosis in endometrial cancer",
+      "authors": [
+        "Jia Zhao",
+        "Tianbo Liu",
+        "Ge Yu",
+        "Jing Wang"
+      ],
+      "year": 2014,
+      "doi": "10.1007/s13277-014-2761-8",
+      "url": "https://doi.org/10.1007/s13277-014-2761-8",
+      "abstract": "",
+      "citations": 28,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/s13277-014-2761-8"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1312,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1312,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "39349544",
+      "title": "Squalene monooxygenase (SQLE) protects ovarian cancer cells from ferroptosis.",
+      "authors": [
+        "Zhang R",
+        "Zhang L",
+        "Fan S",
+        "Wang L",
+        "Wang B",
+        "Wang L."
+      ],
+      "year": 2024,
+      "doi": "10.1038/s41598-024-72506-9",
+      "url": "https://europepmc.org/article/med/39349544",
+      "abstract": "",
+      "citations": 7,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "39349544"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1288,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1288,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "37438885",
+      "title": "Inhibition of squalene epoxidase linking with PI3K/AKT signaling pathway suppresses endometrial cancer.",
+      "authors": [
+        "Ma L",
+        "Huang W",
+        "Liang X",
+        "Bai G",
+        "Wang X",
+        "Jiang H",
+        "Xin Y",
+        "Hu L",
+        "Chen X",
+        "Liu C."
+      ],
+      "year": 2023,
+      "doi": "10.1111/cas.15900",
+      "url": "https://europepmc.org/article/med/37438885",
+      "abstract": "",
+      "citations": 7,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "37438885"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1288,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1288,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41055055",
+      "title": "The Contribution of Cholesterol and Squalene Synthase in Cancer: Molecular Mechanisms, Lipid Rafts and Therapeutic Approaches.",
+      "authors": [
+        "Mavridi D",
+        "Katavati T",
+        "Kourounakis AP."
+      ],
+      "year": 2026,
+      "doi": "10.1002/med.70012",
+      "url": "https://europepmc.org/article/med/41055055",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41055055"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1272,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1272,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "39676338",
+      "title": "Exploring Metabolic Approaches for Epithelial Ovarian Cancer Therapy.",
+      "authors": [
+        "Kumari S",
+        "Gupta S",
+        "Jamil A",
+        "Tabatabaei D",
+        "Karakashev S."
+      ],
+      "year": 2025,
+      "doi": "10.1002/jcp.31495",
+      "url": "https://europepmc.org/article/med/39676338",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "39676338"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1268,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1268,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41198144",
+      "title": "DHCR7 as a Prognostic and Immunological Biomarker in Human Pan-Cancer: A Comprehensive Evaluation.",
+      "authors": [
+        "Wu X",
+        "Zheng W",
+        "Wang L",
+        "Lin D",
+        "Wu Z."
+      ],
+      "year": 2025,
+      "doi": "10.1002/cnr2.70376",
+      "url": "https://europepmc.org/article/med/41198144",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41198144"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1264,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1264,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41596244",
+      "title": "Cholesterol Metabolism: An Ally in the Development and Progression of Cervical Cancer.",
+      "authors": [
+        "Martínez-Ramírez I",
+        "Muñoz-Bello JO",
+        "Contreras-Paredes A",
+        "Parra-Hernández E",
+        "Carrillo-García A",
+        "Lizano M."
+      ],
+      "year": 2026,
+      "doi": "10.3390/ijms27020591",
+      "url": "https://europepmc.org/article/med/41596244",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41596244"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41518525",
+      "title": "The emerging role of cholesterol metabolism in gynecologic cancer development and therapy.",
+      "authors": [
+        "Liu H",
+        "Zhou Y",
+        "Zhang J",
+        "Miao L",
+        "Wu Q",
+        "Zhu H",
+        "Pan S",
+        "Zhu X."
+      ],
+      "year": 2026,
+      "doi": "10.1007/s10495-025-02200-2",
+      "url": "https://europepmc.org/article/med/41518525",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41518525"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41774266",
+      "title": "Mitochondrial function meets oncology: the multifaceted role of TFAM across cancer types.",
+      "authors": [
+        "Wang J",
+        "Wu R",
+        "Shao F",
+        "Tuo Z",
+        "Li X",
+        "Yoo KH",
+        "Wei W",
+        "Wang Z",
+        "Li D",
+        "Feng D."
+      ],
+      "year": 2026,
+      "doi": "10.1007/s10495-026-02305-2",
+      "url": "https://europepmc.org/article/med/41774266",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41774266"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41096838",
+      "title": "Unveiling Metabolic Subtypes in Endometrial Cancer Cell Lines: Insights from Metabolomic Analysis Under Standard and Stress Conditions.",
+      "authors": [
+        "McCaslin L",
+        "Lagies S",
+        "Mohl DA",
+        "Plattner DA",
+        "Jäger M",
+        "Nöthling C",
+        "Huber MC",
+        "Juhasz-Böss I",
+        "Kammerer B",
+        "Backhaus C."
+      ],
+      "year": 2025,
+      "doi": "10.3390/ijms26199573",
+      "url": "https://europepmc.org/article/med/41096838",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41096838"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41984920",
+      "title": "Higher order synthetic lethals are keys to minimize cancer treatment effects on non-tumor cells.",
+      "authors": [
+        "Dehghan Manshadi M",
+        "Setoodeh P",
+        "Ramezani A",
+        "Rajabzadeh AR",
+        "Zare H."
+      ],
+      "year": 2026,
+      "doi": "10.1371/journal.pone.0342199",
+      "url": "https://europepmc.org/article/med/41984920",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41984920"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1310.2182v1",
+      "title": "New Approach for Prediction Pre-cancer via Detecting Mutated in Tumor Protein P53",
+      "authors": [
+        "Ayad Ghany Ismaeel"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1310.2182v1",
+      "abstract": "Tumor protein P53 is believed to be involved in over half of human cancers cases, the prediction of malignancies plays essential roles not only in advance detection for cancer, but also in discovering effective prevention and treatment of cancer, till now there isn't approach be able in prediction the mutated in tumor protein P53 which is caused high ratio of human cancers like breast, Blood, skin, liver, lung, bladder etc. This research proposed a new approach for prediction pre-cancer via detection malignant mutations in tumor protein P53 using bioinformatics tools like FASTA, BLAST, CLUSTALW and TP53 databases worldwide. Implement and apply this new approach of prediction pre-cancer through mutations at tumor protein P53 shows an effective result when used more specific parameters/features to extract the prediction result that means when the user increase the number of filters of the results which obtained from the database gives more specific diagnosis and classify, addition that the detecting pre-cancer via prediction mutated tumor protein P53 will reduces a person's cancers in the future by avoiding exposure to toxins, radiation or monitoring themselves at older ages by change their food, environment, even the pace of living. Also that new approach of prediction pre-cancer will help if there is any treatment can give for that person to therapy the mutated tumor protein P53. Index Terms (Normal Homology TP53 gene, Tumor Protein P53, Oncogene Labs, GC and AT content, FASTA, BLAST, ClustalW)",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1310.2182v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1909.06684v1",
+      "title": "3D Kidneys and Kidney Tumor Semantic Segmentation using Boundary-Aware Networks",
+      "authors": [
+        "Andriy Myronenko",
+        "Ali Hatamizadeh"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1909.06684v1",
+      "abstract": "Automated segmentation of kidneys and kidney tumors is an important step in quantifying the tumor's morphometrical details to monitor the progression of the disease and accurately compare decisions regarding the kidney tumor treatment. Manual delineation techniques are often tedious, error-prone and require expert knowledge for creating unambiguous representation of kidneys and kidney tumors segmentation. In this work, we propose an end-to-end boundary aware fully Convolutional Neural Networks (CNNs) for reliable kidney and kidney tumor semantic segmentation from arterial phase abdominal 3D CT scans. We propose a segmentation network consisting of an encoder-decoder architecture that specifically accounts for organ and tumor edge information by devising a dedicated boundary branch supervised by edge-aware loss terms. We have evaluated our model on 2019 MICCAI KiTS Kidney Tumor Segmentation Challenge dataset and our method has achieved dice scores of 0.9742 and 0.8103 for kidney and tumor repetitively and an overall composite dice score of 0.8923.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1909.06684v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2011.11052v1",
+      "title": "Efficient embedding network for 3D brain tumor segmentation",
+      "authors": [
+        "Hicham Messaoudi",
+        "Ahror Belaid",
+        "Mohamed Lamine Allaoui",
+        "Ahcene Zetout",
+        "Mohand Said Allili",
+        "Souhil Tliba",
+        "Douraied Ben Salem",
+        "Pierre-Henri Conze"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2011.11052v1",
+      "abstract": "3D medical image processing with deep learning greatly suffers from a lack of data. Thus, studies carried out in this field are limited compared to works related to 2D natural image analysis, where very large datasets exist. As a result, powerful and efficient 2D convolutional neural networks have been developed and trained. In this paper, we investigate a way to transfer the performance of a two-dimensional classiffication network for the purpose of three-dimensional semantic segmentation of brain tumors. We propose an asymmetric U-Net network by incorporating the EfficientNet model as part of the encoding branch. As the input data is in 3D, the first layers of the encoder are devoted to the reduction of the third dimension in order to fit the input of the EfficientNet network. Experimental results on validation and test data from the BraTS 2020 challenge demonstrate that the proposed method achieve promising performance.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2011.11052v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.18522/table-1",
+      "title": "Table 1: Interactions of miRNAs, lncRNAs, and circRNAs with SQLE and their effects on cancer cells.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.18522/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.18522/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.18522/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.15654/fig-1",
+      "title": "Figure 1: (A) Expression difference between normal and tumor tissues, meaningful cancer types including bladder urothelial carcinoma, breast invasive carcinoma, colon adenocarcinoma, rectum adenocarcinoma, head and neck squamous cell carcinoma, liver hepatocellular carcinoma, lung adenocarcinoma, lung squamous cell carcinoma, thyroid carcinoma, uterine corpus endometrial carcinoma, kidney renal clear cell carcinoma, and kidney renal papillary cell carcinoma.\n                      <i>P</i>\n                      -value significant codes: 0 ≤ ∗∗∗ &lt; 0.001 ≤ ∗∗ &lt; 0.01 ≤ ∗ &lt; 0.05 ≤ . &lt; 0.1. The survival analysis of cancers of bladder urothelial carcinoma (B), lung carcinoma (C), liver hepatocellular carcinoma (D), thyroid carcinoma (E), colorectal cancer (F), breast cancer (J), renal cancer (H), head and neck carcinoma (I) and uterine corpus endometrial carcinoma (J).",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.15654/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.15654/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.15654/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16105/fig-7",
+      "title": "Figure 7: Effects of epithelial cell-specific PART1 overexpression on mouse embryo implantation and endometrial epithelial cell function.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16105/fig-7",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16105/fig-7",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16105/fig-7"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20669/supp-3",
+      "title": "Supplemental Information 3: Patient data of three postoperative management strategies for uterine septum with endometrial polyps",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20669/supp-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20669/supp-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20669/supp-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.18522/table-2",
+      "title": "Table 2: Characteristics of different SQLE inhibitors.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.18522/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.18522/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.18522/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19635/supp-1",
+      "title": "Supplemental Information 1: The dataset for the control group SQLE",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19635/supp-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19635/supp-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19635/supp-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.11551/fig-7",
+      "title": "Figure 7: Overexpression of PHF19 promoted tumor formation in vivo.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.11551/fig-7",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.11551/fig-7",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.11551/fig-7"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.18522/fig-1",
+      "title": "Figure 1: Cholesterol synthesis pathway centered on SQLE.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.18522/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.18522/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.18522/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20669/supp-1",
+      "title": "Supplemental Information 1: Raw data of patients with three postoperative management strategies for uterine septum with endometrial polyps in Excel format",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20669/supp-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20669/supp-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20669/supp-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.19635/supp-2",
+      "title": "Supplemental Information 2: The dataset of SQLE in the obese group",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.19635/supp-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.19635/supp-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.19635/supp-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/q944t9",
+      "title": "Uterine Corpus Leiomyosarcoma and Endometrial Stromal Sarcoma Pathologic Primary Tumor TNM Finding v8",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/q944t9",
+      "url": "https://doi.org/10.32388/q944t9",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/q944t9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-10",
+      "title": "Imaging Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-10",
+      "url": "https://doi.org/10.1201/b14187-10",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-10"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-5",
+      "title": "Screening in Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-5",
+      "url": "https://doi.org/10.1201/b14187-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/s1359-6349(07)71208-9",
+      "title": "5036 POSTER Tumor advancement in uterine endometrial cancers patients",
+      "authors": [
+        "L. Bolokadze"
+      ],
+      "year": 2007,
+      "doi": "10.1016/s1359-6349(07)71208-9",
+      "url": "https://doi.org/10.1016/s1359-6349(07)71208-9",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/s1359-6349(07)71208-9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-14",
+      "title": "Minimal Access Surgery in Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-14",
+      "url": "https://doi.org/10.1201/b14187-14",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-14"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1201/b14187-8",
+      "title": "The Molecular Genetics of Endometrial Cancer",
+      "authors": [],
+      "year": 2005,
+      "doi": "10.1201/b14187-8",
+      "url": "https://doi.org/10.1201/b14187-8",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1201/b14187-8"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/0090-8258(92)90634-u",
+      "title": "Is there a correlation between endometrial biopsy and uterine tumor flow cytometry in endometrial cancer?",
+      "authors": [
+        "G. Lewandowski",
+        "R. O'Toole",
+        "A. Jadallah",
+        "L.J. Copeland",
+        "B. Behrens"
+      ],
+      "year": 1992,
+      "doi": "10.1016/0090-8258(92)90634-u",
+      "url": "https://doi.org/10.1016/0090-8258(92)90634-u",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/0090-8258(92)90634-u"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.32388/z4q01d",
+      "title": "Uterine Corpus Endometrial Stromal Sarcoma",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.32388/z4q01d",
+      "url": "https://doi.org/10.32388/z4q01d",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.32388/z4q01d"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

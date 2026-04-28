@@ -1,0 +1,131 @@
+{
+  "project": "DHCR24_axis",
+  "session": "dhcr24_therapy_260428",
+  "date": "2026-04-28",
+  "description": "DHCR24 치료 타겟 화합물 스크리닝 + 경쟁 타겟 분석 + 비만치료제 연결 검색 결과",
+  "total_papers": 12,
+  "papers": [
+    {
+      "label": "DHCR24_comprehensive_review_2024",
+      "title": "DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review",
+      "doi": "10.1177/15330338241259780",
+      "pmcid": "PMC11162140",
+      "year": 2024,
+      "journal": "Technology in Cancer Research & Treatment",
+      "relevance": "DHCR24 치료 타겟 전체 리뷰. Q7~Irbesartan 12종 화합물 정리. EC/DHCR24 축 종합.",
+      "tier": 1,
+      "topic": "DHCR24_therapy"
+    },
+    {
+      "label": "Q7_EC_2022",
+      "title": "Anticancer peptide Q7 suppresses the growth and migration of human endometrial cancer by inhibiting DHCR24 expression and modulating the AKT-mediated pathway",
+      "doi": "10.7150/ijms.78349",
+      "year": 2022,
+      "journal": "Int J Mol Sci",
+      "relevance": "Q7 펩타이드 → DHCR24 억제 → AKT 경로 차단 → EC 증식/이동 억제. EC-specific DHCR24 타겟 검증.",
+      "tier": 1,
+      "topic": "Q7_EC"
+    },
+    {
+      "label": "Q7_lipoplex_doxorubicin_2026",
+      "title": "Synergistic anticancer effects of lipoplex-encapsulated Q7 peptide and doxorubicin against endometrial cancer cells",
+      "doi": "10.1038/s41598-025-33877-9",
+      "year": 2026,
+      "journal": "Scientific Reports",
+      "relevance": "Q7 lipoplex 캡슐화 + doxorubicin 시너지. Delivery 시스템 발전. ASO LNP 전달과 비교 가능.",
+      "tier": 1,
+      "topic": "Q7_EC"
+    },
+    {
+      "label": "SH42_DHCR24_inhibitor_2024",
+      "title": "DHCR24 inhibitor SH42 increases desmosterol without preventing atherosclerosis development in mice",
+      "doi": "10.1016/j.isci.2024.109830",
+      "year": 2024,
+      "journal": "iScience",
+      "relevance": "SH42: 최초 소분자 DHCR24 선택적 억제제. 마우스 in vivo 검증. 데스모스테롤 축적→LXR 활성화. 암 미검증이나 DHCR24 억제 원리 확인.",
+      "tier": 2,
+      "topic": "DHCR24_inhibitor"
+    },
+    {
+      "label": "DPP4_DHCR24_GTN_2021",
+      "title": "DPP4 Regulates DHCR24-Mediated Cholesterol Biosynthesis to Promote Methotrexate Resistance in Gestational Trophoblastic Neoplastic Cells",
+      "doi": "10.3389/fonc.2021.704024",
+      "pmid": "34926239",
+      "year": 2021,
+      "journal": "Frontiers in Oncology",
+      "relevance": "DPP4→DHCR24 콜레스테롤 합성 → MTX 내성 (GTN). Sitagliptin으로 극복. DHCR24-약물내성 연결의 부인과암 사례.",
+      "tier": 2,
+      "topic": "DHCR24_drug_resistance"
+    },
+    {
+      "label": "Irbesartan_DHCR24_virtual_2023",
+      "title": "Virtual Screening of Novel 24-Dehydroxysterol Reductase (DHCR24) Inhibitors and the Biological Evaluation of Irbesartan in Cholesterol-Lowering Effect",
+      "doi": "10.3390/molecules28062643",
+      "year": 2023,
+      "journal": "Molecules",
+      "relevance": "Irbesartan이 DHCR24 경쟁적 억제제임을 virtual screening + 실험으로 확인. 약물재활용 가능성.",
+      "tier": 2,
+      "topic": "DHCR24_inhibitor"
+    },
+    {
+      "label": "MAb_2152a_HCV_HCC_2009",
+      "title": "Hepatitis C virus impairs p53 via persistent overexpression of 3beta-hydroxysterol Delta24-reductase",
+      "doi": "10.1074/jbc.m109.043232",
+      "year": 2009,
+      "journal": "J Biol Chem",
+      "relevance": "2-152a 단클론항체 기원 논문. HCV→DHCR24 과발현→p53 억제→종양화. DHCR24-p53 상호작용 첫 기술.",
+      "tier": 2,
+      "topic": "DHCR24_p53"
+    },
+    {
+      "label": "SQLE_EC_2023",
+      "title": "Inhibition of squalene epoxidase linking with PI3K/AKT signaling pathway suppresses endometrial cancer",
+      "doi": "10.1111/cas.15900",
+      "year": 2023,
+      "journal": "Cancer Science",
+      "relevance": "SQLE 억제→PI3K/AKT→EC 억제. DHCR24 upstream 경쟁 타겟. SQLE vs DHCR24 비교 근거.",
+      "tier": 2,
+      "topic": "competitor_target"
+    },
+    {
+      "label": "Tirzepatide_EC_preclinical_2024",
+      "title": "Tirzepatide as an innovative treatment strategy in a pre-clinical model of obesity-driven endometrial cancer",
+      "doi": "10.1016/j.ygyno.2024.10.004",
+      "year": 2024,
+      "journal": "Gynecol Oncol",
+      "relevance": "Tirzepatide (GLP-1/GIP) 비만-EC 마우스 모델 종양 성장 억제. 비만치료제-EC 직접 연결. DHCR24-ASO 병용 전략 근거.",
+      "tier": 2,
+      "topic": "obesity_EC"
+    },
+    {
+      "label": "Metformin_PGR_mTOR_EC_2011",
+      "title": "Metformin promotes progesterone receptor expression via inhibition of mammalian target of rapamycin (mTOR) in endometrial cancer cells",
+      "doi": "10.1016/j.jsbmb.2010.12.006",
+      "year": 2011,
+      "journal": "J Steroid Biochem Mol Biol",
+      "relevance": "Metformin→AMPK→mTOR 억제→PGR 복구 in EC. DHCR24-ASO와 다른 경로, 같은 결과(PGR 복구). 병용 전략 근거.",
+      "tier": 2,
+      "topic": "obesity_EC"
+    },
+    {
+      "label": "GLP1RA_cancer_metaanalysis_2025",
+      "title": "GLP-1 receptor agonists and the risk for cancer: A meta-analysis of randomized controlled trials",
+      "doi": "10.1111/dom.16489",
+      "year": 2025,
+      "journal": "Diabetes Obes Metab",
+      "relevance": "GLP-1 RA RCT 메타분석: 비만 관련 암(EC 포함)에서 감소 신호. 갑상선암 위험 신호 주의.",
+      "tier": 2,
+      "topic": "obesity_EC"
+    },
+    {
+      "label": "Lipid_metabolism_EC_review_2024",
+      "title": "Lipid metabolism reprogramming in endometrial cancer: biological functions and therapeutic implications",
+      "doi": "10.1186/s12964-024-01792-7",
+      "year": 2024,
+      "journal": "Cell Communication and Signaling",
+      "relevance": "EC 지질대사 재프로그래밍 종합 리뷰. DHCR24/콜레스테롤 축 포함. Background 인용용.",
+      "tier": 2,
+      "topic": "EC_metabolism"
+    }
+  ]
+}

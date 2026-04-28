@@ -1,0 +1,1734 @@
+{
+  "query": "PGRMC1 progesterone receptor membrane component endometrial cancer",
+  "effective_query": "PGRMC1 progesterone receptor membrane component endometrial cancer",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 47,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "crossref failed: HTTP Error 429: Too Many Requests",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2110752569",
+      "title": "Progesterone and conceptus elongation in cattle: a direct effect on the embryo or an indirect effect via the endometrium?",
+      "authors": [
+        "María Clemente",
+        "José de la Fuente",
+        "Trudee Fair",
+        "A. Al Naib",
+        "Alfonso Gutiérrez‐Adán",
+        "J. F. Roche",
+        "D. Rizos",
+        "P. Lonergan"
+      ],
+      "year": 2009,
+      "doi": "10.1530/rep-09-0152",
+      "url": "https://doi.org/10.1530/rep-09-0152",
+      "abstract": "The steroid hormone progesterone (P(4)) plays a key role in the reproductive events associated with pregnancy establishment and maintenance. High concentrations of circulating P(4) in the immediate post-conception period have been associated with an advancement of conceptus elongation, an associated increase in interferon-tau production and higher pregnancy rates in cattle. Using in vitro and in vivo models and approximately 8500 bovine oocytes across six experiments, the aim of this study was to establish the route through which P(4) affects bovine embryo development in vitro and in vivo. mRNA for P(4) receptors was present at all stages of embryo development raising the possibility of a direct effect of P(4) on the embryo. Exposure to P(4) in vitro in the absence or presence of oviduct epithelial cells did not affect the proportion of embryos developing to the blastocyst stage, blastocyst cell number or the relative abundance of selected transcripts in the blastocyst. Furthermore, exposure to P(4) in vitro did not affect post-hatching elongation of the embryo following transfer to synchronized recipients and recovery on Day 14. By contrast, transfer of in vitro derived blastocysts to a uterine environment previously primed by elevated P(4) resulted in a fourfold increase in conceptus length on Day 14. These data provide clear evidence to support the hypothesis that P(4)-induced changes in the uterine environment are responsible for the advancement in conceptus elongation reported previously in cattle and that, interestingly, the embryo does not need to be present during the period of high P(4) in order to exhibit advanced elongation.",
+      "citations": 343,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2110752569"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.3022,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3022,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2928102535",
+      "title": "Progesterone-Related Immune Modulation of Pregnancy and Labor",
+      "authors": [
+        "Nishel M. Shah",
+        "Pei F. Lai",
+        "Nesrina Imami",
+        "Mark R. Johnson"
+      ],
+      "year": 2019,
+      "doi": "10.3389/fendo.2019.00198",
+      "url": "https://doi.org/10.3389/fendo.2019.00198",
+      "abstract": "Pregnancy involves a complex interplay between maternal neuroendocrine and immunological systems in order to establish and sustain a growing fetus. It is thought that the uterus at pregnancy transitions from quiescent to laboring state in response to interactions between maternal and fetal systems at least partly <i>via</i> altered neuroendocrine signaling. Progesterone (P4) is a vital hormone in maternal reproductive tissues and immune cells during pregnancy. As such, P4 is widely used in clinical interventions to improve the chance of embryo implantation, as well as reduce the risk of miscarriage and premature labor. Here we review research to date that focus on the pathways through which P4 mediates its actions on both the maternal reproductive and immune system. We will dissect the role of P4 as a modulator of inflammation, both systemic and intrinsic to the uterus, during human pregnancy and labor.",
+      "citations": 204,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2928102535"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2466,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2466,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2296998275",
+      "title": "Haem-dependent dimerization of PGRMC1/Sigma-2 receptor facilitates cancer proliferation and chemoresistance",
+      "authors": [
+        "Yasuaki Kabe",
+        "Takanori Nakane",
+        "Ikko Koike",
+        "Tatsuya Yamamoto",
+        "Yuki Sugiura",
+        "Erisa Harada",
+        "Kenji Sugase",
+        "Tatsuro Shimamura",
+        "Mitsuyo Ohmura",
+        "Kazumi Muraoka",
+        "Ayumi Yamamoto",
+        "Takeshi Uchida",
+        "So Iwata",
+        "Yuki Yamaguchi",
+        "Elena Krayukhina",
+        "Masanori Noda",
+        "Hiroshi Handa",
+        "Koichiro Ishimori",
+        "Susumu Uchiyama",
+        "Takuya Kobayashi",
+        "Makoto Suematsu"
+      ],
+      "year": 2016,
+      "doi": "10.1038/ncomms11030",
+      "url": "https://doi.org/10.1038/ncomms11030",
+      "abstract": "Progesterone-receptor membrane component 1 (PGRMC1/Sigma-2 receptor) is a haem-containing protein that interacts with epidermal growth factor receptor (EGFR) and cytochromes P450 to regulate cancer proliferation and chemoresistance; its structural basis remains unknown. Here crystallographic analyses of the PGRMC1 cytosolic domain at 1.95 Å resolution reveal that it forms a stable dimer through stacking interactions of two protruding haem molecules. The haem iron is five-coordinated by Tyr113, and the open surface of the haem mediates dimerization. Carbon monoxide (CO) interferes with PGRMC1 dimerization by binding to the sixth coordination site of the haem. Haem-mediated PGRMC1 dimerization is required for interactions with EGFR and cytochromes P450, cancer proliferation and chemoresistance against anti-cancer drugs; these events are attenuated by either CO or haem deprivation in cancer cells. This study demonstrates protein dimerization via haem-haem stacking, which has not been seen in eukaryotes, and provides insights into its functional significance in cancer.",
+      "citations": 194,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2296998275"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2426,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2426,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2530383509",
+      "title": "Nuclear receptors outside the nucleus: extranuclear signalling by steroid receptors",
+      "authors": [
+        "Ellis R. Levin",
+        "Stephen R. Hammes"
+      ],
+      "year": 2016,
+      "doi": "10.1038/nrm.2016.122",
+      "url": "https://doi.org/10.1038/nrm.2016.122",
+      "abstract": "",
+      "citations": 274,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2530383509"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.2346,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2346,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2018861408",
+      "title": "Progesterone receptor membrane component 1 deficiency attenuates growth while promoting chemosensitivity of human endometrial xenograft tumors",
+      "authors": [
+        "Friel, Anne M",
+        "Zhang, Ling",
+        "Pru, Cindy A",
+        "Clark, Nicole C",
+        "McCallum, Melissa L",
+        "Blok, Leen J",
+        "Shioda, Toshi",
+        "Peluso, John J",
+        "Rueda, Bo R",
+        "Pru, James K"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.canlet.2014.09.036",
+      "url": "https://doi.org/10.1016/j.canlet.2014.09.036",
+      "abstract": "Endometrial cancer is the leading gynecologic cancer in women in the United States with 52,630 women predicted to be diagnosed with the disease in 2014. The objective of this study was to determine if progesterone (P4) receptor membrane component 1 (PGRMC1) influenced endometrial cancer cell viability in response to chemotherapy in vitro and in vivo. A lentiviral-based shRNA knockdown approach was used to generate stable PGRMC1-intact and PGRMC1-deplete Ishikawa endometrial cancer cell lines that also lacked expression of the classical progesterone receptor (PGR). Progesterone treatment inhibited mitosis of PGRMC1-intact, but not PGRMC1-deplete cells, suggesting that PGRMC1 mediates the anti-mitotic actions of P4. To test the hypothesis that PGRMC1 attenuates chemotherapy-induced apoptosis, PGRMC1-intact and PGRMC1-deplete cells were treated in vitro with vehicle, P4 (1 µM), doxorubicin (Dox, 2 µg/ml), or P4 + Dox for 48 h. Doxorubicin treatment of PGRMC1-intact cells resulted in a significant increase in cell death; however, co-treatment with P4 significantly attenuated Dox-induced cell death. This response to P4 was lost in PGRMC1-deplete cells. To extend these observations in vivo, a xenograft model was employed where PGRMC1-intact and PGRMC1-deplete endometrial tumors were generated following subcutaneous and intraperitoneal inoculation of immunocompromised NOD/SCID and nude mice, respectively. Tumors derived from PGRMC1-deplete cells grew slower than tumors from PGRMC1-intact cells. Mice harboring endometrial tumors were then given three treatments of vehicle (1:1 cremophor EL: ethanol + 0.9% saline) or chemotherapy [Paclitaxel (15 mg/kg, i.p.) followed after an interval of 30 minutes by CARBOplatin (50 mg/kg)] at five day intervals. In response to chemotherapy, tumor volume decreased approximately four-fold more in PGRMC1-deplete tumors when compared with PGRMC1-intact control tumors, suggesting that PGRMC1 promotes tumor cell viability during chemotherapeutic stress. In sum, these in vitro and in vivo findings demonstrate that PGRMC1 plays a prominent role in the growth and chemoresistance of human endometrial tumors.",
+      "citations": 69,
+      "source_hits": [
+        "openalex",
+        "openaire"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2018861408",
+        "doi_dedup___::322562170cb9cabb4aed9d16c5d53299"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1926,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1926,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W34885064",
+      "title": "Nanotechnology Advantages Applied to Gas Sensor Development",
+      "authors": [
+        "Stephanie Ann Hooker",
+        "Peluso, John J",
+        "Pru, James K"
+      ],
+      "year": 2021,
+      "doi": "10.3390/cancers13235953",
+      "url": "https://www.researchgate.net/profile/Stephanie_Hooker/publication/242483532_Nanotechnology_Advantages_Applied_to_Gas_Sensor_Development/links/0f31752dea4ee1f981000000.pdf",
+      "abstract": "<jats:p>Cancers of the female reproductive tract are both lethal and highly prevalent. For example, the five-year survival rate of women diagnosed with ovarian cancer is still less than 50%, and endometrial cancer is the fourth most common cancer in women with &gt; 65,000 new cases in the United States in 2020. Among the many genes already established as key participants in ovarian and endometrial oncogenesis, progesterone receptor membrane component (PGRMC)1 and PGRMC2 have gained recent attention given that there is now solid correlative information supporting a role for at least PGRMC1 in enhancing tumor growth and chemoresistance. The expression of PGRMC1 is significantly increased in both ovarian and endometrial cancers, similar to that reported in other cancer types. Xenograft studies using human ovarian and endometrial cancer cell lines in immunocompromised mice demonstrate that reduced expression of PGRMC1 results in tumors that grow substantially slower. While the molecular underpinnings of PGRMCs’ mechanisms of action are not clearly established, it is known that PGRMCs regulate survival pathways that attenuate stress-induced cell death. The objective of this review is to provide an overview of what is known about the roles that PGRMC1 and PGRMC2 play in ovarian and endometrial cancers, particularly as related to the mechanisms through which they regulate mitosis, apoptosis, chemoresistance, and cell migration.</jats:p>",
+      "citations": 33,
+      "source_hits": [
+        "openalex",
+        "openaire"
+      ],
+      "source_ids": [
+        "https://openalex.org/W34885064",
+        "https://openalex.org/W3216791633",
+        "doi_dedup___::180ae091d975f5168010e78d51f5a9ea"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1782,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1782,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3030030126",
+      "title": "Expression of nuclear progesterone receptors (nPRs), membrane progesterone receptors (mPRs) and progesterone receptor membrane components (PGRMCs) in the human endometrium after 6 months levonorgestrel low dose intrauterine therapy",
+      "authors": [
+        "Elise Thoresen Sletten",
+        "Natalia Smaglyukova",
+        "Anne Ørbo",
+        "Georg Sager"
+      ],
+      "year": 2020,
+      "doi": "10.1016/j.jsbmb.2020.105701",
+      "url": "https://doi.org/10.1016/j.jsbmb.2020.105701",
+      "abstract": "The classical steroid receptors (nuclear receptors), including those for progesterone (nPRs), are thoroughly characterized. The knowledge about so-called non-genomic effects, which are mediated by extra-nuclear initiated signals, has increased immensely the last decades. In a previous clinical study of endometrial hyperplasia, we observed that the antiproliferative progestin effect persisted after 3 months treatment with levonorgestrel (LNG) intrauterine system (IUS) even with a complete downregulation of nPRs. This raised the question of what other mechanisms than signaling through nPRs could explain such an observation. In the present study, RT-qPCR was employed to characterize mRNA expression for nPRs, membrane progesterone receptors (mPRs) and progesterone receptor membrane components (PGRMCs) in women (n = 42) with endometrial hyperplasia that received intrauterine low dose LNG for 6 months. At the end of this period endometrial tissue showed that nPRs were virtually completely downregulated (≈ 10 % of baseline) whereas the levels of remaining mPRs, subtype-α, -β and -γ were 76 %, 59 % and 73 % of baseline, respectively. PGRMC1 was downregulated to 15 % of baseline, in contrast to PGRMC2, which was upregulated to about 30 % above baseline. We used human cancer cells from uterine cervix (C-4I cells) as control. Progesterone caused a concentration-dependent antiproliferative effect but in several and separate studies, we were unable to detect nPRs (immunocytochemistry) in the C-4I cells. The use of RT-qPCR showed that nPRs were undetectable in C-4I cells, in contrast to mPRs and PGRMCs with a distinct mRNA expression. The present study suggests that mPRs and/or PGRMCs preserve the antiproliferative effect of LNG in the human endometrium and are responsible for the concentration-dependent antiproliferative effect of progesterone in C-4I cells.",
+      "citations": 10,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3030030126"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.169,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.169,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40227710",
+      "title": "Uterine &lt;i&gt;Pgrmc2&lt;/i&gt; Deficiency Attenuates Endometrial Hyperplasia and Cancer and Prolongs Lifespan in a &lt;i&gt;Pten&lt;/i&gt; Loss-of-Function-Induced Cancer Model.",
+      "authors": [
+        "Kelp NC",
+        "Pru CA",
+        "Sandeep Paudel",
+        "Lydon JP",
+        "Kim JJ",
+        "Peluso JJ",
+        "Pru JK",
+        "Nicole C Kelp",
+        "Cindy A Pru",
+        "John P Lydon",
+        "J Julie Kim",
+        "John J Peluso",
+        "James K Pru"
+      ],
+      "year": 2025,
+      "doi": "10.3390/cancers17071178",
+      "url": "https://europepmc.org/article/med/40227710",
+      "abstract": "<jats:p>The expression of members of the progesterone receptor membrane component (PGRMC) family, particularly PGRMC1, is elevated in diverse types of cancers, particularly those of the female reproductive system. While xenograft tumor studies using human transformed cell lines in immunocompromised mice have suggested that PGRMC1 enhances tumor growth and chemoresistance, the exact role of members of the PGRMC family in cancer development in vivo remains unclear. In this study, we examined the effect of deleting Pgrmc2 on the development of endometrial hyperplasia and cancer using a murine phosphatase and tensin homologue (Pten) conditional loss-of-function model. We previously established that PGRMCs are cell survival factors that are required for normal estrogen-induced uterine epithelial cell proliferation and normal female fertility. The deletion of Pgrmc2 reduced the incidence and severity of endometrial hyperplasia and cancer in mice with conditional Pten-heterozygous uteri and increased lifespan in mice with conditional Pten-knockout uteri. Mechanistically, the deletion of Pgrmc2 decreased uterine glandular epithelial cell proliferation. Pten loss-of-function-induced endometrial hyperplasia and cancer elevated uterine inflammation, but this was not impacted by PGRMC2 deficiency. This study identifies PGRMC2 as a potential therapeutic target to be inhibited in the treatment of endometrial hyperplasia and cancer, particularly where PTEN activity is reduced due to gene mutation or loss.</jats:p>",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc",
+        "openaire"
+      ],
+      "source_ids": [
+        "40227710",
+        "doi_dedup___::a06f1ee576152c62946549dacac1cc15"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1664,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1664,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2595158322",
+      "title": "Progesterone Receptor Membrane Component 1 Promotes Endometrial and Breast Cancer Cell Viability in Response to Chemotherapy In Vitro and In Vivo.",
+      "authors": [
+        "James K. Pru",
+        "Anne M. Friel",
+        "Ling Zhang",
+        "Leen J. Blok",
+        "Toshi Shioda",
+        "John J. Peluso",
+        "Bo R. Rueda"
+      ],
+      "year": 2009,
+      "doi": "10.1093/biolreprod/81.s1.98",
+      "url": "https://doi.org/10.1093/biolreprod/81.s1.98",
+      "abstract": "The objective of this study was to determine if the availability of progesterone (P4) receptor membrane component 1 (PGRMC1), previously reported as a P4 activated cell survival factor, influenced endometrial (IKLV Ishikawa) and breast (MDA-MB-231) cancer cell viability in response to chemotherapy in vitro and in vivo. Previously, PGRMC1 was found to be expressed at higher levels in malignant human breast tissue compared with benign samples. In contrast to mammary tissue, we found that human endometrial PGRMC1 expression did not differ between benign, hyperplastic and cancerous tissues. A lentiviral-base shRNA knockdown approach was used to generate stable PGRMC1-intact (control) and PGRMC1-deplete (i.e.,knockdown) IKLV and MDA cell lines. To test the hypothesis that PGRMC1 attenuates chemotherapy-induced apoptosis, IKLV and MDA PGRMC1-intact and deplete cell lines were treated in vitro with vehicle, P4 (1μM), doxorubicin (Dx, 2μg/ml), or P4 + Dx for 48 h. Dx treatment of PGRMC1-intact cells resulted in a significant increase in cell death of IKLV (21% apoptotic) and MDA (32% apoptotic). Co-treatment with P4 significantly attenuated Dx-induced cell death in ILKV and MDA cells by 50% and 46%, respectively. Cell death increased significantly in Dx treated IKLV and MDA cultures following PGRMC1 knockdown beyond that observed in PGRMC1-intact control cells, and the P4 did not reduce the killing action of Dx. To extend these observations in vivo, a xenograft model was employed where PGRMC1-intact and PGRMC1-deplete endometrial and breast tumors were generated following subcutaneous injections (2 x 106 cells/site) into immunocompromised NOD/SCID mice. PGRMC1-deplete IKLV and MDA tumors grew slower than PGRMC1-intact tumors. Mice harboring IKLV tumors were then given three treatments of vehicle (1:1 cremophor EL: ethanol + 0.9% saline) or chemotherapy [Paclitaxel (15mg/kg, i.p.) followed after an interval of 30 minutes by CARBOplatin (50mg/kg)] at five day intervals. In response to chemotherapeutic treatment, tumor volume decreased approximately five-fold more in PGRMC1-deplete tumors when compared with PGRMC1-intact control tumors, suggesting that PGRMC1promotes cancer cell viability during chemotherapeutic stress. Our study demonstrates that: 1) P4 promotes viability of endometrial and breast cancer cells; 2) PGRMC1 attenuates chemotherapy-induced endometrial and breast cancer cell death; and 3) PGRMC1 is an alluring target for small molecule adjuvant therapy of endometrial and breast cancers. (platform)",
+      "citations": 2,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2595158322"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1658,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1658,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17377",
+      "title": "Retrospective analysis of estrogen receptor (ER), progesterone receptor (PR), human epidermal growth factor receptor-2 (HER2), Ki67 changes and their clinical significance between primary breast cancer and metastatic tumors",
+      "authors": [
+        "Gaoxiu Qi",
+        "Xin Zhang",
+        "Xiaoying Gai",
+        "Xiong Yan"
+      ],
+      "year": 2024,
+      "doi": "10.7717/peerj.17377",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.17377",
+      "abstract": "Objective To explore the relationship between receptor heterogeneity and clinicopathological characteristics in 166 patients with invasive breast cancer during metastasis. Methods We conducted a retrospective analysis of 166 patients diagnosed with metastatic breast cancer through biopsy, who were admitted to our hospital from January 2018 to December 2022. Statistical analysis was employed to assess the heterogeneity of receptors in both primary and metastatic lesions, including estrogen receptor (ER), progesterone receptor (PR), human epidermal growth factor receptor-2 (HER2), Ki67, as well as their association with clinicopathological features such as tumor size, lymph node metastasis, treatment regimen, and disease-free survival. Results The discordant expression rates of ER, PR, HER2, Ki-67 and Luminal classification between primary and metastatic lesions were 21.7%, 41.6%, 8.9%, 34.4% and 36.8%, respectively. There is a significant difference in disease-free survival between patients with consistent and inconsistent receptor status of primary and metastatic lesions, which is statistically significant. The median DFS for primary HER2(-) to metastatic HER2(+) was 84 months, which was relatively high. The Cox multivariate regression analysis revealed that the expression differences of ER, PR, HER2, and Ki67 were not influenced by endocrine therapy and chemotherapy. However, a statistically significant difference in HER2 expression was observed with targeted therapy. Tumor size was correlated with ER and Ki67 receptor status ( P = 0.019, 0.016). Tumor size was not correlated with PR, and HER2 ( P = 0.679, 0.440). Lymph node metastasis was not associated with changes in ER, PR, HER2, and Ki67. The discordant rates of ER, PR, HER2, and Ki-67 in patients with local recurrence were 22%, 23.7%, 5.1%, and 28.8% respectively, whereas those in patients with distant metastasis were 21.5%, 36.4%, 10.3%, and 31.8% respectively. Conclusions The expression levels of ER, PR, HER2, and Ki-67 in primary and metastatic breast cancer exhibit heterogeneity, which is closely associated with the prognosis and treatment outcomes of patients.",
+      "citations": 5,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17377"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.164,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.164,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::b8692abc481e15aa5ba5287c6abca51d",
+      "title": "The role of progesterone receptor membrane component (PGRMC) in the endometrium",
+      "authors": [
+        "Dora Maria, Velázquez Hernández",
+        "Edgar Ricardo, Vázquez-Martínez",
+        "Ignacio, Camacho-Arroyo"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.steroids.2022.109040",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35526781",
+      "abstract": "PGRMC is a non-classical receptor that mediates the non-genomic responses to progesterone and is distributed in different subcellular compartments. PGRMC belongs to the membrane-associated progesterone receptor (MAPR) family. Two PGRMC subtypes (PGRMC1 and PGRMC2) have been characterized, and both are expressed in the human endometrium. PGRMC expression is differentially regulated during the menstrual cycle in the human endometrium. Although PGRMC1 is predominantly expressed in the proliferative phase and PGRMC2 in the secretory phase, this expression changes in pathologies such as endometriosis, in which PGRMC2 expression considerably decreases, promoting progesterone resistance. In endometrial cancer, PGRMC1 is overexpressed, its activation induces tumors growth, and confers chemoresistance in the presence of progesterone. Thus, PGRMCs play a key role in progesterone actions in the endometrium.",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::b8692abc481e15aa5ba5287c6abca51d"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::25001a5db0d3b66369992f52e7e9785c",
+      "title": "Progesterone receptor membrane component 1 in reproductive physiology",
+      "authors": [
+        "Herrera, Nathaniel"
+      ],
+      "year": 2021,
+      "doi": "10.7273/000004266",
+      "url": "https://doi.org/10.7273/000004266",
+      "abstract": "Progesterone (P4) is an ovarian-derived female sex steroid hormone that is essential for female reproductive functions and gestation in mammals. Aberrant P4 signaling results in female infertility and has been shown to contribute to several reproductive diseases including endometrial cancer and endometriosis. Many of its actions are mediated by the classical progesterone receptor (PGR), a P4 activated transcription factor that regulates gene expression. While the actions of P4 have been mainly studied through the activation of PGR, recent research has highlighted the importance of two purported non-classical P4 receptors, progesterone receptor membrane component (PGRMC) 1 and PGRMC2. In the female reproductive system, several studies have characterized the expression of PGRMC1 and PGRMC2 during pregnancy and estrous/menstrual cyclicity. Other studies have concluded that PGRMC1 and PGRMC2 function in several cellular reproductive processes. While recent descriptive studies have well-characterized the expression of PGRMC1 and PGRMC2, and several others have found disrupted PGRMC1/2 expression in multiple female reproductive diseases, much less is known about the functional contributions of these genes in fertility. Recent conditional mutagenesis studies from our lab have revealed Pgrmc1 and Pgrmc2 are essential for normal female fertility. To further assess the physiological significance of Pgrmc1 in female fertility, as well as in the male in which essentially nothing is known about PGRMC actions, our lab developed a transgenic mouse that allows for conditional over-expression of PGRMC1. While conditional over-expression of PGRMC1 in the male germ line resulted in an increase in testis weight, as well as a large number of sloughing seminiferous tubules, it did not impact male fertility. In contrast, conditional over-expression of PGRMC1 in the female reproductive system resulted in a severe fertility defect, with a decrease in fecundity as well as the number and size of pups at weaning. Further investigation revealed that conditional over-expression of PGRMC1 impairs post-implantation pre-natal development. Overall, the studies outlined in this thesis are novel due to their utilization of a unique transgenic approach to analyze the physiological significance of PGRMC1 in reproduction.",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::25001a5db0d3b66369992f52e7e9785c"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::f5aaa2ff99db553749a0f38e0a1724df",
+      "title": "Pleiotropic Actions of PGRMC Proteins in Cancer",
+      "authors": [
+        "James K Pru"
+      ],
+      "year": 2022,
+      "doi": "10.1210/endocr/bqac078",
+      "url": "https://doi.org/10.1210/endocr/bqac078",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>Progesterone receptor membrane component (PGRMC) proteins play important roles in tumor growth, progression, and chemoresistance, of which PGRMC1 is the best characterized. The ancestral member predates the evolution of metazoans, so it is perhaps not surprising that many of the purported actions of PGRMC proteins are rooted in fundamental metabolic processes such as proliferation, apoptosis, and DNA damage responses. Despite mediating some of the actions of progesterone (P4) and being fundamentally required for female fertility, PGRMC1 and PGRMC2 are broadly expressed in most tissues. As such, these proteins likely have both progesterone-dependent and progesterone-independent functions. It has been proposed that PGRMC1 acquired the ability to mediate P4 actions over evolutionary time through acquisition of its cytochrome b5-like heme/sterol-binding domain. Diverse reproductive and nonreproductive diseases associate with altered PGRMC1 expression, epigenetic regulation, or gene silencing mechanisms, some of which include polycystic ovarian disease, premature ovarian insufficiency, endometriosis, Alzheimer disease, and cancer. Although many studies have been completed using transformed cell lines in culture or in xenograft tumor approaches, recently developed transgenic model organisms are offering new insights in the physiological actions of PGRMC proteins, as well as pathophysiological and oncogenic consequences when PGRMC expression is altered. The purpose of this mini-review is to provide an overview of PGRMC proteins in cancer and to offer discussion of where this field must go to solidify PGRMC proteins as central contributors to the oncogenic process.</jats:p>",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::f5aaa2ff99db553749a0f38e0a1724df"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_________::ba165e8f04621dbe828dc9b9276555ec",
+      "title": "Abstract 4752: The combination of GLP1-R agonists and progestins enhances endometrial cancer cell killing through membrane receptor crosstalk",
+      "authors": [
+        "Lane E. Smith",
+        "Jamie L. Padilla",
+        "Geneva L. Williams",
+        "Kristina Thiel",
+        "Kimberly K. Leslie"
+      ],
+      "year": 2025,
+      "doi": "10.1158/1538-7445.am2025-4752",
+      "url": "https://doi.org/10.1158/1538-7445.am2025-4752",
+      "abstract": "<jats:p>Obesity is a major risk factor for endometrial cancer, and glucagon like peptide-1 receptor (GLP-1R) agonists such as semaglutide may be helpful to achieve weight loss. Conservative treatment of endometrial cancer includes hormone therapy with progestins for women who wish to preserve their uterus. Our previous work showed a significant reduction in viability of multiple endometrial cancer cell line and organoid models in response to the combination treatment of semaglutide and levonorgestrel, and identified a positive feedback loop between GLP-1R and progesterone receptor (PR) signaling. Here, we further explored mechanisms underlying the enhanced signaling, using confocal microscopy to show the co-localization of membrane PR (Progesterone Receptor Membrane Component 1; PGRMC1) and GLP1-R in response to semaglutide + progesterone combined treatment. We also found that semaglutide alone (100nM) induces the translocation of PR to the nucleus within 30 minutes. We are undergoing microarray analyses to assess specific phosphorylation events as well as RNA sequencing occurring downstream to identify the signaling molecules and transcripts activated by dual treatment. These studies highlight the potential of semaglutide to improve the anti-cancer effects of progestins, and, importantly, may reduce recurrences that can occur with progestin therapy alone.</jats:p>                <jats:sec>                   <jats:title>Citation Format:</jats:title>                   <jats:p>Lane E. Smith, Jamie L. Padilla, Geneva L. Williams, Kristina Thiel, Kimberly K. Leslie. The combination of GLP1-R agonists and progestins enhances endometrial cancer cell killing through membrane receptor crosstalk [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2025; Part 1 (Regular Abstracts); 2025 Apr 25-30; Chicago, IL. Philadelphia (PA): AACR; Cancer Res 2025;85(8_Suppl_1):Abstract nr 4752.</jats:p>                </jats:sec>",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_________::ba165e8f04621dbe828dc9b9276555ec"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::ab96330b2cbfcf941bf284e784a31df6",
+      "title": "Endometrial miR-181a and miR-98 Expression Is Altered during Transition from Normal into Cancerous State and Target<i>PGR</i>,<i>PGRMC1</i>,<i>CYP19A1</i>,<i>DDX3X</i>, and<i>TIMP3</i>",
+      "authors": [
+        "Harekrushna, Panda",
+        "Tsai-Der, Chuang",
+        "Xiaoping, Luo",
+        "Nasser, Chegini"
+      ],
+      "year": 2012,
+      "doi": "10.1210/jc.2012-1018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22492871",
+      "abstract": "Evidence suggests that a number of microRNA (miRNA) are aberrantly expressed in endometrial disorders with potential posttranscriptional regulation of their specific target genes, including ovarian steroid receptors.Our objective was to assess the endometrial expression of miR-98 and miR-181a and their respective target genes, progesterone (P4) receptor membrane component 1 (PGRMC1) and P4 receptor (PGR).We evaluated tissue expression and in vitro regulation at an academic university medical center in endometrial biopsies and endometrial tissues from follicular and luteal phases with and without exposure to hormonal therapies and grade I-III endometrial cancer (n = 52).INTERVENTIONS included endometrial biopsies and in vitro transfection.We evaluated expression and function of miR-98 and miR-181a.Aberrant expression of miR-98 and miR-181a is associated with endometrial transition from normal into cancerous states, which to some extent is influenced by hormonal milieu, and exhibited an inverse relationship with PGMRC1 and PGR expression, respectively. Treatments of Ishikawa cells with 17β-estradiol, P4, or medroxyprogesterone acetate had limited effects on miR-98, miR-181a, and PGRMC1 expression, whereas 17β-estradiol treatment increased PGR expression. In Ishikawa cells, gain of function of miR-98 repressed PGRMC1 and CYP19A1, and miR-181a repressed PGR, DDX3X, and TIMP3 at mRNA and protein levels through direct interactions with their respective 3'-untranslated regions and CCNE1 through miR-181a-induced DDX3X repression, with miR-98 reducing the rate of cell proliferation as compared with controls.miR-98 and miR-181a through their regulatory functions on PGRMC1, PGR, CYP19A1, TIMP3, and DDX3X expression may influence a wide range of endometrial cellular activities during normal menstrual cycle and transition into disease states, including endometrial cancer.",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::ab96330b2cbfcf941bf284e784a31df6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::ea3ad172f40b8c4e8dbe4b5d5d87aa36",
+      "title": "Abstract 4549: Expression and localization of progesterone receptor membrane component 1 and 2 in normal and malignant endometrial cells",
+      "authors": [
+        "Leyla Kavandi",
+        "Vessela S. Ivanova",
+        "Huyen Nguyen",
+        "Viqar Syed"
+      ],
+      "year": 2011,
+      "doi": "10.1158/1538-7445.am2011-4549",
+      "url": "https://doi.org/10.1158/1538-7445.am2011-4549",
+      "abstract": "<jats:title>Abstract</jats:title>                <jats:p>Recently, two progesterone receptor membrane components (PGRMC) have been identified. PGRMC-1 protein has been shown to be overexpressed in breast, colon, and thyroid cancers, whereas far less is known about PGRMC2. The purpose of this study was to assess the expression, localization and hormonal regulation of PGRMC-1 and PGRMC-2 in normal and malignant endometrial tissues and cell lines. Immunohistochemical analysis showed a high expression of PGRMC-1 in normal tissues and a stage dependent decrease was observed in endometrial cancer tissues. A progressive decrease of PGRMC-2 expression was evident in endometrial cancer tissues but was not as marked as in PGRMC-1. Dual immunofluorescent confocal microscopy demonstrated colocalization of PGRMC-1 and PGRMC-2 in the cytoplasm and nucleus of endometrial cancer (Ishikawa and ACI-126) cells. Of significance, in normal epithelial endometrial (NEE) cells PGRMC-2 was predominantly localized in the membrane, whereas PGRMC-1 showed cytoplasmic and nuclear expression. Treatment of cancer cells with progesterone (P4) translocated both PGRMCs to the nucleus, while in normal cells PGRMC-1, but not PGRMC2 was translocated to the nucleus of cells. The results suggest that expression of PGRMCs is regulated by P4 and the dynamic pattern of PGRMC1 and PGRMC2 expression in normal and malignant cells implicate their role in tumorigenesis.</jats:p>                <jats:p>Citation Format: {Authors}. {Abstract title} [abstract]. In: Proceedings of the 102nd Annual Meeting of the American Association for Cancer Research; 2011 Apr 2-6; Orlando, FL. Philadelphia (PA): AACR; Cancer Res 2011;71(8 Suppl):Abstract nr 4549. doi:10.1158/1538-7445.AM2011-4549</jats:p>",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::ea3ad172f40b8c4e8dbe4b5d5d87aa36"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::f4c0e99dd54c6c76da12b55c89bcab5f",
+      "title": "Progesterone Receptors and Proliferation of the Endometrium in Obese Women With Polycystic Ovary Syndrome—A Lifestyle Intervention Study",
+      "authors": [
+        "Mariana, Paulson",
+        "Lena, Sahlin",
+        "Angelica Lindén, Hirschberg"
+      ],
+      "year": 2016,
+      "doi": "10.1210/jc.2016-3155",
+      "url": "https://academic.oup.com/jcem/article-pdf/102/4/1244/11205693/jc.2016-3155.pdf",
+      "abstract": "Polycystic ovary syndrome (PCOS) is associated with increased risk of endometrial cancer. This is usually explained by chronic anovulation and deficient progesterone activity. However, the role of progesterone receptors (PRs) in endometrial proliferation is unclear.To evaluate PRs in relation to endometrial proliferation in women with PCOS.Cross-sectional study and lifestyle intervention.Clinical and laboratory research unit at a university hospital.Twenty obese women with PCOS and 10 age- and body mass index-matched regularly menstruating controls.Dietary management and physical exercise.Endometrial messenger RNA (mRNA) levels and immunostaining of the nuclear PRs A (PRA) and B (PRB), nongenomic progesterone receptor membrane component 1 (PGRMC1) and 2 (PGRMC2), and proliferation marker Ki67.Before lifestyle intervention, mRNA expression of PRAB was lower while PRB was higher in proliferative endometrium of obese women with PCOS compared with controls (P < 0.05). After lifestyle intervention and weight loss, mRNA expression of PRAB was still low but PRB mRNA decreased and was not different to controls in proliferative endometrium (P < 0.01). The subgroup of PCOS women who remained anovulatory displayed higher protein levels of PRB, PGRMC1, PGRMC2 and of the proliferative marker Ki67 on cycle days 21 to 23 than controls (P < 0.05). In contrast, the subgroup of PCOS women with confirmed ovulation showed immunostaining, including Ki67, in secretory endometrium that was not different to controls, except for higher PRA (P < 0.05).Lifestyle intervention improves, but not fully restores PR expression and decreases proliferation in secretory endometrium of obese PCOS women.",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::f4c0e99dd54c6c76da12b55c89bcab5f"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "doaj",
+      "id": "c76bfadc43a847d8813de556f3895fcf",
+      "title": "Identification of Interleukin-9 Producing Immune Cells in Endometrial Carcinoma and Establishment of a Prognostic Nomogram",
+      "authors": [
+        "Huan Tong",
+        "Hao Feng",
+        "Hao Feng",
+        "Xiang Hu",
+        "Meng-fei Wang",
+        "Yun-feng Song",
+        "Xiao-li Wen",
+        "Yi-ran Li",
+        "Xiao-ping Wan",
+        "Xiao-ping Wan"
+      ],
+      "year": 2020,
+      "doi": "10.3389/fimmu.2020.544248",
+      "journal": "Frontiers in Immunology",
+      "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2020.544248/full",
+      "abstract": "BackgroundInterleukin-9 (IL9) plays a critical role in immunity and the pathogenesis of endometrial cancer (EC), especially endometrioid EC (EEC). This study aimed to identify the IL9+ immune cell subsets and their pleiotropic functions and establish an optimized prognostic nomogram towards the promotion of personalized treatment of EEC.Methods1,417 EC patients were involved in the present study. 143 patients from the tertiary gynecology centers in Shanghai between 2013 and 2019 were recruited, and the study protocol was approved by the Institutional Review Board (IRB) of Shanghai First Maternity and Infant Hospital. The genomic data of the other 1,274 patients were extracted from the TCGA and the MSKCC datasets, respectively. Immune and stromal scores were calculated using the ESTIMATE R tool, and the tumor infiltration of immune cells was analyzed using the TIMER platform. Metascape and GEPIA datasets were used for bioinformatic analysis. P &lt; 0.05 was considered statistically significant. All statistical analyses were performed with GraphPad Prism and R studio.Results552 genes that were correlated with leukocyte infiltration, lymphocyte activation, and regulation of innate immune response were up-regulated in the high immune score group. More IL9+ cell infiltration was detected in the highly and moderately differentiated EC (p = 0.04). High IL9+ lymphocyte infiltration was related to a better overall survival (p = 0.0027). IL9 positive cell clusters included ILC2s, Vδ2 γδT cells, mast cells, macrophages, and Th9 cells. Parameters such as FIGO stage, IL9 score, Vδ2 + γδT cell infiltration, classification of differentiation,  and diabetes mellitus were assigned a weighted number of points in the nomogram for a specific predicted 3-, 5- and 10-year overall survival (OS). IL9–IL9R axis played a vital role in EEC, IL9R positive cell subgroups were also identified, and the related function was analyzed in the present study. Additionally, PR (Progesterone Receptor, or PGR) expression was relevant to a higher density of IL9+ lymphocyte infiltration. However, PGRMC1 (Progesterone Receptor Membrane Component 1) was negatively relevant to IL9R (p = 4.26e-8).ConclusionWe observed a significant infiltration of IL9+ cells and the overrepresentation of IL-9R in tissue specimens of patients in EC cases. The nomogram incorporating the IL9 could accurately predict individualized survival probability in EEC. Additionally, this study not only established a prognostic nomogram but also assist in the firmer understanding of the relevance of the IL9-IL9R axis and IL9-producing cells in EC immunity.",
+      "citations": 0,
+      "source_hits": [
+        "doaj"
+      ],
+      "source_ids": [
+        "c76bfadc43a847d8813de556f3895fcf"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3021467752",
+      "title": "Choose your partners for the next dance: implied PGRMC1 roles in membrane trafficking and mitochondrial modulation",
+      "authors": [
+        "Michael A. Cahill"
+      ],
+      "year": 2020,
+      "doi": "10.1016/j.fertnstert.2020.01.029",
+      "url": "https://doi.org/10.1016/j.fertnstert.2020.01.029",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3021467752"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1282,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1282,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40002193",
+      "title": "Enhancing Progestin Therapy with a Glucagon-Like Peptide 1 Agonist for the Conservative Management of Endometrial Cancer.",
+      "authors": [
+        "Hagemann AR",
+        "Hagemann IS",
+        "Mutch DG",
+        "Devor EJ",
+        "Malmrose PK",
+        "Zhang Y",
+        "Morrison AM",
+        "Thiel KW",
+        "Leslie KK."
+      ],
+      "year": 2025,
+      "doi": "10.3390/cancers17040598",
+      "url": "https://europepmc.org/article/med/40002193",
+      "abstract": "",
+      "citations": 5,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40002193"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40538816",
+      "title": "Mechanisms of Decidual Dysfunction and Infertility in Endometriosis: Roles of Prostaglandins and SASP.",
+      "authors": [
+        "Tamura K",
+        "Yoshie M",
+        "Kusama K",
+        "Tsuru A."
+      ],
+      "year": 2025,
+      "doi": "10.1002/rmb2.12663",
+      "url": "https://europepmc.org/article/med/40538816",
+      "abstract": "",
+      "citations": 4,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40538816"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1276,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1276,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41154687",
+      "title": "The Clinical Implications of Progesterone in Preeclampsia.",
+      "authors": [
+        "Liu Z",
+        "Gu W."
+      ],
+      "year": 2025,
+      "doi": "10.3390/biom15101458",
+      "url": "https://europepmc.org/article/med/41154687",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41154687"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1264,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1264,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40871014",
+      "title": "Hyaluronic Acid in Female Reproductive Health: Tailoring Molecular Weight to Clinical Needs in Obstetric and Gynecological Fields.",
+      "authors": [
+        "Porcaro G",
+        "Mappa I",
+        "Leonforte F",
+        "Baldini GM",
+        "Guarneri MF",
+        "La Verde M",
+        "Sorrentino F",
+        "Laganà AS."
+      ],
+      "year": 2025,
+      "doi": "10.3390/pharmaceutics17080991",
+      "url": "https://europepmc.org/article/med/40871014",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40871014"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1264,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1264,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41596062",
+      "title": "Molecular Regulation of FOXO1 and Its Pathophysiological Significance in Endometriosis: A Narrative Review.",
+      "authors": [
+        "Kobayashi H",
+        "Shigetomi H",
+        "Nishio M",
+        "Umetani M",
+        "Imanaka S",
+        "Hashimoto H."
+      ],
+      "year": 2025,
+      "doi": "10.3390/antiox15010003",
+      "url": "https://europepmc.org/article/med/41596062",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41596062"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41768124",
+      "title": "Nuclear and membrane-bound hormone receptors in glioblastoma: Expression, functionality, and therapeutic implications.",
+      "authors": [
+        "Gantner A",
+        "Dubois-Pot-Schneider H",
+        "Dumond H."
+      ],
+      "year": 2026,
+      "doi": "10.1093/noajnl/vdaf252",
+      "url": "https://europepmc.org/article/med/41768124",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41768124"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41699609",
+      "title": "Overexpression of PGRMC2 in astrocytes improved cognitive function in a mouse model of Alzheimer's disease by modulating neuroinflammation.",
+      "authors": [
+        "Zhu T",
+        "Zhou C",
+        "Zhou H",
+        "Shen F",
+        "Wang S",
+        "Zhou Y",
+        "Jin G",
+        "Zu J",
+        "Yang X",
+        "Shi H"
+      ],
+      "year": 2026,
+      "doi": "10.1186/s12967-026-07862-3",
+      "url": "https://europepmc.org/article/med/41699609",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41699609"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41897338",
+      "title": "Endometriosis at the Single-Cell Level: Molecular Insights and Implications for Assisted Reproduction Success.",
+      "authors": [
+        "Gerede A",
+        "Oikonomou E",
+        "Gkaitatzi F",
+        "Danavasi M",
+        "Papasozomenou P",
+        "Potiris A",
+        "Stavros S",
+        "Kourti V",
+        "Domali A",
+        "Koutlaki N"
+      ],
+      "year": 2026,
+      "doi": "10.3390/biom16030402",
+      "url": "https://europepmc.org/article/med/41897338",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41897338"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2001.07822v1",
+      "title": "Progesterone: An Enigmatic Ligand for the Mineralocorticoid Receptor",
+      "authors": [
+        "Michael E. Baker",
+        "Yoshinao Katsu"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2001.07822v1",
+      "abstract": "The progesterone receptor (PR) mediates progesterone regulation of female reproductive physiology, as well as gene transcription in non-reproductive tissues, such as brain, bone, lung and vasculature, in both women and men. An unusual property of progesterone is its high affinity for the mineralocorticoid receptor (MR), which regulates electrolyte transport in the kidney in humans and other terrestrial vertebrates. In humans, rats, alligators and frogs, progesterone antagonizes activation of the MR by aldosterone, the physiological mineralocorticoid in terrestrial vertebrates. In contrast, in elephant shark, ray-finned fishes and chickens, progesterone activates the MR. Interestingly, cartilaginous fishes and ray-finned fishes do not synthesize aldosterone, raising the question of which steroid(s) activate the MR in cartilaginous fishes and ray-finned fishes. The simpler synthesis of progesterone, compared to cortisol and other corticosteroids, makes progesterone a candidate physiological activator of the MR in elephant sharks and ray-finned fishes. Elephant shark and ray-finned fish MRs are expressed in diverse tissues, including heart, brain and lung, as well as, ovary and testis, two reproductive tissues that are targets for progesterone, which together suggests a multi-faceted physiological role for progesterone activation of the MR in elephant shark and ray-finned fish. The functional consequences of progesterone as an antagonist of some terrestrial vertebrate MRs and as an agonist of fish and chicken MRs are not fully understood. Indeed, little is known of physiological activities of progesterone via any vertebrate MR.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2001.07822v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2111.10661v1",
+      "title": "Divergent Evolution of Progesterone and Mineralocorticoid Receptors in Terrestrial Vertebrates and Fish Influences Endocrine Disruption",
+      "authors": [
+        "Michael E. Baker"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2111.10661v1",
+      "abstract": "There is much concern about disruption of endocrine physiology regulated by steroid hormones in humans, other terrestrial vertebrates and fish by industrial chemicals, such as bisphenol A, and pesticides, such as DDT. These endocrine-disrupting chemicals influence steroid-mediated physiology in humans and other vertebrates by competing with steroids for receptor binding sites, disrupting diverse responses involved in reproduction, development and differentiation. Here I discuss that due to evolution of the progesterone receptor (PR) and mineralocorticoid receptor (MR) after ray-finned fish and terrestrial vertebrates diverged from a common ancestor, each receptor evolved to respond to different steroids in ray-finned fish and terrestrial vertebrates. In elephant shark, a cartilaginous fish, ancestral to ray-finned fish and terrestrial vertebrates, both progesterone and 17,20dihydroxyprogesterone activate the PR. During the evolution of ray-finned fish and terrestrial vertebrates, the PR in terrestrial vertebrates continued responding to progesterone and evolved to weakly respond to 17,20dihydroxyprogesterone. In contrast, the physiological progestin for the PR in zebrafish and other ray-finned fish is 17,20dihydroxyprogesterone, and ray-finned fish PR responds weakly to progesterone. The MR in fish and terrestrial vertebrates also diverged to have different responses to progesterone.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2111.10661v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2310.15099v1",
+      "title": "Dual-path convolutional neural network using micro-FTIR imaging to predict breast cancer subtypes and biomarkers levels: estrogen receptor, progesterone receptor, HER2 and Ki67",
+      "authors": [
+        "Matheus del-Valle",
+        "Emerson Soares Bernardes",
+        "Denise Maria Zezell"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2310.15099v1",
+      "abstract": "Breast cancer molecular subtypes classification plays an import role to sort patients with divergent prognosis. The biomarkers used are Estrogen Receptor (ER), Progesterone Receptor (PR), HER2, and Ki67. Based on these biomarkers expression levels, subtypes are classified as Luminal A (LA), Luminal B (LB), HER2 subtype, and Triple-Negative Breast Cancer (TNBC). Immunohistochemistry is used to classify subtypes, although interlaboratory and interobserver variations can affect its accuracy, besides being a time-consuming technique. The Fourier transform infrared micro-spectroscopy may be coupled with deep learning for cancer evaluation, where there is still a lack of studies for subtypes and biomarker levels prediction. This study presents a novel 2D deep learning approach to achieve these predictions. Sixty micro-FTIR images of 320x320 pixels were collected from a human breast biopsies microarray. Data were clustered by K-means, preprocessed and 32x32 patches were generated using a fully automated approach. CaReNet-V2, a novel convolutional neural network, was developed to classify breast cancer (CA) vs adjacent tissue (AT) and molecular subtypes, and to predict biomarkers level. The clustering method enabled to remove non-tissue pixels. Test accuracies for CA vs AT and subtype were above 0.84. The model enabled the prediction of ER, PR, and HER2 levels, where borderline values showed lower performance (minimum accuracy of 0.54). Ki67 percentage regression demonstrated a mean error of 3.6%. Thus, CaReNet-V2 is a potential technique for breast cancer biopsies evaluation, standing out as a screening analysis technique and helping to prioritize patients.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2310.15099v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1808.07539v1",
+      "title": "Transcriptional Activation of Elephant Shark Mineralocorticoid Receptor by Corticosteroids, Progesterone and Spironolactone",
+      "authors": [
+        "Yoshinao Katsu",
+        "Satomi Kohno",
+        "Kaori Oka",
+        "Xiaozhi Lin",
+        "Sumika Otake",
+        "Nisha E. Pillai",
+        "Wataru Takagi",
+        "Susumu Hyodo",
+        "Byrappa Venkatesh",
+        "Michael E. Baker"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1808.07539v1",
+      "abstract": "We report the analysis of activation by corticosteroids and progesterone of full-length mineralocorticoid receptor (MR) from elephant shark, a cartilaginous fish belonging to the oldest group of jawed vertebrates. Based on their measured activities, aldosterone, cortisol, 11-deoxycorticosterone, corticosterone, 11-deoxcortisol, progesterone and 19-norprogesterone are potential physiological mineralocorticoids. However, aldosterone, the physiological mineralocorticoid in humans and other terrestrial vertebrates, is not found in cartilaginous or ray-finned fishes. Because progesterone is a precursor for corticosteroids that activate elephant shark MR, we propose that progesterone was an ancestral ligand for elephant shark MR. Although progesterone activates ray-finned fish MRs, progesterone does not activate human, amphibian or alligator MRs, suggesting that during the transition to terrestrial vertebrates, progesterone lost the ability to activate the MR. Comparison of RNA-sequence analysis of elephant shark MR with that of human MR suggests that MR expression in the human brain, heart, ovary, testis and other non-epithelial tissues evolved in cartilaginous fishes. Together, these data suggest that progesterone-activated MR may have unappreciated functions in elephant shark ovary and testis.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1808.07539v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.09626v1",
+      "title": "Regulation by Progestins, Corticosteroids and RU486 of Activation of Elephant Shark and Human Progesterone Receptors: An Evolutionary Perspec",
+      "authors": [
+        "Xiaozhi Lin",
+        "Wataru Takagi",
+        "Susumu Hyodo",
+        "Shigeho Ijiri",
+        "Yoshinao Katsu",
+        "Michael E. Baker"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.09626v1",
+      "abstract": "We investigated progestin and corticosteroid activation of the progesterone receptor (PR) from elephant shark (Callorhinchus milii), a cartilaginous fish belonging to the oldest group of jawed vertebrates. Comparison with human PR experiments provides insights into the evolution of steroid activation of human PR. At 1 nM steroid, elephant shark PR is activated by progesterone, 17-hydroxy-progesterone, 20beta-hydroxy-progesterone, 11-deoxycorticosterone (21-hydroxyprogesterone) and 11-deoxycortisol. At 1 nM steroid, human PR is activated only by progesterone and11-deoxycorticosterone indicating increased specificity for progestins and corticosteroids during the evolution of human PR. RU486, an important clinical antagonist of human PR, did not inhibit progesterone activation of elephant shark PR. Cys-528 in elephant shark PR corresponds to Gly-722 in human PR, which is essential for RU486 inhibition of human PR. Confirming the importance of this site on elephant shark PR, RU486 inhibited progesterone activation of the Cys528Gly mutant PR. There also was a decline in activation of elephant shark Cys528Gly PR by 11-deoxycortisol, 17-hydroxy-progesterone and 20beta-hydroxy-progesterone and an increase in activation of human Gly722Cys PR by 11-deoxycortisol and decreased activation by corticosterone. One or more of these changes may have selected for the mutation corresponding to human glycine-722 PR that first evolved in platypus PR, a basal mammal.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.09626v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1110.5865v1",
+      "title": "Cancer Networks: A general theoretical and computational framework for understanding cancer",
+      "authors": [
+        "Eric Werner"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1110.5865v1",
+      "abstract": "We present a general computational theory of cancer and its developmental dynamics. The theory is based on a theory of the architecture and function of developmental control networks which guide the formation of multicellular organisms. Cancer networks are special cases of developmental control networks. Cancer results from transformations of normal developmental networks. Our theory generates a natural classification of all possible cancers based on their network architecture. Each cancer network has a unique topology and semantics and developmental dynamics that result in distinct clinical tumor phenotypes. We apply this new theory with a series of proof of concept cases for all the basic cancer types. These cases have been computationally modeled, their behavior simulated and mathematically described using a multicellular systems biology approach. There are fascinating correspondences between the dynamic developmental phenotype of computationally modeled {\\em in silico} cancers and natural {\\em in vivo} cancers. The theory lays the foundation for a new research paradigm for understanding and investigating cancer. The theory of cancer networks implies that new diagnostic methods and new treatments to cure cancer will become possible.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1110.5865v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.159/table-3",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.159/table-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.159/table-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.159/table-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.7254/fig-3",
+      "title": "Figure 3: Progesterone levels in rats treated with and without oestrogen receptor antagonist.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.7254/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.7254/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.7254/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10433/fig-3",
+      "title": "Figure 3: Comparison of protein expression of DLGAP5 in normal endometrial tissues and endometrial cancer tissues.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10433/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10433/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10433/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-1",
+      "title": "Table 1: Characteristics of the women with endometrial hyperplasia or endometrial cancer from 2009 to 2012.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20409/fig-3",
+      "title": "Figure 3: MRS2 drives endometrial cancer malignancy.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20409/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20409/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20409/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/fig-1",
+      "title": "Figure 1: The annual trends in the endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2010.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.159/fig-3",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.159/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.159/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.159/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-2",
+      "title": "Table 2: The endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2012 stratified according to 5-year age increments.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16424/supp-5",
+      "title": "Supplemental Information 5: Raw data for advanced endometrial cancer",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16424/supp-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16424/supp-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16424/supp-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "PMC12940563",
+      "title": "Gene Expression Profiling and Prognostic Significance of Nuclear and Membrane Progesterone Receptors in Head and Neck Squamous Cell Carcinoma",
+      "authors": [
+        "Jelačić J",
+        "Milutin N",
+        "Stojković I",
+        "Vugrinec O",
+        "Kvolik Pavić A",
+        "Vušković S",
+        "Mumlek I",
+        "Zubčić V",
+        "Leović D",
+        "Bilić M"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://europepmc.org/article/pmc/PMC12940563",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "PMC12940563"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.0,
+      "stage1_score": 0.096,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.096,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+{
+  "query": "irbesartan DHCR24 competitive inhibitor melanoma drug repurposing",
+  "effective_query": "irbesartan DHCR24 competitive inhibitor melanoma drug repurposing",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 25,
+  "warnings": [
+    "crossref failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9357",
+      "title": "Host transcriptome-guided drug repurposing for COVID-19 treatment: a meta-analysis based approach",
+      "authors": [
+        "Tamizhini Loganathan",
+        "Srimathy Ramachandran",
+        "Prakash Shankaran",
+        "Devipriya Nagarajan",
+        "Suma Mohan S"
+      ],
+      "year": 2020,
+      "doi": "10.7717/peerj.9357",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.9357",
+      "abstract": "Background Coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been declared a pandemic by the World Health Organization, and the identification of effective therapeutic strategy is a need of the hour to combat SARS-CoV-2 infection. In this scenario, the drug repurposing approach is widely used for the rapid identification of potential drugs against SARS-CoV-2, considering viral and host factors. Methods We adopted a host transcriptome-based drug repurposing strategy utilizing the publicly available high throughput gene expression data on SARS-CoV-2 and other respiratory infection viruses. Based on the consistency in expression status of host factors in different cell types and previous evidence reported in the literature, pro-viral factors of SARS-CoV-2 identified and subject to drug repurposing analysis based on DrugBank and Connectivity Map (CMap) using the web tool, CLUE. Results The upregulated pro-viral factors such as TYMP , PTGS2 , C1S , CFB , IFI44 , XAF1 , CXCL2 , and CXCL3 were identified in early infection models of SARS-CoV-2. By further analysis of the drug-perturbed expression profiles in the connectivity map, 27 drugs that can reverse the expression of pro-viral factors were identified, and importantly, twelve of them reported to have anti-viral activity. The direct inhibition of the PTGS2 gene product can be considered as another therapeutic strategy for SARS-CoV-2 infection and could suggest six approved PTGS2 inhibitor drugs for the treatment of COVID-19. The computational study could propose candidate repurposable drugs against COVID-19, and further experimental studies are required for validation.",
+      "citations": 46,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9357"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1903,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1903,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "69a63d051fc6e69ee336641d7fcac8a7504b2a25",
+      "title": "Protein kinase inhibitor ceritinib blocks ectonucleotidase CD39 – a promising target for cancer immunotherapy",
+      "authors": [
+        "Laura Schäkel",
+        "Salahuddin Mirza",
+        "Riekje Winzer",
+        "Vittoria Lopez",
+        "Riham Idris",
+        "Haneen Al-Hroub",
+        "J. Pelletier",
+        "J. Sévigny",
+        "E. Tolosa",
+        "C. Müller"
+      ],
+      "year": 2022,
+      "doi": "10.1136/jitc-2022-004660",
+      "url": "https://www.semanticscholar.org/paper/69a63d051fc6e69ee336641d7fcac8a7504b2a25",
+      "abstract": "Background An important mechanism, by which cancer cells achieve immune escape, is the release of extracellular adenosine into their microenvironment. Adenosine activates adenosine A2A and A2B receptors on immune cells constituting one of the strongest immunosuppressive mediators. In addition, extracellular adenosine promotes angiogenesis, tumor cell proliferation, and metastasis. Cancer cells upregulate ectonucleotidases, most importantly CD39 and CD73, which catalyze the hydrolysis of extracellular ATP to AMP (CD39) and further to adenosine (CD73). Inhibition of CD39 is thus expected to be an effective strategy for the (immuno)therapy of cancer. However, suitable small molecule inhibitors for CD39 are not available. Our aim was to identify drug-like CD39 inhibitors and evaluate them in vitro. Methods We pursued a repurposing approach by screening a self-compiled collection of approved, mostly ATP-competitive protein kinase inhibitors, on human CD39. The best hit compound was further characterized and evaluated in various orthogonal assays and enzyme preparations, and on human immune and cancer cells. Results The tyrosine kinase inhibitor ceritinib, a potent anticancer drug used for the treatment of anaplastic lymphoma kinase (ALK)-positive metastatic non-small cell lung cancer, was found to strongly inhibit CD39 showing selectivity versus other ectonucleotidases. The drug displays a non-competitive, allosteric mechanism of CD39 inhibition exhibiting potency in the low micromolar range, which is independent of substrate (ATP) concentration. We could show that ceritinib inhibits ATP dephosphorylation in peripheral blood mononuclear cells in a dose-dependent manner, resulting in a significant increase in ATP concentrations and preventing adenosine formation from ATP. Importantly, ceritinib (1–10 µM) substantially inhibited ATP hydrolysis in triple negative breast cancer and melanoma cells with high native expression of CD39. Conclusions CD39 inhibition might contribute to the effects of the powerful anticancer drug ceritinib. Ceritinib is a novel CD39 inhibitor with high metabolic stability and optimized physicochemical properties; according to our knowledge, it is the first brain-permeant CD39 inhibitor. Our discovery will provide the basis (i) to develop more potent and balanced dual CD39/ALK inhibitors, and (ii) to optimize the ceritinib scaffold towards interaction with CD39 to obtain potent and selective drug-like CD39 inhibitors for future in vivo studies.",
+      "citations": 26,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "69a63d051fc6e69ee336641d7fcac8a7504b2a25"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1856,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1856,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17809",
+      "title": "Antimicrobial activities of Diltiazem Hydrochloride: drug repurposing approach",
+      "authors": [
+        "Omar K. Alduaij",
+        "Rageh K. Hussein",
+        "Sharif Abu Alrub",
+        "Sabry A. H. Zidan"
+      ],
+      "year": 2024,
+      "doi": "10.7717/peerj.17809",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.17809",
+      "abstract": "Background The growing concern of antibiotic-resistant microbial strains worldwide has prompted the need for alternative methods to combat microbial resistance. Biofilm formation poses a significant challenge to antibiotic efficiency due to the difficulty of penetrating antibiotics through the sticky microbial aggregates. Drug repurposing is an innovative technique that aims to expand the use of non-antibiotic medications to address this issue. The primary objective of this study was to evaluate the antimicrobial properties of Diltiazem HCl, a 1,5-benzothiazepine Ca 2 + channel blocker commonly used as an antihypertensive agent, against four pathogenic bacteria and three pathogenic yeasts, as well as its antiviral activity against the Coxsackie B4 virus (CoxB4). Methods To assess the antifungal and antibacterial activities of Diltiazem HCl, the well diffusion method was employed, while crystal violet staining was used to determine the anti-biofilm activity. The MTT (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) colorimetric assay was utilized to evaluate the antiviral activity of Diltiazem HCl against the CoxB4 virus. Results This study revealed that Diltiazem HCl exhibited noticeable antimicrobial properties against Gram-positive bacteria, demonstrating the highest inhibition of Staphylococcus epidermidis , followed by Staphylococcus aureus . It effectively reduced the formation of biofilms by 95.1% and 90.7% for S. epidermidis , and S. aureus , respectively. Additionally, the antiviral activity of Diltiazem HCl was found to be potent against the CoxB4 virus, with an IC 50 of 35.8 ± 0.54 μg mL −1 compared to the reference antiviral Acyclovir (IC 50 42.71 ± 0.43 μg mL −1 ). Conclusion This study suggests that Diltiazem HCl, in addition to its antihypertensive effect, may also be a potential treatment option for infections caused by Gram-positive bacteria and the CoxB4 viruses, providing an additional off-target effect for Diltiazem HCl.",
+      "citations": 3,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17809"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1846,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1846,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "17d2d38bebdc70bda975d385e8658d8197034a60",
+      "title": "Virtual Screening of Novel 24-Dehydroxysterol Reductase (DHCR24) Inhibitors and the Biological Evaluation of Irbesartan in Cholesterol-Lowering Effect",
+      "authors": [
+        "Haozhen Wang",
+        "Ziyin Lu",
+        "Yang Li",
+        "Ting Liu",
+        "Linlin Zhao",
+        "Tianqi Gao",
+        "Xiuli Lu",
+        "B. Gao"
+      ],
+      "year": 2023,
+      "doi": "10.3390/molecules28062643",
+      "url": "https://www.semanticscholar.org/paper/17d2d38bebdc70bda975d385e8658d8197034a60",
+      "abstract": "Hyperlipidemia is a risk factor for the development of fatty liver and cardiovascular diseases such as atherosclerosis and coronary heart disease, and hence, cholesterol-lowering drugs are considered important and effective in preventing cardiovascular diseases. Thus, researchers in the field of new drug development are endeavoring to identify new types of cholesterol-lowering drugs. 3β-hydroxysterol-Δ(24)-reductase (DHCR24) catalyzes the conversion of desmosterol to cholesterol, which is the last step in the cholesterol biosynthesis pathway. We speculated that blocking the catalytic activity of DHCR24 could be a novel therapeutic strategy for treating hyperlipidemia. In the present study, by virtually screening the DrugBank database and performing molecular dynamics simulation analysis, we selected four potential DHCR24 inhibitor candidates: irbesartan, risperidone, tolvaptan, and conivaptan. All four candidates showed significant cholesterol-lowering activity in HepG2 cells. The experimental mouse model of hyperlipidemia demonstrated that all four candidates improved high blood lipid levels and fat vacuolation in the livers of mice fed with a high-fat diet. In addition, Western blot analysis results suggested that irbesartan reduced cholesterol levels by downregulating the expression of the low-density lipoprotein receptor. Finally, the immune complex activity assay confirmed the inhibitory effect of irbesartan on the enzymatic activity of DHCR24 with its half-maximal inhibitory concentration (IC50) value of 602 nM. Thus, to the best of our knowledge, this is the first study to report that blocking the enzymatic activity of DHCR24 via competitive inhibition is a potential strategy for developing new cholesterol-lowering drugs against hyperlipidemia or multiple cancers. Furthermore, considering that irbesartan is currently used to treat hypertension combined with type 2 diabetes, we believe that irbesartan should be a suitable choice for patients with both hypertension and hyperlipidemia.",
+      "citations": 13,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "17d2d38bebdc70bda975d385e8658d8197034a60"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1791,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1791,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.11360",
+      "title": "Mycophenolate suppresses inflammation by inhibiting prostaglandin synthases: a study of molecular and experimental drug repurposing",
+      "authors": [
+        "Fahad Al-Hizab",
+        "Mahmoud Kandeel"
+      ],
+      "year": 2021,
+      "doi": "10.7717/peerj.11360",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.11360",
+      "abstract": "Mycophenolate mofetil is an established anti-proliferative and immune-suppressive agent that minimizes the proliferation of inflammatory cells by interfering with nucleic acid synthesis. Herein, we report our discovery of the prostaglandin inhibiting properties of MMF, which offers new applications for the drug in the treatment of inflammatory diseases. The estimated values of IC 50 MMF COX-1 , IC 50 MMF COX-2 , and IC 50 MMF 5-LOX were 5.53, 0.19, and 4.47 µM, respectively. In contrast, mycophenolic acid (MPA) showed slightly stronger inhibition: IC 50 MPA COX-1 , IC 50 MPA COX-2 , and IC 50 MPA 5-LOX were 4.62, 0.14, and 4.49 µM, respectively. These results indicate that MMF and MPA are, respectively, 28.6 and 33 times more selective for cyclooxygenase-2 than for cyclooxygenase-1, which implies that MMF would have less impact on the gastric mucosa than most nonselective, nonsteroidal anti-inflammatory drugs. Furthermore, MMF provided dose-dependent relief of acute inflammation in the carrageenan-induced rat paw edema test, with results comparable to those of celecoxib and indomethacin. Molecular dynamics simulations indicated that the MMF bond with COX-2 was stable, as evidenced by a low root-mean-square deviation of atomic positions, complementary per-residue root-mean-square fluctuation, and 0–4 hydrogen bonds during the 50-ns simulation time. Therefore, MMF provides immune-suppressing, cyclooxygenase-inhibiting, and inflammation-relieving properties. Our results indicate that MMF can be 1) repositioned for inflammation treatment without the need for further expensive clinical trials, 2) used for local acute inflammations, and 3) used as a sparing agent for other steroid and non-steroid anti-inflammatory medications, especially in topical applications.",
+      "citations": 5,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.11360"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1767,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1767,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "fb3e7ccc7b4d727d0c266d48d981626f874f2e56",
+      "title": "On the development of B-Raf inhibitors acting through innovative mechanisms",
+      "authors": [
+        "Luca Pinzi"
+      ],
+      "year": 2022,
+      "doi": "10.12688/f1000research.108761.2",
+      "url": "https://www.semanticscholar.org/paper/fb3e7ccc7b4d727d0c266d48d981626f874f2e56",
+      "abstract": "B-Raf is a protein kinase participating to the regulation of many biological processes in cells. Several studies have demonstrated that this protein is frequently upregulated in human cancers, especially when it bears activating mutations. In the last years, few ATP-competitive inhibitors of B-Raf have been marketed for the treatment of melanoma and are currently under clinical evaluation on a variety of other types of cancer. Although the introduction of drugs targeting B-Raf has provided significant advances in cancer treatment, responses to ATP-competitive inhibitors remain limited, mainly due to selectivity issues, side effects, narrow therapeutic windows, and the insurgence of drug resistance. Impressive research efforts have been made so far towards the identification of novel ATP-competitive modulators with improved efficacy against cancers driven by mutant Raf monomers and dimers, some of them showing good promises. However, several limitations could still be envisioned for these compounds, according to literature data. Besides, increased attentions have arisen around approaches based on the design of allosteric modulators, polypharmacology, proteolysis targeting chimeras (PROTACs) and drug repurposing for the targeting of B-Raf proteins. The design of compounds acting through such innovative mechanisms is rather challenging. However, valuable therapeutic opportunities can be envisioned on these drugs, as they act through innovative mechanisms in which limitations typically observed for approved ATP-competitive B-Raf inhibitors are less prone to emerge. In this article, current approaches adopted for the design of non-ATP competitive inhibitors targeting B-Raf are described, discussing also on the possibilities, ligands acting through such innovative mechanisms could provide for the obtainment of more effective therapies.",
+      "citations": 4,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "fb3e7ccc7b4d727d0c266d48d981626f874f2e56",
+        "f7bc6899a3c62e9a968ae936fc43d235334414fc"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1724,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1724,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.3765",
+      "title": "Analysis of drug binding pockets and repurposing opportunities for twelve essential enzymes of ESKAPE pathogens",
+      "authors": [
+        "Sadia Naz",
+        "Tony Ngo",
+        "Umar Farooq",
+        "Ruben Abagyan"
+      ],
+      "year": 2017,
+      "doi": "10.7717/peerj.3765",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.3765",
+      "abstract": "Background The rapid increase in antibiotic resistance by various bacterial pathogens underlies the significance of developing new therapies and exploring different drug targets. A fraction of bacterial pathogens abbreviated as ESKAPE by the European Center for Disease Prevention and Control have been considered a major threat due to the rise in nosocomial infections. Here, we compared putative drug binding pockets of twelve essential and mostly conserved metabolic enzymes in numerous bacterial pathogens including those of the ESKAPE group and Mycobacterium tuberculosis . The comparative analysis will provide guidelines for the likelihood of transferability of the inhibitors from one species to another. Methods Nine bacterial species including six ESKAPE pathogens, Mycobacterium tuberculosis along with Mycobacterium smegmatis and Eschershia coli , two non-pathogenic bacteria, have been selected for drug binding pocket analysis of twelve essential enzymes. The amino acid sequences were obtained from Uniprot, aligned using ICM v3.8-4a and matched against the Pocketome encyclopedia. We used known co-crystal structures of selected target enzyme orthologs to evaluate the location of their active sites and binding pockets and to calculate a matrix of pairwise sequence identities across each target enzyme across the different species. This was used to generate sequence maps. Results High sequence identity of enzyme binding pockets, derived from experimentally determined co-crystallized structures, was observed among various species. Comparison at both full sequence level and for drug binding pockets of key metabolic enzymes showed that binding pockets are highly conserved (sequence similarity up to 100%) among various ESKAPE pathogens as well as Mycobacterium tuberculosis . Enzymes orthologs having conserved binding sites may have potential to interact with inhibitors in similar way and might be helpful for design of similar class of inhibitors for a particular species. The derived pocket alignments and distance-based maps provide guidelines for drug discovery and repurposing. In addition they also provide recommendations for the relevant model bacteria that may be used for initial drug testing. Discussion Comparing ligand binding sites through sequence identity calculation could be an effective approach to identify conserved orthologs as drug binding pockets have shown higher level of conservation among various species. By using this approach we could avoid the problems associated with full sequence comparison. We identified essential metabolic enzymes among ESKAPE pathogens that share high sequence identity in their putative drug binding pockets (up to 100%), of which known inhibitors can potentially antagonize these identical pockets in the various species in a similar manner.",
+      "citations": 8,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.3765"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1712,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1712,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "0d0226925034b0cea71b7c5d587bc1bca3093a97",
+      "title": "Repurposing GSK3B Small Molecule Inhibitors for Refractory Lymphoid Malignancies",
+      "authors": [
+        "K. Cosgun",
+        "Mark E. Robinson",
+        "Salim Oulghazi",
+        "Liang Xu",
+        "Gang Xiao",
+        "L. Chan",
+        "Jaewoong Lee",
+        "K. Kume",
+        "Etienne Leveille",
+        "David Fonseca Arce",
+        "Dhruv Khanduja",
+        "N. Feldhahn",
+        "Joo Y. Song",
+        "Wing-Chung Chan",
+        "Jianjun Chen",
+        "M. M. Taketo",
+        "H. Schjerven",
+        "Julia Jellusova",
+        "Shalin Kothari",
+        "M. Davids",
+        "M. Müschen"
+      ],
+      "year": 2023,
+      "doi": "10.1182/blood-2023-190522",
+      "url": "https://www.semanticscholar.org/paper/0d0226925034b0cea71b7c5d587bc1bca3093a97",
+      "abstract": "\n Background: Small molecule GSK3B inhibitors were developed for solid tumors and neurological conditions, including Alzheimer's and Parkinson disease. Five GSK3B inhibitors achieved favorable safety and PK/PD profiles in a total of 22 Phase 1 and 2 clinical trials but no clinical response for any of these indications. GSK3B is the kinase that phosphorylates β-catenin to initiate its degradation, hence GSK3B small molecule inhibition results in rapid nuclear accumulation of β-catenin protein.\n Significance: Activating mutations in the Wnt/β-catenin pathway are common oncogenic drivers throughout all main types of cancer (n=64,812) but not found in B- and T-lymphoid malignancies (n=2,137). Studying tissue microarrays by β-catenin immunohistochemistry, lung, colon, breast, and melanoma specimen (n=57) showed consistently high levels of nuclear β-catenin, whereas B- and T-cell lymphomas (n=84) lacked β-catenin signal. Despite comparable mRNA levels, proteomic analyses revealed 60-400-fold lower β-catenin levels in lymphoid compared to epithelial tumors (n=1,389) suggesting that lymphoid malignancies rely on powerful mechanisms for β-catenin degradation, e.g. by GSK3B.\n Results: To study the effects of β-catenin activation in human cells, we induced expression of stabilized form of β-catenin in 18 lymphoid (B- and T-ALL, MCL, DLBCL, PTCL) and four myeloid leukemia cell lines. In B- and T-lymphoid cells, β-catenin accumulation compromised clonal fitness, colony formation and induced cell death, but increased competitive fitness and colony formation in myeloid leukemia cells. CEBPα-mediated reprogramming of B-ALL cells into a myeloid phenotype reversed the deleterious effects highlighting that effects of β-catenin-accumulation strictly depend on lymphoid lineage-identity.\n RNA-seq studies upon inducible activation of β-catenin in lymphoid cells, revealed transcriptional repression of Myc and Myc target genes as principal gene expression change. Unlike activating β-catenin:TCF7 complexes in epithelial cells, our global interactome studies in B- and T-ALL and lymphoma cells identified repressive β-catenin complexes with lymphoid-specific Ikaros zinc finger (IKZF1/2/3) proteins and several components of the NuRD complex including Mta1/2, Gatad2a/b, Chd4, HDAC1/2. Interactome and ChIP-seq analyses revealed that β-catenin together with lymphoid-specific Ikaros factors recruited repressive NuRD complex members to deacetylate H3K27 and repress MYC superenhancer (SE) regions. Genetic deletion of both IKZF1 and IKZF3 or HDRT-based mutation of Ikaros binding motifs within the Myc-SE enabled resistance to β-catenin accumulation.\n To leverage this previously unrecognized vulnerability of lymphoid malignancies, we examined five clinically approved GSK3B small molecule inhibitors that achieved favorable safety profiles at micromolar plasma concentrations in clinical trials for neurological disorders and solid tumors. Strikingly, LY2090314 and CHIR99021 were effective at low nanomolar concentrations in B- and T-cell malignancies that expressed lymphoid Ikaros factors. At IC50 concentrations of <5 nM, GSK3B-inhibitors induced massive accumulation of β-catenin, repression of MYC and acute cell death. In B-ALL cells with IKZF1-deletion, expression of the remaining IKZF3 factor was sufficient to retain full sensitivity to GSK3B-inhibition. Deletion of β-catenin, however, abolished the effects of GSK3B inhibitors and relieved suppression of MYC, demonstrating accumulation of β-catenin represents as central mechanism of action. Preclinical in vivo treatment experiments of refractory B-ALL and mantle cell lymphoma PDX validated small molecule GSK3B-inhibition as strategy to overcome conventional mechanisms of drug-resistance.\n Conclusions: B- and T-lymphoid malignancies not only lacked expression of β-catenin but critically depend on GSK3B for effective β-catenin degradation. Our interactome studies in lymphoid tumors revealed that β-catenin formed repressive complexes with lymphoid-specific Ikaros and NuRD complex factors. Strikingly, GSK3B small molecule inhibitors engage this new pathway at low nanomolar concentrations and demonstrated favorable safety profiles in Phase 1 and Phase 2 trials. Safety and efficacy of GSK3B-inhibitors opens up an immediate path for repurposing these agents towards refractory B-cell malignancies.",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "0d0226925034b0cea71b7c5d587bc1bca3093a97"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.17,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.17,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2107.02905v2",
+      "title": "An in silico drug repurposing pipeline to identify drugs with the potential to inhibit SARS-CoV-2 replication",
+      "authors": [
+        "Méabh MacMahon",
+        "Woochang Hwang",
+        "Soorin Yim",
+        "Eoghan MacMahon",
+        "Alexandre Abraham",
+        "Justin Barton",
+        "Mukunthan Tharmakulasingam",
+        "Paul Bilokon",
+        "Vasanthi Priyadarshini Gaddi",
+        "Namshik Han"
+      ],
+      "year": 2021,
+      "doi": "10.1016/j.imu.2023.101387",
+      "url": "http://arxiv.org/abs/2107.02905v2",
+      "abstract": "Drug repurposing provides an opportunity to redeploy drugs, which ideally are already approved for use in humans, for the treatment of other diseases. For example, the repurposing of dexamethasone and baricitinib has played a crucial role in saving patient lives during the ongoing SARS-CoV-2 pandemic. There remains a need to expand therapeutic approaches to prevent life-threatening complications in patients with COVID-19. Using an in silico approach based on structural similarity to drugs already in clinical trials for COVID-19, potential drugs were predicted for repurposing. For a subset of identified drugs with different targets to their corresponding COVID-19 clinical trial drug, a mechanism of action analysis was applied to establish whether they might have a role in inhibiting the replication of SARS-CoV-2. Of sixty drugs predicted in this study, two with the potential to inhibit SARS-CoV-2 replication were identified using mechanism of action analysis. Triamcinolone is a corticosteroid that is structurally similar to dexamethasone; gallopamil is a calcium channel blocker that is structurally similar to verapamil. In silico approaches indicate possible mechanisms of action for both drugs in inhibiting SARS-CoV-2 replication. The identification of these drugs as potentially useful for patients with COVID-19 who are at a higher risk of developing severe disease supports the use of in silico approaches to facilitate quick and cost-effective drug repurposing. Such drugs could expand the number of treatments available to patients who are not protected by vaccination.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2107.02905v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.164,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.164,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2004.07086v1",
+      "title": "Prediction of potential inhibitors for RNA-dependent RNA polymerase of SARS-CoV-2 using comprehensive drug repurposing and molecular docking approach",
+      "authors": [
+        "Md. Sorwer Alam Parvez",
+        "Md. Adnan Karim",
+        "Mahmudul Hasan",
+        "Jomana Jaman",
+        "Ziaul Karim",
+        "Tohura Tahsin",
+        "Md. Nazmul Hasan",
+        "Mohammad Jakir Hosen"
+      ],
+      "year": 2020,
+      "doi": "10.1016/j.ijbiomac.2020.09.098",
+      "url": "http://arxiv.org/abs/2004.07086v1",
+      "abstract": "The pandemic prevalence of COVID-19 has become a very serious global health issue. Scientists all over the world have been heavily invested in the discovery of a drug to combat SARS-CoV-2. It has been found that RNA-dependent RNA Polymerase (RdRp) plays a crucial role in SARS-CoV-2 replication, and thus could be a potential drug target. Here, comprehensive computational approaches including drug repurposing and molecular docking were employed to predict an effective drug candidate targeting RdRp of SARS-CoV-2. This study revealed that Rifabutin, Rifapentine, Fidaxomicin, 7-methyl-guanosine-5'-triphosphate-5'-guanosine and Ivermectin have a potential inhibitory interaction with RdRp of SARS-CoV-2, and could be effective drugs for COVID-19. In addition, virtual screening of the compounds from ZINC database also allowed the prediction of two compounds (ZINC09128258 and ZINC 09883305) with pharmacophore features that interact effectively with RdRp of SARS-CoV-2; indicating their potentiality as effective inhibitors of the enzyme. Furthermore, ADME analysis along with analysis of toxicity was also investigated to check the pharmacokinetics and drug-likeness properties of the two compounds. Comparative structural analysis of protein-inhibitor complexes revealed that positions of the amino acid Y32, K47, Y122, Y129, H133, N138, D140, T141, S709 and N781 are crucial for drug surface hotspot in the RdRp of SARS-CoV-2.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2004.07086v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2407.02265v1",
+      "title": "DrugCLIP: Contrastive Drug-Disease Interaction For Drug Repurposing",
+      "authors": [
+        "Yingzhou Lu",
+        "Yaojun Hu",
+        "Chenhao Li"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2407.02265v1",
+      "abstract": "Bringing a novel drug from the original idea to market typically requires more than ten years and billions of dollars. To alleviate the heavy burden, a natural idea is to reuse the approved drug to treat new diseases. The process is also known as drug repurposing or drug repositioning. Machine learning methods exhibited huge potential in automating drug repurposing. However, it still encounter some challenges, such as lack of labels and multimodal feature representation. To address these issues, we design DrugCLIP, a cutting-edge contrastive learning method, to learn drug and disease's interaction without negative labels. Additionally, we have curated a drug repurposing dataset based on real-world clinical trial records. Thorough empirical studies are conducted to validate the effectiveness of the proposed DrugCLIP method.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2407.02265v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2405.08031v2",
+      "title": "HGTDR: Advancing Drug Repurposing with Heterogeneous Graph Transformers",
+      "authors": [
+        "Ali Gharizadeh",
+        "Karim Abbasi",
+        "Amin Ghareyazi",
+        "Mohammad R. K. Mofrad",
+        "Hamid R. Rabiee"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2405.08031v2",
+      "abstract": "Motivation: Drug repurposing is a viable solution for reducing the time and cost associated with drug development. However, thus far, the proposed drug repurposing approaches still need to meet expectations. Therefore, it is crucial to offer a systematic approach for drug repurposing to achieve cost savings and enhance human lives. In recent years, using biological network-based methods for drug repurposing has generated promising results. Nevertheless, these methods have limitations. Primarily, the scope of these methods is generally limited concerning the size and variety of data they can effectively handle. Another issue arises from the treatment of heterogeneous data, which needs to be addressed or converted into homogeneous data, leading to a loss of information. A significant drawback is that most of these approaches lack end-to-end functionality, necessitating manual implementation and expert knowledge in certain stages. Results: We propose a new solution, HGTDR (Heterogeneous Graph Transformer for Drug Repurposing), to address the challenges associated with drug repurposing. HGTDR is a three-step approach for knowledge graph-based drug re-purposing: 1) constructing a heterogeneous knowledge graph, 2) utilizing a heterogeneous graph transformer network, and 3) computing relationship scores using a fully connected network. By leveraging HGTDR, users gain the ability to manipulate input graphs, extract information from diverse entities, and obtain their desired output. In the evaluation step, we demonstrate that HGTDR performs comparably to previous methods. Furthermore, we review medical studies to validate our method's top ten drug repurposing suggestions, which have exhibited promising results. We also demon-strated HGTDR's capability to predict other types of relations through numerical and experimental validation, such as drug-protein and disease-protein inter-relations.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2405.08031v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2202.05145v1",
+      "title": "Deep learning for drug repurposing: methods, databases, and applications",
+      "authors": [
+        "Xiaoqin Pan",
+        "Xuan Lin",
+        "Dongsheng Cao",
+        "Xiangxiang Zeng",
+        "Philip S. Yu",
+        "Lifang He",
+        "Ruth Nussinov",
+        "Feixiong Cheng"
+      ],
+      "year": 2022,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2202.05145v1",
+      "abstract": "Drug development is time-consuming and expensive. Repurposing existing drugs for new therapies is an attractive solution that accelerates drug development at reduced experimental costs, specifically for Coronavirus Disease 2019 (COVID-19), an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). However, comprehensively obtaining and productively integrating available knowledge and big biomedical data to effectively advance deep learning models is still challenging for drug repurposing in other complex diseases. In this review, we introduce guidelines on how to utilize deep learning methodologies and tools for drug repurposing. We first summarized the commonly used bioinformatics and pharmacogenomics databases for drug repurposing. Next, we discuss recently developed sequence-based and graph-based representation approaches as well as state-of-the-art deep learning-based methods. Finally, we present applications of drug repurposing to fight the COVID-19 pandemic, and outline its future challenges.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2202.05145v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2309.13047v1",
+      "title": "NeuroCADR: Drug Repurposing to Reveal Novel Anti-Epileptic Drug Candidates Through an Integrated Computational Approach",
+      "authors": [
+        "Srilekha Mamidala"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2309.13047v1",
+      "abstract": "Drug repurposing is an emerging approach for drug discovery involving the reassignment of existing drugs for novel purposes. An alternative to the traditional de novo process of drug development, repurposed drugs are faster, cheaper, and less failure prone than drugs developed from traditional methods. Recently, drug repurposing has been performed in silico, in which databases of drugs and chemical information are used to determine interactions between target proteins and drug molecules to identify potential drug candidates. A proposed algorithm is NeuroCADR, a novel system for drug repurposing via a multi-pronged approach consisting of k-nearest neighbor algorithms (KNN), random forest classification, and decision trees. Data was sourced from several databases consisting of interactions between diseases, symptoms, genes, and affiliated drug molecules, which were then compiled into datasets expressed in binary. The proposed method displayed a high level of accuracy, outperforming nearly all in silico approaches. NeuroCADR was performed on epilepsy, a condition characterized by seizures, periods of time with bursts of uncontrolled electrical activity in brain cells. Existing drugs for epilepsy can be ineffective and expensive, revealing a need for new antiepileptic drugs. NeuroCADR identified novel drug candidates for epilepsy that can be further approved through clinical trials. The algorithm has the potential to determine possible drug combinations to prescribe a patient based on a patient's prior medical history. This project examines NeuroCADR, a novel approach to computational drug repurposing capable of revealing potential drug candidates in neurological diseases such as epilepsy.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2309.13047v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2012.00652v1",
+      "title": "Repurposing the Combination Drug of Favipiravir, Hydroxychloroquine and Oseltamivir as a Potential Inhibitor against SARS-CoV-2: A Computational Study",
+      "authors": [
+        "Pooja",
+        "Papia Chowdhury"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2012.00652v1",
+      "abstract": "The virus SARS-CoV-2 has created a situation of global emergency all over the world from the last few months. We are witnessing a helpless situation due to COVID-19 as no vaccine or drug is effective against the disease. In the present study, we have tested the applicability of some combination drugs against COVID-19. We have tried to understand the mechanism of action of some repurposed drugs: Favipiravir (F), Hydroxychloroquine (H) and Oseltamivir (O). The ADME analysis have suggested strong inhibitory possibility of F, H, O combination towards receptor protein of $3CL^{pro}$ of SARS-CoV-2 virus. The strong binding affinity, number of hydrogen bond interaction between inhibitor, receptor and lower inhibition constant computed from molecular docking validated the better complexation possibility of F+H+O: $3CL^{pro}$ combination. Various thermodynamical output from Molecular dynamics (MD) simulations like potential energy ($E_g$), temperature (T), density, pressure, SASA energy, interaction energies, Gibbs free energy ($ΔG_{bind}$) etc., also favored the complexation between F+H+O and CoV-2 protease. Our In-Silico results have recommended the strong candidature of combination drugs Favipiravir, Hydroxychloroquine and Oseltamivir as a potential lead inhibitor for targeting SARS-CoV-2 infections.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2012.00652v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2006.14790v1",
+      "title": "Drug Repurposing to find Inhibitors of SARS-CoV-2 Main Protease",
+      "authors": [
+        "Emilio Angelina",
+        "Sebastian Andujar",
+        "Oscar Parravicini",
+        "Daniel Enriz",
+        "Nelida Peruchena"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2006.14790v1",
+      "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the strain of coronavirus that causes coronavirus disease 2019 (COVID-19), the respiratory illness responsible for the COVID-19 pandemic. Currently there is no known vaccine or specific antiviral treatment for COVID-19 and so, there is an urgent need for expedite discovery of new therapeutics to combat the disease until a vaccine will be available worldwide. Drug repurposing is a strategy for identifying new uses for approved drugs that has the advantage (over conventional approaches that attempt to develop a drug from scratch) that time frame of the overall process can be significantly reduced because of the few number of clinical trial required. In this work, a virtual screening of FDA-approved drugs was performed for repositioning as potential inhibitors of the main protease Mpro of SARS-CoV-2. As a result of this study, 12 drugs are proposed as candidates for inhibitors of the Mpro enzyme. Some of the selected compounds are antiviral drugs that are already being tested in COVID-19 clinical trials (i.e. ribavirin) or are used to alleviate symptoms of the disease (i.e. codeine). Surprisingly, the most promising candidate is the naturally occurring broad spectrum antibiotic oxytetracycline. This compound has largely outperformed the remaining selected candidates along all filtering steps of our virtual screening protocol. If the activity of any of these drugs is experimentally corroborated, they could be used directly in clinical trials without the need for pre-clinical testing or safety evaluation since they are already used as drugs for other diseases.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2006.14790v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1807.09754v1",
+      "title": "Data Infrastructure and Approaches for Ontology-Based Drug Repurposing",
+      "authors": [
+        "Stephen Boyer",
+        "Thomas Griffin",
+        "Sarath Swaminathan",
+        "Kenneth L. Clarkson",
+        "Dmitry Zubarev"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1807.09754v1",
+      "abstract": "We report development of a data infrastructure for drug repurposing that takes advantage of two currently available chemical ontologies. The data infrastructure includes a database of compound- target associations augmented with molecular ontological labels. It also contains two computational tools for prediction of new associations. We describe two drug-repurposing systems: one, Nascent Ontological Information Retrieval for Drug Repurposing (NOIR-DR), based on an information retrieval strategy, and another, based on non-negative matrix factorization together with compound similarity, that was inspired by recommender systems. We report the performance of both tools on a drug-repurposing task.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1807.09754v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2007.07886v2",
+      "title": "Clinical connectivity map for drug repurposing: using laboratory tests to bridge drugs and diseases",
+      "authors": [
+        "Qianlong Wen",
+        "Ruoqi Liu",
+        "Ping Zhang"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2007.07886v2",
+      "abstract": "Drug repurposing has attracted increasing attention from both the pharmaceutical industry and the research community. Many existing computational drug repurposing methods rely on preclinical data (e.g., chemical structures, drug targets), resulting in translational problems for clinical trials. In this study, we propose a clinical connectivity map framework for drug repurposing by leveraging laboratory tests to analyze complementarity between drugs and diseases. We establish clinical drug effect vectors (i.e., drug-laboratory test associations) by applying a continuous self-controlled case series model on a longitudinal electronic health record data. We establish clinical disease sign vectors (i.e., disease-laboratory test associations) by applying a Wilcoxon rank sum test on a large-scale national survey data. Finally, we compute a repurposing possibility score for each drug-disease pair by applying a dot product-based scoring function on clinical disease sign vectors and clinical drug effect vectors. We comprehensively evaluate 392 drugs for 6 important chronic diseases (e.g., asthma, coronary heart disease, type 2 diabetes, etc.). We discover not only known associations between diseases and drugs but also many hidden drug-disease associations. Moreover, we are able to explain the predicted drug-disease associations via the corresponding complementarity between laboratory tests of drug effect vectors and disease sign vectors. The proposed clinical connectivity map framework uses laboratory tests from electronic clinical information to bridge drugs and diseases, which is explainable and has better translational power than existing computational methods. Experimental results demonstrate the effectiveness of the proposed framework and suggest that our method could help identify drug repurposing opportunities, which will benefit patients by offering more effective and safer treatments.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2007.07886v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.9533v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Small molecule therapeutics for COVID-19: repurposing of inhaled furosemide (v0.1)\"",
+      "authors": [
+        "A Pizzorno"
+      ],
+      "year": 2020,
+      "doi": "10.7287/peerj.9533v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.9533v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.9533v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.9533v0.2/reviews/1",
+      "title": "Peer Review #1 of \"Small molecule therapeutics for COVID-19: repurposing of inhaled furosemide (v0.2)\"",
+      "authors": [
+        "A Pizzorno"
+      ],
+      "year": 2020,
+      "doi": "10.7287/peerj.9533v0.2/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.9533v0.2/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.9533v0.2/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.9965v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Potential COVID-19 papain-like protease PLpro inhibitors: repurposing FDA-approved drugs (v0.1)\"",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.7287/peerj.9965v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.9965v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.9965v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9357/fig-1",
+      "title": "Figure 1: Work flow to identify host pro-viral factors and drug repurposing.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9357/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9357/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9357/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj-cs.106/fig-2",
+      "title": "Figure 2: The interaction graph of predicted melanoma drugs with a probability of 0.93 or higher and have three or fewer intervening interactions between drug and disease.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj-cs.106/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj-cs.106/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj-cs.106/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.7860/table-1",
+      "title": "Table 1: Results of 40 statistically significant selective serotonin reuptake inhibitor (SSRI) associated adverse drug reactions, linked CYP2D6 (\n                      <i>n</i>\n                      = 2,870) vs. CYP2C19 (\n                      <i>n</i>\n                      = 2,403) drug metabolizing enzyme, and resulting odds-ratios with 95% confidence intervals.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.7860/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.7860/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.7860/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "749031ef8116a118604cacba8ebe0599ef8bffb6",
+      "title": "LB793 A phase 1, open-Label, single ascending dose study in healthy subjects of the safety, tolerability and pharmacokinetics of ASLAN004, a novel IgG anti-IL-13 receptor alpha 1 Inhibitor",
+      "authors": [
+        "K. Harada",
+        "M. Fehrholz",
+        "I. Piccini",
+        "A. Gilhar",
+        "M. Bertolini",
+        "S. Muto",
+        "E. Prens",
+        "G. Jemec",
+        "V. Malathong",
+        "S. Prasad",
+        "T. Schall",
+        "RN Chamcheu",
+        "T. Efimova",
+        "J. Fotie"
+      ],
+      "year": 2021,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/749031ef8116a118604cacba8ebe0599ef8bffb6",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "749031ef8116a118604cacba8ebe0599ef8bffb6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.0,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

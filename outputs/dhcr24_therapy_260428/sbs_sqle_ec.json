@@ -1,0 +1,1462 @@
+{
+  "query": "SQLE squalene epoxidase endometrial cancer expression prognosis",
+  "effective_query": "SQLE squalene epoxidase endometrial cancer expression prognosis",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 40,
+  "warnings": [
+    "semantic_scholar failed: HTTP Error 429: ",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3044908880",
+      "title": "Lipids and cancer: Emerging roles in pathogenesis, diagnosis and therapeutic intervention",
+      "authors": [
+        "Lisa M. Butler",
+        "Ylenia Perone",
+        "Jonas Dehairs",
+        "Leslie Lupien",
+        "Vincent de Laat",
+        "Ali Talebi",
+        "Massimo Loda",
+        "William B. Kinlaw",
+        "Johannes V. Swinnen"
+      ],
+      "year": 2020,
+      "doi": "10.1016/j.addr.2020.07.013",
+      "url": "https://doi.org/10.1016/j.addr.2020.07.013",
+      "abstract": "With the advent of effective tools to study lipids, including mass spectrometry-based lipidomics, lipids are emerging as central players in cancer biology. Lipids function as essential building blocks for membranes, serve as fuel to drive energy-demanding processes and play a key role as signaling molecules and as regulators of numerous cellular functions. Not unexpectedly, cancer cells, as well as other cell types in the tumor microenvironment, exploit various ways to acquire lipids and extensively rewire their metabolism as part of a plastic and context-dependent metabolic reprogramming that is driven by both oncogenic and environmental cues. The resulting changes in the fate and composition of lipids help cancer cells to thrive in a changing microenvironment by supporting key oncogenic functions and cancer hallmarks, including cellular energetics, promoting feedforward oncogenic signaling, resisting oxidative and other stresses, regulating intercellular communication and immune responses. Supported by the close connection between altered lipid metabolism and the pathogenic process, specific lipid profiles are emerging as unique disease biomarkers, with diagnostic, prognostic and predictive potential. Multiple preclinical studies illustrate the translational promise of exploiting lipid metabolism in cancer, and critically, have shown context dependent actionable vulnerabilities that can be rationally targeted, particularly in combinatorial approaches. Moreover, lipids themselves can be used as membrane disrupting agents or as key components of nanocarriers of various therapeutics. With a number of preclinical compounds and strategies that are approaching clinical trials, we are at the doorstep of exploiting a hitherto underappreciated hallmark of cancer and promising target in the oncologist's strategy to combat cancer.",
+      "citations": 623,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3044908880"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4382141207",
+      "title": "Exosomal circRNA: emerging insights into cancer progression and clinical application potential",
+      "authors": [
+        "Fan Zhang",
+        "Jiajia Jiang",
+        "Hui Qian",
+        "Yongmin Yan",
+        "Wenrong Xu"
+      ],
+      "year": 2023,
+      "doi": "10.1186/s13045-023-01452-2",
+      "url": "https://doi.org/10.1186/s13045-023-01452-2",
+      "abstract": "Exosomal circRNA serves a novel genetic information molecule, facilitating communication between tumor cells and microenvironmental cells, such as immune cells, fibroblasts, and other components, thereby regulating critical aspects of cancer progression including immune escape, tumor angiogenesis, metabolism, drug resistance, proliferation and metastasis. Interestingly, microenvironment cells have new findings in influencing tumor progression and immune escape mediated by the release of exosomal circRNA. Given the intrinsic stability, abundance, and broad distribution of exosomal circRNAs, they represent excellent diagnostic and prognostic biomarkers for liquid biopsy. Moreover, artificially synthesized circRNAs may open up new possibilities for cancer therapy, potentially bolstered by nanoparticles or plant exosome delivery strategies. In this review, we summarize the functions and underlying mechanisms of tumor cell and non-tumor cell-derived exosomal circRNAs in cancer progression, with a special focus on their roles in tumor immunity and metabolism. Finally, we examine the potential application of exosomal circRNAs as diagnostic biomarkers and therapeutic targets, highlighting their promise for clinical use.",
+      "citations": 196,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4382141207"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2434,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2434,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3081014215",
+      "title": "Targeting SREBP-2-Regulated Mevalonate Metabolism for Cancer Therapy",
+      "authors": [
+        "Linyuan Xue",
+        "Hongyu Qi",
+        "He Zhang",
+        "Lu Ding",
+        "Qingxia Huang",
+        "Daqing Zhao",
+        "Boyang Jason Wu",
+        "Xiangyan Li"
+      ],
+      "year": 2020,
+      "doi": "10.3389/fonc.2020.01510",
+      "url": "https://doi.org/10.3389/fonc.2020.01510",
+      "abstract": "Recently, targeting metabolic reprogramming has emerged as a potential therapeutic approach for fighting cancer. Sterol regulatory element binding protein-2 (SREBP-2), a basic helix-loop-helix leucine zipper transcription factor, mainly regulates genes involved in cholesterol biosynthesis and homeostasis. SREBP-2 binds to the sterol regulatory elements (SREs) in the promoters of its target genes and activates the transcription of mevalonate pathway genes, such as HMG-CoA reductase (HMGCR), mevalonate kinase and other key enzymes. In this review, we first summarized the structure of SREBP-2 and its activation and regulation by multiple signaling pathways. We then found that SREBP-2 and its regulated enzymes, including HMGCR, FPPS, SQS, and DHCR4 from the mevalonate pathway, participate in the progression of various cancers, including prostate, breast, lung, and hepatocellular cancer, as potential targets. Importantly, preclinical and clinical research demonstrated that fatostatin, statins, and N-BPs targeting SREBP-2, HMGCR, and FPPS, respectively, alone or in combination with other drugs, have been used for the treatment of different cancers. This review summarizes new insights into the critical role of the SREBP-2-regulated mevalonate pathway for cancer and its potential for targeted cancer therapy.",
+      "citations": 160,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3081014215"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.229,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.229,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3138173231",
+      "title": "Role of Cholesterol and Lipid Rafts in Cancer Signaling: A Promising Therapeutic Opportunity?",
+      "authors": [
+        "Rosa Vona",
+        "Elisabetta Iessi",
+        "Paola Matarrese"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fcell.2021.622908",
+      "url": "https://doi.org/10.3389/fcell.2021.622908",
+      "abstract": "Cholesterol is a lipid molecule that plays an essential role in a number of biological processes, both physiological and pathological. It is an essential structural constituent of cell membranes, and it is fundamental for biosynthesis, integrity, and functions of biological membranes, including membrane trafficking and signaling. Moreover, cholesterol is the major lipid component of lipid rafts, a sort of lipid-based structures that regulate the assembly and functioning of numerous cell signaling pathways, including those related to cancer, such as tumor cell growth, adhesion, migration, invasion, and apoptosis. Considering the importance of cholesterol metabolism, its homeostasis is strictly regulated at every stage: import, synthesis, export, metabolism, and storage. The alterations of this homeostatic balance are known to be associated with cardiovascular diseases and atherosclerosis, but mounting evidence also connects these behaviors to increased cancer risks. Although there is conflicting evidence on the role of cholesterol in cancer development, most of the studies consistently suggest that a dysregulation of cholesterol homeostasis could lead to cancer development. This review aims to discuss the current understanding of cholesterol homeostasis in normal and cancerous cells, summarizing key findings from recent preclinical and clinical studies that have investigated the role of major players in cholesterol regulation and the organization of lipid rafts, which could represent promising therapeutic targets.",
+      "citations": 157,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3138173231"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2278,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2278,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3165374111",
+      "title": "Cholesterol Metabolic Reprogramming in Cancer and Its Pharmacological Modulation as Therapeutic Strategy",
+      "authors": [
+        "Isabella Giacomini",
+        "Federico Gianfanti",
+        "María Andrea Desbats",
+        "Genny Orso",
+        "Massimiliano Berretta",
+        "Tommaso Prayer‐Galetti",
+        "Eugenio Ragazzi",
+        "Veronica Cocetta"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fonc.2021.682911",
+      "url": "https://doi.org/10.3389/fonc.2021.682911",
+      "abstract": "Cholesterol is a ubiquitous sterol with many biological functions, which are crucial for proper cellular signaling and physiology. Indeed, cholesterol is essential in maintaining membrane physical properties, while its metabolism is involved in bile acid production and steroid hormone biosynthesis. Additionally, isoprenoids metabolites of the mevalonate pathway support protein-prenylation and dolichol, ubiquinone and the heme <i>a</i> biosynthesis. Cancer cells rely on cholesterol to satisfy their increased nutrient demands and to support their uncontrolled growth, thus promoting tumor development and progression. Indeed, transformed cells reprogram cholesterol metabolism either by increasing its uptake and <i>de novo</i> biosynthesis, or deregulating the efflux. Alternatively, tumor can efficiently accumulate cholesterol into lipid droplets and deeply modify the activity of key cholesterol homeostasis regulators. In light of these considerations, altered pathways of cholesterol metabolism might represent intriguing pharmacological targets for the development of exploitable strategies in the context of cancer therapy. Thus, this work aims to discuss the emerging evidence of <i>in vitro</i> and <i>in vivo</i> studies, as well as clinical trials, on the role of cholesterol pathways in the treatment of cancer, starting from already available cholesterol-lowering drugs (statins or fibrates), and moving towards novel potential pharmacological inhibitors or selective target modulators.",
+      "citations": 126,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3165374111"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2154,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2154,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2134555649",
+      "title": "Pathway-based classification of cancer subtypes",
+      "authors": [
+        "Shinuk Kim",
+        "Mark Kon",
+        "Charles DeLisi"
+      ],
+      "year": 2012,
+      "doi": "10.1186/1745-6150-7-21",
+      "url": "https://doi.org/10.1186/1745-6150-7-21",
+      "abstract": "Standardizing the analysis of genomic data in the process of cancer staging, classification and analysis is important as it has implications for both pre-clinical as well as clinical studies. The paradigm of diagnosis and prediction using pathway-based biomarkers as features can be an important part of the process of biomarker-based cancer analysis, and the resulting canonical (clinically reproducible) biomarkers can be important in standardizing genomic data. We expect that identification of such canonical biomarkers will improve clinical utility of high-throughput datasets for diagnostic and prognostic applications.",
+      "citations": 115,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2134555649"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.211,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.211,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4379384846",
+      "title": "The potential role and mechanism of circRNA/miRNA axis in cholesterol synthesis",
+      "authors": [
+        "Wujun Chen",
+        "Jiazhen Xu",
+        "Yudong Wu",
+        "Bing Liang",
+        "Mingzhe Yan",
+        "Chuandong Sun",
+        "Dong Wang",
+        "Xiaokun Hu",
+        "Liu L",
+        "Wenchao Hu",
+        "Yingchun Shao",
+        "Dongming Xing"
+      ],
+      "year": 2023,
+      "doi": "10.7150/ijbs.84994",
+      "url": "https://doi.org/10.7150/ijbs.84994",
+      "abstract": "Cholesterol levels are an initiating risk factor for atherosclerosis. Many genes play a central role in cholesterol synthesis, including HMGCR, SQLE, HMGCS1, FDFT1, LSS, MVK, PMK, MVD, FDPS, CYP51, TM7SF2, LBR, MSMO1, NSDHL, HSD17B7, DHCR24, EBP, SC5D, DHCR7, IDI1/2. Especially, HMGCR, SQLE, FDFT1, LSS, FDPS, CYP51, and EBP are promising therapeutic targets for drug development due to many drugs have been approved and entered into clinical research by targeting these genes. However, new targets and drugs still need to be discovered. Interestingly, many small nucleic acid drugs and vaccines were approved for the market, including Inclisiran, Patisiran, Inotersen, Givosiran, Lumasiran, Nusinersen, Volanesorsen, Eteplirsen, Golodirsen, Viltolarsen, Casimersen, Elasomeran, Tozinameran. However, these agents are all linear RNA agents. Circular RNAs (circRNAs) may have longer half-lives, higher stability, lower immunogenicity, lower production costs, and higher delivery efficiency than these agents due to their covalently closed structures. CircRNA agents are developed by several companies, including Orna Therapeutics, Laronde, and CirCode, Therorna. Many studies have shown that circRNAs regulate cholesterol synthesis by regulating HMGCR, SQLE, HMGCS1, ACS, YWHAG, PTEN, DHCR24, SREBP-2, and PMK expression. MiRNAs are essential for circRNA-mediated cholesterol biosynthesis. Notable, the phase II trial for inhibiting miR-122 with nucleic acid drugs has been completed. Suppressing HMGCR, SQLE, and miR-122 with circRNA_ABCA1, circ-PRKCH, circEZH2, circRNA-SCAP, and circFOXO3 are the promising therapeutic target for drug development, specifically the circFOXO3. This review focuses on the role and mechanism of the circRNA/miRNA axis in cholesterol synthesis in the hope of providing knowledge to identify new targets.",
+      "citations": 97,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4379384846"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2038,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2038,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2466204471",
+      "title": "Genomic alterations underlie a pan-cancer metabolic shift associated with tumour hypoxia",
+      "authors": [
+        "Syed Haider",
+        "Alan McIntyre",
+        "Ruud G.P.M. van Stiphout",
+        "Laura Winchester",
+        "Simon Wigfield",
+        "Adrian L. Harris",
+        "Francesca M. Buffa"
+      ],
+      "year": 2016,
+      "doi": "10.1186/s13059-016-0999-8",
+      "url": "https://doi.org/10.1186/s13059-016-0999-8",
+      "abstract": "This study reveals somatic genomic alterations underlying a pan-cancer metabolic shift and suggests genomic adaptation of these genes as a survival mechanism in hypoxic tumours.",
+      "citations": 96,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2466204471"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2034,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2034,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1210/jendso/bvaf149.2456",
+      "title": "SAT-314 Elevated Expression Of Squalene Epoxidase Gene (sqle) Promotes Prostate Cancer Aggressiveness By Altering Lipid Metabolism",
+      "authors": [
+        "Chloe Springer",
+        "Thomas Janas",
+        "Konrad H Stopsack",
+        "Daniel R Schmidt",
+        "Duanduan Ma",
+        "Zhe Li",
+        "Matthew G Vander Heiden",
+        "Kathryn L Penny",
+        "Paul A Scheet",
+        "Tamara L Lotan",
+        "Angelika Amon",
+        "Lorelei A Mucci",
+        "Xiaofeng Su"
+      ],
+      "year": 2025,
+      "doi": "10.1210/jendso/bvaf149.2456",
+      "url": "https://doi.org/10.1210/jendso/bvaf149.2456",
+      "abstract": ">Abstract > >Disclosure: C. Springer: None. T. Janas: None. K.H. Stopsack: None. D.R. Schmidt: None. D. Ma: None. Z. Li: None. M.G. Vander Heiden: None. K.L. Penny: None. P.A. Scheet: None. T.L. Lotan: None. A. Amon: None. L.A. Mucci: None. X. Su: None. > >Prostate cancer (PCa) remains the second leading cause of cancer-related mortality among men in the United States. Aneuploidy, characterized by imbalanced chromosome numbers, correlates with lethal PCa progression. Chromosome 8q (chr8q) gain is one of the most frequent aneuploidy events, occurring in 23% of PCa cases. Recently, we ranked odds ratio (OR) for each chr8q gene to assess the long-term risk of metastases and death from PCa (lethal disease) within 403 patients in the HPFS and PHS cohorts. We observed that the squalene monooxygenase (SQLE) is one of the top ranked genes on chr8q, with an OR of 2.2. SQLE, encoding the key enzyme in cholesterol biosynthesis pathway, has been shown to be associated with poor prognosis in PCa, suggesting it as a potential target to treat aggressive PCa. Datasets such as The Cancer Genome Atlas (TCGA) and the Prostate Cancer Atlas were used to correlate the copy number and mRNA expression levels and the progression of PCa. We focused on mouse prostate organoids (both normal and cancer-like) and human metastatic prostate cell line, VCaP cell, expressing TMPRSS2-ERG gene, which approximately 50% of PCa cases harbors. We used lentiviral transduction to introduce either SQLE overexpression in prostate organoids (which harbor euploid SQLE) or SQLE shRNA in VCaP cells (which harbor increased SQLE). Molecular and cellular approaches were employed to study the influences of altered SQLE levels on target prostate cells. Ultra performance liquid chromatography (UPLC) with mass spectrometry (MS) was used to analyze the changed levels of squalene and lipid profiles when SQLE levels were altered. Overexpression of SQLE in cancer-like mouse prostate organoid models led to increased invasive structures and proliferation. RNA sequencing data suggested that alteration in SQLE levels changes gene signatures related to lipid metabolisms. Interestingly, SQLE overexpression decreased TMPRSS2-ERG protein levels in the organoids. In contrast, SQLE knockdown in VCaP cells resulted in significantly increased TMPRSS2-ERG protein levels. ERG is associated with fatty acid metabolism in PCa cohorts. Our findings suggest that aneuploidy-associated overexpression of SQLE drives PCa aggressiveness by modulating lipid metabolism, particularly through its impact on cholesterol biosynthesis and TMPRSS2-ERG regulation. Targeting SQLE could present a novel therapeutic approach to treat aggressive PCa. > >Presentation: Saturday, July 12, 2025 >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1210/jendso/bvaf149.2456"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2306.06276v4",
+      "title": "Contrastive Learning for Predicting Cancer Prognosis Using Gene Expression Values",
+      "authors": [
+        "Anchen Sun",
+        "Elizabeth J. Franzmann",
+        "Zhibin Chen",
+        "Xiaodong Cai"
+      ],
+      "year": 2023,
+      "doi": "10.1093/bib/bbae544",
+      "url": "http://arxiv.org/abs/2306.06276v4",
+      "abstract": "Recent advancements in image classification have demonstrated that contrastive learning (CL) can aid in further learning tasks by acquiring good feature representation from a limited number of data samples. In this paper, we applied CL to tumor transcriptomes and clinical data to learn feature representations in a low-dimensional space. We then utilized these learned features to train a classifier to categorize tumors into a high- or low-risk group of recurrence. Using data from The Cancer Genome Atlas (TCGA), we demonstrated that CL can significantly improve classification accuracy. Specifically, our CL-based classifiers achieved an area under the receiver operating characteristic curve (AUC) greater than 0.8 for 14 types of cancer, and an AUC greater than 0.9 for 2 types of cancer. We also developed CL-based Cox (CLCox) models for predicting cancer prognosis. Our CLCox models trained with the TCGA data outperformed existing methods significantly in predicting the prognosis of 19 types of cancer under consideration. The performance of CLCox models and CL-based classifiers trained with TCGA lung and prostate cancer data were validated using the data from two independent cohorts. We also show that the CLCox model trained with the whole transcriptome significantly outperforms the Cox model trained with the 21 genes of Oncotype DX that is in clinical use for breast cancer patients. CL-based classifiers and CLCox models for 19 types of cancer are publicly available and can be used to predict cancer prognosis using the RNA-seq transcriptome of an individual tumor. Python codes for model training and testing are also publicly accessible, and can be applied to train new CL-based models using gene expression data of tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2306.06276v4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/s13277-015-3301-x",
+      "title": "Squalene epoxidase (SQLE) promotes the growth and migration of the hepatocellular carcinoma cells",
+      "authors": [
+        "Zhenghui Sui",
+        "Jiahua Zhou",
+        "Zhangjun Cheng",
+        "Penhua Lu"
+      ],
+      "year": 2015,
+      "doi": "10.1007/s13277-015-3301-x",
+      "url": "https://doi.org/10.1007/s13277-015-3301-x",
+      "abstract": "",
+      "citations": 58,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/s13277-015-3301-x"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1432,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1432,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40145543",
+      "title": "The Role of Cholesterol Metabolism and Its Regulation in Tumor Development.",
+      "authors": [
+        "Wu Y",
+        "Song W",
+        "Su M",
+        "He J",
+        "Hu R",
+        "Zhao Y."
+      ],
+      "year": 2025,
+      "doi": "10.1002/cam4.70783",
+      "url": "https://europepmc.org/article/med/40145543",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40145543"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1292,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1292,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3892/ol.2021.12520",
+      "title": "Squalene epoxidase expression is associated with breast tumor progression and with a poor prognosis in breast cancer",
+      "authors": [
+        "Nah Kim",
+        "Min Park",
+        "Sun-Seog Kweon",
+        "Namki Cho",
+        "Ji Lee"
+      ],
+      "year": 2021,
+      "doi": "10.3892/ol.2021.12520",
+      "url": "https://doi.org/10.3892/ol.2021.12520",
+      "abstract": "",
+      "citations": 19,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3892/ol.2021.12520"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1276,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1276,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41055055",
+      "title": "The Contribution of Cholesterol and Squalene Synthase in Cancer: Molecular Mechanisms, Lipid Rafts and Therapeutic Approaches.",
+      "authors": [
+        "Mavridi D",
+        "Katavati T",
+        "Kourounakis AP."
+      ],
+      "year": 2026,
+      "doi": "10.1002/med.70012",
+      "url": "https://europepmc.org/article/med/41055055",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41055055"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1272,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1272,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41104898",
+      "title": "Cholesterol metabolism and cancer: Molecular mechanisms, immune regulation and an epidemiological perspective (Review).",
+      "authors": [
+        "He Z",
+        "Zhang L",
+        "Gong S",
+        "Yang X",
+        "Xu G."
+      ],
+      "year": 2025,
+      "doi": "10.3892/ijmm.2025.5667",
+      "url": "https://europepmc.org/article/med/41104898",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41104898"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1268,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1268,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38335381",
+      "title": "SQLE is a promising prognostic and immunological biomarker and correlated with immune Infiltration in Sarcoma.",
+      "authors": [
+        "Shao M",
+        "Wang M",
+        "Wang X",
+        "Feng X",
+        "Zhang L",
+        "Lv H."
+      ],
+      "year": 2024,
+      "doi": "10.1097/md.0000000000037030",
+      "url": "https://europepmc.org/article/med/38335381",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "38335381"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1268,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1268,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41596244",
+      "title": "Cholesterol Metabolism: An Ally in the Development and Progression of Cervical Cancer.",
+      "authors": [
+        "Martínez-Ramírez I",
+        "Muñoz-Bello JO",
+        "Contreras-Paredes A",
+        "Parra-Hernández E",
+        "Carrillo-García A",
+        "Lizano M."
+      ],
+      "year": 2026,
+      "doi": "10.3390/ijms27020591",
+      "url": "https://europepmc.org/article/med/41596244",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41596244"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41096838",
+      "title": "Unveiling Metabolic Subtypes in Endometrial Cancer Cell Lines: Insights from Metabolomic Analysis Under Standard and Stress Conditions.",
+      "authors": [
+        "McCaslin L",
+        "Lagies S",
+        "Mohl DA",
+        "Plattner DA",
+        "Jäger M",
+        "Nöthling C",
+        "Huber MC",
+        "Juhasz-Böss I",
+        "Kammerer B",
+        "Backhaus C."
+      ],
+      "year": 2025,
+      "doi": "10.3390/ijms26199573",
+      "url": "https://europepmc.org/article/med/41096838",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41096838"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41335278",
+      "title": "Bioinformatics Analysis Reveals the Role of DLGAP4 in the Development and Progression of Hepatocellular Carcinoma.",
+      "authors": [
+        "Yang F",
+        "Chang S",
+        "Li R",
+        "Wei J",
+        "Zhang H",
+        "Wang Q",
+        "Li Z",
+        "Dang Y."
+      ],
+      "year": 2025,
+      "doi": "10.1007/s12029-025-01359-w",
+      "url": "https://europepmc.org/article/med/41335278",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41335278"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41626173",
+      "title": "The metabolic landscape of ovarian cancer stem cells: how do they survive?",
+      "authors": [
+        "Tan J",
+        "Tang L",
+        "Zhang Q."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fonc.2025.1738742",
+      "url": "https://europepmc.org/article/med/41626173",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41626173"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7150/ijbs.85724",
+      "title": "Squalene epoxidase/SQLE is a candidate target for treatment of colorectal cancers with <i>p53</i> mutation and elevated c-<i>MYC</i> expression",
+      "authors": [
+        "Yuyun Du",
+        "Matjaz Rokavec",
+        "Heiko Hermeking"
+      ],
+      "year": 2023,
+      "doi": "10.7150/ijbs.85724",
+      "url": "https://doi.org/10.7150/ijbs.85724",
+      "abstract": "",
+      "citations": 15,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7150/ijbs.85724"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1906.07794v1",
+      "title": "Convolutional neural network models for cancer type prediction based on gene expression",
+      "authors": [
+        "Milad Mostavi",
+        "Yu-Chiao Chiu",
+        "Yufei Huang",
+        "Yidong Chen"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1906.07794v1",
+      "abstract": "Background Precise prediction of cancer types is vital for cancer diagnosis and therapy. Important cancer marker genes can be inferred through predictive model. Several studies have attempted to build machine learning models for this task however none has taken into consideration the effects of tissue of origin that can potentially bias the identification of cancer markers. Results In this paper, we introduced several Convolutional Neural Network (CNN) models that take unstructured gene expression inputs to classify tumor and non-tumor samples into their designated cancer types or as normal. Based on different designs of gene embeddings and convolution schemes, we implemented three CNN models: 1D-CNN, 2D-Vanilla-CNN, and 2D-Hybrid-CNN. The models were trained and tested on combined 10,340 samples of 33 cancer types and 731 matched normal tissues of The Cancer Genome Atlas (TCGA). Our models achieved excellent prediction accuracies (93.9-95.0%) among 34 classes (33 cancers and normal). Furthermore, we interpreted one of the models, known as 1D-CNN model, with a guided saliency technique and identified a total of 2,090 cancer markers (108 per class). The concordance of differential expression of these markers between the cancer type they represent and others is confirmed. In breast cancer, for instance, our model identified well-known markers, such as GATA3 and ESR1. Finally, we extended the 1D-CNN model for prediction of breast cancer subtypes and achieved an average accuracy of 88.42% among 5 subtypes. The codes can be found at https://github.com/chenlabgccri/CancerTypePrediction.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1906.07794v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2305.10041v1",
+      "title": "Risk Assessment of Lymph Node Metastases in Endometrial Cancer Patients: A Causal Approach",
+      "authors": [
+        "Alessio Zanga",
+        "Alice Bernasconi",
+        "Peter J. F. Lucas",
+        "Hanny Pijnenborg",
+        "Casper Reijnen",
+        "Marco Scutari",
+        "Fabio Stella"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2305.10041v1",
+      "abstract": "Assessing the pre-operative risk of lymph node metastases in endometrial cancer patients is a complex and challenging task. In principle, machine learning and deep learning models are flexible and expressive enough to capture the dynamics of clinical risk assessment. However, in this setting we are limited to observational data with quality issues, missing values, small sample size and high dimensionality: we cannot reliably learn such models from limited observational data with these sources of bias. Instead, we choose to learn a causal Bayesian network to mitigate the issues above and to leverage the prior knowledge on endometrial cancer available from clinicians and physicians. We introduce a causal discovery algorithm for causal Bayesian networks based on bootstrap resampling, as opposed to the single imputation used in related works. Moreover, we include a context variable to evaluate whether selection bias results in learning spurious associations. Finally, we discuss the strengths and limitations of our findings in light of the presence of missing data that may be missing-not-at-random, which is common in real-world clinical settings.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2305.10041v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1205.1923v1",
+      "title": "Using data mining techniques for diagnosis and prognosis of cancer disease",
+      "authors": [
+        "Shweta Kharya"
+      ],
+      "year": 2012,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1205.1923v1",
+      "abstract": "Breast cancer is one of the leading cancers for women in developed countries including India. It is the second most common cause of cancer death in women. The high incidence of breast cancer in women has increased significantly in the last years. In this paper we have discussed various data mining approaches that have been utilized for breast cancer diagnosis and prognosis. Breast Cancer Diagnosis is distinguishing of benign from malignant breast lumps and Breast Cancer Prognosis predicts when Breast Cancer is to recur in patients that have had their cancers excised. This study paper summarizes various review and technical articles on breast cancer diagnosis and prognosis also we focus on current research being carried out using the data mining techniques to enhance the breast cancer diagnosis and prognosis.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1205.1923v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20409/fig-4",
+      "title": "Figure 4: Elevated MRS2 expression in endometrial cancer correlates with poor prognosis.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20409/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20409/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20409/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10433/fig-3",
+      "title": "Figure 3: Comparison of protein expression of DLGAP5 in normal endometrial tissues and endometrial cancer tissues.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10433/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10433/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10433/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15891v0.3/reviews/1",
+      "title": "Peer Review #1 of \"YAP1 affects the prognosis through the regulation of stemness in endometrial cancer (v0.3)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15891v0.3/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15891v0.3/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15891v0.3/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15891v0.1/reviews/2",
+      "title": "Peer Review #2 of \"YAP1 affects the prognosis through the regulation of stemness in endometrial cancer (v0.1)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15891v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15891v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15891v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15891v0.3/reviews/2",
+      "title": "Peer Review #2 of \"YAP1 affects the prognosis through the regulation of stemness in endometrial cancer (v0.3)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15891v0.3/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15891v0.3/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15891v0.3/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15891v0.2/reviews/2",
+      "title": "Peer Review #2 of \"YAP1 affects the prognosis through the regulation of stemness in endometrial cancer (v0.2)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15891v0.2/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15891v0.2/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15891v0.2/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15891v0.2/reviews/1",
+      "title": "Peer Review #1 of \"YAP1 affects the prognosis through the regulation of stemness in endometrial cancer (v0.2)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15891v0.2/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15891v0.2/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15891v0.2/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.15891v0.1/reviews/3",
+      "title": "Peer Review #3 of \"YAP1 affects the prognosis through the regulation of stemness in endometrial cancer (v0.1)\"",
+      "authors": [],
+      "year": 2023,
+      "doi": "10.7287/peerj.15891v0.1/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.15891v0.1/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.15891v0.1/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2210/pdb6c6p/pdb",
+      "title": "Human squalene epoxidase (SQLE, squalene monooxygenase) structure with FAD and NB-598",
+      "authors": [
+        "A.K. Padyana",
+        "L. Jin"
+      ],
+      "year": 2019,
+      "doi": "10.2210/pdb6c6p/pdb",
+      "url": "https://doi.org/10.2210/pdb6c6p/pdb",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2210/pdb6c6p/pdb"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2210/pdb6c6n/pdb",
+      "title": "Human squalene epoxidase (SQLE, squalene monooxygenase) structure with FAD and Cmpd-4\"\"",
+      "authors": [
+        "A.K. Padyana",
+        "L. Jin"
+      ],
+      "year": 2019,
+      "doi": "10.2210/pdb6c6n/pdb",
+      "url": "https://doi.org/10.2210/pdb6c6n/pdb",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2210/pdb6c6n/pdb"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2210/pdb6c6r/pdb",
+      "title": "Human Squalene Epoxidase (SQLE, Squalene Monooxygenase) structure with FAD",
+      "authors": [
+        "A.K. Padyana",
+        "L. Jin"
+      ],
+      "year": 2018,
+      "doi": "10.2210/pdb6c6r/pdb",
+      "url": "https://doi.org/10.2210/pdb6c6r/pdb",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2210/pdb6c6r/pdb"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1038/scibx.2013.870",
+      "title": "HMG-CoA reductase; methyl CpG binding protein 2 (MECP2; RTT); squalene epoxidase (SQLE)",
+      "authors": [],
+      "year": 2013,
+      "doi": "10.1038/scibx.2013.870",
+      "url": "https://doi.org/10.1038/scibx.2013.870",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1038/scibx.2013.870"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

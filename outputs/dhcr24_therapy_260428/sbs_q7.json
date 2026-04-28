@@ -1,0 +1,825 @@
+{
+  "query": "Q7 peptide DHCR24 endometrial cancer Lipo-PEI-PEG delivery",
+  "effective_query": "Q7 peptide DHCR24 endometrial cancer Lipo-PEI-PEG delivery",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 22,
+  "warnings": [
+    "crossref failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "europe_pmc",
+      "id": "36483599",
+      "title": "Anticancer peptide Q7 suppresses the growth and migration of human endometrial cancer by inhibiting DHCR24 expression and modulating the AKT-mediated pathway.",
+      "authors": [
+        "Chen CH",
+        "Weng TH",
+        "Huang KY",
+        "Kao HJ",
+        "Liao KW",
+        "Weng SL",
+        "Chia-Hung Chen",
+        "Tzu-hsiang Weng",
+        "Kai-Yao Huang",
+        "Hui-Ju Kao",
+        "K Liao",
+        "Shun-Long Weng"
+      ],
+      "year": 2022,
+      "doi": "10.7150/ijms.78349",
+      "url": "https://europepmc.org/article/med/36483599",
+      "abstract": "Endometrial cancer is one of the most common malignancy affecting women in developed countries. Resection uterus or lesion area is usually the first option for a simple and efficient therapy. Therefore, it is necessary to find a new therapeutic drug to reduce surgery areas to preserve fertility. Anticancer peptides (ACP) are bioactive amino acids with lower toxicity and higher specificity than chemical drugs. This study is to address an ACP, herein named Q7, which could downregulate 24-Dehydrocholesterol Reductase (DHCR24) to disrupt lipid rafts formation, and sequentially affect the AKT signal pathway of HEC-1-A cells to suppress their tumorigenicity such as proliferation and migration. Moreover, lipo-PEI-PEG-complex (LPPC) was used to enhance Q7 anticancer activity in vitro and efficiently show its effects on HEC-1-A cells. Furthermore, LPPC-Q7 exhibited a synergistic effect in combination with doxorubicin or paclitaxel. To summarize, Q7 was firstly proved to exhibit an anticancer effect on endometrial cancer cells and combined with LPPC efficiently improved the cytotoxicity of Q7.",
+      "citations": 8,
+      "source_hits": [
+        "europe_pmc",
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "36483599",
+        "00eadc6b9a44c4c5634a86e10b8decb913a5cfc6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1828,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1828,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1804.06327v1",
+      "title": "Classifying Antimicrobial and Multifunctional Peptides with Bayesian Network Models",
+      "authors": [
+        "Rainier Barrett",
+        "Shaoyi Jiang",
+        "Andrew D White"
+      ],
+      "year": 2018,
+      "doi": "10.1002/pep2.24079",
+      "url": "http://arxiv.org/abs/1804.06327v1",
+      "abstract": "Bayesian network models are finding success in characterizing enzyme-catalyzed reactions, slow conformational changes, predicting enzyme inhibition, and genomics. In this work, we apply them to statistical modeling of peptides by simultaneously identifying amino acid sequence motifs and using a motif-based model to clarify the role motifs may play in antimicrobial activity. We construct models of increasing sophistication, demonstrating how chemical knowledge of a peptide system may be embedded without requiring new derivation of model fitting equations after changing model structure. These models are used to construct classifiers with good performance (94% accuracy, Matthews correlation coefficient of 0.87) at predicting antimicrobial activity in peptides, while at the same time being built of interpretable parameters. We demonstrate use of these models to identify peptides that are potentially both antimicrobial and antifouling, and show that the background distribution of amino acids could play a greater role in activity than sequence motifs do. This provides an advancement in the type of peptide activity modeling that can be done and the ease in which models can be constructed.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1804.06327v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0808.2070v1",
+      "title": "Drug delivery with carbon nanotubes for in vivo cancer treatment",
+      "authors": [
+        "Zhuang Liu",
+        "Kai Chen",
+        "Corrine Davis",
+        "Sarah Sherlock",
+        "Qizhen Cao",
+        "Xiaoyuan Chen",
+        "Hongjie Dai"
+      ],
+      "year": 2008,
+      "doi": "10.1158/0008-5472",
+      "url": "http://arxiv.org/abs/0808.2070v1",
+      "abstract": "Chemically functionalized single-walled carbon nanotubes (SWNTs) have shown promise in tumor targeted accumulation in mice and exhibit biocompatibility, excretion and little toxicity. Here, we demonstrate in-vivo SWNT drug delivery for tumor suppression in mice. We conjugate paclitaxel (PTX), a widely used cancer chemotherapy drug to branched polyethylene-glycol (PEG) chains on SWNTs via a cleavable ester bond to obtain a water soluble SWNT-paclitaxel conjugate (SWNT-PTX). SWNT-PTX affords higher efficacy in suppressing tumor growth than clinical Taxol in a murine 4T1 breast-cancer model, owing to prolonged blood circulation and 10-fold higher tumor PTX uptake by SWNT delivery likely through enhanced permeability and retention (EPR). Drug molecules carried into the reticuloendothelial system are released from SWNTs and excreted via biliary pathway without causing obvious toxic effects to normal organs. Thus, nanotube drug delivery is promising for high treatment efficacy and minimum side effects for future cancer therapy with low drug doses.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0808.2070v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41507272",
+      "title": "Synergistic anticancer effects of lipoplex-encapsulated Q7 peptide and doxorubicin against endometrial cancer cells.",
+      "authors": [
+        "Chen CH",
+        "Kao HJ",
+        "Weng TH",
+        "Yu CL",
+        "Chen YC",
+        "Huang CC",
+        "Liao KW",
+        "Huang KY",
+        "Weng SL."
+      ],
+      "year": 2026,
+      "doi": "10.1038/s41598-025-33877-9",
+      "url": "https://europepmc.org/article/med/41507272",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41507272"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2305.10041v1",
+      "title": "Risk Assessment of Lymph Node Metastases in Endometrial Cancer Patients: A Causal Approach",
+      "authors": [
+        "Alessio Zanga",
+        "Alice Bernasconi",
+        "Peter J. F. Lucas",
+        "Hanny Pijnenborg",
+        "Casper Reijnen",
+        "Marco Scutari",
+        "Fabio Stella"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2305.10041v1",
+      "abstract": "Assessing the pre-operative risk of lymph node metastases in endometrial cancer patients is a complex and challenging task. In principle, machine learning and deep learning models are flexible and expressive enough to capture the dynamics of clinical risk assessment. However, in this setting we are limited to observational data with quality issues, missing values, small sample size and high dimensionality: we cannot reliably learn such models from limited observational data with these sources of bias. Instead, we choose to learn a causal Bayesian network to mitigate the issues above and to leverage the prior knowledge on endometrial cancer available from clinicians and physicians. We introduce a causal discovery algorithm for causal Bayesian networks based on bootstrap resampling, as opposed to the single imputation used in related works. Moreover, we include a context variable to evaluate whether selection bias results in learning spurious associations. Finally, we discuss the strengths and limitations of our findings in light of the presence of missing data that may be missing-not-at-random, which is common in real-world clinical settings.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2305.10041v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1910.08000v1",
+      "title": "Recent applicable delivery approaches of peptide nucleic acids to the target cells",
+      "authors": [
+        "Reyhane Alidousti",
+        "Mostafa Shakhsi-Niaee"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1910.08000v1",
+      "abstract": "Peptide nucleic acids (PNAs) are artificial nucleic acids with a peptide backbone instead of sugar phosphate backbone of DNA or RNA. Their resistance to degradation, selectivity and greater binding affinity in comparison to usual nucleic acids led to consideration of their great potential for different applications. For example, they can be used in molecular diagnostics and antisense therapeutics such as antimicrobial agents or gene regulatory tools. On the other hand, large hydrophilic property of PNA molecules, which inhibit them to cross cell membranes readily, is an obstacle for their delivery to considered target cells and a limiting criterion for their applications. Therefore, PNA delivery technologies have been developing to hurdle this limitation. For example, addition of lysine residues, charged membrane penetrating peptide sequences, PNAs conjugated with antibodies or steroids, cationic liposomes as carriers of PNA conjugates, protective peptides and technology of photochemical internalization (PCI) as well as by the recent technology of nanoparticle-based delivery have been employed. In this article we compared different delivery technologies which can be applicable to PNAs. As a result nanoparticle-based delivery showed more advantages in comparison to others and its application is growing fast. Keywords: Target cell delivery, Peptide nucleic acid, PNA, Delivery.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1910.08000v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1906.07794v1",
+      "title": "Convolutional neural network models for cancer type prediction based on gene expression",
+      "authors": [
+        "Milad Mostavi",
+        "Yu-Chiao Chiu",
+        "Yufei Huang",
+        "Yidong Chen"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1906.07794v1",
+      "abstract": "Background Precise prediction of cancer types is vital for cancer diagnosis and therapy. Important cancer marker genes can be inferred through predictive model. Several studies have attempted to build machine learning models for this task however none has taken into consideration the effects of tissue of origin that can potentially bias the identification of cancer markers. Results In this paper, we introduced several Convolutional Neural Network (CNN) models that take unstructured gene expression inputs to classify tumor and non-tumor samples into their designated cancer types or as normal. Based on different designs of gene embeddings and convolution schemes, we implemented three CNN models: 1D-CNN, 2D-Vanilla-CNN, and 2D-Hybrid-CNN. The models were trained and tested on combined 10,340 samples of 33 cancer types and 731 matched normal tissues of The Cancer Genome Atlas (TCGA). Our models achieved excellent prediction accuracies (93.9-95.0%) among 34 classes (33 cancers and normal). Furthermore, we interpreted one of the models, known as 1D-CNN model, with a guided saliency technique and identified a total of 2,090 cancer markers (108 per class). The concordance of differential expression of these markers between the cancer type they represent and others is confirmed. In breast cancer, for instance, our model identified well-known markers, such as GATA3 and ESR1. Finally, we extended the 1D-CNN model for prediction of breast cancer subtypes and achieved an average accuracy of 88.42% among 5 subtypes. The codes can be found at https://github.com/chenlabgccri/CancerTypePrediction.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1906.07794v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1110.5865v1",
+      "title": "Cancer Networks: A general theoretical and computational framework for understanding cancer",
+      "authors": [
+        "Eric Werner"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1110.5865v1",
+      "abstract": "We present a general computational theory of cancer and its developmental dynamics. The theory is based on a theory of the architecture and function of developmental control networks which guide the formation of multicellular organisms. Cancer networks are special cases of developmental control networks. Cancer results from transformations of normal developmental networks. Our theory generates a natural classification of all possible cancers based on their network architecture. Each cancer network has a unique topology and semantics and developmental dynamics that result in distinct clinical tumor phenotypes. We apply this new theory with a series of proof of concept cases for all the basic cancer types. These cases have been computationally modeled, their behavior simulated and mathematically described using a multicellular systems biology approach. There are fascinating correspondences between the dynamic developmental phenotype of computationally modeled {\\em in silico} cancers and natural {\\em in vivo} cancers. The theory lays the foundation for a new research paradigm for understanding and investigating cancer. The theory of cancer networks implies that new diagnostic methods and new treatments to cure cancer will become possible.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1110.5865v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj-cs.3008/table-12",
+      "title": "Table 12: Results of frequency analysis for confidence in identifying cybersecurity threats (Q7).",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj-cs.3008/table-12",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj-cs.3008/table-12",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj-cs.3008/table-12"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj-cs.3008/fig-14",
+      "title": "Figure 14: The graphical visualization of frequency analysis for confidence in identifying cybersecurity threats (Q7).",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj-cs.3008/fig-14",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj-cs.3008/fig-14",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj-cs.3008/fig-14"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10433/fig-3",
+      "title": "Figure 3: Comparison of protein expression of DLGAP5 in normal endometrial tissues and endometrial cancer tissues.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10433/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10433/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10433/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-1",
+      "title": "Table 1: Characteristics of the women with endometrial hyperplasia or endometrial cancer from 2009 to 2012.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20409/fig-3",
+      "title": "Figure 3: MRS2 drives endometrial cancer malignancy.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20409/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20409/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20409/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/fig-1",
+      "title": "Figure 1: The annual trends in the endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2010.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerjcs.903/table-8",
+      "title": "Table 8: Overview of Observation Guess to questions in form of recognition mechanism (Q7–Q10).",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerjcs.903/table-8",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerjcs.903/table-8",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerjcs.903/table-8"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-2",
+      "title": "Table 2: The endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2012 stratified according to 5-year age increments.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16424/supp-5",
+      "title": "Supplemental Information 5: Raw data for advanced endometrial cancer",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16424/supp-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16424/supp-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16424/supp-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16424/supp-4",
+      "title": "Supplemental Information 4: Raw data for early stage endometrial cancer",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16424/supp-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16424/supp-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16424/supp-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

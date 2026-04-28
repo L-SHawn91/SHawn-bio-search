@@ -200,6 +200,171 @@ def pmid_to_citation(pmid: str) -> Optional[Dict[str, str]]:
     }
 
 
+# Curated overrides are deliberately small and forensic: each entry fixes a
+# known accession-to-producer mapping where live repository metadata is absent
+# or the generic Europe PMC accession search returns a re-use paper first.
+CURATED_ACCESSION_CITATIONS: Dict[str, Dict[str, Any]] = {
+    "E-MTAB-10287": {
+        "pmid": "34857954",
+        "citation": {
+            "first_author": "Garcia-Alonso",
+            "year": "2021",
+            "journal": "Nat Genet",
+            "volume": "53",
+            "pages": "1698-1711",
+            "title": "Mapping the temporal and spatial dynamics of the human endometrium in vivo and in vitro.",
+            "pmid": "34857954",
+        },
+        "note": "Curated producer mapping: Garcia-Alonso 2021; SHawn-bioinfo paper2 forensic correction.",
+    },
+    "E-MTAB-10283": {
+        "pmid": "34857954",
+        "citation": {
+            "first_author": "Garcia-Alonso",
+            "year": "2021",
+            "journal": "Nat Genet",
+            "volume": "53",
+            "pages": "1698-1711",
+            "title": "Mapping the temporal and spatial dynamics of the human endometrium in vivo and in vitro.",
+            "pmid": "34857954",
+        },
+        "note": "Curated producer mapping: Garcia-Alonso 2021; SHawn-bioinfo paper2 forensic correction.",
+    },
+    "E-MTAB-9260": {
+        "pmid": "34857954",
+        "citation": {
+            "first_author": "Garcia-Alonso",
+            "year": "2021",
+            "journal": "Nat Genet",
+            "volume": "53",
+            "pages": "1698-1711",
+            "title": "Mapping the temporal and spatial dynamics of the human endometrium in vivo and in vitro.",
+            "pmid": "34857954",
+        },
+        "note": "Curated producer mapping: Garcia-Alonso 2021; SHawn-bioinfo paper2 forensic correction.",
+    },
+    "E-MTAB-14039": {
+        "pmid": "39198675",
+        "citation": {
+            "first_author": "Mareckova",
+            "year": "2024",
+            "journal": "Nat Genet",
+            "volume": "56",
+            "pages": "1925-1937",
+            "title": "An integrated single-cell reference atlas of the human endometrium.",
+            "pmid": "39198675",
+        },
+        "note": "Curated producer mapping: HECA / Mareckova 2024; avoids unsafe Europe PMC first-hit.",
+    },
+    "GSE222544": {
+        "bioproject": "PRJNA922493",
+        "pmid": "38748354",
+        "citation": {
+            "first_author": "Zang",
+            "year": "2024",
+            "journal": "Sci China Life Sci",
+            "volume": "67",
+            "pages": "1676-1696",
+            "title": "Dynamic intrauterine crosstalk promotes porcine embryo implantation during early pregnancy.",
+            "pmid": "38748354",
+        },
+        "note": "Curated producer mapping: GEO has no !Series_pubmed_id, but formal PubMed citation is known.",
+    },
+    "GSE180637": {
+        "bioproject": "PRJNA749013",
+        "pmid": "37054708",
+        "citation": {
+            "first_author": "Jiang",
+            "year": "2023",
+            "journal": "Dev Cell",
+            "volume": "58",
+            "pages": "806-821.e7",
+            "title": "Identifying a dynamic transcriptomic landscape of the cynomolgus macaque placenta during pregnancy at single-cell resolution.",
+            "pmid": "37054708",
+        },
+        "note": "Curated producer mapping: macaque placenta/decidua/embryo pregnancy atlas, not an endometrium/organoid benchmark.",
+    },
+    "GSE193007": {
+        "bioproject": "PRJNA794130",
+        "pmid": "36517595",
+        "citation": {
+            "first_author": "Zhai",
+            "year": "2022",
+            "journal": "Nature",
+            "volume": "612",
+            "pages": "732-738",
+            "title": "Primate gastrulation and early organogenesis at single-cell resolution.",
+            "pmid": "36517595",
+        },
+        "note": "Curated producer mapping: primate gastrulation/early organogenesis atlas, not an endometrium/organoid benchmark.",
+    },
+    "GSE289073": {
+        "bioproject": "PRJNA1221000",
+        "pmid": "41574608",
+        "citation": {
+            "first_author": "Burns",
+            "year": "2026",
+            "journal": "JCI Insight",
+            "volume": "11",
+            "pages": "e195254",
+            "title": "Single-cell mapping of human endometrium and decidua reveals epithelial and stromal contributions to fertility.",
+            "pmid": "41574608",
+        },
+        "note": "Curated producer mapping: GEO has no !Series_pubmed_id, but the article data availability names GSE289073.",
+    },
+    "GSE310372": {
+        "bioproject": "PRJNA1365839",
+        "pmid": "41236135",
+        "citation": {
+            "first_author": "Edge",
+            "year": "2026",
+            "journal": "Biol Reprod",
+            "volume": "114",
+            "pages": "1241-1257",
+            "title": "Bovine endometrial organoids: a new tool to study conceptus-maternal interactions in mammals.",
+            "pmid": "41236135",
+        },
+        "note": "Curated producer mapping for bovine endometrial organoid RNA-seq resource.",
+    },
+    "GSE31041": {
+        "bioproject": "PRJNA144887",
+        "pmid": "22378788",
+        "citation": {
+            "first_author": "Liu",
+            "year": "2012",
+            "journal": "J Biol Chem",
+            "volume": "287",
+            "pages": "13899-13910",
+            "title": "Combined analysis of microRNome and 3'-UTRome reveals a species-specific regulation of progesterone receptor expression in the endometrium of rhesus monkey.",
+            "pmid": "22378788",
+        },
+        "note": "Curated producer mapping for non-human primate endometrium bulk reference.",
+    },
+}
+
+
+def _curated_accession_resolution(acc: str, cls: Dict[str, str]) -> Optional[Dict[str, Any]]:
+    """Return a verified local override for known false-positive/metadata-gap accessions."""
+    key = acc.strip().upper()
+    override = CURATED_ACCESSION_CITATIONS.get(key)
+    if not override:
+        return None
+    pmid = override.get("pmid")
+    return {
+        "original": acc,
+        "canonical": key,
+        "tier": cls["tier"],
+        "type": cls["type"],
+        "source": cls["source"],
+        "bioproject": override.get("bioproject"),
+        "pmid": pmid,
+        "citation": override.get("citation"),
+        "note": override.get("note"),
+        "resolution_path": [f"curated accession override -> PMID {pmid}"],
+        "resolver_source": "curated_accession_override",
+    }
+
+
 # =====================================================================
 # NCBI source functions
 # =====================================================================
@@ -520,6 +685,10 @@ def resolve_accession(accession: str) -> Dict[str, Any]:
         out["note"] = "Accession prefix not recognised"
         return out
 
+    curated = _curated_accession_resolution(acc, cls)
+    if curated:
+        return curated
+
     # -----------------------------------------------------------------
     # PMCID
     # -----------------------------------------------------------------
@@ -719,10 +888,14 @@ def resolve_accession(accession: str) -> Dict[str, Any]:
         # Fallback: Europe PMC fulltext search for accession
         ep_pmids = _ebi_europepmc_search_accession(acc)
         if ep_pmids:
-            out["pmid"] = ep_pmids[0]
-            out["citation"] = pmid_to_citation(ep_pmids[0])
-            out["resolution_path"].append(f"ArrayExpress {acc} -> Europe PMC fulltext -> PMID {ep_pmids[0]}")
-            out["note"] = "Primary paper not confirmed from BioStudies — Europe PMC first-hit"
+            candidates = ", ".join(ep_pmids[:3])
+            out["resolution_path"].append(
+                f"ArrayExpress {acc} -> Europe PMC accession search candidates: {candidates}"
+            )
+            out["note"] = (
+                "ArrayExpress accession has no confirmed PubMed link in BioStudies JSON or IDF; "
+                f"Europe PMC first-hit candidates not promoted: {candidates}"
+            )
             return out
         out["note"] = f"ArrayExpress {acc}: no PubMed link in BioStudies JSON, IDF, or Europe PMC"
         return out

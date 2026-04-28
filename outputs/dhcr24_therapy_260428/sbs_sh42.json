@@ -1,0 +1,1142 @@
+{
+  "query": "DHCR24 SH42 inhibitor cholesterol biosynthesis feedback",
+  "effective_query": "DHCR24 SH42 inhibitor cholesterol biosynthesis feedback",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 31,
+  "warnings": [
+    "openaire failed: 'NoneType' object has no attribute 'get'",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "europe_pmc",
+      "id": "38672427",
+      "title": "Chemical Inhibition of Sterol Biosynthesis.",
+      "authors": [
+        "Peeples ES",
+        "Károly Mirnics",
+        "Korade Z",
+        "Eric S Peeples",
+        "Željka Korade"
+      ],
+      "year": 2024,
+      "doi": "10.3390/biom14040410",
+      "url": "https://europepmc.org/article/med/38672427",
+      "abstract": "Cholesterol is an essential molecule of life, and its synthesis can be inhibited by both genetic and nongenetic mechanisms. Hundreds of chemicals that we are exposed to in our daily lives can alter sterol biosynthesis. These also encompass various classes of FDA-approved medications, including (but not limited to) commonly used antipsychotic, antidepressant, antifungal, and cardiovascular medications. These medications can interfere with various enzymes of the post-lanosterol biosynthetic pathway, giving rise to complex biochemical changes throughout the body. The consequences of these short- and long-term homeostatic disruptions are mostly unknown. We performed a comprehensive review of the literature and built a catalogue of chemical agents capable of inhibiting post-lanosterol biosynthesis. This process identified significant gaps in existing knowledge, which fall into two main areas: mechanisms by which sterol biosynthesis is altered and consequences that arise from the inhibitions of the different steps in the sterol biosynthesis pathway. The outcome of our review also reinforced that sterol inhibition is an often-overlooked mechanism that can result in adverse consequences and that there is a need to develop new safety guidelines for the use of (novel and already approved) medications with sterol biosynthesis inhibiting side effects, especially during pregnancy.",
+      "citations": 18,
+      "source_hits": [
+        "europe_pmc",
+        "openalex"
+      ],
+      "source_ids": [
+        "38672427",
+        "https://openalex.org/W4393253542"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2016,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2016,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38847653",
+      "title": "DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review.",
+      "authors": [
+        "Xin Fu",
+        "Zhaosong Wang"
+      ],
+      "year": 2024,
+      "doi": "10.1177/15330338241259780",
+      "url": "https://europepmc.org/article/med/38847653",
+      "abstract": "As an important nutrient in the human body, cholesterol can not only provide structural components for the body's cells, but also can be transformed into a variety of active substances to regulate cell signaling pathways. As an important cholesterol synthase, DHCR24 participates in important regulatory processes in the body. The application of DHCR24 in tumor clinical diagnosis and treatment also attracts much attention. This article reviews the structure and regulatory characteristics of DHCR24, and the research of DHCR24 on tumor progression. We summarize the possible mechanisms of DHCR24 promoting tumor progression through reactive oxygen species (ROS), p53, Ras and PI3K-AKT pathways. Through our review, we hope to provide more research ideas and reference value for the application of DHCR24 in tumor prevention and treatment.",
+      "citations": 15,
+      "source_hits": [
+        "europe_pmc",
+        "openalex"
+      ],
+      "source_ids": [
+        "38847653",
+        "https://openalex.org/W4399431446"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.199,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.199,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38770137",
+      "title": "DHCR24 inhibitor SH42 increases desmosterol without preventing atherosclerosis development in mice.",
+      "authors": [
+        "Xiaoke Ge",
+        "Bram Slütter",
+        "Lambooij JM",
+        "Enchen Zhou",
+        "Zhixiong Ying",
+        "Ceren Agirman",
+        "Marieke Heijink",
+        "Antoine Rimbert",
+        "Bruno Guigas",
+        "Johan Kuiper",
+        "Joost M Lambooij",
+        "Christoph Müller",
+        "Franz Bracher",
+        "Martin Giera",
+        "Sander Kooijman",
+        "Patrick CN Rensen",
+        "Yanan Wang",
+        "Milena Schönke"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.isci.2024.109830",
+      "url": "https://europepmc.org/article/med/38770137",
+      "abstract": "The liver X receptor (LXR) is considered a therapeutic target for atherosclerosis treatment, but synthetic LXR agonists generally also cause hepatic steatosis and hypertriglyceridemia. Desmosterol, a final intermediate in cholesterol biosynthesis, has been identified as a selective LXR ligand that suppresses inflammation without inducing lipogenesis. Δ24-Dehydrocholesterol reductase (DHCR24) converts desmosterol into cholesterol, and we previously showed that the DHCR24 inhibitor SH42 increases desmosterol to activate LXR and attenuate experimental peritonitis and metabolic dysfunction-associated steatotic liver disease. Here, we aimed to evaluate the effect of SH42 on atherosclerosis development in APOE∗3-Leiden.CETP mice and low-density lipoproteins (LDL) receptor knockout mice, models for lipid- and inflammation-driven atherosclerosis, respectively. In both models, SH42 increased desmosterol without affecting plasma lipids. While reducing liver lipids in APOE∗3-Leiden.CETP mice, and regulating populations of circulating monocytes in LDL receptor knockout mice, SH42 did not attenuate atherosclerosis in either model.",
+      "citations": 7,
+      "source_hits": [
+        "europe_pmc",
+        "openalex"
+      ],
+      "source_ids": [
+        "38770137",
+        "https://openalex.org/W4395663050"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1921,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1921,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4404243493",
+      "title": "Loss of Sterol Biosynthesis in Economically Important Plant Pests and Pathogens: A Review of a Potential Target for Pest Control",
+      "authors": [
+        "Paul Dahlin",
+        "Andréa Caroline Ruthes"
+      ],
+      "year": 2024,
+      "doi": "10.3390/biom14111435",
+      "url": "https://doi.org/10.3390/biom14111435",
+      "abstract": "Sterol biosynthesis is a crucial metabolic pathway in plants and various plant pathogens. Their vital physiological role in multicellular organisms and their effects on growth and reproduction underline their importance as membrane compounds, hormone precursors, and signaling molecules. Insects, nematodes, and oomycetes of the Peronosporales group, which harbor important agricultural pests and pathogens, have lost the ability to synthesize their own sterols. These organisms rely on the acquisition of sterols from their host and are dependent on the sterol composition of the host. It is thought that sterol-synthesizing enzymes were lost during co-evolution with the hosts, which provided the organisms with sufficient amounts of the required sterols. To meet the essential requirements of these organisms, some sterol auxotrophs retained a few remaining sterol-modifying enzymes. Several molecular and biochemical investigations have suggested promising avenues for pest and pathogen control by targeting host sterol composition, sterol uptake, or sterol modification in organisms that have lost the ability to biosynthesize sterol de novo. This review examines the loss of sterol biosynthesis de novo in insects, nematodes, and oomycetes with the aim of investigating the sterol metabolic constraints and sterol acquisition of these organisms. This will shed light on its potential as a control target for the management of sterol-dependent organisms in a comprehensive agronomic approach.",
+      "citations": 7,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4404243493"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1911,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1911,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4405941377",
+      "title": "The Liver X Receptor Promotes Immune Homeostasis via Controlled Activation of the Innate Immune System in the Liver",
+      "authors": [
+        "Hiroyuki Nakashima",
+        "Bradley M. Kearney",
+        "Manabu Kinoshita"
+      ],
+      "year": 2024,
+      "doi": "10.3390/biom15010025",
+      "url": "https://doi.org/10.3390/biom15010025",
+      "abstract": "The liver is an indispensable metabolic organ, responsible for accumulating and transporting various nutritional compounds in hepatocytes. However, the transport of these materials from the liver is an energetically intensive task because they contain a considerable number of hydrophobic components, including free cholesterol, and require specialized transfer proteins to shuttle these substances through an aqueous phase. Liver X receptors (LXRs) induce the expression of cholesterol transporters in macrophages to transport free cholesterol derived from apoptotic cells into extracellular space via high-density lipoproteins. Additionally, LXRs control innate immune cells through two major mechanisms: upregulating the phagocytic activity of macrophages and suppressing inflammatory reactions to prevent aggressive activation of immune cells. Therefore, the primary role of LXRs is to accelerate efferocytosis without provoking inflammation and facilitate the transfer of free cholesterol from the intracellular space. This mechanism makes the innate immune system a substantial contributor to systemic metabolic control. Concomitantly, LXRs are important factors in regulating systemic defense mechanisms through the efficient regulation of immune cells. LXR activation, therefore, has great potential for clinical applications in the treatment of metabolic, infectious, and autoimmune diseases. In this review, we discuss the current understanding of the link between LXRs and innate immune cells in the liver, along with prospects for clinical applications of LXR agonists.",
+      "citations": 5,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4405941377"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1893,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1893,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17749",
+      "title": "PKMYT1 knockdown inhibits cholesterol biosynthesis and promotes the drug sensitivity of triple-negative breast cancer cells to atorvastatin",
+      "authors": [
+        "Wei Gao",
+        "Xin Guo",
+        "Linlin Sun",
+        "Jinwei Gai",
+        "Yinan Cao",
+        "Shuqun Zhang"
+      ],
+      "year": 2024,
+      "doi": "10.7717/peerj.17749",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.17749",
+      "abstract": "Triple negative breast cancer (TNBC) as the most aggressive molecular subtype of breast cancer is characterized by high cancer cell proliferation and poor patient prognosis. Abnormal lipid metabolism contributes to the malignant process of cancers. Study observed significantly enhanced cholesterol biosynthesis in TNBC. However, the mechanisms underlying the abnormal increase of cholesterol biosynthesis in TNBC are still unclear. Hence, we identified a member of the serine/threonine protein kinase family PKMYT1 as a key driver of cholesterol synthesis in TNBC cells. Aberrantly high-expressed PKMYT1 in TNBC was indicative of unfavorable prognostic outcomes. In addition, PKMYT1 promoted sterol regulatory element-binding protein 2 (SREBP2)-mediated expression of enzymes related to cholesterol biosynthesis through activating the TNF/ TNF receptor-associated factor 1 (TRAF1)/AKT pathway. Notably, downregulation of PKMYT1 significantly inhibited the feedback upregulation of statin-mediated cholesterol biosynthesis, whereas knockdown of PKMYT1 promoted the drug sensitivity of atorvastatin in TNBC cells. Overall, our study revealed a novel function of PKMYT1 in TNBC cholesterol biosynthesis, providing a new target for targeting tumor metabolic reprogramming in the cancer.",
+      "citations": 7,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17749"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1881,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1881,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3140901724",
+      "title": "New Inhibitory Effect of &lt;i&gt;Latilactobacillus sakei&lt;/i&gt; UONUMA on the Cholesterol Biosynthesis Pathway in Human HepG2 Cells",
+      "authors": [
+        "Miho Ohta‐Shimizu",
+        "Fumiko Fuwa",
+        "Eriko Tomitsuka",
+        "Toshikazu Nishiwaki",
+        "Kotaro Aihara",
+        "Shinji Sato",
+        "Saori Nakagawa"
+      ],
+      "year": 2021,
+      "doi": "10.1248/bpb.b20-00663",
+      "url": "https://doi.org/10.1248/bpb.b20-00663",
+      "abstract": "Many pharmaceuticals and dietary foods have been reported to inhibit cholesterol biosynthesis, mainly by inhibiting the presqualene enzyme 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) reductase rather than a postsqualene enzyme. In this study, we examined the inhibitory effects of Latilactobacillus sakei UONUMA on cholesterol biosynthesis, especially postsqualene, in human HepG2 hepatoma cells. We quantified cholesterol and its precursors, and the mRNA and protein levels of enzymes involved in cholesterol biosynthesis. Three L. sakei UONUMA strains exhibited new inhibitory effects on cholesterol biosynthesis and inhibited the mRNA level of sterol-delta24-reductase (DHCR24), which is involved in the postsqualene cholesterol biosynthesis pathway. These strains will be useful for the prevention and treatment of hyperlipidemia.",
+      "citations": 5,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3140901724"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1797,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1797,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3389/fonc.2021.704024",
+      "title": "DPP4 Regulates DHCR24-Mediated Cholesterol Biosynthesis to Promote Methotrexate Resistance in Gestational Trophoblastic Neoplastic Cells",
+      "authors": [
+        "Weijie Yuan",
+        "Wenjing Yong",
+        "Jing Zhu",
+        "Dazun Shi"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fonc.2021.704024",
+      "url": "https://doi.org/10.3389/fonc.2021.704024",
+      "abstract": ">Metabolic reprogramming could promote cellular adaptation in response to chemotherapeutic drugs in cancer cells. Herein, we aimed to characterize the metabolomic profiles regulated by Dipeptidyl Peptidase 4 (DPP4) in methotrexate (MTX)-resistant gestational trophoblastic neoplastic (GTN) cells. A total of eighty metabolites were found to be commonly altered in DPP4-depleted JAR/MTX and JEG3/MTX cells. Cholesterol biosynthesis-related metabolites were markedly impacted by DPP4 knockdown in MTX-resistant sublines. Manipulation of DPP4 expression remarkably affected the level of cellular cholesterol in GTN cells. Our analysis also identified 24-Dehydrocholesterol Reductase (DHCR24) as a potential downstream effector of DPP4. Manipulation of DHCR24 expression affected cellular cholesterol level, reactive oxygen species (ROS) accumulation, and chemosensitivity to MTX in GTN cell models. In addition, over-expression of DHCR24 could markedly restore cellular cholesterol level and rescue cell survival in DPP4-depleted MTX-resistant GTN cells. Highly correlated expression of DPP4 and DHCR24 was observed in clinical GTN specimens. Further, DPP4 inhibitor sitagliptin effectively inhibited cholesterol biosynthesis, reduced DHCR24 expression and enhanced MTX-induced cytotoxicity >in vitro > and >in vivo >. In conclusion, our findings suggested that DPP4 might regulate DHCR24-mediated cholesterol biosynthesis to promote methotrexate resistance in GTN cells. Targeting DPP4/DHCR24 signaling might help to sensitize MTX-resistant GTN to MTX treatment. >",
+      "citations": 8,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3389/fonc.2021.704024"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1763,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1763,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1604.01464v1",
+      "title": "Feedback Bits Allocation for Interference Minimization in Cognitive Radio Communications",
+      "authors": [
+        "Mirza Golam Kibria",
+        "Fang Yuan",
+        "Fumihide Kojima"
+      ],
+      "year": 2016,
+      "doi": "10.1109/LWC.2015.2503771",
+      "url": "http://arxiv.org/abs/1604.01464v1",
+      "abstract": "This letter studies the limited feedback cognitive radio system, where the primary users (PU) are interfered by the secondary transmitter (ST) due to the imperfect beamforming. We propose to allocate the feedback bits among multiple PUs to minimize the maximum interference caused by the ST, by exploiting the heterogeneous average channel gains. In addition, we study the problem of minimizing the total feedback bits under a predefined interference threshold at the PUs. The solutions with low complexity are proposed for the studied problems, and the performances of bit allocations are analyzed. Simulation results validate our analysis and demonstrate that the proposed solutions work very well in terms of minimizing the maximum interference caused by the ST and minimizing the total feedback bits under predefined interference threshold at the PUs for limited feedback CR system.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1604.01464v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1806.02468v1",
+      "title": "Spatially Resolving the Condensing Effect of Cholesterol in Lipid Bilayers",
+      "authors": [
+        "Felix Leeb",
+        "Lutz Maibaum"
+      ],
+      "year": 2018,
+      "doi": "10.1016/j.bpj.2018.10.024",
+      "url": "http://arxiv.org/abs/1806.02468v1",
+      "abstract": "We study the effect of cholesterol on the structure of dipalmitoylphosphatidylcholine (DPPC) phospholipid bilayers. Using extensive molecular dynamics computer simulations at atomistic resolution we observe and quantify several structural changes upon increasing cholesterol content that are collectively known as the condensing effect: a thickening of the bilayer, an increase in lipid tail order, and a decrease in lateral area. We also observe a change in leaflet interdigitation and a lack thereof in the distributions of DPPC head group orientations. These results, obtained over a wide range of cholesterol mole fractions, are then used to calibrate the analysis of phospholipid properties in bilayers containing a single cholesterol molecule per leaflet, which we perform in a spatially resolved way. We find that a single cholesterol molecule affects phospholipids in its first and second solvation shells, which puts the range of this interaction to be on the order of one to two nanometers. We also observe a tendency of phospholipids to orient their polar head groups toward the cholesterol, which provides additional support for the umbrella model of bilayer organization.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1806.02468v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40145543",
+      "title": "The Role of Cholesterol Metabolism and Its Regulation in Tumor Development.",
+      "authors": [
+        "Wu Y",
+        "Song W",
+        "Su M",
+        "He J",
+        "Hu R",
+        "Zhao Y."
+      ],
+      "year": 2025,
+      "doi": "10.1002/cam4.70783",
+      "url": "https://europepmc.org/article/med/40145543",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40145543"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1556,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1556,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1412.4956v1",
+      "title": "The Structure of Cholesterol in Lipid Rafts",
+      "authors": [
+        "Laura Toppozini",
+        "Sebastian Meinhardt",
+        "Clare L. Armstrong",
+        "Zahra Yamani",
+        "Norbert Kucerka",
+        "Friederike Schmid",
+        "Maikel C. Rheinstaedter"
+      ],
+      "year": 2014,
+      "doi": "10.1103/PhysRevLett.113.228101",
+      "url": "http://arxiv.org/abs/1412.4956v1",
+      "abstract": "Rafts, or functional domains, are transient nano- or mesoscopic structures in the plasma membrane and are thought to be essential for many cellular processes such as signal transduction, adhesion, trafficking and lipid/protein sorting. Observations of these membrane heterogeneities have proven challenging, as they are thought to be both small and short-lived. With a combination of coarse-grained molecular dynamics simulations and neutron diffraction using deuterium labeled cholesterol molecules we observe raft-like structures and determine the ordering of the cholesterol molecules in binary cholesterol-containing lipid membranes. From coarse-grained computer simulations, heterogenous membranes structures were observed and characterized as small, ordered domains. Neutron diffraction was used to study the lateral structure of the cholesterol molecules. We find pairs of strongly bound cholesterol molecules in the liquid-disordered phase, in accordance with the umbrella model. Bragg peaks corresponding to ordering of the cholesterol molecules in the raft-like structures were observed and indexed by two different structures: a monoclinic structure of ordered cholesterol pairs of alternating direction in equilibrium with cholesterol plaques, i.e., triclinic cholesterol bilayers.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1412.4956v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0408380v1",
+      "title": "Impact of Cholesterol on Voids in Phospholipid Membranes",
+      "authors": [
+        "Emma Falck",
+        "Michael Patra",
+        "Mikko Karttunen",
+        "Marja T. Hyvonen",
+        "Ilpo Vattulainen"
+      ],
+      "year": 2004,
+      "doi": "10.1063/1.1824033",
+      "url": "http://arxiv.org/abs/cond-mat/0408380v1",
+      "abstract": "Free volume pockets or voids are important to many biological processes in cell membranes. Free volume fluctuations are a prerequisite for diffusion of lipids and other macromolecules in lipid bilayers. Permeation of small solutes across a membrane, as well as diffusion of solutes in the membrane interior are further examples of phenomena where voids and their properties play a central role. Cholesterol has been suggested to change the structure and function of membranes by altering their free volume properties. We study the effect of cholesterol on the properties of voids in dipalmitoylphosphatidylcholine (DPPC) bilayers by means of atomistic molecular dynamics simulations. We find that an increasing cholesterol concentration reduces the total amount of free volume in a bilayer. The effect of cholesterol on individual voids is most prominent in the region where the steroid ring structures of cholesterol molecules are located. Here a growing cholesterol content reduces the number of voids, completely removing voids of the size of a cholesterol molecule. The voids also become more elongated. The broad orientational distribution of voids observed in pure DPPC is, with a 30% molar concentration of cholesterol, replaced by a distribution where orientation along the bilayer normal is favored. Our results suggest that instead of being uniformly distributed to the whole bilayer, these effects are localized to the close vicinity of cholesterol molecules.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0408380v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2505.01230v2",
+      "title": "Non-universal Impact of Cholesterol on Ionic Liquid-Membrane Interactions",
+      "authors": [
+        "J. Gupta",
+        "V. K. Sharma",
+        "P. Hitaishi",
+        "A. K. Jha",
+        "J. B. Mitra",
+        "H. Srinivasan",
+        "S. Kumar",
+        "A. Kumar",
+        "S. K. Ghosh",
+        "S. Mitra"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2505.01230v2",
+      "abstract": "Understanding the role of cholesterol in ionic liquid (IL)-membrane interactions is essential for advancing biomedical applications of ILs, including the development of innovative antimicrobial agents. In this study, we explore the intricate and multifaceted role of cholesterol in modulating IL-membrane interactions, employing a comprehensive suite of biophysical techniques. We systematically examine how IL alkyl chain length and membrane physical state influence the impact of cholesterol on IL-lipid membrane interaction. The incorporation of ILs is shown to increase the area per lipid in both pristine dipalmitoylphosphatidylcholine (DPPC) and DPPC-cholesterol membranes. Cholesterol modulates the impact of ILs on lipid conformation, membrane viscoelasticity, and phase behavior. Small-angle neutron scattering and dynamic light scattering measurements reveal that cholesterol mitigates IL-induced structural perturbations in vesicles. Our isothermal titration calorimetry measurements reveal that the presence of cholesterol significantly weakens the binding of ILs to membranes. Intriguingly, despite this reduced binding affinity, cholesterol-containing membranes demonstrate enhanced permeabilization. This counterintuitive effect is attributed to cholesterol's ordering of lipid membranes, which increases susceptibility to stress and defects. Our results underscore the complex and non-universal interplay between lipid composition, IL alkyl chain length, and membrane phase state. These insights provide a deeper understanding of cholesterol's role in IL-membrane interactions, paving the way for the design of advanced applications of ILs in antimicrobial therapy and drug delivery.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2505.01230v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.34133/research.1280",
+      "title": "The selective DHCR24 blocker SH42 inhibits ACE2 binding and cellular entry of SARS-CoV-2 spike proteins more efficiently than atorvastatin",
+      "authors": [
+        "Tamas Kovacs",
+        "Kitti Kurtan",
+        "Bernadett Pályi",
+        "Zoltán Kis",
+        "Mohamed Mahdi",
+        "Jesús Borrego Terrazas",
+        "József Tőzsér",
+        "Zoltan Varga",
+        "Peter Nagy",
+        "Gyorgy Panyi",
+        "Florina Zakany"
+      ],
+      "year": 2026,
+      "doi": "10.34133/research.1280",
+      "url": "https://doi.org/10.34133/research.1280",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.34133/research.1280"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "35500564",
+      "title": "ZoomForward2022: European Congress on Obesity.",
+      "authors": [],
+      "year": 2022,
+      "doi": "10.1159/000524469",
+      "url": "https://europepmc.org/article/med/35500564",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "35500564"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1398,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1398,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3410/f.740953511.793591248",
+      "title": "Faculty Opinions recommendation of Oncogenic role of the SOX9-DHCR24-cholesterol biosynthesis axis in IGH-BCL2+ diffuse large B-cell lymphomas.",
+      "authors": [
+        "Philippe Saas"
+      ],
+      "year": 2022,
+      "doi": "10.3410/f.740953511.793591248",
+      "url": "https://doi.org/10.3410/f.740953511.793591248",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3410/f.740953511.793591248"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.132,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.132,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2012.00652v1",
+      "title": "Repurposing the Combination Drug of Favipiravir, Hydroxychloroquine and Oseltamivir as a Potential Inhibitor against SARS-CoV-2: A Computational Study",
+      "authors": [
+        "Pooja",
+        "Papia Chowdhury"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2012.00652v1",
+      "abstract": "The virus SARS-CoV-2 has created a situation of global emergency all over the world from the last few months. We are witnessing a helpless situation due to COVID-19 as no vaccine or drug is effective against the disease. In the present study, we have tested the applicability of some combination drugs against COVID-19. We have tried to understand the mechanism of action of some repurposed drugs: Favipiravir (F), Hydroxychloroquine (H) and Oseltamivir (O). The ADME analysis have suggested strong inhibitory possibility of F, H, O combination towards receptor protein of $3CL^{pro}$ of SARS-CoV-2 virus. The strong binding affinity, number of hydrogen bond interaction between inhibitor, receptor and lower inhibition constant computed from molecular docking validated the better complexation possibility of F+H+O: $3CL^{pro}$ combination. Various thermodynamical output from Molecular dynamics (MD) simulations like potential energy ($E_g$), temperature (T), density, pressure, SASA energy, interaction energies, Gibbs free energy ($ΔG_{bind}$) etc., also favored the complexation between F+H+O and CoV-2 protease. Our In-Silico results have recommended the strong candidature of combination drugs Favipiravir, Hydroxychloroquine and Oseltamivir as a potential lead inhibitor for targeting SARS-CoV-2 infections.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2012.00652v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2005.00394v1",
+      "title": "Bacterial pathways for the biosynthesis of ubiquinone",
+      "authors": [
+        "Sophie Saphia Abby",
+        "Katayoun Kazemzadeh",
+        "Charles Vragniau",
+        "Ludovic Pelosi",
+        "Fabien Pierrel"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2005.00394v1",
+      "abstract": "Ubiquinone is an important component of the electron transfer chains in proteobacteria and eukaryotes. The biosynthesis of ubiquinone requires multiple steps, most of which are common to bacteria and eukaryotes. Whereas the enzymes of the mitochondrial pathway that produces ubiquinone are highly similar across eukaryotes, recent results point to a rather high diversity of pathways in bacteria. This review focuses on ubiquinone in bacteria, highlighting newly discovered functions and detailing the proteins that are known to participate to its biosynthetic pathways. Novel results showing that ubiquinone can be produced by a pathway independent of dioxygen suggest that ubiquinone may participate to anaerobiosis, in addition to its well established role for aerobiosis. We also discuss the supramolecular organization of ubiquinone biosynthesis proteins and we summarize the current understanding of the evolution of the ubiquinone pathways relative to those of other isoprenoid quinones like menaquinone and plastoquinone.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2005.00394v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2001.11544v1",
+      "title": "Raft-like domain formation in model lipid-cholesterol aggregation",
+      "authors": [
+        "Tanay Paul",
+        "Jayashree Saha"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2001.11544v1",
+      "abstract": "To understand mechanism of cell-membrane compartmentalization, we studied coarse-grained model systems consisting of lipid and cholesterol molecules. Cholesterol plays crucial role in lateral phase segregation in the bilayered lipid membrane to form cholesterol rich liquid ordered domains, termed as `rafts'. In this NVT Molecular Dynamics simulation study, we have investigated the role of cholesterol in raft-like domain formation. The study reveals that the strength of cholesterol interaction is an important factor behind the phase segregation to form cholesterol rich domains, whereas, the relative dipolar strength of lipid and cholesterol molecules controls the formation of multi-bilayered stack.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2001.11544v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10366/fig-3",
+      "title": "Figure 3: Effect of different\n                      <i>S</i>\n                      .\n                      <i>platensis</i>\n                      formulations on plasma cholesterol, triglycerides, cholesterol-high density lipoprotein (HDL) and cholesterol-low density lipoprotein (LDL) in mice after 5 weeks.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10366/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10366/fig-3",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10366/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1223,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1223,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17749/fig-2",
+      "title": "Figure 2: PKMYT1 promotes cholesterol biosynthesis in TNBC.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17749/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.17749/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17749/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17749/fig-3",
+      "title": "Figure 3: PKMYT1 promotes SREBF2-mediated cholesterol biosynthesis\n                      <i>via</i>\n                      the TNF/TRAF1/AKT pathway.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17749/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.17749/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17749/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.8623/fig-1",
+      "title": "Figure 1: Growth of coenobial algae\n                      <i>Desmodesmuskomarekii</i>\n                      in the presence of several auxins and inhibitor of auxin biosynthesis and auxin transport.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.8623/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.8623/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.8623/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17965/fig-8",
+      "title": "Figure 8: Synephrine biosynthesis pathways, including glycolysis/gluconeogenesis, tyrosine metabolism, phenylalanine biosynthesis, and tyrosine biosynthesis, are depicted using diagrams.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17965/fig-8",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.17965/fig-8",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17965/fig-8"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.7064/fig-11",
+      "title": "Figure 11: Bixin biosynthesis model of gene regulation in bixin biosynthesis.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.7064/fig-11",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.7064/fig-11",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.7064/fig-11"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3410/f.1031251.365544",
+      "title": "Faculty Opinions recommendation of The role of seladin-1/DHCR24 in cholesterol biosynthesis, APP processing and Abeta generation in vivo.",
+      "authors": [
+        "Robert Parton"
+      ],
+      "year": 2006,
+      "doi": "10.3410/f.1031251.365544",
+      "url": "https://doi.org/10.3410/f.1031251.365544",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3410/f.1031251.365544"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7717/peerj.17749/fig-4",
+      "title": "Figure 4: PKMYT1 knockdown negates atorvastatin-induced feedback of cholesterol biosynthesis and up-regulates the drug sensitivity of atorvastatin.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17749/fig-4",
+      "url": "https://doi.org/10.7717/peerj.17749/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref",
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17749/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3410/f.1103423.558035",
+      "title": "Faculty Opinions recommendation of A cholesterol biosynthesis inhibitor blocks Staphylococcus aureus virulence.",
+      "authors": [
+        "Fiona Brinkman"
+      ],
+      "year": 2008,
+      "doi": "10.3410/f.1103423.558035",
+      "url": "https://doi.org/10.3410/f.1103423.558035",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3410/f.1103423.558035"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3410/f.1103423.559473",
+      "title": "Faculty Opinions recommendation of A cholesterol biosynthesis inhibitor blocks Staphylococcus aureus virulence.",
+      "authors": [
+        "John Cavanagh"
+      ],
+      "year": 2008,
+      "doi": "10.3410/f.1103423.559473",
+      "url": "https://doi.org/10.3410/f.1103423.559473",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3410/f.1103423.559473"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3410/f.1103423.559613",
+      "title": "Faculty Opinions recommendation of A cholesterol biosynthesis inhibitor blocks Staphylococcus aureus virulence.",
+      "authors": [
+        "Roberto Docampo"
+      ],
+      "year": 2008,
+      "doi": "10.3410/f.1103423.559613",
+      "url": "https://doi.org/10.3410/f.1103423.559613",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.3410/f.1103423.559613"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

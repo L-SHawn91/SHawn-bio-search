@@ -1,0 +1,9 @@
+label	doi	pmid	pmcid	publisher_url	access_route	title	year	status
+DHCR24_review_2024	10.1177/15330338241259780	38847653	PMC11162140	https://journals.sagepub.com/doi/10.1177/15330338241259780	institutional_access_ready	DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review	2024	pending
+Q7_EC_2022	10.7150/ijms.78349	36483599	PMC9724248	https://www.mdpi.com/1422-0067/23/23/14828	oa_candidate	Anticancer peptide Q7 suppresses EC by inhibiting DHCR24 and AKT	2022	pending
+Q7_lipoplex_2026	10.1038/s41598-025-33877-9	41507272	PMC12852731	https://www.nature.com/articles/s41598-025-33877-9	oa_candidate	Synergistic Q7+doxorubicin against endometrial cancer cells	2026	pending
+DPP4_DHCR24_2021	10.3389/fonc.2021.704024	34926239	PMC8675944	https://www.frontiersin.org/articles/10.3389/fonc.2021.704024	oa_candidate	DPP4 Regulates DHCR24-Mediated Cholesterol Biosynthesis in GTN	2021	pending
+SH42_DHCR24_2024	10.1016/j.isci.2024.109830		PMC_unknown	https://www.cell.com/iscience/fulltext/S2589-0042(24)01870-6	oa_candidate	DHCR24 inhibitor SH42 increases desmosterol in mice	2024	pending
+Irbesartan_DHCR24_2023	10.3390/molecules28062643		PMC_unknown	https://www.mdpi.com/1420-3049/28/6/2643	oa_candidate	Virtual Screening of DHCR24 Inhibitors: Irbesartan	2023	pending
+SQLE_EC_2023	10.1111/cas.15900			https://onlinelibrary.wiley.com/doi/10.1111/cas.15900	institutional_access_ready	SQLE inhibition via PI3K/AKT suppresses endometrial cancer	2023	pending
+Tirzepatide_EC_2024	10.1016/j.ygyno.2024.10.004			https://www.gynecologiconcology-online.net/article/S0090-8258(24)00600-1/fulltext	institutional_access_ready	Tirzepatide in obesity-driven endometrial cancer	2024	pending

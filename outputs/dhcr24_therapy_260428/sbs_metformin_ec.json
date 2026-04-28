@@ -1,0 +1,1997 @@
+{
+  "query": "metformin endometrial cancer progesterone receptor AMPK",
+  "effective_query": "metformin endometrial cancer progesterone receptor AMPK",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 53,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3044908880",
+      "title": "Lipids and cancer: Emerging roles in pathogenesis, diagnosis and therapeutic intervention",
+      "authors": [
+        "Lisa M. Butler",
+        "Ylenia Perone",
+        "Jonas Dehairs",
+        "Leslie Lupien",
+        "Vincent de Laat",
+        "Ali Talebi",
+        "Massimo Loda",
+        "William B. Kinlaw",
+        "Johannes V. Swinnen"
+      ],
+      "year": 2020,
+      "doi": "10.1016/j.addr.2020.07.013",
+      "url": "https://doi.org/10.1016/j.addr.2020.07.013",
+      "abstract": "With the advent of effective tools to study lipids, including mass spectrometry-based lipidomics, lipids are emerging as central players in cancer biology. Lipids function as essential building blocks for membranes, serve as fuel to drive energy-demanding processes and play a key role as signaling molecules and as regulators of numerous cellular functions. Not unexpectedly, cancer cells, as well as other cell types in the tumor microenvironment, exploit various ways to acquire lipids and extensively rewire their metabolism as part of a plastic and context-dependent metabolic reprogramming that is driven by both oncogenic and environmental cues. The resulting changes in the fate and composition of lipids help cancer cells to thrive in a changing microenvironment by supporting key oncogenic functions and cancer hallmarks, including cellular energetics, promoting feedforward oncogenic signaling, resisting oxidative and other stresses, regulating intercellular communication and immune responses. Supported by the close connection between altered lipid metabolism and the pathogenic process, specific lipid profiles are emerging as unique disease biomarkers, with diagnostic, prognostic and predictive potential. Multiple preclinical studies illustrate the translational promise of exploiting lipid metabolism in cancer, and critically, have shown context dependent actionable vulnerabilities that can be rationally targeted, particularly in combinatorial approaches. Moreover, lipids themselves can be used as membrane disrupting agents or as key components of nanocarriers of various therapeutics. With a number of preclinical compounds and strategies that are approaching clinical trials, we are at the doorstep of exploiting a hitherto underappreciated hallmark of cancer and promising target in the oncologist's strategy to combat cancer.",
+      "citations": 623,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3044908880"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.371,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.371,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2114090713",
+      "title": "Metabolic reprogramming: the emerging concept and associated therapeutic strategies",
+      "authors": [
+        "Go J. Yoshida"
+      ],
+      "year": 2015,
+      "doi": "10.1186/s13046-015-0221-y",
+      "url": "https://doi.org/10.1186/s13046-015-0221-y",
+      "abstract": "Tumor tissue is composed of cancer cells and surrounding stromal cells with diverse genetic/epigenetic backgrounds, a situation known as intra-tumoral heterogeneity. Cancer cells are surrounded by a totally different microenvironment than that of normal cells; consequently, tumor cells must exhibit rapidly adaptive responses to hypoxia and hypo-nutrient conditions. This phenomenon of changes of tumor cellular bioenergetics, called \"metabolic reprogramming\", has been recognized as one of 10 hallmarks of cancer. Metabolic reprogramming is required for both malignant transformation and tumor development, including invasion and metastasis. Although the Warburg effect has been widely accepted as a common feature of metabolic reprogramming, accumulating evidence has revealed that tumor cells depend on mitochondrial metabolism as well as aerobic glycolysis. Remarkably, cancer-associated fibroblasts in tumor stroma tend to activate both glycolysis and autophagy in contrast to neighboring cancer cells, which leads to a reverse Warburg effect. Heterogeneity of monocarboxylate transporter expression reflects cellular metabolic heterogeneity with respect to the production and uptake of lactate. In tumor tissue, metabolic heterogeneity induces metabolic symbiosis, which is responsible for adaptation to drastic changes in the nutrient microenvironment resulting from chemotherapy. In addition, metabolic heterogeneity is responsible for the failure to induce the same therapeutic effect against cancer cells as a whole. In particular, cancer stem cells exhibit several biological features responsible for resistance to conventional anti-tumor therapies. Consequently, cancer stem cells tend to form minimal residual disease after chemotherapy and exhibit metastatic potential with additional metabolic reprogramming. This type of altered metabolic reprogramming leads to adaptive/acquired resistance to anti-tumor therapy. Collectively, complex and dynamic metabolic reprogramming should be regarded as a reflection of the \"robustness\" of tumor cells against unfavorable conditions. This review focuses on the concept of metabolic reprogramming in heterogeneous tumor tissue, and further emphasizes the importance of developing novel therapeutic strategies based on drug repositioning.",
+      "citations": 691,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2114090713"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W1820314031",
+      "title": "Redox regulation of FoxO transcription factors",
+      "authors": [
+        "Lars‐Oliver Klotz",
+        "Cristina Sánchez‐Ramos",
+        "Ignacio Priéto",
+        "Pavel Urbánek",
+        "Holger Steinbrenner",
+        "Marı́a Monsalve"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.redox.2015.06.019",
+      "url": "https://doi.org/10.1016/j.redox.2015.06.019",
+      "abstract": "Transcription factors of the forkhead box, class O (FoxO) family are important regulators of the cellular stress response and promote the cellular antioxidant defense. On one hand, FoxOs stimulate the transcription of genes coding for antioxidant proteins located in different subcellular compartments, such as in mitochondria (i.e. superoxide dismutase-2, peroxiredoxins 3 and 5) and peroxisomes (catalase), as well as for antioxidant proteins found extracellularly in plasma (e.g., selenoprotein P and ceruloplasmin). On the other hand, reactive oxygen species (ROS) as well as other stressful stimuli that elicit the formation of ROS, may modulate FoxO activity at multiple levels, including posttranslational modifications of FoxOs (such as phosphorylation and acetylation), interaction with coregulators, alterations in FoxO subcellular localization, protein synthesis and stability. Moreover, transcriptional and posttranscriptional control of the expression of genes coding for FoxOs is sensitive to ROS. Here, we review these aspects of FoxO biology focusing on redox regulation of FoxO signaling, and with emphasis on the interplay between ROS and FoxOs under various physiological and pathophysiological conditions. Of particular interest are the dual role played by FoxOs in cancer development and their key role in whole body nutrient homeostasis, modulating metabolic adaptations and/or disturbances in response to low vs. high nutrient intake. Examples discussed here include calorie restriction and starvation as well as adipogenesis, obesity and type 2 diabetes.",
+      "citations": 732,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1820314031"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2136386001",
+      "title": "Metformin in Cancer Treatment and Prevention",
+      "authors": [
+        "Daniel R. Morales",
+        "Andrew D. Morris"
+      ],
+      "year": 2014,
+      "doi": "10.1146/annurev-med-062613-093128",
+      "url": "https://doi.org/10.1146/annurev-med-062613-093128",
+      "abstract": "Patients with diabetes mellitus are at increased risk of cancer development. Metformin is a well-established, effective agent for the management of type 2 diabetes mellitus. Epidemiological studies have identified an association between metformin use and a beneficial effect on cancer prevention and treatment, which has led to increasing interest in the potential use of metformin as an anticancer agent. Basic science has provided a better understanding of the mechanism of action of metformin and the potential for metformin to modulate molecular pathways involved in cancer cell signaling and metabolism. This article outlines the link between metformin and cancer, the potential for metformin in oncology, and limitations of currently available evidence.",
+      "citations": 481,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2136386001"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.3352,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3352,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2140164776",
+      "title": "Metformin in cancer: translational challenges",
+      "authors": [
+        "Ryan J.O. Dowling",
+        "Saroj Niraula",
+        "Vuk Stambolic",
+        "Pamela J. Goodwin"
+      ],
+      "year": 2012,
+      "doi": "10.1530/jme-12-0007",
+      "url": "https://doi.org/10.1530/jme-12-0007",
+      "abstract": "The anti-diabetic drug metformin is rapidly emerging as a potential anti-cancer agent. Metformin, effective in treating type 2 diabetes and the insulin resistance syndromes, improves insulin resistance by reducing hepatic gluconeogenesis and by enhancing glucose uptake by skeletal muscle. Epidemiological studies have consistently associated metformin use with decreased cancer incidence and cancer-related mortality. Furthermore, numerous preclinical and clinical studies have demonstrated anti-cancer effects of metformin, leading to an explosion of interest in evaluating this agent in human cancer. The effects of metformin on circulating insulin levels indicate a potential efficacy towards cancers associated with hyperinsulinaemia; however, metformin may also directly inhibit tumour growth. In this review, we describe the mechanism of action of metformin and summarise the epidemiological, clinical and preclinical evidence supporting a role for metformin in the treatment of cancer. In addition, the challenges associated with translating preclinical results into therapeutic benefit in the clinical setting will be discussed.",
+      "citations": 349,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2140164776"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.2813,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2813,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2066032552",
+      "title": "Antiproliferative and metabolic effects of metformin in a preoperative window clinical trial for endometrial cancer",
+      "authors": [
+        "Kevin Schuler",
+        "Brooke S. Rambally",
+        "Megan J. DiFurio",
+        "Brante P. Sampey",
+        "Paola A. Gehrig",
+        "Liza Makowski",
+        "Victoria Bae‐Jump"
+      ],
+      "year": 2014,
+      "doi": "10.1002/cam4.353",
+      "url": "https://doi.org/10.1002/cam4.353",
+      "abstract": "We conducted a preoperative window study of metformin in endometrial cancer (EC) patients and evaluated its antiproliferative, molecular and metabolic effects. Twenty obese women with endometrioid EC were treated with metformin (850 mg) daily for up to 4 weeks prior to surgical staging. Expression of the proliferation marker Ki-67, estrogen receptor (ER), progesterone receptor (PR), adenosine monophosphate-activated protein kinase (AMPK), and downstream targets of the mammalian target of rapamycin (mTOR) pathway were measured by immunohistochemistry. Global, untargeted metabolomics analysis of serum pre- and postmetformin treatment, and matched tumor, was performed. Metformin reduced proliferation by 11.75% (P = 0.008) based on the comparison of pre- and posttreatment endometrial tumors. A total of 65% of patients responded to metformin as defined by a decrease in Ki-67 staining in their endometrial tumors post-treatment. Metformin decreased expression of phosphorylated (p)-AMPK (P = 0.00001), p-Akt (P = 0.0002), p-S6 (51.2%, P = 0.0002), p-4E-BP-1 (P = 0.001), and ER (P = 0.0002) but not PR expression. Metabolomic profiling of serum indicated that responders versus nonresponders to treatment were more sensitive to metformin's effects on induction of lipolysis, which correlated with increased fatty acid oxidation and glycogen metabolism in matched tumors. In conclusion, metformin reduced tumor proliferation in a pre-operative window study in obese EC patients, with dramatic effects on inhibition of the mTOR pathway. Metformin induced a shift in lipid and glycogen metabolism that was more pronounced in the serum and tumors of responders versus nonresponders to treatment.This study provides support for therapeutic clinical trials of metformin in obese patients with EC.",
+      "citations": 139,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2066032552"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.2142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2082521320",
+      "title": "Metformin promotes progesterone receptor expression via inhibition of mammalian target of rapamycin (mTOR) in endometrial cancer cells",
+      "authors": [
+        "Ya Xie",
+        "Yanling Wang",
+        "Li‐Rong Yu",
+        "Qian Hu",
+        "Lei Ji",
+        "Yan Zhang",
+        "Qinping Liao",
+        "Ya, Xie",
+        "Yan-Ling, Wang",
+        "Li, Yu",
+        "Qian, Hu",
+        "Lei, Ji",
+        "Yan, Zhang",
+        "Qin-Ping, Liao"
+      ],
+      "year": 2011,
+      "doi": "10.1016/j.jsbmb.2010.12.006",
+      "url": "https://doi.org/10.1016/j.jsbmb.2010.12.006",
+      "abstract": "Progesterone has been used in the hormonal treatment of endometrial cancer (EC) for many years, but the response rates are unsatisfying. The down-regulated progesterone receptor (PR) is the main reason for treatment failure. The insulin-like growth factor (IGF) system is related to EC risk, and IGF-I can inhibit PR transcription in breast cancer. Recent evidence suggests that metformin-combined oral contraceptives may reverse progesterone-resistant atypical endometrial hyperplasia, but the mechanism is unclear. We attempt to investigate the interaction of metformin, PR and IGF-II expression, and identify whether metformin can enhance the antitumor effect of medroxyprogesterone acetate (MPA) using Ishikawa and HEC-1B EC cell lines. We found that both IGF-I and IGF-II inhibit PR A/B mRNA and protein expression, whereas metformin markedly promotes PR expression. In parallel, IGF-II increases phosphorylation of AKT and p70S6K, while metformin increases AMPK phosphorylation and decreases p70S6K phosphorylation. The effects of metformin on PR A/B and p70S6K are partially reversed by an AMPK inhibitor. Furthermore, metformin synergistically antiproliferates MPA in two cell lines, with the peak synergy occurring with 10μM metformin combined with 1μM MPA (CI=0.20448 for Ishikawa, CI=0.12801 for HEC-1B). Our results demonstrate that metformin promotes PR expression, which can be inhibited by overexpressed IGF-II in EC. This effect is partially mediated through activating AMPK followed by inhibiting the overactivated mTOR pathway.",
+      "citations": 142,
+      "source_hits": [
+        "openalex",
+        "openaire"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2082521320",
+        "doi_dedup___::0ada4638ad48bc34881b81ee933d5665"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.2112,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2112,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17377",
+      "title": "Retrospective analysis of estrogen receptor (ER), progesterone receptor (PR), human epidermal growth factor receptor-2 (HER2), Ki67 changes and their clinical significance between primary breast cancer and metastatic tumors",
+      "authors": [
+        "Gaoxiu Qi",
+        "Xin Zhang",
+        "Xiaoying Gai",
+        "Xiong Yan"
+      ],
+      "year": 2024,
+      "doi": "10.7717/peerj.17377",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.17377",
+      "abstract": "Objective To explore the relationship between receptor heterogeneity and clinicopathological characteristics in 166 patients with invasive breast cancer during metastasis. Methods We conducted a retrospective analysis of 166 patients diagnosed with metastatic breast cancer through biopsy, who were admitted to our hospital from January 2018 to December 2022. Statistical analysis was employed to assess the heterogeneity of receptors in both primary and metastatic lesions, including estrogen receptor (ER), progesterone receptor (PR), human epidermal growth factor receptor-2 (HER2), Ki67, as well as their association with clinicopathological features such as tumor size, lymph node metastasis, treatment regimen, and disease-free survival. Results The discordant expression rates of ER, PR, HER2, Ki-67 and Luminal classification between primary and metastatic lesions were 21.7%, 41.6%, 8.9%, 34.4% and 36.8%, respectively. There is a significant difference in disease-free survival between patients with consistent and inconsistent receptor status of primary and metastatic lesions, which is statistically significant. The median DFS for primary HER2(-) to metastatic HER2(+) was 84 months, which was relatively high. The Cox multivariate regression analysis revealed that the expression differences of ER, PR, HER2, and Ki67 were not influenced by endocrine therapy and chemotherapy. However, a statistically significant difference in HER2 expression was observed with targeted therapy. Tumor size was correlated with ER and Ki67 receptor status ( P = 0.019, 0.016). Tumor size was not correlated with PR, and HER2 ( P = 0.679, 0.440). Lymph node metastasis was not associated with changes in ER, PR, HER2, and Ki67. The discordant rates of ER, PR, HER2, and Ki-67 in patients with local recurrence were 22%, 23.7%, 5.1%, and 28.8% respectively, whereas those in patients with distant metastasis were 21.5%, 36.4%, 10.3%, and 31.8% respectively. Conclusions The expression levels of ER, PR, HER2, and Ki-67 in primary and metastatic breast cancer exhibit heterogeneity, which is closely associated with the prognosis and treatment outcomes of patients.",
+      "citations": 5,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17377"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1863,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1863,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_________::920999c9b47d59d61cdd13f64fadf978",
+      "title": "Phase 2 study of letrozole, abemaciclib, and metformin in estrogen receptor (ER)–positive recurrent endometrial cancer (EC).",
+      "authors": [
+        "Panagiotis A. Konstantinopoulos",
+        "Ningxuan Zhou",
+        "Richard T. Penson",
+        "Susana M. Campos",
+        "Carolyn N. Krasner",
+        "Alexi A. Wright",
+        "Rebecca L. Porter",
+        "Neil S. Horowitz",
+        "Sara Bouberhan",
+        "Hannah Sawyer",
+        "Lani Koppermann",
+        "Martin Hayes",
+        "Madeline Polak",
+        "Meghan Shea",
+        "Page Widick",
+        "SuChun Cheng",
+        "Cesar Martin Castro",
+        "Ursula A. Matulonis",
+        "Elizabeth Katherine Lee"
+      ],
+      "year": 2025,
+      "doi": "10.1200/jco.2025.43.16_suppl.5513",
+      "url": "https://doi.org/10.1200/jco.2025.43.16_suppl.5513",
+      "abstract": "<jats:p>             <jats:bold>5513</jats:bold>           </jats:p>           <jats:p>             <jats:bold>Background:</jats:bold>             Preclinical studies have demonstrated synergism with simultaneous inhibition of the estrogen receptor (ER), CDK4/6 and PI3K pathways. Metformin suppresses PI3K signaling directly via activation of the AMP-activated protein kinase (AMPK) and indirectly via downregulating the insulin/IGF-1 signaling pathway. We conducted a phase 2 study of letrozole/abemaciclib/metformin in ER positive EC.             <jats:bold>Methods:</jats:bold>             Patients (pts) with recurrent ER positive (≥1% immunoreactive tumor nuclei) endometrioid EC, measurable disease, any number of prior therapies and any prior hormonal therapy but no prior CDK4/6 inhibitor received abemaciclib 150 mg PO bid, metformin 500mg PO qd and letrozole 2.5 mg PO qd until progression or unacceptable toxicity. Primary endpoints were objective response (OR) rate (ORR) and progression-free survival (PFS) rate at 6 months (PFS6). A safety lead-in was included, and target accrual was 25 pts; if there were ≥6 ORs or ≥9 pts without disease progression or death at 6 months, letrozole/abemaciclib/metformin would be considered worthy of further investigation. Correlative studies included pharmacokinetic (PK) analyses of metformin alone and in combination with letrozole/abemaciclib, molecular profiling using Oncopanel targeted NGS, and progesterone receptor (PrgR) expression by IHC.             <jats:bold>Results:</jats:bold>             As of 10/4/2024, all 25 pts received protocol therapy. Median follow up was 17 months, median number of prior lines was 2 and 18 (72%) pts had previously received hormonal therapy. Eight pts exhibited OR: 3 complete responses (CRs) and 5 partial responses (PRs),ORR 32% (95% CI 14.9% to 53.5%). Sixteen (64%) pts had stable disease (SD) and 1(4%) pt progressive disease (PD) as best response. Kaplan Meier estimate of PFS6 was 69.7% and median PFS was beyond 19.3 months. Most common G3+ treatment-related toxicities were G3 neutropenia (24%) and G3 fatigue (16%). No pts discontinued therapy because of toxicity. PK analyses demonstrated that metformin plasma concentrations were ~3-fold higher when combined with letrozole/abemaciclib compared to metformin monotherapy. Molecular profiling showed no objective responses in             <jats:italic toggle=\"yes\">TP53</jats:italic>             mutated ECs and no objective responses in pts with NSMP ECs with             <jats:italic toggle=\"yes\">RB1</jats:italic>             or             <jats:italic toggle=\"yes\">CCNE1</jats:italic>             alterations; median PFS was only 3.8 months in these tumors. All objective responses were observed in pts with NSMP ECs without             <jats:italic toggle=\"yes\">RB1</jats:italic>             and             <jats:italic toggle=\"yes\">CCNE1</jats:italic>             alterations; these pts exhibited an ORR of 50% and PFS6 of 87.5%. There were no MMRD and no             <jats:italic toggle=\"yes\">POLE</jats:italic>             -mutated tumors. Responses were observed regardless of PrgR expression.             <jats:bold>Conclusions:</jats:bold>             Addition of metformin (at plasma concentrations sufficient to inhibit the PI3K pathway) to letrozole/abemaciclib is feasible and safe, and appears to induce deeper responses (including complete responses) and more prolonged PFS than letrozole/abemaciclib alone. NSMP tumors without             <jats:italic toggle=\"yes\">RB1</jats:italic>             and             <jats:italic toggle=\"yes\">CCNE1</jats:italic>             alterations derive the most benefit from this regimen.             <jats:related-object document-id=\"NCT03675893\" document-id-type=\"clinical-trial-number\" source-id=\"10.18810/clinical-trials-gov\" source-id-type=\"crossref-doi\" source-type=\"clinical-trials-registry\">               Clinical trial information:               <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.clinicaltrials.gov/ct2/show/NCT03675893\">NCT03675893</jats:ext-link>             </jats:related-object>             .           </jats:p>",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_________::920999c9b47d59d61cdd13f64fadf978"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.18,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.18,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2806956927",
+      "title": "Effects of Metformin on Cellular Proliferation and Steroid Hormone Receptors in Patient-Derived, Low-Grade Endometrial Cancer Cell Lines",
+      "authors": [
+        "Gretchen Collins",
+        "Sam Mesiano",
+        "Analisa DiFeo",
+        "Gretchen, Collins",
+        "Sam, Mesiano",
+        "Analisa, DiFeo"
+      ],
+      "year": 2019,
+      "doi": "10.1177/1933719118779734",
+      "url": "https://doi.org/10.1177/1933719118779734",
+      "abstract": "Endometrial cancer (EC) is the most common gynecologic malignancy and is the result of disruption of the balance between estrogen-stimulated growth and progesterone-induced growth modulation. Metformin has been shown to inhibit EC proliferation; however, its role in early-stage EC and its effects on steroid hormone receptors have not been adequately explored. Our aim was to examine the effects of metformin on cellular proliferation in patient-derived, low-grade EC cell lines and to determine whether it directly modulates steroid hormone receptor expression. Two novel EC cell lines were produced (EM2 and 3) from endometrial tumor tissue obtained from women undergoing surgery. Cellular proliferation was determined by the 3-(4,5-dimethylthiazolyl-2)-2, 5-diphenyltetrazolium bromide assay, and in both cell lines, metformin decreased cell proliferation in a dose-dependent (10-200 µmol/L) manner and induced apoptosis as measured by cleaved PARP. Furthermore, metformin abrogated the effects of E2 on cell proliferation. Using quantitative real-time polymerase chain reaction and Western immunoblotting, metformin significantly decreased estrogen receptor (ER) α messenger RNA abundance but did not consistently affect the expression of progesterone receptor. Estrogen receptor α protein levels significantly decreased across all metformin doses tested, which resulted in a significant decrease in the expression of the ER targets genes Keratin-19 and Wnt-1 inducible signaling pathway 2. In addition, metformin increased phosphorylation of AMPK in a dose-dependent manner (10-200 µmol/L) indicating an effect on mammalian target of rapamycin (mTOR) signaling. Our data suggest that metformin therapy represents a potential fertility-sparing option for women with early-stage EC, given its capacity to inhibit EC cell proliferation, ERα expression, and the mTOR cell proliferation pathway.",
+      "citations": 12,
+      "source_hits": [
+        "openalex",
+        "openaire"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2806956927",
+        "doi_dedup___::679ba933245fbe8cf17a0f0439e0f04a"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1764,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1764,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2043847646",
+      "title": "Metformin: A possible drug for treatment of endometrial cancer",
+      "authors": [
+        "Kosuke Tsuji",
+        "Iori Kisu",
+        "Kouji Banno",
+        "Megumi Yanokura",
+        "Arisa Ueki",
+        "Kenta Masuda",
+        "Yusuke Kobayashi",
+        "Wataru Yamagami",
+        "Hiroyuki Nomura",
+        "Nobuyuki Susumu",
+        "Daisuke Aoki"
+      ],
+      "year": 2012,
+      "doi": "10.4236/ojog.2012.21001",
+      "url": "https://doi.org/10.4236/ojog.2012.21001",
+      "abstract": "Metformin is a widely used first-line drug for treatment of type 2 diabetes mellitus. In recent years, it has been reported that administration of metformin can reduce carcinogenic risk and inhibit proliferation of cancer cells including those from glioma and breast cancer. The underlying mechanism is thought to involve increased LKB-1 phosphorylation induced by metformin, followed by LKB-1 phosphorylation and activation of AMP-activated protein kinase (AMPK), which then inhibits the mammalian target of rapamycin (mTOR) pathway and results in inhibition of cell proliferation. In endometrial cancer, metformin causes cell cycle arrest in vitro, reduces hTERT mRNA, inhibits the mTOR pathway via AMPK, and is involved in inhibition of phosphorylation of S6 ribosomal protein (S6RP). Metformin promotes expression of progesterone receptor by an action opposite to that of insulin-like growth factor-2 (IGF-2) when used in combination with medroxyprogesterone acetate. This enhances the antitumor effect and this approach may be applicable in a clinical setting.",
+      "citations": 8,
+      "source_hits": [
+        "openalex",
+        "openaire"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2043847646",
+        "doi_dedup___::f123ff05138238c57727115ab45f80d1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1677,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1677,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.3892/ol.2020.12112",
+      "title": "Metformin regulation of progesterone receptor isoform‑B expression in human endometrial cancer cells is glucose‑dependent",
+      "authors": [
+        "Sofia Jade Saguyod",
+        "Alhallak, Iad",
+        "Rosalia Simmen",
+        "Michael Velarde",
+        "Saguyod, Sofia Jade U",
+        "Simmen, Rosalia CM",
+        "Velarde, Michael C"
+      ],
+      "year": 2020,
+      "doi": "10.3892/ol.2020.12112",
+      "url": "https://doi.org/10.3892/ol.2020.12112",
+      "abstract": "Metformin (MET) constitutes the first-line treatment against type 2 diabetes. Growing evidence linking insulin resistance and cancer risk has expanded the therapeutic potential of MET to several cancer types. However, the oncostatic mechanisms of MET are not well understood. MET has been shown to promote the expression of progesterone receptor (PGR) and other antitumor biomarkers in patients with non-diabetic endometrial cancer (EC) and in Ishikawa EC cells cultured in normal glucose (5.5 mM) media. Therefore, the present study aimed to assess the effects of MET on EC cells under conditions simulating diabetes. Ishikawa cells treated with 10 nM 17β-estradiol (E2) and/or 100 µM MET and exposed to normal and high (17.5 mM) concentrations of glucose were evaluated for proliferative and PGR expression status. Under normal glucose conditions, MET attenuated E2-induced cell proliferation and cyclin D1 gene expression, and increased total PGR and PGR-B transcript levels. MET inhibited Ishikawa cell spheroid formation only in the absence of E2 treatment. In E2-treated cells under high glucose conditions, MET showed no effects on cell proliferation and spheroid formation, and increased total PGR but not PGR-B transcript levels. Transfection with Krüppel-like factor 9 small interfering RNA increased PGR-A transcript levels, irrespective of glucose environment. Medroxyprogesterone acetate downregulated PGR-A expression more effectively with metformin under high compared with normal glucose conditions. To evaluate the potential mechanisms underlying the targeting of PGR by MET, E2-treated cells were incubated with MET and the AMPK inhibitor Compound C, or with the AMPK activator 5-aminoimidazole-4-carboxamide ribonucleotide (AICAR), under normal glucose conditions. Compound C abrogated the effects of MET on PGR-B while AICAR increased PGR-B transcript levels, albeit less effectively compared with MET. The present results demonstrate the glucose-dependent effects of MET on PGR-B isoform expression, which may inform the response to progestin therapy in diabetic women with EC.",
+      "citations": 1,
+      "source_hits": [
+        "crossref",
+        "openaire"
+      ],
+      "source_ids": [
+        "10.3892/ol.2020.12112",
+        "doi_dedup___::85b223f0fa15807578c052ddcf7d022f"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1665,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1665,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::82e955e2bffe9c2deee911c2def60f43",
+      "title": "Antiproliferative and metabolic effects of metformin in a preoperative window clinical trial for endometrial cancer",
+      "authors": [
+        "Schuler, Kevin M",
+        "Rambally, Brooke S",
+        "DiFurio, Megan J",
+        "Sampey, Brante P",
+        "Gehrig, Paola A",
+        "Makowski, Liza",
+        "Bae-Jump, Victoria L"
+      ],
+      "year": 2014,
+      "doi": "10.17615/511e-md11",
+      "url": "https://doi.org/10.17615/511e-md11",
+      "abstract": "<jats:title>Abstract</jats:title><jats:p>We conducted a preoperative window study of metformin in endometrial cancer (EC) patients and evaluated its antiproliferative, molecular and metabolic effects. Twenty obese women with endometrioid EC were treated with metformin (850 mg) daily for up to 4 weeks prior to surgical staging. Expression of the proliferation marker Ki‐67, estrogen receptor (ER), progesterone receptor (PR), adenosine monophosphate‐activated protein kinase (AMPK), and downstream targets of the mammalian target of rapamycin (<jats:styled-content style=\"fixed-case\">mTOR</jats:styled-content>) pathway were measured by immunohistochemistry. Global, untargeted metabolomics analysis of serum pre‐ and postmetformin treatment, and matched tumor, was performed. Metformin reduced proliferation by 11.75% (<jats:italic>P</jats:italic> = 0.008) based on the comparison of pre‐ and posttreatment endometrial tumors. A total of 65% of patients responded to metformin as defined by a decrease in Ki‐67 staining in their endometrial tumors post‐treatment. Metformin decreased expression of phosphorylated (p)‐AMPK (<jats:italic>P</jats:italic> = 0.00001), p‐Akt (<jats:italic>P</jats:italic> = 0.0002), p‐S6 (51.2%, <jats:italic>P</jats:italic> = 0.0002), p‐4E‐BP‐1 (<jats:italic>P</jats:italic> = 0.001), and ER (<jats:italic>P</jats:italic> = 0.0002) but not PR expression. Metabolomic profiling of serum indicated that responders versus nonresponders to treatment were more sensitive to metformin's effects on induction of lipolysis, which correlated with increased fatty acid oxidation and glycogen metabolism in matched tumors. In conclusion, metformin reduced tumor proliferation in a pre‐operative window study in obese EC patients, with dramatic effects on inhibition of the <jats:styled-content style=\"fixed-case\">mTOR</jats:styled-content> pathway. Metformin induced a shift in lipid and glycogen metabolism that was more pronounced in the serum and tumors of responders versus nonresponders to treatment.This study provides support for therapeutic clinical trials of metformin in obese patients with <jats:styled-content style=\"fixed-case\">EC</jats:styled-content>.</jats:p>",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::82e955e2bffe9c2deee911c2def60f43"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::30bfda6bd57945c0826ae7f5aaaa56ff",
+      "title": "Abstract 5755: PR/AMPK-IGF/PI3K network plays a major role on progestin-resistance in endometrial cancer therapy",
+      "authors": [
+        "Chao Gu",
+        "Weiwei Shan",
+        "Yiling Lu",
+        "Yinhua Yu",
+        "Xiaojun Chen"
+      ],
+      "year": 2012,
+      "doi": "10.1158/1538-7445.am2012-5755",
+      "url": "https://doi.org/10.1158/1538-7445.am2012-5755",
+      "abstract": "<jats:title>Abstract</jats:title>                <jats:p>Progestin-resistance is a main obstacle to the success of conservative therapy in type I young endometrial cancer patients. We have established a progestin-resistant endometrial cancer cell line by long-term induction with gradual increasing of progestin concentration. Our previous study confirmed that progestin activated PI3K/Akt pathway through a non-genomic pathway independent of Progesterone receptor (PR). Blocking PI3K pathway up-regulated PR expression and restored the anti-proliferative effect of medoxyprogesterone acetate (MPA) in progestin-resistant cells. We propose that PI3K/Akt activation may not be the only mechanism of progestin-resistance. To further explore other molecular events leading to progestin-resistance and to search for any possible approaches to reverse this resistance in endometrial cancer, we have characterized functional proteomics by reverse phase protein array (RPPA) in progestin-sensitive and -resistant endometrial cancer cells, and the RPPA results were confirmed by Western blots. Our results demonstrated up-regulation of Insulin-like growth factor-1 receptor (IGF-1R), and down-regulation of IGF binding protein 2 (IGFBP2) and Ataxia Telangiectasia (ATM) [an upstream molecule of adenosine monophosphate-activated kinase (AMPK) pathway] in progestin-resistant cells, suggesting that IGF/AMPK metabolic pathways are involved in progestin-resistance of endometrial cancer therapy. We further identified the differential effects of insulin stimulation on metabolic changes in progestin-sensitive and -resistant cell lines. We found that acute stimulation with high concentration of insulin not only activated PI3K/Akt, but also reduced the expression of PR, EGFR and IGF-1R, and further mediated proliferation of primary endometrial cancer cells. Continually stimulation with insulin reduced MPA-mediated anti-proliferation effect in progestin-sensitive cells, but no effect in progestin-resistant cells, indicating the existing of altered insulin-responsiveness in progestin-resistant cells. Furthermore, Metformin, an insulin-independent AMPK activator and is commonly used as an insulin sensitizer, could restore progestin sensitivity in progestin-resistant endometrial cancer cells. The restoration was demonstrated directly related to the inhibition of PI3K/Akt pathway, activation of AMPK and upregulation of PR transcription. In summary, our study revealed that PR/AMPK-IGF/PI3K network plays an important role on progestin-resistance in endometrial cancer therapy. The combinatory treatment of progestin with PI3K inhibitor, or with AMPK activator-metformin might be an effective conservative approach for endometrial cancer patients who developed progestin-resistance in their therapy.</jats:p>                <jats:p>Citation Format: {Authors}. {Abstract title} [abstract]. In: Proceedings of the 103rd Annual Meeting of the American Association for Cancer Research; 2012 Mar 31-Apr 4; Chicago, IL. Philadelphia (PA): AACR; Cancer Res 2012;72(8 Suppl):Abstract nr 5755. doi:1538-7445.AM2012-5755</jats:p>",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::30bfda6bd57945c0826ae7f5aaaa56ff"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40331195",
+      "title": "Metformin in gynecological disorders: pathogenic insights and therapeutic implications.",
+      "authors": [
+        "Nie P",
+        "Wang M",
+        "Mo Y",
+        "Zhou H",
+        "Zha Q",
+        "Lash GE",
+        "Li P."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fphar.2025.1526709",
+      "url": "https://europepmc.org/article/med/40331195",
+      "abstract": "",
+      "citations": 4,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40331195"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1508,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1508,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40391161",
+      "title": "Endocrine therapy for endometrial cancer: traditional approaches and novel targets.",
+      "authors": [
+        "Guan X",
+        "Tang R",
+        "Yang J."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fonc.2025.1570011",
+      "url": "https://europepmc.org/article/med/40391161",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40391161"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1496,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1496,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40725074",
+      "title": "Role of AMP-Activated Protein Kinase (AMPK) in Female Reproduction: A Review.",
+      "authors": [
+        "Kamar Bashah NA",
+        "Hamid AA",
+        "Adam SH",
+        "Jaffar FHF",
+        "Abd Rahman IZ",
+        "Mokhtar MH."
+      ],
+      "year": 2025,
+      "doi": "10.3390/ijms26146833",
+      "url": "https://europepmc.org/article/med/40725074",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40725074"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1484,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1484,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40900830",
+      "title": "Metformin in polycystic ovary syndrome: unraveling multi-stage therapeutic mechanisms from puberty to long-term health outcomes.",
+      "authors": [
+        "Zeng W",
+        "Luo Y",
+        "Ou J",
+        "Gan D",
+        "Huang M",
+        "Tomlinson B",
+        "Jiang Y."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fphar.2025.1654372",
+      "url": "https://europepmc.org/article/med/40900830",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40900830"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7150/jca.41943",
+      "title": "Estrogen Receptor, Progesterone Receptor, and HER2 Receptor Markers in Endometrial Cancer",
+      "authors": [
+        "Caifeng Wang",
+        "Davis A. Tran",
+        "Melinda Z. Fu",
+        "Wei Chen",
+        "Sidney W. Fu",
+        "Xu Li"
+      ],
+      "year": 2020,
+      "doi": "10.7150/jca.41943",
+      "url": "https://doi.org/10.7150/jca.41943",
+      "abstract": "",
+      "citations": 43,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7150/jca.41943"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1469,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1469,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41301707",
+      "title": "Obesity as a Catalyst for Endometrial Hyperplasia and Cancer Progression: A Narrative Review of Epidemiology, Molecular Pathways, and Prevention.",
+      "authors": [
+        "Ordeanu IM",
+        "Busuioc CJ",
+        "Văduva CC",
+        "Pană RC",
+        "Petrescu AM",
+        "Văruț RM",
+        "Stanciu M",
+        "Popescu M."
+      ],
+      "year": 2025,
+      "doi": "10.3390/biomedicines13112612",
+      "url": "https://europepmc.org/article/med/41301707",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41301707"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41471349",
+      "title": "Sirtuins in Women's Health.",
+      "authors": [
+        "Madhusudhana R",
+        "Hamza A",
+        "Boyle E",
+        "Pollock S",
+        "Cen Y."
+      ],
+      "year": 2025,
+      "doi": "10.3390/ph18121859",
+      "url": "https://europepmc.org/article/med/41471349",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41471349"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41853396",
+      "title": "Beyond Metformin: A Review of Non-pharmacological Treatments for Polycystic Ovary Syndrome.",
+      "authors": [
+        "Lakshmi PI",
+        "Kj S",
+        "Shetty P."
+      ],
+      "year": 2026,
+      "doi": "10.7759/cureus.103619",
+      "url": "https://europepmc.org/article/med/41853396",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41853396"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41737049",
+      "title": "Beyond glycemic control: molecular mechanisms of metformin in modulating cytokine networks in polycystic ovary syndrome.",
+      "authors": [
+        "Ullah A",
+        "Chen Y",
+        "Zhang F",
+        "Shen B."
+      ],
+      "year": 2026,
+      "doi": "10.3389/fendo.2026.1749906",
+      "url": "https://europepmc.org/article/med/41737049",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41737049"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41340874",
+      "title": "Oxidative stress as a nexus: Integrating mitophagy and ferroptosis in endometrial carcinogenesis (Review).",
+      "authors": [
+        "Yu Q",
+        "Ren L",
+        "Ren F",
+        "Li F."
+      ],
+      "year": 2026,
+      "doi": "10.3892/ol.2025.15393",
+      "url": "https://europepmc.org/article/med/41340874",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41340874"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41595747",
+      "title": "Precision Targeted Therapy for PCOS: Emerging Drugs, Translational Challenges, and Future Opportunities.",
+      "authors": [
+        "Wu X",
+        "Yi W",
+        "Liu X."
+      ],
+      "year": 2026,
+      "doi": "10.3390/biomedicines14010213",
+      "url": "https://europepmc.org/article/med/41595747",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41595747"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2404.14353v1",
+      "title": "Electroporation-mediated Metformin for effective anticancer treatment of triple-negative breast cancer cells",
+      "authors": [
+        "Praveen Sahu",
+        "Ignacio G. Camarillo",
+        "Pragatheiswar Giri",
+        "Raji Sundararajan"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2404.14353v1",
+      "abstract": "In this research, we investigated the efficacy of Metformin, the most commonly administered type-2 diabetes drug for triple negative breast cancer (TNBC) treatment, due to its various anticancer properties. It is a plant-based bio-compound, synthesized as a novel biguanide, called dimethyl biguanide or metformin. One of the ways it operates is by hindering electron transport chain-complex I, in mitochondria, which causes a drop-in energy (ATP) generation. This eventually builds energetic stress and a decline in energy. Therefore, the natural cellular processes and proliferating tumor cells are obstructed. Here, we used electroporation, where, the MDA-MB-231, human TNBC cells were subjected to high intensity, short-duration electrical pulses (EP) in the presence of Metformin. The cell viability results indicate lower cell viability of 43.45% as compared to 85.20% with drug alone at 5mM concentration. This indicates that Metformin, the most common diabetes drug could also be explored for cancer treatment.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2404.14353v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.biopha.2018.10.128",
+      "title": "Metformin inhibits estradiol and progesterone-induced decidualization of endometrial stromal cells by regulating expression of progesterone receptor, cytokines and matrix metalloproteinases",
+      "authors": [
+        "Fang Xiong",
+        "Juxia Xiao",
+        "Yinyang Bai",
+        "Yun Zhang",
+        "Qiuping Li",
+        "Xu Lishuang"
+      ],
+      "year": 2019,
+      "doi": "10.1016/j.biopha.2018.10.128",
+      "url": "https://doi.org/10.1016/j.biopha.2018.10.128",
+      "abstract": "",
+      "citations": 31,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/j.biopha.2018.10.128"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.62347/ekgs3484",
+      "title": "Metformin combined with progesterone improves efficacy and reduces adverse reactions in early endometrial cancer",
+      "authors": [
+        "Junfei Li"
+      ],
+      "year": 2026,
+      "doi": "10.62347/ekgs3484",
+      "url": "https://doi.org/10.62347/ekgs3484",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.62347/ekgs3484"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2416919152",
+      "title": "[Metformin--new treatment strategies for gynecologic neoplasms].",
+      "authors": [
+        "Tomasz Milewicz",
+        "Марта Кялка",
+        "Sandra Mrozińska",
+        "Agnieszka Ociepka",
+        "J Krzysiek",
+        "Tomasz, Milewicz",
+        "Marta, Kiałka",
+        "Sandra, Mrozińska",
+        "Agnieszka, Ociepka",
+        "Józef, Krzysiek"
+      ],
+      "year": 2013,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23879009",
+      "abstract": "Metformin, a drug from the biguanide class, is now one of the most widely used drugs in the treatment of type 2 diabetes. This drug was also used in the treatment of polycystic ovarian syndrome and recent reports indicate the possibility of using this drug in oncology. Latest findings show that metformin has an anticancer effect. Influencing the transduction mechanisms primarily through activation of protein kinase activated by 5'AMP (AMPK) regulates the activity of the AMPK/mTOR signaling pathway. MTOR pathway dysregulation may be a factor in the pathogenesis of various human diseases, especially cancers. Overactivation of mTOR is observed in malignant cells and is associated with their resistance to treatment. It can therefore be concluded that metformin as an inhibitor of mTOR may be a factor that suppresses tumor development. There are also studies showing that metformin prevents the formation of metastases, reducing tumor vasculature and improves the effectiveness of anticancer drugs. The anticancer effect of metformin has been proven in the treatment of colorectal and breast cancer. The current studies reports the positive effects in the treatment of gynecological cancers such as ovarian, endometrial and cervical cancer. Incidence for these tumors in 2009 in Poland was: for ovarian cancer 11.01100000; for endometrial cancer 15.0/100000; for cervical cancer 10.5/100000. Metformin has antitumor activity in monotherapy and also synergistically with other anticancer agents. Metformin has antiproliferative properties; reduces the VEGF levels, causing a reduction in tumor vasculature; causes an increase in progesterone receptor, which increases the response to hormonal therapy; inhibits the expression of glyoxalase I, mediating resistance to chemotherapy; decreases in the concentration of human telomerase; reduces the activity of Akt and Erk kinases, key regulators of metabolism and progression of tumors and also inhibits the formation of metastases.",
+      "citations": 5,
+      "source_hits": [
+        "openalex",
+        "openaire"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2416919152",
+        "pmid________::179c566658deaf295c652e72dacbbeab"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1367,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1367,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2111.10661v1",
+      "title": "Divergent Evolution of Progesterone and Mineralocorticoid Receptors in Terrestrial Vertebrates and Fish Influences Endocrine Disruption",
+      "authors": [
+        "Michael E. Baker"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2111.10661v1",
+      "abstract": "There is much concern about disruption of endocrine physiology regulated by steroid hormones in humans, other terrestrial vertebrates and fish by industrial chemicals, such as bisphenol A, and pesticides, such as DDT. These endocrine-disrupting chemicals influence steroid-mediated physiology in humans and other vertebrates by competing with steroids for receptor binding sites, disrupting diverse responses involved in reproduction, development and differentiation. Here I discuss that due to evolution of the progesterone receptor (PR) and mineralocorticoid receptor (MR) after ray-finned fish and terrestrial vertebrates diverged from a common ancestor, each receptor evolved to respond to different steroids in ray-finned fish and terrestrial vertebrates. In elephant shark, a cartilaginous fish, ancestral to ray-finned fish and terrestrial vertebrates, both progesterone and 17,20dihydroxyprogesterone activate the PR. During the evolution of ray-finned fish and terrestrial vertebrates, the PR in terrestrial vertebrates continued responding to progesterone and evolved to weakly respond to 17,20dihydroxyprogesterone. In contrast, the physiological progestin for the PR in zebrafish and other ray-finned fish is 17,20dihydroxyprogesterone, and ray-finned fish PR responds weakly to progesterone. The MR in fish and terrestrial vertebrates also diverged to have different responses to progesterone.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2111.10661v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2310.15099v1",
+      "title": "Dual-path convolutional neural network using micro-FTIR imaging to predict breast cancer subtypes and biomarkers levels: estrogen receptor, progesterone receptor, HER2 and Ki67",
+      "authors": [
+        "Matheus del-Valle",
+        "Emerson Soares Bernardes",
+        "Denise Maria Zezell"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2310.15099v1",
+      "abstract": "Breast cancer molecular subtypes classification plays an import role to sort patients with divergent prognosis. The biomarkers used are Estrogen Receptor (ER), Progesterone Receptor (PR), HER2, and Ki67. Based on these biomarkers expression levels, subtypes are classified as Luminal A (LA), Luminal B (LB), HER2 subtype, and Triple-Negative Breast Cancer (TNBC). Immunohistochemistry is used to classify subtypes, although interlaboratory and interobserver variations can affect its accuracy, besides being a time-consuming technique. The Fourier transform infrared micro-spectroscopy may be coupled with deep learning for cancer evaluation, where there is still a lack of studies for subtypes and biomarker levels prediction. This study presents a novel 2D deep learning approach to achieve these predictions. Sixty micro-FTIR images of 320x320 pixels were collected from a human breast biopsies microarray. Data were clustered by K-means, preprocessed and 32x32 patches were generated using a fully automated approach. CaReNet-V2, a novel convolutional neural network, was developed to classify breast cancer (CA) vs adjacent tissue (AT) and molecular subtypes, and to predict biomarkers level. The clustering method enabled to remove non-tissue pixels. Test accuracies for CA vs AT and subtype were above 0.84. The model enabled the prediction of ER, PR, and HER2 levels, where borderline values showed lower performance (minimum accuracy of 0.54). Ki67 percentage regression demonstrated a mean error of 3.6%. Thus, CaReNet-V2 is a potential technique for breast cancer biopsies evaluation, standing out as a screening analysis technique and helping to prioritize patients.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2310.15099v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.09626v1",
+      "title": "Regulation by Progestins, Corticosteroids and RU486 of Activation of Elephant Shark and Human Progesterone Receptors: An Evolutionary Perspec",
+      "authors": [
+        "Xiaozhi Lin",
+        "Wataru Takagi",
+        "Susumu Hyodo",
+        "Shigeho Ijiri",
+        "Yoshinao Katsu",
+        "Michael E. Baker"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.09626v1",
+      "abstract": "We investigated progestin and corticosteroid activation of the progesterone receptor (PR) from elephant shark (Callorhinchus milii), a cartilaginous fish belonging to the oldest group of jawed vertebrates. Comparison with human PR experiments provides insights into the evolution of steroid activation of human PR. At 1 nM steroid, elephant shark PR is activated by progesterone, 17-hydroxy-progesterone, 20beta-hydroxy-progesterone, 11-deoxycorticosterone (21-hydroxyprogesterone) and 11-deoxycortisol. At 1 nM steroid, human PR is activated only by progesterone and11-deoxycorticosterone indicating increased specificity for progestins and corticosteroids during the evolution of human PR. RU486, an important clinical antagonist of human PR, did not inhibit progesterone activation of elephant shark PR. Cys-528 in elephant shark PR corresponds to Gly-722 in human PR, which is essential for RU486 inhibition of human PR. Confirming the importance of this site on elephant shark PR, RU486 inhibited progesterone activation of the Cys528Gly mutant PR. There also was a decline in activation of elephant shark Cys528Gly PR by 11-deoxycortisol, 17-hydroxy-progesterone and 20beta-hydroxy-progesterone and an increase in activation of human Gly722Cys PR by 11-deoxycortisol and decreased activation by corticosterone. One or more of these changes may have selected for the mutation corresponding to human glycine-722 PR that first evolved in platypus PR, a basal mammal.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.09626v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.cancergencyto.2007.02.002",
+      "title": "Down-regulation of the progesterone receptor by the methylation of progesterone receptor gene in endometrial cancer cells",
+      "authors": [
+        "Yun Ren",
+        "Xishi Liu",
+        "Duan Ma",
+        "Youji Feng",
+        "Nanbert Zhong"
+      ],
+      "year": 2007,
+      "doi": "10.1016/j.cancergencyto.2007.02.002",
+      "url": "https://doi.org/10.1016/j.cancergencyto.2007.02.002",
+      "abstract": "",
+      "citations": 42,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/j.cancergencyto.2007.02.002"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1326,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1326,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7554/elife.66034.sa0",
+      "title": "Editor's evaluation: Chromatin topology defines estradiol-primed progesterone receptor and PAX2 binding in endometrial cancer cells",
+      "authors": [
+        "Inez Rogatsky"
+      ],
+      "year": 2021,
+      "doi": "10.7554/elife.66034.sa0",
+      "url": "https://doi.org/10.7554/elife.66034.sa0",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7554/elife.66034.sa0"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.132,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.132,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f",
+      "title": "Heterogeneity and progesterone-receptor distribution in endometrial adenocarcinoma",
+      "authors": [
+        "Rodrigue Mortel",
+        "Richard Zaino",
+        "Pondichery G. Satyaswaroop"
+      ],
+      "year": 1984,
+      "doi": "10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f",
+      "url": "https://doi.org/10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f",
+      "abstract": "",
+      "citations": 34,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1284,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1284,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2001.07822v1",
+      "title": "Progesterone: An Enigmatic Ligand for the Mineralocorticoid Receptor",
+      "authors": [
+        "Michael E. Baker",
+        "Yoshinao Katsu"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2001.07822v1",
+      "abstract": "The progesterone receptor (PR) mediates progesterone regulation of female reproductive physiology, as well as gene transcription in non-reproductive tissues, such as brain, bone, lung and vasculature, in both women and men. An unusual property of progesterone is its high affinity for the mineralocorticoid receptor (MR), which regulates electrolyte transport in the kidney in humans and other terrestrial vertebrates. In humans, rats, alligators and frogs, progesterone antagonizes activation of the MR by aldosterone, the physiological mineralocorticoid in terrestrial vertebrates. In contrast, in elephant shark, ray-finned fishes and chickens, progesterone activates the MR. Interestingly, cartilaginous fishes and ray-finned fishes do not synthesize aldosterone, raising the question of which steroid(s) activate the MR in cartilaginous fishes and ray-finned fishes. The simpler synthesis of progesterone, compared to cortisol and other corticosteroids, makes progesterone a candidate physiological activator of the MR in elephant sharks and ray-finned fishes. Elephant shark and ray-finned fish MRs are expressed in diverse tissues, including heart, brain and lung, as well as, ovary and testis, two reproductive tissues that are targets for progesterone, which together suggests a multi-faceted physiological role for progesterone activation of the MR in elephant shark and ray-finned fish. The functional consequences of progesterone as an antagonist of some terrestrial vertebrate MRs and as an agonist of fish and chicken MRs are not fully understood. Indeed, little is known of physiological activities of progesterone via any vertebrate MR.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2001.07822v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1808.07539v1",
+      "title": "Transcriptional Activation of Elephant Shark Mineralocorticoid Receptor by Corticosteroids, Progesterone and Spironolactone",
+      "authors": [
+        "Yoshinao Katsu",
+        "Satomi Kohno",
+        "Kaori Oka",
+        "Xiaozhi Lin",
+        "Sumika Otake",
+        "Nisha E. Pillai",
+        "Wataru Takagi",
+        "Susumu Hyodo",
+        "Byrappa Venkatesh",
+        "Michael E. Baker"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1808.07539v1",
+      "abstract": "We report the analysis of activation by corticosteroids and progesterone of full-length mineralocorticoid receptor (MR) from elephant shark, a cartilaginous fish belonging to the oldest group of jawed vertebrates. Based on their measured activities, aldosterone, cortisol, 11-deoxycorticosterone, corticosterone, 11-deoxcortisol, progesterone and 19-norprogesterone are potential physiological mineralocorticoids. However, aldosterone, the physiological mineralocorticoid in humans and other terrestrial vertebrates, is not found in cartilaginous or ray-finned fishes. Because progesterone is a precursor for corticosteroids that activate elephant shark MR, we propose that progesterone was an ancestral ligand for elephant shark MR. Although progesterone activates ray-finned fish MRs, progesterone does not activate human, amphibian or alligator MRs, suggesting that during the transition to terrestrial vertebrates, progesterone lost the ability to activate the MR. Comparison of RNA-sequence analysis of elephant shark MR with that of human MR suggests that MR expression in the human brain, heart, ovary, testis and other non-epithelial tissues evolved in cartilaginous fishes. Together, these data suggest that progesterone-activated MR may have unappreciated functions in elephant shark ovary and testis.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1808.07539v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.26226/morressier.57d6b2bad462b8028d88ed36",
+      "title": "Cation-Selective Transporters are Central to AMPK-Mediated Anti-proliferative Efficacy of Metformin in Endometrial Cancer Cells",
+      "authors": [
+        "Derek Bolhuis"
+      ],
+      "year": 2016,
+      "doi": "10.26226/morressier.57d6b2bad462b8028d88ed36",
+      "url": "https://doi.org/10.26226/morressier.57d6b2bad462b8028d88ed36",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.26226/morressier.57d6b2bad462b8028d88ed36"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.26226/morressier.5b6d513c5aff74007b2b48d3",
+      "title": "Progesterone Receptor and PTEN mutation as predictive factors of response to hormone therapy in metastatic endometrial cancer.",
+      "authors": [
+        "Mathias Neron",
+        "Eric Lambaudie"
+      ],
+      "year": 2018,
+      "doi": "10.26226/morressier.5b6d513c5aff74007b2b48d3",
+      "url": "https://doi.org/10.26226/morressier.5b6d513c5aff74007b2b48d3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.26226/morressier.5b6d513c5aff74007b2b48d3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.159/table-3",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.159/table-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.159/table-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.159/table-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.7254/fig-3",
+      "title": "Figure 3: Progesterone levels in rats treated with and without oestrogen receptor antagonist.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.7254/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.7254/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.7254/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10433/fig-3",
+      "title": "Figure 3: Comparison of protein expression of DLGAP5 in normal endometrial tissues and endometrial cancer tissues.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10433/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10433/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10433/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-1",
+      "title": "Table 1: Characteristics of the women with endometrial hyperplasia or endometrial cancer from 2009 to 2012.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20409/fig-3",
+      "title": "Figure 3: MRS2 drives endometrial cancer malignancy.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20409/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20409/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20409/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/fig-1",
+      "title": "Figure 1: The annual trends in the endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2010.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.159/fig-3",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.159/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.159/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.159/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-2",
+      "title": "Table 2: The endometrial hyperplasia and endometrial cancer incidence rates from 2009 to 2012 stratified according to 5-year age increments.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16424/supp-5",
+      "title": "Supplemental Information 5: Raw data for advanced endometrial cancer",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16424/supp-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16424/supp-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16424/supp-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/0304-3835(88)90173-5",
+      "title": "Progesterone receptor heterogeneity and endometrial tumour differentiation",
+      "authors": [
+        "C. Cheng",
+        "C. Bui",
+        "M. Cauchi"
+      ],
+      "year": 1988,
+      "doi": "10.1016/0304-3835(88)90173-5",
+      "url": "https://doi.org/10.1016/0304-3835(88)90173-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/0304-3835(88)90173-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

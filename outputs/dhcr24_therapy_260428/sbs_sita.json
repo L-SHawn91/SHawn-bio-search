@@ -1,0 +1,1165 @@
+{
+  "query": "sitagliptin DPP4 DHCR24 gestational trophoblastic methotrexate resistance",
+  "effective_query": "sitagliptin DPP4 DHCR24 gestational trophoblastic methotrexate resistance",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 32,
+  "warnings": [
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "pubmed",
+      "id": "pmid:34926239",
+      "pmid": "34926239",
+      "title": "DPP4 Regulates DHCR24-Mediated Cholesterol Biosynthesis to Promote Methotrexate Resistance in Gestational Trophoblastic Neoplastic Cells.",
+      "authors": [
+        "Weijie Yuan",
+        "Wenjing Yong",
+        "Jing Zhu",
+        "Dazun Shi"
+      ],
+      "authors_detail": [],
+      "first_author": "",
+      "year": 2021,
+      "doi": "10.3389/fonc.2021.704024",
+      "journal": "Frontiers in oncology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34926239/",
+      "abstract": "<jats:p>Metabolic reprogramming could promote cellular adaptation in response to chemotherapeutic drugs in cancer cells. Herein, we aimed to characterize the metabolomic profiles regulated by Dipeptidyl Peptidase 4 (DPP4) in methotrexate (MTX)-resistant gestational trophoblastic neoplastic (GTN) cells. A total of eighty metabolites were found to be commonly altered in DPP4-depleted JAR/MTX and JEG3/MTX cells. Cholesterol biosynthesis-related metabolites were markedly impacted by DPP4 knockdown in MTX-resistant sublines. Manipulation of DPP4 expression remarkably affected the level of cellular cholesterol in GTN cells. Our analysis also identified 24-Dehydrocholesterol Reductase (DHCR24) as a potential downstream effector of DPP4. Manipulation of DHCR24 expression affected cellular cholesterol level, reactive oxygen species (ROS) accumulation, and chemosensitivity to MTX in GTN cell models. In addition, over-expression of DHCR24 could markedly restore cellular cholesterol level and rescue cell survival in DPP4-depleted MTX-resistant GTN cells. Highly correlated expression of DPP4 and DHCR24 was observed in clinical GTN specimens. Further, DPP4 inhibitor sitagliptin effectively inhibited cholesterol biosynthesis, reduced DHCR24 expression and enhanced MTX-induced cytotoxicity <jats:italic>in vitro</jats:italic> and <jats:italic>in vivo</jats:italic>. In conclusion, our findings suggested that DPP4 might regulate DHCR24-mediated cholesterol biosynthesis to promote methotrexate resistance in GTN cells. Targeting DPP4/DHCR24 signaling might help to sensitize MTX-resistant GTN to MTX treatment.</jats:p>",
+      "mesh_terms": [],
+      "citations": 8,
+      "source_hits": [
+        "pubmed",
+        "europe_pmc",
+        "openalex",
+        "doaj",
+        "openaire",
+        "crossref"
+      ],
+      "source_ids": [
+        "pmid:34926239",
+        "34926239",
+        "https://openalex.org/W4200339485",
+        "587493bbb8fb44678f0c0e97b15d5dfb",
+        "doi_dedup___::34d042cb4736dab747bd7da1d7dc1f38",
+        "10.3389/fonc.2021.704024"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 1.0,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1863,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1863,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4417435892",
+      "title": "Comprehensive Insights into Obesity and Type 2 Diabetes from Protein Network, Canonical Pathway, Phosphorylation and Antimicrobial Peptide Signatures of Human Serum",
+      "authors": [
+        "Petra Magdolna Bertalan",
+        "Erdenetsetseg Nokhoijav",
+        "Ádám Pap",
+        "George C. Neagu",
+        "Miklós Káplár",
+        "Zsuzsanna Darula",
+        "Gergő Kalló",
+        "László Prókai",
+        "Éva Csősz"
+      ],
+      "year": 2025,
+      "doi": "10.3390/proteomes13040067",
+      "url": "https://doi.org/10.3390/proteomes13040067",
+      "abstract": "Our comprehensive proteomic and phosphoproteomic profiling reveals overlapping yet distinct molecular signatures in obesity and T2D, emphasizing inflammation, complement activation and phosphorylation-driven signaling as central mechanisms that potentially contribute to disease progression and therapeutic targeting.",
+      "citations": 1,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4417435892"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1862,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1862,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.20944/preprints202601.1987.v1",
+      "title": "Methotrexate Toxicity &amp; Dactinomycin Resistance During Treatment for Benign Gestational Trophoblastic Disease: Case Report and Management with Combination Therapy",
+      "authors": [
+        "Nafeesa Zamurd"
+      ],
+      "year": 2026,
+      "doi": "10.20944/preprints202601.1987.v1",
+      "url": "https://doi.org/10.20944/preprints202601.1987.v1",
+      "abstract": ">Background: Gestational trophoblastic disease GTD is a rare group of malignant and benign tumors that results from the abnormal proliferation of placental tissue after conception in women. In the United States, GTD occurs in 1 in 1000 pregnancies. Case: A 35-year-old female presented to the emergency room due to concerns about a rise in bHCG levels three times. The patient was pregnant, and an evacuation due to suspicion of a bladder mole was performed at 8 weeks and 5 days of pregnancy. There was cramp-like pain in the lower abdomen and dizziness. Tatts-hCG showed an increase from 279,000 to 426,000 IU/L. Ultrasound before the evacuation confirmed a morphologically spotted hydatidiform mole. Intervention: The patient was initiated on a four-day regimen of low-dose methotrexate administered every 2 weeks, as per National Comprehensive Cancer Network guidelines. It is the first case ever reported in Norway in which the patient's voice was affected due to methotrexate hypersensitivity. Due to persistent reaction to methotrexate patient was switched to a 4-day regimen of dactinomycin. Due to dactinomycin resistance, the patient was switched to combination therapy, which includes EMA-CO etoposide, dactinomycin, cyclophosphamide, and vincristine without methotrexate. Outcome: Patient completely recovered from benign gestational trophoblastic disease and her bHCG levels normalized (&lt;0.2 IU/L) within five months.Conclusion: This study concluded that proper monitoring of bHCG levels and early detection of methotrexate toxicity and dactinomycin resistance are important to achieve complete recovery in GTD with reduced risk of morbidity. This study also determined that EMA-CO is the best choice of combination therapy regimen in case of methotrexate toxicity/dactinomycin resistance, low-risk GTD, and high-risk GTD. >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.20944/preprints202601.1987.v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.18,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.18,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.6490",
+      "title": "Incidence of gestational trophoblastic disease in South Korea: a longitudinal, population-based study",
+      "authors": [
+        "Jin-Sung Yuk",
+        "Jong Chul Baek",
+        "Ji Eun Park",
+        "Hyen Chul Jo",
+        "Ji Kwon Park",
+        "In Ae Cho"
+      ],
+      "year": 2019,
+      "doi": "10.7717/peerj.6490",
+      "journal": "PeerJ",
+      "url": "https://doi.org/10.7717/peerj.6490",
+      "abstract": "Introduction We investigated the rate and longitudinal trends of gestational trophoblastic disease (GTD) incidence in the Republic of Korea between 2009 and 2015 using population-based data. Materials and Methods Data of patients diagnosed with GTD from 2009 to 2015 were obtained from the Health Insurance Review and Assessment Service/National Inpatient Sample (HIRA-NIS) in the Republic of Korea. The HIRA annually provides the HIRA-NIS, a collection of clinical data from over one million people. For each year, the HIRA-NIS extracted records of 13% of patients admitted at any one time during the year and 1% of all remaining patients using the weighted sample method. Results Medical records of 370,117 women with at least one pregnancy (GTD, ectopic pregnancy, abortion, or delivery) were extracted from a total of 4,476,495 records. Of these, 372 episodes of GTD were identified in women with a mean age of 35.4 ± 0.7 years. The incidence rate of GTD was 130 ± 10 cases per 100,000 pregnancies, which was classified as hydatidiform mole (HM), invasive mole, or malignant neoplasm of the placenta with incidence rates of 110 ± 10, 20 ± 0, or 10 ± 0 cases per 100,000 pregnancies, respectively. Incidence of GTD was lowest among women in their late 20 s and early 30 s. Occurrences of HM accounted for 80.3% all GTD cases. Weighted logistic analysis indicated that while age significantly affected the incidence of GTD (odds ratio (OR): 2.46; 95% confidence interval (CI) [1.79–3.37]; P &lt; 0.001), socioeconomic status did not (OR: 1.94; 95% CI [1.0–3.79]; P = 0.05). Conclusions In the Republic of Korea, we observed overall incidence rates of GTD and HM of 1.3 and 1.1 per 1,000 pregnancies, respectively, which are similar to those reported in recent Western population-based studies. We also noted that annual incidence rates of GTD stabilized from 2009 to 2015.",
+      "citations": 26,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.6490"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1797,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1797,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4200100873",
+      "title": "DataSheet_1_DPP4 Regulates DHCR24-Mediated Cholesterol Biosynthesis to Promote Methotrexate Resistance in Gestational Trophoblastic Neoplastic Cells.pdf",
+      "authors": [
+        "Weijie Yuan (490086)",
+        "Wenjing Yong (11779802)",
+        "Jing Zhu (27724)",
+        "Dazun Shi (8772230)"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fonc.2021.704024.s001",
+      "url": "https://figshare.com/articles/dataset/DataSheet_1_DPP4_Regulates_DHCR24-Mediated_Cholesterol_Biosynthesis_to_Promote_Methotrexate_Resistance_in_Gestational_Trophoblastic_Neoplastic_Cells_pdf/17109446",
+      "abstract": "&lt;p&gt;Metabolic reprogramming could promote cellular adaptation in response to chemotherapeutic drugs in cancer cells. Herein, we aimed to characterize the metabolomic profiles regulated by Dipeptidyl Peptidase 4 (DPP4) in methotrexate (MTX)-resistant gestational trophoblastic neoplastic (GTN) cells. A total of eighty metabolites were found to be commonly altered in DPP4-depleted JAR/MTX and JEG3/MTX cells. Cholesterol biosynthesis-related metabolites were markedly impacted by DPP4 knockdown in MTX-resistant sublines. Manipulation of DPP4 expression remarkably affected the level of cellular cholesterol in GTN cells. Our analysis also identified 24-Dehydrocholesterol Reductase (DHCR24) as a potential downstream effector of DPP4. Manipulation of DHCR24 expression affected cellular cholesterol level, reactive oxygen species (ROS) accumulation, and chemosensitivity to MTX in GTN cell models. In addition, over-expression of DHCR24 could markedly restore cellular cholesterol level and rescue cell survival in DPP4-depleted MTX-resistant GTN cells. Highly correlated expression of DPP4 and DHCR24 was observed in clinical GTN specimens. Further, DPP4 inhibitor sitagliptin effectively inhibited cholesterol biosynthesis, reduced DHCR24 expression and enhanced MTX-induced cytotoxicity in vitro and in vivo. In conclusion, our findings suggested that DPP4 might regulate DHCR24-mediated cholesterol biosynthesis to promote methotrexate resistance in GTN cells. Targeting DPP4/DHCR24 signaling might help to sensitize MTX-resistant GTN to MTX treatment.&lt;/p&gt;",
+      "citations": 0,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4200100873"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.177,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.177,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.22541/au.164864245.58187877/v1",
+      "title": "Predicting factors associated with resistance to initial Methotrexate treatment in women with low-risk gestational trophoblastic neoplasia: a retrospective study",
+      "authors": [
+        "Rattiya Phianpiset",
+        "IRENE RUENGKHACHORN",
+        "Sompop Kuljarusnont",
+        "Nida Jareemit",
+        "Suthipol Udompunturak"
+      ],
+      "year": 2022,
+      "doi": "10.22541/au.164864245.58187877/v1",
+      "url": "https://doi.org/10.22541/au.164864245.58187877/v1",
+      "abstract": ">Objectives To compare clinical characteristics and factors predictive of resistance to initial treatment with Methotrexate-folinic acid (MTX-FA) in women with low-risk gestational trophoblastic neoplasia (GTN). Design A retrospective study Setting A tertiary center Populations Patients diagnosed with low-risk GTN. Methods: Demographic data, disease characteristics, treatment response, toxicity and data of the subsequent pregnancy were collected and analyzed. Main outcome measures Groups of patients who were responsive or resistance to treatment were compared. Stepwise logistic regression analysis was used to identify factors predictive of resistance to Methotrexate chemotherapy. Results Totally, 113 patients were eligible for analysis. The primary remission rate was 55.8% with first-line MTX-FA. All others patients achieved remission by subsequent treatment with Actinomycin D or multiple-agents chemotherapy. Relapse of disease was found in 4.4% and the overall survival rate was 99.1%. Univariate analysis showed that pre-treatment serum hCG, neutrophil-to-lymphocyte ratio at baseline, and serum hCG ratio of the first three consecutive cycles (C) were significantly associated with resistance to MTX-FA. Independent factors that predict failure to respond to first-line MTX-FA were pre-treatment serum hCG ≥15,000 IU/L (OR 3.95; 95%CI = 1.48-10.52; p=0.006), a less than 4.8-fold reduction of serum hCG between cycle 1 and cycle 2 (C1/C2) (OR 4.08; 95%CI = 1.60-10.39; p=0.003), and a less than 7-fold reduction of serum hCG from cycle 2 to cycle 3 (C2/C3) (OR 10.15; 95%CI = 3.10-33.30; p >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.22541/au.164864245.58187877/v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.172,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.172,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1703.07987v1",
+      "title": "Development and characterization of Brassica juncea fruticulosa introgression lines exhibiting resistance to mustard aphid",
+      "authors": [
+        "Chhaya Atri",
+        "Bharti Kumar",
+        "Hitesh Kumar",
+        "Sanjula Sharma",
+        "Surinder S. Banga"
+      ],
+      "year": 2017,
+      "doi": "10.1186/1471-2156-13-104",
+      "url": "http://arxiv.org/abs/1703.07987v1",
+      "abstract": "Background: Mustard aphid is a major pest of Brassica oilseeds. No source for aphid resistance is presently available in Brassica juncea . A wild crucifer, Brassica fruticulosa is known to be resistant to mustard aphid. An artificially synthesized amphiploid, AD-4 (B. fruticulosa x B. rapa var. brown sarson) was developed for use as a bridge species to transfer fruticulosa resistance to B. juncea. Using the selfed backcross we could select a large number of lines with resistance to mustard aphid. This paper reports cytogenetic stability of introgression lines, molecular evidence for alien introgression and their reaction to mustard aphid infestation. Results: Majority of introgression lines had expected euploid chromosome number(2n= 36), showed normal meiosis and high pollen grain fertility. Well-distributed and transferable simple-sequence repeats (SSR) markers for all the 18 B. juncea chromosomes helped to characterize introgression events. Average proportions of recipient and donor genome in the substitution lines were 49.72 and 35.06%, respectively. Minimum alien parent genome presence (27.29%) was observed in the introgression line, Ad3K-280 . Introgressed genotypes also varied for their resistance responses to mustard aphid infestations under artificial release conditions for two continuous seasons. Some of the test genotypes showed consistent resistant reaction. Conclusions: B.juncea-fruticulosa introgression set may prove to be a very powerful breeding tool for aphid resistance related QTL/gene discovery and fine mapping of the desired genes/QTLs to facilitate marker assisted transfer of identified gene(s) for mustard aphid resistance in the background of commercial mustard genotypes.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1703.07987v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2603.02704v1",
+      "title": "Intelligent Pathological Diagnosis of Gestational Trophoblastic Diseases via Visual-Language Deep Learning Model",
+      "authors": [
+        "Yuhang Liu",
+        "Yueyang Cang",
+        "Wenge Que",
+        "Xinru Bai",
+        "Xingtong Wang",
+        "Kuisheng Chen",
+        "Jingya Li",
+        "Xiaoteng Zhang",
+        "Xinmin Li",
+        "Lixia Zhang",
+        "Pingge Hu",
+        "Qiaoting Xie",
+        "Peiyu Xu",
+        "Xianxu Zeng",
+        "Li Shi"
+      ],
+      "year": 2026,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2603.02704v1",
+      "abstract": "The pathological diagnosis of gestational trophoblastic disease(GTD) takes a long time, relies heavily on the experience of pathologists, and the consistency of initial diagnosis is low, which seriously threatens maternal health and reproductive outcomes. We developed an expert model for GTD pathological diagnosis, named GTDoctor. GTDoctor can perform pixel-based lesion segmentation on pathological slides, and output diagnostic conclusions and personalized pathological analysis results. We developed a software system, GTDiagnosis, based on this technology and conducted clinical trials. The retrospective results demonstrated that GTDiagnosis achieved a mean precision of over 0.91 for lesion detection in pathological slides (n=679 slides). In prospective studies, pathologists using GTDiagnosis attained a Positive Predictive Value of 95.59% (n=68 patients). The tool reduced average diagnostic time from 56 to 16 seconds per case (n=285 patients). GTDoctor and GTDiagnosis offer a novel solution for GTD pathological diagnosis, enhancing diagnostic performance and efficiency while maintaining clinical interpretability.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2603.02704v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2604.01385v1",
+      "title": "Strategies for tumor elimination and control under immune evasion and chemotherapy resistance",
+      "authors": [
+        "Nazanin Mokari",
+        "Bryce Morsky"
+      ],
+      "year": 2026,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2604.01385v1",
+      "abstract": "The evolutionary and ecological dynamics of tumors under immune responses and therapeutic interventions pose major challenges to long-term treatment success. Although treatment may initially achieve short-term disease control, resistant cancer cell subpopulations often arise, leading to relapse with more aggressive and treatment-resistant forms of the disease. Here, we develop and analyze mathematical models describing the interactions among effector cells, chemo-resistant tumor cells, and immuno-resistant tumor cells under distinct immune-evasion strategies. The models incorporate competition and cooperation between resistant and sensitive tumor subpopulations. We identify threshold conditions governing tumor persistence, elimination, and phenotype dominance under varying therapeutic intensities. These findings provide a theoretical framework for designing targeted and combination therapies and offer insights into strategies for mitigating the treatment resistance.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2604.01385v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2510.05920v1",
+      "title": "Deciphering the Role of Acetate in Metabolic Adaptation and Osimertinib Resistance in Non-Small Cell Lung Cancer",
+      "authors": [
+        "Giorgia Maroni",
+        "Eva Cabrera San Millan",
+        "Beatrice Campanella",
+        "Massimo Onor",
+        "Giovanni Cercignani",
+        "Beatrice Muscatello",
+        "Giulia Braccini",
+        "Raffaella Mercatelli",
+        "Alice Chiodi",
+        "Ettore Mosca",
+        "Elena Levantini",
+        "Emilia Bramanti"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2510.05920v1",
+      "abstract": "Aims. Resistance to targeted therapies remains a major challenge in EGFR-mutant non-small cell lung cancer (NSCLC). Here, we describe a novel metabolic adaptation in osimertinib-resistant cells characterized by elevated acetate levels and activation of an unconventional pyruvate-acetaldehyde-acetate (PAA) shunt. Methods. Integrated transcriptomic, exometabolomic, and functional analyses reveal suppression of canonical metabolic pathways and upregulation of ALDH2 and ALDH7A1, that mediate the NADP+-dependent oxidation of acetaldehyde to acetate, generating NADPH. Results. This shift generates reducing power essential for biosynthesis and redox balance under conditions of oxidative pentose phosphate inhibition. These metabolic changes promote endurance in resistant cells and rewire the interplay between glycolysis, the pentose phosphate pathway, and the tricarboxylic acid cycle, offering a de novo bypass for anaplerosis and bioenergetics. Systematic metabolite profiling revealed distinct transcriptomic and metabolic signatures distinguishing resistant from drug sensitive parental cells. Conclusions. Together, these findings depict a unique, resistance-driven adaptive metabolic shift and uncover potential therapeutic vulnerabilities in osimertinib-resistant NSCLC.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2510.05920v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.62347/zucg8140",
+      "title": "Risk factors for methotrexate resistance in low-risk gestational trophoblastic neoplasia patients (FIGO score 0-4)",
+      "authors": [
+        "Tianzhe Jin"
+      ],
+      "year": 2024,
+      "doi": "10.62347/zucg8140",
+      "url": "https://doi.org/10.62347/zucg8140",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.62347/zucg8140"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1409,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1409,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11818v1",
+      "title": "Contagion-Preserving Network Sparsifiers: Exploring Epidemic Edge Importance Utilizing Effective Resistance",
+      "authors": [
+        "Alexander Mercier"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11818v1",
+      "abstract": "Network epidemiology has become a vital tool in understanding the effects of high-degree vertices, geographic and demographic communities, and other inhomogeneities in social structure on the spread of disease. However, many networks derived from modern datasets are quite dense, such as mobility networks where each location has links to a large number of potential destinations. One way to reduce the computational effort of simulating epidemics on these networks is sparsification, where we select a representative subset of edges based on some measure of their importance. Recently an approach was proposed using an algorithm based on the effective resistance of the edges. We explore how effective resistance is correlated with the probability that an edge transmits disease in the SI model. We find that in some cases these two notions of edge importance are well correlated, making effective resistance a computationally efficient proxy for the importance of an edge to epidemic spread. In other cases, the correlation is weaker, and we discuss situations in which effective resistance is not a good proxy for epidemic importance.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11818v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1611.02242v2",
+      "title": "Temperature and Humidity Dependence of Resistance in Nano-Diamond Powder",
+      "authors": [
+        "B. de Mayo"
+      ],
+      "year": 2016,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1611.02242v2",
+      "abstract": "The electrical resistance of detonation nano-diamond powders was measured from liquid nitrogen temperature to room temperature and in relative humidity environments from around 10% to 100%. After sample exposures of several hours at 100% relative humidity at room temperature (around 295 K), when the temperature was reduced, the resistance increased to the upper measurement limit of our apparatus (120 MΩ) at around 240 K. Upon warming, the resistance dropped back to the room temperature value, with some hysteresis. For sample exposures after several hours at 100% relative humidity at room temperature, as the relative humidity was reduced, the sample resistance increased to the upper range limit of the apparatus. As the relative humidity was then increased (all at room temperature), the resistance dropped. For samples exposed to low (~10%) relative humidity for several hours at room temperature, as the humidity was increased (at room temperature), the resistance decreased, and then increased when the humidity was reduced. The temperature behavior was markedly differ from that of powdered graphite and multi-walled carbon nano tubes.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1611.02242v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1902.10487v1",
+      "title": "Learning to measure resistance noise demystifies the ubiquitous 1/f excess noise",
+      "authors": [
+        "Jose-Ignacio Izpura"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1902.10487v1",
+      "abstract": "To study resistance noise (DeltaR) by a spectrum analyzer we must convert this noise into a noise voltage (DeltaV) at the reach of such generalized voltmeter. Whenever a current Iconv is set in a resistor to convert its resistance noise into noise voltage by Ohm's Law: DeltaV=DeltaR*Iconv, the converted noise thus obtained does not track DeltaRte (its resistance noise in Thermal Equilibrium, TE) but DeltaR, that is: a resistance noise out of TE due to Iconv itself. Thus, backgating noises in the channel of resistors (i. e. Field-Induced Resistance Noise, FIRN) found by this method always are noises out of TE. The way the Lorentzian DeltaRte of a resistor is converted by Iconv into nine decades of resistance noise DeltaR with 1/f spectrum is the lesson we give on this unexpected spectral change that we could express as: \"To measure is to disturb, particularly in resistance noise measurements\".",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1902.10487v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1709.07985v1",
+      "title": "Newborn skin reflection: Proof of concept for a new approach for predicting gestational age at birth. A cross-sectional study",
+      "authors": [
+        "Zilma Silveira Nogueira Reis",
+        "Gabriela Luiza Nogueira Vitral",
+        "Ingrid Michelle Fonseca de Souza",
+        "Maria Albertina Santiago Rego",
+        "Rodney Nascimento Guimaraes"
+      ],
+      "year": 2017,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1709.07985v1",
+      "abstract": "Current methods to assess the gestational age during prenatal care or at birth are a global challenge. Disadvantages, such as low accessibility, high costs, and imprecision of clinical tests and ultrasonography measurements, may compromise health decisions at birth, based on the gestational age. Newborns organs and tissues can indirectly indicate their physical maturity, and we hypothesized that evolutionary changes in their skin, detected using an optoelectronic device meter, may aid in estimating the gestational age. This study analyzed the feasibility of using newborn skin reflectance to estimate the gestational age at birth noninvasively. A cross-sectional study evaluated the skin reflectance of selected infants, preferably premature, at birth. The first-trimester ultrasound was the reference for gestational age. A prototype of a new noninvasive optoelectronic device measured the backscattering of light from the skin, using a light emitting diode at wavelengths of 470 nm, 575 nm, and 630 nm. Univariate and multivariate regression analysis models were employed to predict gestational age, combining skin reflectance with clinical variables for gestational age estimation. The gestational age at birth of 115 newborns from 24.1 to 41.8 weeks of gestation correlated with the light at 630 nm wavelength reflectance 3.3 mm/6.5 mm ratio distant of the sensor, at the forearm and sole . The best-combined variables to predict the gold standard gestational age at birth was the skin reflectance at wavelengths of 630 nm and 470 nm in combination with birth weight, phototherapy, and adjusted to include incubator stay, and sex. The main limitation of the study is that it was very specific to the premature population we studied and needs to be studied in a broader spectrum of newborns.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1709.07985v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1602.00271v3",
+      "title": "Josephson-like Colossal Resistive Switching in Nanocrystalline Y-Ba-Cu-O at Room Temperature",
+      "authors": [
+        "Guanmei Wang",
+        "Mark J. Raine",
+        "Damian P. Hampshire"
+      ],
+      "year": 2016,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1602.00271v3",
+      "abstract": "In this paper, we present data for two nanocrystalline YBa2Cu3O7-x (YBCO) samples which both exhibit Josephson-like Colossal Resistive Switching (JCRS) in voltage-current (V-I) traces from 4.2 K up to room temperature, in magnetic fields up to 8 T. We report Josephson-like hysteresis for both positive and negative current that has not been observed before in colossal resistive switching materials. Non-zero resistance was measured in transport measurements at all temperatures. At low temperatures (< 90 K), we also observed the usual properties for YBCO including weak superconducting and paramagnetic behavior, measured using ac susceptibility and magnetization measurements. The resistivity of these nanocrystalline samples is 3 orders of magnitude higher than standard polycrystalline materials at 300 K and the temperature dependence semiconductor-like. We cannot rule out the possibility that these materials contain a superconducting component responsible for the JCRS behavior at room temperature.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1602.00271v3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.26226/morressier.5d2ee8e71e09a6f49485a902",
+      "title": "4 - ABCB1 AND SCLO1B1 GENE POLYMORPHISMS PREDICT METHOTREXATE-RESISTANCE IN LOW-RISK GESTATIONAL TROPHOBLASTIC NEOPLASIA",
+      "authors": [
+        "Manasawee Srisuttayasathien",
+        "Ruangsak Lertkhachonsuk",
+        "nutthada areepium"
+      ],
+      "year": 2019,
+      "doi": "10.26226/morressier.5d2ee8e71e09a6f49485a902",
+      "url": "https://doi.org/10.26226/morressier.5d2ee8e71e09a6f49485a902",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.26226/morressier.5d2ee8e71e09a6f49485a902"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1007/s40278-020-79665-6",
+      "title": "Methotrexate",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.1007/s40278-020-79665-6",
+      "url": "https://doi.org/10.1007/s40278-020-79665-6",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1007/s40278-020-79665-6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.26226/morressier.599bdc79d462b80296ca1f88",
+      "title": "Cost utility analysis of methotrexate versus actinomycin-D in low risk gestational trophoblastic neoplasia",
+      "authors": [
+        "Geisler John"
+      ],
+      "year": 2017,
+      "doi": "10.26226/morressier.599bdc79d462b80296ca1f88",
+      "url": "https://doi.org/10.26226/morressier.599bdc79d462b80296ca1f88",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.26226/morressier.599bdc79d462b80296ca1f88"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1136/ijgc-2019-igcs.89",
+      "title": "89 ABCB1 and SCLO1B1 gene polymorphisms predict methotrexate-resistance in low-risk gestational trophoblastic neoplasia",
+      "authors": [
+        "M Srisuttayasathien",
+        "R Lertkhachonsuk",
+        "N Areepium"
+      ],
+      "year": 2019,
+      "doi": "10.1136/ijgc-2019-igcs.89",
+      "url": "https://doi.org/10.1136/ijgc-2019-igcs.89",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1136/ijgc-2019-igcs.89"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1002/cca.1519",
+      "title": "How does methotrexate compare with actinomycin D for the treatment of low-risk gestational trophoblastic neoplasia?",
+      "authors": [],
+      "year": 2017,
+      "doi": "10.1002/cca.1519",
+      "url": "https://doi.org/10.1002/cca.1519",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1002/cca.1519"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1305.5500v2",
+      "title": "A Characterization of Approximation Resistance",
+      "authors": [
+        "Subhash Khot",
+        "Madhur Tulsiani",
+        "Pratik Worah"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1305.5500v2",
+      "abstract": "A predicate f:{-1,1}^k -> {0,1} with ρ(f) = \\frac{|f^{-1}(1)|}{2^k} is called {\\it approximation resistant} if given a near-satisfiable instance of CSP(f), it is computationally hard to find an assignment that satisfies at least ρ(f)+Ω(1) fraction of the constraints. We present a complete characterization of approximation resistant predicates under the Unique Games Conjecture. We also present characterizations in the {\\it mixed} linear and semi-definite programming hierarchy and the Sherali-Adams linear programming hierarchy. In the former case, the characterization coincides with the one based on UGC. Each of the two characterizations is in terms of existence of a probability measure with certain symmetry properties on a natural convex polytope associated with the predicate.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1305.5500v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.6490/table-3",
+      "title": "Table 3: Multivariate logistic regression analysis of risk factors for gestational trophoblastic disease.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.6490/table-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.6490/table-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.6490/table-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.6490/table-1",
+      "title": "Table 1: Annual gestational trophoblastic disease cases in South Korea from 2009 to 2015.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.6490/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.6490/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.6490/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.6490/table-2",
+      "title": "Table 2: Estimated gestational trophoblastic disease rates per 100,000 total pregnancies from 2009 to 2015 in the Republic of Korea.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.6490/table-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.6490/table-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.6490/table-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.6490/fig-1",
+      "title": "Figure 1: Trending incidence rates of gestational trophoblastic disease, hydatidiform mole, invasive hydatidiform mole, and malignant neoplasm of the placenta in South Korea from 2009 to 2015.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.6490/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.6490/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.6490/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj-achem.4/supp-15",
+      "title": "Supplemental Information 9: Raw data Fig. 5 DPP4 activity",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj-achem.4/supp-15",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj-achem.4/supp-15",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj-achem.4/supp-15"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.3283/supp-4",
+      "title": "Data S4: Raw data of plasma DPP4 activity analysis",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.3283/supp-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.3283/supp-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.3283/supp-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.3283/table-1",
+      "title": "Table 1: Anthraquinone compounds inhibit DPP4 activity.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.3283/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.3283/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.3283/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.3283/fig-3",
+      "title": "Figure 3: Docking model reveals the binding mode of emodin to DPP4 protein.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.3283/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.3283/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.3283/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.3283/fig-1",
+      "title": "Figure 1: Emodin was found to inhibit DPP4 activity after screening a natural compound library.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.3283/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.3283/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.3283/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.ygyno.2014.03.505",
+      "title": "Type I interferons modulate methotrexate resistance in gestational trophoblastic neoplasia",
+      "authors": [
+        "K.M. Elias",
+        "K. Hasselblatt",
+        "S.W. Ng",
+        "R.S. Berkowitz"
+      ],
+      "year": 2014,
+      "doi": "10.1016/j.ygyno.2014.03.505",
+      "url": "https://doi.org/10.1016/j.ygyno.2014.03.505",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/j.ygyno.2014.03.505"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1204,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1204,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

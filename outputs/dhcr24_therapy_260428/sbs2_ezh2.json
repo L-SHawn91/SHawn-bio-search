@@ -1,0 +1,2126 @@
+{
+  "query": "EZH2 progesterone receptor endometrial cancer methylation",
+  "effective_query": "EZH2 progesterone receptor endometrial cancer methylation",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 59,
+  "warnings": [],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2099869529",
+      "title": "Aberrations of <i>EZH2</i> in Cancer",
+      "authors": [
+        "Andrew Chase",
+        "Nicholas C.P. Cross"
+      ],
+      "year": 2011,
+      "doi": "10.1158/1078-0432.ccr-10-2156",
+      "url": "https://doi.org/10.1158/1078-0432.ccr-10-2156",
+      "abstract": "Control of gene expression is exerted at a number of different levels, one of which is the accessibility of genes and their controlling elements to the transcriptional machinery. Accessibility is dictated broadly by the degree of chromatin compaction, which is influenced in part by polycomb group proteins. EZH2, together with SUZ12 and EED, forms the polycomb repressive complex 2 (PRC2), which catalyzes trimethylation of histone H3 lysine 27 (H3K27me3). PRC2 may recruit other polycomb complexes, DNA methyltransferases, and histone deacetylases, resulting in additional transcriptional repressive marks and chromatin compaction at key developmental loci. Overexpression of EZH2 is a marker of advanced and metastatic disease in many solid tumors, including prostate and breast cancer. Mutation of EZH2 Y641 is described in lymphoma and results in enhanced activity, whereas inactivating mutations are seen in poor prognosis myeloid neoplasms. No histone demethylating agents are currently available for treatment of patients, but 3-deazaneplanocin (DZNep) reduces EZH2 levels and H3K27 trimethylation, resulting in reduced cell proliferation in breast and prostate cancer cells in vitro. Furthermore, synergistic effects are seen for combined treatment with DNA demethylating agents and histone deacetylation inhibitors, opening up the possibility of refined epigenetic treatments in the future.",
+      "citations": 553,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2099869529"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2985810567",
+      "title": "Consensus on the key characteristics of endocrine-disrupting chemicals as a basis for hazard identification",
+      "authors": [
+        "Michele A. La Merrill",
+        "Laura N. Vandenberg",
+        "Martyn T. Smith",
+        "William H. Goodson",
+        "Patience Browne",
+        "Heather B. Patisaul",
+        "Kathryn Z. Guyton",
+        "Andreas Kortenkamp",
+        "Vincent James Cogliano",
+        "Tracey J. Woodruff",
+        "Linda Rieswijk",
+        "Hideko Sone",
+        "Kenneth S. Korach",
+        "Andrea C. Gore",
+        "Lauren Zeise",
+        "R. Thomas Zoeller"
+      ],
+      "year": 2019,
+      "doi": "10.1038/s41574-019-0273-8",
+      "url": "https://doi.org/10.1038/s41574-019-0273-8",
+      "abstract": "Endocrine-disrupting chemicals (EDCs) are exogenous chemicals that interfere with hormone action, thereby increasing the risk of adverse health outcomes, including cancer, reproductive impairment, cognitive deficits and obesity. A complex literature of mechanistic studies provides evidence on the hazards of EDC exposure, yet there is no widely accepted systematic method to integrate these data to help identify EDC hazards. Inspired by work to improve hazard identification of carcinogens using key characteristics (KCs), we have developed ten KCs of EDCs based on our knowledge of hormone actions and EDC effects. In this Expert Consensus Statement, we describe the logic by which these KCs are identified and the assays that could be used to assess several of these KCs. We reflect on how these ten KCs can be used to identify, organize and utilize mechanistic data when evaluating chemicals as EDCs, and we use diethylstilbestrol, bisphenol A and perchlorate as examples to illustrate this approach.",
+      "citations": 932,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2985810567"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2158207797",
+      "title": "Epigenetic gene silencing in cancer: the DNA hypermethylome",
+      "authors": [
+        "Manel Esteller"
+      ],
+      "year": 2007,
+      "doi": "10.1093/hmg/ddm018",
+      "url": "https://doi.org/10.1093/hmg/ddm018",
+      "abstract": "Epigenetic gene inactivation in transformed cells involves many 'belts of silencing'. One of the best-known lesions of the malignant cell is the transcriptional repression of tumor-suppressor genes by promoter CpG island hypermethylation. We are in the process of completing the molecular dissection of the entire epigenetic machinery involved in methylation-associated silencing, such as DNA methyltransferases, methyl-CpG binding domain proteins, histone deacetylases, histone methyltransferases, histone demethylases and Polycomb proteins. The first indications are also starting to emerge about how the combination of cellular selection and targeted pathways leads to abnormal DNA methylation. One thing is certain already, promoter CpG island hypermethylation of tumor-suppressor genes is a common hallmark of all human cancers. It affects all cellular pathways with a tumor-type specific profile, and in addition to classical tumor-suppressor and DNA repair genes, it includes genes involved in premature aging and microRNAs with growth inhibitory functions. The importance of hypermethylation events is already in evidence at the bedside of cancer patients in the form of cancer detection markers and chemotherapy predictors, and in the approval of epigenetic drugs for the treatment of hematological malignancies. In the very near future, the synergy of candidate gene approaches and large-scale epigenomic technologies, such as methyl-DIP, will yield the complete DNA hypermethylome of cancer cells.",
+      "citations": 717,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2158207797"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2159810380",
+      "title": "Prostate cancer progression after androgen deprivation therapy: mechanisms of castrate resistance and novel therapeutic approaches",
+      "authors": [
+        "Theodoros Karantanos",
+        "Paul G. Corn",
+        "Timothy C. Thompson"
+      ],
+      "year": 2013,
+      "doi": "10.1038/onc.2013.206",
+      "url": "https://doi.org/10.1038/onc.2013.206",
+      "abstract": "Prostate cancer is the second-leading cause of cancer-related mortality in men in Western societies. Androgen receptor (AR) signaling is a critical survival pathway for prostate cancer cells, and androgen-deprivation therapy (ADT) remains the principal treatment for patients with locally advanced and metastatic disease. Although a majority of patients initially respond to ADT, most will eventually develop castrate resistance, defined as disease progression despite serum testosterone levels of <20 ng/dl. The recent discovery that AR signaling persists during systemic castration via intratumoral production of androgens led to the development of novel anti-androgen therapies including abiraterone acetate and enzalutamide. Although these agents effectively palliate symptoms and prolong life, metastatic castration-resistant prostate cancer remains incurable. An increased understanding of the mechanisms that underlie the pathogenesis of castrate resistance is therefore needed to develop novel therapeutic approaches for this disease. The aim of this review is to summarize the current literature on the biology and treatment of castrate-resistant prostate cancer.",
+      "citations": 870,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2159810380"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4397293886",
+      "title": "Tumor biomarkers for diagnosis, prognosis and targeted therapy",
+      "authors": [
+        "Yue Zhou",
+        "Lei Tao",
+        "Jiahao Qiu",
+        "Jing Xu",
+        "Xinyu Yang",
+        "Yu Zhang",
+        "Xinyu Tian",
+        "Xinqi Guan",
+        "Xiaobo Cen",
+        "Yinglan Zhao"
+      ],
+      "year": 2024,
+      "doi": "10.1038/s41392-024-01823-2",
+      "url": "https://doi.org/10.1038/s41392-024-01823-2",
+      "abstract": "Tumor biomarkers, the substances which are produced by tumors or the body's responses to tumors during tumorigenesis and progression, have been demonstrated to possess critical and encouraging value in screening and early diagnosis, prognosis prediction, recurrence detection, and therapeutic efficacy monitoring of cancers. Over the past decades, continuous progress has been made in exploring and discovering novel, sensitive, specific, and accurate tumor biomarkers, which has significantly promoted personalized medicine and improved the outcomes of cancer patients, especially advances in molecular biology technologies developed for the detection of tumor biomarkers. Herein, we summarize the discovery and development of tumor biomarkers, including the history of tumor biomarkers, the conventional and innovative technologies used for biomarker discovery and detection, the classification of tumor biomarkers based on tissue origins, and the application of tumor biomarkers in clinical cancer management. In particular, we highlight the recent advancements in biomarker-based anticancer-targeted therapies which are emerging as breakthroughs and promising cancer therapeutic strategies. We also discuss limitations and challenges that need to be addressed and provide insights and perspectives to turn challenges into opportunities in this field. Collectively, the discovery and application of multiple tumor biomarkers emphasized in this review may provide guidance on improved precision medicine, broaden horizons in future research directions, and expedite the clinical classification of cancer patients according to their molecular biomarkers rather than organs of origin.",
+      "citations": 584,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4397293886"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3017786087",
+      "title": "Role of PI3K/AKT pathway in cancer: the framework of malignant behavior",
+      "authors": [
+        "Ningni Jiang",
+        "Qijie Dai",
+        "Xiaorui Su",
+        "Jianjiang Fu",
+        "Xuancheng Feng",
+        "Juan Peng"
+      ],
+      "year": 2020,
+      "doi": "10.1007/s11033-020-05435-1",
+      "url": "https://doi.org/10.1007/s11033-020-05435-1",
+      "abstract": "Given that the PI3K/AKT pathway has manifested its compelling influence on multiple cellular process, we further review the roles of hyperactivation of PI3K/AKT pathway in various human cancers. We state the abnormalities of PI3K/AKT pathway in different cancers, which are closely related with tumorigenesis, proliferation, growth, apoptosis, invasion, metastasis, epithelial-mesenchymal transition, stem-like phenotype, immune microenvironment and drug resistance of cancer cells. In addition, we investigated the current clinical trials of inhibitors against PI3K/AKT pathway in cancers and found that the clinical efficacy of these inhibitors as monotherapy has so far been limited despite of the promising preclinical activity, which means combinations of targeted therapy may achieve better efficacies in cancers. In short, we hope to feature PI3K/AKT pathway in cancers to the clinic and bring the new promising to patients for targeted therapies.",
+      "citations": 569,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3017786087"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4214672693",
+      "title": "Roles of transposable elements in the regulation of mammalian transcription",
+      "authors": [
+        "Raquel Fueyo",
+        "Julius Judd",
+        "Cédric Feschotte",
+        "Joanna Wysocka"
+      ],
+      "year": 2022,
+      "doi": "10.1038/s41580-022-00457-y",
+      "url": "https://doi.org/10.1038/s41580-022-00457-y",
+      "abstract": "",
+      "citations": 457,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4214672693"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.3078,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3078,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2341474791",
+      "title": "DNA methylation outliers in normal breast tissue identify field defects that are enriched in cancer",
+      "authors": [
+        "Andrew E. Teschendorff",
+        "Yang Gao",
+        "Allison Jones",
+        "Matthias Ruebner",
+        "Matthias W. Beckmann",
+        "David L. Wachter",
+        "Peter A. Fasching",
+        "Martin Widschwendter"
+      ],
+      "year": 2016,
+      "doi": "10.1038/ncomms10478",
+      "url": "https://doi.org/10.1038/ncomms10478",
+      "abstract": "Identifying molecular alterations in normal tissue adjacent to cancer is important for understanding cancer aetiology and designing preventive measures. Here we analyse the DNA methylome of 569 breast tissue samples, including 50 from cancer-free women and 84 from matched normal cancer pairs. We use statistical algorithms for dissecting intra- and inter-sample cellular heterogeneity and demonstrate that normal tissue adjacent to breast cancer is characterized by tens to thousands of epigenetic alterations. We show that their genomic distribution is non-random, being strongly enriched for binding sites of transcription factors specifying chromatin architecture. We validate the field defects in an independent cohort and demonstrate that over 30% of the alterations exhibit increased enrichment within matched cancer samples. Breast cancers highly enriched for epigenetic field defects, exhibit adverse clinical outcome. Our data support a model where clonal epigenetic reprogramming towards reduced differentiation in normal tissue is an important step in breast carcinogenesis.",
+      "citations": 288,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2341474791"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2802,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2802,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2892334610",
+      "title": "Mechanisms for estrogen receptor expression in human cancer",
+      "authors": [
+        "Hui Hua",
+        "Hongying Zhang",
+        "Qingbin Kong",
+        "Yangfu Jiang"
+      ],
+      "year": 2018,
+      "doi": "10.1186/s40164-018-0116-7",
+      "url": "https://doi.org/10.1186/s40164-018-0116-7",
+      "abstract": "Estrogen is a steroid hormone that has critical roles in reproductive development, bone homeostasis, cardiovascular remodeling and brain functions. However, estrogen also promotes mammary, ovarian and endometrial tumorigenesis. Estrogen antagonists and drugs that reduce estrogen biosynthesis have become highly successful therapeutic agents for breast cancer patients. The effects of estrogen are largely mediated by estrogen receptor (ER) α and ERβ, which are members of the nuclear receptor superfamily of transcription factors. The mechanisms underlying the aberrant expression of ER in breast cancer and other types of human tumors are complex, involving considerable alternative splicing of ERα and ERβ, transcription factors, epigenetic and post-transcriptional regulation of ER expression. Elucidation of mechanisms for ER expression may not only help understand cancer progression and evolution, but also shed light on overcoming endocrine therapy resistance. Herein, we review the complex mechanisms for regulating ER expression in human cancer.",
+      "citations": 217,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2892334610"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.2518,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2518,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2530383509",
+      "title": "Nuclear receptors outside the nucleus: extranuclear signalling by steroid receptors",
+      "authors": [
+        "Ellis R. Levin",
+        "Stephen R. Hammes"
+      ],
+      "year": 2016,
+      "doi": "10.1038/nrm.2016.122",
+      "url": "https://doi.org/10.1038/nrm.2016.122",
+      "abstract": "",
+      "citations": 274,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2530383509"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.2346,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2346,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "737b19142b012bf401014781755513fca91a7e2f",
+      "title": "Regulation of progesterone receptor expression in endometriosis, endometrial cancer, and breast cancer by estrogen, polymorphisms, transcription factors, epigenetic alterations, and ubiquitin-proteasome system.",
+      "authors": [
+        "Huijie Pu",
+        "Xiaosha Wen",
+        "Dixian Luo",
+        "Zifen Guo"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.jsbmb.2022.106199",
+      "url": "https://www.semanticscholar.org/paper/737b19142b012bf401014781755513fca91a7e2f",
+      "abstract": "The uterus and breasts are hormone-responsive tissues. Progesterone and estradiol regulate gonadotropin secretion, prepare the endometrium for implantation, maintain pregnancy, and regulate the differentiation of breast tissue. Dysregulation of these hormones causes endometriosis, endometrial cancer, and breast cancer, damaging the physical and mental health of women. Emerging evidence has shown that progesterone resistance or elevated progesterone activity is the primary hormonal substrate of these diseases. Since progesterone acts through its specific nuclear receptor, the abnormal expression of the progesterone receptor (PR) dysregulates progesterone function. This review discusses the regulatory mechanisms of PR expression in patients with endometriosis, and endometrial or breast cancer, including estrogen, polymorphisms, transcription factors, epigenetics, and the ubiquitin-proteasome system. (1) Estrogen promotes the expression of PRA (a PR isoform) mRNA and protein through the interaction of estrogen receptors (ERs) and Sp1 with half-ERE/Sp1 binding sites. ERs also affect the binding of Sp1 and Sp1 sites to promote the expression of PRB (another PR isoform)(2) PR polymorphisms, mainly PROGINS and +331G/A polymorphism, regulate PR expression by affecting DNA methylation and transcription factor binding. (3) The influence of epigenetic alterations on PR expression occurs through DNA methylation, histone modification, and microRNA. (4) As one of the main protein degradation pathways in vivo, the ubiquitin-proteasome system (UPS) regulates PR expression by participating in protein degradation. These mechanisms may provide new molecular targets for diagnosing and treating endometriosis, endometrial, and breast cancer.",
+      "citations": 44,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "737b19142b012bf401014781755513fca91a7e2f"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1756,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1756,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "188cc2983778c7d22c94420fbee98b15a6d13e38",
+      "title": "Progesterone Receptor Membrane Component (PGRMC)1 and PGRMC2 and Their Roles in Ovarian and Endometrial Cancer",
+      "authors": [
+        "J. Peluso",
+        "J. Pru"
+      ],
+      "year": 2021,
+      "doi": "10.3390/cancers13235953",
+      "url": "https://www.semanticscholar.org/paper/188cc2983778c7d22c94420fbee98b15a6d13e38",
+      "abstract": "Simple Summary Ovarian and endometrial cancers occur frequently and can be lethal. Recently, progesterone receptor membrane component (PGRMC) 1 and PGRMC2 have been shown to be highly expressed in these cancers and play important roles in promoting tumor growth and chemoresistance. This review will focus on the mechanisms through which these two PGRMC family members influence the growth of ovarian and endometrial cancers. The mechanisms highlighted in this review could also provide insights into the roles that these PGRMCs play in regulating the fate of other PGRMC-expressing cancers such as lung, breast, and pancreatic cancer. Abstract Cancers of the female reproductive tract are both lethal and highly prevalent. For example, the five-year survival rate of women diagnosed with ovarian cancer is still less than 50%, and endometrial cancer is the fourth most common cancer in women with > 65,000 new cases in the United States in 2020. Among the many genes already established as key participants in ovarian and endometrial oncogenesis, progesterone receptor membrane component (PGRMC)1 and PGRMC2 have gained recent attention given that there is now solid correlative information supporting a role for at least PGRMC1 in enhancing tumor growth and chemoresistance. The expression of PGRMC1 is significantly increased in both ovarian and endometrial cancers, similar to that reported in other cancer types. Xenograft studies using human ovarian and endometrial cancer cell lines in immunocompromised mice demonstrate that reduced expression of PGRMC1 results in tumors that grow substantially slower. While the molecular underpinnings of PGRMCs’ mechanisms of action are not clearly established, it is known that PGRMCs regulate survival pathways that attenuate stress-induced cell death. The objective of this review is to provide an overview of what is known about the roles that PGRMC1 and PGRMC2 play in ovarian and endometrial cancers, particularly as related to the mechanisms through which they regulate mitosis, apoptosis, chemoresistance, and cell migration.",
+      "citations": 23,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "188cc2983778c7d22c94420fbee98b15a6d13e38"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1672,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1672,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "b37348c27677724678a8bc50fa00c760e01639a5",
+      "title": "Chromatin topology defines estradiol-primed progesterone receptor and PAX2 binding in endometrial cancer cells",
+      "authors": [
+        "A. La Greca",
+        "N. Bellora",
+        "François le Dily",
+        "Rodrigo Jara",
+        "A. Nacht",
+        "Javier Quilez Oliete",
+        "José Luis Villanueva",
+        "E. Vidal",
+        "G. Merino",
+        "C. Fresno",
+        "Inti Tarifa Reischle",
+        "Griselda Vallejo",
+        "G. Vicent",
+        "E. Fernández",
+        "M. Beato",
+        "P. Saragüeta"
+      ],
+      "year": 2022,
+      "doi": "10.7554/eLife.66034",
+      "url": "https://www.semanticscholar.org/paper/b37348c27677724678a8bc50fa00c760e01639a5",
+      "abstract": "Estrogen (E2) and Progesterone (Pg), via their specific receptors (ERalpha and PR), are major determinants in the development and progression of endometrial carcinomas, However, their precise mechanism of action and the role of other transcription factors involved are not entirely clear. Using Ishikawa endometrial cancer cells, we report that E2 treatment exposes a set of progestin-dependent PR binding sites which include both E2 and progestin target genes. ChIP-seq results from hormone-treated cells revealed a non-random distribution of PAX2 binding in the vicinity of these estrogen-promoted PR sites. Altered expression of hormone regulated genes in PAX2 knockdown cells suggests a role for PAX2 in fine-tuning ERalpha and PR interplay in transcriptional regulation. Analysis of long-range interactions by Hi-C coupled with ATAC-seq data showed that these regions, that we call ‘progestin control regions’ (PgCRs), exhibited an open chromatin state even before hormone exposure and were non-randomly associated with regulated genes. Nearly 20% of genes potentially influenced by PgCRs were found to be altered during progression of endometrial cancer. Our findings suggest that endometrial response to progestins in differentiated endometrial tumor cells results in part from binding of PR together with PAX2 to accessible chromatin regions. What maintains these regions open remains to be studied.",
+      "citations": 16,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "b37348c27677724678a8bc50fa00c760e01639a5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1644,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1644,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "9b943712e51d28f9a606a5fbd4694b8e51216f31",
+      "title": "Genistein induces long-term expression of progesterone receptor regardless of estrogen receptor status and improves the prognosis of endometrial cancer patients",
+      "authors": [
+        "K. Yoriki",
+        "Taisuke Mori",
+        "Kohei Aoyama",
+        "Y. Tarumi",
+        "H. Kataoka",
+        "T. Kokabu",
+        "J. Kitawaki"
+      ],
+      "year": 2022,
+      "doi": "10.1038/s41598-022-13842-6",
+      "url": "https://www.semanticscholar.org/paper/9b943712e51d28f9a606a5fbd4694b8e51216f31",
+      "abstract": "Progesterone is used to treat uterine endometrial cancer in young patients wishing to preserve their fertility as well as in advanced or recurrent patients, but its response rate is limited. The antitumor effect of progesterone is mediated by progesterone receptor (PR) binding. Hence, loss of progesterone’s therapeutic effect, i.e., development of progesterone resistance, is mainly due to decreased PR expression. However, little is known about underlying mechanisms that regulate PR expression. Immunohistochemistry analysis of specimens from 31 young, endometrial cancer patients showed that elevated PR expression significantly increased (P < 0.05) rates of progression-free and overall survival. We investigated mechanisms of regulating PR expression and suppressing cell proliferation using genistein, a chemotherapeutic agent against different cancers. Genistein inhibits cell growth by inducing cell cycle arrest in G2 and apoptosis; moreover, it upregulates prolonged expression of PR-B and forkhead box protein O1, regardless of estrogen receptor alpha expression in endometrial cancer cells. Genistein-induced PR expression decreases CCAAT/enhancer binding protein beta expression and activates c-Jun N-terminal kinase pathway, rather than causing epigenetic alterations of the PR promoter. Therefore, increased PR expression is an important antitumor effect of genistein. This may help to improve the response rates of fertility-sparing treatments for young patients.",
+      "citations": 14,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "9b943712e51d28f9a606a5fbd4694b8e51216f31"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1636,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1636,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "a9e75a9feb6c1556ce547c9dfad28b732b7d6692",
+      "title": "Utilizing an Endogenous Progesterone Receptor Reporter Gene for Drug Screening and Mechanistic Study in Endometrial Cancer",
+      "authors": [
+        "Yiyang Li",
+        "Wei Zhou",
+        "Xiangbing Meng",
+        "S.D. Murray",
+        "Long Li",
+        "Abby Fronk",
+        "Vanessa J Lazaro-Camp",
+        "Kuo-kuang Wen",
+        "Mengzi Wu",
+        "A. Dupuy",
+        "K. Leslie",
+        "Shujie Yang"
+      ],
+      "year": 2022,
+      "doi": "10.3390/cancers14194883",
+      "url": "https://www.semanticscholar.org/paper/a9e75a9feb6c1556ce547c9dfad28b732b7d6692",
+      "abstract": "Simple Summary In this study, we generate an innovative endogenous progesterone receptor (PR) reporter gene containing endometrial cancer cell lines and use this tool to visualize PR expression in real-time. We also demonstrated two strategies of using this reporter gene: (1). Drug discovery—screening small molecule inducers for PR expression; (2). Mechanistic investigation—screening potential PR repressors using genome-wide CRISPR knockout library. Abstract Expression of progesterone receptor (PR) is a favorable prognostic marker for multiple solid tumors. However, PR expression is reduced or lost in malignant tumors. Thus, monitoring and restoring functional PR expression is important in order to sensitize tumor cells to progesterone therapy in endometrial cancer. We developed stable PR reporter gene containing endometrial cancer cell lines monitoring the endogenous PR expression by inserting mCherry and hygromycin resistant gene at the endogenous PR gene locus by CRISPR/Cas9-mediated genome editing technique. This allows efficient, real-time monitoring of PR expression in its native epigenetic landscape. Reporter gene expression faithfully reflects and amplifies PR expression following treatment with drugs known to induce PR expression. Small molecular PR inducers have been identified from the FDA-approved 1018 drug library and tested for their ability to restore PR expression. Additionally, several candidate PR repressors have been identified by screening the genome-wide CRISPR knockout (GeCKO) library. This novel endogenous PR reporter gene system facilitates the discovery of a new treatment strategy to enhance PR expression and further sensitize progestin therapy in endometrial cancer. These tools provide a systematic, unbiased approach for monitoring target gene expression, allowing for novel drug discovery and mechanistic exploration.",
+      "citations": 6,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "a9e75a9feb6c1556ce547c9dfad28b732b7d6692"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1604,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1604,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1158/1538-7445.am2024-3224",
+      "title": "Abstract 3224: Identifying the molecular mechanisms underlying progesterone receptor downregulation in endometrial cancer",
+      "authors": [
+        "Xiangbing Meng",
+        "Lillie Lamont",
+        "Shujie Yang"
+      ],
+      "year": 2024,
+      "doi": "10.1158/1538-7445.am2024-3224",
+      "url": "https://doi.org/10.1158/1538-7445.am2024-3224",
+      "abstract": ">Abstract > >Background: Endometrial cancer (EC) is the most common gynecologic cancer. Cancer survival has improved over the past four decades for all the most common cancers except cervical and EC, calling for significant treatment advancements. Progesterone receptor (PR) is a favorable prognostic marker for EC and other solid tumors. However, PR expression has been shown to be reduced or lost in these malignant tumors, which correlates with worse patient survival and limits the effectiveness of progestin therapy. Thus, restoring functional PR expression is vital to sensitizing tumor cells to progestin therapy, enhancing EC clinical interventions, and improving patient outcomes. In this project, we aim to restore functional PR expression. > >Methods: To visualize PR expression in real-time, we constructed an innovative endogenous PR reporter gene transfected EC cells. This system facilitated screening potential small molecular PR inducers from the FDA-approved oncology drug library. Sixteen drugs were identified to increase PR expression; topoisomerase II inhibitors (Top IIi), mitoxantrone and idarubicin were the top hits. Drug effect of Top IIi, as well as HDAC inhibitor romidepsin, dual PI3k/HDAC inhibitor CUDC-907, and PHB2 inhibitors, fluorizoline (FLZ) and rocaglamide (RocA), were evaluated as single drug or in combination. Potential PR repressors, including G9a, HDAC2, PHB2, and Top2A, were knocked down using siRNA, shRNA, or CRISPR-Cas9 in EC cells and PR expression was analyzed. A chromatin immunoprecipitation (ChIP) assay was also conducted to validate bona fide PR repressors. > >Results: Mitoxantrone and idarubicin were validated to be effective PR inducers. G9a, HDAC2, PHB2, and Top2A were confirmed PR repressors. Single treatment with mitoxantrone, idarubicin, romidepsin, CUDC-907, FLZ, and RocA achieved effective inhibition of EC cell proliferation and enhanced PR expression except FLZ and RocA. Combined romidepsin with Topi or PHB2i demonstrated additive or synergistic effects. More importantly, dual treatment of CUDC-907 with mitoxantrone enhanced PR expression compared to a single treatment or no treatment control. Our mass spectrometry and ChIP assay by specific antibodies against HDAC2 and PHB2 revealed that potential mechanisms include PHB2 forming a complex with HDAC2 that binds on the PR promoter, thus inhibiting PR transcription. > >Conclusion: Co-treatment of CUDC-907 with Top2Ai increased PR expression and enhanced cell death in EC cell lines, indicating a potential treatment strategy. In vivo studies utilizing our EC-PDX models will further validate the efficacy of restoring PR expression and suppressing EC tumor growth. Further studies of the molecular mechanisms behind this strategy will be conducted. > >Citation Format: Xiangbing Meng, Lillie Lamont, Shujie Yang. Identifying the molecular mechanisms underlying progesterone receptor downregulation in endometrial cancer [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2024; Part 1 (Regular Abstracts); 2024 Apr 5-10; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2024;84(6_Suppl):Abstract nr 3224. >",
+      "citations": 0,
+      "source_hits": [
+        "crossref",
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "10.1158/1538-7445.am2024-3224",
+        "31a83ad150737f9ece3e119c34b66d28ec8cd039"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openaire",
+      "id": "doi_dedup___::fbbc4a5db349eeeb425db6c5ec2e4e64",
+      "title": "996 Epigenetic methylation in endometrial cancer (EC): an umbrella review of published evidence",
+      "authors": [
+        "K Rallis",
+        "M Sideris",
+        "YA Wang",
+        "C Hillyar",
+        "S Makker",
+        "E Emin",
+        "T Mould"
+      ],
+      "year": 2021,
+      "doi": "10.1136/ijgc-2021-esgo.221",
+      "url": "https://doi.org/10.1136/ijgc-2021-esgo.221",
+      "abstract": "Introduction/Background*  EC is the commonest gynaecological malignancy in developed countries accounting for 97,000 deaths annually worldwide. Methylation of DNA, histones, and micro-RNA (miRNA) are important epigenetic events which predominantly repress gene expression, reversibly, thus altering the tumour-cellular phenotype. We performed an umbrella review of relevant narrative (NR) and systematic reviews (SR) to identify prognostic and/or predictive methylation biomarkers for clinical decision-making.  Methodology  We followed the PRISMA guidelines and prospectively registered our protocol with PROSPERO (CRD42021225841). We searched MEDLINE from inception to December 4th, 2020, for NRs and SRs, published in English, discussing the association between methylation of DNA, histones or miRNA and early detection, prognosis or treatment response in EC. Three reviewers extracted and assessed the quality of the evidence for qualitative synthesis.  Result(s)*  Our search yielded 86 publications. We included 19 articles: 2 SRs with meta-analysis and 17 NRs. Type I and II EC exhibit distinct methylation profiles of gene silencing. Type I EC contains near-diploid cells (vs. aneuploid in type II) and its progression is more strongly associated with epigenetic changes. Global hyper- or hypomethylation and CIMP are described. Gene promoter hypermethylation predominates especially in hormone receptor, MLH1, MGMT, CDKN2A/P16, WNT/b-catenin/E-cadherin, PIK3CA/MAPK/RAS, and FGF pathway components. Ribosomal DNA hypomethylation, DNA aneuploidy, and lack of CDH13 hypermethylation predict poor prognosis. Dysregulated miRNA expression and processing differentially promotes oncogenesis. Histone methyltransferases (EZH2) and demethylases (LSD1, KDM4A/B) are overexpressed correlating with aggressiveness. Meta-analyses report significant associations with RASSF1A promoter methylation and CDKN2A/p16 hypermethylation which occur early in carcinogenesis potentially aiding non-invasive detection.  Conclusion*  As type I EC primarily affects younger women, some of whom have yet to complete their family, prognostication via (epigenetic) biomarkers is important for treatment stratification. Predicting response to conservative (progesterone) treatment via methylation biomarkers could help identify eligible women for ‘watch and wait’ until they complete their family. Artificial intelligence (AI) could facilitate such efforts.",
+      "citations": 0,
+      "source_hits": [
+        "openaire"
+      ],
+      "source_ids": [
+        "doi_dedup___::fbbc4a5db349eeeb425db6c5ec2e4e64"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "f44bb245ac8c18c7214697350b7c460733af8816",
+      "title": "Repositioning GLP-1 Receptor Agonists in Endometrial Cancer: Molecular Rationale, Preclinical Insights, and Translational Opportunities.",
+      "authors": [
+        "V. Podder",
+        "R. Coleman",
+        "Andrea R. Hagemann",
+        "Priya Singhania",
+        "Matthew A Powell",
+        "Thomas J. Herzog",
+        "B. Slomovitz"
+      ],
+      "year": 2025,
+      "doi": "10.1158/1078-0432.CCR-25-2819",
+      "url": "https://www.semanticscholar.org/paper/f44bb245ac8c18c7214697350b7c460733af8816",
+      "abstract": "Endometrial cancer (EC) incidence and mortality is rising globally, largely driven by the obesity epidemic. Treatment options remain limited for obesity-associated, hormone-resistant, or fertility-preserving EC, highlighting the need for novel therapies that address both tumor biology and metabolic dysfunction. Here, we synthesize the molecular rationale, preclinical, population-based, and emerging clinical trial evidence on glucagon-like peptide-1 receptor (GLP-1R) agonists (GLP-1 RAs) in EC. GLP-1R is expressed in benign and malignant endometrial tissues, where activation of cAMP-PKA and AMPK-mTOR signaling has been shown to mediate antiproliferative, proapoptotic, and autophagy-inducing effects. Preclinical models demonstrate that class-wide GLP-1 RAs may restore progesterone receptor expression, overcome hormone resistance, and synergize with progestin therapy; however, the effects may vary by agent. Retrospective studies suggest that combining GLP-1 RAs with local progestin therapy, commonly a levonorgestrel-releasing intrauterine device (preferred in obesity because oral progestin bioavailability is reduced), is associated with reduced EC in high-risk women. Ongoing clinical trials are assessing their role in fertility-sparing settings-evaluating complete response to progestin-based therapy, relapse rates, and time to conception-as well as in adjuvant settings, where disease-free survival is a key endpoint; however, gastrointestinal tolerability and the absence of long-term safety data in EC populations remain important considerations. As a class, GLP-1 RAs represent a promising therapeutic approach to targeting both the obesogenic milieu and tumor-intrinsic pathways in EC; however, agent-specific differences warrant attention. Prospective, subtype-stratified trials are essential to establish their role in comprehensive EC care.",
+      "citations": 2,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "f44bb245ac8c18c7214697350b7c460733af8816"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.1588,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1588,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "132d59a91cdb2bee836c58c55091a2ec66b282ce",
+      "title": "Current progression of progesterone receptor and androgen receptor in endometrial cancer.",
+      "authors": [
+        "Lin Qi",
+        "Shuchang Liu",
+        "Shengli Wang",
+        "Chunyu Wang",
+        "Yue Zhao"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.bbcan.2026.189578",
+      "url": "https://www.semanticscholar.org/paper/132d59a91cdb2bee836c58c55091a2ec66b282ce",
+      "abstract": "Endometrial cancer (EC) is one of the most prevalent malignant neoplasms of the female reproductive system. Estrogen receptor (ER) and progesterone receptor (PR) play important roles in the progression of EC by regulating the proliferation, differentiation and apoptosis of endometrial cells. Hormonal therapy targeting ER and PR has long been an indispensable treatment modality for EC. However, drug resistance induced by long-term hormonal therapy represents a major challenge, and the loss of ER and PR in some patients with metastatic or recurrent EC also restricts the clinical applicability of hormonal therapy. Increasing evidence has shown that androgen receptor (AR) plays a crucial role in the development of EC and may serve as a new therapeutic target for EC. This review summarizes the regulatory roles of PR and AR in EC development, discusses the interactions among ER, PR and AR, as well as the current application and future prospects of hormonal therapy in EC, aiming to provide a comprehensive theoretical basis for optimizing the clinical hormonal therapy strategy for EC.",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "132d59a91cdb2bee836c58c55091a2ec66b282ce"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "8aa1dced3fcd5fd5312358915509b45921d0e599",
+      "title": "Abstract 4752: The combination of GLP1-R agonists and progestins enhances endometrial cancer cell killing through membrane receptor crosstalk",
+      "authors": [
+        "Lane E. Smith",
+        "Jamie L. Padilla",
+        "Geneva L. Williams",
+        "Kristina W. Thiel",
+        "Kimberly K. Leslie"
+      ],
+      "year": 2025,
+      "doi": "10.1158/1538-7445.am2025-4752",
+      "url": "https://www.semanticscholar.org/paper/8aa1dced3fcd5fd5312358915509b45921d0e599",
+      "abstract": "Obesity is a major risk factor for endometrial cancer, and glucagon like peptide-1 receptor (GLP-1R) agonists such as semaglutide may be helpful to achieve weight loss. Conservative treatment of endometrial cancer includes hormone therapy with progestins for women who wish to preserve their uterus. Our previous work showed a significant reduction in viability of multiple endometrial cancer cell line and organoid models in response to the combination treatment of semaglutide and levonorgestrel, and identified a positive feedback loop between GLP-1R and progesterone receptor (PR) signaling. Here, we further explored mechanisms underlying the enhanced signaling, using confocal microscopy to show the co-localization of membrane PR (Progesterone Receptor Membrane Component 1; PGRMC1) and GLP1-R in response to semaglutide + progesterone combined treatment. We also found that semaglutide alone (100nM) induces the translocation of PR to the nucleus within 30 minutes. We are undergoing microarray analyses to assess specific phosphorylation events as well as RNA sequencing occurring downstream to identify the signaling molecules and transcripts activated by dual treatment. These studies highlight the potential of semaglutide to improve the anti-cancer effects of progestins, and, importantly, may reduce recurrences that can occur with progestin therapy alone.\n \n \n Lane E. Smith, Jamie L. Padilla, Geneva L. Williams, Kristina Thiel, Kimberly K. Leslie. The combination of GLP1-R agonists and progestins enhances endometrial cancer cell killing through membrane receptor crosstalk [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2025; Part 1 (Regular Abstracts); 2025 Apr 25-30; Chicago, IL. Philadelphia (PA): AACR; Cancer Res 2025;85(8_Suppl_1):Abstract nr 4752.\n",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "8aa1dced3fcd5fd5312358915509b45921d0e599"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1804.04839v1",
+      "title": "Classification of large DNA methylation datasets for identifying cancer drivers",
+      "authors": [
+        "Fabrizio Celli",
+        "Fabio Cumbo",
+        "Emanuel Weitschek"
+      ],
+      "year": 2018,
+      "doi": "10.1016/j.bdr.2018.02.005",
+      "url": "http://arxiv.org/abs/1804.04839v1",
+      "abstract": "DNA methylation is a well-studied genetic modification crucial to regulate the functioning of the genome. Its alterations play an important role in tumorigenesis and tumor-suppression. Thus, studying DNA methylation data may help biomarker discovery in cancer. Since public data on DNA methylation become abundant, and considering the high number of methylated sites (features) present in the genome, it is important to have a method for efficiently processing such large datasets. Relying on big data technologies, we propose BIGBIOCL an algorithm that can apply supervised classification methods to datasets with hundreds of thousands of features. It is designed for the extraction of alternative and equivalent classification models through iterative deletion of selected features. We run experiments on DNA methylation datasets extracted from The Cancer Genome Atlas, focusing on three tumor types: breast, kidney, and thyroid carcinomas. We perform classifications extracting several methylated sites and their associated genes with accurate performance. Results suggest that BIGBIOCL can perform hundreds of classification iterations on hundreds of thousands of features in few hours. Moreover, we compare the performance of our method with other state-of-the-art classifiers and with a wide-spread DNA methylation analysis method based on network analysis. Finally, we are able to efficiently compute multiple alternative classification models and extract, from DNA-methylation large datasets, a set of candidate genes to be further investigated to determine their active role in cancer. BIGBIOCL, results of experiments, and a guide to carry on new experiments are freely available on GitHub.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1804.04839v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2201.11418v1",
+      "title": "Effect of receptor cooperativity on methylation dynamics in bacterial chemotaxis with weak and strong gradient",
+      "authors": [
+        "Shobhan Dev Mandal",
+        "Sakuntala Chatterjee"
+      ],
+      "year": 2022,
+      "doi": "10.1103/PhysRevE.105.014411",
+      "url": "http://arxiv.org/abs/2201.11418v1",
+      "abstract": "We study methylation dynamics of the chemoreceptors as an {\\sl E.coli} cell moves around in a spatially varying chemo-attractant environment. We consider attractant concentration with strong and weak spatial gradient. During the uphill and downhill motion of the cell along the gradient, we measure the temporal variation of average methylation level of the receptor clusters. Our numerical simulations show that the methylation dynamics depends sensitively on the size of the receptor clusters and also on the strength of the gradient. At short times after the beginning of a run, the methylation dynamics is mainly controlled by short runs which are generally associated with high receptor activity. This results in demethylation at short times. But for intermediate or large times, long runs play an important role and depending on receptor cooperativity or gradient strength, the qualitative variation of methylation can be completely different in this time regime. For weak gradient, both for uphill and downhill runs, after the initial demethylation, we find methylation level increases steadily with time for all cluster sizes. Similar qualitative behavior is observed for strong gradient during uphill runs as well. However, the methylation dynamics for downhill runs in strong gradient show highly non-trivial dependence on the receptor cluster size. We explain this behavior as a result of interplay between the sensing and adaptation modules of the signaling network.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2201.11418v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.cancergencyto.2007.02.002",
+      "title": "Down-regulation of the progesterone receptor by the methylation of progesterone receptor gene in endometrial cancer cells",
+      "authors": [
+        "Yun Ren",
+        "Xi-shi Liu",
+        "Duan Ma",
+        "Youji Feng",
+        "Nanbert Zhong"
+      ],
+      "year": 2007,
+      "doi": "10.1016/j.cancergencyto.2007.02.002",
+      "url": "https://doi.org/10.1016/j.cancergencyto.2007.02.002",
+      "abstract": "",
+      "citations": 54,
+      "source_hits": [
+        "crossref",
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "10.1016/j.cancergencyto.2007.02.002",
+        "d7d52346958f3ecea9a716ac029988cc40e6bf61"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1416,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1416,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7150/jca.41943",
+      "title": "Estrogen Receptor, Progesterone Receptor, and HER2 Receptor Markers in Endometrial Cancer",
+      "authors": [
+        "Caifeng Wang",
+        "Davis A. Tran",
+        "Melinda Z. Fu",
+        "Wei Chen",
+        "Sidney W. Fu",
+        "Xu Li"
+      ],
+      "year": 2020,
+      "doi": "10.7150/jca.41943",
+      "url": "https://doi.org/10.7150/jca.41943",
+      "abstract": "",
+      "citations": 43,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7150/jca.41943"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1372,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1372,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f",
+      "title": "Heterogeneity and progesterone-receptor distribution in endometrial adenocarcinoma",
+      "authors": [
+        "Rodrigue Mortel",
+        "Richard Zaino",
+        "Pondichery G. Satyaswaroop"
+      ],
+      "year": 1984,
+      "doi": "10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f",
+      "url": "https://doi.org/10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f",
+      "abstract": "",
+      "citations": 34,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1002/1097-0142(19840101)53:1<113::aid-cncr2820530120>3.0.co;2-f"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1336,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1336,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40072055",
+      "title": "Molecular Basis of Impaired Decidualization in the Eutopic Endometrium of Endometriosis Patients.",
+      "authors": [
+        "Retis-Resendiz AM",
+        "Gómez-Suárez SK",
+        "García-Gómez E",
+        "Vázquez-Martínez ER."
+      ],
+      "year": 2025,
+      "doi": "10.3390/cells14050326",
+      "url": "https://europepmc.org/article/med/40072055",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40072055"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1292,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1292,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40420228",
+      "title": "Impact of endocrine disrupting chemicals (EDCs) on epigenetic regulation in the uterus: a narrative review.",
+      "authors": [
+        "Liang Y",
+        "Lu Q",
+        "Chen M",
+        "Zhao X",
+        "Chu C",
+        "Zhang C",
+        "Yuan J",
+        "Liu H",
+        "Lash GE."
+      ],
+      "year": 2025,
+      "doi": "10.1186/s12958-025-01413-z",
+      "url": "https://europepmc.org/article/med/40420228",
+      "abstract": "",
+      "citations": 6,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40420228"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1284,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1284,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40806438",
+      "title": "Epigenetics of Endometrial Cancer: The Role of Chromatin Modifications and Medicolegal Implications.",
+      "authors": [
+        "Piergentili R",
+        "Marinelli E",
+        "De Paola L",
+        "Cucinella G",
+        "Billone V",
+        "Zaami S",
+        "Gullo G."
+      ],
+      "year": 2025,
+      "doi": "10.3390/ijms26157306",
+      "url": "https://europepmc.org/article/med/40806438",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40806438"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1272,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1272,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41113721",
+      "title": "Endometriosis-associated infertility: Multi-omics insights into pathogenesis and precision therapeutics.",
+      "authors": [
+        "Ou Y",
+        "Wang H",
+        "Zhou C",
+        "Chen Y",
+        "Lyu J",
+        "Feng M",
+        "Huang X."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fendo.2025.1613334",
+      "url": "https://europepmc.org/article/med/41113721",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41113721"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1268,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1268,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40805121",
+      "title": "Epigenetic Therapies in Endocrine-Related Cancers: Past Insights and Clinical Progress.",
+      "authors": [
+        "Varun D",
+        "Haque M",
+        "Jackson-Oxley J",
+        "Thompson R",
+        "Kumari AA",
+        "Woodcock CL",
+        "Harris AE",
+        "Madhusudan S",
+        "Rakha E",
+        "Rutland CS"
+      ],
+      "year": 2025,
+      "doi": "10.3390/cancers17152418",
+      "url": "https://europepmc.org/article/med/40805121",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40805121"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1264,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1264,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41889796",
+      "title": "The consequences of the extremely low frequency electromagnetic field (ELF-EMF) exposure on physiological processes in the uterus: novel insights and implications.",
+      "authors": [
+        "Khodadadi M",
+        "Zmijewska A",
+        "Franczak A."
+      ],
+      "year": 2026,
+      "doi": "10.3389/fphys.2026.1753084",
+      "url": "https://europepmc.org/article/med/41889796",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41889796"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40228031",
+      "title": "Understanding epigenetic regulation in the endometrium - lessons from mouse models with implantation defects.",
+      "authors": [
+        "Kobayashi R",
+        "Hatada I."
+      ],
+      "year": 2025,
+      "doi": "10.1080/17501911.2025.2491298",
+      "url": "https://europepmc.org/article/med/40228031",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40228031"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41681828",
+      "title": "The Influence of Molecular Factors on the Effectiveness of New Therapies in Endometrial Cancer-Latest Evidence and Clinical Trials.",
+      "authors": [
+        "Mytych W",
+        "Barnaś E",
+        "Bartusik-Aebisher D",
+        "Aebisher D."
+      ],
+      "year": 2026,
+      "doi": "10.3390/cancers18030356",
+      "url": "https://europepmc.org/article/med/41681828",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41681828"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41743805",
+      "title": "Construction of an Adverse Outcome Pathway Framework for Glyphosate-Induced Female Reproductive Toxicity Based on Toxicity Pathways.",
+      "authors": [
+        "Peng B",
+        "Schlenk D",
+        "Liu J."
+      ],
+      "year": 2026,
+      "doi": "10.1021/envhealth.5c00184",
+      "url": "https://europepmc.org/article/med/41743805",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41743805"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41677659",
+      "title": "Endometriosis and Oocyte Quality: Morphological Alterations, Developmental Competence, and Modifiable Strategies for Reproductive Longevity.",
+      "authors": [
+        "Contestabile M",
+        "Marzi I",
+        "Mangione C",
+        "Franzoni F",
+        "Artini PG",
+        "Daniele S."
+      ],
+      "year": 2026,
+      "doi": "10.3390/cells15030296",
+      "url": "https://europepmc.org/article/med/41677659",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41677659"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2001.07822v1",
+      "title": "Progesterone: An Enigmatic Ligand for the Mineralocorticoid Receptor",
+      "authors": [
+        "Michael E. Baker",
+        "Yoshinao Katsu"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2001.07822v1",
+      "abstract": "The progesterone receptor (PR) mediates progesterone regulation of female reproductive physiology, as well as gene transcription in non-reproductive tissues, such as brain, bone, lung and vasculature, in both women and men. An unusual property of progesterone is its high affinity for the mineralocorticoid receptor (MR), which regulates electrolyte transport in the kidney in humans and other terrestrial vertebrates. In humans, rats, alligators and frogs, progesterone antagonizes activation of the MR by aldosterone, the physiological mineralocorticoid in terrestrial vertebrates. In contrast, in elephant shark, ray-finned fishes and chickens, progesterone activates the MR. Interestingly, cartilaginous fishes and ray-finned fishes do not synthesize aldosterone, raising the question of which steroid(s) activate the MR in cartilaginous fishes and ray-finned fishes. The simpler synthesis of progesterone, compared to cortisol and other corticosteroids, makes progesterone a candidate physiological activator of the MR in elephant sharks and ray-finned fishes. Elephant shark and ray-finned fish MRs are expressed in diverse tissues, including heart, brain and lung, as well as, ovary and testis, two reproductive tissues that are targets for progesterone, which together suggests a multi-faceted physiological role for progesterone activation of the MR in elephant shark and ray-finned fish. The functional consequences of progesterone as an antagonist of some terrestrial vertebrate MRs and as an agonist of fish and chicken MRs are not fully understood. Indeed, little is known of physiological activities of progesterone via any vertebrate MR.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2001.07822v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2111.10661v1",
+      "title": "Divergent Evolution of Progesterone and Mineralocorticoid Receptors in Terrestrial Vertebrates and Fish Influences Endocrine Disruption",
+      "authors": [
+        "Michael E. Baker"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2111.10661v1",
+      "abstract": "There is much concern about disruption of endocrine physiology regulated by steroid hormones in humans, other terrestrial vertebrates and fish by industrial chemicals, such as bisphenol A, and pesticides, such as DDT. These endocrine-disrupting chemicals influence steroid-mediated physiology in humans and other vertebrates by competing with steroids for receptor binding sites, disrupting diverse responses involved in reproduction, development and differentiation. Here I discuss that due to evolution of the progesterone receptor (PR) and mineralocorticoid receptor (MR) after ray-finned fish and terrestrial vertebrates diverged from a common ancestor, each receptor evolved to respond to different steroids in ray-finned fish and terrestrial vertebrates. In elephant shark, a cartilaginous fish, ancestral to ray-finned fish and terrestrial vertebrates, both progesterone and 17,20dihydroxyprogesterone activate the PR. During the evolution of ray-finned fish and terrestrial vertebrates, the PR in terrestrial vertebrates continued responding to progesterone and evolved to weakly respond to 17,20dihydroxyprogesterone. In contrast, the physiological progestin for the PR in zebrafish and other ray-finned fish is 17,20dihydroxyprogesterone, and ray-finned fish PR responds weakly to progesterone. The MR in fish and terrestrial vertebrates also diverged to have different responses to progesterone.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2111.10661v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2310.15099v1",
+      "title": "Dual-path convolutional neural network using micro-FTIR imaging to predict breast cancer subtypes and biomarkers levels: estrogen receptor, progesterone receptor, HER2 and Ki67",
+      "authors": [
+        "Matheus del-Valle",
+        "Emerson Soares Bernardes",
+        "Denise Maria Zezell"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2310.15099v1",
+      "abstract": "Breast cancer molecular subtypes classification plays an import role to sort patients with divergent prognosis. The biomarkers used are Estrogen Receptor (ER), Progesterone Receptor (PR), HER2, and Ki67. Based on these biomarkers expression levels, subtypes are classified as Luminal A (LA), Luminal B (LB), HER2 subtype, and Triple-Negative Breast Cancer (TNBC). Immunohistochemistry is used to classify subtypes, although interlaboratory and interobserver variations can affect its accuracy, besides being a time-consuming technique. The Fourier transform infrared micro-spectroscopy may be coupled with deep learning for cancer evaluation, where there is still a lack of studies for subtypes and biomarker levels prediction. This study presents a novel 2D deep learning approach to achieve these predictions. Sixty micro-FTIR images of 320x320 pixels were collected from a human breast biopsies microarray. Data were clustered by K-means, preprocessed and 32x32 patches were generated using a fully automated approach. CaReNet-V2, a novel convolutional neural network, was developed to classify breast cancer (CA) vs adjacent tissue (AT) and molecular subtypes, and to predict biomarkers level. The clustering method enabled to remove non-tissue pixels. Test accuracies for CA vs AT and subtype were above 0.84. The model enabled the prediction of ER, PR, and HER2 levels, where borderline values showed lower performance (minimum accuracy of 0.54). Ki67 percentage regression demonstrated a mean error of 3.6%. Thus, CaReNet-V2 is a potential technique for breast cancer biopsies evaluation, standing out as a screening analysis technique and helping to prioritize patients.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2310.15099v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1808.07539v1",
+      "title": "Transcriptional Activation of Elephant Shark Mineralocorticoid Receptor by Corticosteroids, Progesterone and Spironolactone",
+      "authors": [
+        "Yoshinao Katsu",
+        "Satomi Kohno",
+        "Kaori Oka",
+        "Xiaozhi Lin",
+        "Sumika Otake",
+        "Nisha E. Pillai",
+        "Wataru Takagi",
+        "Susumu Hyodo",
+        "Byrappa Venkatesh",
+        "Michael E. Baker"
+      ],
+      "year": 2018,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1808.07539v1",
+      "abstract": "We report the analysis of activation by corticosteroids and progesterone of full-length mineralocorticoid receptor (MR) from elephant shark, a cartilaginous fish belonging to the oldest group of jawed vertebrates. Based on their measured activities, aldosterone, cortisol, 11-deoxycorticosterone, corticosterone, 11-deoxcortisol, progesterone and 19-norprogesterone are potential physiological mineralocorticoids. However, aldosterone, the physiological mineralocorticoid in humans and other terrestrial vertebrates, is not found in cartilaginous or ray-finned fishes. Because progesterone is a precursor for corticosteroids that activate elephant shark MR, we propose that progesterone was an ancestral ligand for elephant shark MR. Although progesterone activates ray-finned fish MRs, progesterone does not activate human, amphibian or alligator MRs, suggesting that during the transition to terrestrial vertebrates, progesterone lost the ability to activate the MR. Comparison of RNA-sequence analysis of elephant shark MR with that of human MR suggests that MR expression in the human brain, heart, ovary, testis and other non-epithelial tissues evolved in cartilaginous fishes. Together, these data suggest that progesterone-activated MR may have unappreciated functions in elephant shark ovary and testis.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1808.07539v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.09626v1",
+      "title": "Regulation by Progestins, Corticosteroids and RU486 of Activation of Elephant Shark and Human Progesterone Receptors: An Evolutionary Perspec",
+      "authors": [
+        "Xiaozhi Lin",
+        "Wataru Takagi",
+        "Susumu Hyodo",
+        "Shigeho Ijiri",
+        "Yoshinao Katsu",
+        "Michael E. Baker"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.09626v1",
+      "abstract": "We investigated progestin and corticosteroid activation of the progesterone receptor (PR) from elephant shark (Callorhinchus milii), a cartilaginous fish belonging to the oldest group of jawed vertebrates. Comparison with human PR experiments provides insights into the evolution of steroid activation of human PR. At 1 nM steroid, elephant shark PR is activated by progesterone, 17-hydroxy-progesterone, 20beta-hydroxy-progesterone, 11-deoxycorticosterone (21-hydroxyprogesterone) and 11-deoxycortisol. At 1 nM steroid, human PR is activated only by progesterone and11-deoxycorticosterone indicating increased specificity for progestins and corticosteroids during the evolution of human PR. RU486, an important clinical antagonist of human PR, did not inhibit progesterone activation of elephant shark PR. Cys-528 in elephant shark PR corresponds to Gly-722 in human PR, which is essential for RU486 inhibition of human PR. Confirming the importance of this site on elephant shark PR, RU486 inhibited progesterone activation of the Cys528Gly mutant PR. There also was a decline in activation of elephant shark Cys528Gly PR by 11-deoxycortisol, 17-hydroxy-progesterone and 20beta-hydroxy-progesterone and an increase in activation of human Gly722Cys PR by 11-deoxycortisol and decreased activation by corticosterone. One or more of these changes may have selected for the mutation corresponding to human glycine-722 PR that first evolved in platypus PR, a basal mammal.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.09626v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.9052v0.1/reviews/2",
+      "title": "Peer Review #2 of \"EZH2/H3K27Me3 and phosphorylated EZH2 predict chemotherapy response and prognosis in ovarian cancer (v0.1)\"",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.7287/peerj.9052v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.9052v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.9052v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.9052v0.2/reviews/2",
+      "title": "Peer Review #2 of \"EZH2/H3K27Me3 and phosphorylated EZH2 predict chemotherapy response and prognosis in ovarian cancer (v0.2)\"",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.7287/peerj.9052v0.2/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.9052v0.2/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.9052v0.2/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.9052v0.2/reviews/1",
+      "title": "Peer Review #1 of \"EZH2/H3K27Me3 and phosphorylated EZH2 predict chemotherapy response and prognosis in ovarian cancer (v0.2)\"",
+      "authors": [
+        "Y Wang"
+      ],
+      "year": 2020,
+      "doi": "10.7287/peerj.9052v0.2/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.9052v0.2/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.9052v0.2/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.9052v0.1/reviews/1",
+      "title": "Peer Review #1 of \"EZH2/H3K27Me3 and phosphorylated EZH2 predict chemotherapy response and prognosis in ovarian cancer (v0.1)\"",
+      "authors": [
+        "Y Wang"
+      ],
+      "year": 2020,
+      "doi": "10.7287/peerj.9052v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.9052v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.9052v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.159/table-3",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.159/table-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.159/table-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.159/table-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9052/fig-3",
+      "title": "Figure 3: pEZH2 and EZH2/H3K27Me3 predicted prognosis in ovarian cancer.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9052/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9052/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9052/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13708/supp-8",
+      "title": "Supplemental Information 8: EZH1/EZH2 expression levels in breast cancer cell line.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13708/supp-8",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13708/supp-8",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13708/supp-8"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9052/fig-1",
+      "title": "Figure 1: General expression of EZH2/H3K27Me3 and pAkt1/pEZH2 in ovarian cancer.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9052/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9052/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9052/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.7254/fig-3",
+      "title": "Figure 3: Progesterone levels in rats treated with and without oestrogen receptor antagonist.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.7254/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.7254/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.7254/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13708/fig-5",
+      "title": "Figure 5: Expression validation and CRISPR screening of EZH1/EZH2 in breast cancer cells.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13708/fig-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13708/fig-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13708/fig-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1136/ijgc-00009577-200409001-00340",
+      "title": "340 Promoter Methylation of Progesterone Receptor B Gene in Endometrial Carcinoma",
+      "authors": [
+        "Y.H. Qiao",
+        "F.H. Liu",
+        "M.Z. Zhang"
+      ],
+      "year": 2004,
+      "doi": "10.1136/ijgc-00009577-200409001-00340",
+      "url": "https://doi.org/10.1136/ijgc-00009577-200409001-00340",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1136/ijgc-00009577-200409001-00340"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7554/elife.66034.sa0",
+      "title": "Editor's evaluation: Chromatin topology defines estradiol-primed progesterone receptor and PAX2 binding in endometrial cancer cells",
+      "authors": [
+        "Inez Rogatsky"
+      ],
+      "year": 2021,
+      "doi": "10.7554/elife.66034.sa0",
+      "url": "https://doi.org/10.7554/elife.66034.sa0",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7554/elife.66034.sa0"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.26226/morressier.5b6d513c5aff74007b2b48d3",
+      "title": "Progesterone Receptor and PTEN mutation as predictive factors of response to hormone therapy in metastatic endometrial cancer.",
+      "authors": [
+        "Mathias Neron",
+        "Eric Lambaudie"
+      ],
+      "year": 2018,
+      "doi": "10.26226/morressier.5b6d513c5aff74007b2b48d3",
+      "url": "https://doi.org/10.26226/morressier.5b6d513c5aff74007b2b48d3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.26226/morressier.5b6d513c5aff74007b2b48d3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/0304-3835(88)90173-5",
+      "title": "Progesterone receptor heterogeneity and endometrial tumour differentiation",
+      "authors": [
+        "C. Cheng",
+        "C. Bui",
+        "M. Cauchi"
+      ],
+      "year": 1988,
+      "doi": "10.1016/0304-3835(88)90173-5",
+      "url": "https://doi.org/10.1016/0304-3835(88)90173-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/0304-3835(88)90173-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7554/elife.66034.sa1",
+      "title": "Decision letter: Chromatin topology defines estradiol-primed progesterone receptor and PAX2 binding in endometrial cancer cells",
+      "authors": [
+        "Carol Lange"
+      ],
+      "year": 2021,
+      "doi": "10.7554/elife.66034.sa1",
+      "url": "https://doi.org/10.7554/elife.66034.sa1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7554/elife.66034.sa1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1021/scimeetings.0c04737",
+      "title": "Aberrant O-GlcNAcylation impairs progestin-therapy in endometrial cancer cells by reducing progesterone receptor expression",
+      "authors": [
+        "Bao Chi Nguyen Viet",
+        "Nicole Morin Jaskiewicz",
+        "David Townson"
+      ],
+      "year": 2020,
+      "doi": "10.1021/scimeetings.0c04737",
+      "url": "https://doi.org/10.1021/scimeetings.0c04737",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1021/scimeetings.0c04737"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

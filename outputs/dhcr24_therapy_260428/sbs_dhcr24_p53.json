@@ -1,0 +1,1807 @@
+{
+  "query": "DHCR24 p53 MDM2 interaction cancer ROS apoptosis",
+  "effective_query": "DHCR24 p53 MDM2 interaction cancer ROS apoptosis",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 50,
+  "warnings": [
+    "openaire failed: 'NoneType' object has no attribute 'get'",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2987812036",
+      "title": "Naturally occurring anti-cancer compounds: shining from Chinese herbal medicine",
+      "authors": [
+        "Hua Luo",
+        "Chi Teng Vong",
+        "Hanbin Chen",
+        "Yan Gao",
+        "Peng Lyu",
+        "Ling Qiu",
+        "Mingming Zhao",
+        "Qiao Liu",
+        "Zehua Cheng",
+        "Jian Zou",
+        "Peifen Yao",
+        "Caifang Gao",
+        "Jinchao Wei",
+        "Carolina Oi Lam Ung",
+        "Shengpeng Wang",
+        "Zhangfeng Zhong",
+        "Yitao Wang"
+      ],
+      "year": 2019,
+      "doi": "10.1186/s13020-019-0270-9",
+      "url": "https://doi.org/10.1186/s13020-019-0270-9",
+      "abstract": "Numerous natural products originated from Chinese herbal medicine exhibit anti-cancer activities, including anti-proliferative, pro-apoptotic, anti-metastatic, anti-angiogenic effects, as well as regulate autophagy, reverse multidrug resistance, balance immunity, and enhance chemotherapy in vitro and in vivo. To provide new insights into the critical path ahead, we systemically reviewed the most recent advances (reported since 2011) on the key compounds with anti-cancer effects derived from Chinese herbal medicine (curcumin, epigallocatechin gallate, berberine, artemisinin, ginsenoside Rg3, ursolic acid, silibinin, emodin, triptolide, cucurbitacin B, tanshinone I, oridonin, shikonin, gambogic acid, artesunate, wogonin, β-elemene, and cepharanthine) in scientific databases (PubMed, Web of Science, Medline, Scopus, and Clinical Trials). With a broader perspective, we focused on their recently discovered and/or investigated pharmacological effects, novel mechanism of action, relevant clinical studies, and their innovative applications in combined therapy and immunomodulation. In addition, the present review has extended to describe other promising compounds including dihydroartemisinin, ginsenoside Rh2, compound K, cucurbitacins D, E, I, tanshinone IIA and cryptotanshinone in view of their potentials in cancer therapy. Up to now, the evidence about the immunomodulatory effects and clinical trials of natural anti-cancer compounds from Chinese herbal medicine is very limited, and further research is needed to monitor their immunoregulatory effects and explore their mechanisms of action as modulators of immune checkpoints.",
+      "citations": 559,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2987812036"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.371,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.371,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4386315075",
+      "title": "Functional significance of cholesterol metabolism in cancer: from threat to treatment",
+      "authors": [
+        "Mingming Xiao",
+        "Jin Xu",
+        "Wei Wang",
+        "Bo Zhang",
+        "Jiang Liu",
+        "Jialin Li",
+        "Hang Xu",
+        "Yingjun Zhao",
+        "Xianjun Yu",
+        "Si Shi"
+      ],
+      "year": 2023,
+      "doi": "10.1038/s12276-023-01079-w",
+      "url": "https://doi.org/10.1038/s12276-023-01079-w",
+      "abstract": "Cholesterol is an essential structural component of membranes that contributes to membrane integrity and fluidity. Cholesterol homeostasis plays a critical role in the maintenance of cellular activities. Recently, increasing evidence has indicated that cholesterol is a major determinant by modulating cell signaling events governing the hallmarks of cancer. Numerous studies have shown the functional significance of cholesterol metabolism in tumorigenesis, cancer progression and metastasis through its regulatory effects on the immune response, ferroptosis, autophagy, cell stemness, and the DNA damage response. Here, we summarize recent literature describing cholesterol metabolism in cancer cells, including the cholesterol metabolism pathways and the mutual regulatory mechanisms involved in cancer progression and cholesterol metabolism. We also discuss various drugs targeting cholesterol metabolism to suggest new strategies for cancer treatment.",
+      "citations": 191,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4386315075"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.3107,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3107,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2548139789",
+      "title": "Genetic alterations in hepatocellular carcinoma: An update",
+      "authors": [
+        "Zhao-Shan Niu",
+        "Xiao-Jun Niu",
+        "Wenhong Wang"
+      ],
+      "year": 2016,
+      "doi": "10.3748/wjg.v22.i41.9069",
+      "url": "https://doi.org/10.3748/wjg.v22.i41.9069",
+      "abstract": "Hepatocellular carcinoma (HCC) is one of the leading causes of cancer-related deaths worldwide. Although recent advances in therapeutic approaches for treating HCC have improved the prognoses of patients with HCC, this cancer is still associated with a poor survival rate mainly due to late diagnosis. Therefore, a diagnosis must be made sufficiently early to perform curative and effective treatments. There is a need for a deeper understanding of the molecular mechanisms underlying the initiation and progression of HCC because these mechanisms are critical for making early diagnoses and developing novel therapeutic strategies. Over the past decade, much progress has been made in elucidating the molecular mechanisms underlying hepatocarcinogenesis. In particular, recent advances in next-generation sequencing technologies have revealed numerous genetic alterations, including recurrently mutated genes and dysregulated signaling pathways in HCC. A better understanding of the genetic alterations in HCC could contribute to identifying potential driver mutations and discovering novel therapeutic targets in the future. In this article, we summarize the current advances in research on the genetic alterations, including genomic instability, single-nucleotide polymorphisms, somatic mutations and deregulated signaling pathways, implicated in the initiation and progression of HCC. We also attempt to elucidate some of the genetic mechanisms that contribute to making early diagnoses of and developing molecularly targeted therapies for HCC.",
+      "citations": 185,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2548139789"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.2416,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2416,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2562523962",
+      "title": "Oxidative stress, a trigger of hepatitis C and B virus-induced liver carcinogenesis",
+      "authors": [
+        "Alexander V. Ivanov",
+        "Vladimir T. Valuev-Elliston",
+        "Daria Tyurina",
+        "Olga N. Ivanova",
+        "Sergey N. Kochetkov",
+        "Birke Bartosch",
+        "Maria Isaguliants"
+      ],
+      "year": 2016,
+      "doi": "10.18632/oncotarget.13904",
+      "url": "https://doi.org/10.18632/oncotarget.13904",
+      "abstract": "Virally induced liver cancer usually evolves over long periods of time in the context of a strongly oxidative microenvironment, characterized by chronic liver inflammation and regeneration processes. They ultimately lead to oncogenic mutations in many cellular signaling cascades that drive cell growth and proliferation. Oxidative stress, induced by hepatitis viruses, therefore is one of the factors that drives the neoplastic transformation process in the liver. This review summarizes current knowledge on oxidative stress and oxidative stress responses induced by human hepatitis B and C viruses. It focuses on the molecular mechanisms by which these viruses activate cellular enzymes/systems that generate or scavenge reactive oxygen species (ROS) and control cellular redox homeostasis. The impact of an altered cellular redox homeostasis on the initiation and establishment of chronic viral infection, as well as on the course and outcome of liver fibrosis and hepatocarcinogenesis will be discussed The review neither discusses reactive nitrogen species, although their metabolism is interferes with that of ROS, nor antioxidants as potential therapeutic remedies against viral infections, both subjects meriting an independent review.",
+      "citations": 179,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2562523962"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.2393,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2393,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W1971755855",
+      "title": "Reactive Oxygen Species as Mediators of Cellular Senescence",
+      "authors": [
+        "Renata Colavitti",
+        "Toren Finkel"
+      ],
+      "year": 2005,
+      "doi": "10.1080/15216540500091890",
+      "url": "https://doi.org/10.1080/15216540500091890",
+      "abstract": "Aging has often been viewed as a random process arising from the accumulation of both genetic and epigenetic changes. Increasingly, the notion that aging is a stochastic process is being supplanted by the concept that maximum lifespan of an organism is tightly regulated. This knowledge has led to a growing overlap between classical signal transduction paradigms and the biology of aging. We review certain specific examples where these seemingly disparate disciplines intersect. In particular, we review the concept that intracellular reactive oxygen species function as signalling molecules and that oxidants play a central role as mediators of cellular senescence.",
+      "citations": 242,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1971755855"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.2354,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2354,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4377691791",
+      "title": "Towards understandings of serine/arginine-rich splicing factors",
+      "authors": [
+        "D. Li",
+        "Wenying Yu",
+        "Maode Lai"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.apsb.2023.05.022",
+      "url": "https://doi.org/10.1016/j.apsb.2023.05.022",
+      "abstract": "Serine/arginine-rich splicing factors (SRSFs) refer to twelve RNA-binding proteins which regulate splice site recognition and spliceosome assembly during precursor messenger RNA splicing. SRSFs also participate in other RNA metabolic events, such as transcription, translation and nonsense-mediated decay, during their shuttling between nucleus and cytoplasm, making them indispensable for genome diversity and cellular activity. Of note, aberrant SRSF expression and/or mutations elicit fallacies in gene splicing, leading to the generation of pathogenic gene and protein isoforms, which highlights the therapeutic potential of targeting SRSF to treat diseases. In this review, we updated current understanding of SRSF structures and functions in RNA metabolism. Next, we analyzed SRSF-induced aberrant gene expression and their pathogenic outcomes in cancers and non-tumor diseases. The development of some well-characterized SRSF inhibitors was discussed in detail. We hope this review will contribute to future studies of SRSF functions and drug development targeting SRSFs.",
+      "citations": 65,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4377691791"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2225,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2225,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W1882418526",
+      "title": "New insights into BaP-induced toxicity: role of major metabolites in transcriptomics and contribution to hepatocarcinogenesis",
+      "authors": [
+        "Terezinha Souza",
+        "Danyel Jennen",
+        "Joost van Delft",
+        "Marcel van Herwijnen",
+        "Soterios Kyrtoupolos",
+        "Jos Kleinjans"
+      ],
+      "year": 2015,
+      "doi": "10.1007/s00204-015-1572-z",
+      "url": "https://doi.org/10.1007/s00204-015-1572-z",
+      "abstract": "Benzo(a)pyrene (BaP) is a ubiquitous carcinogen resulting from incomplete combustion of organic compounds and also present at high levels in cigarette smoke. A wide range of biological effects has been attributed to BaP and its genotoxic metabolite BPDE, but the contribution to BaP toxicity of intermediary metabolites generated along the detoxification path remains unknown. Here, we report for the first time how 3-OH-BaP, 9,10-diol and BPDE, three major BaP metabolites, temporally relate to BaP-induced transcriptomic alterations in HepG2 cells. Since BaP is also known to induce AhR activation, we additionally evaluated TCDD to source the expression of non-genotoxic AhR-mediated patterns. 9,10-Diol was shown to activate several transcription factor networks related to BaP metabolism (AhR), oxidative stress (Nrf2) and cell proliferation (HIF-1α, AP-1) in particular at early time points, while BPDE influenced expression of genes involved in cell energetics, DNA repair and apoptotic pathways. Also, in order to grasp the role of BaP and its metabolites in chemical hepatocarcinogenesis, we compared expression patterns from BaP(-metabolites) and TCDD to a signature set of approximately nine thousand gene expressions derived from hepatocellular carcinoma (HCC) patients. While transcriptome modulation by TCDD appeared not significantly related to HCC, BaP and BPDE were shown to deregulate metastatic markers via non-genotoxic and genotoxic mechanisms and activate inflammatory pathways (NF-κβ signaling, cytokine-cytokine receptor interaction). BaP also showed strong repression of genes involved in cholesterol and fatty acid biosynthesis. Altogether, this study provides new insights into BaP-induced toxicity and sheds new light onto its mechanism of action as a hepatocarcinogen.",
+      "citations": 102,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1882418526"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.2024,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2024,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2114588554",
+      "title": "Berberine Suppresses Androgen Receptor Signaling in Prostate Cancer",
+      "authors": [
+        "Jing Li",
+        "Bo Cao",
+        "Xichun Liu",
+        "Xueqi Fu",
+        "Zhenggang Xiong",
+        "Li Chen",
+        "Oliver Sartor",
+        "Yan Dong",
+        "Haitao Zhang"
+      ],
+      "year": 2011,
+      "doi": "10.1158/1535-7163.mct-10-0985",
+      "url": "https://doi.org/10.1158/1535-7163.mct-10-0985",
+      "abstract": "The androgen receptor (AR) is critical in the normal development and function of the prostate, as well as in prostate carcinogenesis. Androgen deprivation therapy is the mainstay in the treatment of advanced prostate cancer; however, after an initial response, the disease inevitably progresses to castration-resistant prostate cancer (CRPC). Recent evidence suggests that continued AR activation, sometimes in a ligand-independent manner, is commonly associated with the development of CRPC. Thus, novel agents targeting the AR are urgently needed as a strategic step in developing new therapies for this disease state. In this study, we investigated the effect of berberine on AR signaling in prostate cancer. We report that berberine decreased the transcriptional activity of AR. Berberine did not affect AR mRNA expression, but induced AR protein degradation. Several ligand-binding, domain-truncated AR splice variants have been identified, and these variants are believed to promote the development of CRPC in patients. Interestingly, we found that these variants were more susceptible to berberine-induced degradation than the full-length AR. Furthermore, although the growth of LNCaP xenografts in nude mice was inhibited by berberine, and AR expression was reduced in the tumors, the morphology and AR expression in normal prostates were not affected. This study is the first to show that berberine suppresses AR signaling and suggests that berberine, or its derivatives, presents a promising agent for the prevention and/or treatment of prostate cancer.",
+      "citations": 100,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2114588554"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1975,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1975,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2125286970",
+      "title": "Neuroprotective effects of the Alzheimer's disease-related gene seladin-1",
+      "authors": [
+        "Alessandro Peri",
+        "Mario Serio"
+      ],
+      "year": 2008,
+      "doi": "10.1677/jme-08-0071",
+      "url": "https://doi.org/10.1677/jme-08-0071",
+      "abstract": "The endocrine and the nervous system are closely correlated throughout life, starting from the embryo and until the late stages of life. Alzheimer's disease (AD) is the most common neurodegenerative disease associated with ageing. Unfortunately, an effective way to prevent or to cure this disease does not exist, so far. There is evidence that estrogens exert neuroprotective properties, although their efficacy against AD is still a matter of debate. In 2000 a new neuroprotective gene, i.e. seladin-1 (for SELective AD INdicator-1) was identified and found to be down regulated in AD vulnerable brain regions. Seladin-1 inhibits the activation of caspase-3, a key modulator of apoptosis. This protein has also enzymatic activity. In fact, it has been demonstrated that the seladin-1 gene encodes 3-beta-hydroxysterol Delta-24-reductase, which catalyzes the synthesis of cholesterol from desmosterol. In recent years, it has been demonstrated that an appropriate amount of membrane cholesterol determines the generation of a barrier against toxic insults and prevents the production of beta-amyloid, the histopathological hallmark of AD. This review will summarize the studies that have been focused on the characterization of the biological properties of seladin-1 since its first identification. In particular, the relationship between seladin-1-mediated neuroprotection and estrogens, IGF1 and thyroid hormones, will be described and discussed.",
+      "citations": 70,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2125286970"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1864,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1864,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2033847143",
+      "title": "Role of Oxidative Stress in Hepatocarcinogenesis Induced by Hepatitis C Virus",
+      "authors": [
+        "Kyoko Tsukiyama–Kohara"
+      ],
+      "year": 2012,
+      "doi": "10.3390/ijms131115271",
+      "url": "https://doi.org/10.3390/ijms131115271",
+      "abstract": "Hepatitis C virus (HCV) easily establishes chronic hepatitis, cirrhosis, and hepatocellular carcinoma (HCC). During the progression of HCV infections, reactive oxygen species (ROS) are generated, and these ROS then induce significant DNA damage. The role of ROS in the pathogenesis of HCV infection is still not fully understood. Recently, we found that HCV induced the expression of 3β-hydroxysterol Δ24-reductase (DHCR24). We also found that a HCV responsive region is present in the 5'-flanking genomic promoter region of DHCR24 and the HCV responsive region was characterized as (-167/-140). Moreover, the transcription factor Sp1 was found to bind to this region in response to oxidative stress under the regulation of ataxia telangiectasia mutated (ATM) kinase. Overexpression of DHCR24 impaired p53 activity by suppression of acetylation and increased interaction with MDM2. This impairment of p53 suppressed the hydrogen peroxide-induced apoptotic response in hepatocytes. Thus, a target of oxidative stress in HCV infection is DHCR24 through Sp1, which suppresses apoptotic responses and increases tumorigenicity.",
+      "citations": 38,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2033847143"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1777,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1777,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1158/1541-7786.c.6545468.v1",
+      "title": "Data from Small-Molecule NSC59984 Induces Mutant p53 Degradation through a ROS-ERK2-MDM2 Axis in Cancer Cells",
+      "authors": [
+        "Shengliang Zhang",
+        "Lanlan Zhou",
+        "Wafik S. El-Deiry"
+      ],
+      "year": 2023,
+      "doi": "10.1158/1541-7786.c.6545468.v1",
+      "url": "https://doi.org/10.1158/1541-7786.c.6545468.v1",
+      "abstract": "> >Abstract >Increased reactive oxygen species (ROS) and hyperstabilized mutant p53 are common in cancer. Hyperstabilized mutant p53 contributes to its gain of function (GOF) which confers resistance to chemotherapy and radiotherapy. Targeting mutant p53 degradation is a promising cancer therapeutic strategy. We used a small-molecule NSC59984 to explore elimination of mutant p53 in cancer cells, and identified an inducible ROS-ERK2-MDM2 axis as a vulnerability for induction of mutant p53 degradation in cancer cells. NSC59984 treatment promotes a constitutive phosphorylation of ERK2 via ROS in cancer cells. The NSC59984-sustained ERK2 activation is required for MDM2 phosphorylation at serine-166. NSC59984 enhances phosphorylated-MDM2 binding to mutant p53, which leads to mutant p53 ubiquitination and degradation. High cellular ROS increases the efficacy of NSC59984 targeting mutant p53 degradation and antitumor effects. Our data suggest that mutant p53 stabilization has a vulnerability under high ROS cellular conditions, which can be exploited by compounds to target mutant p53 protein degradation through the activation of a ROS-ERK2-MDM2 axis in cancer cells. >Implications: >An inducible ROS-ERK2-MDM2 axis exposes a vulnerability in mutant p53 stabilization and can be exploited by small-molecule compounds to induce mutant p53 degradation for cancer therapy. > > >",
+      "citations": 1,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1158/1541-7786.c.6545468.v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1727,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1727,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1051/e3sconf/202130802015",
+      "title": "MDM2 inhibitors: Targeting p53-MDM2 interaction to anti-cancer",
+      "authors": [
+        "Xulin Zhang"
+      ],
+      "year": 2021,
+      "doi": "10.1051/e3sconf/202130802015",
+      "url": "https://doi.org/10.1051/e3sconf/202130802015",
+      "abstract": ">P53 is a recognized tumor suppressor gene, which mainly depends on the activity of its transfer factor to realize the tumor suppressor effect. Mouse two-minute 2 (MDM2) is an important inhibitor of p53. When combined with MDM2, the activity of p53 will be reduced, and the anti-cancer effect will be weakened. According to the mechanism between p53 and MDM2, researchers focus on the inhibitors to inhibit their binding. Through a large number of drug screening methods and means, this article has found many new inhibitors of p53-MDM2 interaction, most of which are still in the clinical research stage. Specifically, we classify the drugs based on their different action mechanisms. Firstly, some drugs combine with MDM2 to inhibit the p53-MDM2 interaction. They are Siremadlin (NVP-HDM201), RG7112, and NVP-CGM09. While some act on p53, they rely on their induction of p53 signalling and inhibition of tumour cell proliferation in p53 wild-type tumor cell lines, like MK-8242 and KRT-232(AMG-232). What’s more, one inhibitor’s action bases on P53 and MDM2 in T cells is APG-115. And last but not least, there are also several drugs that stable tumor suppressor TP53, leading to p53 activation and inducing cell cycle arrest and apoptosis, they are Idasanutlin (RG7388) and Milademetan (DS-3032/RAIN-32). Furthermore, clinical studies are finding that monotherapy does not deliver a powerful therapeutic effect. Various combination strategies are being explored with MDM2 inhibitors preclinically and in the clinic. This article will talk about some specific combinations: APG-115 combine with immune checkpoint inhibitor PD-1/PD-L1, MDM2 inhibitors combine with BCL-2 inhibitors, anti-CD20 therapeutic antibodies, and the last, combine with alkylating agents. >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1051/e3sconf/202130802015"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.172,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.172,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1158/1541-7786.c.6545468",
+      "title": "Data from Small-Molecule NSC59984 Induces Mutant p53 Degradation through a ROS-ERK2-MDM2 Axis in Cancer Cells",
+      "authors": [
+        "Shengliang Zhang",
+        "Lanlan Zhou",
+        "Wafik S. El-Deiry"
+      ],
+      "year": 2023,
+      "doi": "10.1158/1541-7786.c.6545468",
+      "url": "https://doi.org/10.1158/1541-7786.c.6545468",
+      "abstract": "> >Abstract >Increased reactive oxygen species (ROS) and hyperstabilized mutant p53 are common in cancer. Hyperstabilized mutant p53 contributes to its gain of function (GOF) which confers resistance to chemotherapy and radiotherapy. Targeting mutant p53 degradation is a promising cancer therapeutic strategy. We used a small-molecule NSC59984 to explore elimination of mutant p53 in cancer cells, and identified an inducible ROS-ERK2-MDM2 axis as a vulnerability for induction of mutant p53 degradation in cancer cells. NSC59984 treatment promotes a constitutive phosphorylation of ERK2 via ROS in cancer cells. The NSC59984-sustained ERK2 activation is required for MDM2 phosphorylation at serine-166. NSC59984 enhances phosphorylated-MDM2 binding to mutant p53, which leads to mutant p53 ubiquitination and degradation. High cellular ROS increases the efficacy of NSC59984 targeting mutant p53 degradation and antitumor effects. Our data suggest that mutant p53 stabilization has a vulnerability under high ROS cellular conditions, which can be exploited by compounds to target mutant p53 protein degradation through the activation of a ROS-ERK2-MDM2 axis in cancer cells. >Implications: >An inducible ROS-ERK2-MDM2 axis exposes a vulnerability in mutant p53 stabilization and can be exploited by small-molecule compounds to induce mutant p53 degradation for cancer therapy. > > >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1158/1541-7786.c.6545468"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.172,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.172,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1158/1538-7445.am2011-177",
+      "title": "Abstract 177: Disruption of the MDM2-p53 interaction strongly potentiates p53-dependent apoptosis in cisplatin resistant human testicular carcinoma cells via the Fas/FasL pathway",
+      "authors": [
+        "Steven de Jong",
+        "Roelof Koster",
+        "Hetty Timmer-Bosscha",
+        "Rainer Bischoff",
+        "Jourik Gietema"
+      ],
+      "year": 2011,
+      "doi": "10.1158/1538-7445.am2011-177",
+      "url": "https://doi.org/10.1158/1538-7445.am2011-177",
+      "abstract": ">Abstract > >A major role for p53 in the response and execution of apoptosis after chemotherapy has been described for many cancers. Although testicular cancer (TC) often express high levels of p53 and almost no TP53 mutations are found, resistance to chemotherapy is still observed in a subgroup of TC patients. Therefore, the involvement of wild-type p53 in cisplatin sensitivity and resistance of human TC is not clear. In the present study, we demonstrate that in resistant human TC cells (Tera2-CP, Scha, 2102EP) p53 resides in a complex with murine double minute 2 (MDM2) even at higher cisplatin concentrations compared to cisplatin sensitive human TC cells (Tera2). Hyper-activation of the p53 pathway using the MDM2 antagonist Nutlin-3 in TC cells leads to nuclear localization of p53 and effective apoptosis induction as single agent. Targeting MDM2 with short interfering RNA extremely sensitizes TC cells in a similar way. The observed effects are dependent on the presence of wild-type p53, since mutant p53 expressing TC cells (NCCIT) or wild-type p53 suppressed TC cells are resistant to Nutlin-3. Specifically, we show that the Fas death receptor pathway, i.e. enhanced Fas expression (3-fold) and the induction of Fas/FasL interactions, plays an important role in MDM2 antagonist-induced apoptosis in TC cells as demonstrated by using FasL blocking antibodies and FasL small interfering RNA. Importantly, we have identified a similar mechanism in Hodgkin lymphoma cells (KM-H2 and L540) and acute myeloid leukaemia cells (MOLM-13), suggesting a common profile for Nutlin-3-induced apoptosis, which involves the Fas death receptor pathway. Finally, we combined nutlin-3 with cisplatin, which strongly sensitized TC cells, including cisplatin-resistant TC cells, to apoptosis via Fas pathway activation and reduced cell survival more than 8-fold. These results indicate that targeting the p53/MDM2 axis, in combination with standard treatment, appears to be a powerful strategy to pursue in cisplatin-resistant or -refractory testicular cancers. > >Citation Format: {Authors}. {Abstract title} [abstract]. In: Proceedings of the 102nd Annual Meeting of the American Association for Cancer Research; 2011 Apr 2-6; Orlando, FL. Philadelphia (PA): AACR; Cancer Res 2011;71(8 Suppl):Abstract nr 177. doi:10.1158/1538-7445.AM2011-177 >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1158/1538-7445.am2011-177"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.16,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.16,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1709.06720v1",
+      "title": "SIRT6 Knockout Cells Resist Apoptosis Initiation but Not Progression: A Computational Method to Evaluate the Progression of Apoptosis",
+      "authors": [
+        "Sergii Domanskyi",
+        "Justin W. Nicholatos",
+        "Joshua E. Schilling",
+        "Vladimir Privman",
+        "Sergiy Libert"
+      ],
+      "year": 2017,
+      "doi": "10.1007/s10495-017-1412-0",
+      "url": "http://arxiv.org/abs/1709.06720v1",
+      "abstract": "Apoptosis is essential for numerous processes, such as development, resistance to infections, and suppression of tumorigenesis. Here, we investigate the influence of the nutrient sensing and longevity-assuring enzyme SIRT6 on the dynamics of apoptosis triggered by serum starvation. Specifically, we characterize the progression of apoptosis in wild type and SIRT6 deficient mouse embryonic fibroblasts using time-lapse flow cytometry and computational modelling based on rate-equations and cell distribution analysis. We find that SIRT6 deficient cells resist apoptosis by delaying its initiation. Interestingly, once apoptosis is initiated, the rate of its progression is higher in SIRT6 null cells compared to identically cultured wild type cells. However, SIRT6 null cells succumb to apoptosis more slowly, not only in response to nutrient deprivation but also in response to other stresses. Our data suggest that SIRT6 plays a role in several distinct steps of apoptosis. Overall, we demonstrate the utility of our computational model to describe stages of apoptosis progression and the integrity of the cellular membrane. Such measurements will be useful in a broad range of biological applications. We describe a computational method to evaluate the progression of apoptosis through different stages. Using this method, we describe how cells devoid of SIRT6 longevity gene respond to apoptosis stimuli, specifically, how they respond to starvation. We find that SIRT6 cells resist apoptosis initiation; however, once initiated, they progress through the apoptosis at a faster rate. These data are first of the kind and suggest that SIRT6 activities might play different roles at different stages of apoptosis. The model that we propose can be used to quantitatively evaluate progression of apoptosis and will be useful in studies of cancer treatments and other areas where apoptosis is involved.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1709.06720v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38847653",
+      "title": "DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review.",
+      "authors": [
+        "Fu X",
+        "Wang Z."
+      ],
+      "year": 2024,
+      "doi": "10.1177/15330338241259780",
+      "url": "https://europepmc.org/article/med/38847653",
+      "abstract": "",
+      "citations": 12,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "38847653"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1564,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1564,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40145543",
+      "title": "The Role of Cholesterol Metabolism and Its Regulation in Tumor Development.",
+      "authors": [
+        "Wu Y",
+        "Song W",
+        "Su M",
+        "He J",
+        "Hu R",
+        "Zhao Y."
+      ],
+      "year": 2025,
+      "doi": "10.1002/cam4.70783",
+      "url": "https://europepmc.org/article/med/40145543",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40145543"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1556,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1556,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40517270",
+      "title": "The spatiotemporal heterogeneity of reactive oxygen species in the malignant transformation of viral hepatitis to hepatocellular carcinoma: a new insight.",
+      "authors": [
+        "Yuan H",
+        "Liu J",
+        "Xu R",
+        "Yang K",
+        "Qu R",
+        "Liu S",
+        "Zhang Y",
+        "Xiang M."
+      ],
+      "year": 2025,
+      "doi": "10.1186/s11658-025-00745-3",
+      "url": "https://europepmc.org/article/med/40517270",
+      "abstract": "",
+      "citations": 6,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40517270"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1532,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1532,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "39766172",
+      "title": "Disrupted Lipid Metabolism, Cytokine Signaling, and Dormancy: Hallmarks of Doxorubicin-Resistant Triple-Negative Breast Cancer Models.",
+      "authors": [
+        "Vishnubalaji R",
+        "Alajez NM."
+      ],
+      "year": 2024,
+      "doi": "10.3390/cancers16244273",
+      "url": "https://europepmc.org/article/med/39766172",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "39766172"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1529,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1529,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1007.3567v1",
+      "title": "Bcl-2 inhibits apoptosis by increasing the time-to-death and intrinsic cell-to-cell variations in the mitochondrial pathway of cell death",
+      "authors": [
+        "Joanna Skommer",
+        "Tom Brittain",
+        "Subhadip Raychaudhuri"
+      ],
+      "year": 2010,
+      "doi": "10.1007/s10495-010-0515-7",
+      "url": "http://arxiv.org/abs/1007.3567v1",
+      "abstract": "BH3 mimetics have been proposed as new anticancer therapeutics. They target anti-apoptotic Bcl-2 proteins, up-regulation of which has been implicated in the resistance of many cancer cells, particularly leukemia and lymphoma cells, to apoptosis. Using probabilistic computational modeling of the mitochondrial pathway of apoptosis, verified by single-cell experimental observations, we develop a model of Bcl-2 inhibition of apoptosis. Our results clarify how Bcl-2 imparts its anti-apoptotic role by increasing the time-to-death and cell-to-cell variability. We also show that although the commitment to death is highly impacted by differences in protein levels at the time of stimulation, inherent stochastic fluctuations in apoptotic signaling are sufficient to induce cell-to-cell variability and to allow single cells to escape death. This study suggests that intrinsic cell-to-cell stochastic variability in apoptotic signaling is sufficient to cause fractional killing of cancer cells after exposure to BH3 mimetics. This is an unanticipated facet of cancer chemoresistance.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1007.3567v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40370434",
+      "title": "Ubiquitination in lipid metabolism reprogramming: implications for pediatric solid tumors.",
+      "authors": [
+        "Zhang W",
+        "Xu Y",
+        "Fang Y",
+        "Li M",
+        "Li D",
+        "Guo H",
+        "Li H",
+        "He J",
+        "Miao L."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fimmu.2025.1554311",
+      "url": "https://europepmc.org/article/med/40370434",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40370434"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1496,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1496,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38845614",
+      "title": "Network analysis of toxic endpoints of fungicides in zebrafish.",
+      "authors": [
+        "Pamanji R",
+        "Ragothaman P",
+        "Koigoora S",
+        "Sivan G",
+        "Selvin J."
+      ],
+      "year": 2024,
+      "doi": "10.1093/toxres/tfae087",
+      "url": "https://europepmc.org/article/med/38845614",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "38845614"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1486,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1486,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40401382",
+      "title": "27-Hydroxycholesterol in cancer development and drug resistance.",
+      "authors": [
+        "Hou Y",
+        "Fu Z",
+        "Wang C",
+        "Kucharzewska P",
+        "Guo Y",
+        "Zhang S."
+      ],
+      "year": 2025,
+      "doi": "10.1080/14756366.2025.2507670",
+      "url": "https://europepmc.org/article/med/40401382",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40401382"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1484,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1484,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40994655",
+      "title": "Programmed Cell Death in Diabetic Kidney Disease: Mechanisms and Therapeutic Targeting.",
+      "authors": [
+        "Tang S",
+        "Sun Y",
+        "Sun W",
+        "Kang X",
+        "Zhao X",
+        "Jiang L",
+        "Gao Q",
+        "An X",
+        "Ji H",
+        "Lian F."
+      ],
+      "year": 2025,
+      "doi": "10.2147/jir.s545938",
+      "url": "https://europepmc.org/article/med/40994655",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40994655"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41063976",
+      "title": "Combination therapy with nisin, urolithin B, and vincristine exhibits synergistic antiproliferative and pro-apoptotic effects against human lymphoma cells: evidence from proteomics.",
+      "authors": [
+        "Al-Khazaleh AK",
+        "Alsherbiny MA",
+        "Chang D",
+        "Münch G",
+        "Bhuyan DJ."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fimmu.2025.1664468",
+      "url": "https://europepmc.org/article/med/41063976",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41063976"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6716v0.1/reviews/1",
+      "title": "Peer Review #1 of \"A combination of curcumin, vorinostat and silibinin reverses Aβ-induced nerve cell toxicity via activation of AKT-MDM2-p53 pathway (v0.1)\"",
+      "authors": [],
+      "year": 2019,
+      "doi": "10.7287/peerj.6716v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6716v0.1/reviews/1",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6716v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1285,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1285,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1701.04967v1",
+      "title": "Structural Effects and Competition Mechanisms Targeting the Interactions between p53 and Mdm2 for Cancer Therapy",
+      "authors": [
+        "Shuxia Liu",
+        "Yizhao Geng",
+        "Shiwei Yan"
+      ],
+      "year": 2017,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1701.04967v1",
+      "abstract": "About half of human cancers show normal TP53 gene and aberrant overexpression of Mdm2 and/or MdmX. This fact promotes a promising cancer therapeutic strategy which targeting the interactions between p53 and Mdm2/MdmX. For developing the inhibitors to disrupt the p53-Mdm2/MdmX interactions, we systematically investigate structural and interaction characteristics of p53 and inhibitors with Mdm2 and MdmX from atomistic level by exploiting stochastic molecular dynamics simulations. We find that some specific $α$ helices in Mdm2 and MdmX structure play key role in their bindings with inhibitors and the hydrogen bond formed by residue Trp23 of p53 with its counterpart in Mdm2/MdmX determines dynamical competition processes of the disruption of Mdm2-p53 interaction and replacement of p53 from Mdm2-p53 complex {\\it in vivo}. We hope that the results reported in this paper provide basic information for designing functional inhibitors and realizing cancer gene therapy.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1701.04967v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.10532v0.1/reviews/1",
+      "title": "Peer Review #1 of \"The p53 signaling pathway of the large yellow croaker (Larimichthys crocea) responds to acute cold stress: evidence via spatiotemporal expression analysis of p53, p21, MDM2, IGF-1, Gadd45, Fas, and Akt (v0.1)\"",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.7287/peerj.10532v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.10532v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.10532v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.10532v0.2/reviews/3",
+      "title": "Peer Review #3 of \"The p53 signaling pathway of the large yellow croaker (Larimichthys crocea) responds to acute cold stress: evidence via spatiotemporal expression analysis of p53, p21, MDM2, IGF-1, Gadd45, Fas, and Akt (v0.2)\"",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.7287/peerj.10532v0.2/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.10532v0.2/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.10532v0.2/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.10532v0.1/reviews/2",
+      "title": "Peer Review #2 of \"The p53 signaling pathway of the large yellow croaker (Larimichthys crocea) responds to acute cold stress: evidence via spatiotemporal expression analysis of p53, p21, MDM2, IGF-1, Gadd45, Fas, and Akt (v0.1)\"",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.7287/peerj.10532v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.10532v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.10532v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.10532v0.1/reviews/3",
+      "title": "Peer Review #3 of \"The p53 signaling pathway of the large yellow croaker (Larimichthys crocea) responds to acute cold stress: evidence via spatiotemporal expression analysis of p53, p21, MDM2, IGF-1, Gadd45, Fas, and Akt (v0.1)\"",
+      "authors": [],
+      "year": 2020,
+      "doi": "10.7287/peerj.10532v0.1/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.10532v0.1/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.10532v0.1/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6716v0.2/reviews/3",
+      "title": "Peer Review #3 of \"A combination of curcumin, vorinostat and silibinin reverses Aβ-induced nerve cell toxicity via activation of AKT-MDM2-p53 pathway (v0.2)\"",
+      "authors": [],
+      "year": 2019,
+      "doi": "10.7287/peerj.6716v0.2/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6716v0.2/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6716v0.2/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6716v0.1/reviews/3",
+      "title": "Peer Review #3 of \"A combination of curcumin, vorinostat and silibinin reverses Aβ-induced nerve cell toxicity via activation of AKT-MDM2-p53 pathway (v0.1)\"",
+      "authors": [],
+      "year": 2019,
+      "doi": "10.7287/peerj.6716v0.1/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6716v0.1/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6716v0.1/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.6716v0.1/reviews/2",
+      "title": "Peer Review #2 of \"A combination of curcumin, vorinostat and silibinin reverses Aβ-induced nerve cell toxicity via activation of AKT-MDM2-p53 pathway (v0.1)\"",
+      "authors": [
+        "P Potter"
+      ],
+      "year": 2019,
+      "doi": "10.7287/peerj.6716v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.6716v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.6716v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1310.2182v1",
+      "title": "New Approach for Prediction Pre-cancer via Detecting Mutated in Tumor Protein P53",
+      "authors": [
+        "Ayad Ghany Ismaeel"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1310.2182v1",
+      "abstract": "Tumor protein P53 is believed to be involved in over half of human cancers cases, the prediction of malignancies plays essential roles not only in advance detection for cancer, but also in discovering effective prevention and treatment of cancer, till now there isn't approach be able in prediction the mutated in tumor protein P53 which is caused high ratio of human cancers like breast, Blood, skin, liver, lung, bladder etc. This research proposed a new approach for prediction pre-cancer via detection malignant mutations in tumor protein P53 using bioinformatics tools like FASTA, BLAST, CLUSTALW and TP53 databases worldwide. Implement and apply this new approach of prediction pre-cancer through mutations at tumor protein P53 shows an effective result when used more specific parameters/features to extract the prediction result that means when the user increase the number of filters of the results which obtained from the database gives more specific diagnosis and classify, addition that the detecting pre-cancer via prediction mutated tumor protein P53 will reduces a person's cancers in the future by avoiding exposure to toxins, radiation or monitoring themselves at older ages by change their food, environment, even the pace of living. Also that new approach of prediction pre-cancer will help if there is any treatment can give for that person to therapy the mutated tumor protein P53. Index Terms (Normal Homology TP53 gene, Tumor Protein P53, Oncogene Labs, GC and AT content, FASTA, BLAST, ClustalW)",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1310.2182v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0708.3171v1",
+      "title": "The p53-MDM2 network: from oscillations to apoptosis",
+      "authors": [
+        "Indrani Bose",
+        "Bhaswar Ghosh"
+      ],
+      "year": 2007,
+      "doi": "",
+      "url": "http://arxiv.org/abs/0708.3171v1",
+      "abstract": "The p53 protein is well-known for its tumour suppressor function. The p53-MDM2 negative feedback loop constitutes the core module of a network of regulatory interactions activated under cellular stress. In normal cells, the level of p53 proteins is kept low by MDM2, i.e. MDM2 negatively regulates the activity of p53. In the case of DNA damage,the p53-mediated pathways are activated leading to cell cycle arrest and repair of the DNA. If repair is not possible due to excessive damage, the p53-mediated apoptotic pathway is activated bringing about cell death. In this paper, we give an overview of our studies on the p53-MDM2 module and the associated pathways from a systems biology perspective. We discuss a number of key predictions, related to some specific aspects of cell cycle arrest and cell death, which could be tested in experiments.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0708.3171v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1211.5073v1",
+      "title": "On the role of intrinsic noise on the response of the p53-Mdm2 module",
+      "authors": [
+        "Lídice Cruz-Rodríguez",
+        "Nuris Figueroa-Morales",
+        "Roberto Mulet"
+      ],
+      "year": 2012,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1211.5073v1",
+      "abstract": "The protein p53 has a well established role in protecting genomic integrity in human cells. When DNA is damaged p53 induces the cell cycle arrest to prevent the transmission of the damage to cell progeny, triggers the production of proteins for DNA repair and ultimately calls for apoptosis. In particular, the p53-Mdm2 feedback loop seems to be the key circuit in this response of cells to damage. For many years, based on measurements over populations of cells it was believed that the p53-Mdm2 feedback loop was the responsible for the existence of damped oscillations in the levels of p53 and Mdm2 after DNA damage. However, recent measurements in individual human cells have shown that p53 and its regulator Mdm2 develop sustained oscillations over long periods of time even in the absence of stress. These results have attracted a lot of interest, first because they open a new experimental framework to study the p53 and its interactions and second because they challenge years of mathematical models with new and accurate data on single cells. Inspired by these experiments standard models of the p53-Mdm2 circuit were modified introducing ad-hoc some biologically motivated noise that becomes responsible for the stability of the oscillations. Here, we follow an alternative approach proposing that the noise that stabilizes the fluctuations is the intrinsic noise due to the finite nature of the populations of p53 and Mdm2 in a single cell.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1211.5073v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0601481v1",
+      "title": "Hopf bifurcation analysis for a mathematical model of P53-MDM2 interaction",
+      "authors": [
+        "Mihaela Neamtu",
+        "Raul Florin Horhat",
+        "Dumitru Opris"
+      ],
+      "year": 2006,
+      "doi": "",
+      "url": "http://arxiv.org/abs/math/0601481v1",
+      "abstract": "In this paper we analyze a simple mathematical model which describes the interaction between the proteins p53 and Mdm2. For the stationary state we discuss the local stability and the existence of the Hopf bifurcation. Choosing the delay as a bifurcation parameter we study the direction and stability of the bifurcating periodic solutions. Some numerical examples and the conclusions are finally made.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0601481v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1109.0743v1",
+      "title": "Stochastic modeling of p53-regulated apoptosis upon radiation damage",
+      "authors": [
+        "Divesh Bhatt",
+        "Zoltan Oltvai",
+        "Ivet Bahar"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1109.0743v1",
+      "abstract": "We develop and study the evolution of a model of radiation induced apoptosis in cells using stochastic simulations, and identified key protein targets for effective mitigation of radiation damage. We identified several key proteins associated with cellular apoptosis using an extensive literature survey. In particular, we focus on the p53 transcription dependent and p53 transcription independent pathways for mitochondrial apoptosis. Our model reproduces known p53 oscillations following radiation damage. The key, experimentally testable hypotheses that we generate are - inhibition of PUMA is an effective strategy for mitigation of radiation damage if the treatment is administered immediately, at later stages following radiation damage, inhibition of tBid is more effective.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1109.0743v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0601591v1",
+      "title": "A dynamic p53-mdm2 model with distributed time delay",
+      "authors": [
+        "M. Neamtu",
+        "D. Opris",
+        "R. F. Horhat"
+      ],
+      "year": 2006,
+      "doi": "",
+      "url": "http://arxiv.org/abs/math/0601591v1",
+      "abstract": "The objective of this paper is to investigate the stability of limit cycles of a mathematical model with a distributed delay which describes the interaction between p53 and mdm2. Choosing the delay as a bifurcation parameter we study the direction and stability of the bifurcating periodic solutions using the normal form and the center manifold theorem. Some numerical examples are finally made in order to confirm the theoretical results.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0601591v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2348/fig-1",
+      "title": "Figure 1: Intersection of the Hexosamine Biosynthetic Pathway (HBP), Phosphoinositide 3-kinase (PI3K)-mTOR-MYC signaling axis, and p53-MDM2 circuit.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2348/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2348/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2348/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9202/fig-5",
+      "title": "Figure 5: Expressions of p53-mediated apoptosis-related proteins, FAS-mediated apoptosis-related proteins, and cell survival-related proteins.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9202/fig-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9202/fig-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9202/fig-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/b978-0-12-396521-9.00013-9",
+      "title": "Targeting the MDM2–p53 Protein–Protein Interaction",
+      "authors": [
+        "Ian R. Hardcastle"
+      ],
+      "year": 2014,
+      "doi": "10.1016/b978-0-12-396521-9.00013-9",
+      "url": "https://doi.org/10.1016/b978-0-12-396521-9.00013-9",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/b978-0-12-396521-9.00013-9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1211,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1211,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1021/acschembio.0c00988.s003",
+      "title": "Angler Peptides: Macrocyclic Conjugates Inhibit p53:MDM2/X Interactions and Activate Apoptosis in Cancer Cells",
+      "authors": [],
+      "year": 0,
+      "doi": "10.1021/acschembio.0c00988.s003",
+      "url": "https://doi.org/10.1021/acschembio.0c00988.s003",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1021/acschembio.0c00988.s003"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1021/acschembio.0c00988.s001",
+      "title": "Angler Peptides: Macrocyclic Conjugates Inhibit p53:MDM2/X Interactions and Activate Apoptosis in Cancer Cells",
+      "authors": [],
+      "year": 0,
+      "doi": "10.1021/acschembio.0c00988.s001",
+      "url": "https://doi.org/10.1021/acschembio.0c00988.s001",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1021/acschembio.0c00988.s001"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1021/acschembio.0c00988.s002",
+      "title": "Angler Peptides: Macrocyclic Conjugates Inhibit p53:MDM2/X Interactions and Activate Apoptosis in Cancer Cells",
+      "authors": [],
+      "year": 0,
+      "doi": "10.1021/acschembio.0c00988.s002",
+      "url": "https://doi.org/10.1021/acschembio.0c00988.s002",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1021/acschembio.0c00988.s002"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1021/jm034182u.s001",
+      "title": "A Nonpeptidic Sulfonamide Inhibits the p53-mdm2 Interaction and Activates p53-Dependent Transcription in mdm2-Overexpressing Cells",
+      "authors": [],
+      "year": 0,
+      "doi": "10.1021/jm034182u.s001",
+      "url": "https://doi.org/10.1021/jm034182u.s001",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1021/jm034182u.s001"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.14711/thesis-b714013",
+      "title": "The candidate tumor suppressor ING1 disrupts p53-MDM2 interaction and stabilizes p53",
+      "authors": [
+        "Ka Man Leung"
+      ],
+      "year": 0,
+      "doi": "10.14711/thesis-b714013",
+      "url": "https://doi.org/10.14711/thesis-b714013",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.14711/thesis-b714013"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.12,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.12,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "PMC10671156",
+      "title": "HCV and HCC Tango—Deciphering the Intricate Dance of Disease: A Review Article",
+      "authors": [
+        "Milosevic I",
+        "Todorovic N",
+        "Filipovic A",
+        "Simic J",
+        "Markovic M",
+        "Stevanovic O",
+        "Malinic J",
+        "Katanic N",
+        "Mitrovic N",
+        "Nikolic N."
+      ],
+      "year": 2023,
+      "doi": null,
+      "url": "https://europepmc.org/article/pmc/PMC10671156",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "PMC10671156"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.0,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.108,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.108,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

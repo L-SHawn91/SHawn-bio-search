@@ -1,0 +1,1493 @@
+{
+  "query": "GLP-1 receptor agonist cholesterol metabolism endometrium",
+  "effective_query": "GLP-1 receptor agonist cholesterol metabolism endometrium",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 40,
+  "warnings": [
+    "semantic_scholar failed: HTTP Error 429: ",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4284890877",
+      "title": "Trends in insulin resistance: insights into mechanisms and therapeutic strategy",
+      "authors": [
+        "Mengwei Li",
+        "Xiaowei Chi",
+        "Ying Wang",
+        "Sarra Setrerrahmane",
+        "Wenwei Xie",
+        "Hanmei Xu"
+      ],
+      "year": 2022,
+      "doi": "10.1038/s41392-022-01073-0",
+      "url": "https://doi.org/10.1038/s41392-022-01073-0",
+      "abstract": "The centenary of insulin discovery represents an important opportunity to transform diabetes from a fatal diagnosis into a medically manageable chronic condition. Insulin is a key peptide hormone and mediates the systemic glucose metabolism in different tissues. Insulin resistance (IR) is a disordered biological response for insulin stimulation through the disruption of different molecular pathways in target tissues. Acquired conditions and genetic factors have been implicated in IR. Recent genetic and biochemical studies suggest that the dysregulated metabolic mediators released by adipose tissue including adipokines, cytokines, chemokines, excess lipids and toxic lipid metabolites promote IR in other tissues. IR is associated with several groups of abnormal syndromes that include obesity, diabetes, metabolic dysfunction-associated fatty liver disease (MAFLD), cardiovascular disease, polycystic ovary syndrome (PCOS), and other abnormalities. Although no medication is specifically approved to treat IR, we summarized the lifestyle changes and pharmacological medications that have been used as efficient intervention to improve insulin sensitivity. Ultimately, the systematic discussion of complex mechanism will help to identify potential new targets and treat the closely associated metabolic syndrome of IR.",
+      "citations": 781,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4284890877"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.377,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.377,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4316039477",
+      "title": "Obesity and Cancer: A Current Overview of Epidemiology, Pathogenesis, Outcomes, and Management",
+      "authors": [
+        "Sukanya Pati",
+        "Wadeed Irfan",
+        "Ahmed Tariq Jameel",
+        "Shahid Ahmed",
+        "Rabia Shahid"
+      ],
+      "year": 2023,
+      "doi": "10.3390/cancers15020485",
+      "url": "https://doi.org/10.3390/cancers15020485",
+      "abstract": "Obesity increases cancer risk and mortality. Weight-reducing strategies in obesity-associated cancers are important interventions as a key component of cancer care. Future studies are warranted to further elucidate the complex relationship between obesity and cancer with the identification of targets for effective interventions.",
+      "citations": 590,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4316039477"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.377,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.377,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2163691729",
+      "title": "Diabetes and cancer",
+      "authors": [
+        "Paolo Vigneri",
+        "Francesco Frasca",
+        "Laura Sciacca",
+        "Giuseppe Pandini",
+        "Riccardo Vigneri"
+      ],
+      "year": 2009,
+      "doi": "10.1677/erc-09-0087",
+      "url": "https://doi.org/10.1677/erc-09-0087",
+      "abstract": "Diabetes and cancer are two heterogeneous, multifactorial, severe, and chronic diseases. Because of their frequency, reciprocal influences - even minor influences - may have a major impact. Epidemiological studies clearly indicate that the risk of several types of cancer (including pancreas, liver, breast, colorectal, urinary tract, and female reproductive organs) is increased in diabetic patients. Mortality is also moderately increased. Several confounding factors, having general or site-specific relevance, make it difficult to accurately assess cancer risk in diabetic patients. These factors include diabetes duration, varying levels of metabolic control, different drugs used for therapy, and the possible presence of chronic complications. Hyperinsulinemia most likely favors cancer in diabetic patients as insulin is a growth factor with pre-eminent metabolic but also mitogenic effects, and its action in malignant cells is favored by mechanisms acting at both the receptor and post-receptor level. Obesity, hyperglycemia, and increased oxidative stress may also contribute to increased cancer risk in diabetes. While anti-diabetic drugs have a minor influence on cancer risk (except perhaps the biguanide metformin that apparently reduces the risk), drugs used to treat cancer may either cause diabetes or worsen a pre-existing diabetes. In addition to the well-known diabetogenic effect of glucocorticoids and anti-androgens, an increasing number of targeted anti-cancer molecules may interfere with glucose metabolism acting at different levels on the signaling substrates shared by IGF-I and insulin receptors. In conclusion, diabetes and cancer have a complex relationship that requires more clinical attention and better-designed studies.",
+      "citations": 1001,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2163691729"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4205636865",
+      "title": "Polycystic Ovary Syndrome: A Comprehensive Review of Pathogenesis, Management, and Drug Repurposing",
+      "authors": [
+        "Hosna Mohammad Sadeghi",
+        "Ida Adeli",
+        "Daniela Călina",
+        "Anca Oana Docea",
+        "Taraneh Mousavi",
+        "Marzieh Daniali",
+        "Shekoufeh Nikfar",
+        "Aristidis Tsatsakis",
+        "Mohammad Abdollahı"
+      ],
+      "year": 2022,
+      "doi": "10.3390/ijms23020583",
+      "url": "https://doi.org/10.3390/ijms23020583",
+      "abstract": "Polycystic ovary syndrome (PCOS) is an endocrine-gynecology disorder affecting many women of childbearing age. Although a part of the involved mechanism in PCOS occurrence is discovered, the exact etiology and pathophysiology are not comprehensively understood yet. We searched PubMed for PCOS pathogenesis and management in this article and ClinicalTrials.gov for information on repurposed medications. All responsible factors behind PCOS were thoroughly evaluated. Furthermore, the complete information on PCOS commonly prescribed and repurposed medications is summarized through tables. Epigenetics, environmental toxicants, stress, diet as external factors, insulin resistance, hyperandrogenism, inflammation, oxidative stress, and obesity as internal factors were investigated. Lifestyle modifications and complementary and alternative medicines are preferred first-line therapy in many cases. Medications, including 3-hydroxy-3-methyl-3-glutaryl-coenzyme A (HMG-CoA) reductase inhibitors, thiazolidinediones, sodium-glucose cotransporter-2 inhibitors, dipeptidyl peptidase-4 inhibitors, glucose-like peptide-1 receptor agonists, mucolytic agents, and some supplements have supporting data for being repurposed in PCOS. Since there are few completed clinical trials with a low population and mostly without results on PCOS repurposed medications, it would be helpful to do further research and run well-designed clinical trials on this subject. Moreover, understanding more about PCOS would be beneficial to find new medications implying the effect via the novel discovered routes.",
+      "citations": 413,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4205636865"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.3596,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3596,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4320494004",
+      "title": "Polycystic Ovary Syndrome: Etiology, Current Management, and Future Therapeutics",
+      "authors": [
+        "Samradhi Singh",
+        "Namrata Pal",
+        "Swasti Shubham",
+        "Devojit Kumar Sarma",
+        "Vinod Verma",
+        "Francesco Marotta",
+        "Manoj Kumar"
+      ],
+      "year": 2023,
+      "doi": "10.3390/jcm12041454",
+      "url": "https://doi.org/10.3390/jcm12041454",
+      "abstract": "Polycystic ovary syndrome (PCOS) is a complex endocrine and metabolic disorder, typically characterized by anovulation, infertility, obesity, insulin resistance, and polycystic ovaries. Lifestyle or diet, environmental pollutants, genetics, gut dysbiosis, neuroendocrine alterations, and obesity are among the risk factors that predispose females to PCOS. These factors might contribute to upsurging metabolic syndrome by causing hyperinsulinemia, oxidative stress, hyperandrogenism, impaired folliculogenesis, and irregular menstrual cycles. Dysbiosis of gut microbiota may play a pathogenic role in the development of PCOS. The restoration of gut microbiota by probiotics, prebiotics, or a fecal microbiota transplant (FMT) might serve as an innovative, efficient, and noninvasive way to prevent and mitigate PCOS. This review deliberates on the variety of risk factors potentially involved in the etiology, prevalence, and modulation of PCOS, in addition to plausible therapeutic interventions, including miRNA therapy and the eubiosis of gut microbiota, that may help treat and manage PCOS.",
+      "citations": 401,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4320494004"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.3572,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3572,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2119008227",
+      "title": "Metformin: an old but still the best treatment for type 2 diabetes",
+      "authors": [
+        "Lilian Beatriz Aguayo Rojas",
+        "Marília Brito Gomes"
+      ],
+      "year": 2013,
+      "doi": "10.1186/1758-5996-5-6",
+      "url": "https://doi.org/10.1186/1758-5996-5-6",
+      "abstract": "The management of T2DM requires aggressive treatment to achieve glycemic and cardiovascular risk factor goals. In this setting, metformin, an old and widely accepted first line agent, stands out not only for its antihyperglycemic properties but also for its effects beyond glycemic control such as improvements in endothelial dysfunction, hemostasis and oxidative stress, insulin resistance, lipid profiles, and fat redistribution. These properties may have contributed to the decrease of adverse cardiovascular outcomes otherwise not attributable to metformin's mere antihyperglycemic effects. Several other classes of oral antidiabetic agents have been recently launched, introducing the need to evaluate the role of metformin as initial therapy and in combination with these newer drugs. There is increasing evidence from in vivo and in vitro studies supporting its anti-proliferative role in cancer and possibly a neuroprotective effect. Metformin's negligible risk of hypoglycemia in monotherapy and few drug interactions of clinical relevance give this drug a high safety profile. The tolerability of metformin may be improved by using an appropiate dose titration, starting with low doses, so that side-effects can be minimized or by switching to an extended release form. We reviewed the role of metformin in the treatment of patients with type 2 diabetes and describe the additional benefits beyond its glycemic effect. We also discuss its potential role for a variety of insulin resistant and pre-diabetic states, obesity, metabolic abnormalities associated with HIV disease, gestational diabetes, cancer, and neuroprotection.",
+      "citations": 563,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2119008227"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.3454,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3454,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2095288674",
+      "title": "Glossary of terms used in toxicology, 2nd edition (IUPAC Recommendations 2007)",
+      "authors": [
+        "John H. Duffus",
+        "Monica Nordberg",
+        "Douglas M. Templeton"
+      ],
+      "year": 2007,
+      "doi": "10.1351/pac200779071153",
+      "url": "https://doi.org/10.1351/pac200779071153",
+      "abstract": "Abstract This glossary, a revision of the IUPAC \"Glossary for Chemists of Terms Used in Toxicology\" [ Pure Appl. Chem. 65 , 2003 (1993)] incorporating new and redefined terms from the \"Glossary of Terms Used in Toxicokinetics\" [ Pure Appl. Chem. 76 , 1033 (2004)], contains definitions and explanatory notes, if needed, for terms frequently used in the multidisciplinary field of toxicology. The glossary is compiled primarily for those scientists and others who now find themselves working in toxicology or requiring a knowledge of the subject, especially for hazard and risk assessment. Many medical terms are included because of their frequent occurrence in the toxicological literature. There are three annexes, one containing a list of abbreviations and acronyms used in toxicology, one containing a list of abbreviations and acronyms used by international bodies and by legislation relevant to toxicology and chemical safety, and one describing the classification of carcinogenicity according to the weight of evidence available.",
+      "citations": 781,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2095288674"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.3431,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3431,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4291397630",
+      "title": "American Association of Clinical Endocrinology Clinical Practice Guideline: Developing a Diabetes Mellitus Comprehensive Care Plan—2022 Update",
+      "authors": [
+        "Lawrence Blonde",
+        "Guillermo E. Umpierrez",
+        "Sarah Reddy",
+        "Janet B. McGill",
+        "Sarah L. Berga",
+        "Michael A. Bush",
+        "Suchitra Chandrasekaran",
+        "Ralph A. DeFronzo",
+        "Daniel Einhorn",
+        "Rodolfo J. Galindo",
+        "Thomas W. Gardner",
+        "Rajesh Garg",
+        "W. Timothy Garvey",
+        "Irl B. Hirsch",
+        "Daniel L. Hurley",
+        "Kenneth Izuora",
+        "Mikhail Kosiborod",
+        "Darin E. Olson",
+        "Shailendra B. Patel",
+        "Rodica Pop‐Busui",
+        "Archana Sadhu",
+        "Susan L. Samson",
+        "Carla Stec",
+        "William V. Tamborlane",
+        "Katherine R. Tuttle",
+        "Christine Twining",
+        "Adrian Vella",
+        "Priyathama Vellanki",
+        "Sandra Weber"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.eprac.2022.08.002",
+      "url": "https://doi.org/10.1016/j.eprac.2022.08.002",
+      "abstract": "",
+      "citations": 453,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4291397630"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.3276,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3276,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1111/dom.70244",
+      "title": "Digital engagement enhances dual\n                    <scp>GIP</scp>\n                    /\n                    <scp>GLP</scp>\n                    ‐1 receptor agonist and\n                    <scp>GLP</scp>\n                    ‐1 receptor agonist efficacy: A retrospective cohort analysis of a digital weight loss service on outcomes and safety",
+      "authors": [
+        "Hans Johnson",
+        "Ashley Kieran Clift",
+        "Daniel Reisel",
+        "David R. Huang"
+      ],
+      "year": 2025,
+      "doi": "10.1111/dom.70244",
+      "url": "https://doi.org/10.1111/dom.70244",
+      "abstract": ">Abstract > > >Aims > >We evaluated the weight loss efficacy and safety of a national digital weight loss service (DWLS) and explored associations between digital engagement and outcomes in adults prescribed dual GIP/GLP‐1RA and GLP‐1RA. > > > >Materials and Methods > >We conducted a retrospective longitudinal cohort analysis of adults prescribed dual GIP/GLP‐1RA and GLP‐1RA between August 2024 and July 2025 within the Voy DWLS in the United Kingdom (UK). Digitally engaged patients met all three criteria: (i) ≥1 coaching session; (ii) weekly weight logging (≥4/month); and (iii) ≥1 additional in‐app interaction. Weight‐loss trajectories were modelled using mixed models for repeated measures (MMRM). Kaplan–Meier methods and Cox models examined time to attain weight loss thresholds (≥5, ≥10, ≥15, ≥20, ≥25%). Safety events were summarised as rates per 1000 patient‐months with 95% CIs. > > > >Results > > The cohort included 106 653 adults (mean age 42.3 ± 12.7 years; 77.9% female; baseline BMI 35.2 ± 6.2 kg/m >2 > ). Whilst 79.7% ( >n > = 84 955) used the digital application, 5.7% ( >n > = 6086) met maximal engagement, with 100 567 classed as not engaged. Across 11 months, engaged patients achieved greater adjusted weight loss than not engaged (21.5% [95% CI −22.0 to −21.1] vs. 17.0% [−17.2 to −16.8]; absolute difference 4.5 percentage points; >p > >p > > > > >Conclusions > >Digital engagement was associated with 4.5 percentage points greater weight loss (21.5% vs. 17.0%), faster milestone achievement, and comparable safety profiles. > >",
+      "citations": 4,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1111/dom.70244"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1848,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1848,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.2337/db25-1857-lb",
+      "title": "1857-LB: GLP-1 Receptor Agonist and GLP-1GIP Dual Agonist in Diabetic Kidney Disease",
+      "authors": [
+        "ANNA WU"
+      ],
+      "year": 2025,
+      "doi": "10.2337/db25-1857-lb",
+      "url": "https://doi.org/10.2337/db25-1857-lb",
+      "abstract": ">Introduction and Objective: Diabetic nephropathy (DN) develops in roughly 30% of diabetic patients & is the leading cause of chronic kidney disease. Characterized by irreversible deterioration of renal function, DN lacks effective therapeutic approaches for treatment. This study explores the renoprotective effects of the dual glucagon-like peptide-1 (GLP-1)/gastric inhibitory polypeptide (GIP) receptor agonist, tirzepatide, in a db/db mouse model of DN to explore its underlying mechanisms. We assessed glucose levels & kidney function markers following treatment with semaglutide & tirzepatide. > >Methods: Experimental groups consisted of 6-to-8 week-old C57BL/KsJ Cay db/db & db/+ mice randomly assigned based on baseline blood glucose, HbA1c, & body weight: the db/db model group & treatment groups of semaglutide (30 nmol/kg), tirzepatide (7.5 nmol/kg), & tirzepatide (20 nmol/kg). The normal control group consisted of eight age-matched lean db/+ control mice. Drug administration was performed via subcutaneous injection once daily (QD). Body weight, food & water intake, blood glucose, HbA1c, kidney function markers, & histological changes were evaluated. > >Results: Compared to the GLP-1 receptor agonist semaglutide, the dual GIPR & GLP-1R agonist tirzepatide exhibited superior efficacy in improving glycemic control parameters, including blood glucose, HbA1c, & insulin secretion function. Both tirzepatide (7.5 nmol/kg & 20 nmol/kg) & semaglutide (30 nmol/kg) significantly reduced body weight & body weight change rates in db/db model mice. All three treatment groups showed notable reduction in both daily & cumulative food intake. Tirzepatide showed a more pronounced effect on diabetic nephropathy-related markers, including BUN, UACR, & UAER, compared to semaglutide. > >Conclusion: Our findings confirm that db/db mice develop hyperglycemia & kidney function impairment, resembling DN. Further, dual GIPR & GLP-1R agonism with tirzepatide demonstrates superior therapeutic potential for managing both glycemic control & renal complications in diabetes. > > >Disclosure > >A. Wu: None. > >",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.2337/db25-1857-lb"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.18,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.18,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2504.10401v1",
+      "title": "Selectivity gain in olfactory receptor neuron at optimal odor concentration",
+      "authors": [
+        "A. K. Vidybida"
+      ],
+      "year": 2025,
+      "doi": "10.1109/ISOEN61239.2024.10556323",
+      "url": "http://arxiv.org/abs/2504.10401v1",
+      "abstract": "It has been discovered before (arXiv:2306.07676) that for the selectivity gain due to fluctuations in the process of primary odor reception by olfactory receptor neuron (ORN) there exists an optimal concentration of odors at which increased selectivity is mostly manifested. We estimate by means of numerical simulation what could be the gain value at that concentration by modeling ORN as a leaky integrate-and-fire neuron with membrane populated by receptor proteins R which bind and release odor molecules randomly. Each R is modeled as a ligand-gated ion channel, and binding-releasing is modeled as a Markov stochastic process. Possible values for the selectivity gain are calculated for ORN parameters suggested by experimental data. Keywords: ORN, selectivity, receptor proteins, fluctuations, stochastic process, Markov process",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2504.10401v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.172,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.172,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0809.1717v1",
+      "title": "Molecular determinants involved in the allosteric control of agonist affinity in the GABAB receptor by the GABAB2 subunit",
+      "authors": [
+        "Jianfeng Liu",
+        "Damien Maurel",
+        "Sébastien Etzol",
+        "Isabelle Brabet",
+        "Hervé Ansanay",
+        "Jean-Philippe Pin",
+        "Philippe Rondard"
+      ],
+      "year": 2008,
+      "doi": "10.1074/jbc.M313639200",
+      "url": "http://arxiv.org/abs/0809.1717v1",
+      "abstract": "The gamma-aminobutyric acid type B (GABAB) receptor is an allosteric complex made of two subunits, GABAB1 (GB1) and GABAB2 (GB2). Both subunits are composed of an extracellular Venus flytrap domain (VFT) and a heptahelical domain (HD). GB1 binds GABA, and GB2 plays a major role in G-protein activation as well as in the high agonist affinity state of GB1. How agonist affinity in GB1 is regulated in the receptor remains unknown. Here, we demonstrate that GB2 VFT is a major molecular determinant involved in this control. We show that isolated versions of GB1 and GB2 VFTs in the absence of the HD and C-terminal tail can form hetero-oligomers as shown by time-resolved fluorescence resonance energy transfer (based on HTRF technology). GB2 VFT and its association with GB1 VFT controlled agonist affinity in GB1 in two ways. First, GB2 VFT exerted a direct action on GB1 VFT, as it slightly increased agonist affinity in isolated GB1 VFT. Second and most importantly, GB2 VFT prevented inhibitory interaction between the two main domains (VFT and HD) of GB1. According to this model, we propose that GB1 HD prevents the possible natural closure of GB1 VFT. In contrast, GB2 VFT facilitates this closure. Finally, such inhibitory contacts between HD and VFT in GB1 could be similar to those important to maintain the inactive state of the receptor.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0809.1717v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1204.3928v1",
+      "title": "Approximate invariance of metabolic energy per synapse during development in mammalian brains",
+      "authors": [
+        "Jan Karbowski"
+      ],
+      "year": 2012,
+      "doi": "10.1371/journal.pone.0033425",
+      "url": "http://arxiv.org/abs/1204.3928v1",
+      "abstract": "During mammalian development the cerebral metabolic rate correlates qualitatively with synaptogenesis, and both often exhibit bimodal temporal profiles. Despite these non-monotonic dependencies, it is found based on empirical data for different mammals that regional metabolic rate per synapse is approximately conserved from birth to adulthood for a given species (with a slight deviation from this constancy for human visual and temporal cortices during adolescence). A typical synapse uses about $(7\\pm 2)\\cdot 10^{3}$ glucose molecules per second in primate cerebral cortex, and about 5 times of that amount in cat and rat visual cortices. A theoretical model for brain metabolic expenditure is used to estimate synaptic signaling and neural spiking activity during development. It is found that synaptic efficacy is generally inversely correlated with average firing rate, and additionally, synapses consume a bulk of metabolic energy, roughly $50-90 %$ during most of the developmental process (except human temporal cortex $ < 50%$). Overall, these results suggest a tight regulation of brain electrical and chemical activities during the formation and consolidation of neural connections. This presumably reflects strong energetic constraints on brain development.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1204.3928v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41069706",
+      "title": "The dual impact of GLP-1 receptor agonists on metabolic and reproductive health in polycystic ovary syndrome: insights from human and animal trials.",
+      "authors": [
+        "Hoteit BH",
+        "Kotaich J",
+        "Ftouni H",
+        "Hazime F",
+        "Safawi A",
+        "Masri R",
+        "Marwani M."
+      ],
+      "year": 2025,
+      "doi": "10.1177/20420188251383064",
+      "url": "https://europepmc.org/article/med/41069706",
+      "abstract": "",
+      "citations": 2,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41069706"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1484,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1484,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.metabol.2025.156397",
+      "title": "Semaglutide, the first approved GLP-1 receptor agonist for the management of metabolic dysfunction-associated steatohepatitis",
+      "authors": [
+        "Chrysoula Boutari",
+        "Michael A. Hill",
+        "Christos S. Mantzoros"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.metabol.2025.156397",
+      "url": "https://doi.org/10.1016/j.metabol.2025.156397",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/j.metabol.2025.156397"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1466,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1466,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41596408",
+      "title": "A Systematic Review on GLP-1 Receptor Agonists in Reproductive Health: Integrating IVF Data, Ovarian Physiology and Molecular Mechanisms.",
+      "authors": [
+        "Voros C",
+        "Chatzinikolaou F",
+        "Papapanagiotou I",
+        "Polykalas S",
+        "Mavrogianni D",
+        "Koulakmanidis AM",
+        "Athanasiou D",
+        "Kanaka V",
+        "Bananis K",
+        "Athanasiou A"
+      ],
+      "year": 2026,
+      "doi": "10.3390/ijms27020759",
+      "url": "https://europepmc.org/article/med/41596408",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41596408"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41198197",
+      "title": "Tirzepatide for fertility-sparing treatment in obese/overweight patients with endometrial cancer and atypical hyperplasia: a phase II single-arm clinical trial protocol.",
+      "authors": [
+        "Zheng J",
+        "Yang J",
+        "Yang J."
+      ],
+      "year": 2025,
+      "doi": "10.1136/bmjopen-2025-105429",
+      "url": "https://europepmc.org/article/med/41198197",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41198197"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40869469",
+      "title": "Obesity as a Part of Polycysric Ovary Syndrome (PCOS)-A Review of Pathophysiology and Comprehensive Therapeutic Strategies.",
+      "authors": [
+        "Bila J",
+        "Dotlic J",
+        "Andjic M",
+        "Ivanovic K",
+        "Micic J",
+        "Tulic L",
+        "Pupovac M",
+        "Stojnic J",
+        "Vukovic I",
+        "Ivanovic S."
+      ],
+      "year": 2025,
+      "doi": "10.3390/jcm14165642",
+      "url": "https://europepmc.org/article/med/40869469",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40869469"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41973072",
+      "title": "A Narrative Review of Weight Management Strategies: From Lifestyle Interventions to Emerging Pharmacotherapies.",
+      "authors": [
+        "Ahmed IS",
+        "Tapponi SL",
+        "Manaa HM",
+        "Soltani A",
+        "Hussein ES",
+        "Parvaresh FA",
+        "Hussain Z."
+      ],
+      "year": 2026,
+      "doi": "10.1155/jobe/6556057",
+      "url": "https://europepmc.org/article/med/41973072",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41973072"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41480369",
+      "title": "Research progress of gut microbiota and its metabolites in polycystic ovary syndrome.",
+      "authors": [
+        "Qin S",
+        "Guo S",
+        "Tan X",
+        "Li K",
+        "Huang J."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fendo.2025.1700191",
+      "url": "https://europepmc.org/article/med/41480369",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41480369"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41459506",
+      "title": "GPR35-mediated metabolic reprogramming promotes tumorigenesis in digestive cancers.",
+      "authors": [
+        "Wang F",
+        "Ding XX",
+        "Su TH",
+        "Cao J",
+        "Li FQ",
+        "Dong ZS",
+        "Guo XZ",
+        "Zhang Y",
+        "Chen Y",
+        "Yang DH"
+      ],
+      "year": 2025,
+      "doi": "10.3389/fimmu.2025.1668471",
+      "url": "https://europepmc.org/article/med/41459506",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41459506"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40781307",
+      "title": "Semaglutide and human reproduction: caution at the intersection of energy balance, ovarian function, and follicular development.",
+      "authors": [
+        "Sills ES",
+        "Harrity C",
+        "Chu HI",
+        "Wang JW",
+        "Yang F",
+        "Wood SH."
+      ],
+      "year": 2025,
+      "doi": "10.1186/s12958-025-01435-7",
+      "url": "https://europepmc.org/article/med/40781307",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40781307"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2404.01358v1",
+      "title": "Utilizing AI and Social Media Analytics to Discover Adverse Side Effects of GLP-1 Receptor Agonists",
+      "authors": [
+        "Alon Bartal",
+        "Kathleen M. Jagodnik",
+        "Nava Pliskin",
+        "Abraham Seidmann"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2404.01358v1",
+      "abstract": "Adverse side effects (ASEs) of drugs, revealed after FDA approval, pose a threat to patient safety. To promptly detect overlooked ASEs, we developed a digital health methodology capable of analyzing massive public data from social media, published clinical research, manufacturers' reports, and ChatGPT. We uncovered ASEs associated with the glucagon-like peptide 1 receptor agonists (GLP-1 RA), a market expected to grow exponentially to $133.5 billion USD by 2030. Using a Named Entity Recognition (NER) model, our method successfully detected 21 potential ASEs overlooked upon FDA approval, including irritability and numbness. Our data-analytic approach revolutionizes the detection of unreported ASEs associated with newly deployed drugs, leveraging cutting-edge AI-driven social media analytics. It can increase the safety of new drugs in the marketplace by unlocking the power of social media to support regulators and manufacturers in the rapid discovery of hidden ASE risks.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2404.01358v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2404.13934v1",
+      "title": "A whole-body mathematical model of cholesterol metabolism and transport",
+      "authors": [
+        "Peter Emil Carstensen",
+        "Jacob Bendsen",
+        "Laura Hjort Blicher",
+        "Kim Kristensen",
+        "John Bagterp Jørgensen"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2404.13934v1",
+      "abstract": "Cardiovascular diseases are the leading cause of death. Increased levels of plasma cholesterol are consistently associated with an increased risk of cardiovascular disease. As a result, it is imperative that studies are conducted to determine the best course of action to reduce whole-body cholesterol levels. A whole-body mathematical model for cholesterol metabolism and transport is proposed. The model can simulate the effects of lipid-lowering drugs like statins and anti-PCSK9. The model is based on ordinary differential equations and kinetic functions. It has been validated against literature data. It offers a versatile platform for designing personalized interventions for cardiovascular health management.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2404.13934v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.diabet.2025.101663",
+      "title": "SGLT2 inhibitor, GLP-1 receptor agonist, and dementia risk",
+      "authors": [
+        "Shih-Wei Lai"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.diabet.2025.101663",
+      "url": "https://doi.org/10.1016/j.diabet.2025.101663",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/j.diabet.2025.101663"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.metabol.2026.156598",
+      "title": "The heart rate paradox and inferential limits of the GLP-1 receptor agonist–atrial fibrillation association",
+      "authors": [
+        "Xinhui Zhan",
+        "Jiafeng Zhang"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.metabol.2026.156598",
+      "url": "https://doi.org/10.1016/j.metabol.2026.156598",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/j.metabol.2026.156598"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.7759/cureus.101738",
+      "title": "Comparative Gynecological Safety of the Dual GIP/GLP-1 Receptor Agonist Tirzepatide vs. the GLP-1 Receptor Agonist Semaglutide: A Real-World Pharmacovigilance Analysis (2022–2025)",
+      "authors": [
+        "Hima Bindu Makkena"
+      ],
+      "year": 2026,
+      "doi": "10.7759/cureus.101738",
+      "url": "https://doi.org/10.7759/cureus.101738",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.7759/cureus.101738"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/j.metop.2026.100468",
+      "title": "HbA1c kinetics as a prognostic marker of ophthalmic risk in GLP-1 receptor agonist therapy",
+      "authors": [
+        "Angeliki Margoni",
+        "Kostas A. Papavassiliou",
+        "Athanasios G. Papavassiliou"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.metop.2026.100468",
+      "url": "https://doi.org/10.1016/j.metop.2026.100468",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/j.metop.2026.100468"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.14,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.14,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2209.09700v1",
+      "title": "Unresolved excess accumulation of myelin-derived cholesterol contributes to scar formation after spinal cord injury",
+      "authors": [
+        "Bolin Zheng",
+        "Yijing He",
+        "Qing Zhao",
+        "Xu Zhu",
+        "Shuai Yin",
+        "Huiyi Yang",
+        "Zhaojie Wang",
+        "Liming Cheng"
+      ],
+      "year": 2022,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2209.09700v1",
+      "abstract": "Background: Spinal cord injury triggers complex pathological cascades, resulting in destructive tissue damage and incomplete tissue repair. Scar formation is generally considered as a barrier for regeneration in central nervous system (CNS), while the intrinsic mechanism of scar-forming after spinal cord injury has not been completed deciphered. Methods: We assessed cholesterol hemostasis in spinal cord lesions and injured peripheral nerves using confocal reflection microscopy and real-time PCR analyses. The involvement of the proteins, which were predicted to promote cholesterol efflux in spinal cord lesions, were assessed with Liver X receptor (LXR) agonist and Apolipoprotein E (APOE) deficiency. The role of reverse cholesterol transport (RCT) in cholesterol clearance was examined in APOE KO mice injured sciatic nerves and myelin-overloaded macrophages in vitro. Finally, we determined the consequence of excess cholesterol accumulation in CNS by transplantation of myelin into neonatal spinal cord lesions. Results: We found that excess cholesterol accumulates in phagocytes and is inefficiently removed in spinal cord lesions in young-adult mice. Interestingly, we observed that excessive cholesterol also accumulates in injured peripheral nerves, but is subsequently removed by RCT. Meanwhile, preventing RCT led to macrophage accumulation and fibrosis in injured peripheral nerves. Furthermore, the neonatal mouse spinal cord lesions are devoid of myelin-derived lipids, and able to heal without excess cholesterol accumulation. We found that transplantation of myelin into neonatal lesions disrupts healing with excessive cholesterol accumulation, persistent macrophage activation and fibrosis, indicating myelin-derived cholesterol plays a critical role in impaired wound healing.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2209.09700v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1709.05426v3",
+      "title": "Cholesterol modulates acetylcholine receptor diffusion by tuning confinement sojourns and nanocluster stability",
+      "authors": [
+        "Alejo Mosqueira",
+        "Pablo A. Camino",
+        "Francisco J. Barrantes"
+      ],
+      "year": 2017,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1709.05426v3",
+      "abstract": "Translational motion of neurotransmitter receptors is key for determining receptor number at the synapse and hence, synaptic efficacy. We combine live-cell STORM superresolution microscopy of nicotinic acetylcholine receptor (nAChR) with single-particle tracking, mean-squared displacement (MSD), turning angle, ergodicity, and clustering analyses to characterize the lateral motion of individual molecules and their collective behaviour. nAChR diffusion is highly heterogeneous: subdiffusive, Brownian and, less frequently, superdiffusive. At the single-track level, free walks are transiently interrupted by ms-long confinement sojourns occurring in nanodomains of ~36 nm radius. Cholesterol modulates the time and the area spent in confinement. Turning angle analysis reveals anticorrelated steps with time-lag dependence, in good agreement with the permeable fence model. At the ensemble level, nanocluster assembly occurs in second-long bursts separated by periods of cluster disassembly. Thus, millisecond-long confinement sojourns and second-long reversible nanoclustering with similar cholesterol sensitivities affect all trajectories; the proportion of the two regimes determines the resulting macroscopic motional mode and breadth of heterogeneity in the ensemble population.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1709.05426v3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "crossref",
+      "id": "10.1016/s1262-3636(17)30066-6",
+      "title": "GLP-1 receptor agonist confer target organ protection in type 2 diabetes",
+      "authors": [
+        "Fabrice Bonnet"
+      ],
+      "year": 2017,
+      "doi": "10.1016/s1262-3636(17)30066-6",
+      "url": "https://doi.org/10.1016/s1262-3636(17)30066-6",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "crossref"
+      ],
+      "source_ids": [
+        "10.1016/s1262-3636(17)30066-6"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.9,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1272,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1272,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0705.2913v1",
+      "title": "Global and regional brain metabolic scaling and its functional consequences",
+      "authors": [
+        "Jan Karbowski"
+      ],
+      "year": 2007,
+      "doi": "",
+      "url": "http://arxiv.org/abs/0705.2913v1",
+      "abstract": "Background: Information processing in the brain requires large amounts of metabolic energy, the spatial distribution of which is highly heterogeneous reflecting complex activity patterns in the mammalian brain. Results: Here, it is found based on empirical data that, despite this heterogeneity, the volume-specific cerebral glucose metabolic rate of many different brain structures scales with brain volume with almost the same exponent around -0.15. The exception is white matter, the metabolism of which seems to scale with a standard specific exponent -1/4. The scaling exponents for the total oxygen and glucose consumptions in the brain in relation to its volume are identical and equal to $0.86\\pm 0.03$, which is significantly larger than the exponents 3/4 and 2/3 suggested for whole body basal metabolism on body mass. Conclusions: These findings show explicitly that in mammals (i) volume-specific scaling exponents of the cerebral energy expenditure in different brain parts are approximately constant (except brain stem structures), and (ii) the total cerebral metabolic exponent against brain volume is greater than the much-cited Kleiber's 3/4 exponent. The neurophysiological factors that might account for the regional uniformity of the exponents and for the excessive scaling of the total brain metabolism are discussed, along with the relationship between brain metabolic scaling and computation.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0705.2913v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.4316/fig-2",
+      "title": "Figure 2: The equine GLP-1 receptor (eGLP-1R) is expressed in the pancreas.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.4316/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.4316/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.4316/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.1753/table-1",
+      "title": "Table 1: Case counts of adverse events associated with DPP-4 inhibitors or GLP-1 receptor agonists.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.1753/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.1753/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.1753/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.1753/fig-2",
+      "title": "Figure 2: Odds ratios of the adverse events associated with DPP-4 inhibitors or GLP-1 receptor agonists.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.1753/fig-2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.1753/fig-2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.1753/fig-2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.1382v0.1/reviews/1",
+      "title": "Peer Review #1 of \"Kisspeptin receptor agonist (FTM080) increased plasma concentrations of luteinizing hormone in anestrous ewes (v0.1)\"",
+      "authors": [],
+      "year": 2015,
+      "doi": "10.7287/peerj.1382v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.1382v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.1382v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.7668/fig-5",
+      "title": "Figure 5: Effects of stress and as1842856 on cholesterol metabolism-related genes in mice after 6 weeks.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.7668/fig-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.7668/fig-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.7668/fig-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.1382v0.2/reviews/1",
+      "title": "Peer Review #1 of \"Kisspeptin receptor agonist (FTM080) increased plasma concentrations of luteinizing hormone in anestrous ewes (v0.2)\"",
+      "authors": [],
+      "year": 2015,
+      "doi": "10.7287/peerj.1382v0.2/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.1382v0.2/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.1382v0.2/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.1382v0.2/reviews/2",
+      "title": "Peer Review #2 of \"Kisspeptin receptor agonist (FTM080) increased plasma concentrations of luteinizing hormone in anestrous ewes (v0.2)\"",
+      "authors": [
+        "S Hileman"
+      ],
+      "year": 2015,
+      "doi": "10.7287/peerj.1382v0.2/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.1382v0.2/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.1382v0.2/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.1382v0.1/reviews/2",
+      "title": "Peer Review #2 of \"Kisspeptin receptor agonist (FTM080) increased plasma concentrations of luteinizing hormone in anestrous ewes (v0.1)\"",
+      "authors": [
+        "S Hileman"
+      ],
+      "year": 2015,
+      "doi": "10.7287/peerj.1382v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.1382v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.1382v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

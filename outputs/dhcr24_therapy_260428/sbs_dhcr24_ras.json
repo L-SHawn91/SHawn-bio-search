@@ -1,0 +1,1854 @@
+{
+  "query": "DHCR24 lipid raft Ras PI3K AKT tumor signaling",
+  "effective_query": "DHCR24 lipid raft Ras PI3K AKT tumor signaling",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 49,
+  "warnings": [
+    "crossref failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3138173231",
+      "title": "Role of Cholesterol and Lipid Rafts in Cancer Signaling: A Promising Therapeutic Opportunity?",
+      "authors": [
+        "Rosa Vona",
+        "Elisabetta Iessi",
+        "Paola Matarrese"
+      ],
+      "year": 2021,
+      "doi": "10.3389/fcell.2021.622908",
+      "url": "https://doi.org/10.3389/fcell.2021.622908",
+      "abstract": "Cholesterol is a lipid molecule that plays an essential role in a number of biological processes, both physiological and pathological. It is an essential structural constituent of cell membranes, and it is fundamental for biosynthesis, integrity, and functions of biological membranes, including membrane trafficking and signaling. Moreover, cholesterol is the major lipid component of lipid rafts, a sort of lipid-based structures that regulate the assembly and functioning of numerous cell signaling pathways, including those related to cancer, such as tumor cell growth, adhesion, migration, invasion, and apoptosis. Considering the importance of cholesterol metabolism, its homeostasis is strictly regulated at every stage: import, synthesis, export, metabolism, and storage. The alterations of this homeostatic balance are known to be associated with cardiovascular diseases and atherosclerosis, but mounting evidence also connects these behaviors to increased cancer risks. Although there is conflicting evidence on the role of cholesterol in cancer development, most of the studies consistently suggest that a dysregulation of cholesterol homeostasis could lead to cancer development. This review aims to discuss the current understanding of cholesterol homeostasis in normal and cancerous cells, summarizing key findings from recent preclinical and clinical studies that have investigated the role of major players in cholesterol regulation and the organization of lipid rafts, which could represent promising therapeutic targets.",
+      "citations": 157,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3138173231"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2607,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2607,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4392120289",
+      "title": "Cholesterol metabolism: physiological regulation and diseases",
+      "authors": [
+        "Jiarui Guo",
+        "Silong Chen",
+        "Ying Zhang",
+        "Jinxia Liu",
+        "Luyang Jiang",
+        "Lidan Hu",
+        "Ke Yao",
+        "Yibo Yu",
+        "Xiangjun Chen"
+      ],
+      "year": 2024,
+      "doi": "10.1002/mco2.476",
+      "url": "https://doi.org/10.1002/mco2.476",
+      "abstract": "Cholesterol homeostasis is crucial for cellular and systemic function. The disorder of cholesterol metabolism not only accelerates the onset of cardiovascular disease (CVD) but is also the fundamental cause of other ailments. The regulation of cholesterol metabolism in the human is an extremely complex process. Due to the dynamic balance between cholesterol synthesis, intake, efflux and storage, cholesterol metabolism generally remains secure. Disruption of any of these links is likely to have adverse effects on the body. At present, increasing evidence suggests that abnormal cholesterol metabolism is closely related to various systemic diseases. However, the exact mechanism by which cholesterol metabolism contributes to disease pathogenesis remains unclear, and there are still unknown factors. In this review, we outline the metabolic process of cholesterol in the human body, especially reverse cholesterol transport (RCT). Then, we discuss separately the impact of abnormal cholesterol metabolism on common diseases and potential therapeutic targets for each disease, including CVD, tumors, neurological diseases, and immune system diseases. At the end of this review, we focus on the effect of cholesterol metabolism on eye diseases. In short, we hope to provide more new ideas for the pathogenesis and treatment of diseases from the perspective of cholesterol.",
+      "citations": 80,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4392120289"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.2543,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2543,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3081014215",
+      "title": "Targeting SREBP-2-Regulated Mevalonate Metabolism for Cancer Therapy",
+      "authors": [
+        "Linyuan Xue",
+        "Hongyu Qi",
+        "He Zhang",
+        "Lu Ding",
+        "Qingxia Huang",
+        "Daqing Zhao",
+        "Boyang Jason Wu",
+        "Xiangyan Li"
+      ],
+      "year": 2020,
+      "doi": "10.3389/fonc.2020.01510",
+      "url": "https://doi.org/10.3389/fonc.2020.01510",
+      "abstract": "Recently, targeting metabolic reprogramming has emerged as a potential therapeutic approach for fighting cancer. Sterol regulatory element binding protein-2 (SREBP-2), a basic helix-loop-helix leucine zipper transcription factor, mainly regulates genes involved in cholesterol biosynthesis and homeostasis. SREBP-2 binds to the sterol regulatory elements (SREs) in the promoters of its target genes and activates the transcription of mevalonate pathway genes, such as HMG-CoA reductase (HMGCR), mevalonate kinase and other key enzymes. In this review, we first summarized the structure of SREBP-2 and its activation and regulation by multiple signaling pathways. We then found that SREBP-2 and its regulated enzymes, including HMGCR, FPPS, SQS, and DHCR4 from the mevalonate pathway, participate in the progression of various cancers, including prostate, breast, lung, and hepatocellular cancer, as potential targets. Importantly, preclinical and clinical research demonstrated that fatostatin, statins, and N-BPs targeting SREBP-2, HMGCR, and FPPS, respectively, alone or in combination with other drugs, have been used for the treatment of different cancers. This review summarizes new insights into the critical role of the SREBP-2-regulated mevalonate pathway for cancer and its potential for targeted cancer therapy.",
+      "citations": 160,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3081014215"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.2487,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2487,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "842f6f4ceb771fe843a47d2c0532e7bd725a9281",
+      "title": "SQLE promotes pancreatic cancer growth by attenuating ER stress and activating lipid rafts-regulated Src/PI3K/Akt signaling pathway",
+      "authors": [
+        "Ruiyuan Xu",
+        "Jianlu Song",
+        "Rexiati Ruze",
+        "Yuan Chen",
+        "Xinpeng Yin",
+        "Chengcheng Wang",
+        "Yupei Zhao"
+      ],
+      "year": 2023,
+      "doi": "10.1038/s41419-023-05987-7",
+      "url": "https://www.semanticscholar.org/paper/842f6f4ceb771fe843a47d2c0532e7bd725a9281",
+      "abstract": "Pancreatic cancer (PC), a highly lethal malignancy, commonly exhibits metabolic reprogramming that results in therapeutic vulnerabilities. Nevertheless, the mechanisms underlying the impacts of aberrant cholesterol metabolism on PC development and progression remain elusive. In this study, we found that squalene epoxidase (SQLE) is a crucial mediator of cholesterol metabolism in PC growth. We observed a profound upregulation of SQLE in PC tissues, and its high expression was correlated with poor patient outcomes. Our functional experiments demonstrated that SQLE facilitated cell proliferation, induced cell cycle progression, and inhibited apoptosis in vitro, while promoting tumor growth in vivo. Mechanistically, SQLE was found to have a dual role. First, its inhibition led to squalene accumulation-induced endoplasmic reticulum (ER) stress and subsequent apoptosis. Second, it enhanced de novo cholesterol biosynthesis and maintained lipid raft stability, thereby activating the Src/PI3K/Akt signaling pathway. Significantly, employing SQLE inhibitors effectively suppressed PC cell proliferation and xenograft tumor growth. In summary, this study reveals SQLE as a novel oncogene that promotes PC growth by mitigating ER stress and activating lipid raft-regulated Src/PI3K/Akt signaling pathway, highlighting the potential of SQLE as a therapeutic target for PC.",
+      "citations": 75,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "842f6f4ceb771fe843a47d2c0532e7bd725a9281"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2225,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2225,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4225473720",
+      "title": "Cholesterol metabolism and its implication in glioblastoma therapy",
+      "authors": [
+        "Xuyang Guo",
+        "Shaolong Zhou",
+        "Zhuo Yang",
+        "Zian Li",
+        "Weihua Hu",
+        "Lirui Dai",
+        "Wulong Liang",
+        "Xinjun Wang"
+      ],
+      "year": 2022,
+      "doi": "10.7150/jca.63609",
+      "url": "https://doi.org/10.7150/jca.63609",
+      "abstract": "Glioblastoma (GBM) is the most lethal malignant tumor in the central nervous system, with a median survival of only 14 months. Cholesterol, which is the main component of cell membrane and the precursor of many hormones, is one of the most important lipid components in human body. Since reprogramming of the cholesterol metabolic profile has been discovered in many cancers including GBM, cholesterol metabolism becomes a promising potential target for therapy. Since GBM cells rely on external cholesterol to survive and accumulate lipid droplets to meet their rapid growth needs, targeting the metabolism of cholesterol by different strategies including inhibition of cholesterol uptake and promotion of cholesterol efflux by activating LXRs and disruption of cellular cholesterol trafficking, inhibition of SREBP signaling, inhibition of cholesterol esterification, could potentially oppose the growth of glial tumors. In this review, we discussed the above findings and describe cholesterol synthesis and homeostatic feedback pathways in normal brain tissues and brain tumors, statin use in GBM and the role of lipid rafts and cholesterol precursors and oxysterols in the treatment and pathogenesis of GBM are also summarized.",
+      "citations": 60,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4225473720"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.213,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.213,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2896892740",
+      "title": "Emodin Sensitizes Hepatocellular Carcinoma Cells to the Anti-Cancer Effect of Sorafenib through Suppression of Cholesterol Metabolism",
+      "authors": [
+        "Young Seon Kim",
+        "Yoon-Mi Lee",
+        "Taek-In Oh",
+        "Dong Hoon Shin",
+        "Geon-Hee Kim",
+        "Sang-Yeon Kan",
+        "Hyeji Kang",
+        "Ji Hyung Kim",
+        "Byeong Mo Kim",
+        "Woo Jong Yim",
+        "Ji‐Hong Lim"
+      ],
+      "year": 2018,
+      "doi": "10.3390/ijms19103127",
+      "url": "https://doi.org/10.3390/ijms19103127",
+      "abstract": "Reduced therapeutic efficacy of sorafenib, a first-generation multikinase inhibitor, is often observed during the treatment of advanced hepatocellular carcinoma (HCC). Emodin is an active component of Chinese herbs, and is effective against leukemia, lung cancer, colon cancer, pancreatic cancer, and HCC; however, the sensitizing effect of emodin on sorafenib-based HCC therapy has not been evaluated. Here, we demonstrate that emodin significantly improved the anti-cancer effect of sorafenib in HCC cells, such as HepG2, Hep3B, Huh7, SK-HEP-1, and PLC/PRF5. Mechanistically, emodin inhibits sterol regulatory element-binding protein-2 (SREBP-2) transcriptional activity, which suppresses cholesterol biosynthesis and oncogenic protein kinase B (AKT) signaling. Additionally, attenuated cholesterol synthesis and oncogenic AKT signaling inactivated signal transducer and activator of transcription 3 (STAT3), an oncogenic transcription factor. Furthermore, emodin synergistically increased cell cycle arrest in the G1 phase and apoptotic cells in the presence of sorafenib. Animal models xenografted with HepG2 or SK-HEP-1 cells also showed that the combination of emodin and sorafenib was sufficient to inhibit tumor growth. Overall, these results suggested that the combination of emodin and sorafenib may offer a potential therapy for patients with advanced HCC.",
+      "citations": 95,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2896892740"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.2111,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2111,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3183736481",
+      "title": "Enzymes in the Cholesterol Synthesis Pathway: Interactomics in the Cancer Context",
+      "authors": [
+        "П.В. Ершов",
+        "Leonid Kaluzhskiy",
+        "Yuri V. Mezentsev",
+        "Е.O. Yablokov",
+        "O.V. Gnedenko",
+        "Ivanov As"
+      ],
+      "year": 2021,
+      "doi": "10.3390/biomedicines9080895",
+      "url": "https://doi.org/10.3390/biomedicines9080895",
+      "abstract": "A global protein interactome ensures the maintenance of regulatory, signaling and structural processes in cells, but at the same time, aberrations in the repertoire of protein-protein interactions usually cause a disease onset. Many metabolic enzymes catalyze multistage transformation of cholesterol precursors in the cholesterol biosynthesis pathway. Cancer-associated deregulation of these enzymes through various molecular mechanisms results in pathological cholesterol accumulation (its precursors) which can be disease risk factors. This work is aimed at systematization and bioinformatic analysis of the available interactomics data on seventeen enzymes in the cholesterol pathway, encoded by <i>HMGCR, MVK, PMVK, MVD, FDPS, FDFT1, SQLE, LSS, DHCR24, CYP51A1, TM7SF2, MSMO1, NSDHL, HSD17B7, EBP, SC5D, DHCR7</i> genes. The spectrum of 165 unique and 21 common protein partners that physically interact with target enzymes was selected from several interatomic resources. Among them there were 47 modifying proteins from different protein kinases/phosphatases and ubiquitin-protein ligases/deubiquitinases families. A literature search, enrichment and gene co-expression analysis showed that about a quarter of the identified protein partners was associated with cancer hallmarks and over-represented in cancer pathways. Our results allow to update the current fundamental view on protein-protein interactions and regulatory aspects of the cholesterol synthesis enzymes and annotate of their sub-interactomes in term of possible involvement in cancers that will contribute to prioritization of protein targets for future drug development.",
+      "citations": 46,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3183736481"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.2015,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2015,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2088532315",
+      "title": "Cumulus cell gene expression following the LH surge in bovine preovulatory follicles: potential early markers of oocyte competence",
+      "authors": [
+        "Mourad Assidi",
+        "S.J. Dieleman",
+        "Marc‐André Sirard"
+      ],
+      "year": 2010,
+      "doi": "10.1530/rep-10-0248",
+      "url": "https://doi.org/10.1530/rep-10-0248",
+      "abstract": "Cumulus cells (CCs) are essential for oocytes to reach full development competency and become fertilized. Many major functional properties of CCs are triggered by gonadotropins and governed by the oocyte. Consequently, cumulus may reflect oocyte quality and is often used for oocyte selection. The most visible function of CCs is their ability for rapid extracellular matrix expansion after the LH surge. Although unexplained, LH induces the final maturation and improves oocyte quality. To study the LH signaling and gene expression cascade patterns close to the germinal vesicle breakdown, bovine CCs collected at 2 h before and 6 h after the LH surge were hybridized to a custom-made microarray to better understand the LH genomic action and find differentially expressed genes associated with the LH-induced oocyte final maturation. Functional genomic analysis of the 141 overexpressed and 161 underexpressed clones was performed according to their molecular functions, gene networks, and cell compartments. Following real-time PCR validation of our gene lists, some interesting pathways associated with the LH genomic action on CCs and their possible roles in oocyte final maturation, ovulation, and fertilization are discussed. A list of early potential markers of oocyte competency in vivo and in vitro is thereafter suggested. These early biomarkers are a preamble to understand the LH molecular pathways that trigger the final oocyte competence acquisition process in bovine.",
+      "citations": 99,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2088532315"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1964,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1964,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "323abf00bd9b1720ef7a04ccd45a6bfbef3868ef",
+      "title": "Regulatory effects of statins on Akt signaling for prevention of cancers.",
+      "authors": [
+        "Fatemehsadat Hosseini",
+        "Abdolreza Ahmadi",
+        "Prashant Kesharwani",
+        "Hossein Hosseini",
+        "A. Sahebkar"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.cellsig.2024.111213",
+      "url": "https://www.semanticscholar.org/paper/323abf00bd9b1720ef7a04ccd45a6bfbef3868ef",
+      "abstract": "Statins, which are primarily used as lipid-lowering drugs, have been found to exhibit anti-tumor effects through modulating and interfering with various signaling pathways. In observational studies, statin use has been associated with a significant reduction in the progression of various cancers, including colon, lung, prostate, pancreas, and esophagus cancer, as well as melanoma and B and T cell lymphoma. The mevalonate pathway, which is affected by statins, plays a crucial role in activating Rho, Ras, and Rab proteins, thereby impacting the proliferation and apoptosis of tumor cells. Statins block this pathway, leading to the inhibition of isoprenoid units, which are critical for the activation of these key proteins, thereby affecting cancer cell behavior. Additionally, statins affect MAPK and Cdk2, which in turn reduce the expression of p21 and p27 cyclin-dependent kinase inhibitors. Akt signaling plays a crucial role in key cancer cell features like proliferation, invasion, and apoptosis by activating multiple effectors in downstream pathways such as FOXO, PTEN, NF-κB, GSK3β, and mTOR. The PI3K/Akt signaling is necessary for many events in the metastatic pathway and has been implicated in the resistance to cytostatic drugs. The Akt/PTEN axis is currently attracting great interest for its role in carcinogenesis. Statins have been shown to activate the purinergic receptor P2X7 and affect Akt signaling, which may have important anti-cancer effects. Hence, targeting Akt shows promise as an effective approach to cancer prevention and therapy. This review aims to provide a comprehensive discussion on the specific impact of statins through Akt signaling in different types of cancer.",
+      "citations": 20,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "323abf00bd9b1720ef7a04ccd45a6bfbef3868ef"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1953,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1953,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3081816381",
+      "title": "Squalene synthase promotes the invasion of lung cancer cells via the osteopontin/ERK pathway",
+      "authors": [
+        "Yi‐Fang Yang",
+        "Yu‐Chan Chang",
+        "Yi‐Hua Jan",
+        "Chih‐Jen Yang",
+        "Ming-Shyan Huang",
+        "Michael Hsiao"
+      ],
+      "year": 2020,
+      "doi": "10.1038/s41389-020-00262-2",
+      "url": "https://doi.org/10.1038/s41389-020-00262-2",
+      "abstract": "Cholesterol is the major component of lipid rafts. Squalene synthase (SQS) is a cholesterol biosynthase that functions in cholesterol biosynthesis, modulates the formation of lipids rafts and promotes lung cancer metastasis. In this study, we investigated the lipid raft-associated pathway of SQS in lung cancer. Gene expression microarray data revealed the upregulation of secreted phosphoprotein 1 (SPP1; also known as osteopontin, OPN) in CL1-0/SQS-overexpressing cells. Knockdown of OPN in SQS-overexpressing cells inhibits their migration and invasion, whereas an OPN treatment rescues the migration and invasion of SQS knockdown cells. High OPN expression is associated with lymph node status, advanced stage and poor prognosis in patients with lung cancer. Moreover, patients with high SQS expression and high OPN expression show poor survival compared with patients with low SQS expression and low OPN expression. SQS induces the phosphorylation of Src and ERK1/2 via OPN, resulting in increased expression of MMP1 and subsequent metastasis of lung cancer cells. Based on our findings, SQS expression increases the expression of OPN and phosphorylation of Src through cholesterol synthesis to modulate the formation of lipid rafts. SQS may represent a therapeutic strategy for lung cancer.",
+      "citations": 48,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3081816381"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1943,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1943,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W3008628679",
+      "title": "Targeted lapatinib anti-HER2/ErbB2 therapy resistance in breast cancer: opportunities to overcome a difficult problem",
+      "authors": [
+        "Reema S. Wahdan-Alaswad",
+        "Bolin Liu",
+        "Ann D. Thor"
+      ],
+      "year": 2020,
+      "doi": "10.20517/cdr.2019.92",
+      "url": "https://doi.org/10.20517/cdr.2019.92",
+      "abstract": "Approximately 20% of invasive breast cancers have upregulation/gene amplification of the oncogene human epidermal growth factor receptor-2 (HER2/ErbB2). Of these, some also express steroid receptors (the so-called Luminal B subtype), whereas others do not (the HER2 subtype). HER2 abnormal breast cancers are associated with a worse prognosis, chemotherapy resistance, and sensitivity to selected anti-HER2 targeted therapeutics. Transcriptional data from over 3000 invasive breast cancers suggest that this approach is overly simplistic; rather, the upregulation of HER2 expression resulting from gene amplification is a driver event that causes major transcriptional changes involving numerous genes and pathways in breast cancer cells. Most notably, this includes a shift from estrogenic dependence to regulatory controls driven by other nuclear receptors, particularly the androgen receptor. We discuss members of the HER receptor tyrosine kinase family, heterodimer formation, and downstream signaling, with a focus on HER2 associated pathology in breast carcinogenesis. The development and application of anti-HER2 drugs, including selected clinical trials, are discussed. In light of the many excellent reviews in the clinical literature, our emphasis is on recently developed and successful strategies to overcome targeted therapy resistance. These include combining anti-HER2 agents with programmed cell death-1 ligand or cyclin-dependent kinase 4/6 inhibitors, targeting crosstalk between HER2 and other nuclear receptors, lipid/cholesterol synthesis to inhibit receptor tyrosine kinase activation, and metformin, a broadly inhibitory drug. We seek to facilitate a better understanding of new approaches to overcome anti-HER2 drug resistance and encourage exploration of two other therapeutic interventions that may be clinically useful for HER+ invasive breast cancer patients.",
+      "citations": 36,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W3008628679"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1885,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1885,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "7f2b5d9a6dbefad0f139332824873ec666c2e4e5",
+      "title": "DHCR24 in Tumor Diagnosis and Treatment: A Comprehensive Review",
+      "authors": [
+        "Xin Fu",
+        "Zhaosong Wang"
+      ],
+      "year": 2024,
+      "doi": "10.1177/15330338241259780",
+      "url": "https://www.semanticscholar.org/paper/7f2b5d9a6dbefad0f139332824873ec666c2e4e5",
+      "abstract": "As an important nutrient in the human body, cholesterol can not only provide structural components for the body's cells, but also can be transformed into a variety of active substances to regulate cell signaling pathways. As an important cholesterol synthase, DHCR24 participates in important regulatory processes in the body. The application of DHCR24 in tumor clinical diagnosis and treatment also attracts much attention. This article reviews the structure and regulatory characteristics of DHCR24, and the research of DHCR24 on tumor progression. We summarize the possible mechanisms of DHCR24 promoting tumor progression through reactive oxygen species (ROS), p53, Ras and PI3K-AKT pathways. Through our review, we hope to provide more research ideas and reference value for the application of DHCR24 in tumor prevention and treatment.",
+      "citations": 12,
+      "source_hits": [
+        "semantic_scholar",
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "7f2b5d9a6dbefad0f139332824873ec666c2e4e5",
+        "38847653"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1884,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1884,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "5731f1e7a001504ab977f2d5d536007d422e95d2",
+      "title": "AQP3-Dependent PI3K/Akt Modulation in Breast Cancer Cells",
+      "authors": [
+        "M. Mlinarić",
+        "Ivan Lučić",
+        "L. Milković",
+        "I. V. da Silva",
+        "Ivana Tartaro Bujak",
+        "V. Musani",
+        "G. Soveral",
+        "A. Čipak Gašparović"
+      ],
+      "year": 2023,
+      "doi": "10.3390/ijms24098133",
+      "url": "https://www.semanticscholar.org/paper/5731f1e7a001504ab977f2d5d536007d422e95d2",
+      "abstract": "Aquaporin 3 (AQP3) is a peroxiporin, a membrane protein that channels hydrogen peroxide in addition to water and glycerol. AQP3 expression also correlates with tumor progression and malignancy and is, therefore, a potential target in breast cancer therapy. In addition, epithelial growth factor receptor (EGFR) plays an important role in breast cancer. Therefore, we investigated whether disruption of the lipid raft harboring EGFR could affect AQP3 expression, and conversely, whether AQP3 silencing would affect the EGFR/phosphoinositide-3-kinase (PI3K)/Protein kinase B (PKB or Akt) signaling pathway in breast cancer cell lines with different malignant capacities. We evaluated H2O2 uptake, cell migratory capacity, and expression of PI3K, pAkt/Akt in three breast cancer cell lines, MCF7, SkBr3, and SUM159PT, and in the nontumorigenic breast epithelial cell line MCF10A. Our results show different responses between the tested cell lines, especially when compared to the nontumorigenic cell line. Neither lipid raft disruption nor EGF stimuli had an effect on PI3K/Akt pathway in MCF10A cell line. AQP3-silencing in SkBr3 and SUM159PT showed that AQP3 can modulate PI3K/Akt activation in these cells. Interestingly, SUM159PT cells increase nuclear factor-E2–related factor 2 (NRF2) in response to lipid raft disruption and EGF stimuli, suggesting an oxidative-dependent response to these treatments. These results suggest that in breast cancer cell lines, AQP3 is not directly related to PI3K/Akt pathway but rather in a cell-line-dependent manner.",
+      "citations": 20,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "5731f1e7a001504ab977f2d5d536007d422e95d2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.184,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.184,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W1964993258",
+      "title": "The role of high-density lipoproteins in the regulation of angiogenesis",
+      "authors": [
+        "Joanne T. M. Tan",
+        "M. Ng",
+        "Christina A. Bursill"
+      ],
+      "year": 2015,
+      "doi": "10.1093/cvr/cvv104",
+      "url": "https://doi.org/10.1093/cvr/cvv104",
+      "abstract": "Angiogenesis is important for postnatal physiological processes including tissue neovascularization in response to an ischaemic injury. Conversely, uncontrolled inflammatory-driven angiogenesis can accelerate atherosclerotic plaque and tumour growth. Angiogenesis-associated diseases are highly prevalent globally, with cardiovascular-related disorders and cancer being the leading causes of mortality worldwide. A vast amount of research has been conducted on the vasculoprotective effects of high-density lipoproteins (HDLs) and while current HDL-raising therapies to date have not yielded the desired benefits clinically, its role in angiogenesis is yet to be fully elucidated. Epidemiological studies report positive correlations between elevated HDL levels and improved prognosis in both ischaemia- and inflammatory-driven pathologies, in which angiogenesis plays a key role. This review focuses on current evidence from epidemiological and prospective studies, coupled with animal models and mechanistic studies that highlight the ability of HDL to conditionally regulate angiogenesis.",
+      "citations": 45,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1964993258"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1815,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1815,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "68a97ebddf69d6e5723955b6f4b9dcb38a425287",
+      "title": "CAFs-secreted fatty acids fuel oral cancer progression via lipid raft formation.",
+      "authors": [
+        "J. Mu",
+        "Tingpei Ye",
+        "Junjiang Liu",
+        "Shimeng Wang",
+        "Hongmei Zhou",
+        "Fanglong Wu"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.archoralbio.2025.106377",
+      "url": "https://www.semanticscholar.org/paper/68a97ebddf69d6e5723955b6f4b9dcb38a425287",
+      "abstract": "OBJECTIVE\nCancer-associated fibroblasts (CAFs) actively reshape the tumor metabolic landscape by synthesizing and secreting free fatty acids (FFAs) that fuel cancer cells malignancy. FFAs are not only catabolized for energy but also incorporated into plasma membrane structures. However, whether cancer cells exploit CAF-derived FFAs for lipid raft assembly-and if this contributes to oncogenic signaling and malignant behaviors in oral cancer-remains largely unexplored.\n\n\nDESIGN\nIntegrated TCGA and scRNA-seq analyses delineated lipid metabolism characteristics in oral squamous cell carcinoma (OSCC). Immunohistochemistry, immunoblotting, FFAs quantification, and immunofluorescence were used to assess OSCC uptake of CAFs-derived FFAs and lipid raft assembly. Transwell, wound healing, and CCK-8 assays evaluated oncological behaviors. Methyl-β-cyclodextrin (MβCD) and immunoblotting were used to investigate PI3K/AKT pathway activation.\n\n\nRESULTS\nLipogenic enzymes showed gradually increased expression from normal tissue to oral leukoplakia and OSCC. Lipid metabolism reprogramming in CAFs led to abundant FFAs secretion, which enhanced Cav-1 expression and lipid raft formation in OSCC cells. Paracrine FFAs uptake activated PI3K/AKT signaling, promoting proliferation, migration, and invasion. MβCD disrupted lipid rafts and suppressed PI3K/AKT signaling in OSCC cells.\n\n\nCONCLUSION\nCAFs-derived FFAs promote lipid raft synthesis in OSCC cells, activating PI3K/AKT signaling to drive malignant behaviors. Targeting this CAFs-lipid raft axis may represent a novel therapeutic strategy.",
+      "citations": 2,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "68a97ebddf69d6e5723955b6f4b9dcb38a425287"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1804,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1804,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "c440989ff94a1f3201ad76a2dde21732cc99e6b3",
+      "title": "OCIAD2 Stabilizes Integrin β1 Signaling Through SNX17‐Mediated Endosomal Recycling to Lipid Rafts and Modulates Cisplatin Response in HNSCC",
+      "authors": [
+        "Li Cui",
+        "Shanshan Si",
+        "M. Ye",
+        "Pei Lin",
+        "Meiyan Zou",
+        "Yunfan Lin",
+        "Xu Chen",
+        "Bing Guo",
+        "Wenjuan Sun",
+        "Xinyuan Zhao"
+      ],
+      "year": 2026,
+      "doi": "10.1002/advs.202515452",
+      "url": "https://www.semanticscholar.org/paper/c440989ff94a1f3201ad76a2dde21732cc99e6b3",
+      "abstract": "While cisplatin is a widely used and effective chemotherapeutic agent in the treatment of head and neck squamous cell carcinoma (HNSCC), the molecular mechanisms underlying its resistance remain poorly understood. In this study, we identify OCIA domain containing 2 (OCIAD2) as a central mediator of chemoresistance and tumor progression in HNSCC. Through transcriptomic analysis and Co‐immunoprecipitation coupled with mass spectrometry, we demonstrate that OCIAD2 modulates integrin signaling by directly interacting with integrin β1. Mechanistic investigations reveal that OCIAD2 does not regulate integrin β1 at the transcriptional level, but instead stabilizes its protein expression by preventing lysosomal degradation and enhancing its recycling. Importantly, OCIAD2 binds to SNX17 and enhances its association with integrin β1, promoting its recycling to lipid raft‐enriched regions of the plasma membrane. By maintaining integrin β1 in these lipid raft compartments, OCIAD2 sustains the activation of the FAK–PI3K–AKT–mTOR signaling cascade, thereby fostering cellular resilience and resistance to cisplatin. Moreover, targeting OCIAD2, either through genetic silencing or RNA‐based therapies, significantly sensitizes tumors to cisplatin treatment in preclinical models. This study uncovers a previously unrecognized trafficking‐dependent mechanism of drug resistance, suggesting that OCIAD2 may serve as a novel therapeutic target to overcome chemoresistance in HNSCC.",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "c440989ff94a1f3201ad76a2dde21732cc99e6b3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.178,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.178,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "ecd4d04717c293c42c006b661490beab25b77601",
+      "title": "Abstract 5979: RASurgence: ARF6 boosts RAS oncoprotein synthesis and accelerates tumor progression",
+      "authors": [
+        "Gwen F. Kramer",
+        "Deja M. Brooks",
+        "Joshua Tay",
+        "Prachi Gupta",
+        "Sheri L. Holmen",
+        "Thomas Jacob",
+        "Allie H. Grossmann"
+      ],
+      "year": 2026,
+      "doi": "10.1158/1538-7445.am2026-5979",
+      "url": "https://www.semanticscholar.org/paper/ecd4d04717c293c42c006b661490beab25b77601",
+      "abstract": "\n Oncogenic mutations in RAS genes occur in approximately twenty percent of all cancers and drive lethal malignancies such as lung, pancreatic, colorectal carcinoma and melanoma. Despite decades of research, RAS-mutant cancers remain difficult to treat and resistance to emerging RAS targeted therapies is a major clinical challenge. The small GTPase ADP-Ribosylation Factor 6 (ARF6), a member of the RAS superfamily, is critical for endomembrane trafficking, cytoskeletal remodeling, and production of phosphatidylinositol 4,5-bisphosphate (PIP2), a substrate for PI3K and PLC lipid signaling. We have previously shown that ARF6 mediates invasion, metastasis and adaptive immune suppression in BRAF-mutant melanoma. Here we present preliminary data suggesting that ARF6 supports survival of RAS-mutant cancer cells and accelerates RAS-driven tumor progression by augmenting oncoprotein expression. In human NRAS-mutant melanoma and KRAS-mutant carcinoma cells, inhibition or knockdown of ARF6 significantly reduces viability. In genetically engineered, immunocompetent mice bearing NRASQ61R melanomas, tumor-specific deletion of Arf6 delays tumor onset, slows tumor growth and prolongs overall survival. Mechanistically, activation of ARF6 stimulates PI3K-AKT-mTOR signaling and increases expression of RAS, BRAF and PI3K oncoproteins, at least partly through mTOR-mediated protein translation. Together these data suggest that oncogenic RAS signaling relies on ARF6 to fortify expression of key oncoproteins in the RAS pathway and enhance tumor progression.\n \n \n Gwen Kramer, Deja M. Brooks, Joshua Tay, Prachi Gupta, Sheri L. Holmen, Thomas Jacob, Allie H. Grossmann. RASurgence: ARF6 boosts RAS oncoprotein synthesis and accelerates tumor progression [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 5979.\n",
+      "citations": 0,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "ecd4d04717c293c42c006b661490beab25b77601"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.178,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.178,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "143cd6dcd00ceac1474d56cbf2bbba841c27469b",
+      "title": "Let-7g Upregulation Attenuated the KRAS–PI3K–Rac1–Akt Axis-Mediated Bioenergetic Functions",
+      "authors": [
+        "Kuang-Chen Hung",
+        "N. Tien",
+        "D. Bau",
+        "Chun-Hsu Yao",
+        "Chan-Hung Chen",
+        "Jiun‐Long Yang",
+        "Meng‐Liang Lin",
+        "Shih-Shun Chen"
+      ],
+      "year": 2023,
+      "doi": "10.3390/cells12182313",
+      "url": "https://www.semanticscholar.org/paper/143cd6dcd00ceac1474d56cbf2bbba841c27469b",
+      "abstract": "The aberrant activation of signaling pathways contributes to cancer cells with metabolic reprogramming. Thus, targeting signaling modulators is considered a potential therapeutic strategy for cancer. Subcellular fractionation, coimmunoprecipitation, biochemical analysis, and gene manipulation experiments revealed that decreasing the interaction of kirsten rat sarcoma viral oncogene homolog (KRAS) with p110α in lipid rafts with the use of naringenin (NGN), a citrus flavonoid, causes lipid raft-associated phosphatidylinositol 3-kinase (PI3K)−GTP-ras-related C3 botulinum toxin substrate 1 (Rac1)−protein kinase B (Akt)-regulated metabolic dysfunction of glycolysis and mitochondrial oxidative phosphorylation (OXPHOS), leading to apoptosis in human nasopharyngeal carcinoma (NPC) cells. The use of lethal-7g (let-7g) mimic and let-7g inhibitor confirmed that elevated let-7g resulted in a decrease in KRAS expression, which attenuated the PI3K−Rac1−Akt−BCL-2/BCL-xL-modulated mitochondrial energy metabolic functions. Increased let-7g depends on the suppression of the RNA-specificity of monocyte chemoattractant protein-induced protein-1 (MCPIP1) ribonuclease since NGN specifically blocks the degradation of pre-let-7g by NPC cell-derived immunoprecipitated MCPIP1. Converging lines of evidence indicate that the inhibition of MCPIP1 by NGN leads to let-7g upregulation, suppressing oncogenic KRAS-modulated PI3K–Rac1–Akt signaling and thereby impeding the metabolic activities of aerobic glycolysis and mitochondrial OXPHOS.",
+      "citations": 3,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "143cd6dcd00ceac1474d56cbf2bbba841c27469b"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1721,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1721,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1910.07521v1",
+      "title": "End-to-End Cascaded U-Nets with a Localization Network for Kidney Tumor Segmentation",
+      "authors": [
+        "Minh H. Vu",
+        "Guus Grimbergen",
+        "Attila Simkó",
+        "Tufve Nyholm",
+        "Tommy Löfstedt"
+      ],
+      "year": 2019,
+      "doi": "10.24926/548719.073",
+      "url": "http://arxiv.org/abs/1910.07521v1",
+      "abstract": "Kidney tumor segmentation emerges as a new frontier of computer vision in medical imaging. This is partly due to its challenging manual annotation and great medical impact. Within the scope of the Kidney Tumor Segmentation Challenge 2019, that is aiming at combined kidney and tumor segmentation, this work proposes a novel combination of 3D U-Nets---collectively denoted TuNet---utilizing the resulting kidney masks for the consecutive tumor segmentation. The proposed method achieves a Sørensen-Dice coefficient score of 0.902 for the kidney, and 0.408 for the tumor segmentation, computed from a five-fold cross-validation on the 210 patients available in the data.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1910.07521v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40145543",
+      "title": "The Role of Cholesterol Metabolism and Its Regulation in Tumor Development.",
+      "authors": [
+        "Wu Y",
+        "Song W",
+        "Su M",
+        "He J",
+        "Hu R",
+        "Zhao Y."
+      ],
+      "year": 2025,
+      "doi": "10.1002/cam4.70783",
+      "url": "https://europepmc.org/article/med/40145543",
+      "abstract": "",
+      "citations": 8,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40145543"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1556,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1556,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "39224584",
+      "title": "Research progress of SREBP and its role in the pathogenesis of autoimmune rheumatic diseases.",
+      "authors": [
+        "Xu X",
+        "Jin W",
+        "Chang R",
+        "Ding X."
+      ],
+      "year": 2024,
+      "doi": "10.3389/fimmu.2024.1398921",
+      "url": "https://europepmc.org/article/med/39224584",
+      "abstract": "",
+      "citations": 9,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "39224584"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1538,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1538,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1303.5123v1",
+      "title": "Monolayer curvature stabilizes nanoscale raft domains in mixed lipid bilayers",
+      "authors": [
+        "Sebastian Meinhardt",
+        "Richard L. C. Vink",
+        "Friederike Schmid"
+      ],
+      "year": 2013,
+      "doi": "10.1073/pnas.1221075110",
+      "url": "http://arxiv.org/abs/1303.5123v1",
+      "abstract": "According to the lipid raft hypothesis, biological lipid membranes are laterally heterogeneous and filled with nanoscale ordered \"raft\" domains, which are believed to play an important role for the organization of proteins in membranes. However, the mechanisms stabilizing such small rafts are not clear, and even their existence is sometimes questioned. Here we report the observation of raft-like structures in a coarse-grained molecular model for multicomponent lipid bilayers. On small scales, our membranes demix into a liquid ordered (lo) and a liquid disordered (ld) phase. On large scales, phase separation is suppressed and gives way to a microemulsion-type state that contains nanometer size lo domains in a ld environment. Furthermore, we introduce a mechanism that generates rafts of finite size by a coupling between monolayer curvature and local composition. We show that mismatch between the spontaneous curvatures of monolayers in the lo and ld phase induces elastic interactions, which reduce the line tension between the lo and ld phase and can stabilize raft domains with a characteristic size of the order of a few nanometers. Our findings suggest that rafts in multicomponent bilayers might be closely related to the modulated ripple phase in one-component bilayers.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1303.5123v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0906.2232v1",
+      "title": "Biophysical mechanism for Ras-nanocluster formation and signaling in plasma membrane",
+      "authors": [
+        "Thomas Gurry",
+        "Ozan Kahramanogullari",
+        "Robert G. Endres"
+      ],
+      "year": 2009,
+      "doi": "10.1371/journal.pone.0006148",
+      "url": "http://arxiv.org/abs/0906.2232v1",
+      "abstract": "Ras GTPases are lipid-anchored G proteins which play a fundamental role in cell signaling processes. Electron micrographs of immunogold-labeled Ras have shown that membrane-bound Ras molecules segregate into nanocluster domains. Several models have been developed in attempts to obtain quantitative descriptions of nanocluster formation, but all have relied on assumptions such as a constant, expression-level independent ratio of Ras in clusters to Ras monomers (cluster/monomer ratio). However, this assumption is inconsistent with the law of mass action. Here, we present a biophysical model of Ras clustering based on short-range attraction and long-range repulsion between Ras molecules in the membrane. To test this model, we performed Monte Carlo simulations and compared statistical clustering properties with experimental data. We find that we can recover the experimentally-observed clustering across a range of Ras expression levels, without assuming a constant cluster/monomer ratio or the existence of lipid rafts. In addition, our model makes predictions about the signaling properties of Ras nanoclusters in support of the idea that Ras nanoclusters act as an analog-digital-analog converter for high fidelity signaling.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0906.2232v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1412.4956v1",
+      "title": "The Structure of Cholesterol in Lipid Rafts",
+      "authors": [
+        "Laura Toppozini",
+        "Sebastian Meinhardt",
+        "Clare L. Armstrong",
+        "Zahra Yamani",
+        "Norbert Kucerka",
+        "Friederike Schmid",
+        "Maikel C. Rheinstaedter"
+      ],
+      "year": 2014,
+      "doi": "10.1103/PhysRevLett.113.228101",
+      "url": "http://arxiv.org/abs/1412.4956v1",
+      "abstract": "Rafts, or functional domains, are transient nano- or mesoscopic structures in the plasma membrane and are thought to be essential for many cellular processes such as signal transduction, adhesion, trafficking and lipid/protein sorting. Observations of these membrane heterogeneities have proven challenging, as they are thought to be both small and short-lived. With a combination of coarse-grained molecular dynamics simulations and neutron diffraction using deuterium labeled cholesterol molecules we observe raft-like structures and determine the ordering of the cholesterol molecules in binary cholesterol-containing lipid membranes. From coarse-grained computer simulations, heterogenous membranes structures were observed and characterized as small, ordered domains. Neutron diffraction was used to study the lateral structure of the cholesterol molecules. We find pairs of strongly bound cholesterol molecules in the liquid-disordered phase, in accordance with the umbrella model. Bragg peaks corresponding to ordering of the cholesterol molecules in the raft-like structures were observed and indexed by two different structures: a monoclinic structure of ordered cholesterol pairs of alternating direction in equilibrium with cholesterol plaques, i.e., triclinic cholesterol bilayers.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1412.4956v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40370434",
+      "title": "Ubiquitination in lipid metabolism reprogramming: implications for pediatric solid tumors.",
+      "authors": [
+        "Zhang W",
+        "Xu Y",
+        "Fang Y",
+        "Li M",
+        "Li D",
+        "Guo H",
+        "Li H",
+        "He J",
+        "Miao L."
+      ],
+      "year": 2025,
+      "doi": "10.3389/fimmu.2025.1554311",
+      "url": "https://europepmc.org/article/med/40370434",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40370434"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1496,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1496,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40598214",
+      "title": "Lycorine hydrochloride inhibits cholangiocarcinoma through cholesterol biosynthesis and PTPN11 nuclear translocation.",
+      "authors": [
+        "Zhao F",
+        "Peng S",
+        "Zou L",
+        "Zhong M",
+        "Huang Y",
+        "Wang P",
+        "Ji M",
+        "Ma X",
+        "Li F."
+      ],
+      "year": 2025,
+      "doi": "10.1186/s12964-025-02318-5",
+      "url": "https://europepmc.org/article/med/40598214",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40598214"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.1472,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1472,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41681900",
+      "title": "Targeting Pathways Implicated in Cholesterol Metabolism for Novel Cancer Therapy.",
+      "authors": [
+        "Zhou Y",
+        "Sharma V",
+        "Li X",
+        "Singla RK",
+        "Kumar A",
+        "Kyada A",
+        "Ballal S",
+        "Nathiya D",
+        "Koul A",
+        "Khalid M"
+      ],
+      "year": 2026,
+      "doi": "10.3390/cancers18030428",
+      "url": "https://europepmc.org/article/med/41681900",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41681900"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41518525",
+      "title": "The emerging role of cholesterol metabolism in gynecologic cancer development and therapy.",
+      "authors": [
+        "Liu H",
+        "Zhou Y",
+        "Zhang J",
+        "Miao L",
+        "Wu Q",
+        "Zhu H",
+        "Pan S",
+        "Zhu X."
+      ],
+      "year": 2026,
+      "doi": "10.1007/s10495-025-02200-2",
+      "url": "https://europepmc.org/article/med/41518525",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41518525"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41179299",
+      "title": "Novel Strategies against Hepatocellular Carcinoma through Lipid Metabolism.",
+      "authors": [
+        "Yang Y",
+        "Zhao P",
+        "Chen H",
+        "Tu Y",
+        "Zhou Y",
+        "Liu X",
+        "Sreang L",
+        "Zhou Z",
+        "Tu J."
+      ],
+      "year": 2025,
+      "doi": "10.32604/or.2025.066440",
+      "url": "https://europepmc.org/article/med/41179299",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41179299"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40535103",
+      "title": "Pan-cancer analysis reveals the potential role of DHCR24 in bladder cancer via interactions with HRAS to facilitate cholesterol synthesis.",
+      "authors": [
+        "Wang Z",
+        "Mao J",
+        "Zhang Y",
+        "Yang W",
+        "Sun D",
+        "Lu Z",
+        "Lu X",
+        "Gao B."
+      ],
+      "year": 2025,
+      "doi": "10.3892/ol.2025.15131",
+      "url": "https://europepmc.org/article/med/40535103",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40535103"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.146,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.146,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "36483599",
+      "title": "Anticancer peptide Q7 suppresses the growth and migration of human endometrial cancer by inhibiting DHCR24 expression and modulating the AKT-mediated pathway.",
+      "authors": [
+        "Chen CH",
+        "Weng TH",
+        "Huang KY",
+        "Kao HJ",
+        "Liao KW",
+        "Weng SL."
+      ],
+      "year": 2022,
+      "doi": "10.7150/ijms.78349",
+      "url": "https://europepmc.org/article/med/36483599",
+      "abstract": "",
+      "citations": 7,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "36483599"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.1422,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1422,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2601.21216v1",
+      "title": "Multiple binding modes of AKT on PIP$_3$-containing membranes",
+      "authors": [
+        "Yuki Nakagaki",
+        "Eiji Yamamoto"
+      ],
+      "year": 2026,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2601.21216v1",
+      "abstract": "The PI3K/AKT signaling pathway is triggered by recruitment of AKT to cellular membranes. Although AKT is a multidomain serine/threonine kinase composed of an N-terminal pleckstrin homology (PH) domain and a C-terminal kinase domain, how these domains cooperate to regulate AKT activation on membranes remains unclear at the molecular level. Here, using molecular dynamics simulations of full-length AKT on PIP$_3$-containing lipid bilayers, we identify four distinct membrane-binding modes that differ in the orientations and membrane contacts of the PH and kinase domains. In addition to PIP$_3$ binding to the PH domain, we observe specific PIP$_3$ interactions with basic residues in the kinase domain. In the most stable mode, PIP$_3$ interacts with both the canonical and a secondary binding site in the PH domain, while the kinase domain adopts an orientation in which the activation-loop phosphorylation site is exposed to the solvent. Interestingly, the populations of these binding modes depend on the PIP$_3$ concentration in the membrane, leading to changes in the preferred orientation of AKT. These findings shed light on how lipid recognition by the PH domain and the kinase domain of AKT cooperatively shape its membrane-bound conformations.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2601.21216v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2411.01896v1",
+      "title": "MBDRes-U-Net: Multi-Scale Lightweight Brain Tumor Segmentation Network",
+      "authors": [
+        "Longfeng Shen",
+        "Yanqi Hou",
+        "Jiacong Chen",
+        "Liangjin Diao",
+        "Yaxi Duan"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2411.01896v1",
+      "abstract": "Accurate segmentation of brain tumors plays a key role in the diagnosis and treatment of brain tumor diseases. It serves as a critical technology for quantifying tumors and extracting their features. With the increasing application of deep learning methods, the computational burden has become progressively heavier. To achieve a lightweight model with good segmentation performance, this study proposes the MBDRes-U-Net model using the three-dimensional (3D) U-Net codec framework, which integrates multibranch residual blocks and fused attention into the model. The computational burden of the model is reduced by the branch strategy, which effectively uses the rich local features in multimodal images and enhances the segmentation performance of subtumor regions. Additionally, during encoding, an adaptive weighted expansion convolution layer is introduced into the multi-branch residual block, which enriches the feature expression and improves the segmentation accuracy of the model. Experiments on the Brain Tumor Segmentation (BraTS) Challenge 2018 and 2019 datasets show that the architecture could maintain a high precision of brain tumor segmentation while considerably reducing the calculation overhead.Our code is released at https://github.com/Huaibei-normal-university-cv-laboratory/mbdresunet",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2411.01896v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2507.02231v1",
+      "title": "Downregulation of aquaporin 3 promotes hyperosmolarity-induced apoptosis of nucleus pulposus cells through PI3K/Akt/mTOR pathway suppression",
+      "authors": [
+        "Yuan Sang",
+        "Huiqing Zhao",
+        "Jiajun Wu",
+        "Ting Zhang",
+        "Wenbin Xu",
+        "Hui Yao",
+        "Kaihua Liu",
+        "Chang Liu",
+        "Junbin Zhang",
+        "Ping Li",
+        "Depeng Wu",
+        "Yichun Xu",
+        "Jianying Zhang",
+        "Gang Hou"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2507.02231v1",
+      "abstract": "Hyperosmolarity is a key contributor to nucleus pulposus cell (NPC) apoptosis during intervertebral disc degeneration (IVDD). Aquaporin 3 (AQP3), a membrane channel protein, regulates cellular osmotic balance by transporting water and osmolytes. Although AQP3 downregulation is associated with disc degeneration, its role in apoptosis under hyperosmotic conditions remains unclear. Here, we demonstrate that hyperosmolarity induces AQP3 depletion, suppresses the PI3K/AKT/mTOR signaling pathway, and promotes mitochondrial dysfunction and ROS accumulation in NPCs. Lentiviral overexpression of AQP3 restores this pathway, attenuates oxidative damage, and reduces apoptosis, preserving disc structure in IVDD rat models. In contrast, pharmacological inhibition of AQP3 exacerbates ECM catabolism and NP tissue loss. Our findings reveal that AQP3 deficiency under hyperosmolarity contributes to NPC apoptosis via suppression of PI3K/AKT/mTOR signaling, potentially creating a pathological cycle of disc degeneration. These results highlight AQP3 as a promising therapeutic target for IVDD.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2507.02231v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "bc1401530f44a90b828b7d392d7e472e406af8cf",
+      "title": "Suppressing the formation of lipid raft‐associated Rac1/PI3K/Akt signaling complexes by curcumin inhibits SDF‐1α‐induced invasion of human esophageal carcinoma cells",
+      "authors": [
+        "Meng‐Liang Lin",
+        "Yao‐Cheng Lu",
+        "Hung-Yi Chen",
+        "Chuan‐Chun Lee",
+        "Jing-Gung Chung",
+        "Shih-Shun Chen"
+      ],
+      "year": 2014,
+      "doi": "10.1002/mc.21984",
+      "url": "https://www.semanticscholar.org/paper/bc1401530f44a90b828b7d392d7e472e406af8cf",
+      "abstract": "",
+      "citations": 61,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "bc1401530f44a90b828b7d392d7e472e406af8cf"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1396,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1396,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2307.07427v1",
+      "title": "Understanding AKT-mediated chemoresistance: the relationship between ion channels and AKT activation",
+      "authors": [
+        "Rédoane Daoudi"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2307.07427v1",
+      "abstract": "Overcoming chemoresistance is a challenge for multiple chemotherapeutics agents like cisplatin. ABC transporters such as MDR1 or MRPs and PI3K/AKT pathway have been proposed as actors of chemoresistance in several cancers. In this review we describe two downstream targets of Akt: c-myc and p53 in the chemoresistance. We suggest a potential link between p53, c-myc and ABC transporters expression. Consequently a link between Akt and ABC transporters-mediated chemoresistance may exist. Finally we show that Akt activation may be Orai-dependent and/or TRPC-dependent, suggesting that these ion channels could constitute a therapeutic target in cancer.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2307.07427v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "semantic_scholar",
+      "id": "879c4e364a518e57b5dd344bf48d53bcbef08154",
+      "title": "Rit, a non-lipid-modified Ras-related protein, transforms NIH3T3 cells without activating the ERK, JNK, p38 MAPK or PI3K/Akt pathways",
+      "authors": [
+        "E. Rusyn",
+        "E. Reynolds",
+        "H. Shao",
+        "Theresa M. Grana",
+        "T. Chan",
+        "D. Andres",
+        "A. Cox"
+      ],
+      "year": 2000,
+      "doi": "10.1038/sj.onc.1203836",
+      "url": "https://www.semanticscholar.org/paper/879c4e364a518e57b5dd344bf48d53bcbef08154",
+      "abstract": "",
+      "citations": 54,
+      "source_hits": [
+        "semantic_scholar"
+      ],
+      "source_ids": [
+        "879c4e364a518e57b5dd344bf48d53bcbef08154"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.88,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.1328,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1328,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1909.06684v1",
+      "title": "3D Kidneys and Kidney Tumor Semantic Segmentation using Boundary-Aware Networks",
+      "authors": [
+        "Andriy Myronenko",
+        "Ali Hatamizadeh"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1909.06684v1",
+      "abstract": "Automated segmentation of kidneys and kidney tumors is an important step in quantifying the tumor's morphometrical details to monitor the progression of the disease and accurately compare decisions regarding the kidney tumor treatment. Manual delineation techniques are often tedious, error-prone and require expert knowledge for creating unambiguous representation of kidneys and kidney tumors segmentation. In this work, we propose an end-to-end boundary aware fully Convolutional Neural Networks (CNNs) for reliable kidney and kidney tumor semantic segmentation from arterial phase abdominal 3D CT scans. We propose a segmentation network consisting of an encoder-decoder architecture that specifically accounts for organ and tumor edge information by devising a dedicated boundary branch supervised by edge-aware loss terms. We have evaluated our model on 2019 MICCAI KiTS Kidney Tumor Segmentation Challenge dataset and our method has achieved dice scores of 0.9742 and 0.8103 for kidney and tumor repetitively and an overall composite dice score of 0.8923.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1909.06684v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2011.11052v1",
+      "title": "Efficient embedding network for 3D brain tumor segmentation",
+      "authors": [
+        "Hicham Messaoudi",
+        "Ahror Belaid",
+        "Mohamed Lamine Allaoui",
+        "Ahcene Zetout",
+        "Mohand Said Allili",
+        "Souhil Tliba",
+        "Douraied Ben Salem",
+        "Pierre-Henri Conze"
+      ],
+      "year": 2020,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2011.11052v1",
+      "abstract": "3D medical image processing with deep learning greatly suffers from a lack of data. Thus, studies carried out in this field are limited compared to works related to 2D natural image analysis, where very large datasets exist. As a result, powerful and efficient 2D convolutional neural networks have been developed and trained. In this paper, we investigate a way to transfer the performance of a two-dimensional classiffication network for the purpose of three-dimensional semantic segmentation of brain tumors. We propose an asymmetric U-Net network by incorporating the EfficientNet model as part of the encoding branch. As the input data is in 3D, the first layers of the encoder are devoted to the reduction of the third dimension in order to fit the input of the EfficientNet network. Experimental results on validation and test data from the BraTS 2020 challenge demonstrate that the proposed method achieve promising performance.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2011.11052v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.128,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.128,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13844/fig-7",
+      "title": "Figure 7: CCL25/CCR9 promotes tumor growth in a SACC xenograft mouse model by activating the PI3K/AKT signaling pathway.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13844/fig-7",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13844/fig-7",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13844/fig-7"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17768/fig-1",
+      "title": "Figure 1: Schematic diagram of PI3K/Akt/mTOR signaling pathway.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17768/fig-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.17768/fig-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17768/fig-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.14206/fig-4",
+      "title": "Figure 4: SPC21 modulates the PTEN-PI3K/Akt signaling pathway in LUAD.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.14206/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.14206/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.14206/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20621/fig-3",
+      "title": "Figure 3: LINC01094 functionally modulates the PTEN/PI3K/AKT oncogenic signaling axis.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20621/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20621/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20621/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20251/fig-10",
+      "title": "Figure 10: ARID1A hypermethylation activates PI3K/AKT/mTOR signaling in gastric cancer.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20251/fig-10",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20251/fig-10",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20251/fig-10"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.8383/fig-4",
+      "title": "Figure 4: Autophagy promotes HCC progression by inhibiting PI3K–AKT–mTOR signaling.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.8383/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.8383/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.8383/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.5527/fig-7",
+      "title": "Figure 7: Fetal-adult differentially expressed genes mapped to the ‘PI3K-Akt signaling’ pathway.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.5527/fig-7",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.5527/fig-7",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.5527/fig-7"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13844/fig-4",
+      "title": "Figure 4: CCL25/CCR9 activates the PI3K/AKT signaling pathway in SACC-LM cells.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13844/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13844/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13844/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.15172/fig-5",
+      "title": "Figure 5: Sema4D knockdown is significantly associated with inhibition of PI3K-AKT signaling pathway.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.15172/fig-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.15172/fig-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.15172/fig-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9110/fig-4",
+      "title": "Figure 4: Conditioned medium from M2b macrophages inhibited the PI3K/Akt/FoxO3a signaling pathway.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9110/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9110/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9110/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

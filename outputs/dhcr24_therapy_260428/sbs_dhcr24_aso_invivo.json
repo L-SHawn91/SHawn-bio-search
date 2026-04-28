@@ -1,0 +1,841 @@
+{
+  "query": "DHCR24 siRNA ASO knockdown endometrial cancer in vivo xenograft",
+  "effective_query": "DHCR24 siRNA ASO knockdown endometrial cancer in vivo xenograft",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 22,
+  "warnings": [
+    "crossref failed: HTTP Error 429: Too Many Requests",
+    "openaire failed: 'NoneType' object has no attribute 'get'",
+    "semantic_scholar failed: HTTP Error 429: "
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W7117236523",
+      "title": "The Landscape of Potential Targeted Treatments and Chemotherapy Efficacy Biomarkers for TNBC",
+      "authors": [
+        "Yujuan Kang",
+        "Yanqing Liu",
+        "Zhi Liang",
+        "S. Zhang",
+        "Guangdong Qiao"
+      ],
+      "year": 2025,
+      "doi": "10.2147/bctt.s553421",
+      "url": "https://doi.org/10.2147/bctt.s553421",
+      "abstract": "Triple negative breast cancer (TNBC) is characterized as an estrogen receptor (ER) negative, progesterone receptor (PR) negative, and human epidermal growth factor receptor (HER-2) negative disease with an enhanced systemic metastatic incidence, chemotherapeutic insensitivity, and drug resistance. The internal characteristics of TNBC are extraordinary complex and are accompanied by numerous gene mutations and constitutively activated signaling networks, which, in turn, augment TNBC malignancy. There is an urgency to uncover new and potent therapeutic targets for TNBC. Herein, we discussed the historical as well as newly discovered subtypes and properties of TNBC. We also presented a systematic outline of the aberrant gene expression and abnormal activated signaling networks in TNBC. Subsequently, we summarized the corresponding targeted therapeutic drugs, and reviewed the current targeted TNBC therapies launched in clinical trials, thereby providing a direction for future TNBC therapy. We also provided a detailed list of coding genes involved in chemo-sensitive and chemo-resistance of TNBC, which can potentially serve as indicators of chemotherapeutic efficacy. Finally, we discussed the novel and future potential treatments of TNBC. This review highlighted the new era of TNBC treatment in the coming years and provided the gene expression profile of TNBC patients who may benefit from chemotherapy.",
+      "citations": 0,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W7117236523"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.185,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.185,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1701.03476v1",
+      "title": "Targeted nanoconjugate co-delivering siRNA and tyrosine kinase inhibitor to KRAS mutant NSCLC dissociates GAB1-SHP2 post oncogene knockdown",
+      "authors": [
+        "R Srikar",
+        "Dhananjay Suresh",
+        "Ajit Zambre",
+        "Kristen Taylor",
+        "Sarah Chapman",
+        "Matthew Leevy",
+        "Anandhi Upendran",
+        "Raghuraman Kannan"
+      ],
+      "year": 2017,
+      "doi": "10.1038/srep30245",
+      "url": "http://arxiv.org/abs/1701.03476v1",
+      "abstract": "A tri-block nanoparticle (TBN) comprising of an enzymatically cleavable porous gelatin nanocore encapsulated with gefitinib (tyrosine kinase inhibitor (TKI)) and surface functionalized with cetuximab-siRNA conjugate has been synthesized. Targeted delivery of siRNA to undruggable KRAS mutated non-small cell lung cancer cells would sensitize the cells to TKI drugs and offers an efficient therapy for treating cancer; however, efficient delivery of siRNA and releasing it in cytoplasm remains a major challenge. We have shown TBN can efficiently deliver siRNA to cytoplasm of KRAS mutant H23 Non-Small Cell Lung Cancer (NSCLC) cells for oncogene knockdown; subsequently, sensitizing it to TKI. In the absence of TKI, the nanoparticle showed minimal toxicity suggesting that the cells adapt a parallel GAB1 mediated survival pathway. In H23 cells, activated ERK results in phosphorylation of GAB1 on serine and threonine residues to form GAB1-p85 PI3K complex. In the absence of TKI, knocking down the oncogene dephosphorylated ERK, and negated the complex formation. This event led to tyrosine phosphorylation at Tyr627 domain of GAB1 that regulated EGFR signaling by recruiting SHP2. In the presence of TKI, GAB1-SHP2 dissociation occurs, leading to cell death. The outcome of this study provides a promising platform for treating NSCLC patients harboring KRAS mutation.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1701.03476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.158,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.158,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0808.2070v1",
+      "title": "Drug delivery with carbon nanotubes for in vivo cancer treatment",
+      "authors": [
+        "Zhuang Liu",
+        "Kai Chen",
+        "Corrine Davis",
+        "Sarah Sherlock",
+        "Qizhen Cao",
+        "Xiaoyuan Chen",
+        "Hongjie Dai"
+      ],
+      "year": 2008,
+      "doi": "10.1158/0008-5472",
+      "url": "http://arxiv.org/abs/0808.2070v1",
+      "abstract": "Chemically functionalized single-walled carbon nanotubes (SWNTs) have shown promise in tumor targeted accumulation in mice and exhibit biocompatibility, excretion and little toxicity. Here, we demonstrate in-vivo SWNT drug delivery for tumor suppression in mice. We conjugate paclitaxel (PTX), a widely used cancer chemotherapy drug to branched polyethylene-glycol (PEG) chains on SWNTs via a cleavable ester bond to obtain a water soluble SWNT-paclitaxel conjugate (SWNT-PTX). SWNT-PTX affords higher efficacy in suppressing tumor growth than clinical Taxol in a murine 4T1 breast-cancer model, owing to prolonged blood circulation and 10-fold higher tumor PTX uptake by SWNT delivery likely through enhanced permeability and retention (EPR). Drug molecules carried into the reticuloendothelial system are released from SWNTs and excreted via biliary pathway without causing obvious toxic effects to normal organs. Thus, nanotube drug delivery is promising for high treatment efficacy and minimum side effects for future cancer therapy with low drug doses.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0808.2070v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2503.04200v1",
+      "title": "DeepSilencer: A Novel Deep Learning Model for Predicting siRNA Knockdown Efficiency",
+      "authors": [
+        "Wangdan Liao",
+        "Weidong Wang"
+      ],
+      "year": 2025,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2503.04200v1",
+      "abstract": "Background: Small interfering RNA (siRNA) is a promising therapeutic agent due to its ability to silence disease-related genes via RNA interference. While traditional machine learning and early deep learning methods have made progress in predicting siRNA efficacy, there remains significant room for improvement. Advanced deep learning techniques can enhance prediction accuracy, reducing the reliance on extensive wet-lab experiments and accelerating the identification of effective siRNA sequences. This approach also provides deeper insights into the mechanisms of siRNA efficacy, facilitating more targeted and efficient therapeutic strategies. Methods: We introduce DeepSilencer, an innovative deep learning model designed to predict siRNA knockdown efficiency. DeepSilencer utilizes advanced neural network architectures to capture the complex features of siRNA sequences. Our key contributions include a specially designed deep learning model, an innovative online data sampling method, and an improved loss function tailored for siRNA prediction. These enhancements collectively boost the model's prediction accuracy and robustness. Results: Extensive evaluations on multiple test sets demonstrate that DeepSilencer achieves state-of-the-art performance using only siRNA sequences and basic physicochemical properties. Our model surpasses several other methods and shows superior predictive performance, particularly when incorporating thermodynamic parameters. Conclusion: The advancements in data sampling, model design, and loss function significantly enhance the predictive capabilities of DeepSilencer. These improvements underscore its potential to advance RNAi therapeutic design and development, offering a powerful tool for researchers and clinicians.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2503.04200v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.02,
+      "stage1_score": 0.142,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.142,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2305.10041v1",
+      "title": "Risk Assessment of Lymph Node Metastases in Endometrial Cancer Patients: A Causal Approach",
+      "authors": [
+        "Alessio Zanga",
+        "Alice Bernasconi",
+        "Peter J. F. Lucas",
+        "Hanny Pijnenborg",
+        "Casper Reijnen",
+        "Marco Scutari",
+        "Fabio Stella"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2305.10041v1",
+      "abstract": "Assessing the pre-operative risk of lymph node metastases in endometrial cancer patients is a complex and challenging task. In principle, machine learning and deep learning models are flexible and expressive enough to capture the dynamics of clinical risk assessment. However, in this setting we are limited to observational data with quality issues, missing values, small sample size and high dimensionality: we cannot reliably learn such models from limited observational data with these sources of bias. Instead, we choose to learn a causal Bayesian network to mitigate the issues above and to leverage the prior knowledge on endometrial cancer available from clinicians and physicians. We introduce a causal discovery algorithm for causal Bayesian networks based on bootstrap resampling, as opposed to the single imputation used in related works. Moreover, we include a context variable to evaluate whether selection bias results in learning spurious associations. Finally, we discuss the strengths and limitations of our findings in light of the presence of missing data that may be missing-not-at-random, which is common in real-world clinical settings.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2305.10041v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2110.07711v3",
+      "title": "Gray Matter Segmentation in Ultra High Resolution 7 Tesla ex vivo T2w MRI of Human Brain Hemispheres",
+      "authors": [
+        "Pulkit Khandelwal",
+        "Shokufeh Sadaghiani",
+        "Michael Tran Duong",
+        "Sadhana Ravikumar",
+        "Sydney Lim",
+        "Sanaz Arezoumandan",
+        "Claire Peterson",
+        "Eunice Chung",
+        "Madigan Bedard",
+        "Noah Capp",
+        "Ranjit Ittyerah",
+        "Elyse Migdal",
+        "Grace Choi",
+        "Emily Kopp",
+        "Bridget Loja",
+        "Eusha Hasan",
+        "Jiacheng Li",
+        "Karthik Prabhakaran",
+        "Gabor Mizsei",
+        "Marianna Gabrielyan",
+        "Theresa Schuck",
+        "John Robinson",
+        "Daniel Ohm",
+        "Edward Lee",
+        "John Q. Trojanowski",
+        "Corey McMillan",
+        "Murray Grossman",
+        "David Irwin",
+        "M. Dylan Tisdall",
+        "Sandhitsu R. Das",
+        "Laura E. M. Wisse",
+        "David A. Wolk",
+        "Paul A. Yushkevich"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2110.07711v3",
+      "abstract": "Ex vivo MRI of the brain provides remarkable advantages over in vivo MRI for visualizing and characterizing detailed neuroanatomy. However, automated cortical segmentation methods in ex vivo MRI are not well developed, primarily due to limited availability of labeled datasets, and heterogeneity in scanner hardware and acquisition protocols. In this work, we present a high resolution 7 Tesla dataset of 32 ex vivo human brain specimens. We benchmark the cortical mantle segmentation performance of nine neural network architectures, trained and evaluated using manually-segmented 3D patches sampled from specific cortical regions, and show excellent generalizing capabilities across whole brain hemispheres in different specimens, and also on unseen images acquired at different magnetic field strength and imaging sequences. Finally, we provide cortical thickness measurements across key regions in 3D ex vivo human brain images. Our code and processed datasets are publicly available at https://github.com/Pulkit-Khandelwal/picsl-ex-vivo-segmentation.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2110.07711v3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.012,
+      "stage1_score": 0.134,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.134,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "30561866",
+      "title": "\"Abstracts of the 77th Annual Meeting of the Japanese Cancer Association; 2018 Sept 27-29; Osaka, Japan\" as Cancer Science, Supplement 2, Vol 109 (2018).",
+      "authors": [],
+      "year": 2018,
+      "doi": "10.1111/cas.13904",
+      "url": "https://europepmc.org/article/med/30561866",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "30561866"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.006,
+      "stage1_score": 0.1324,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1324,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1110.5865v1",
+      "title": "Cancer Networks: A general theoretical and computational framework for understanding cancer",
+      "authors": [
+        "Eric Werner"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1110.5865v1",
+      "abstract": "We present a general computational theory of cancer and its developmental dynamics. The theory is based on a theory of the architecture and function of developmental control networks which guide the formation of multicellular organisms. Cancer networks are special cases of developmental control networks. Cancer results from transformations of normal developmental networks. Our theory generates a natural classification of all possible cancers based on their network architecture. Each cancer network has a unique topology and semantics and developmental dynamics that result in distinct clinical tumor phenotypes. We apply this new theory with a series of proof of concept cases for all the basic cancer types. These cases have been computationally modeled, their behavior simulated and mathematically described using a multicellular systems biology approach. There are fascinating correspondences between the dynamic developmental phenotype of computationally modeled {\\em in silico} cancers and natural {\\em in vivo} cancers. The theory lays the foundation for a new research paradigm for understanding and investigating cancer. The theory of cancer networks implies that new diagnostic methods and new treatments to cure cancer will become possible.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1110.5865v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9400/fig-4",
+      "title": "Figure 4: Detection of AKT protein expression after siRNA knockdown in colorectal cancer cell lines HT-29 and HCT116 by Western blotting.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9400/fig-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9400/fig-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9400/fig-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.9400/fig-5",
+      "title": "Figure 5: Effect of siRNA-mediated AKT knockdown on the survival, migration and invasion of colorectal cancer cell lines HT29 and HCT116 Proliferation.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.9400/fig-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.9400/fig-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.9400/fig-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.1683/supp-5",
+      "title": "Supplemental Information 5: Figure S4 Expression of HMGA2 or Hsp90 mRNA was detected in HMGA2-specific siRNA-knockdown HCT116 cells (A) or Hsp90-specific siRNA-knockdown HCT116 cells (B) by quantitative RT-PCR.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.1683/supp-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.1683/supp-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.1683/supp-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.13319/fig-3",
+      "title": "Figure 3:  Effect of siRNA-mediated knockdown of Foxo1 on Dex-induced apoptosis.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.13319/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.13319/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.13319/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20123/supp-3",
+      "title": "Supplemental Information 3: The knockdown efficiency of circ-Cyp4f18_0001 and circ-Cdkn3_0002 using the siRNA method",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20123/supp-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20123/supp-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20123/supp-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.8180/supp-4",
+      "title": "Figure S2: Knockdown efficiency of OLA1 after\n                      <i>OLA1</i>\n                      siRNA was verified by western blot",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.8180/supp-4",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.8180/supp-4",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.8180/supp-4"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.preprints.27837/supp-3",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7287/peerj.preprints.27837/supp-3",
+      "journal": "Supplemental Information 3: Knockdown efficiency of OLA1 after <i>OLA1</i> siRNA was verified by western blot",
+      "url": "https://doi.org/10.7287/peerj.preprints.27837/supp-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.preprints.27837/supp-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.preprints.27837v1/supp-3",
+      "title": "",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7287/peerj.preprints.27837v1/supp-3",
+      "journal": "Supplemental Information 3: Knockdown efficiency of OLA1 after\n                    <i>OLA1</i>\n                    siRNA was verified by western blot",
+      "url": "https://doi.org/10.7287/peerj.preprints.27837v1/supp-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.preprints.27837v1/supp-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.3418/supp-1",
+      "title": "Table S1: Knockdown of TAK1, NLK and GFP (negative control) in Kit\n                      <sup>+∕+</sup>\n                      smooth muscle cells by siRNA",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.3418/supp-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.3418/supp-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.3418/supp-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.16967/fig-9",
+      "title": "Figure 9: CircMAN1A2 accelerates xenograft tumor growth in vivo.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.16967/fig-9",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.16967/fig-9",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.16967/fig-9"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "recency_bonus": 0.0,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    }
+  ]
+}

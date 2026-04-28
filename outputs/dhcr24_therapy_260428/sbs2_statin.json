@@ -1,0 +1,1502 @@
+{
+  "query": "statin endometrial cancer progestins treatment progesterone",
+  "effective_query": "statin endometrial cancer progestins treatment progesterone",
+  "claim": "",
+  "effective_claim": "",
+  "hypothesis": "",
+  "project_mode": "",
+  "query_expanded": false,
+  "llm_triage": {
+    "enabled": false,
+    "model_chain": [
+      "gpt-oss:120b-cloud",
+      "deepseek-v4-flash:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.1:671b-cloud",
+      "qwen3-coder:480b-cloud",
+      "gpt-oss:20b-cloud",
+      "code"
+    ],
+    "limit": 12,
+    "rerank": false,
+    "counts": {},
+    "warnings": [],
+    "usage": {}
+  },
+  "filters_applied": {
+    "topic_guard": false,
+    "topic_guard_removed": 0,
+    "min_evidence": 0.0,
+    "min_evidence_removed": 0
+  },
+  "count": 40,
+  "warnings": [
+    "pubmed failed: HTTP Error 429: Too Many Requests",
+    "crossref failed: HTTP Error 429: Too Many Requests",
+    "semantic_scholar failed: HTTP Error 429: ",
+    "openaire failed: 'NoneType' object has no attribute 'get'"
+  ],
+  "papers": [
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2120973019",
+      "title": "Diagnosis and Treatment of Polycystic Ovary Syndrome: An Endocrine Society Clinical Practice Guideline",
+      "authors": [
+        "Richard S. Legro",
+        "Silva Arslanian",
+        "David A. Ehrmann",
+        "Kathleen M. Hoeger",
+        "M. Hassan Murad",
+        "Renato Pasquali",
+        "Corrine K. Welt"
+      ],
+      "year": 2013,
+      "doi": "10.1210/jc.2013-2350",
+      "url": "https://doi.org/10.1210/jc.2013-2350",
+      "abstract": "We suggest using the Rotterdam criteria for diagnosing PCOS (presence of two of the following criteria: androgen excess, ovulatory dysfunction, or polycystic ovaries). Establishing a diagnosis of PCOS is problematic in adolescents and menopausal women. Hyperandrogenism is central to the presentation in adolescents, whereas there is no consistent phenotype in postmenopausal women. Evaluation of women with PCOS should exclude alternate androgen-excess disorders and risk factors for endometrial cancer, mood disorders, obstructive sleep apnea, diabetes, and cardiovascular disease. Hormonal contraceptives are the first-line management for menstrual abnormalities and hirsutism/acne in PCOS. Clomiphene is currently the first-line therapy for infertility; metformin is beneficial for metabolic/glycemic abnormalities and for improving menstrual irregularities, but it has limited or no benefit in treating hirsutism, acne, or infertility. Hormonal contraceptives and metformin are the treatment options in adolescents with PCOS. The role of weight loss in improving PCOS status per se is uncertain, but lifestyle intervention is beneficial in overweight/obese patients for other health benefits. Thiazolidinediones have an unfavorable risk-benefit ratio overall, and statins require further study.",
+      "citations": 1868,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2120973019"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2143152245",
+      "title": "Postmenopausal Hormone Therapy and Risk of Cardiovascular Disease by Age and Years Since Menopause",
+      "authors": [
+        "Jacques E. Rossouw",
+        "Ross L. Prentice",
+        "JoAnn E. Manson",
+        "LieLing Wu",
+        "David H. Barad",
+        "Vanessa M. Barnabei",
+        "Marcia Ko",
+        "Andrea Z. LaCroix",
+        "Karen L. Margolis",
+        "Marcia L. Stefanick"
+      ],
+      "year": 2007,
+      "doi": "10.1001/jama.297.13.1465",
+      "url": "https://doi.org/10.1001/jama.297.13.1465",
+      "abstract": "clinicaltrials.gov Identifier: NCT00000611.",
+      "citations": 1712,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2143152245"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2081625464",
+      "title": "The Clinical Significance of Epidermal Growth Factor Receptor (EGF-R) in Human Breast Cancer: A Review on 5232 Patients*",
+      "authors": [
+        "J.G.M. Klijn",
+        "P.M.J.J. Berns",
+        "Paul Schmitz",
+        "John A. Foekens"
+      ],
+      "year": 1992,
+      "doi": "10.1210/edrv-13-1-3",
+      "url": "https://doi.org/10.1210/edrv-13-1-3",
+      "abstract": "EGF-R positivity was shown to be present in 2500 (48%) of 5232 breast tumors in 40 different series of patients. The mean of the percentages of EGF-R positivity in the individual series reported by these 40 different groups of investigators is 45% (range 14-91%). Overall there are generally no clear differences between results obtained by radioligand binding assays, immunological methods, autoradiography, and measurement of EGF-R transcripts although the mean percentage of EGF-R-positive tumors determined by immunological methods tends to be somewhat lower. Nearly all studies indicate a negative relationship between EGF-R and steroid receptor status (28 of 31 studies for ER, 12/19 for PR) showing that EGF-R positivity is twice as high in ER or PR- negative tumors compared to ER or PR- positive tumors (approximately 50-60% vs. 30%). With regard to other prognostic factors the majority of investigators (10/18) also reported a significant (positive) correlation with tumor grade, but only a minority found a significant relationship between EGF-R status and patient age (2/9), menopausal status (1/7), histological type (3/7), tumor size (2/17), nodal status (5-9/20), ploidy (1/7), or proliferation indices (3/9). No relationship was observed with tumor insulin-like growth factor I receptor, PRL receptor (PRL-R), and LHRH receptor (LHRH-R) status, but an inverse relationship between EGF-R and somatostatin receptor may be present. However, it has to be stressed that the series in which the relationship between EGF-R status and other prognostic factors were investigated, contained relatively few patients (mostly less than 100). Therefore, when larger groups of patients are investigated, more significant relationships may be observed, especially with respect to nodal status, tumor ploidy, and proliferation indices. In fact, we calculated the presence of EGF-R positivity overall in 35% of 253 aneuploid tumors vs. in only 15% of 114 diploid tumors (P less than 0.0001). In addition most studies observed a trend, if no significant correlation, between higher EGF-R levels in tumors with the highest percentages of S-phase or Ki-67 expression. With regard to relapse-free and overall survival, five of nine different groups of investigators showed significant prognostic value of EGF-R after short-term (1- to 4-yr) follow-up, indicating that patients with EGF-R-positive tumors have a poor prognosis. However, three of five groups with a maximal follow-up of at least 6 yr found only a tendency for any relationship between EGF-R status and long-term outcome.",
+      "citations": 596,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2081625464"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2793577196",
+      "title": "Spontaneous Coronary Artery Dissection: Current State of the Science: A Scientific Statement From the American Heart Association",
+      "authors": [
+        "Sharonne N. Hayes",
+        "Esther Kim",
+        "Jacqueline Saw",
+        "David Adlam",
+        "Cynthia Arslanian‐Engoren",
+        "Katherine E. Economy",
+        "Santhi K. Ganesh",
+        "Rajiv Gulati",
+        "Mark E. Lindsay",
+        "Jennifer H. Mieres",
+        "Sahar Naderi",
+        "Svati Shah",
+        "David E. Thaler",
+        "Marysia S. Tweet",
+        "Malissa J. Wood"
+      ],
+      "year": 2018,
+      "doi": "10.1161/cir.0000000000000564",
+      "url": "https://doi.org/10.1161/cir.0000000000000564",
+      "abstract": "Spontaneous coronary artery dissection (SCAD) has emerged as an important cause of acute coronary syndrome, myocardial infarction, and sudden death, particularly among young women and individuals with few conventional atherosclerotic risk factors. Patient-initiated research has spurred increased awareness of SCAD, and improved diagnostic capabilities and findings from large case series have led to changes in approaches to initial and long-term management and increasing evidence that SCAD not only is more common than previously believed but also must be evaluated and treated differently from atherosclerotic myocardial infarction. High rates of recurrent SCAD; its association with female sex, pregnancy, and physical and emotional stress triggers; and concurrent systemic arteriopathies, particularly fibromuscular dysplasia, highlight the differences in clinical characteristics of SCAD compared with atherosclerotic disease. Recent insights into the causes of, clinical course of, treatment options for, outcomes of, and associated conditions of SCAD and the many persistent knowledge gaps are presented.",
+      "citations": 1214,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2793577196"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W1927817986",
+      "title": "Hormone therapy for preventing cardiovascular disease in post-menopausal women",
+      "authors": [
+        "Henry Boardman",
+        "Louise Hartley",
+        "Anne Eisinga",
+        "Caroline Main",
+        "Marta Roqué i Figuls",
+        "Xavier Bonfill",
+        "Rafael Gabriel Sánchez",
+        "Beatrice Knight"
+      ],
+      "year": 2015,
+      "doi": "10.1002/14651858.cd002229.pub4",
+      "url": "https://doi.org/10.1002/14651858.cd002229.pub4",
+      "abstract": "Our review findings provide strong evidence that treatment with hormone therapy in post-menopausal women overall, for either primary or secondary prevention of cardiovascular disease events has little if any benefit and causes an increase in the risk of stroke and venous thromboembolic events.",
+      "citations": 584,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W1927817986"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2018368054",
+      "title": "Androgens and Cardiovascular Disease",
+      "authors": [
+        "Peter Y. Liu",
+        "Alison K. Death",
+        "David J. Handelsman"
+      ],
+      "year": 2003,
+      "doi": "10.1210/er.2003-0005",
+      "url": "https://doi.org/10.1210/er.2003-0005",
+      "abstract": "Globally, cardiovascular disease will continue causing most human deaths for the foreseeable future. The consistent gender gap in life span of approximately 5.6 yr in all advanced economies must derive from gender differences in age-specific cardiovascular death rates, which rise steeply in parallel for both genders but 5-10 yr earlier in men. The lack of inflection point at modal age of menopause, contrasting with unequivocally estrogen-dependent biological markers like breast cancer or bone density, makes estrogen protection of premenopausal women an unlikely explanation. Limited human data suggest that testosterone exposure does not shorten life span in either gender, and oral estrogen treatment increases risk of cardiovascular death in men as it does in women. Alternatively, androgen exposure in early life (perinatal androgen imprinting) may predispose males to earlier onset of atherosclerosis. Following the recent reevaluation of the estrogen-protection orthodoxy, empirical research has flourished into the role of androgens in the progression of cardiovascular disease, highlighting the need to better understand androgen receptor (AR) coregulators, nongenomic androgen effects, tissue-specific metabolic activation of androgens, and androgen sensitivity. Novel therapeutic targets may arise from understanding how androgens enhance early plaque formation and cause vasodilatation via nongenomic androgen effects on vascular smooth muscle, and how tissue-specific variations in androgen effects are modulated by AR coregulators as well as metabolic activation of testosterone to amplify (via 5alpha-reductase to form dihydrotestosterone acting on AR) or diversify (via aromatization to estradiol acting upon estrogen receptor alpha/beta) the biological effects of testosterone on the vasculature. Observational studies show that blood testosterone concentrations are consistently lower among men with cardiovascular disease, suggesting a possible preventive role for testosterone therapy, which requires critical evaluation by further prospective studies. Short-term interventional studies show that testosterone produces a modest but consistent improvement in cardiac ischemia over placebo, comparable to the effects of existing antianginal drugs. By contrast, testosterone therapy has no beneficial effects in peripheral arterial disease but has not been evaluated in cerebrovascular disease. Erectile dysfunction is most frequently caused by pelvic arterial insufficiency due to atherosclerosis, and its sentinel relationship to generalized atherosclerosis is insufficiently appreciated. The commonality of risk factor patterns and mechanisms (including endothelial dysfunction) suggests that the efficacy of antiatherogenic therapy is an important challenge with the potential to enhance men's motivation for prevention and treatment of cardiovascular diseases.",
+      "citations": 692,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2018368054"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2166383227",
+      "title": "Care of Girls and Women with Turner Syndrome: A Guideline of the Turner Syndrome Study Group",
+      "authors": [
+        "Carolyn A. Bondy"
+      ],
+      "year": 2006,
+      "doi": "10.1210/jc.2006-1374",
+      "url": "https://doi.org/10.1210/jc.2006-1374",
+      "abstract": "We suggest that parents receiving a prenatal diagnosis of TS be advised of the broad phenotypic spectrum and the good quality of life observed in TS in recent years. We recommend that magnetic resonance angiography be used in addition to echocardiography to evaluate the cardiovascular system and suggest that patients with defined cardiovascular defects be cautioned in regard to pregnancy and certain types of exercise. We recommend that puberty should not be delayed to promote statural growth. We suggest a comprehensive educational evaluation in early childhood to identify potential attention-deficit or nonverbal learning disorders. We suggest that caregivers address the prospect of premature ovarian failure in an open and sensitive manner and emphasize the critical importance of estrogen treatment for feminization and for bone health during the adult years. All individuals with TS require continued monitoring of hearing and thyroid function throughout the lifespan. We suggest that adults with TS be monitored for aortic enlargement, hypertension, diabetes, and dyslipidemia.",
+      "citations": 1009,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2166383227"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.365,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.365,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2124653687",
+      "title": "Estrogen replacement therapy, atherosclerosis, and vascular function",
+      "authors": [
+        "Tomi S. Mikkola"
+      ],
+      "year": 2002,
+      "doi": "10.1016/s0008-6363(01)00466-7",
+      "url": "https://doi.org/10.1016/s0008-6363(01)00466-7",
+      "abstract": "There is strong evidence from both human and nonhuman primate studies supporting the conclusion that estrogen deficiency increases the progression of atherosclerosis. More controversial is the conclusion that postmenopausal estrogen replacement inhibits the progression of atherosclerosis. Estrogen treatment of older women (>65 years) with pre-existing coronary artery atherosclerosis had no beneficial effects. In contrast, estrogen treatment of younger postmenopausal women or monkeys in the early stages of atherosclerosis progression has marked beneficial effects. Whether progestogens attenuate the cardiovascular benefits of estrogen replacement therapy has been controversial for more than a decade. Current evidence from studies of both monkeys and women suggest little or no attenuation of estrogen benefits for coronary artery atherosclerosis. Lack of compliance with estrogen replacement therapy, usually because of fear of breast cancer, remains a major problem. Future regimens may overcome that fear by the co-administration of a breast cancer preventive agent (i.e., selective estrogen receptor modulators, phytoestrogens) with low dose estrogen.",
+      "citations": 420,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2124653687"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.333,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.333,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W4293857365",
+      "title": "Long-term hormone therapy for perimenopausal and postmenopausal women",
+      "authors": [
+        "Jane Marjoribanks",
+        "Cindy Farquhar",
+        "Helen Roberts",
+        "Anne Lethaby",
+        "Jasmine Lee"
+      ],
+      "year": 2017,
+      "doi": "10.1002/14651858.cd004143.pub5",
+      "url": "https://doi.org/10.1002/14651858.cd004143.pub5",
+      "abstract": "BACKGROUND: Hormone therapy (HT) is widely provided for control of menopausal symptoms and has been used for the management and prevention of cardiovascular disease, osteoporosis and dementia in older women. This is an updated version of a Cochrane review first published in 2005. OBJECTIVES: To assess effects of long-term HT (at least 1 year's duration) on mortality, cardiovascular outcomes, cancer, gallbladder disease, fracture and cognition in perimenopausal and postmenopausal women during and after cessation of treatment. SEARCH METHODS: We searched the following databases to September 2016: Cochrane Gynaecology and Fertility Group Trials Register, Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, Embase and PsycINFO. We searched the registers of ongoing trials and reference lists provided in previous studies and systematic reviews. SELECTION CRITERIA: We included randomised double-blinded studies of HT versus placebo, taken for at least 1 year by perimenopausal or postmenopausal women. HT included oestrogens, with or without progestogens, via the oral, transdermal, subcutaneous or intranasal route. DATA COLLECTION AND ANALYSIS: Two review authors independently selected studies, assessed risk of bias and extracted data. We calculated risk ratios (RRs) for dichotomous data and mean differences (MDs) for continuous data, along with 95% confidence intervals (CIs). We assessed the quality of the evidence by using GRADE methods. MAIN RESULTS: We included 22 studies involving 43,637 women. We derived nearly 70% of the data from two well-conducted studies (HERS 1998; WHI 1998). Most participants were postmenopausal American women with at least some degree of comorbidity, and mean participant age in most studies was over 60 years. None of the studies focused on perimenopausal women.In relatively healthy postmenopausal women (i.e. generally fit, without overt disease), combined continuous HT increased the risk of a coronary event (after 1 year's use: from 2 per 1000 to between 3 and 7 per 1000), venous thromboembolism (after 1 year's use: from 2 per 1000 to between 4 and 11 per 1000), stroke (after 3 years' use: from 6 per 1000 to between 6 and 12 per 1000), breast cancer (after 5.6 years' use: from 19 per 1000 to between 20 and 30 per 1000), gallbladder disease (after 5.6 years' use: from 27 per 1000 to between 38 and 60 per 1000) and death from lung cancer (after 5.6 years' use plus 2.4 years' additional follow-up: from 5 per 1000 to between 6 and 13 per 1000).Oestrogen-only HT increased the risk of venous thromboembolism (after 1 to 2 years' use: from 2 per 1000 to 2 to 10 per 1000; after 7 years' use: from 16 per 1000 to 16 to 28 per 1000), stroke (after 7 years' use: from 24 per 1000 to between 25 and 40 per 1000) and gallbladder disease (after 7 years' use: from 27 per 1000 to between 38 and 60 per 1000) but reduced the risk of breast cancer (after 7 years' use: from 25 per 1000 to between 15 and 25 per 1000) and clinical fracture (after 7 years' use: from 141 per 1000 to between 92 and 113 per 1000) and did not increase the risk of coronary events at any follow-up time.Women over 65 years of age who were relatively healthy and taking continuous combined HT showed an increase in the incidence of dementia (after 4 years' use: from 9 per 1000 to 11 to 30 per 1000). Among women with cardiovascular disease, use of combined continuous HT significantly increased the risk of venous thromboembolism (at 1 year's use: from 3 per 1000 to between 3 and 29 per 1000). Women taking HT had a significantly decreased incidence of fracture with long-term use.Risk of fracture was the only outcome for which strong evidence showed clinical benefit derived from HT (after 5.6 years' use of combined HT: from 111 per 1000 to between 79 and 96 per 1000; after 7.1 years' use of oestrogen-only HT: from 141 per 1000 to between 92 and 113 per 1000). Researchers found no strong evidence that HT has a clinically meaningful impact on the incidence of colorectal cancer.One trial analysed subgroups of 2839 relatively healthy women 50 to 59 years of age who were taking combined continuous HT and 1637 who were taking oestrogen-only HT versus similar-sized placebo groups. The only significantly increased risk reported was for venous thromboembolism in women taking combined continuous HT: Their absolute risk remained low, at less than 1/500. However, other differences in risk cannot be excluded, as this study was not designed to have the power to detect differences between groups of women within 10 years of menopause.For most studies, risk of bias was low in most domains. The overall quality of evidence for the main comparisons was moderate. The main limitation in the quality of evidence was that only about 30% of women were 50 to 59 years old at baseline, which is the age at which women are most likely to consider HT for vasomotor symptoms. AUTHORS' CONCLUSIONS: Women with intolerable menopausal symptoms may wish to weigh the benefits of symptom relief against the small absolute risk of harm arising from short-term use of low-dose HT, provided they do not have specific contraindications. HT may be unsuitable for some women, including those at increased risk of cardiovascular disease, increased risk of thromboembolic disease (such as those with obesity or a history of venous thrombosis) or increased risk of some types of cancer (such as breast cancer, in women with a uterus). The risk of endometrial cancer among women with a uterus taking oestrogen-only HT is well documented.HT is not indicated for primary or secondary prevention of cardiovascular disease or dementia, nor for prevention of deterioration of cognitive function in postmenopausal women. Although HT is considered effective for the prevention of postmenopausal osteoporosis, it is generally recommended as an option only for women at significant risk for whom non-oestrogen therapies are unsuitable. Data are insufficient for assessment of the risk of long-term HT use in perimenopausal women and in postmenopausal women younger than 50 years of age.",
+      "citations": 419,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W4293857365"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.3326,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.3326,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "openalex",
+      "id": "https://openalex.org/W2167342921",
+      "title": "The Metabolic Syndrome",
+      "authors": [
+        "Stephanie L. Cowey",
+        "Robert W. Hardy"
+      ],
+      "year": 2006,
+      "doi": "10.2353/ajpath.2006.051090",
+      "url": "https://doi.org/10.2353/ajpath.2006.051090",
+      "abstract": "",
+      "citations": 429,
+      "source_hits": [
+        "openalex"
+      ],
+      "source_ids": [
+        "https://openalex.org/W2167342921"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.95,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.2966,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.2966,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2210.02273v1",
+      "title": "Novel Radiomic Measurements of Tumor- Associated Vasculature Morphology on Clinical Imaging as a Biomarker of Treatment Response in Multiple Cancers",
+      "authors": [
+        "Nathaniel Braman",
+        "Prateek Prasanna",
+        "Kaustav Bera",
+        "Mehdi Alilou",
+        "Mohammadhadi Khorrami",
+        "Patrick Leo",
+        "Maryam Etesami",
+        "Manasa Vulchi",
+        "Paulette Turk",
+        "Amit Gupta",
+        "Prantesh Jain",
+        "Pingfu Fu",
+        "Nathan Pennell",
+        "Vamsidhar Velcheti",
+        "Jame Abraham",
+        "Donna Plecha",
+        "Anant Madabhushi"
+      ],
+      "year": 2022,
+      "doi": "10.1158/1078-0432.CCR-21-4148",
+      "url": "http://arxiv.org/abs/2210.02273v1",
+      "abstract": "Purpose: Tumor-associated vasculature differs from healthy blood vessels by its chaotic architecture and twistedness, which promotes treatment resistance. Measurable differences in these attributes may help stratify patients by likely benefit of systemic therapy (e.g. chemotherapy). In this work, we present a new category of radiomic biomarkers called quantitative tumor-associated vasculature (QuanTAV) features, and demonstrate their ability to predict response and survival across multiple cancers, imaging modalities, and treatment regimens. Experimental Design: We segmented tumor vessels and computed mathematical measurements of twistedness and organization on routine pre-treatment radiology (CT or contrast-enhanced MRI) from 558 patients, who received one of four first-line chemotherapy-based therapeutic intervention strategies for breast (n=371) or non-small cell lung cancer (NSCLC, n=187). Results: Across 4 chemotherapy-based treatment strategies, classifiers of QuanTAV measurements significantly (p<.05) predicted response in held out testing cohorts alone (AUC=0.63-0.71) and increased AUC by 0.06-0.12 when added to models of significant clinical variables alone. QuanTAV risk scores were prognostic of recurrence free survival in treatment cohorts chemotherapy for breast cancer (p=0.002, HR=1.25, 95% CI 1.08-1.44, C-index=.66) and chemoradiation for NSCLC (p=0.039, HR=1.28, 95% CI 1.01-1.62, C-index=0.66). Categorical QuanTAV risk groups were independently prognostic among all treatment groups, including NSCLC patients receiving chemotherapy (p=0.034, HR=2.29, 95% CI 1.07-4.94, C-index=0.62). Conclusions: Across these domains, we observed an association of vascular morphology on radiology with treatment outcome. Our findings suggest the potential of tumor-associated vasculature shape and structure as a prognostic and predictive biomarker for multiple cancers and treatments.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2210.02273v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "0808.2070v1",
+      "title": "Drug delivery with carbon nanotubes for in vivo cancer treatment",
+      "authors": [
+        "Zhuang Liu",
+        "Kai Chen",
+        "Corrine Davis",
+        "Sarah Sherlock",
+        "Qizhen Cao",
+        "Xiaoyuan Chen",
+        "Hongjie Dai"
+      ],
+      "year": 2008,
+      "doi": "10.1158/0008-5472",
+      "url": "http://arxiv.org/abs/0808.2070v1",
+      "abstract": "Chemically functionalized single-walled carbon nanotubes (SWNTs) have shown promise in tumor targeted accumulation in mice and exhibit biocompatibility, excretion and little toxicity. Here, we demonstrate in-vivo SWNT drug delivery for tumor suppression in mice. We conjugate paclitaxel (PTX), a widely used cancer chemotherapy drug to branched polyethylene-glycol (PEG) chains on SWNTs via a cleavable ester bond to obtain a water soluble SWNT-paclitaxel conjugate (SWNT-PTX). SWNT-PTX affords higher efficacy in suppressing tumor growth than clinical Taxol in a murine 4T1 breast-cancer model, owing to prolonged blood circulation and 10-fold higher tumor PTX uptake by SWNT delivery likely through enhanced permeability and retention (EPR). Drug molecules carried into the reticuloendothelial system are released from SWNTs and excreted via biliary pathway without causing obvious toxic effects to normal organs. Thus, nanotube drug delivery is promising for high treatment efficacy and minimum side effects for future cancer therapy with low drug doses.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "0808.2070v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.07,
+      "stage1_score": 0.152,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.152,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "39579091",
+      "title": "mTOR inhibitors as potential therapeutics for endometriosis: a narrative review.",
+      "authors": [
+        "Nakamura A",
+        "Tanaka Y",
+        "Amano T",
+        "Takebayashi A",
+        "Takahashi A",
+        "Hanada T",
+        "Tsuji S",
+        "Murakami T."
+      ],
+      "year": 2024,
+      "doi": "10.1093/molehr/gaae041",
+      "url": "https://europepmc.org/article/med/39579091",
+      "abstract": "",
+      "citations": 9,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "39579091"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1296,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1296,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "38543097",
+      "title": "Shared Pathogenic and Therapeutic Characteristics of Endometriosis, Adenomyosis, and Endometrial Cancer: A Comprehensive Literature Review.",
+      "authors": [
+        "Mitranovici MI",
+        "Chiorean DM",
+        "Moraru L",
+        "Moraru R",
+        "Caravia L",
+        "Tiron AT",
+        "Cotoi TC",
+        "Toru HS",
+        "Cotoi OS."
+      ],
+      "year": 2024,
+      "doi": "10.3390/ph17030311",
+      "url": "https://europepmc.org/article/med/38543097",
+      "abstract": "",
+      "citations": 6,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "38543097"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1284,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1284,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40430499",
+      "title": "Pharmacological and Non-Pharmacological Interventions for Polycystic Ovary Syndrome (PCOS) in Indian Women: A Systematic Review and Meta-Analysis.",
+      "authors": [
+        "Maan P",
+        "Gautam R",
+        "Vasudevan S",
+        "Menon GR",
+        "Arora A",
+        "Nair A",
+        "Jabbar PK",
+        "Arora T."
+      ],
+      "year": 2025,
+      "doi": "10.3390/ph18050680",
+      "url": "https://europepmc.org/article/med/40430499",
+      "abstract": "",
+      "citations": 3,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40430499"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1272,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1272,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40588797",
+      "title": "Fertility-preserving treatment of endometrial cancer and endometrial atypical hyperplasia for patients with metabolic abnormalities: Challenge or opportunity?",
+      "authors": [
+        "Bo L",
+        "Wang Y",
+        "Feng Y",
+        "Zhou J",
+        "Liu Y",
+        "He Y",
+        "Zhai Y",
+        "Fan Y",
+        "Zhang X",
+        "Zhou R"
+      ],
+      "year": 2026,
+      "doi": "10.1097/cm9.0000000000003721",
+      "url": "https://europepmc.org/article/med/40588797",
+      "abstract": "",
+      "citations": 1,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40588797"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.1264,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.1264,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41032624",
+      "title": "Cholesterol desensitizes the response of endometrial cancer to progestin by attenuating progestin signaling.",
+      "authors": [
+        "Hu J",
+        "Wang L",
+        "Yang B",
+        "Zhao S",
+        "Wan X",
+        "Liu W",
+        "Lv Q",
+        "Xu W",
+        "Chen X."
+      ],
+      "year": 2025,
+      "doi": "10.1126/scitranslmed.adp0064",
+      "url": "https://europepmc.org/article/med/41032624",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41032624"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41660151",
+      "title": "The impact of hormone replacement therapy on cardiovascular health in postmenopausal women: a narrative review.",
+      "authors": [
+        "Khalifey HT",
+        "Mahereen R",
+        "Adwan R",
+        "Chahine R",
+        "Kaidali M",
+        "Mirza SF",
+        "Tullah SN",
+        "Shaikh S",
+        "Hammad S",
+        "Sukkarieh HH."
+      ],
+      "year": 2026,
+      "doi": "10.3389/frph.2026.1745210",
+      "url": "https://europepmc.org/article/med/41660151",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41660151"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41228249",
+      "title": "Medroxyprogesterone Acetate Inhibits Tumorigenesis in Mouse Models of Oviductal High-Grade Serous Carcinoma.",
+      "authors": [
+        "Zhai Y",
+        "Bedi K",
+        "Wu R",
+        "Feng Y",
+        "Green ME",
+        "Pearce CL",
+        "Pike MC",
+        "Fearon ER",
+        "Cho KR."
+      ],
+      "year": 2025,
+      "doi": "10.3390/cancers17213456",
+      "url": "https://europepmc.org/article/med/41228249",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41228249"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "41767293",
+      "title": "Clinical Practice Guidelines for Menopause: An Executive Summary and Recommendations: Indian Menopause Society 2026.",
+      "authors": [
+        "Meeta M",
+        "Anuradha M",
+        "Ashraf AB",
+        "Aggarwal K",
+        "Digumarti L",
+        "Singh T."
+      ],
+      "year": 2026,
+      "doi": "10.4103/jmh.jmh_302_25",
+      "url": "https://europepmc.org/article/med/41767293",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "41767293"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "40340640",
+      "title": "Simvastatin-loaded liposomal nanoparticles as treatment for adenomyosis in a patient-derived xenograft mouse model: a pilot study.",
+      "authors": [
+        "Michel R",
+        "Vincent KL",
+        "Kirschen GW",
+        "Motamedi M",
+        "Saada J",
+        "Yang J",
+        "Ozpolat B",
+        "Kilic GS",
+        "Borahay MA."
+      ],
+      "year": 2025,
+      "doi": "10.1080/01443615.2025.2502083",
+      "url": "https://europepmc.org/article/med/40340640",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "40340640"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "europe_pmc",
+      "id": "PPR1168441",
+      "title": "Longitudinal plasma proteomics along a menstrual cycle highlights the regulatory effect of sex hormones on inflammatory and cardiometabolic circuits.",
+      "authors": [
+        "Sanna S",
+        "Zhernakova D",
+        "Grosso F",
+        "Chillotti F",
+        "Busonero F",
+        "Camarda S",
+        "Viscito M",
+        "Lenarduzzi S",
+        "Incollu S",
+        "Vriz GB"
+      ],
+      "year": 2026,
+      "doi": "10.21203/rs.3.rs-9148671/v1",
+      "url": "https://europepmc.org/article/ppr/PPR1168441",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "europe_pmc"
+      ],
+      "source_ids": [
+        "PPR1168441"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.96,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.126,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.126,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.09626v1",
+      "title": "Regulation by Progestins, Corticosteroids and RU486 of Activation of Elephant Shark and Human Progesterone Receptors: An Evolutionary Perspec",
+      "authors": [
+        "Xiaozhi Lin",
+        "Wataru Takagi",
+        "Susumu Hyodo",
+        "Shigeho Ijiri",
+        "Yoshinao Katsu",
+        "Michael E. Baker"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.09626v1",
+      "abstract": "We investigated progestin and corticosteroid activation of the progesterone receptor (PR) from elephant shark (Callorhinchus milii), a cartilaginous fish belonging to the oldest group of jawed vertebrates. Comparison with human PR experiments provides insights into the evolution of steroid activation of human PR. At 1 nM steroid, elephant shark PR is activated by progesterone, 17-hydroxy-progesterone, 20beta-hydroxy-progesterone, 11-deoxycorticosterone (21-hydroxyprogesterone) and 11-deoxycortisol. At 1 nM steroid, human PR is activated only by progesterone and11-deoxycorticosterone indicating increased specificity for progestins and corticosteroids during the evolution of human PR. RU486, an important clinical antagonist of human PR, did not inhibit progesterone activation of elephant shark PR. Cys-528 in elephant shark PR corresponds to Gly-722 in human PR, which is essential for RU486 inhibition of human PR. Confirming the importance of this site on elephant shark PR, RU486 inhibited progesterone activation of the Cys528Gly mutant PR. There also was a decline in activation of elephant shark Cys528Gly PR by 11-deoxycortisol, 17-hydroxy-progesterone and 20beta-hydroxy-progesterone and an increase in activation of human Gly722Cys PR by 11-deoxycortisol and decreased activation by corticosterone. One or more of these changes may have selected for the mutation corresponding to human glycine-722 PR that first evolved in platypus PR, a basal mammal.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.09626v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2402.09476v1",
+      "title": "AI-Enabled Lung Cancer Prognosis",
+      "authors": [
+        "Mahtab Darvish",
+        "Ryan Trask",
+        "Patrick Tallon",
+        "Mélina Khansari",
+        "Lei Ren",
+        "Michelle Hershman",
+        "Bardia Yousefi"
+      ],
+      "year": 2024,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2402.09476v1",
+      "abstract": "Lung cancer is the primary cause of cancer-related mortality, claiming approximately 1.79 million lives globally in 2020, with an estimated 2.21 million new cases diagnosed within the same period. Among these, Non-Small Cell Lung Cancer (NSCLC) is the predominant subtype, characterized by a notably bleak prognosis and low overall survival rate of approximately 25% over five years across all disease stages. However, survival outcomes vary considerably based on the stage at diagnosis and the therapeutic interventions administered. Recent advancements in artificial intelligence (AI) have revolutionized the landscape of lung cancer prognosis. AI-driven methodologies, including machine learning and deep learning algorithms, have shown promise in enhancing survival prediction accuracy by efficiently analyzing complex multi-omics data and integrating diverse clinical variables. By leveraging AI techniques, clinicians can harness comprehensive prognostic insights to tailor personalized treatment strategies, ultimately improving patient outcomes in NSCLC. Overviewing AI-driven data processing can significantly help bolster the understanding and provide better directions for using such systems.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2402.09476v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1306.2584v2",
+      "title": "Multi-cancer molecular signatures and their interrelationships",
+      "authors": [
+        "Wei-Yi Cheng",
+        "Tai-Hsien Ou Yang",
+        "Hui Shen",
+        "Peter W. Laird",
+        "Dimitris Anastassiou",
+        "the Cancer Genome Atlas Research Network"
+      ],
+      "year": 2013,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1306.2584v2",
+      "abstract": "Although cancer is known to be characterized by several unifying biological hallmarks, systems biology has had limited success in identifying molecular signatures present in in all types of cancer. The current availability of rich data sets from many different cancer types provides an opportunity for thorough computational data mining in search of such common patterns. Here we report the identification of 18 \"pan-cancer\" molecular signatures resulting from analysis of data sets containing values from mRNA expression, microRNA expression, DNA methylation, and protein activity, from twelve different cancer types. The membership of many of these signatures points to particular biological mechanisms related to cancer progression, suggesting that they represent important attributes of cancer in need of being elucidated for potential applications in diagnostic, prognostic and therapeutic products applicable to multiple cancer types.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1306.2584v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2312.08479v2",
+      "title": "Vision Transformer-Based Deep Learning for Histologic Classification of Endometrial Cancer",
+      "authors": [
+        "Manu Goyal",
+        "Laura J. Tafe",
+        "James X. Feng",
+        "Kristen E. Muller",
+        "Liesbeth Hondelink",
+        "Jessica L. Bentz",
+        "Saeed Hassanpour"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2312.08479v2",
+      "abstract": "Endometrial cancer, the fourth most common cancer in females in the United States, with the lifetime risk for developing this disease is approximately 2.8% in women. Precise histologic evaluation and molecular classification of endometrial cancer is important for effective patient management and determining the best treatment modalities. This study introduces EndoNet, which uses convolutional neural networks for extracting histologic features and a vision transformer for aggregating these features and classifying slides based on their visual characteristics into high- and low- grade. The model was trained on 929 digitized hematoxylin and eosin-stained whole-slide images of endometrial cancer from hysterectomy cases at Dartmouth-Health. It classifies these slides into low-grade (Endometroid Grades 1 and 2) and high-grade (endometroid carcinoma FIGO grade 3, uterine serous carcinoma, carcinosarcoma) categories. EndoNet was evaluated on an internal test set of 110 patients and an external test set of 100 patients from the public TCGA database. The model achieved a weighted average F1-score of 0.91 (95% CI: 0.86-0.95) and an AUC of 0.95 (95% CI: 0.89-0.99) on the internal test, and 0.86 (95% CI: 0.80-0.94) for F1-score and 0.86 (95% CI: 0.75-0.93) for AUC on the external test. Pending further validation, EndoNet has the potential to support pathologists without the need of manual annotations in classifying the grades of gynecologic pathology tumors.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2312.08479v2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.11935v1",
+      "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data",
+      "authors": [
+        "Michal Kazmierski",
+        "Mattea Welch",
+        "Sejin Kim",
+        "Chris McIntosh",
+        "Princess Margaret Head",
+        "Neck Cancer Group",
+        "Katrina Rey-McIntyre",
+        "Shao Hui Huang",
+        "Tirth Patel",
+        "Tony Tadic",
+        "Michael Milosevic",
+        "Fei-Fei Liu",
+        "Andrew Hope",
+        "Scott Bratman",
+        "Benjamin Haibe-Kains"
+      ],
+      "year": 2021,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2101.11935v1",
+      "abstract": "Accurate prognosis for an individual patient is a key component of precision oncology. Recent advances in machine learning have enabled the development of models using a wider range of data, including imaging. Radiomics aims to extract quantitative predictive and prognostic biomarkers from routine medical imaging, but evidence for computed tomography radiomics for prognosis remains inconclusive. We have conducted an institutional machine learning challenge to develop an accurate model for overall survival prediction in head and neck cancer using clinical data etxracted from electronic medical records and pre-treatment radiological images, as well as to evaluate the true added benefit of radiomics for head and neck cancer prognosis. Using a large, retrospective dataset of 2,552 patients and a rigorous evaluation framework, we compared 12 different submissions using imaging and clinical data, separately or in combination. The winning approach used non-linear, multitask learning on clinical data and tumour volume, achieving high prognostic accuracy for 2-year and lifetime survival prediction and outperforming models relying on clinical data only, engineered radiomics and deep learning. Combining all submissions in an ensemble model resulted in improved accuracy, with the highest gain from a image-based deep learning model. Our results show the potential of machine learning and simple, informative prognostic factors in combination with large datasets as a tool to guide personalized cancer care.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2101.11935v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1110.5865v1",
+      "title": "Cancer Networks: A general theoretical and computational framework for understanding cancer",
+      "authors": [
+        "Eric Werner"
+      ],
+      "year": 2011,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1110.5865v1",
+      "abstract": "We present a general computational theory of cancer and its developmental dynamics. The theory is based on a theory of the architecture and function of developmental control networks which guide the formation of multicellular organisms. Cancer networks are special cases of developmental control networks. Cancer results from transformations of normal developmental networks. Our theory generates a natural classification of all possible cancers based on their network architecture. Each cancer network has a unique topology and semantics and developmental dynamics that result in distinct clinical tumor phenotypes. We apply this new theory with a series of proof of concept cases for all the basic cancer types. These cases have been computationally modeled, their behavior simulated and mathematically described using a multicellular systems biology approach. There are fascinating correspondences between the dynamic developmental phenotype of computationally modeled {\\em in silico} cancers and natural {\\em in vivo} cancers. The theory lays the foundation for a new research paradigm for understanding and investigating cancer. The theory of cancer networks implies that new diagnostic methods and new treatments to cure cancer will become possible.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1110.5865v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "2305.10041v1",
+      "title": "Risk Assessment of Lymph Node Metastases in Endometrial Cancer Patients: A Causal Approach",
+      "authors": [
+        "Alessio Zanga",
+        "Alice Bernasconi",
+        "Peter J. F. Lucas",
+        "Hanny Pijnenborg",
+        "Casper Reijnen",
+        "Marco Scutari",
+        "Fabio Stella"
+      ],
+      "year": 2023,
+      "doi": "",
+      "url": "http://arxiv.org/abs/2305.10041v1",
+      "abstract": "Assessing the pre-operative risk of lymph node metastases in endometrial cancer patients is a complex and challenging task. In principle, machine learning and deep learning models are flexible and expressive enough to capture the dynamics of clinical risk assessment. However, in this setting we are limited to observational data with quality issues, missing values, small sample size and high dimensionality: we cannot reliably learn such models from limited observational data with these sources of bias. Instead, we choose to learn a causal Bayesian network to mitigate the issues above and to leverage the prior knowledge on endometrial cancer available from clinicians and physicians. We introduce a causal discovery algorithm for causal Bayesian networks based on bootstrap resampling, as opposed to the single imputation used in related works. Moreover, we include a context variable to evaluate whether selection bias results in learning spurious associations. Finally, we discuss the strengths and limitations of our findings in light of the presence of missing data that may be missing-not-at-random, which is common in real-world clinical settings.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "2305.10041v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "arxiv",
+      "id": "1906.07794v1",
+      "title": "Convolutional neural network models for cancer type prediction based on gene expression",
+      "authors": [
+        "Milad Mostavi",
+        "Yu-Chiao Chiu",
+        "Yufei Huang",
+        "Yidong Chen"
+      ],
+      "year": 2019,
+      "doi": "",
+      "url": "http://arxiv.org/abs/1906.07794v1",
+      "abstract": "Background Precise prediction of cancer types is vital for cancer diagnosis and therapy. Important cancer marker genes can be inferred through predictive model. Several studies have attempted to build machine learning models for this task however none has taken into consideration the effects of tissue of origin that can potentially bias the identification of cancer markers. Results In this paper, we introduced several Convolutional Neural Network (CNN) models that take unstructured gene expression inputs to classify tumor and non-tumor samples into their designated cancer types or as normal. Based on different designs of gene embeddings and convolution schemes, we implemented three CNN models: 1D-CNN, 2D-Vanilla-CNN, and 2D-Hybrid-CNN. The models were trained and tested on combined 10,340 samples of 33 cancer types and 731 matched normal tissues of The Cancer Genome Atlas (TCGA). Our models achieved excellent prediction accuracies (93.9-95.0%) among 34 classes (33 cancers and normal). Furthermore, we interpreted one of the models, known as 1D-CNN model, with a guided saliency technique and identified a total of 2,090 cancer markers (108 per class). The concordance of differential expression of these markers between the cancer type they represent and others is confirmed. In breast cancer, for instance, our model identified well-known markers, such as GATA3 and ESR1. Finally, we extended the 1D-CNN model for prediction of breast cancer subtypes and achieved an average accuracy of 88.42% among 5 subtypes. The codes can be found at https://github.com/chenlabgccri/CancerTypePrediction.",
+      "citations": 0,
+      "source_hits": [
+        "arxiv"
+      ],
+      "source_ids": [
+        "1906.07794v1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.82,
+      "metadata_bonus": 0.04,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.11995v0.2/reviews/1",
+      "title": "Peer Review #1 of \"The modulatory properties of Astragalus membranaceus treatment on endometrial cancer: an integrated pharmacological method (v0.2)\"",
+      "authors": [],
+      "year": 2021,
+      "doi": "10.7287/peerj.11995v0.2/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.11995v0.2/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.11995v0.2/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.11995v0.2/reviews/2",
+      "title": "Peer Review #2 of \"The modulatory properties of Astragalus membranaceus treatment on endometrial cancer: an integrated pharmacological method (v0.2)\"",
+      "authors": [],
+      "year": 2021,
+      "doi": "10.7287/peerj.11995v0.2/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.11995v0.2/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.11995v0.2/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.11995v0.1/reviews/3",
+      "title": "Peer Review #3 of \"The modulatory properties of Astragalus membranaceus treatment on endometrial cancer: an integrated pharmacological method (v0.1)\"",
+      "authors": [],
+      "year": 2021,
+      "doi": "10.7287/peerj.11995v0.1/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.11995v0.1/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.11995v0.1/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.11995v0.2/reviews/3",
+      "title": "Peer Review #3 of \"The modulatory properties of Astragalus membranaceus treatment on endometrial cancer: an integrated pharmacological method (v0.2)\"",
+      "authors": [],
+      "year": 2021,
+      "doi": "10.7287/peerj.11995v0.2/reviews/3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.11995v0.2/reviews/3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.11995v0.2/reviews/3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.11995v0.1/reviews/1",
+      "title": "Peer Review #1 of \"The modulatory properties of Astragalus membranaceus treatment on endometrial cancer: an integrated pharmacological method (v0.1)\"",
+      "authors": [],
+      "year": 2021,
+      "doi": "10.7287/peerj.11995v0.1/reviews/1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.11995v0.1/reviews/1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.11995v0.1/reviews/1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7287/peerj.11995v0.1/reviews/2",
+      "title": "Peer Review #2 of \"The modulatory properties of Astragalus membranaceus treatment on endometrial cancer: an integrated pharmacological method (v0.1)\"",
+      "authors": [],
+      "year": 2021,
+      "doi": "10.7287/peerj.11995v0.1/reviews/2",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7287/peerj.11995v0.1/reviews/2",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7287/peerj.11995v0.1/reviews/2"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.10433/fig-3",
+      "title": "Figure 3: Comparison of protein expression of DLGAP5 in normal endometrial tissues and endometrial cancer tissues.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.10433/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.10433/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.10433/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.2374/table-1",
+      "title": "Table 1: Characteristics of the women with endometrial hyperplasia or endometrial cancer from 2009 to 2012.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.2374/table-1",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.2374/table-1",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.2374/table-1"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.17558/table-5",
+      "title": "Table 5: Sensitivity analysis limited to those who did not underwent pre-stroke statin treatment.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.17558/table-5",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.17558/table-5",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.17558/table-5"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    },
+    {
+      "source": "f1000research",
+      "id": "10.7717/peerj.20409/fig-3",
+      "title": "Figure 3: MRS2 drives endometrial cancer malignancy.",
+      "authors": [],
+      "year": 0,
+      "doi": "10.7717/peerj.20409/fig-3",
+      "journal": "F1000Research",
+      "url": "https://doi.org/10.7717/peerj.20409/fig-3",
+      "abstract": "",
+      "citations": 0,
+      "source_hits": [
+        "f1000research"
+      ],
+      "source_ids": [
+        "10.7717/peerj.20409/fig-3"
+      ],
+      "claim_overlap": 0.0,
+      "hypothesis_overlap": 0.0,
+      "source_weight": 0.92,
+      "metadata_bonus": 0.03,
+      "stage1_score": 0.122,
+      "stage2_score": 0.0,
+      "support_score": 0.0,
+      "contradiction_score": 0.0,
+      "best_support_sentence": "",
+      "best_contradict_sentence": "",
+      "hypothesis_sentence_overlap": 0.0,
+      "evidence_score": 0.122,
+      "evidence_label": "mention-only"
+    }
+  ]
+}
