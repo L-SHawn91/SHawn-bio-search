@@ -171,10 +171,61 @@ Citation verification confidence levels (verify_citation API):
     else:
         print(output)
 
+    # Search result report (always to stderr to avoid corrupting stdout/file output)
+    _print_result_report(args, results)
+
     # Auto-log to self-learning quality tracker (best-effort, never fails the CLI)
     _auto_log_search(args, results)
 
     return 0
+
+
+def _print_result_report(args: "argparse.Namespace", results: Any) -> None:
+    """Print a one-line search summary + any warnings to stderr."""
+    import sys as _sys
+    import os as _os
+    if _os.getenv("SBS_QUIET"):
+        return
+    try:
+        papers = getattr(results, "papers", None) or []
+        n = len(papers)
+        avg_ev = sum(p.get("evidence_score", 0.0) for p in papers) / n if n else 0.0
+
+        # triage model breakdown
+        triage_meta = (getattr(results, "data", {}) or {}).get("llm_triage", {})
+        counts: dict = triage_meta.get("counts", {}) if isinstance(triage_meta, dict) else {}
+        triage_str = " ".join(f"{m}×{c}" for m, c in counts.items()) if counts else "off"
+
+        # filters
+        filters = (getattr(results, "data", {}) or {}).get("filters_applied", {})
+        guard_rm = (filters or {}).get("topic_guard_removed", 0)
+        mev_rm   = (filters or {}).get("min_evidence_removed", 0)
+        filter_parts = []
+        if guard_rm:
+            filter_parts.append(f"topic_guard-{guard_rm}")
+        if mev_rm:
+            filter_parts.append(f"min_ev-{mev_rm}")
+        filter_str = " | ".join(filter_parts) if filter_parts else "none"
+
+        # embed
+        embed_used = any("embed_sim" in p for p in papers)
+        embed_str = "semantic+lexical" if embed_used else "lexical"
+
+        # output destination
+        dest = args.output if getattr(args, "output", None) else "stdout"
+
+        print(
+            f"[SBS] {n} papers | avg_ev={avg_ev:.3f} | scoring={embed_str} | "
+            f"triage={triage_str} | filters={filter_str} | out={dest}",
+            file=_sys.stderr,
+        )
+
+        # surface any search warnings
+        warnings = getattr(results, "warnings", []) or []
+        for w in warnings:
+            print(f"[SBS] warn: {w}", file=_sys.stderr)
+    except Exception:
+        pass  # report is optional
 
 
 def _auto_log_search(args: "argparse.Namespace", results: Any) -> None:

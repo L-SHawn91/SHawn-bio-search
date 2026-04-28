@@ -7,8 +7,19 @@ so existing scoring outputs do not shift.
 
 from __future__ import annotations
 
+import os
 import re
+import sys
 from typing import Any, Dict, FrozenSet, List, Set, Tuple
+
+_WARNED: Set[str] = set()
+
+
+def _warn_once(key: str, msg: str) -> None:
+    """Print a [SBS] warning to stderr once per process (suppressed by SBS_QUIET=1)."""
+    if key not in _WARNED and not os.getenv("SBS_QUIET"):
+        print(f"[SBS] {msg}", file=sys.stderr)
+        _WARNED.add(key)
 
 
 _TOKEN_RE = re.compile(r"[a-zA-Z0-9]{3,}")
@@ -105,4 +116,4 @@ def merge_unique_list(a: Any, b: Any) -> List[Any]:
     return out
 
 
-__all__ = ["tokenize", "overlap_ratio", "dedupe_key", "merge_unique_list"]
+__all__ = ["tokenize", "overlap_ratio", "dedupe_key", "merge_unique_list", "_warn_once"]

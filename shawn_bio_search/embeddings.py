@@ -20,6 +20,8 @@ import urllib.error
 import urllib.request
 from typing import List, Optional
 
+from .text_utils import _warn_once
+
 _DEFAULT_MODEL = "nomic-embed-text:latest"
 _DEFAULT_HOST  = "http://127.0.0.1:11434"
 _TIMEOUT       = float(os.getenv("SBS_EMBED_TIMEOUT", "8"))
@@ -71,10 +73,12 @@ def embed_texts(
                 data = json.loads(r.read())
             emb = data.get("embedding")
             if not emb:
+                _warn_once("embed_fail", f"{_model} unavailable → lexical scoring only (check Ollama or set SBS_EMBED_HOST)")
                 return None
             result.append(emb)
         return result
-    except Exception:
+    except Exception as _e:
+        _warn_once("embed_fail", f"{_model} unavailable → lexical scoring only ({str(_e)[:60]})")
         return None
 
 

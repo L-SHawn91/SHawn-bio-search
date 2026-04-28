@@ -14,7 +14,7 @@ import urllib.request
 from typing import Any, Dict, List, MutableMapping, Sequence, Tuple
 
 from .scoring import classify_evidence_label, _TOPIC_GUARD_GROUPS, _tokenize_set
-from .text_utils import overlap_ratio
+from .text_utils import overlap_ratio, _warn_once
 
 
 DEFAULT_FALLBACK_CHAIN = (
@@ -233,6 +233,11 @@ def _triage_one_with_chain(
     for model in chain:
         if model == "code":
             warning = "; ".join(errors[:2])
+            if errors:
+                _warn_once(
+                    "llm_code_fallback",
+                    f"LLM triage failed ({errors[0][:80]}) → code heuristic fallback",
+                )
             return code_triage_paper(paper, query, claim, hypothesis, warning=warning)
         if model in disabled_models:
             continue
@@ -271,6 +276,11 @@ def _triage_batch_with_chain(
     for model in chain:
         if model == "code":
             warning = "; ".join(errors[:2])
+            if errors:
+                _warn_once(
+                    "llm_batch_code_fallback",
+                    f"LLM batch triage failed ({errors[0][:80]}) → per-paper code fallback",
+                )
             return [code_triage_paper(p, query, claim, hypothesis, warning=warning) for p in papers]
         if model in disabled_models:
             continue
